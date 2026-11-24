@@ -6,6 +6,8 @@ export interface TraitBreakpoint {
   count: number;
   style: TraitStyle;
   effect: string;
+  /** Giá trị biến (@Tên@) trong mô tả Tộc/Hệ ở mốc này. */
+  variables: Record<string, number | null>;
 }
 
 export interface Trait {
@@ -32,7 +34,13 @@ export interface Champion {
   cost: number;
   traits: string[];
   stats: ChampionStats;
-  ability: { name: string; description: string; icon: string };
+  ability: {
+    name: string;
+    description: string;
+    icon: string;
+    /** Giá trị biến (@Tên@) trong mô tả theo chỉ số sao (index 1 = 1★, 2 = 2★, 3 = 3★). */
+    variables: Record<string, (number | null)[]>;
+  };
   icon: string;
 }
 
@@ -48,9 +56,12 @@ export interface Item {
 export interface SetData {
   setId: number;
   name: string;
+  nameEn: string | null;
   releaseDate: string | null;
   boardSize: { rows: number; cols: number };
   mechanic: string;
+  /** Bản vá & ngôn ngữ CommunityDragon đã dùng để sinh dữ liệu. */
+  source: { patch: string; lang: "vi_vn" | "en_us" };
   traits: Trait[];
   champions: Champion[];
   items: Item[];

@@ -1,0 +1,4500 @@
+{
+  "setId": 1,
+  "name": "Mùa 1",
+  "nameEn": "Set 1",
+  "releaseDate": "2019-06-26",
+  "boardSize": {
+    "rows": 3,
+    "cols": 7
+  },
+  "mechanic": "Mùa khởi đầu: vòng đi chợ, bàn cờ 3 hàng và hệ thống Tộc/Hệ nguyên bản.",
+  "source": {
+    "patch": "9.21",
+    "lang": "en_us"
+  },
+  "traits": [
+    {
+      "id": "Set1_Knight",
+      "name": "Knight",
+      "description": "All allies block a flat amount of damage from all sources.<br><br><expandRow>(@MinUnits@) @BlockAmount@ Damage Blocked</expandRow>",
+      "icon": "https://raw.communitydragon.org/9.21/game/assets/ux/traiticons/trait_icon_knight.png",
+      "breakpoints": [
+        {
+          "count": 2,
+          "style": "bronze",
+          "effect": "",
+          "variables": {
+            "BlockAmount": 15
+          }
+        },
+        {
+          "count": 4,
+          "style": "silver",
+          "effect": "",
+          "variables": {
+            "BlockAmount": 30
+          }
+        },
+        {
+          "count": 6,
+          "style": "gold",
+          "effect": "",
+          "variables": {
+            "BlockAmount": 60
+          }
+        }
+      ]
+    },
+    {
+      "id": "Set1_Sorcerer",
+      "name": "Sorcerer",
+      "description": "Innate: Sorcerers gain double Mana from Basic Attacks.<br><br>All allies have increased Spell Power.<br><br><expandRow>(@MinUnits@) +@AP@% Spell Power</expandRow><br>",
+      "icon": "https://raw.communitydragon.org/9.21/game/assets/ux/traiticons/trait_icon_sorcerer.png",
+      "breakpoints": [
+        {
+          "count": 3,
+          "style": "bronze",
+          "effect": "",
+          "variables": {
+            "AP": 40
+          }
+        },
+        {
+          "count": 6,
+          "style": "silver",
+          "effect": "",
+          "variables": {
+            "AP": 120
+          }
+        },
+        {
+          "count": 9,
+          "style": "gold",
+          "effect": "",
+          "variables": {
+            "AP": 200
+          }
+        }
+      ]
+    },
+    {
+      "id": "Set1_Gunslinger",
+      "name": "Gunslinger",
+      "description": "Gunslinger Basic Attacks have a @ProcPercent@%  chance to fire additional bullets at other enemies within range.<br><br>These bullets deal damage like Basic Attacks and apply on-hit effects.<br><br><row>(@MinUnits@) Attack @ExtraTargetsHit@ extra enemies</row><br><row>(@MinUnits@) Attack @ExtraTargetsHit@ extra enemies</row><br><row>(@MinUnits@) Attack @ExtraTargetsHit@ extra enemies</row>",
+      "icon": "https://raw.communitydragon.org/9.21/game/assets/ux/traiticons/trait_icon_gunslinger.png",
+      "breakpoints": [
+        {
+          "count": 2,
+          "style": "bronze",
+          "effect": "",
+          "variables": {
+            "{6003afce}": 50,
+            "{df26ec52}": 1,
+            "{f768e185}": 1
+          }
+        },
+        {
+          "count": 4,
+          "style": "silver",
+          "effect": "",
+          "variables": {
+            "{6003afce}": 50,
+            "{df26ec52}": 2,
+            "{f768e185}": 2
+          }
+        },
+        {
+          "count": 6,
+          "style": "gold",
+          "effect": "",
+          "variables": {
+            "{6003afce}": 50,
+            "{df26ec52}": 4,
+            "{f768e185}": 3
+          }
+        }
+      ]
+    },
+    {
+      "id": "Set1_Glacial",
+      "name": "Glacial",
+      "description": "Basic Attacks from Glacials have a chance to stun their target for @StunDuration@ seconds.<br><br><expandRow>(@MinUnits@) @ProcPercent@% Chance to Stun</expandRow><br>",
+      "icon": "https://raw.communitydragon.org/9.21/game/assets/ux/traiticons/trait_icon_glacial.png",
+      "breakpoints": [
+        {
+          "count": 2,
+          "style": "bronze",
+          "effect": "",
+          "variables": {
+            "StunDuration": 1.5,
+            "{6003afce}": 20
+          }
+        },
+        {
+          "count": 4,
+          "style": "silver",
+          "effect": "",
+          "variables": {
+            "StunDuration": 1.5,
+            "{6003afce}": 33
+          }
+        },
+        {
+          "count": 6,
+          "style": "gold",
+          "effect": "",
+          "variables": {
+            "StunDuration": 1.5,
+            "{6003afce}": 50
+          }
+        }
+      ]
+    },
+    {
+      "id": "Set1_Brawler",
+      "name": "Brawler",
+      "description": "Brawlers gain bonus Maximum Health.<br><br><expandRow>(@MinUnits@) @BonusHealth@ Bonus Health</expandRow><br>",
+      "icon": "https://raw.communitydragon.org/9.21/game/assets/ux/traiticons/trait_icon_brawler.png",
+      "breakpoints": [
+        {
+          "count": 2,
+          "style": "bronze",
+          "effect": "",
+          "variables": {
+            "BonusHealth": 250
+          }
+        },
+        {
+          "count": 4,
+          "style": "silver",
+          "effect": "",
+          "variables": {
+            "BonusHealth": 500
+          }
+        },
+        {
+          "count": 6,
+          "style": "gold",
+          "effect": "",
+          "variables": {
+            "BonusHealth": 900
+          }
+        }
+      ]
+    },
+    {
+      "id": "Set1_Ninja",
+      "name": "Ninja",
+      "description": "Ninjas gain bonus Attack Damage and Spell Power.<br><br>This trait is only active when you have exactly 1 or 4 unique Ninjas.<br><br><row>(@MinUnits@) Ninja gains +@ADValue@ Attack Damage & +@APValue@% Spell Power</row><br><row>(@MinUnits@) All Ninjas gain +@ADValue@ Attack Damage & +@APValue@% Spell Power</row>",
+      "icon": "https://raw.communitydragon.org/9.21/game/assets/ux/traiticons/trait_icon_ninja.png",
+      "breakpoints": [
+        {
+          "count": 1,
+          "style": "bronze",
+          "effect": "",
+          "variables": {
+            "{5eb5fde9}": 50,
+            "{fa127f0d}": 50
+          }
+        },
+        {
+          "count": 4,
+          "style": "silver",
+          "effect": "",
+          "variables": {
+            "{5eb5fde9}": 80,
+            "{fa127f0d}": 80
+          }
+        }
+      ]
+    },
+    {
+      "id": "Set1_Hextech",
+      "name": "Hextech",
+      "description": "At the start of combat, an ally Hextech launches and detonates a pulse bomb, temporarily disabling nearby enemy items for @DisableDuration@ seconds.<br><br><row>(@MinUnits@) @HexSize@ Hex Radius</row><br><row>(@MinUnits@) @HexSize@ Hex Radius</row>",
+      "icon": "https://raw.communitydragon.org/9.21/game/assets/ux/traiticons/trait_icon_hextech.png",
+      "breakpoints": [
+        {
+          "count": 2,
+          "style": "bronze",
+          "effect": "",
+          "variables": {
+            "{2bd7dcb7}": 5,
+            "{a004f927}": 1.25,
+            "{fb0b4533}": 1
+          }
+        },
+        {
+          "count": 4,
+          "style": "silver",
+          "effect": "",
+          "variables": {
+            "{2bd7dcb7}": 5,
+            "{a004f927}": 1.25,
+            "{fb0b4533}": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "Set1_Guardian",
+      "name": "Guardian",
+      "description": "<row>(@MinUnits@) At the start of combat, Guardians grant +@Armor@ Armor to adjacent allies (this bonus can stack any number of times)</row>",
+      "icon": "https://raw.communitydragon.org/9.21/game/assets/ux/traiticons/trait_icon_guardian.png",
+      "breakpoints": [
+        {
+          "count": 2,
+          "style": "bronze",
+          "effect": "",
+          "variables": {
+            "Armor": 40
+          }
+        }
+      ]
+    },
+    {
+      "id": "Set1_Demon",
+      "name": "Demon",
+      "description": "Basic Attacks from Demons have a @ManaDrainProcChance@% chance to reduce their target's Mana by @ManaDrainBurn@ and restore Mana to the Demon.<br><br><expandRow>(@MinUnits@) @ManaDrainDrain@ Mana restored</expandRow><br>",
+      "icon": "https://raw.communitydragon.org/9.21/game/assets/ux/traiticons/trait_icon_demon.png",
+      "breakpoints": [
+        {
+          "count": 2,
+          "style": "bronze",
+          "effect": "",
+          "variables": {
+            "{0ebb5365}": 20,
+            "{1a14aa8a}": 15,
+            "{35bb0e0c}": 40
+          }
+        },
+        {
+          "count": 4,
+          "style": "silver",
+          "effect": "",
+          "variables": {
+            "{0ebb5365}": 20,
+            "{1a14aa8a}": 30,
+            "{35bb0e0c}": 40
+          }
+        },
+        {
+          "count": 6,
+          "style": "gold",
+          "effect": "",
+          "variables": {
+            "{0ebb5365}": 20,
+            "{1a14aa8a}": 45,
+            "{35bb0e0c}": 40
+          }
+        }
+      ]
+    },
+    {
+      "id": "Set1_Noble",
+      "name": "Noble",
+      "description": "At the start of combat, select allies gain +@Armor@ Armor, +@MagicResist@ Magic Resistance, and heal @Heal@ Health on-hit.<br><br><row>(@MinUnits@) 1 Random Ally</row><br><row>(@MinUnits@) All Allies</row>",
+      "icon": "https://raw.communitydragon.org/9.21/game/assets/ux/traiticons/trait_icon_noble.png",
+      "breakpoints": [
+        {
+          "count": 3,
+          "style": "bronze",
+          "effect": "",
+          "variables": {
+            "Armor": 50,
+            "Heal": 30,
+            "MagicResist": 50
+          }
+        },
+        {
+          "count": 6,
+          "style": "silver",
+          "effect": "",
+          "variables": {
+            "Armor": 50,
+            "Heal": 30,
+            "MagicResist": 50
+          }
+        }
+      ]
+    },
+    {
+      "id": "Set1_Ranger",
+      "name": "Ranger",
+      "description": "Every @ProcRate@ seconds, Rangers have a chance to double their Attack Speed for @ProcRate@ seconds. <br><br><expandRow>(@MinUnits@) @ProcPercent@% Chance to Double Attack Speed</expandRow><br>",
+      "icon": "https://raw.communitydragon.org/9.21/game/assets/ux/traiticons/trait_icon_ranger.png",
+      "breakpoints": [
+        {
+          "count": 2,
+          "style": "bronze",
+          "effect": "",
+          "variables": {
+            "ASMultiplier": 2,
+            "{1b812333}": 3,
+            "{6003afce}": 40
+          }
+        },
+        {
+          "count": 4,
+          "style": "silver",
+          "effect": "",
+          "variables": {
+            "ASMultiplier": 2,
+            "{1b812333}": 3,
+            "{6003afce}": 70
+          }
+        }
+      ]
+    },
+    {
+      "id": "Set1_Exile",
+      "name": "Exile",
+      "description": "<row>(@MinUnits@) If an Exile has no adjacent allies at the start of combat, they gain a shield equal to @ShieldPercent@% of their maximum Health</row>",
+      "icon": "https://raw.communitydragon.org/9.21/game/assets/ux/traiticons/trait_icon_exile.png",
+      "breakpoints": [
+        {
+          "count": 1,
+          "style": "unique",
+          "effect": "",
+          "variables": {
+            "ShieldPercent": 100
+          }
+        }
+      ]
+    },
+    {
+      "id": "Set1_Pirate",
+      "name": "Pirate",
+      "description": "<row>(@MinUnits@) At the end of each combat against another player, a treasure chest spawns on your arena containing up to 4 gold</row>",
+      "icon": "https://raw.communitydragon.org/9.21/game/assets/ux/traiticons/trait_icon_pirate.png",
+      "breakpoints": [
+        {
+          "count": 3,
+          "style": "bronze",
+          "effect": "",
+          "variables": {}
+        }
+      ]
+    },
+    {
+      "id": "Set1_Assassin",
+      "name": "Assassin",
+      "description": "Innate: At the start of combat, Assassins leap to the farthest enemy.<br><br>Assassins gain bonus Critical Strike Damage and Chance.<br><br><expandRow>(@MinUnits@) +@CritAmpPercent@% Critical Strike Damage & +@CritChanceAmpPercent@% Critical Strike Chance</expandRow><br>",
+      "icon": "https://raw.communitydragon.org/9.21/game/assets/ux/traiticons/trait_icon_assassin.png",
+      "breakpoints": [
+        {
+          "count": 3,
+          "style": "bronze",
+          "effect": "",
+          "variables": {
+            "{268f634e}": 75,
+            "{9f2eb1e2}": 5
+          }
+        },
+        {
+          "count": 6,
+          "style": "silver",
+          "effect": "",
+          "variables": {
+            "{268f634e}": 150,
+            "{9f2eb1e2}": 20
+          }
+        },
+        {
+          "count": 9,
+          "style": "gold",
+          "effect": "",
+          "variables": {
+            "{268f634e}": 225,
+            "{9f2eb1e2}": 30
+          }
+        }
+      ]
+    },
+    {
+      "id": "Set1_Imperial",
+      "name": "Imperial",
+      "description": "At the start of combat, select Imperials are empowered to deal double damage.<br><br><row>(@MinUnits@) 1 Random Imperial</row><br><row>(@MinUnits@) All Imperials</row>",
+      "icon": "https://raw.communitydragon.org/9.21/game/assets/ux/traiticons/trait_icon_imperial.png",
+      "breakpoints": [
+        {
+          "count": 2,
+          "style": "bronze",
+          "effect": "",
+          "variables": {
+            "DamageMultiplier": 2
+          }
+        },
+        {
+          "count": 4,
+          "style": "silver",
+          "effect": "",
+          "variables": {
+            "DamageMultiplier": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "Set1_Elementalist",
+      "name": "Elementalist",
+      "description": "Innate: Elementalists gain double mana from Basic Attacks.<br><br><row>(@MinUnits@) At the start of combat, summon a Golem with 2200 Health to fight alongside your allies</row>",
+      "icon": "https://raw.communitydragon.org/9.21/game/assets/ux/traiticons/trait_icon_elementalist.png",
+      "breakpoints": [
+        {
+          "count": 3,
+          "style": "bronze",
+          "effect": "",
+          "variables": {
+            "HPMultiplier": "null",
+            "SizeCoefficient": "null",
+            "{558229df}": "null"
+          }
+        }
+      ]
+    },
+    {
+      "id": "Set1_Void",
+      "name": "Void",
+      "description": "Basic Attacks and Spells from select Void champions deal true damage.<br><br><row>(@MinUnits@) 1 Random Void champion</row><br><row>(@MinUnits@) All Void champions</row>",
+      "icon": "https://raw.communitydragon.org/9.21/game/assets/ux/traiticons/trait_icon_void.png",
+      "breakpoints": [
+        {
+          "count": 2,
+          "style": "bronze",
+          "effect": "",
+          "variables": {
+            "{2deb7544}": 100,
+            "{cb42693f}": 1
+          }
+        },
+        {
+          "count": 4,
+          "style": "silver",
+          "effect": "",
+          "variables": {
+            "{2deb7544}": 100,
+            "{cb42693f}": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "Set1_Dragon",
+      "name": "Dragon",
+      "description": "<row>(@MinUnits@) Dragons gain @MagicReduction@% resistance to Magic Damage</row>",
+      "icon": "https://raw.communitydragon.org/9.21/game/assets/ux/traiticons/trait_icon_dragon.png",
+      "breakpoints": [
+        {
+          "count": 2,
+          "style": "bronze",
+          "effect": "",
+          "variables": {
+            "MagicReduction": 75
+          }
+        }
+      ]
+    },
+    {
+      "id": "Set1_Robot",
+      "name": "Robot",
+      "description": "(@MinUnits@) Robots start combat at full Mana",
+      "icon": "https://raw.communitydragon.org/9.21/game/assets/ux/traiticons/trait_icon_robot.png",
+      "breakpoints": [
+        {
+          "count": 1,
+          "style": "unique",
+          "effect": "",
+          "variables": {}
+        }
+      ]
+    },
+    {
+      "id": "Set1_Yordle",
+      "name": "Yordle",
+      "description": "Yordles gain a chance to dodge enemy Basic Attacks.<br><br><expandRow>(@MinUnits@) @MissPercent@% Chance to Dodge</expandRow><br>",
+      "icon": "https://raw.communitydragon.org/9.21/game/assets/ux/traiticons/trait_icon_yordle.png",
+      "breakpoints": [
+        {
+          "count": 3,
+          "style": "bronze",
+          "effect": "",
+          "variables": {
+            "MissPercent": 30
+          }
+        },
+        {
+          "count": 6,
+          "style": "silver",
+          "effect": "",
+          "variables": {
+            "MissPercent": 60
+          }
+        },
+        {
+          "count": 9,
+          "style": "gold",
+          "effect": "",
+          "variables": {
+            "MissPercent": 90
+          }
+        }
+      ]
+    },
+    {
+      "id": "Set1_Phantom",
+      "name": "Phantom",
+      "description": "<row>(@MinUnits@) At the start of combat, a random enemy's Health is set to @HPToSet@</row>",
+      "icon": "https://raw.communitydragon.org/9.21/game/assets/ux/traiticons/trait_icon_phantom.png",
+      "breakpoints": [
+        {
+          "count": 2,
+          "style": "bronze",
+          "effect": "",
+          "variables": {
+            "{d05832ac}": 100
+          }
+        }
+      ]
+    },
+    {
+      "id": "Set1_Wild",
+      "name": "Wild",
+      "description": "Select allies' Basic Attacks are empowered to grant +@AttackSpeedPercent@% Bonus Attack Speed (stacks up to 5 times).<br><br><row>(@MinUnits@) Wild Allies Only</row><br><row>(@MinUnits@) All Allies, and allies' basic attacks cannot be dodged.</row>",
+      "icon": "https://raw.communitydragon.org/9.21/game/assets/ux/traiticons/trait_icon_wild.png",
+      "breakpoints": [
+        {
+          "count": 2,
+          "style": "bronze",
+          "effect": "",
+          "variables": {
+            "{a8ca7859}": 10
+          }
+        },
+        {
+          "count": 4,
+          "style": "silver",
+          "effect": "",
+          "variables": {
+            "{a8ca7859}": 10
+          }
+        }
+      ]
+    },
+    {
+      "id": "Set1_Blademaster",
+      "name": "Blademaster",
+      "description": "Blademaster Basic Attacks have a @ProcChance@% chance to trigger additional attacks against their target.<br><br>These additional attacks deal damage like Basic Attacks and trigger on-hit effects.<br><br><row>(@MinUnits@) One Additional Attack</row><br><row>(@MinUnits@) Two Additional Attacks</row><br><row>(@MinUnits@) Four Additional Attacks</row>",
+      "icon": "https://raw.communitydragon.org/9.21/game/assets/ux/traiticons/trait_icon_blademaster.png",
+      "breakpoints": [
+        {
+          "count": 3,
+          "style": "bronze",
+          "effect": "",
+          "variables": {
+            "ExtraAttacks": 1,
+            "{b4a90a5d}": 45
+          }
+        },
+        {
+          "count": 6,
+          "style": "silver",
+          "effect": "",
+          "variables": {
+            "ExtraAttacks": 2,
+            "{b4a90a5d}": 45
+          }
+        },
+        {
+          "count": 9,
+          "style": "gold",
+          "effect": "",
+          "variables": {
+            "ExtraAttacks": 4,
+            "{b4a90a5d}": 45
+          }
+        }
+      ]
+    },
+    {
+      "id": "Set1_Shapeshifter",
+      "name": "Shapeshifter",
+      "description": "Shapeshifters gain bonus Maximum Health when they transform.<br><br><expandRow>(@MinUnits@) @HPPercent@% Bonus Maximum Health</expandRow><br>",
+      "icon": "https://raw.communitydragon.org/9.21/game/assets/ux/traiticons/trait_icon_shapeshifter.png",
+      "breakpoints": [
+        {
+          "count": 3,
+          "style": "bronze",
+          "effect": "",
+          "variables": {
+            "HPPercent": 60
+          }
+        },
+        {
+          "count": 6,
+          "style": "silver",
+          "effect": "",
+          "variables": {
+            "HPPercent": 100
+          }
+        }
+      ]
+    }
+  ],
+  "champions": [
+    {
+      "id": "TFT1_Garen",
+      "name": "Garen",
+      "cost": 1,
+      "traits": [
+        "Set1_Noble",
+        "Set1_Knight"
+      ],
+      "stats": {
+        "hp": 600,
+        "mana": {
+          "initial": 0,
+          "max": 100
+        },
+        "armor": 40,
+        "mr": 20,
+        "ad": 50,
+        "as": 0.6,
+        "range": 1
+      },
+      "ability": {
+        "name": "Judgement",
+        "description": "Garen spins his sword for @SpinDuration@ seconds, becoming immune to magic damage and dealing @ModifiedDamage@ magic damage to nearby enemies over the duration.",
+        "icon": "https://raw.communitydragon.org/9.21/game/assets/characters/garen/hud/icons2d/garen_e1.png",
+        "variables": {
+          "SpinDuration": [
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4
+          ],
+          "ETotalTicks": [
+            9,
+            9,
+            9,
+            9,
+            9,
+            9,
+            9
+          ],
+          "DamagePerTick": [
+            15,
+            40,
+            65,
+            90,
+            115,
+            140,
+            165
+          ]
+        }
+      },
+      "icon": "https://raw.communitydragon.org/9.21/game/assets/ux/tft/championsplashes/tft_garen.png"
+    },
+    {
+      "id": "TFT1_Ashe",
+      "name": "Ashe",
+      "cost": 3,
+      "traits": [
+        "Set1_Glacial",
+        "Set1_Ranger"
+      ],
+      "stats": {
+        "hp": 550,
+        "mana": {
+          "initial": 0,
+          "max": 125
+        },
+        "armor": 20,
+        "mr": 20,
+        "ad": 65,
+        "as": 0.7,
+        "range": 4
+      },
+      "ability": {
+        "name": "Enchanted Crystal Arrow",
+        "description": "Ashe fires an arrow at the farthest enemy. It stops on the first target hit, dealing @ModifiedDamage@ magic damage and stunning them for @StunDurationPerSquare@ seconds per Hex traveled.",
+        "icon": "https://raw.communitydragon.org/9.21/game/assets/characters/ashe/hud/icons2d/ashe_r.png",
+        "variables": {
+          "Damage": [
+            0,
+            200,
+            400,
+            600,
+            800,
+            1000,
+            1200
+          ],
+          "StunDurationPerSquare": [
+            0.5,
+            1,
+            1.5,
+            2,
+            2.5,
+            3,
+            3.5
+          ]
+        }
+      },
+      "icon": "https://raw.communitydragon.org/9.21/game/assets/ux/tft/championsplashes/tft_ashe.png"
+    },
+    {
+      "id": "TFT1_Brand",
+      "name": "Brand",
+      "cost": 4,
+      "traits": [
+        "Set1_Demon",
+        "Set1_Elementalist"
+      ],
+      "stats": {
+        "hp": 700,
+        "mana": {
+          "initial": 50,
+          "max": 150
+        },
+        "armor": 25,
+        "mr": 20,
+        "ad": 60,
+        "as": 0.6,
+        "range": 3
+      },
+      "ability": {
+        "name": "Pyroclasm",
+        "description": "Brand launches a bouncing fireball at an enemy. This fireball will bounce to nearby enemies up to @MaxBounces@ times, dealing @ModifiedDamage@ magic damage each time it hits.",
+        "icon": "https://raw.communitydragon.org/9.21/game/assets/characters/brand/hud/icons2d/brandr.png",
+        "variables": {
+          "Damage": [
+            50,
+            250,
+            450,
+            650,
+            850,
+            1050,
+            1250
+          ],
+          "MaxBounces": [
+            4,
+            4,
+            6,
+            20,
+            20,
+            20,
+            20
+          ]
+        }
+      },
+      "icon": "https://raw.communitydragon.org/9.21/game/assets/ux/tft/championsplashes/tft_brand.png"
+    },
+    {
+      "id": "TFT1_Swain",
+      "name": "Swain",
+      "cost": 5,
+      "traits": [
+        "Set1_Imperial",
+        "Set1_Demon",
+        "Set1_Shapeshifter"
+      ],
+      "stats": {
+        "hp": 850,
+        "mana": {
+          "initial": 0,
+          "max": 100
+        },
+        "armor": 25,
+        "mr": 20,
+        "ad": 65,
+        "as": 0.65,
+        "range": 2
+      },
+      "ability": {
+        "name": "Demonflare",
+        "description": "Swain transforms into demon form for @TransformDuration@ seconds.<br><br>While in demon form, Swain drains health from nearby enemies, dealing @ModifiedDamage@ magic damage and healing himself for @ModifiedHeal@ over the duration for each enemy in range. At the end of the transformation, Swain sends out a Soul Flare, dealing @ModifiedSoulFlareDamage@ magic damage to all nearby enemies.",
+        "icon": "https://raw.communitydragon.org/9.21/game/assets/characters/swain/hud/icons2d/swain_r.png",
+        "variables": {
+          "TransformDuration": [
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6
+          ],
+          "DamagePerTick": [
+            0,
+            40,
+            80,
+            120,
+            160,
+            200,
+            240
+          ],
+          "HealPerTick": [
+            0,
+            30,
+            60,
+            90,
+            120,
+            150,
+            180
+          ],
+          "SoulFlareDamage": [
+            0,
+            300,
+            600,
+            900,
+            1200,
+            1500,
+            1800
+          ],
+          "HealthIncrease": [],
+          "TotalDamage": [
+            0,
+            480,
+            960,
+            1440,
+            1920,
+            2400,
+            2880
+          ],
+          "TotalHeal": [
+            0,
+            360,
+            720,
+            1080,
+            1440,
+            1800,
+            2160
+          ]
+        }
+      },
+      "icon": "https://raw.communitydragon.org/9.21/game/assets/ux/tft/championsplashes/tft_swain.png"
+    },
+    {
+      "id": "TFT1_Vayne",
+      "name": "Vayne",
+      "cost": 1,
+      "traits": [
+        "Set1_Noble",
+        "Set1_Ranger"
+      ],
+      "stats": {
+        "hp": 550,
+        "mana": {
+          "initial": 0,
+          "max": 0
+        },
+        "armor": 25,
+        "mr": 20,
+        "ad": 40,
+        "as": 0.7,
+        "range": 3
+      },
+      "ability": {
+        "name": "Silver Bolts",
+        "description": "Passive: Whenever Vayne Basic Attacks the same target 3 times, she deals @ModifiedDamage@ of her target's Maximum Health as true damage.",
+        "icon": "https://raw.communitydragon.org/9.21/game/assets/characters/vayne/hud/icons2d/vayne_silveredbolts.png",
+        "variables": {
+          "PercentDamage": [
+            0.04,
+            0.08,
+            0.12,
+            0.16,
+            0.2,
+            0.24,
+            0.28
+          ]
+        }
+      },
+      "icon": "https://raw.communitydragon.org/9.21/game/assets/ux/tft/championsplashes/tft_vayne.png"
+    },
+    {
+      "id": "TFT1_Aatrox",
+      "name": "Aatrox",
+      "cost": 3,
+      "traits": [
+        "Set1_Demon",
+        "Set1_Blademaster"
+      ],
+      "stats": {
+        "hp": 700,
+        "mana": {
+          "initial": 0,
+          "max": 75
+        },
+        "armor": 35,
+        "mr": 20,
+        "ad": 65,
+        "as": 0.65,
+        "range": 1
+      },
+      "ability": {
+        "name": "The Darkin Blade",
+        "description": "Aatrox cleaves the area in front of him, dealing @ModifiedDamage@ magic damage to all enemies within.",
+        "icon": "https://raw.communitydragon.org/9.21/game/assets/characters/aatrox/hud/icons2d/aatrox_q3.png",
+        "variables": {
+          "Damage": [
+            0,
+            300,
+            600,
+            900,
+            1200,
+            1500,
+            1800
+          ]
+        }
+      },
+      "icon": "https://raw.communitydragon.org/9.21/game/assets/ux/tft/championsplashes/tft_aatrox.png"
+    },
+    {
+      "id": "TFT1_Ahri",
+      "name": "Ahri",
+      "cost": 2,
+      "traits": [
+        "Set1_Wild",
+        "Set1_Sorcerer"
+      ],
+      "stats": {
+        "hp": 450,
+        "mana": {
+          "initial": 0,
+          "max": 75
+        },
+        "armor": 20,
+        "mr": 20,
+        "ad": 50,
+        "as": 0.55,
+        "range": 3
+      },
+      "ability": {
+        "name": "Orb of Deception",
+        "description": "Ahri fires an orb in a line, dealing @ModifiedDamage@ magic damage to all enemies it passes through.<br><br>It then returns to her, dealing @ModifiedDamage@ true damage to all enemies it passes through.",
+        "icon": "https://raw.communitydragon.org/9.21/game/assets/characters/ahri/hud/icons2d/ahri_orbofdeception.png",
+        "variables": {
+          "Damage": [
+            50,
+            100,
+            200,
+            300,
+            400,
+            500,
+            475
+          ],
+          "HexRange": [
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3
+          ]
+        }
+      },
+      "icon": "https://raw.communitydragon.org/9.21/game/assets/ux/tft/championsplashes/tft_ahri.png"
+    },
+    {
+      "id": "TFT1_Akali",
+      "name": "Akali",
+      "cost": 4,
+      "traits": [
+        "Set1_Ninja",
+        "Set1_Assassin"
+      ],
+      "stats": {
+        "hp": 650,
+        "mana": {
+          "initial": 0,
+          "max": 25
+        },
+        "armor": 20,
+        "mr": 20,
+        "ad": 80,
+        "as": 0.8,
+        "range": 1
+      },
+      "ability": {
+        "name": "Five Point Strike",
+        "description": "Akali throws kunai at her target, dealing 150 %i:scaleAP% magic damage.<br>There is a 25% %i:scaleCrit% chance that this spell will critically strike for 225 %i:scaleCritMult% magic damage instead.",
+        "icon": "https://raw.communitydragon.org/9.21/game/assets/characters/akali/hud/icons2d/akali_q.png",
+        "variables": {
+          "Damage": [
+            50,
+            200,
+            350,
+            500,
+            650,
+            800,
+            950
+          ],
+          "ConeDeg": [
+            30,
+            30,
+            30,
+            30,
+            30,
+            30,
+            30
+          ],
+          "HexRange": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ]
+        }
+      },
+      "icon": "https://raw.communitydragon.org/9.21/game/assets/ux/tft/championsplashes/tft_akali.png"
+    },
+    {
+      "id": "TFT1_Anivia",
+      "name": "Anivia",
+      "cost": 5,
+      "traits": [
+        "Set1_Glacial",
+        "Set1_Elementalist"
+      ],
+      "stats": {
+        "hp": 750,
+        "mana": {
+          "initial": 50,
+          "max": 125
+        },
+        "armor": 20,
+        "mr": 20,
+        "ad": 40,
+        "as": 0.8,
+        "range": 3
+      },
+      "ability": {
+        "name": "Glacial Storm",
+        "description": "Anivia creates a large hailstorm that lasts for @StormDuration@ seconds, dealing @ModifiedDamage@ magic damage over the duration and slowing the attack speed of all enemies inside of it by @AttackSpeedSlow@%.",
+        "icon": "https://raw.communitydragon.org/9.21/game/assets/characters/anivia/hud/icons2d/anivia_r.png",
+        "variables": {
+          "TotalDamage": [
+            500,
+            800,
+            1100,
+            1400,
+            1700,
+            2000,
+            2300
+          ],
+          "AttackSpeedSlow": [
+            30,
+            50,
+            70,
+            90,
+            110,
+            130,
+            150
+          ],
+          "StormDuration": [
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6
+          ]
+        }
+      },
+      "icon": "https://raw.communitydragon.org/9.21/game/assets/ux/tft/championsplashes/tft_anivia.png"
+    },
+    {
+      "id": "TFT1_AurelionSol",
+      "name": "Aurelion Sol",
+      "cost": 4,
+      "traits": [
+        "Set1_Dragon",
+        "Set1_Sorcerer"
+      ],
+      "stats": {
+        "hp": 650,
+        "mana": {
+          "initial": 0,
+          "max": 125
+        },
+        "armor": 20,
+        "mr": 20,
+        "ad": 40,
+        "as": 0.6,
+        "range": 3
+      },
+      "ability": {
+        "name": "Voice of Light",
+        "description": "Aurelion Sol breathes fire in a line, dealing @ModifiedDamage@ magic damage to all enemies in the area.",
+        "icon": "https://raw.communitydragon.org/9.21/game/assets/characters/aurelionsol/hud/icons2d/aurelionsol_r.png",
+        "variables": {
+          "Damage": [
+            50,
+            250,
+            500,
+            750,
+            1000,
+            1250,
+            1500
+          ],
+          "HexRange": [
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8
+          ]
+        }
+      },
+      "icon": "https://raw.communitydragon.org/9.21/game/assets/ux/tft/championsplashes/tft_aurelionsol.png"
+    },
+    {
+      "id": "TFT1_Blitzcrank",
+      "name": "Blitzcrank",
+      "cost": 2,
+      "traits": [
+        "Set1_Robot",
+        "Set1_Brawler"
+      ],
+      "stats": {
+        "hp": 650,
+        "mana": {
+          "initial": 0,
+          "max": 125
+        },
+        "armor": 35,
+        "mr": 20,
+        "ad": 50,
+        "as": 0.5,
+        "range": 1
+      },
+      "ability": {
+        "name": "Rocket Grab",
+        "description": "Blitzcrank pulls the furthest enemy to him, dealing @ModifiedDamage@ magic damage and stunning them for @StunDuration@ seconds.<br><br>His next attack after pulling knocks up for 1 second.<br><br>Allies within range will prioritize attacking Blitzcrank's target.",
+        "icon": "https://raw.communitydragon.org/9.21/game/assets/characters/blitzcrank/hud/icons2d/blitzcrank_rocketgrab.png",
+        "variables": {
+          "Damage": [
+            -50,
+            250,
+            550,
+            850,
+            1150,
+            1450,
+            1750
+          ],
+          "StunDuration": [
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5
+          ]
+        }
+      },
+      "icon": "https://raw.communitydragon.org/9.21/game/assets/ux/tft/championsplashes/tft_blitzcrank.png"
+    },
+    {
+      "id": "TFT1_Braum",
+      "name": "Braum",
+      "cost": 2,
+      "traits": [
+        "Set1_Glacial",
+        "Set1_Guardian"
+      ],
+      "stats": {
+        "hp": 650,
+        "mana": {
+          "initial": 0,
+          "max": 75
+        },
+        "armor": 75,
+        "mr": 20,
+        "ad": 40,
+        "as": 0.6,
+        "range": 1
+      },
+      "ability": {
+        "name": "Unbreakable",
+        "description": "Braum puts up his shield for @ShieldDuration@ seconds, absorbing and stopping all incoming missiles and reducing his damage taken from that direction by @ShieldDR@%.",
+        "icon": "https://raw.communitydragon.org/9.21/game/assets/characters/braum/hud/icons2d/braum_e.png",
+        "variables": {
+          "ShieldDR": [
+            60,
+            70,
+            80,
+            90,
+            100,
+            110,
+            120
+          ],
+          "ShieldDuration": [
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4
+          ]
+        }
+      },
+      "icon": "https://raw.communitydragon.org/9.21/game/assets/ux/tft/championsplashes/tft_braum.png"
+    },
+    {
+      "id": "TFT1_ChoGath",
+      "name": "Cho'Gath",
+      "cost": 4,
+      "traits": [
+        "Set1_Void",
+        "Set1_Brawler"
+      ],
+      "stats": {
+        "hp": 1000,
+        "mana": {
+          "initial": 50,
+          "max": 150
+        },
+        "armor": 20,
+        "mr": 20,
+        "ad": 70,
+        "as": 0.6,
+        "range": 1
+      },
+      "ability": {
+        "name": "Rupture",
+        "description": "Cho'Gath ruptures a large area, dealing @ModifiedDamage@ magic damage and knocking up all enemies within for @KnockDuration@ seconds.",
+        "icon": "https://raw.communitydragon.org/9.21/game/assets/characters/chogath/hud/icons2d/greenterror_spikeslam.png",
+        "variables": {
+          "Damage": [
+            0,
+            200,
+            400,
+            600,
+            800,
+            1000,
+            1200
+          ],
+          "KnockDuration": [
+            1.25,
+            1.5,
+            1.75,
+            2,
+            2.25,
+            2.5,
+            2.75
+          ],
+          "RuptureDelay": [
+            1.5,
+            1.5,
+            1.5,
+            1.5,
+            1.5,
+            1.5,
+            1.5
+          ]
+        }
+      },
+      "icon": "https://raw.communitydragon.org/9.21/game/assets/ux/tft/championsplashes/tft_chogath.png"
+    },
+    {
+      "id": "TFT1_Darius",
+      "name": "Darius",
+      "cost": 1,
+      "traits": [
+        "Set1_Imperial",
+        "Set1_Knight"
+      ],
+      "stats": {
+        "hp": 600,
+        "mana": {
+          "initial": 0,
+          "max": 100
+        },
+        "armor": 40,
+        "mr": 20,
+        "ad": 50,
+        "as": 0.5,
+        "range": 1
+      },
+      "ability": {
+        "name": "Decimate",
+        "description": "Darius swings his axe in a circle, dealing @ModifiedDamage@ magic damage and healing himself for @ModifiedHeal@ health for each enemy hit.",
+        "icon": "https://raw.communitydragon.org/9.21/game/assets/characters/darius/hud/icons2d/darius_icon_decimate.png",
+        "variables": {
+          "Damage": [
+            100,
+            150,
+            200,
+            250,
+            300,
+            350,
+            400
+          ],
+          "Heal": [
+            50,
+            100,
+            150,
+            200,
+            250,
+            300,
+            350
+          ],
+          "HexRange": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ]
+        }
+      },
+      "icon": "https://raw.communitydragon.org/9.21/game/assets/ux/tft/championsplashes/tft_darius.png"
+    },
+    {
+      "id": "TFT1_Draven",
+      "name": "Draven",
+      "cost": 4,
+      "traits": [
+        "Set1_Imperial",
+        "Set1_Blademaster"
+      ],
+      "stats": {
+        "hp": 650,
+        "mana": {
+          "initial": 0,
+          "max": 50
+        },
+        "armor": 25,
+        "mr": 20,
+        "ad": 65,
+        "as": 0.75,
+        "range": 3
+      },
+      "ability": {
+        "name": "Spinning Axes",
+        "description": "Draven starts spinning an axe, granting him 150% %i:scaleAD% bonus physical damage on-hit on his next attack.<br><br>It will return to his location after striking the target and if Draven catches it, it will refresh the buff.<br><br>Draven can spin up to two axes at a time.",
+        "icon": "https://raw.communitydragon.org/9.21/game/assets/characters/draven/hud/icons2d/draven_spinningaxe.png",
+        "variables": {
+          "BuffDuration": [
+            5.75,
+            5.75,
+            5.75,
+            5.75,
+            5.75,
+            5.75,
+            5.75
+          ],
+          "ADMult": [
+            1,
+            1.5,
+            2,
+            2.5,
+            3,
+            3.5,
+            4
+          ],
+          "ASBuff": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ]
+        }
+      },
+      "icon": "https://raw.communitydragon.org/9.21/game/assets/ux/tft/championsplashes/tft_draven.png"
+    },
+    {
+      "id": "TFT1_Elise",
+      "name": "Elise",
+      "cost": 1,
+      "traits": [
+        "Set1_Demon",
+        "Set1_Shapeshifter"
+      ],
+      "stats": {
+        "hp": 500,
+        "mana": {
+          "initial": 0,
+          "max": 100
+        },
+        "armor": 20,
+        "mr": 20,
+        "ad": 45,
+        "as": 0.6,
+        "range": 2
+      },
+      "ability": {
+        "name": "Spider Form",
+        "description": "Elise transforms into a giant spider and summons @NumSpiderlings@ spiderlings to fight alongside her.<br><br>While in spider form, Elise gains @LifestealPercent@ bonus lifesteal. Spiderlings benefit from active Demon trait bonuses.",
+        "icon": "https://raw.communitydragon.org/9.21/game/assets/characters/elise/hud/icons2d/eliser.png",
+        "variables": {
+          "NumSpiderlings": [
+            1,
+            1,
+            2,
+            4,
+            5,
+            6,
+            7
+          ],
+          "Lifesteal": [
+            0.3,
+            0.6,
+            0.9,
+            1.2,
+            1.5,
+            1.8,
+            2.1
+          ],
+          "SpiderFormDuration": [
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60
+          ]
+        }
+      },
+      "icon": "https://raw.communitydragon.org/9.21/game/assets/ux/tft/championsplashes/tft_elise.png"
+    },
+    {
+      "id": "TFT1_Evelynn",
+      "name": "Evelynn",
+      "cost": 3,
+      "traits": [
+        "Set1_Demon",
+        "Set1_Assassin"
+      ],
+      "stats": {
+        "hp": 550,
+        "mana": {
+          "initial": 0,
+          "max": 75
+        },
+        "armor": 20,
+        "mr": 20,
+        "ad": 70,
+        "as": 0.6,
+        "range": 1
+      },
+      "ability": {
+        "name": "Last Caress",
+        "description": "Evelynn deals @ModifiedDamage@ magic damage to up to 3 nearby enemies, then teleports away.<br><br>This damage is increased to @ModifiedCritDamage@ against targets below @ExecuteThreshholdPercent@ health.",
+        "icon": "https://raw.communitydragon.org/9.21/game/assets/characters/evelynn/hud/icons2d/evelynn_r.png",
+        "variables": {
+          "CritMultiplier": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "CritThreshold": [
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5
+          ],
+          "Damage": [
+            100,
+            200,
+            300,
+            400,
+            500,
+            600,
+            700
+          ],
+          "BlinkBackDistance": [
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3
+          ]
+        }
+      },
+      "icon": "https://raw.communitydragon.org/9.21/game/assets/ux/tft/championsplashes/tft_evelyn.png"
+    },
+    {
+      "id": "TFT1_Fiora",
+      "name": "Fiora",
+      "cost": 1,
+      "traits": [
+        "Set1_Noble",
+        "Set1_Blademaster"
+      ],
+      "stats": {
+        "hp": 450,
+        "mana": {
+          "initial": 0,
+          "max": 75
+        },
+        "armor": 25,
+        "mr": 20,
+        "ad": 40,
+        "as": 1,
+        "range": 1
+      },
+      "ability": {
+        "name": "Riposte",
+        "description": "Fiora enters a defensive stance for @BlockDuration@ seconds, becoming immune to damage and enemy spell effects. As she exits this stance, she ripostes, dealing @ModifiedDamage@ magic damage to a nearby enemy and stunning them for @StunDuration@ seconds.",
+        "icon": "https://raw.communitydragon.org/9.21/game/assets/characters/fiora/hud/icons2d/fiora_w.png",
+        "variables": {
+          "Damage": [
+            -50,
+            100,
+            250,
+            400,
+            550,
+            700,
+            850
+          ],
+          "StunDuration": [
+            1.5,
+            1.5,
+            1.5,
+            1.5,
+            1.5,
+            1.5,
+            1.5
+          ],
+          "BlockDuration": [
+            1.5,
+            1.5,
+            1.5,
+            1.5,
+            1.5,
+            1.5,
+            1.5
+          ]
+        }
+      },
+      "icon": "https://raw.communitydragon.org/9.21/game/assets/ux/tft/championsplashes/tft_fiora.png"
+    },
+    {
+      "id": "TFT1_Gangplank",
+      "name": "Gangplank",
+      "cost": 3,
+      "traits": [
+        "Set1_Pirate",
+        "Set1_Gunslinger",
+        "Set1_Blademaster"
+      ],
+      "stats": {
+        "hp": 700,
+        "mana": {
+          "initial": 0,
+          "max": 100
+        },
+        "armor": 20,
+        "mr": 20,
+        "ad": 60,
+        "as": 0.65,
+        "range": 1
+      },
+      "ability": {
+        "name": "Powder Kegs",
+        "description": "Passive: Gangplank periodically places barrels near enemies.<br><br>Active: Gangplank shoots his barrels, causing them all to explode, dealing @ModifiedDamage@ magic damage to nearby enemies and applying on-hit effects.",
+        "icon": "https://raw.communitydragon.org/9.21/game/assets/characters/gangplank/hud/icons2d/gangplank_e.png",
+        "variables": {
+          "Damage": [
+            50,
+            150,
+            250,
+            350,
+            450,
+            550,
+            650
+          ]
+        }
+      },
+      "icon": "https://raw.communitydragon.org/9.21/game/assets/ux/tft/championsplashes/tft_gangplank.png"
+    },
+    {
+      "id": "TFT1_Gnar",
+      "name": "Gnar",
+      "cost": 4,
+      "traits": [
+        "Set1_Wild",
+        "Set1_Yordle",
+        "Set1_Shapeshifter"
+      ],
+      "stats": {
+        "hp": 700,
+        "mana": {
+          "initial": 0,
+          "max": 100
+        },
+        "armor": 30,
+        "mr": 20,
+        "ad": 50,
+        "as": 0.7,
+        "range": 2
+      },
+      "ability": {
+        "name": "GNAR!",
+        "description": "Gnar leaps towards an enemy and transforms into Mega Gnar, throwing nearby enemies, dealing @ModifiedDamage@ magic damage and stunning them for @RCCDuration@ seconds.<br><br>While in Mega Gnar form, Gnar gains @TransformHealth@ Health and @TransformAD@ Attack Damage.",
+        "icon": "https://raw.communitydragon.org/9.21/game/assets/characters/gnar/hud/icons2d/gnartransform.png",
+        "variables": {
+          "Damage": [
+            100,
+            200,
+            300,
+            400,
+            500,
+            600,
+            700
+          ],
+          "RCCDuration": [
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2
+          ],
+          "RKnockbackDistance": [
+            500,
+            500,
+            500,
+            500,
+            500,
+            500,
+            500
+          ],
+          "TransformDuration": [
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60
+          ],
+          "TransformHealth": [
+            50,
+            250,
+            450,
+            650,
+            850,
+            1050,
+            1250
+          ],
+          "TransformAD": [
+            0,
+            50,
+            100,
+            150,
+            200,
+            250,
+            300
+          ]
+        }
+      },
+      "icon": "https://raw.communitydragon.org/9.21/game/assets/ux/tft/championsplashes/tft_gnar.png"
+    },
+    {
+      "id": "TFT1_Graves",
+      "name": "Graves",
+      "cost": 1,
+      "traits": [
+        "Set1_Pirate",
+        "Set1_Gunslinger"
+      ],
+      "stats": {
+        "hp": 450,
+        "mana": {
+          "initial": 0,
+          "max": 0
+        },
+        "armor": 30,
+        "mr": 20,
+        "ad": 55,
+        "as": 0.55,
+        "range": 1
+      },
+      "ability": {
+        "name": "Buckshot",
+        "description": "Passive: Graves' basic attacks deal 5% %i:scaleAD% bonus physical damage and hit all enemies in a cone in front of him. Graves applies on-hit effects to all enemies hit.",
+        "icon": "https://raw.communitydragon.org/9.21/game/assets/characters/graves/hud/icons2d/buckshotold.png",
+        "variables": {
+          "DamageMultiplier": [
+            0,
+            0.05,
+            0.1,
+            0.15,
+            0.2,
+            0.25,
+            0.3
+          ]
+        }
+      },
+      "icon": "https://raw.communitydragon.org/9.21/game/assets/ux/tft/championsplashes/tft_graves.png"
+    },
+    {
+      "id": "TFT1_Karthus",
+      "name": "Karthus",
+      "cost": 5,
+      "traits": [
+        "Set1_Phantom",
+        "Set1_Sorcerer"
+      ],
+      "stats": {
+        "hp": 850,
+        "mana": {
+          "initial": 40,
+          "max": 125
+        },
+        "armor": 25,
+        "mr": 20,
+        "ad": 65,
+        "as": 0.65,
+        "range": 3
+      },
+      "ability": {
+        "name": "Requiem",
+        "description": "Karthus channels for 2.25 seconds, then deals @ModifiedDamage@ magic damage to @NumberOfTargets@ random enemies.",
+        "icon": "https://raw.communitydragon.org/9.21/game/assets/characters/karthus/hud/icons2d/karthus_r.png",
+        "variables": {
+          "Damage": [
+            100,
+            350,
+            600,
+            850,
+            1100,
+            1350,
+            1600
+          ],
+          "NumberOfTargets": [
+            3,
+            5,
+            7,
+            9,
+            11,
+            13,
+            15
+          ]
+        }
+      },
+      "icon": "https://raw.communitydragon.org/9.21/game/assets/ux/tft/championsplashes/tft_karthus.png"
+    },
+    {
+      "id": "TFT1_Kassadin",
+      "name": "Kassadin",
+      "cost": 1,
+      "traits": [
+        "Set1_Void",
+        "Set1_Sorcerer"
+      ],
+      "stats": {
+        "hp": 550,
+        "mana": {
+          "initial": 0,
+          "max": 0
+        },
+        "armor": 35,
+        "mr": 20,
+        "ad": 40,
+        "as": 0.55,
+        "range": 1
+      },
+      "ability": {
+        "name": "Nether Blade",
+        "description": "Passive: Kassadin's basic attacks steal @ManaSteal@ mana from his target and grant him a @ModifiedShield@ damage shield for @ShieldDuration@ seconds.",
+        "icon": "https://raw.communitydragon.org/9.21/game/assets/characters/kassadin/hud/icons2d/kassadin_w.png",
+        "variables": {
+          "ShieldDuration": [
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4
+          ],
+          "ManaSteal": [
+            0,
+            25,
+            50,
+            75,
+            100,
+            125,
+            150
+          ]
+        }
+      },
+      "icon": "https://raw.communitydragon.org/9.21/game/assets/ux/tft/championsplashes/tft_kassadin.png"
+    },
+    {
+      "id": "TFT1_Katarina",
+      "name": "Katarina",
+      "cost": 3,
+      "traits": [
+        "Set1_Imperial",
+        "Set1_Assassin"
+      ],
+      "stats": {
+        "hp": 450,
+        "mana": {
+          "initial": 0,
+          "max": 85
+        },
+        "armor": 20,
+        "mr": 20,
+        "ad": 65,
+        "as": 0.65,
+        "range": 1
+      },
+      "ability": {
+        "name": "Death Lotus",
+        "description": "Katarina channels for @Duration@ seconds, throwing knives at @NumberOfTargets@ nearby enemies, dealing @ModifiedDamage@ magic damage over the duration and reducing healing by 80% to her targets for @GrievousWoundsDuration@ seconds.",
+        "icon": "https://raw.communitydragon.org/9.21/game/assets/characters/katarina/hud/icons2d/katarina_r.png",
+        "variables": {
+          "DamagePerTick": [
+            20,
+            45,
+            70,
+            95,
+            120,
+            145,
+            170
+          ],
+          "TicksPerSecond": [
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6
+          ],
+          "Duration": [
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5
+          ],
+          "GrievousWoundsDuration": [
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3
+          ],
+          "NumberOfTargets": [
+            2,
+            4,
+            6,
+            8,
+            10,
+            12,
+            14
+          ],
+          "TotalDamage": [
+            375,
+            750,
+            1125,
+            1500,
+            1875,
+            2250,
+            2625
+          ]
+        }
+      },
+      "icon": "https://raw.communitydragon.org/9.21/game/assets/ux/tft/championsplashes/tft_katarina.png"
+    },
+    {
+      "id": "TFT1_Kayle",
+      "name": "Kayle",
+      "cost": 5,
+      "traits": [
+        "Set1_Noble",
+        "Set1_Knight"
+      ],
+      "stats": {
+        "hp": 750,
+        "mana": {
+          "initial": 50,
+          "max": 125
+        },
+        "armor": 40,
+        "mr": 20,
+        "ad": 70,
+        "as": 1,
+        "range": 3
+      },
+      "ability": {
+        "name": "Divine Judgement",
+        "description": "Kayle shields her @Targets@ weakest allies, making them immune to all damage for @ShieldDuration@ seconds.",
+        "icon": "https://raw.communitydragon.org/9.21/game/assets/characters/kayle/hud/icons2d/kayle_r.png",
+        "variables": {
+          "ShieldDuration": [
+            1.5,
+            2,
+            2.5,
+            3,
+            3.5,
+            4,
+            4.5
+          ],
+          "Targets": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ]
+        }
+      },
+      "icon": "https://raw.communitydragon.org/9.21/game/assets/ux/tft/championsplashes/tft_kayle.png"
+    },
+    {
+      "id": "TFT1_Kennen",
+      "name": "Kennen",
+      "cost": 3,
+      "traits": [
+        "Set1_Ninja",
+        "Set1_Yordle",
+        "Set1_Elementalist"
+      ],
+      "stats": {
+        "hp": 550,
+        "mana": {
+          "initial": 50,
+          "max": 150
+        },
+        "armor": 20,
+        "mr": 20,
+        "ad": 65,
+        "as": 0.65,
+        "range": 2
+      },
+      "ability": {
+        "name": "Slicing Maelstrom",
+        "description": "Kennen summons a storm around himself for @Duration@ seconds, calling down lightning bolts on all enemies in the area every @TickRate@ second and dealing @ModifiedDamage@ magic damage over the duration. Each enemy struck by 3 lightning bolts is stunned for @StunDuration@ seconds.",
+        "icon": "https://raw.communitydragon.org/9.21/game/assets/characters/kennen/hud/icons2d/kennen_r.png",
+        "variables": {
+          "TickRate": [
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5
+          ],
+          "Duration": [
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3
+          ],
+          "Damage": [
+            0,
+            225,
+            450,
+            675,
+            900,
+            1125,
+            1350
+          ],
+          "StunDuration": [
+            1.5,
+            1.5,
+            1.5,
+            1.5,
+            1.5,
+            1.5,
+            1.5
+          ]
+        }
+      },
+      "icon": "https://raw.communitydragon.org/9.21/game/assets/ux/tft/championsplashes/tft_kennen.png"
+    },
+    {
+      "id": "TFT1_KhaZix",
+      "name": "Kha'Zix",
+      "cost": 1,
+      "traits": [
+        "Set1_Void",
+        "Set1_Assassin"
+      ],
+      "stats": {
+        "hp": 500,
+        "mana": {
+          "initial": 0,
+          "max": 65
+        },
+        "armor": 20,
+        "mr": 20,
+        "ad": 55,
+        "as": 0.6,
+        "range": 1
+      },
+      "ability": {
+        "name": "Taste their Fear",
+        "description": "Kha'Zix slashes the nearest enemy, dealing @ModifiedDamage@ magic damage. If the enemy has no adjacent teammates, this damage is increased to @ModifiedIsolationDamage@.",
+        "icon": "https://raw.communitydragon.org/9.21/game/assets/characters/khazix/hud/icons2d/khazix_q.png",
+        "variables": {
+          "Damage": [
+            50,
+            150,
+            250,
+            350,
+            450,
+            550,
+            650
+          ],
+          "IsolationDamage": [
+            200,
+            400,
+            600,
+            800,
+            1000,
+            1200,
+            1400
+          ]
+        }
+      },
+      "icon": "https://raw.communitydragon.org/9.21/game/assets/ux/tft/championsplashes/tft_khazix.png"
+    },
+    {
+      "id": "TFT1_Kindred",
+      "name": "Kindred",
+      "cost": 4,
+      "traits": [
+        "Set1_Phantom",
+        "Set1_Ranger"
+      ],
+      "stats": {
+        "hp": 600,
+        "mana": {
+          "initial": 50,
+          "max": 150
+        },
+        "armor": 20,
+        "mr": 20,
+        "ad": 60,
+        "as": 0.7,
+        "range": 3
+      },
+      "ability": {
+        "name": "Lamb's Respite",
+        "description": "Kindred creates a zone around themselves for @Duration@ seconds that prevents allies within from dropping below @MinHealth@ health or dying.",
+        "icon": "https://raw.communitydragon.org/9.21/game/assets/characters/kindred/hud/icons2d/kindred_r.png",
+        "variables": {
+          "Duration": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "MinHealth": [
+            0,
+            300,
+            600,
+            900,
+            1200,
+            1500,
+            1800
+          ]
+        }
+      },
+      "icon": "https://raw.communitydragon.org/9.21/game/assets/ux/tft/championsplashes/tft_kindred.png"
+    },
+    {
+      "id": "TFT1_Leona",
+      "name": "Leona",
+      "cost": 4,
+      "traits": [
+        "Set1_Noble",
+        "Set1_Guardian"
+      ],
+      "stats": {
+        "hp": 800,
+        "mana": {
+          "initial": 50,
+          "max": 100
+        },
+        "armor": 100,
+        "mr": 20,
+        "ad": 45,
+        "as": 0.55,
+        "range": 1
+      },
+      "ability": {
+        "name": "Solar Flare",
+        "description": "Leona calls down a solar ray in an area, dealing @ModifiedDamage@ magic damage to all enemies within and stunning the enemy in the center for @CCDuration@ seconds.",
+        "icon": "https://raw.communitydragon.org/9.21/game/assets/characters/leona/hud/icons2d/leonasolarflare.png",
+        "variables": {
+          "DelayTime": [
+            0.625,
+            0.625,
+            0.625,
+            0.625,
+            0.625,
+            0.625,
+            0.625
+          ],
+          "CCDuration": [
+            3,
+            5,
+            7,
+            9,
+            11,
+            13,
+            15
+          ],
+          "Damage": [
+            100,
+            175,
+            250,
+            325,
+            400,
+            475,
+            550
+          ]
+        }
+      },
+      "icon": "https://raw.communitydragon.org/9.21/game/assets/ux/tft/championsplashes/tft_leona.png"
+    },
+    {
+      "id": "TFT1_Lissandra",
+      "name": "Lissandra",
+      "cost": 2,
+      "traits": [
+        "Set1_Glacial",
+        "Set1_Elementalist"
+      ],
+      "stats": {
+        "hp": 500,
+        "mana": {
+          "initial": 0,
+          "max": 95
+        },
+        "armor": 20,
+        "mr": 20,
+        "ad": 40,
+        "as": 0.6,
+        "range": 2
+      },
+      "ability": {
+        "name": "Frozen Tomb",
+        "description": "Lissandra encases an enemy in ice, stunning them for @EnemyStunDuration@ seconds and dealing @ModifiedDamage@ magic damage to all enemies in the surrounding area.<br><br>If she is below @SelfUltPercentage@ health, Lissandra instead encases herself, becoming untargetable for @SelfDuration@ seconds and dealing @ModifiedDamage@ magic damage to all enemies in the surrounding area.",
+        "icon": "https://raw.communitydragon.org/9.21/game/assets/characters/lissandra/hud/icons2d/lissandra_r.png",
+        "variables": {
+          "EnemyStunDuration": [
+            1.5,
+            1.5,
+            1.5,
+            1.5,
+            1.5,
+            1.5,
+            1.5
+          ],
+          "SelfDuration": [
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2
+          ],
+          "Damage": [
+            25,
+            175,
+            325,
+            475,
+            625,
+            775,
+            925
+          ],
+          "SlowDuration": [
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3
+          ],
+          "SlowAmount": [
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2
+          ],
+          "SlowFieldDuration": [
+            0,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3
+          ],
+          "MaxHexRange": [
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3
+          ],
+          "SelfUltHealthPercent": [
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5
+          ]
+        }
+      },
+      "icon": "https://raw.communitydragon.org/9.21/game/assets/ux/tft/championsplashes/tft_lissandra.png"
+    },
+    {
+      "id": "TFT1_Lucian",
+      "name": "Lucian",
+      "cost": 2,
+      "traits": [
+        "Set1_Noble",
+        "Set1_Gunslinger"
+      ],
+      "stats": {
+        "hp": 600,
+        "mana": {
+          "initial": 0,
+          "max": 35
+        },
+        "armor": 25,
+        "mr": 20,
+        "ad": 65,
+        "as": 0.65,
+        "range": 3
+      },
+      "ability": {
+        "name": "Relentless Pursuit",
+        "description": "Lucian dashes away from his current target, then Basic Attacks them and fires a second shot which deals @ModifiedDamage@ magic damage.",
+        "icon": "https://raw.communitydragon.org/9.21/game/assets/characters/lucian/hud/icons2d/lucian_e.png",
+        "variables": {
+          "FirstShotRatio": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "SecondShotDamage": [
+            0,
+            125,
+            250,
+            375,
+            500,
+            625,
+            750
+          ]
+        }
+      },
+      "icon": "https://raw.communitydragon.org/9.21/game/assets/ux/tft/championsplashes/tft_lucian.png"
+    },
+    {
+      "id": "TFT1_Lulu",
+      "name": "Lulu",
+      "cost": 2,
+      "traits": [
+        "Set1_Yordle",
+        "Set1_Sorcerer"
+      ],
+      "stats": {
+        "hp": 500,
+        "mana": {
+          "initial": 50,
+          "max": 150
+        },
+        "armor": 20,
+        "mr": 20,
+        "ad": 50,
+        "as": 0.6,
+        "range": 2
+      },
+      "ability": {
+        "name": "Wild Growth",
+        "description": "Lulu makes @Targets@ allies giant, granting them @ModifiedBonusHealth@ bonus health and knocking up adjacent enemies near them for @CCDuration@ seconds.",
+        "icon": "https://raw.communitydragon.org/9.21/game/assets/characters/lulu/hud/icons2d/lulu_giantgrowth.png",
+        "variables": {
+          "BonusHealth": [
+            200,
+            300,
+            400,
+            500,
+            600,
+            700,
+            800
+          ],
+          "Targets": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "BuffDuration": [
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6
+          ],
+          "CCDuration": [
+            1.25,
+            1.25,
+            1.25,
+            1.25,
+            1.25,
+            1.25,
+            1.25
+          ]
+        }
+      },
+      "icon": "https://raw.communitydragon.org/9.21/game/assets/ux/tft/championsplashes/tft_lulu.png"
+    },
+    {
+      "id": "TFT1_MissFortune",
+      "name": "Miss Fortune",
+      "cost": 5,
+      "traits": [
+        "Set1_Pirate",
+        "Set1_Gunslinger"
+      ],
+      "stats": {
+        "hp": 750,
+        "mana": {
+          "initial": 0,
+          "max": 150
+        },
+        "armor": 20,
+        "mr": 20,
+        "ad": 75,
+        "as": 0.95,
+        "range": 3
+      },
+      "ability": {
+        "name": "Bullet Time",
+        "description": "Miss Fortune channels and fires waves of bullets in a cone for @ChannelDuration@ seconds, dealing @ModifiedDamage@ magic damage to all enemies within over the duration.",
+        "icon": "https://raw.communitydragon.org/9.21/game/assets/characters/missfortune/hud/icons2d/missfortune_r.png",
+        "variables": {
+          "Waves": [
+            14,
+            14,
+            14,
+            14,
+            14,
+            14,
+            14
+          ],
+          "TotalDamage": [
+            600,
+            1300,
+            2000,
+            2700,
+            3400,
+            4100,
+            4800
+          ],
+          "ChannelDuration": [
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3
+          ],
+          "HexRange": [
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6
+          ]
+        }
+      },
+      "icon": "https://raw.communitydragon.org/9.21/game/assets/ux/tft/championsplashes/tft_missfortune.png"
+    },
+    {
+      "id": "TFT1_Mordekaiser",
+      "name": "Mordekaiser",
+      "cost": 1,
+      "traits": [
+        "Set1_Phantom",
+        "Set1_Knight"
+      ],
+      "stats": {
+        "hp": 550,
+        "mana": {
+          "initial": 50,
+          "max": 150
+        },
+        "armor": 40,
+        "mr": 20,
+        "ad": 50,
+        "as": 0.5,
+        "range": 1
+      },
+      "ability": {
+        "name": "Obliterate",
+        "description": "Mordekaiser slams his mace on the two spaces in front of him, dealing @ModifiedDamage@ magic damage to enemies within.",
+        "icon": "https://raw.communitydragon.org/9.21/game/assets/characters/mordekaiser/hud/icons2d/mordekaiserq.mordevgu.png",
+        "variables": {
+          "Damage": [
+            0,
+            250,
+            500,
+            750,
+            1000,
+            1250,
+            1500
+          ],
+          "MaceStartDistance": [
+            400,
+            400,
+            400,
+            400,
+            400,
+            400,
+            400
+          ],
+          "MaceLength": [
+            625,
+            625,
+            625,
+            625,
+            625,
+            625,
+            625
+          ],
+          "RectangleWidth": [
+            160,
+            160,
+            160,
+            160,
+            160,
+            160,
+            160
+          ]
+        }
+      },
+      "icon": "https://raw.communitydragon.org/9.21/game/assets/ux/tft/championsplashes/tft_mordekaiser.png"
+    },
+    {
+      "id": "TFT1_Morgana",
+      "name": "Morgana",
+      "cost": 3,
+      "traits": [
+        "Set1_Demon",
+        "Set1_Sorcerer"
+      ],
+      "stats": {
+        "hp": 650,
+        "mana": {
+          "initial": 50,
+          "max": 150
+        },
+        "armor": 30,
+        "mr": 20,
+        "ad": 50,
+        "as": 0.6,
+        "range": 2
+      },
+      "ability": {
+        "name": "Soul Shackles",
+        "description": "Morgana fires chains to all nearby enemies, dealing @ModifiedDamage@ magic damage.<br><br>After @ChainDuration@ seconds, all chained enemies still within range of Morgana are stunned for @StunDuration@ seconds and take @ModifiedDamage@ magic damage again.",
+        "icon": "https://raw.communitydragon.org/9.21/game/assets/characters/morgana/hud/icons2d/fallenangel_purgatory.png",
+        "variables": {
+          "Damage": [
+            50,
+            175,
+            300,
+            425,
+            550,
+            675,
+            800
+          ],
+          "ChainDuration": [
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3
+          ],
+          "StunDuration": [
+            0,
+            2,
+            4,
+            6,
+            8,
+            10,
+            12
+          ],
+          "SlowPercent": [
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20
+          ],
+          "CanCastRange": [
+            575,
+            575,
+            575,
+            575,
+            575,
+            575,
+            575
+          ]
+        }
+      },
+      "icon": "https://raw.communitydragon.org/9.21/game/assets/ux/tft/championsplashes/tft_morgana.png"
+    },
+    {
+      "id": "TFT1_Nidalee",
+      "name": "Nidalee",
+      "cost": 1,
+      "traits": [
+        "Set1_Wild",
+        "Set1_Shapeshifter"
+      ],
+      "stats": {
+        "hp": 500,
+        "mana": {
+          "initial": 0,
+          "max": 85
+        },
+        "armor": 20,
+        "mr": 20,
+        "ad": 50,
+        "as": 0.65,
+        "range": 3
+      },
+      "ability": {
+        "name": "Primal Surge",
+        "description": "Nidalee heals herself and an ally, restoring @ModifiedHeal@ health over @HoTDuration@ seconds, then transforms into cat form.<br><br>While in cat form, Nidalee's range is reduced to 1 hex and she gains @ADinCougar@ Bonus Attack Damage.",
+        "icon": "https://raw.communitydragon.org/9.21/game/assets/characters/nidalee/hud/icons2d/nidalee_r2.png",
+        "variables": {
+          "HoTDuration": [
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6
+          ],
+          "HoTTotalHeal": [
+            -75,
+            150,
+            375,
+            600,
+            825,
+            1050,
+            1275
+          ],
+          "ADInCougar": [
+            -30,
+            20,
+            70,
+            120,
+            170,
+            220,
+            270
+          ],
+          "TransformDuration": [
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60
+          ],
+          "AnimTime": [
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5
+          ]
+        }
+      },
+      "icon": "https://raw.communitydragon.org/9.21/game/assets/ux/tft/championsplashes/tft_nidalee.png"
+    },
+    {
+      "id": "TFT1_Poppy",
+      "name": "Poppy",
+      "cost": 3,
+      "traits": [
+        "Set1_Yordle",
+        "Set1_Knight"
+      ],
+      "stats": {
+        "hp": 700,
+        "mana": {
+          "initial": 0,
+          "max": 75
+        },
+        "armor": 40,
+        "mr": 20,
+        "ad": 50,
+        "as": 0.5,
+        "range": 1
+      },
+      "ability": {
+        "name": "Keeper's Verdict",
+        "description": "Poppy creates a shockwave in a straight line that can hit up to @NumberOfTargets@ enemies, dealing @ModifiedDamage@ magic damage, knocking up and stunning them for @StunDuration@ seconds.",
+        "icon": "https://raw.communitydragon.org/9.21/game/assets/characters/poppy/hud/icons2d/poppy_r.png",
+        "variables": {
+          "DamagePart2": [
+            100,
+            300,
+            500,
+            700,
+            900,
+            1100,
+            1300
+          ],
+          "KnockbackDurationPart2": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "StunDuration": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "PoppyAnimLockDuration": [
+            0.75,
+            0.75,
+            0.75,
+            0.75,
+            0.75,
+            0.75,
+            0.75
+          ],
+          "NumberOfTargets": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ]
+        }
+      },
+      "icon": "https://raw.communitydragon.org/9.21/game/assets/ux/tft/championsplashes/tft_poppy.png"
+    },
+    {
+      "id": "TFT1_Pyke",
+      "name": "Pyke",
+      "cost": 2,
+      "traits": [
+        "Set1_Pirate",
+        "Set1_Assassin"
+      ],
+      "stats": {
+        "hp": 600,
+        "mana": {
+          "initial": 50,
+          "max": 125
+        },
+        "armor": 25,
+        "mr": 20,
+        "ad": 60,
+        "as": 0.6,
+        "range": 1
+      },
+      "ability": {
+        "name": "Phantom Undertow",
+        "description": "Pyke leaves an afterimage at his location, then dashes behind the farthest enemy. After @StunDelay@ second, his afterimage returns to Pyke, dealing @ModifiedDamage@ magic damage to all enemies it passes through and stunning them for @StunDuration@ seconds.",
+        "icon": "https://raw.communitydragon.org/9.21/game/assets/characters/pyke/hud/icons2d/pykee.png",
+        "variables": {
+          "Damage": [
+            100,
+            150,
+            200,
+            250,
+            300,
+            350,
+            400
+          ],
+          "StunDuration": [
+            1,
+            1.5,
+            2,
+            2.5,
+            3,
+            3.5,
+            4
+          ],
+          "StunDelay": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ]
+        }
+      },
+      "icon": "https://raw.communitydragon.org/9.21/game/assets/ux/tft/championsplashes/tft_pyke.png"
+    },
+    {
+      "id": "TFT1_RekSai",
+      "name": "Rek'Sai",
+      "cost": 2,
+      "traits": [
+        "Set1_Void",
+        "Set1_Brawler"
+      ],
+      "stats": {
+        "hp": 650,
+        "mana": {
+          "initial": 50,
+          "max": 150
+        },
+        "armor": 20,
+        "mr": 20,
+        "ad": 50,
+        "as": 0.6,
+        "range": 1
+      },
+      "ability": {
+        "name": "Burrow",
+        "description": "Rek'Sai burrows, becoming untargetable for @BurrowDuration@ second and healing for @ModifiedHeal@ health.<br><br>She emerges at her target, dealing @ModifiedDamage@ magic damage and knocking them up for @KnockupDuration@ seconds.",
+        "icon": "https://raw.communitydragon.org/9.21/game/assets/characters/reksai/hud/icons2d/reksai_w1.png",
+        "variables": {
+          "HealAmount": [
+            75,
+            150,
+            300,
+            450,
+            600,
+            750,
+            900
+          ],
+          "BurrowDuration": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "HealTickRate": [
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5
+          ],
+          "KnockupDuration": [
+            1.75,
+            1.75,
+            1.75,
+            1.75,
+            1.75,
+            1.75,
+            1.75
+          ],
+          "KnockupDamage": [
+            50,
+            200,
+            350,
+            500,
+            650,
+            800,
+            950
+          ]
+        }
+      },
+      "icon": "https://raw.communitydragon.org/9.21/game/assets/ux/tft/championsplashes/tft_reksai.png"
+    },
+    {
+      "id": "TFT1_Rengar",
+      "name": "Rengar",
+      "cost": 3,
+      "traits": [
+        "Set1_Wild",
+        "Set1_Assassin"
+      ],
+      "stats": {
+        "hp": 550,
+        "mana": {
+          "initial": 0,
+          "max": 75
+        },
+        "armor": 20,
+        "mr": 20,
+        "ad": 70,
+        "as": 0.6,
+        "range": 1
+      },
+      "ability": {
+        "name": "Savagery",
+        "description": "Rengar leaps to and stabs the weakest enemy, dealing @LeapDamage@ physical damage and applying on-hit effects to his target.<br><br>After this leap, Rengar gains @ASBuffPercent@ Attack Speed and @CritBuffPercent@ Critical Strike Chance for the next @BuffDuration@ seconds.",
+        "icon": "https://raw.communitydragon.org/9.21/game/assets/characters/rengar/hud/icons2d/rengarq.png",
+        "variables": {
+          "ADMult": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "ASBuff": [
+            0.1,
+            0.3,
+            0.5,
+            0.7,
+            0.9,
+            1.1,
+            1.3
+          ],
+          "CritBuff": [
+            0.25,
+            0.25,
+            0.25,
+            0.25,
+            0.25,
+            0.25,
+            0.25
+          ],
+          "BuffDuration": [
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6
+          ]
+        }
+      },
+      "icon": "https://raw.communitydragon.org/9.21/game/assets/ux/tft/championsplashes/tft_rengar.png"
+    },
+    {
+      "id": "TFT1_Sejuani",
+      "name": "Sejuani",
+      "cost": 4,
+      "traits": [
+        "Set1_Glacial",
+        "Set1_Knight"
+      ],
+      "stats": {
+        "hp": 800,
+        "mana": {
+          "initial": 50,
+          "max": 150
+        },
+        "armor": 40,
+        "mr": 20,
+        "ad": 45,
+        "as": 0.55,
+        "range": 1
+      },
+      "ability": {
+        "name": "Glacial Prison",
+        "description": "After a @ExplosionDelay@ second delay, Sejuani creates a glacial prison on an enemy, dealing @ModifiedDamage@ magic damage to all nearby enemeis and stunning them for @StunDuration@ seconds.",
+        "icon": "https://raw.communitydragon.org/9.21/game/assets/characters/sejuani/hud/icons2d/sejuani_r.png",
+        "variables": {
+          "ExplosionDelay": [
+            0,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2
+          ],
+          "Damage": [
+            25,
+            100,
+            175,
+            250,
+            325,
+            400,
+            475
+          ],
+          "StunDuration": [
+            0.5,
+            2,
+            3.5,
+            5,
+            6.5,
+            8,
+            9.5
+          ]
+        }
+      },
+      "icon": "https://raw.communitydragon.org/9.21/game/assets/ux/tft/championsplashes/tft_sejuani.png"
+    },
+    {
+      "id": "TFT1_Shen",
+      "name": "Shen",
+      "cost": 2,
+      "traits": [
+        "Set1_Ninja",
+        "Set1_Blademaster"
+      ],
+      "stats": {
+        "hp": 700,
+        "mana": {
+          "initial": 100,
+          "max": 150
+        },
+        "armor": 30,
+        "mr": 20,
+        "ad": 65,
+        "as": 0.7,
+        "range": 1
+      },
+      "ability": {
+        "name": "Spirit's Refuge",
+        "description": "Shen creates a zone around himself for @ZoneDuration@ seconds, granting all nearby allies 100% chance to dodge incoming basic attacks.",
+        "icon": "https://raw.communitydragon.org/9.21/game/assets/characters/shen/hud/icons2d/shen_w.png",
+        "variables": {
+          "ZoneDuration": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ]
+        }
+      },
+      "icon": "https://raw.communitydragon.org/9.21/game/assets/ux/tft/championsplashes/tft_shen.png"
+    },
+    {
+      "id": "TFT1_Shyvana",
+      "name": "Shyvana",
+      "cost": 3,
+      "traits": [
+        "Set1_Dragon",
+        "Set1_Shapeshifter"
+      ],
+      "stats": {
+        "hp": 650,
+        "mana": {
+          "initial": 0,
+          "max": 85
+        },
+        "armor": 30,
+        "mr": 20,
+        "ad": 50,
+        "as": 0.7,
+        "range": 1
+      },
+      "ability": {
+        "name": "Dragon's Descent",
+        "description": "Shyvana dashes away from her current target and transforms into dragon form.<br><br>While in dragon form, Shyvana's Basic Attack becomes ranged, she gains @ADWhileDragon@ Attack Damage, and her Basic Attacks burn her enemies for @BurnDuration@ seconds, dealing @ModifiedDamage@ magic damage.",
+        "icon": "https://raw.communitydragon.org/9.21/game/assets/characters/shyvana/hud/icons2d/shyvanadragonsdescent.png",
+        "variables": {
+          "TransformDuration": [
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60
+          ],
+          "ADWhileDragon": [
+            50,
+            100,
+            150,
+            200,
+            250,
+            300,
+            350
+          ],
+          "BurnDuration": [
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3
+          ],
+          "BurnDamage": [
+            100,
+            200,
+            300,
+            400,
+            500,
+            600,
+            700
+          ],
+          "ExtraAARange": [
+            480,
+            480,
+            480,
+            480,
+            480,
+            480,
+            480
+          ]
+        }
+      },
+      "icon": "https://raw.communitydragon.org/9.21/game/assets/ux/tft/championsplashes/tft_shyvana.png"
+    },
+    {
+      "id": "TFT1_Tristana",
+      "name": "Tristana",
+      "cost": 1,
+      "traits": [
+        "Set1_Yordle",
+        "Set1_Gunslinger"
+      ],
+      "stats": {
+        "hp": 500,
+        "mana": {
+          "initial": 0,
+          "max": 50
+        },
+        "armor": 20,
+        "mr": 20,
+        "ad": 50,
+        "as": 0.65,
+        "range": 4
+      },
+      "ability": {
+        "name": "Explosive Charge",
+        "description": "Tristana places a bomb on her current target which will detonate after she Basic Attacks them 3 times or @ExplosiveChargeDuration@ seconds pass without Tristana attacking them.<br><br>When the bomb detonates, it deals @ModifiedDamage@ magic damage to all nearby enemies, plus @PercentDamageIncrease@ for each Basic Attack, up to a maximum of @ModifiedMaxDamage@.",
+        "icon": "https://raw.communitydragon.org/9.21/game/assets/characters/tristana/hud/icons2d/tristana_e.png",
+        "variables": {
+          "ExplosiveChargeDuration": [
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4
+          ],
+          "ChargeBaseDamage": [
+            30,
+            70,
+            110,
+            150,
+            190,
+            230,
+            270
+          ],
+          "PercentDamageIncreasePerStack": [
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5
+          ],
+          "MaxChargeDamage": [
+            75,
+            175,
+            275,
+            375,
+            475,
+            575,
+            675
+          ]
+        }
+      },
+      "icon": "https://raw.communitydragon.org/9.21/game/assets/ux/tft/championsplashes/tft_tristana.png"
+    },
+    {
+      "id": "TFT1_Varus",
+      "name": "Varus",
+      "cost": 2,
+      "traits": [
+        "Set1_Demon",
+        "Set1_Ranger"
+      ],
+      "stats": {
+        "hp": 500,
+        "mana": {
+          "initial": 0,
+          "max": 75
+        },
+        "armor": 25,
+        "mr": 20,
+        "ad": 60,
+        "as": 0.7,
+        "range": 4
+      },
+      "ability": {
+        "name": "Piercing Arrow",
+        "description": "Varus channels for 1.5 seconds, then fires a piercing arrow, dealing @ModifiedDamage@ magic damage to all enemies in its path.",
+        "icon": "https://raw.communitydragon.org/9.21/game/assets/characters/varus/hud/icons2d/varusq.png",
+        "variables": {
+          "Damage": [
+            50,
+            300,
+            550,
+            800,
+            1050,
+            1300,
+            1550
+          ],
+          "HexRange": [
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8
+          ]
+        }
+      },
+      "icon": "https://raw.communitydragon.org/9.21/game/assets/ux/tft/championsplashes/tft_varus.png"
+    },
+    {
+      "id": "TFT1_Veigar",
+      "name": "Veigar",
+      "cost": 3,
+      "traits": [
+        "Set1_Yordle",
+        "Set1_Sorcerer"
+      ],
+      "stats": {
+        "hp": 500,
+        "mana": {
+          "initial": 0,
+          "max": 75
+        },
+        "armor": 20,
+        "mr": 20,
+        "ad": 50,
+        "as": 0.55,
+        "range": 3
+      },
+      "ability": {
+        "name": "Primordial Burst",
+        "description": "Veigar blasts an enemy with magical energy, dealing @ModifiedDamage@ magic damage. If Veigar is a higher star level than his target, this damage is increased to @ModifiedLowerStarDamage@.",
+        "icon": "https://raw.communitydragon.org/9.21/game/assets/characters/veigar/hud/icons2d/veigarprimordialburst.png",
+        "variables": {
+          "Damage": [
+            50,
+            350,
+            650,
+            950,
+            1250,
+            1550,
+            1850
+          ],
+          "LowerStarDamage": [
+            19999,
+            19999,
+            19999,
+            19999,
+            19999,
+            19999,
+            19999
+          ]
+        }
+      },
+      "icon": "https://raw.communitydragon.org/9.21/game/assets/ux/tft/championsplashes/tft_veigar.png"
+    },
+    {
+      "id": "TFT1_Volibear",
+      "name": "Volibear",
+      "cost": 3,
+      "traits": [
+        "Set1_Glacial",
+        "Set1_Brawler"
+      ],
+      "stats": {
+        "hp": 750,
+        "mana": {
+          "initial": 0,
+          "max": 75
+        },
+        "armor": 30,
+        "mr": 20,
+        "ad": 70,
+        "as": 0.65,
+        "range": 1
+      },
+      "ability": {
+        "name": "Thunder Claws",
+        "description": "Volibear empowers his attacks for the next 20 seconds, causing them to chain to up to 3 nearby enemies. These chains deal 80% %i:scaleAD% physical damage and apply on-hit effects.",
+        "icon": "https://raw.communitydragon.org/9.21/game/assets/characters/volibear/hud/icons2d/volibearr.png",
+        "variables": {
+          "BuffDuration": [
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20
+          ],
+          "MaxBounces": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "ChainADMult": [
+            0.7,
+            0.8,
+            0.9,
+            1,
+            1.1,
+            1.2,
+            1.3
+          ],
+          "SizeIncrease": [
+            0.08,
+            0.08,
+            0.08,
+            0.08,
+            0.08,
+            0.08,
+            0.08
+          ],
+          "HexRange": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ]
+        }
+      },
+      "icon": "https://raw.communitydragon.org/9.21/game/assets/ux/tft/championsplashes/tft_volibear.png"
+    },
+    {
+      "id": "TFT1_Warwick",
+      "name": "Warwick",
+      "cost": 1,
+      "traits": [
+        "Set1_Wild",
+        "Set1_Brawler"
+      ],
+      "stats": {
+        "hp": 650,
+        "mana": {
+          "initial": 50,
+          "max": 150
+        },
+        "armor": 30,
+        "mr": 20,
+        "ad": 50,
+        "as": 0.6,
+        "range": 1
+      },
+      "ability": {
+        "name": "Infinite Duress",
+        "description": "Warwick pounces on the weakest enemy, stunning them for @Duration@ seconds and striking them @Hits@ times, dealing @ModifiedDamage@ magic damage. Each strike triggers on-hit effects and heals Warwick for 100% of the damage dealt.",
+        "icon": "https://raw.communitydragon.org/9.21/game/assets/characters/warwick/hud/icons2d/warwickr.png",
+        "variables": {
+          "Duration": [
+            1.5,
+            1.5,
+            1.5,
+            1.5,
+            1.5,
+            1.5,
+            1.5
+          ],
+          "BaseDamage": [
+            75,
+            150,
+            225,
+            300,
+            375,
+            450,
+            525
+          ],
+          "DashHexSpeed": [
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6
+          ],
+          "Hits": [
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3
+          ]
+        }
+      },
+      "icon": "https://raw.communitydragon.org/9.21/game/assets/ux/tft/championsplashes/tft_warwick.png"
+    },
+    {
+      "id": "TFT1_Yasuo",
+      "name": "Yasuo",
+      "cost": 5,
+      "traits": [
+        "Set1_Exile",
+        "Set1_Blademaster"
+      ],
+      "stats": {
+        "hp": 750,
+        "mana": {
+          "initial": 0,
+          "max": 25
+        },
+        "armor": 35,
+        "mr": 20,
+        "ad": 75,
+        "as": 1,
+        "range": 1
+      },
+      "ability": {
+        "name": "Steel Tempest",
+        "description": "Yasuo stabs his sword into the two spaces in front of him, dealing @ModifiedDamage@ magic damage and applying on-hit effects to enemies within. Every third cast, Yasuo instead throws a tornado in a line that travels @QEmpowerHexRange@ hexes and additionally knocks enemies up for @QKnockupDuration@ seconds.",
+        "icon": "https://raw.communitydragon.org/9.21/game/assets/characters/yasuo/hud/icons2d/yasuo_q1.png",
+        "variables": {
+          "Damage": [
+            -50,
+            150,
+            350,
+            550,
+            750,
+            950,
+            1150
+          ],
+          "QHexRange": [
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2
+          ],
+          "QEmpowerHexRange": [
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6
+          ],
+          "QCountForEmpower": [
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2
+          ],
+          "QWidth": [
+            75,
+            75,
+            75,
+            75,
+            75,
+            75,
+            75
+          ],
+          "QKnockupDuration": [
+            1.5,
+            1.5,
+            1.5,
+            1.5,
+            1.5,
+            1.5,
+            1.5
+          ]
+        }
+      },
+      "icon": "https://raw.communitydragon.org/9.21/game/assets/ux/tft/championsplashes/tft_yasuo.png"
+    },
+    {
+      "id": "TFT1_Zed",
+      "name": "Zed",
+      "cost": 2,
+      "traits": [
+        "Set1_Ninja",
+        "Set1_Assassin"
+      ],
+      "stats": {
+        "hp": 550,
+        "mana": {
+          "initial": 0,
+          "max": 75
+        },
+        "armor": 25,
+        "mr": 20,
+        "ad": 65,
+        "as": 0.7,
+        "range": 1
+      },
+      "ability": {
+        "name": "Razor Shuriken",
+        "description": "Zed throws a shuriken in a line, dealing @ModifiedDamage@ magic damage to all enemies in its path.",
+        "icon": "https://raw.communitydragon.org/9.21/game/assets/characters/zed/hud/icons2d/shadowninja_q.png",
+        "variables": {
+          "Damage": [
+            50,
+            200,
+            350,
+            500,
+            650,
+            800,
+            950
+          ],
+          "HexRange": [
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4
+          ]
+        }
+      },
+      "icon": "https://raw.communitydragon.org/9.21/game/assets/ux/tft/championsplashes/tft_zed.png"
+    },
+    {
+      "id": "TFT1_TwistedFate",
+      "name": "Twisted Fate",
+      "cost": 2,
+      "traits": [
+        "Set1_Pirate",
+        "Set1_Sorcerer"
+      ],
+      "stats": {
+        "hp": 500,
+        "mana": {
+          "initial": 0,
+          "max": 50
+        },
+        "armor": 20,
+        "mr": 20,
+        "ad": 40,
+        "as": 0.7,
+        "range": 3
+      },
+      "ability": {
+        "name": "Pick a Card",
+        "description": "Twisted Fate randomly picks a card, then throws it at his current target, dealing @ModifiedDamage@ magic damage and creating a special effect based on the color of the card.<br><br>Blue: Restores @BlueCardManaRestore@ mana to all allies adjacent to Twisted Fate.<br>Red: Deals @ModifiedDamage@ to all enemies adjacent to the target.<br>Gold: Stuns the target for @GoldCardStunDuration@ seconds.",
+        "icon": "https://raw.communitydragon.org/9.21/game/assets/characters/tft_twistedfate/hud/icons2d/tft_twistedfate_spell.tft.png",
+        "variables": {
+          "RedCardDamage": [
+            50,
+            150,
+            250,
+            350,
+            450,
+            550,
+            650
+          ],
+          "BlueCardDamage": [
+            50,
+            150,
+            250,
+            350,
+            450,
+            550,
+            650
+          ],
+          "BlueCardManaRestore": [
+            10,
+            30,
+            50,
+            70,
+            90,
+            110,
+            130
+          ],
+          "GoldCardStunDuration": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "GoldCardDamage": [
+            50,
+            150,
+            250,
+            350,
+            450,
+            550,
+            650
+          ]
+        }
+      },
+      "icon": "https://raw.communitydragon.org/9.21/game/assets/ux/tft/championsplashes/tft_twistedfate.png"
+    },
+    {
+      "id": "TFT1_Jinx",
+      "name": "Jinx",
+      "cost": 4,
+      "traits": [
+        "Set1_Hextech",
+        "Set1_Gunslinger"
+      ],
+      "stats": {
+        "hp": 550,
+        "mana": {
+          "initial": 0,
+          "max": 0
+        },
+        "armor": 20,
+        "mr": 20,
+        "ad": 75,
+        "as": 0.7,
+        "range": 3
+      },
+      "ability": {
+        "name": "Get Excited!",
+        "description": "Passive: Jinx gets excited as she helps take down enemy units.<br><br>After her first takedown, Jinx gains @PercentAttackSpeed@ bonus Attack Speed.<br><br>After her second takedown, Jinx swaps to her rocket launcher, causing her Basic Attacks to deal @ModifiedDamage@ bonus magic damage to all enemies in a small area around her target.",
+        "icon": "https://raw.communitydragon.org/9.21/game/assets/characters/tft_jinx/hud/icons2d/tft_jinx_spell.tft_hextech.png",
+        "variables": {
+          "HitWindow": [
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4
+          ],
+          "BuffDuration": [
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60
+          ],
+          "AttackSpeedBonus": [
+            0.4,
+            0.6,
+            0.8,
+            1,
+            1.2,
+            1.4,
+            1.6
+          ],
+          "RocketDamage": [
+            0,
+            100,
+            200,
+            300,
+            400,
+            500,
+            600
+          ]
+        }
+      },
+      "icon": "https://raw.communitydragon.org/9.21/game/assets/ux/tft/championsplashes/tft_jinx.png"
+    },
+    {
+      "id": "TFT1_Vi",
+      "name": "Vi",
+      "cost": 3,
+      "traits": [
+        "Set1_Hextech",
+        "Set1_Brawler"
+      ],
+      "stats": {
+        "hp": 700,
+        "mana": {
+          "initial": 75,
+          "max": 150
+        },
+        "armor": 25,
+        "mr": 20,
+        "ad": 60,
+        "as": 0.65,
+        "range": 1
+      },
+      "ability": {
+        "name": "Assault and Battery",
+        "description": "Vi charges at the farthest enemy, knocking aside and dealing @ModifiedDamage@ magic damage to all enemies along the way. When she reaches her target, she deals @ModifiedDamage@ magic damage and knocks them up for @CCDuration@ seconds.",
+        "icon": "https://raw.communitydragon.org/9.21/game/assets/characters/tft_vi/hud/icons2d/tft_vir.tft_hextech.png",
+        "variables": {
+          "Damage": [
+            100,
+            300,
+            500,
+            700,
+            900,
+            1100,
+            1300
+          ],
+          "CCDuration": [
+            1.5,
+            2,
+            2.5,
+            3,
+            3.5,
+            4,
+            4.5
+          ],
+          "MoveSpeed": [
+            1000,
+            1000,
+            1000,
+            1000,
+            1000,
+            1000,
+            1000
+          ],
+          "OthersCCDuration": [
+            0.25,
+            0.25,
+            0.25,
+            0.25,
+            0.25,
+            0.25,
+            0.25
+          ]
+        }
+      },
+      "icon": "https://raw.communitydragon.org/9.21/game/assets/ux/tft/championsplashes/tft_vi.png"
+    },
+    {
+      "id": "TFT1_Camille",
+      "name": "Camille",
+      "cost": 1,
+      "traits": [
+        "Set1_Hextech",
+        "Set1_Blademaster"
+      ],
+      "stats": {
+        "hp": 550,
+        "mana": {
+          "initial": 75,
+          "max": 125
+        },
+        "armor": 30,
+        "mr": 20,
+        "ad": 55,
+        "as": 0.6,
+        "range": 1
+      },
+      "ability": {
+        "name": "The Hextech Ultimatum",
+        "description": "Camille singles out and leaps on an enemy, dealing @ModifiedDamage@ magic damage and rooting them for @Duration@ seconds.<br><br>Allies within range will prioritize attacking Camille's target.",
+        "icon": "https://raw.communitydragon.org/9.21/game/assets/characters/tft_camille/hud/icons2d/tft_camille_r.tft_hextech.png",
+        "variables": {
+          "Duration": [
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "Damage": [
+            75,
+            200,
+            325,
+            450,
+            575,
+            700,
+            825
+          ]
+        }
+      },
+      "icon": "https://raw.communitydragon.org/9.21/game/assets/ux/tft/championsplashes/tft_camille.png"
+    },
+    {
+      "id": "TFT1_Jayce",
+      "name": "Jayce",
+      "cost": 2,
+      "traits": [
+        "Set1_Hextech",
+        "Set1_Shapeshifter"
+      ],
+      "stats": {
+        "hp": 600,
+        "mana": {
+          "initial": 50,
+          "max": 100
+        },
+        "armor": 35,
+        "mr": 20,
+        "ad": 60,
+        "as": 0.65,
+        "range": 1
+      },
+      "ability": {
+        "name": "Transform Mercury Cannon",
+        "description": "Jayce knocks a nearby enemy away, dealing @ModifiedDamage@ magic damage and stunning them for @CCDuration@ seconds. He then transforms into cannon form and gains max attack speed for his next @AAMax@ Basic Attacks.<br><br>While in cannon form, Jayce's Attack Range is increased by 3 hexes.",
+        "icon": "https://raw.communitydragon.org/9.21/game/assets/characters/tft_jayce/hud/icons2d/tft_jayce_spell.tft_hextech.png",
+        "variables": {
+          "RangeIncrease": [
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3
+          ],
+          "TransformDuration": [
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60
+          ],
+          "Damage": [
+            50,
+            200,
+            350,
+            500,
+            650,
+            800,
+            950
+          ],
+          "CCDuration": [
+            0.75,
+            2.5,
+            4.25,
+            6,
+            7.75,
+            9.5,
+            11.25
+          ],
+          "KnockbackDistance": [
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3
+          ],
+          "AAMax": [
+            1,
+            3,
+            5,
+            7,
+            9,
+            11,
+            13
+          ],
+          "HexRange": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ]
+        }
+      },
+      "icon": "https://raw.communitydragon.org/9.21/game/assets/ux/tft/championsplashes/tft_jayce.png"
+    },
+    {
+      "id": "TFT1_Pantheon",
+      "name": "Pantheon",
+      "cost": 5,
+      "traits": [
+        "Set1_Dragon",
+        "Set1_Guardian"
+      ],
+      "stats": {
+        "hp": 850,
+        "mana": {
+          "initial": 150,
+          "max": 200
+        },
+        "armor": 70,
+        "mr": 20,
+        "ad": 75,
+        "as": 0.75,
+        "range": 1
+      },
+      "ability": {
+        "name": "Grand Starfall",
+        "description": "Pantheon leaps in the air, crashing down towards the farthest enemy, stunning them for @StunDuration@ seconds.<br><br>Enemies in Pantheon's path take @ModifiedDamage@ of their Maximum Health as magic damage. They then burn for an additional @BurnPercent*100@% of their Maximum Health as true damage over @BurnDuration@ seconds, reducing healing by 80%.",
+        "icon": "https://raw.communitydragon.org/9.21/game/assets/characters/tft_pantheon/hud/icons2d/tft_pantheon_spell.tft_pantheon.png",
+        "variables": {
+          "PercentHealthDamage": [
+            0,
+            0.1,
+            0.2,
+            0.3,
+            0.4,
+            0.5,
+            0.6
+          ],
+          "Radius": [
+            450,
+            450,
+            450,
+            450,
+            450,
+            450,
+            450
+          ],
+          "StunDuration": [
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2
+          ],
+          "BurnPercent": [
+            0.2,
+            0.2,
+            0.2,
+            0.2,
+            0.2,
+            0.2,
+            0.2
+          ],
+          "BurnDuration": [
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10
+          ]
+        }
+      },
+      "icon": "https://raw.communitydragon.org/9.21/game/assets/ux/tft/championsplashes/tft_pantheon.png"
+    },
+    {
+      "id": "TFT1_KaiSa",
+      "name": "Kai'Sa",
+      "cost": 5,
+      "traits": [
+        "Set1_Void",
+        "Set1_Ranger",
+        "Set1_Assassin"
+      ],
+      "stats": {
+        "hp": 700,
+        "mana": {
+          "initial": 50,
+          "max": 125
+        },
+        "armor": 20,
+        "mr": 20,
+        "ad": 55,
+        "as": 1.25,
+        "range": 2
+      },
+      "ability": {
+        "name": "Killer Instinct",
+        "description": "Kai'Sa dashes to the furthest enemy unit, gaining +@ASPercent*100@% Attack Speed and a shield that blocks @ModifiedShield@ damage for @Duration@ seconds.",
+        "icon": "https://raw.communitydragon.org/9.21/game/assets/characters/tft_kaisa/hud/icons2d/tft_kaisa_r.tft_set1_kaisa.png",
+        "variables": {
+          "ASPercent": [
+            0.25,
+            0.5,
+            0.75,
+            1,
+            1.25,
+            1.5,
+            1.75
+          ],
+          "Duration": [
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3
+          ],
+          "ShieldAmount": [
+            100,
+            400,
+            700,
+            1000,
+            1300,
+            1600,
+            1900
+          ]
+        }
+      },
+      "icon": "https://raw.communitydragon.org/9.21/game/assets/ux/tft/championsplashes/tft_kaisa.tft_set1_kaisa.png"
+    }
+  ],
+  "items": [
+    {
+      "id": "TFT_Item_RabadonsDeathcap",
+      "name": "Mũ Phù Thủy Rabadon",
+      "components": [
+        "TFT1_Item_NeedlesslyLargeRod",
+        "TFT1_Item_NeedlesslyLargeRod"
+      ],
+      "description": "<tftitemrules>Chiếc mũ này có thể giúp bạn xoay chuyển cả thế giới.</tftitemrules><br><br>@TFTUnitProperty.:TFT_Augment_DeadlierCaps_TRAKey@",
+      "isUnique": false,
+      "icon": "https://raw.communitydragon.org/9.21/game/assets/maps/particles/tft/tft_item_rabadonsdeathcap.tft.png"
+    },
+    {
+      "id": "TFT_Item_InfinityEdge",
+      "name": "Vô Cực Kiếm",
+      "components": [
+        "TFT1_Item_BFSword",
+        "TFT_Item_SparringGloves"
+      ],
+      "description": "Nhận <TFTKeyword>Chuẩn Xác</TFTKeyword>.<br><br>{{TFT_Keyword_Precision}}",
+      "isUnique": false,
+      "icon": "https://raw.communitydragon.org/9.21/game/assets/maps/particles/tft/tft_item_infinityedge.tft.png"
+    },
+    {
+      "id": "TFT_Item_Zephyr",
+      "name": "Phong Kiếm",
+      "components": [
+        "TFT_Item_NegatronCloak",
+        "TFT1_Item_GiantsBelt"
+      ],
+      "description": "Bắt đầu giao tranh: Triệu hồi lốc xoáy ở phía bên kia sân đấu, loại bỏ kẻ địch gần nhất khỏi sân đấu trong @BanishDuration@ giây. <br><br>Đội của bạn nhận được @AllyBonusAS@% Tốc Độ Đánh.<br><br><tftitemrules>[Trang Bị Hỗ Trợ]<br>[Bỏ qua khả năng miễn nhiễm khống chế.]<br>[Duy Nhất - chỉ 1 mỗi tướng]</tftitemrules><br>@TFTUnitProperty.:TFT_BindOnEquipTRA@",
+      "isUnique": false,
+      "icon": "https://raw.communitydragon.org/9.21/game/assets/maps/particles/tft/tft_item_zephyr.tft.png"
+    },
+    {
+      "id": "TFT_Item_BladeOfTheRuinedKing",
+      "name": "TFT_item_name_BladeOfTheRuinedKing",
+      "components": [
+        "TFT_Item_RecurveBow",
+        "TFT_Item_Spatula"
+      ],
+      "description": "TFT_item_description_BladeOfTheRuinedKing",
+      "isUnique": false,
+      "icon": "https://raw.communitydragon.org/9.21/game/assets/maps/particles/tft/tft_item_bladeoftheruinedking.tft.png"
+    },
+    {
+      "id": "TFT_Item_ZekesHerald",
+      "name": "Tụ Bão Zeke",
+      "components": [
+        "TFT1_Item_BFSword",
+        "TFT1_Item_GiantsBelt"
+      ],
+      "description": "Bắt đầu giao tranh: Tăng %i:scaleAS% @AttackSpeed@% Tốc Độ Đánh cho chủ sở hữu và đồng minh trong phạm vi 2 ô cùng hàng.<br><br>​<tftitemrules>[Trang Bị Hỗ Trợ]</tftitemrules>",
+      "isUnique": false,
+      "icon": "https://raw.communitydragon.org/9.21/game/assets/maps/particles/tft/tft_item_zekesherald.tft.png"
+    },
+    {
+      "id": "TFT_Item_GuinsoosRageblade",
+      "name": "Cuồng Đao Guinsoo",
+      "components": [
+        "TFT_Item_RecurveBow",
+        "TFT1_Item_NeedlesslyLargeRod"
+      ],
+      "description": "Nhận @AttackSpeedPerStack@% Tốc Độ Đánh cộng dồn mỗi giây.",
+      "isUnique": false,
+      "icon": "https://raw.communitydragon.org/9.21/game/assets/maps/particles/tft/tft_item_guinsoosrageblade.tft.png"
+    },
+    {
+      "id": "TFT_Item_IonicSpark",
+      "name": "Nỏ Sét",
+      "components": [
+        "TFT1_Item_NeedlesslyLargeRod",
+        "TFT_Item_NegatronCloak"
+      ],
+      "description": "@MRShred@% <TFTKeyword>Cào Xé</TFTKeyword> kẻ địch trong vòng @HexRange@ ô. Khi kẻ địch sử dụng Kỹ Năng, gây sát thương phép tương đương @ManaRatio@% Năng Lượng đã tiêu hao.<br><br><tftitemrules><tftbold>Cào Xé</tftbold>: Giảm Kháng Phép</tftitemrules>",
+      "isUnique": false,
+      "icon": "https://raw.communitydragon.org/9.21/game/assets/maps/particles/tft/tft_item_ionicspark.tft.png"
+    },
+    {
+      "id": "TFT_Item_DragonsClaw",
+      "name": "Vuốt Rồng",
+      "components": [
+        "TFT_Item_NegatronCloak",
+        "TFT_Item_NegatronCloak"
+      ],
+      "description": "Nhận @PercentMaxHP*100@% máu tối đa.<br><br>Sau mỗi @HealthRegenInterval@ giây, hồi lại @PercentHealthDamage@% Máu tối đa.",
+      "isUnique": false,
+      "icon": "https://raw.communitydragon.org/9.21/game/assets/maps/particles/tft/tft_item_dragonsclaw.tft.png"
+    },
+    {
+      "id": "TFT1_Item_NeekosHelp",
+      "name": "Neeko's Help",
+      "components": [],
+      "description": "Place on a champion to create a one-star copy of them.<br><br><tftitemrules>[CONSUMABLE - This item disappears when used.]</tftitemrules>",
+      "isUnique": false,
+      "icon": "https://raw.communitydragon.org/9.21/game/assets/maps/particles/tft/tft_blessing_wildcard.tft.png"
+    },
+    {
+      "id": "TFT_Item_PhantomDancer",
+      "name": "TFT_item_name_PhantomDancer",
+      "components": [
+        "TFT_Item_RecurveBow",
+        "TFT_Item_ChainVest"
+      ],
+      "description": "TFT_item_description_PhantomDancer",
+      "isUnique": false,
+      "icon": "https://raw.communitydragon.org/9.21/game/assets/maps/particles/tft/tft_item_phantomdancer.tft.png"
+    },
+    {
+      "id": "TFT_Item_Backhand",
+      "name": "Trap Claw",
+      "components": [
+        "TFT1_Item_GiantsBelt",
+        "TFT_Item_SparringGloves"
+      ],
+      "description": "At the beginning of combat, the wearer gains a shield that blocks the first enemy spell that hits them. The enemy that breaks the shield is stunned for @StunDuration@ seconds.",
+      "isUnique": false,
+      "icon": "https://raw.communitydragon.org/9.21/game/assets/maps/particles/tft/tft_item_backhand.tft.png"
+    },
+    {
+      "id": "TFT_Item_Thornmail",
+      "name": "game_item_displayname_3075",
+      "components": [
+        "TFT_Item_ChainVest",
+        "TFT_Item_ChainVest"
+      ],
+      "description": "tft_item_description_Thornmail",
+      "isUnique": false,
+      "icon": "https://raw.communitydragon.org/9.21/game/assets/maps/particles/tft/tft_item_thornmail.tft.png"
+    },
+    {
+      "id": "TFT_Item_ChainVest",
+      "name": "Giáp Lưới",
+      "components": [],
+      "description": "%i:scaleArmor% +@Armor@ Giáp",
+      "isUnique": false,
+      "icon": "https://raw.communitydragon.org/9.21/game/assets/maps/particles/tft/tft_item_chainvest.tft.png"
+    },
+    {
+      "id": "TFT_Item_RecurveBow",
+      "name": "Cung Gỗ",
+      "components": [],
+      "description": "%i:scaleAS% +@AS@% Tốc Độ Đánh",
+      "isUnique": false,
+      "icon": "https://raw.communitydragon.org/9.21/game/assets/maps/particles/tft/tft_item_recurvebow.tft.png"
+    },
+    {
+      "id": "TFT_Item_GiantSlayer",
+      "name": "Giant Slayer",
+      "components": [
+        "TFT1_Item_BFSword",
+        "TFT_Item_RecurveBow"
+      ],
+      "description": "The wearer's basic attacks deal an additional @MaxHPTrueDamage@% of the target's Maximum Health as true damage.",
+      "isUnique": false,
+      "icon": "https://raw.communitydragon.org/9.21/game/assets/maps/particles/tft/tft_item_giantslayer.png"
+    },
+    {
+      "id": "TFT_Item_RedBuff",
+      "name": "Áo Choàng Lửa",
+      "components": [
+        "TFT_Item_ChainVest",
+        "TFT1_Item_GiantsBelt"
+      ],
+      "description": "Nhận @BonusPercentHP*100@% Máu tối đa. <br><br>Mỗi @ICD@ giây, gây @BurnPercent@% <TFTKeyword>Thiêu Đốt</TFTKeyword> và @GrievousWoundsPercent@% <TFTKeyword>Vết Thương Sâu</TFTKeyword> lên 1 kẻ địch trong phạm vi @HexRange@ ô trong @BurnDuration@ giây.<br><br><tftitemrules><tftbold>Thiêu Đốt</tftbold>: Gây sát thương chuẩn mỗi giây theo Máu tối đa của mục tiêu<br><tftbold>Vết Thương Sâu</tftbold>: Giảm hồi máu nhận được</tftitemrules>",
+      "isUnique": false,
+      "icon": "https://raw.communitydragon.org/9.21/game/assets/maps/particles/tft/tft_item_redbuff.tft.png"
+    },
+    {
+      "id": "TFT_Item_IcebornGauntlet",
+      "name": "tft_item_name_FrozenFist",
+      "components": [
+        "TFT_Item_ChainVest",
+        "TFT_Item_SparringGloves"
+      ],
+      "description": "tft_item_description_FrozenFist",
+      "isUnique": false,
+      "icon": "https://raw.communitydragon.org/9.21/game/assets/maps/particles/tft/tft_item_iceborngauntlet.tft.png"
+    },
+    {
+      "id": "TFT_Item_CursedBlade",
+      "name": "tft_item_name_CursedBlade",
+      "components": [
+        "TFT_Item_RecurveBow",
+        "TFT_Item_NegatronCloak"
+      ],
+      "description": "TFT_item_description_CursedBlade",
+      "isUnique": false,
+      "icon": "https://raw.communitydragon.org/9.21/game/assets/maps/particles/tft/tft_item_cursedblade.tft.png"
+    },
+    {
+      "id": "TFT_Item_GuardianAngel",
+      "name": "Áo Choàng Bóng Tối",
+      "components": [
+        "TFT1_Item_BFSword",
+        "TFT_Item_ChainVest"
+      ],
+      "description": "Khi còn @HealthThreshold@% Máu, trở nên không thể bị nhắm tới trong thoáng chốc, loại bỏ mọi hiệu ứng bất lợi và hồi lại @MissingHealthRestore*100@% Máu đã mất.",
+      "isUnique": false,
+      "icon": "https://raw.communitydragon.org/9.21/game/assets/maps/particles/tft/tft_item_guardianangel.tft.png"
+    },
+    {
+      "id": "TFT1_Item_TearoftheGoddess",
+      "name": "Tear of the Goddess",
+      "components": [],
+      "description": "+@Mana@ Mana",
+      "isUnique": false,
+      "icon": "https://raw.communitydragon.org/9.21/game/assets/maps/particles/tft/icon_tearofthegoddess.tft.png"
+    },
+    {
+      "id": "TFT_Item_NegatronCloak",
+      "name": "Áo Choàng Bạc",
+      "components": [],
+      "description": "%i:scaleMR% +@MagicResist@ Kháng Phép",
+      "isUnique": false,
+      "icon": "https://raw.communitydragon.org/9.21/game/assets/maps/particles/tft/tft_item_negatroncloak.tft.png"
+    },
+    {
+      "id": "TFT_Item_RunaansHurricane",
+      "name": "Thịnh Nộ Thủy Quái",
+      "components": [
+        "TFT_Item_NegatronCloak",
+        "TFT_Item_Spatula"
+      ],
+      "description": "Đòn đánh cho @ADOnAttack*100@% Sức Mạnh Công Kích cộng dồn, tối đa @MaxStacks@ đòn đánh. Sau @MaxStacks@ đòn đánh, nhận @ASCapstone*100@% Tốc Độ Đánh.",
+      "isUnique": false,
+      "icon": "https://raw.communitydragon.org/9.21/game/assets/maps/particles/tft/tft_item_runaanshurricane.tft.png"
+    },
+    {
+      "id": "TFT_Item_Mittens",
+      "name": "Mittens",
+      "components": [
+        "TFT_Item_SparringGloves",
+        "TFT_Item_Spatula"
+      ],
+      "description": "Wearer is also a Yordle<br>Extra +10% Critical Strike Chance, +10% Dodge Chance<br><br><tftitemrules>[Unique - Only One Per Champion]</tftitemrules>",
+      "isUnique": false,
+      "icon": "https://raw.communitydragon.org/9.21/game/assets/maps/particles/tft/tft_item_mittens.tft.png"
+    },
+    {
+      "id": "TFT1_Item_BFSword",
+      "name": "B. F. Sword",
+      "components": [],
+      "description": "+@AD@ Attack Damage",
+      "isUnique": false,
+      "icon": "https://raw.communitydragon.org/9.21/game/assets/maps/particles/tft/icon_bfsword.tft.png"
+    },
+    {
+      "id": "TFT_Item_ThiefsGloves",
+      "name": "Găng Đạo Tặc",
+      "components": [
+        "TFT_Item_SparringGloves",
+        "TFT_Item_SparringGloves"
+      ],
+      "description": "Mỗi vòng: Mang 2 trang bị ngẫu nhiên.<br><br><tftitemrules>[Tốn 3 ô trang bị.]</tftitemrules><br>@TFTUnitProperty.:TFT_BindOnEquipTRA@",
+      "isUnique": false,
+      "icon": "https://raw.communitydragon.org/9.21/game/assets/maps/particles/tft/tft_item_thiefsgloves.tft.png"
+    },
+    {
+      "id": "TFT_Item_Bloodthirster",
+      "name": "Huyết Kiếm",
+      "components": [
+        "TFT1_Item_BFSword",
+        "TFT_Item_NegatronCloak"
+      ],
+      "description": "Một lần mỗi giao tranh khi còn @HealthThreshold@% Máu, nhận Lá Chắn bằng @ShieldHealthPercent@% Máu tối đa, duy trì trong @ShieldDuration@ giây.",
+      "isUnique": false,
+      "icon": "https://raw.communitydragon.org/9.21/game/assets/maps/particles/tft/tft_item_bloodthirster.tft.png"
+    },
+    {
+      "id": "TFT_Item_KnightsVow",
+      "name": "Lời Thề Hiệp Sĩ",
+      "components": [
+        "TFT_Item_ChainVest",
+        "TFT_Item_Spatula"
+      ],
+      "description": "Tăng %i:scaleArmor% +@Armor@<br>Chủ sở hữu cũng là Hiệp Sĩ<br><br><tftitemrules>[Duy Nhất - chỉ một mỗi tướng]</tftitemrules>",
+      "isUnique": false,
+      "icon": "https://raw.communitydragon.org/9.21/game/assets/maps/particles/tft/tft_item_knightsvow.tft.png"
+    },
+    {
+      "id": "TFT_Item_FrozenMallet",
+      "name": "TFT_item_name_FrozenMallet",
+      "components": [
+        "TFT_Item_Spatula",
+        "TFT1_Item_GiantsBelt"
+      ],
+      "description": "TFT_item_description_FrozenMallet",
+      "isUnique": false,
+      "icon": "https://raw.communitydragon.org/9.21/game/assets/maps/particles/tft/tft_item_frozenmallet.tft.png"
+    },
+    {
+      "id": "TFT_Item_TitanicHydra",
+      "name": "Thông Đạo Zz'rot",
+      "components": [
+        "TFT_Item_RecurveBow",
+        "TFT1_Item_GiantsBelt"
+      ],
+      "description": "Bắt đầu giao tranh: <TFTKeyword>Khiêu Khích</TFTKeyword>.<br>Khi bị hạ, sinh ra 1 Bọ Hư Không, <TFTKeyword>Khiêu Khích</TFTKeyword> kẻ địch gần bên. Bọ Hư Không bị giảm mạnh hiệu lực khi được tạo ra bởi 1 đơn vị triệu hồi.<br><br><tftitemrules><tftbold>Khiêu Khích</tftbold>: những kẻ địch trong tầm đánh và có thể tấn công bị buộc phải tấn công kẻ khiêu khích</tftitemrules>",
+      "isUnique": false,
+      "icon": "https://raw.communitydragon.org/9.21/game/assets/maps/particles/tft/tft_item_titanichydra.tft.png"
+    },
+    {
+      "id": "TFT_Item_YoumuusGhostblade",
+      "name": "Kiếm Ma Youmuu",
+      "components": [
+        "TFT1_Item_BFSword",
+        "TFT_Item_Spatula"
+      ],
+      "description": "Chủ sở hữu cũng là Sát Thủ.<br><br><tftitemrules>[Duy Nhất - chỉ một mỗi tướng]</tftitemrules>",
+      "isUnique": false,
+      "icon": "https://raw.communitydragon.org/9.21/game/assets/maps/particles/tft/tft_item_youmuusghostblade.tft.png"
+    },
+    {
+      "id": "TFT_Item_LocketOfTheIronSolari",
+      "name": "Dây Chuyền Iron Solari",
+      "components": [
+        "TFT1_Item_NeedlesslyLargeRod",
+        "TFT_Item_ChainVest"
+      ],
+      "description": "Bắt đầu giao tranh: Chủ sở hữu và đồng minh trong phạm vi @HexRange@ ô cùng hàng nhận @ShieldValue@ Lá Chắn, @BonusResists@ Giáp và @BonusResists@ Kháng Phép trong @ShieldDuration@ giây.<br><br>​<tftitemrules>[Trang Bị Hỗ Trợ]</tftitemrules>",
+      "isUnique": false,
+      "icon": "https://raw.communitydragon.org/9.21/game/assets/maps/particles/tft/tft_item_locketoftheironsolari.tft.png"
+    },
+    {
+      "id": "TFT_Item_Yuumi",
+      "name": "TFT_item_name_Yuumi",
+      "components": [
+        "TFT1_Item_NeedlesslyLargeRod",
+        "TFT_Item_Spatula"
+      ],
+      "description": "TFT_item_description_Yuumi",
+      "isUnique": false,
+      "icon": "https://raw.communitydragon.org/9.21/game/assets/maps/particles/tft/tft_item_yuumi.tft.png"
+    },
+    {
+      "id": "TFT_Item_Morellonomicon",
+      "name": "Quỷ Thư Morello",
+      "components": [
+        "TFT1_Item_NeedlesslyLargeRod",
+        "TFT1_Item_GiantsBelt"
+      ],
+      "description": "Đòn Đánh và Kỹ Năng gây @BurnPercent@% <TFTKeyword>Thiêu Đốt</TFTKeyword> và @GrievousWoundsPercent@% <TFTKeyword>Vết Thương Sâu</TFTKeyword> lên kẻ địch trong @BurnDuration@ giây.<br><br><tftitemrules><tftbold>Thiêu Đốt</tftbold>: Gây sát thương chuẩn mỗi giây theo Máu tối đa của mục tiêu<br><tftbold>Vết Thương Sâu</tftbold>: Giảm hồi máu nhận được</tftitemrules>",
+      "isUnique": false,
+      "icon": "https://raw.communitydragon.org/9.21/game/assets/maps/particles/tft/tft_item_morellonomicon.tft.png"
+    },
+    {
+      "id": "TFT_Item_RapidFirecannon",
+      "name": "Bùa Đỏ",
+      "components": [
+        "TFT_Item_RecurveBow",
+        "TFT_Item_RecurveBow"
+      ],
+      "description": "Đòn Đánh và Kỹ Năng gây @BurnPercent@% <TFTKeyword>Thiêu Đốt</TFTKeyword> và @HealingReductionPct@% <TFTKeyword>Vết Thương Sâu</TFTKeyword> lên kẻ địch trong @Duration@ giây.<br><br><tftitemrules><tftbold>Thiêu Đốt</tftbold>: Gây sát thương chuẩn mỗi giây theo Máu tối đa của mục tiêu<br><tftbold>Vết Thương Sâu</tftbold>: Giảm hồi máu nhận được</tftitemrules>",
+      "isUnique": false,
+      "icon": "https://raw.communitydragon.org/9.21/game/assets/maps/particles/tft/tft_item_rapidfirecannon.tft.png"
+    },
+    {
+      "id": "TFT_Item_SwordBreaker",
+      "name": "Sword Breaker",
+      "components": [
+        "TFT_Item_ChainVest",
+        "TFT_Item_NegatronCloak"
+      ],
+      "description": "Wearer's Basic Attacks have a @ChanceOnHitToDisarm@% chance to disarm the target for @DisarmDuration@ seconds, preventing that enemy from Basic Attacking.",
+      "isUnique": false,
+      "icon": "https://raw.communitydragon.org/9.21/game/assets/maps/particles/tft/tft_item_swordbreaker.tft.png"
+    },
+    {
+      "id": "TFT_Item_SparringGloves",
+      "name": "Găng Đấu Tập",
+      "components": [],
+      "description": "+@CritChance@ Tỉ Lệ Chí Mạng",
+      "isUnique": false,
+      "icon": "https://raw.communitydragon.org/9.21/game/assets/maps/particles/tft/tft_item_sparringgloves.tft.png"
+    },
+    {
+      "id": "TFT1_Item_GiantsBelt",
+      "name": "Giant's Belt",
+      "components": [],
+      "description": "+@Health@ Health",
+      "isUnique": false,
+      "icon": "https://raw.communitydragon.org/9.21/game/assets/maps/particles/tft/icon_giantsbelt.tft.png"
+    },
+    {
+      "id": "TFT1_Item_NeedlesslyLargeRod",
+      "name": "Needlessly Large Rod",
+      "components": [],
+      "description": "+@AP@% Spell Power",
+      "isUnique": false,
+      "icon": "https://raw.communitydragon.org/9.21/game/assets/maps/particles/tft/icon_needlesslylargerod.tft.png"
+    },
+    {
+      "id": "TFT_Item_Jeweled",
+      "name": "Jeweled Gauntlet",
+      "components": [
+        "TFT1_Item_NeedlesslyLargeRod",
+        "TFT_Item_SparringGloves"
+      ],
+      "description": "The wearer's spells can critically strike.<br><br><tftitemrules>[Unique - Only One Per Champion]</tftitemrules>",
+      "isUnique": false,
+      "icon": "https://raw.communitydragon.org/9.21/game/assets/maps/particles/tft/tft_item_jeweled_gauntlet.tft.png"
+    },
+    {
+      "id": "TFT_Item_RepeatingCrossbow",
+      "name": "Repeating Crossbow",
+      "components": [
+        "TFT_Item_RecurveBow",
+        "TFT_Item_SparringGloves"
+      ],
+      "description": "When the wearer dies, Repeating Crossbow is re-equipped to a new ally. Each time Repeating Crossbow is re-equipped, it grants an additional +@AttackSpeedPerStack@% Attack Speed and +@CritChancePerStack@% Critical Strike Chance for the remainder of combat.<br><br>This effect can stack any number of times.",
+      "isUnique": false,
+      "icon": "https://raw.communitydragon.org/9.21/game/assets/maps/particles/tft/tft_item_repeatingcrossbow.tft.png"
+    },
+    {
+      "id": "TFT_Item_ForceOfNature",
+      "name": "Vương Miện Chiến Thuật ",
+      "components": [
+        "TFT_Item_Spatula",
+        "TFT_Item_Spatula"
+      ],
+      "description": "Đội của bạn được +@MaxArmySizeIncrease@ giới hạn tướng tối đa.<br><br>@PercentGoldChance@% cơ hội rớt ra 1 vàng khi chiến thắng giao tranh.<br><br><tftitemrules>\"...trái tim của một anh hùng...\"</tftitemrules>",
+      "isUnique": false,
+      "icon": "https://raw.communitydragon.org/9.21/game/assets/maps/particles/tft/tft_item_forceofnature.tft.png"
+    },
+    {
+      "id": "TFT_Item_DeathBlade",
+      "name": "Kiếm Tử Thần",
+      "components": [
+        "TFT1_Item_BFSword",
+        "TFT1_Item_BFSword"
+      ],
+      "description": "<tftitemrules>Đem tới sự yên bình vĩnh hằng cho người mang - và cả những kẻ phải đối đầu với nó.</tftitemrules><br><br>@TFTUnitProperty.:TFT_Augment_TragicalBlade_TRAKey@",
+      "isUnique": false,
+      "icon": "https://raw.communitydragon.org/9.21/game/assets/maps/particles/tft/tft_item_deathblade.tft.png"
+    },
+    {
+      "id": "TFT_Item_Spatula",
+      "name": "Siêu Xẻng",
+      "components": [],
+      "description": "<tftitemrules>Nó phải có tác dụng gì đó...</tftitemrules>",
+      "isUnique": false,
+      "icon": "https://raw.communitydragon.org/9.21/game/assets/maps/particles/tft/tft_item_spatula.tft.png"
+    },
+    {
+      "id": "TFT_Item_WarmogsArmor",
+      "name": "Giáp Máu Warmog",
+      "components": [
+        "TFT1_Item_GiantsBelt",
+        "TFT1_Item_GiantsBelt"
+      ],
+      "description": "Nhận @BonusPercentHP*100@% Máu tối đa.<br>",
+      "isUnique": false,
+      "icon": "https://raw.communitydragon.org/9.21/game/assets/maps/particles/tft/tft_item_warmogsarmor.tft.png"
+    },
+    {
+      "id": "TFT_Item_HextechGunblade",
+      "name": "Kiếm Súng Hextech",
+      "components": [
+        "TFT1_Item_BFSword",
+        "TFT1_Item_NeedlesslyLargeRod"
+      ],
+      "description": "Hồi máu cho đồng minh thấp Máu nhất bằng @AllyHealing*100@% lượng sát thương gây ra.<br><br><TFTTrackerLabel>Hồi Máu Đồng Minh:</TFTTrackerLabel> <TFTHighlight>@TFTUnitProperty.item:TFT_Tracker_Value1@</TFTHighlight>",
+      "isUnique": false,
+      "icon": "https://raw.communitydragon.org/9.21/game/assets/maps/particles/tft/tft_item_hextechgunblade.tft.png"
+    }
+  ]
+}

@@ -1,0 +1,4039 @@
+{
+  "setId": 18,
+  "name": "Đại Ngàn Kỳ Bí",
+  "nameEn": null,
+  "releaseDate": "2026-08-12",
+  "boardSize": {
+    "rows": 4,
+    "cols": 7
+  },
+  "mechanic": "",
+  "source": {
+    "patch": "latest",
+    "lang": "vi_vn"
+  },
+  "traits": [
+    {
+      "id": "DA_18_Elderwood",
+      "name": "Thần Rừng",
+      "description": "Nhận các cây Thần Rừng có thể đặt được.<br><row>(@MinUnits@) 1 Cây Vỏ Đá và 1 Hoa Sinh Mệnh</row><br><row>(@MinUnits@) Cây Vỏ Đá thứ hai & các Cây Vỏ Đá được tăng @StonebarkTreeBonusHealth@ Máu</row><br><row>(@MinUnits@) và Hộ Vệ Rừng</row><br><row>(@MinUnits@) Các cây trở thành 2 sao</row><br><row>(@MinUnits@) Các cây trở thành 3 sao và khu rừng được hình thành</row>",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/ux/traiticons/trait_icon_18_elderwood.png",
+      "breakpoints": [
+        {
+          "count": 3,
+          "style": "bronze",
+          "effect": "",
+          "variables": {
+            "{0f90e7a4}": 0.25,
+            "{4013f48e}": 0.10000000149011612
+          }
+        },
+        {
+          "count": 5,
+          "style": "silver",
+          "effect": "",
+          "variables": {
+            "{0f90e7a4}": 0.25,
+            "{4013f48e}": 0.10000000149011612,
+            "{b027c2f9}": 200
+          }
+        },
+        {
+          "count": 7,
+          "style": "gold",
+          "effect": "",
+          "variables": {
+            "{0f90e7a4}": 0.25,
+            "{4013f48e}": 0.10000000149011612
+          }
+        },
+        {
+          "count": 9,
+          "style": "gold",
+          "effect": "",
+          "variables": {
+            "{0f90e7a4}": 0.25,
+            "{4013f48e}": 0.10000000149011612
+          }
+        },
+        {
+          "count": 11,
+          "style": "prismatic",
+          "effect": "",
+          "variables": {
+            "{0f90e7a4}": 0.25,
+            "{4013f48e}": 0.10000000149011612
+          }
+        }
+      ]
+    },
+    {
+      "id": "DA_18_LuxUniqueTrait",
+      "name": "Thế Thần",
+      "description": "Sở hữu một tướng Thế Thần sẽ biến mọi tướng Thế Thần khác trong cửa hàng của bạn về Tộc/Hệ của tướng Thế Thần đó.<br><br>Tộc/Hệ được chọn của tướng Thế Thần sẽ được tính gấp đôi cho các mốc thưởng Tộc/Hệ.",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/ux/traiticons/trait_icon_18_avatar.png",
+      "breakpoints": [
+        {
+          "count": 1,
+          "style": "unique",
+          "effect": "",
+          "variables": {}
+        }
+      ]
+    },
+    {
+      "id": "DA_18_Slayer",
+      "name": "Tàn Phá",
+      "description": "Tướng Tàn Phá nhận @Omnivamp*100@% Hút Máu Toàn Phần. Ngoài ra, tướng Tàn Phá sẽ gây thêm sát thương, tăng gấp đôi khi tấn công kẻ địch còn dưới @EnemyHealthThreshold*100@% Máu.<br><row>(@MinUnits@) @BonusDamagePercentBase*100@% Sát Thương Cộng Thêm</row><br><row>(@MinUnits@) @BonusDamagePercentBase*100@% Sát Thương Cộng Thêm</row><br><row>(@MinUnits@) @BonusDamagePercentBase*100@% Sát Thương Cộng Thêm</row>",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/ux/traiticons/trait_icon_18_ravager.png",
+      "breakpoints": [
+        {
+          "count": 2,
+          "style": "bronze",
+          "effect": "",
+          "variables": {
+            "Omnivamp": 0.10000000149011612,
+            "{a9a813e7}": 0.11999999731779099,
+            "{bef0ca90}": 0.5
+          }
+        },
+        {
+          "count": 4,
+          "style": "silver",
+          "effect": "",
+          "variables": {
+            "Omnivamp": 0.10000000149011612,
+            "{a9a813e7}": 0.25,
+            "{bef0ca90}": 0.5
+          }
+        },
+        {
+          "count": 6,
+          "style": "gold",
+          "effect": "",
+          "variables": {
+            "Omnivamp": 0.10000000149011612,
+            "{a9a813e7}": 0.4000000059604645,
+            "{bef0ca90}": 0.5
+          }
+        }
+      ]
+    },
+    {
+      "id": "DA_DravenUniqueTrait18",
+      "name": "Săn Thưởng",
+      "description": "Chọn một nhiệm vụ. Draven mạnh nhất của bạn có thể hoàn thành nhiệm vụ săn thưởng để nhận phần thưởng tương ứng. Sau khi hoàn thành một nhiệm vụ săn thưởng, hãy chọn nhiệm vụ tiếp theo.",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/ux/traiticons/trait_icon_18_bountyseeker.png",
+      "breakpoints": [
+        {
+          "count": 1,
+          "style": "unique",
+          "effect": "",
+          "variables": {}
+        }
+      ]
+    },
+    {
+      "id": "DA_18_Solar",
+      "name": "Mặt Trời",
+      "description": "<row>(@MinUnits@) Tướng của bạn nhận lá chắn bằng @ShieldRatio*100@% Máu tối đa và gây @BonusMagicDamage*100@% sát thương phép cộng thêm. Nhận thêm hiệu ứng bổ sung với mỗi tướng 3 sao độc nhất:<br><br>1: Tăng lá chắn và sát thương phép thêm @PercentIncreasePer3Star*100@% với mỗi tướng 3 sao. <br>@NumThreeStarThreshold1@: @Threshold1AttackSpeed*100@% %i:scaleAS% và @Threshold1ArmorMagicResist@ %i:scaleArmor%%i:scaleMR%<br>@NumThreeStarThreshold2@: Chuyển đổi @Threshold2TrueDamageConversion*100@% sát thương phép cộng thêm thành sát thương chuẩn.<br>@NumThreeStarThreshold3@: Mỗi @Threshold3StarUpPeriod@ giây giao tranh, 1 tướng 3 sao thăng hoa lên 4 sao.</row>",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/ux/traiticons/trait_icon_18_solar.png",
+      "breakpoints": [
+        {
+          "count": 3,
+          "style": "gold",
+          "effect": "",
+          "variables": {
+            "BonusMagicDamage": 0.07999999821186066,
+            "ShieldRatio": 0.05000000074505806,
+            "{092e2b2b}": 3,
+            "{0a2e2cbe}": 5,
+            "{0b2e2e51}": 8,
+            "{5cfe766f}": 0.4000000059604645,
+            "{617a160e}": 0.1499999761581421,
+            "{7e77da03}": 12,
+            "{a51b2ace}": 0.009999999776482582,
+            "{d91f7c21}": 4
+          }
+        }
+      ]
+    },
+    {
+      "id": "DA_18_Sprykin",
+      "name": "Tinh Nghịch",
+      "description": "Nhận Lông Xù Khổng Lồ. Thả một tướng Tinh Nghịch lên LXKL để chọn làm Kỵ Sĩ.<br><row>(@MinUnits@) Kỵ Sĩ nhận được<br>@HealthIncrease*100@% %i:scaleHealth% và @AttackSpeedIncrease*100@% %i:scaleAS%</row><br><row>(@MinUnits@) @HealthIncrease*100@% %i:scaleHealth% @AttackSpeedIncrease*100@% %i:scaleAS%, và @TeamwideRatio*100@% Kỹ năng của LXKL sẽ áp dụng cho các tướng Tinh Nghịch của bạn.</row><br><row>(@MinUnits@) @HealthIncrease*100@% %i:scaleHealth% @AttackSpeedIncrease*100@% %i:scaleAS%, và @TeamwideRatio*100@% Kỹ năng của LXKL sẽ áp dụng cho các tướng Tinh Nghịch của bạn.</row>",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/ux/traiticons/trait_icon_18_sprykin.png",
+      "breakpoints": [
+        {
+          "count": 3,
+          "style": "bronze",
+          "effect": "",
+          "variables": {
+            "AttackSpeedIncrease": 0.1499999761581421,
+            "HealthIncrease": 0.1499999761581421
+          }
+        },
+        {
+          "count": 5,
+          "style": "silver",
+          "effect": "",
+          "variables": {
+            "AttackSpeedIncrease": 0.3500000238418579,
+            "HealthIncrease": 0.3999999761581421,
+            "{aa3fad66}": 0.5
+          }
+        },
+        {
+          "count": 7,
+          "style": "gold",
+          "effect": "",
+          "variables": {
+            "AttackSpeedIncrease": 0.5499999523162842,
+            "HealthIncrease": 0.5499999523162842,
+            "{aa3fad66}": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "DA_18_Adaptor",
+      "name": "Thích Ứng",
+      "description": "Thiên Phú: Kỹ năng của tướng Thích Ứng sẽ thay đổi tùy theo việc Sức Mạnh Công Kích hay Sức Mạnh Phép Thuật của họ cao hơn.<br><br>Tướng Thích Ứng nhận thêm Sức Mạnh Phép Thuật hoặc Sức Mạnh Công Kích, tùy vào chỉ số nào cao hơn.<br><row>(@MinUnits@) @ADAPGain*100@% HOẶC </row><br><row>(@MinUnits@) @ADAPGain*100@% HOẶC </row><br><row>(@MinUnits@) @ADAPGain*100@% HOẶC </row>",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/ux/traiticons/trait_icon_18_adaptor.png",
+      "breakpoints": [
+        {
+          "count": 2,
+          "style": "bronze",
+          "effect": "",
+          "variables": {
+            "{0412779a}": 0.25
+          }
+        },
+        {
+          "count": 3,
+          "style": "silver",
+          "effect": "",
+          "variables": {
+            "{0412779a}": 0.3499999940395355
+          }
+        },
+        {
+          "count": 4,
+          "style": "gold",
+          "effect": "",
+          "variables": {
+            "{0412779a}": 0.5
+          }
+        }
+      ]
+    },
+    {
+      "id": "DA_18_Coven",
+      "name": "Tiên Hắc Ám",
+      "description": "Nhận Tinh Hoa khi hạ gục tướng, và nhận thêm khi thua giao tranh người chơi. <br><br>Bắt đầu từ mốc @EssenceForRitualTooltip@ Tinh Hoa, bạn có thể chọn chuyển đổi Tinh Hoa thành phần thưởng hoặc tiếp tục tích lũy. Mỗi phần thưởng yêu cầu lượng Tinh Hoa tăng dần.<br><row>(@MinUnits@) @EssencePerDeath@ Tinh Hoa mỗi mạng hạ gục, @EssencePerLoss@ Tinh Hoa mỗi lần thua</row><br><row>(@MinUnits@) @EssencePerDeath@ mỗi mạng hạ gục, @EssencePerLoss@ mỗi lần thua</row><br><row>(@MinUnits@) @EssencePerDeath@ mỗi mạng hạ gục, @EssencePerLoss@ mỗi lần thua</row><br><row>(@MinUnits@) @EssencePerDeath@ mỗi mạng hạ gục, @EssencePerLoss@ mỗi lần thua</row>",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/ux/traiticons/trait_icon_18_coven.png",
+      "breakpoints": [
+        {
+          "count": 3,
+          "style": "bronze",
+          "effect": "",
+          "variables": {
+            "{7a9d7f0e}": 2,
+            "{d62ae6ae}": 40,
+            "{de46577b}": 22
+          }
+        },
+        {
+          "count": 4,
+          "style": "silver",
+          "effect": "",
+          "variables": {
+            "{7a9d7f0e}": 2,
+            "{d62ae6ae}": 40,
+            "{de46577b}": 28
+          }
+        },
+        {
+          "count": 5,
+          "style": "silver",
+          "effect": "",
+          "variables": {
+            "{7a9d7f0e}": 3,
+            "{d62ae6ae}": 40,
+            "{de46577b}": 35
+          }
+        },
+        {
+          "count": 7,
+          "style": "gold",
+          "effect": "",
+          "variables": {
+            "{7a9d7f0e}": 10,
+            "{d62ae6ae}": 40,
+            "{de46577b}": 60
+          }
+        }
+      ]
+    },
+    {
+      "id": "DA_18_Hunter",
+      "name": "Thợ Săn",
+      "description": "Tướng Thợ Săn nhận Sức Mạnh Công Kích. Nếu tướng Thợ Săn không đổi mục tiêu trong @HunterDuration@ giây, họ nhận thêm @DamageAmp*100@% Khuếch Đại Sát Thương.<br><row>(@MinUnits@) @HunterAD*100@% %i:scaleAD%</row><br><row>(@MinUnits@) @HunterAD*100@% %i:scaleAD%</row><br><row>(@MinUnits@) @HunterAD*100@% %i:scaleAD%</row><br><row>(@MinUnits@) @HunterAD*100@% %i:scaleAD%</row>",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/ux/traiticons/trait_icon_18_hunter.png",
+      "breakpoints": [
+        {
+          "count": 2,
+          "style": "bronze",
+          "effect": "",
+          "variables": {
+            "DamageAmp": 0.10000000149011612,
+            "{641254b6}": 0.20000000298023224,
+            "{83011ee7}": 3
+          }
+        },
+        {
+          "count": 3,
+          "style": "silver",
+          "effect": "",
+          "variables": {
+            "DamageAmp": 0.10000000149011612,
+            "{641254b6}": 0.30000001192092896,
+            "{83011ee7}": 3
+          }
+        },
+        {
+          "count": 4,
+          "style": "silver",
+          "effect": "",
+          "variables": {
+            "DamageAmp": 0.10000000149011612,
+            "{641254b6}": 0.44999998807907104,
+            "{83011ee7}": 3
+          }
+        },
+        {
+          "count": 5,
+          "style": "gold",
+          "effect": "",
+          "variables": {
+            "DamageAmp": 0.10000000149011612,
+            "{641254b6}": 0.6000000238418579,
+            "{83011ee7}": 3
+          }
+        }
+      ]
+    },
+    {
+      "id": "DA_18_Maokai_UniqueTrait",
+      "name": "Cổ Thụ",
+      "description": "Mỗi khi một kẻ địch trong @UniqueTraitHexRange@ ô bị hạ gục, tướng Cổ Thụ mạnh nhất của bạn nhận @UniqueTraitHealthPerStack@ Máu tối đa vĩnh viễn.<br><br>Hiện tại: 0",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/ux/traiticons/trait_icon_18_oldgrowth.png",
+      "breakpoints": [
+        {
+          "count": 1,
+          "style": "unique",
+          "effect": "",
+          "variables": {
+            "{36e69059}": 30,
+            "{56607148}": 3
+          }
+        }
+      ]
+    },
+    {
+      "id": "DA_18_Battlemage",
+      "name": "Cự Thạch",
+      "description": "Tướng Cự Thạch tăng @Resists@ Giáp và Kháng Phép với mỗi kẻ địch đang nhắm vào họ.",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/ux/traiticons/trait_icon_18_monolith.png",
+      "breakpoints": [
+        {
+          "count": 1,
+          "style": "unique",
+          "effect": "",
+          "variables": {
+            "Resists": 10
+          }
+        }
+      ]
+    },
+    {
+      "id": "DA_Primal18",
+      "name": "Nguyên Sinh",
+      "description": "Chọn 1 trong 4 Phước Lành Nguyên Sinh.<br><row>(@MinUnits@)</row><br><row>(@MinUnits@)</row>",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/ux/traiticons/trait_icon_18_primal.png",
+      "breakpoints": [
+        {
+          "count": 2,
+          "style": "bronze",
+          "effect": "",
+          "variables": {}
+        },
+        {
+          "count": 4,
+          "style": "gold",
+          "effect": "",
+          "variables": {}
+        }
+      ]
+    },
+    {
+      "id": "DA_18_Greenfather",
+      "name": "Thụ Thần",
+      "description": "Nhận @SeedsPerCast@ hạt giống khi Ivern mạnh nhất của bạn thi triển, cộng thêm @CombatStartSeeds@ mỗi giao tranh. Ivern dùng @SeedsToGrowHex@ hạt giống để nuôi lớn 1 ô trên bàn đấu của bạn, trao hiệu ứng cộng thêm cho đơn vị đứng trên ô đó. <br><br>Hạt Giống: 0 / @SeedsToGrowHex@<br><br>Hệ Sinh Thái Hiện Tại:",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/ux/traiticons/trait_icon_18_greenfather.png",
+      "breakpoints": [
+        {
+          "count": 1,
+          "style": "unique",
+          "effect": "",
+          "variables": {
+            "{5f537bd3}": 1,
+            "{5fea9917}": 3,
+            "{b133da98}": 5
+          }
+        }
+      ]
+    },
+    {
+      "id": "DA_18_Invoker",
+      "name": "Thuật Sĩ",
+      "description": "Đội của bạn được tăng Hồi Năng Lượng, tướng Thuật Sĩ nhận được nhiều hơn.<br><row>(@MinUnits@) @TeamManaRegen@ %i:scaleManaRegen% | @InvokerManaBonus@ %i:scaleManaRegen%</row><br><row>(@MinUnits@) @TeamManaRegen@ %i:scaleManaRegen% | @InvokerManaBonus@ %i:scaleManaRegen%</row><br><row>(@MinUnits@) @TeamManaRegen@ %i:scaleManaRegen% | @InvokerManaBonus@ %i:scaleManaRegen%</row><br><row>(@MinUnits@) @TeamManaRegen@ %i:scaleManaRegen% | @InvokerManaBonus@ %i:scaleManaRegen%</row>",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/ux/traiticons/trait_icon_18_invoker.png",
+      "breakpoints": [
+        {
+          "count": 2,
+          "style": "bronze",
+          "effect": "",
+          "variables": {
+            "TeamManaRegen": 1,
+            "{de27cb95}": 3
+          }
+        },
+        {
+          "count": 3,
+          "style": "silver",
+          "effect": "",
+          "variables": {
+            "TeamManaRegen": 1,
+            "{de27cb95}": 4
+          }
+        },
+        {
+          "count": 4,
+          "style": "silver",
+          "effect": "",
+          "variables": {
+            "TeamManaRegen": 2,
+            "{de27cb95}": 6
+          }
+        },
+        {
+          "count": 5,
+          "style": "gold",
+          "effect": "",
+          "variables": {
+            "TeamManaRegen": 2,
+            "{de27cb95}": 8
+          }
+        }
+      ]
+    },
+    {
+      "id": "DA_18_Rapidfire",
+      "name": "Liên Kích",
+      "description": "Đội của bạn nhận @TeamAS*100@% Tốc Độ Đánh. Các tướng Liên Kích nhận thêm sau mỗi đòn đánh, tối đa @MaxStacks@ cộng dồn.<br><row>(@MinUnits@) +@ASPerAttack*100@% %i:scaleAS% mỗi Đòn Đánh</row><br><row>(@MinUnits@) +@ASPerAttack*100@% %i:scaleAS% mỗi Đòn Đánh</row><br><row>(@MinUnits@) +@ASPerAttack*100@% %i:scaleAS% mỗi Đòn Đánh</row><br><row>(@MinUnits@) +@ASPerAttack*100@% %i:scaleAS% mỗi Đòn Đánh</row>",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/ux/traiticons/trait_icon_18_rapidfire.png",
+      "breakpoints": [
+        {
+          "count": 2,
+          "style": "bronze",
+          "effect": "",
+          "variables": {
+            "ASperAttack": 0.029999971389770508,
+            "MaxStacks": 10,
+            "{1d98dcec}": 0.10000002384185791
+          }
+        },
+        {
+          "count": 3,
+          "style": "silver",
+          "effect": "",
+          "variables": {
+            "ASperAttack": 0.04999995231628418,
+            "MaxStacks": 10,
+            "{1d98dcec}": 0.10000002384185791
+          }
+        },
+        {
+          "count": 4,
+          "style": "silver",
+          "effect": "",
+          "variables": {
+            "ASperAttack": 0.0700000524520874,
+            "MaxStacks": 10,
+            "{1d98dcec}": 0.10000002384185791
+          }
+        },
+        {
+          "count": 5,
+          "style": "gold",
+          "effect": "",
+          "variables": {
+            "ASperAttack": 0.10000002384185791,
+            "MaxStacks": 10,
+            "{1d98dcec}": 0.10000002384185791
+          }
+        }
+      ]
+    },
+    {
+      "id": "DA_Juggernaut18",
+      "name": "Dũng Sĩ",
+      "description": "Đội của bạn nhận Chống Chịu. Tướng Dũng Sĩ nhận được nhiều hơn.<br><row>(@MinUnits@) @TeamDurability*100@% %i:scaleDR% hoặc @JuggernautDurability*100@% %i:scaleDR%</row><br><row>(@MinUnits@) @TeamDurability*100@% %i:scaleDR% hoặc @JuggernautDurability*100@% %i:scaleDR%</row><br><row>(@MinUnits@) @TeamDurability*100@% %i:scaleDR% hoặc @JuggernautDurability*100@% %i:scaleDR%</row>",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/ux/traiticons/trait_icon_18_juggernaut.png",
+      "breakpoints": [
+        {
+          "count": 2,
+          "style": "bronze",
+          "effect": "",
+          "variables": {
+            "{6eab9c5e}": 0.19999998807907104,
+            "{f8c73243}": 0.04000002145767212
+          }
+        },
+        {
+          "count": 4,
+          "style": "silver",
+          "effect": "",
+          "variables": {
+            "{6eab9c5e}": 0.30000001192092896,
+            "{f8c73243}": 0.06000000238418579
+          }
+        },
+        {
+          "count": 6,
+          "style": "gold",
+          "effect": "",
+          "variables": {
+            "{6eab9c5e}": 0.42000001668930054,
+            "{f8c73243}": 0.07999998331069946
+          }
+        }
+      ]
+    },
+    {
+      "id": "DA_18_Inferno",
+      "name": "Hỏa Ngục",
+      "description": "Sát thương từ tướng Hỏa Ngục sẽ gây <TFTKeyword>Thiêu Đốt</TFTKeyword> và <TFTKeyword>Vết Thương Sâu</TFTKeyword> lên kẻ địch trong @Duration@ giây. Thiêu Đốt từ Hỏa Ngục cộng dồn với các hiệu ứng Thiêu Đốt khác.<br><row>(@MinUnits@) Thiêu Đốt @HPBurnPerSecond@%, Vết Thương Sâu @WoundPercent@%</row><br><row>(@MinUnits@) Sau giao tranh, @LuckySlotCount@ ô cửa hàng không chứa tướng Hỏa Ngục của bạn sẽ bốc cháy, hiện ra tướng cao hơn 1 bậc</row><br><row>(@MinUnits@) @LuckySlotCount@ ô cửa hàng Bốc Cháy, Thiêu Đốt @HPBurnPerSecond@%</row><br><row>(@MinUnits@) @LuckySlotCount@ ô cửa hàng Bốc Cháy, Thiêu Đốt @HPBurnPerSecond@%</row>",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/ux/traiticons/trait_icon_18_inferno.png",
+      "breakpoints": [
+        {
+          "count": 2,
+          "style": "bronze",
+          "effect": "",
+          "variables": {
+            "Duration": 3,
+            "WoundPercent": 33,
+            "{2c202877}": 1
+          }
+        },
+        {
+          "count": 3,
+          "style": "silver",
+          "effect": "",
+          "variables": {
+            "Duration": 3,
+            "{c4c70a4e}": 1
+          }
+        },
+        {
+          "count": 5,
+          "style": "gold",
+          "effect": "",
+          "variables": {
+            "Duration": 3,
+            "{2c202877}": 3,
+            "{c4c70a4e}": 2
+          }
+        },
+        {
+          "count": 7,
+          "style": "gold",
+          "effect": "",
+          "variables": {
+            "Duration": 3,
+            "{2c202877}": 4,
+            "{c4c70a4e}": 4
+          }
+        }
+      ]
+    },
+    {
+      "id": "DA_AluneUniqueTrait18",
+      "name": "Hòa Hợp",
+      "description": "Alune mạnh nhất của bạn sẽ chuyển sang một pha trăng mới sau mỗi lần thi triển. Khi mặt trăng ở pha bán nguyệt hoặc khuyết hơn, đội của bạn nhận @Durability*100@% Chống Chịu. Khi ở những pha còn lại, đội của bạn nhận @DamageAmp*100@% Khuếch Đại Sát Thương.",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/ux/traiticons/trait_icon_18_attuned.png",
+      "breakpoints": [
+        {
+          "count": 1,
+          "style": "unique",
+          "effect": "",
+          "variables": {
+            "DamageAmp": 0.07000000029802322,
+            "Durability": 0.050000011920928955
+          }
+        }
+      ]
+    },
+    {
+      "id": "DA_18_Rival",
+      "name": "Khắc Tinh",
+      "description": "<row>(@MinUnits@) Chỉ kích hoạt khi triển khai 1 tướng Khắc Tinh.<br><br>Tướng Khắc Tinh thu thập điểm tham gia hạ gục, nhận 3 điểm nếu tham gia hạ gục một tướng Khắc Tinh khác.</row><br><row>(@MinUnits@) Tướng Khắc Tinh thu thập điểm tham gia hạ gục, nhận 3 điểm nếu tham gia hạ gục một tướng Khắc Tinh khác.<br><br>Tham gia hạ gục sẽ tiến hóa Kha'Zix, vĩnh viễn ban cho hắn lựa chọn tùy ý: Đao Phủ, Liên Kích, Tàn Phá hoặc Thuật Sư.<br><br>Rengar trao @RengarGold@/@RengarGold_2@/@RengarGold_3@ vàng mỗi @RengarStackReq@ lần tham gia hạ gục. Sau @RengarADStackReq@ lần tham gia hạ gục, đội của bạn nhận @RengarThresholdAD*100@% Sức Mạnh Công Kích + @RengarADPerStack*100@% %i:scaleAD% cho mỗi lần tham gia hạ gục tiếp theo.<br><br>Số Lần Kha'Zix Tham Gia Hạ Gục: 0 / 0<br>Số Lần Rengar Tham Gia Hạ Gục: 0<br>Vàng Kiếm Được: 0</row><br><row>(@MinUnits@) tướng Khắc Tinh được triển khai cùng nhau, và kỹ năng của họ sẽ trao hiệu ứng thưởng cho nhau.</row>",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/ux/traiticons/trait_icon_18_rival.png",
+      "breakpoints": [
+        {
+          "count": 1,
+          "style": "gold",
+          "effect": "",
+          "variables": {}
+        },
+        {
+          "count": 1,
+          "style": "bronze",
+          "effect": "",
+          "variables": {
+            "{1b5b0a96}": 2,
+            "{3bcd79f5}": 30,
+            "{740d1888}": 5,
+            "{750d1a1b}": 3,
+            "{a1ab72d6}": 0.05000000074505806,
+            "{a6d81c50}": 8,
+            "{f1f3dbfc}": 0.0020000000949949026
+          }
+        },
+        {
+          "count": 2,
+          "style": "gold",
+          "effect": "",
+          "variables": {}
+        }
+      ]
+    },
+    {
+      "id": "DA_18_Vanguard",
+      "name": "Tiên Phong",
+      "description": "Khi Bắt Đầu Giao Rranh và khi xuống dưới @HealthThreshold*100@% Máu, tướng Tiên Phong nhận Lá Chắn theo Máu tối đa trong @ShieldDuration@ giây.<br><row>(@MinUnits@) @MaxHealthShield*100@% Máu tối đa</row><br><row>(@MinUnits@) @MaxHealthShield*100@% Máu tối đa</row><br><row>(@MinUnits@) @MaxHealthShield*100@% Máu tối đa. Tăng @DurabilityIncrease*100@% Chống Chịu khi có Lá Chắn.</row>",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/ux/traiticons/trait_icon_18_vanguard.png",
+      "breakpoints": [
+        {
+          "count": 2,
+          "style": "bronze",
+          "effect": "",
+          "variables": {
+            "HealthThreshold": 0.5,
+            "MaxHealthShield": 0.18000000715255737,
+            "ShieldDuration": 10
+          }
+        },
+        {
+          "count": 4,
+          "style": "silver",
+          "effect": "",
+          "variables": {
+            "HealthThreshold": 0.5,
+            "MaxHealthShield": 0.30000001192092896,
+            "ShieldDuration": 10
+          }
+        },
+        {
+          "count": 6,
+          "style": "gold",
+          "effect": "",
+          "variables": {
+            "HealthThreshold": 0.5,
+            "MaxHealthShield": 0.4000000059604645,
+            "ShieldDuration": 10,
+            "{b58e0b6e}": 0.050000011920928955
+          }
+        }
+      ]
+    },
+    {
+      "id": "DA_18_Brawler",
+      "name": "Đấu Sĩ",
+      "description": "Đội của bạn nhận thêm @BrawlerTeamHealth@ Máu tối đa. Tướng Đấu Sĩ nhận được nhiều hơn.<br><row>(@MinUnits@) @BrawlerHealthPercent*100@% %i:scaleHealth%</row><br><row>(@MinUnits@) @BrawlerHealthPercent*100@% %i:scaleHealth%</row><br><row>(@MinUnits@) @BrawlerHealthPercent*100@% %i:scaleHealth%</row>",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/ux/traiticons/trait_icon_18_brawler.png",
+      "breakpoints": [
+        {
+          "count": 2,
+          "style": "bronze",
+          "effect": "",
+          "variables": {
+            "{da2472a7}": 120,
+            "{f1ed73eb}": 0.25
+          }
+        },
+        {
+          "count": 4,
+          "style": "silver",
+          "effect": "",
+          "variables": {
+            "{da2472a7}": 120,
+            "{f1ed73eb}": 0.4000000059604645
+          }
+        },
+        {
+          "count": 6,
+          "style": "gold",
+          "effect": "",
+          "variables": {
+            "{da2472a7}": 120,
+            "{f1ed73eb}": 0.6499999761581421
+          }
+        }
+      ]
+    },
+    {
+      "id": "DA_18_Blackthorn",
+      "name": "Gai Đen",
+      "description": "Đồng minh trên ô Gai Đen sẽ bị hiến tế trước khi giao tranh, tăng Máu cho các tướng của bạn. <br><br>Tướng Gai Đen nhận thêm chỉ số dựa trên Vai Trò, Cấp Sao và Giá của vật tế.<br><row>(@MinUnits@) @Health@ %i:scaleHealth%</row><br><row>(@MinUnits@) @Health@ %i:scaleHealth%; Hiệu ứng cộng thêm mạnh hơn @StatMultiplier*100@%</row><br><row>(@MinUnits@) @Health@ %i:scaleHealth%; Hiệu ứng cộng thêm mạnh hơn @StatMultiplier*100@%</row>",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/ux/traiticons/trait_icon_18_oldgod.png",
+      "breakpoints": [
+        {
+          "count": 2,
+          "style": "bronze",
+          "effect": "",
+          "variables": {
+            "Health": 175
+          }
+        },
+        {
+          "count": 4,
+          "style": "silver",
+          "effect": "",
+          "variables": {
+            "Health": 350,
+            "StatMultiplier": 0.2999999523162842
+          }
+        },
+        {
+          "count": 6,
+          "style": "gold",
+          "effect": "",
+          "variables": {
+            "Health": 600,
+            "StatMultiplier": 0.5
+          }
+        }
+      ]
+    },
+    {
+      "id": "DA_18_Executioner",
+      "name": "Đao Phủ",
+      "description": "<row>(@MinUnits@) Tướng Đao Phủ nhận được <TFTKeyword>Chuẩn Xác</TFTKeyword> và @CritChance*100@% Tỉ Lệ Chí Mạng.</row><br><row>(@MinUnits@) Ngoài ra, kẻ địch sẽ bị chảy máu, chịu thêm @BonusBleedPercent*100@% sát thương chuẩn trong @BleedDuration@ giây.</row><br><row>(@MinUnits@) Sát thương chảy máu tăng thành @BonusBleedPercent*100@%.</row>",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/ux/traiticons/trait_icon_18_executioner.png",
+      "breakpoints": [
+        {
+          "count": 2,
+          "style": "bronze",
+          "effect": "",
+          "variables": {
+            "CritChance": 0.15000000596046448
+          }
+        },
+        {
+          "count": 3,
+          "style": "silver",
+          "effect": "",
+          "variables": {
+            "BleedDuration": 3,
+            "{2c61751d}": 0.25
+          }
+        },
+        {
+          "count": 4,
+          "style": "gold",
+          "effect": "",
+          "variables": {
+            "{2c61751d}": 0.3499999940395355
+          }
+        }
+      ]
+    },
+    {
+      "id": "DA_18_ApexPredator",
+      "name": "Bá Chủ",
+      "description": "Rồng Ngàn Tuổi chiếm 2 vị trí đội hình và tăng thêm 2 mốc vào tộc/hệ Quái Rừng.",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/ux/traiticons/trait_icon_18_apexpredator.png",
+      "breakpoints": [
+        {
+          "count": 1,
+          "style": "unique",
+          "effect": "",
+          "variables": {}
+        }
+      ]
+    },
+    {
+      "id": "DA_Riftbeast18",
+      "name": "Quái Rừng",
+      "description": "<row>(@MinUnits@) Sử dụng Dấu Ấn Đầu Đàn để trao Bùa Lợi độc nhất cho một tướng Quái Rừng</row><br><row>(@MinUnits@) Mỗi @OverrunCombats@ giao tranh, cửa hàng tiếp theo của bạn sẽ tràn ngập tướng Quái Rừng.</row><br><row>(@MinUnits@) Khi bắt đầu giao tranh và cứ mỗi 5 giây, tướng Quái Rừng tăng trưởng và nhận <br>@CapstoneAD*100@% %i:scaleAD% @CapstoneAP*100@% %i:scaleAP% @CapstoneAspd*100@% %i:scaleAS%<br>+@CapstoneArmor@ %i:scaleArmor% +@CapstoneMR@ %i:scaleMR% +@CapstoneHealth@ %i:scaleHealth% +@CapstoneManaRegen@ %i:scaleManaRegen%</row><br><row>(@MinUnits@) +@TeamSize@ số lượng tướng tối đa</row>",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/ux/traiticons/trait_icon_18_riftbeast.png",
+      "breakpoints": [
+        {
+          "count": 3,
+          "style": "bronze",
+          "effect": "",
+          "variables": {}
+        },
+        {
+          "count": 5,
+          "style": "silver",
+          "effect": "",
+          "variables": {
+            "{e8d16db1}": 3
+          }
+        },
+        {
+          "count": 7,
+          "style": "gold",
+          "effect": "",
+          "variables": {
+            "{0776b071}": 0.05000000074505806,
+            "{08cfb22e}": 50,
+            "{0d6c2c87}": 5,
+            "{1b76cfed}": 0.05000000074505806,
+            "{3230276c}": 1,
+            "{4e1998f4}": 0.059999942779541016,
+            "{a8c6eeaf}": 5
+          }
+        },
+        {
+          "count": 10,
+          "style": "gold",
+          "effect": "",
+          "variables": {
+            "TeamSize": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "DA_18_Caustic",
+      "name": "Ăn Mòn",
+      "description": "Sát thương Ăn Mòn sẽ Cào Xé và Phân Tách kẻ địch @ShredPercent@% trong @ShredDuration@ giây.<br><br><rules>Cào Xé: giảm Kháng Phép</rules><br><rules>Phân Tách: giảm Giáp</rules>",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/ux/traiticons/trait_icon_18_caustic.png",
+      "breakpoints": [
+        {
+          "count": 1,
+          "style": "unique",
+          "effect": "",
+          "variables": {
+            "ShredDuration": 4,
+            "ShredPercent": 30
+          }
+        }
+      ]
+    },
+    {
+      "id": "DA_18_Fae",
+      "name": "Tiên Linh",
+      "description": "Sát thương, hồi máu và tạo lá chắn của đội bạn sẽ thu hút các Pix.<br><br>Mỗi Pix sẽ tăng Sức Mạnh Công Kích và Sức Mạnh Phép Thuật cho các tướng Tiên Linh, và sau khi họ tụt xuống dưới @HealThreshold*100@% Máu, họ sẽ hồi máu với mỗi Pix.<br><row>(@MinUnits@) @ADAP@% và @Heal@% Hồi Máu.</row><br><row>(@MinUnits@) @ADAP@% và @Heal@% Hồi Máu. Sau khi thu hút 7 Pix, bạn sẽ bắt đầu thu hút Pix Hoàng Kim, những Pix Hoàng Kim này sẽ cho vàng.</row>",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/ux/traiticons/trait_icon_18_fae.png",
+      "breakpoints": [
+        {
+          "count": 2,
+          "style": "bronze",
+          "effect": "",
+          "variables": {
+            "ADAP": 4.5,
+            "Heal": 3,
+            "HealThreshold": 0.5
+          }
+        },
+        {
+          "count": 4,
+          "style": "gold",
+          "effect": "",
+          "variables": {
+            "ADAP": 7,
+            "Heal": 5,
+            "HealThreshold": 0.5
+          }
+        }
+      ]
+    },
+    {
+      "id": "DA_18_Lunar",
+      "name": "Mặt Trăng",
+      "description": "Các tướng Mặt Trăng và đồng minh liền kề nhận Tốc Độ Đánh và Sức Mạnh Phép Thuật. Các tướng Mặt Trăng nhận thêm @LunarMultiplier*100@%.<br><row>(@MinUnits@) @AttackSpeed*100@% %i:scaleAS%, @AbilityPower*100@% %i:scaleAP%</row><br><row>(@MinUnits@) @AttackSpeed*100@% %i:scaleAS%, @AbilityPower*100@% %i:scaleAP%</row><br><row>(@MinUnits@) @AttackSpeed*100@% %i:scaleAS%, @AbilityPower*100@% %i:scaleAP%</row><br><row>(@MinUnits@) @AttackSpeed*100@% %i:scaleAS%, @AbilityPower*100@% %i:scaleAP%</row>",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/ux/traiticons/trait_icon_18_lunar.png",
+      "breakpoints": [
+        {
+          "count": 2,
+          "style": "bronze",
+          "effect": "",
+          "variables": {
+            "AbilityPower": 0.07000000029802322,
+            "AttackSpeed": 0.0700000524520874,
+            "{6d27fbd4}": 1
+          }
+        },
+        {
+          "count": 3,
+          "style": "silver",
+          "effect": "",
+          "variables": {
+            "AbilityPower": 0.11999999731779099,
+            "AttackSpeed": 0.10000002384185791,
+            "{6d27fbd4}": 1
+          }
+        },
+        {
+          "count": 4,
+          "style": "silver",
+          "effect": "",
+          "variables": {
+            "AbilityPower": 0.1599999964237213,
+            "AttackSpeed": 0.13999998569488525,
+            "{6d27fbd4}": 1
+          }
+        },
+        {
+          "count": 5,
+          "style": "gold",
+          "effect": "",
+          "variables": {
+            "AbilityPower": 0.20000000298023224,
+            "AttackSpeed": 0.1799999475479126,
+            "{6d27fbd4}": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "DA_18_Defender",
+      "name": "Vệ Quân",
+      "description": "Đội của bạn nhận @NonDefenderDefenseGain@ Giáp và Kháng Phép. Tướng Vệ Quân nhận được nhiều hơn.<br><row>(@MinUnits@) @DefenderDefenseGain@</row><br><row>(@MinUnits@) @DefenderDefenseGain@</row><br><row>(@MinUnits@) @DefenderDefenseGain@</row>",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/ux/traiticons/trait_icon_18_defender.png",
+      "breakpoints": [
+        {
+          "count": 2,
+          "style": "bronze",
+          "effect": "",
+          "variables": {
+            "{0eb6405e}": 12,
+            "{8c16b281}": 25
+          }
+        },
+        {
+          "count": 4,
+          "style": "silver",
+          "effect": "",
+          "variables": {
+            "{0eb6405e}": 12,
+            "{8c16b281}": 60
+          }
+        },
+        {
+          "count": 6,
+          "style": "gold",
+          "effect": "",
+          "variables": {
+            "{0eb6405e}": 12,
+            "{8c16b281}": 115
+          }
+        }
+      ]
+    },
+    {
+      "id": "DA_18_Spellweaver",
+      "name": "Thuật Sư",
+      "description": "Đội của bạn nhận @TeamwideAP*100@% Sức Mạnh Phép Thuật. Các tướng Thuật Sư nhận được nhiều hơn, và nhận thêm Sức Mạnh Phép Thuật mỗi khi một tướng Thuật Sư thi triển Kỹ Năng.<br><row>(@MinUnits@) @SpellweaverAP*100@% %i:scaleAP%, +@APPerCast*100@% %i:scaleAP% mỗi lần thi triển</row><br><row>(@MinUnits@) @SpellweaverAP*100@% %i:scaleAP%, +@APPerCast*100@% %i:scaleAP% mỗi lần thi triển</row><br><row>(@MinUnits@) @SpellweaverAP*100@% %i:scaleAP%, +@APPerCast*100@% %i:scaleAP% mỗi lần thi triển</row>",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/ux/traiticons/trait_icon_18_spellweaver.png",
+      "breakpoints": [
+        {
+          "count": 2,
+          "style": "bronze",
+          "effect": "",
+          "variables": {
+            "APPerCast": 0.009999999776482582,
+            "TeamwideAP": 0.10000000149011612,
+            "{b012bed0}": 0.10000000149011612
+          }
+        },
+        {
+          "count": 4,
+          "style": "silver",
+          "effect": "",
+          "variables": {
+            "APPerCast": 0.009999999776482582,
+            "TeamwideAP": 0.10000000149011612,
+            "{b012bed0}": 0.30000001192092896
+          }
+        },
+        {
+          "count": 6,
+          "style": "gold",
+          "effect": "",
+          "variables": {
+            "APPerCast": 0.019999999552965164,
+            "TeamwideAP": 0.10000000149011612,
+            "{b012bed0}": 0.550000011920929
+          }
+        }
+      ]
+    },
+    {
+      "id": "DA_18_ZyraUniqueTrait",
+      "name": "Vườn Gai",
+      "description": "Đội của bạn nhận @BaseDurability*100@% Chống Chịu, tăng lên thành @IncreasedDurability*100@% nếu có tối thiểu @PlantNumThreshold@ cây của Zyra đang còn sống.",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/ux/traiticons/trait_icon_18_zyraorigin.png",
+      "breakpoints": [
+        {
+          "count": 1,
+          "style": "unique",
+          "effect": "",
+          "variables": {
+            "BaseDurability": 0.050000011920928955,
+            "{7c65d9f5}": 6,
+            "{8e1b920c}": 0.10000002384185791
+          }
+        }
+      ]
+    },
+    {
+      "id": "DA_FloraFatalis18",
+      "name": "Thực Vật",
+      "description": "Các tướng Thực Vật thu hoạch kẻ địch khi tham gia hạ gục, nhận:<br><row>(@MinUnits@) @Mana@ Năng Lượng</row><br><row>(@MinUnits@), đồng thời hồi lại @PercentHeal*100@% Máu tối đa cho đồng minh có lượng Máu thấp nhất.</row>",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/ux/traiticons/trait_icon_18_florafatalis.png",
+      "breakpoints": [
+        {
+          "count": 1,
+          "style": "bronze",
+          "effect": "",
+          "variables": {
+            "Mana": 10
+          }
+        },
+        {
+          "count": 2,
+          "style": "gold",
+          "effect": "",
+          "variables": {
+            "PercentHeal": 0.07000000029802322
+          }
+        }
+      ]
+    },
+    {
+      "id": "DA_18_Summoner",
+      "name": "Triệu Hồi",
+      "description": "Tướng Triệu Hồi cường hóa các đơn vị triệu hồi của mình theo nhiều cách khác nhau.<br><br>Yorick: +@HealthMult*100@% Máu<br>Azir: +@AzirDamageMult*100@% Sát Thương<br>Chim Mẹ: +@DamageMult*100@% Sát Thương<br>Zyra: +@NumExtraAttacks@ Đòn Đánh Từ Cây<br><row>(@MinUnits@) Cường Hóa Đơn Vị Triệu Hồi</row><br><row>(@MinUnits@) Tăng mỗi hiệu ứng thêm 50%</row>",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/ux/traiticons/trait_icon_18_summoner.png",
+      "breakpoints": [
+        {
+          "count": 2,
+          "style": "bronze",
+          "effect": "",
+          "variables": {
+            "DamageMult": 0.4500000476837158,
+            "{1cb64e3c}": 4,
+            "{5311f791}": 0.2999999523162842,
+            "{6bba9a92}": 0.20000004768371582
+          }
+        },
+        {
+          "count": 3,
+          "style": "gold",
+          "effect": "",
+          "variables": {
+            "DamageMult": 0.4500000476837158,
+            "{1cb64e3c}": 4,
+            "{5311f791}": 0.2999999523162842,
+            "{6bba9a92}": 0.20000004768371582
+          }
+        }
+      ]
+    },
+    {
+      "id": "DA_18_Blossom",
+      "name": "Hoa Linh",
+      "description": "Sau giao tranh, các Tinh Linh của bạn được cường hóa. <br><br>Tướng Hoa Linh nhận thêm Sức Mạnh Công Kích, Sức Mạnh Phép Thuật và @BonusHealth*100@% Máu tối đa.<br><row>(@MinUnits@) Tinh Linh được nâng cấp, @ADAP*100@% %i:scaleAD%%i:scaleAP%</row><br><row>(@MinUnits@) Tinh Linh xuất hiện trong mọi cửa hàng, @ADAP*100@% %i:scaleAD%%i:scaleAP%</row><br><row>(@MinUnits@) Nhận @GoldPerCharmPurchased@ vàng sau khi mua 1 Tinh Linh, @ADAP*100@% %i:scaleAD%%i:scaleAP%</row><br><row>(@MinUnits@) Bạn có thể mua 2 Tinh Linh mỗi vòng, @ADAP*100@% %i:scaleAD%%i:scaleAP%</row><br><row>(@MinUnits@) Tinh Linh tràn đầy sức mạnh, @ADAP*100@% %i:scaleAD%%i:scaleAP%</row>",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/ux/traiticons/trait_icon_18_blossom.png",
+      "breakpoints": [
+        {
+          "count": 3,
+          "style": "bronze",
+          "effect": "",
+          "variables": {
+            "ADAP": 0.11999999731779099,
+            "BonusHealth": 0.10000002384185791
+          }
+        },
+        {
+          "count": 5,
+          "style": "silver",
+          "effect": "",
+          "variables": {
+            "ADAP": 0.30000001192092896,
+            "BonusHealth": 0.10000002384185791
+          }
+        },
+        {
+          "count": 7,
+          "style": "gold",
+          "effect": "",
+          "variables": {
+            "ADAP": 0.550000011920929,
+            "BonusHealth": 0.10000002384185791,
+            "{91925b8e}": 4
+          }
+        },
+        {
+          "count": 9,
+          "style": "gold",
+          "effect": "",
+          "variables": {
+            "ADAP": 0.6499999761581421,
+            "BonusHealth": 0.10000002384185791
+          }
+        },
+        {
+          "count": 11,
+          "style": "prismatic",
+          "effect": "",
+          "variables": {
+            "ADAP": 1,
+            "BonusHealth": 0.10000002384185791
+          }
+        }
+      ]
+    },
+    {
+      "id": "DA_Emerald18",
+      "name": "Lục Bảo",
+      "description": "Kéo một đồng minh vào Taric mạnh nhất của bạn để ghép đôi họ, ban cho đồng minh các hiệu ứng mạnh mẽ từ Kỹ Năng của Taric.",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/ux/traiticons/trait_icon_18_emeraldaspect.png",
+      "breakpoints": [
+        {
+          "count": 1,
+          "style": "unique",
+          "effect": "",
+          "variables": {}
+        }
+      ]
+    }
+  ],
+  "champions": [
+    {
+      "id": "DA_Gromp18_AP",
+      "name": "Cóc Thành Tinh",
+      "cost": 2,
+      "traits": [
+        "DA_Riftbeast18",
+        "DA_18_Adaptor"
+      ],
+      "stats": {
+        "hp": 550,
+        "mana": {
+          "initial": 0,
+          "max": 45
+        },
+        "armor": 30,
+        "mr": 30,
+        "ad": 30,
+        "as": 0.7,
+        "range": 4
+      },
+      "ability": {
+        "name": "Bong Bóng Ợ Hơi",
+        "description": "<Bright>Thích Ứng </Bright>%i:scaleAP%<Bright>:</Bright> Phun ra một bong bóng độc hại về phía mục tiêu hiện tại, phát nổ khi trúng kẻ địch đầu tiên, gây @MagicDamageCalc1@ %i:scaleAP% sát thương phép. Kẻ địch trong bán kính 1 ô quanh vụ nổ chịu @MagicDamageCalc2@ %i:scaleAP% sát thương phép trong vòng @PoisonDurationAP@ giây.\n\n<dim>Thích Ứng </dim>%i:scaleAD%<dim>: Làm chậm mạnh mục tiêu.</dim>\n\nBùa Tím: Mỗi @TraitTimer@ giây, Cóc Thành Tinh Gromp nhận @TraitTimedAP@ Sức Mạnh Phép Thuật.",
+        "icon": "",
+        "variables": {}
+      },
+      "icon": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_gromp/skins/base/images/t_18_gromp_teamplannersplash.png"
+    },
+    {
+      "id": "DA_Murkwolf18",
+      "name": "Sói Hắc Ám",
+      "cost": 2,
+      "traits": [
+        "DA_Riftbeast18",
+        "DA_18_Slayer"
+      ],
+      "stats": {
+        "hp": 700,
+        "mana": {
+          "initial": 0,
+          "max": 40
+        },
+        "armor": 40,
+        "mr": 40,
+        "ad": 50,
+        "as": 0.75,
+        "range": 1
+      },
+      "ability": {
+        "name": "Vuốt Xé",
+        "description": "Nhảy đến kẻ địch thấp Máu nhất trong phạm vi @LeapHexRadius@ Ô và gây @PhysicalDamageCalc1@ %i:scaleAD%%i:scaleAP% sát thương vật lý. @NumEmpoweredAttacks@ đòn đánh tiếp theo được tăng @EmpowerAspd@ Tốc Độ Đánh và gây @PhysicalDamageCalc2@ %i:scaleAD% sát thương vật lý cộng thêm.\n\nBùa Xám: Nhận thêm Chuẩn Xác và @TraitBaseCrit@ Tỉ Lệ Chí Mạng, tăng lên tối đa @TraitBonusCrit@ dựa trên Máu đã mất.",
+        "icon": "",
+        "variables": {}
+      },
+      "icon": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_murkwolf/skins/base/images/t_18_murkwolf_teamplannersplash.png"
+    },
+    {
+      "id": "DA_18_Sentry",
+      "name": "Sỏi",
+      "cost": 1,
+      "traits": [
+        "DA_Riftbeast18",
+        "DA_18_Invoker"
+      ],
+      "stats": {
+        "hp": 500,
+        "mana": {
+          "initial": 30,
+          "max": 70
+        },
+        "armor": 25,
+        "mr": 25,
+        "ad": 35,
+        "as": 0.8,
+        "range": 4
+      },
+      "ability": {
+        "name": "Tia Laze Lam",
+        "description": "Bắt đầu tiêu thụ @PercentManaPerSecond@ Năng Lượng tối đa mỗi giây và vận sức bắn laser vào mục tiêu. Mỗi giây trong khi thi triển, gây @MagicDamageCalc1@ %i:scaleAP% sát thương phép và giảm Kháng Phép của kẻ địch đi @MRReduction@.\n\nBùa Xanh Mòng Két: Nhận @TraitManaRegenTooltip@ Hồi Năng Lượng với mỗi @TraitChannelSecondsTooltip@ giây đã vận sức.",
+        "icon": "",
+        "variables": {}
+      },
+      "icon": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_sentry/skins/base/images/t_18_sentry_teamplannersplash.png"
+    },
+    {
+      "id": "DA_Cinderling18",
+      "name": "Mầm Non",
+      "cost": 1,
+      "traits": [
+        "DA_Riftbeast18",
+        "DA_18_Hunter"
+      ],
+      "stats": {
+        "hp": 500,
+        "mana": {
+          "initial": 0,
+          "max": 50
+        },
+        "armor": 25,
+        "mr": 25,
+        "ad": 40,
+        "as": 0.7,
+        "range": 4
+      },
+      "ability": {
+        "name": "Lá Sắc Lẹm",
+        "description": "Triệu hồi 5 chiếc lá sắc như dao cạo đồng loạt tấn công vào mục tiêu hiện tại, gây tổng cộng @PhysicalDamageCalc1@ %i:scaleAD%%i:scaleAP% sát thương vật lý và áp dụng @WoundLevel@% <Keyword>Vết Thương Sâu</Keyword> và @BurnAmount@% <Keyword>Thiêu Đốt</Keyword> trong @WoundDuration@ giây.\n\n<bright>Bùa Đỏ:</bright> Mầm Non nhận @TraitADOnCast@ Sức Mạnh Công Kích mỗi lần tung chiêu.\n\n<rules>Vết Thương Sâu: Giảm hồi máu nhận được.</rules>\n<rules>Thiêu Đốt: Gây sát thương chuẩn mỗi giây bằng một phần Máu tối đa của mục tiêu.</rules>",
+        "icon": "",
+        "variables": {}
+      },
+      "icon": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_cinderling/skins/base/images/t_18_cinderling_teamplannersplash.png"
+    },
+    {
+      "id": "DA_Scuttlecrab18",
+      "name": "Cua Kỳ Cục",
+      "cost": 2,
+      "traits": [
+        "DA_Riftbeast18",
+        "DA_Juggernaut18"
+      ],
+      "stats": {
+        "hp": 950,
+        "mana": {
+          "initial": 40,
+          "max": 100
+        },
+        "armor": 45,
+        "mr": 45,
+        "ad": 50,
+        "as": 0.65,
+        "range": 1
+      },
+      "ability": {
+        "name": "Bạn Hiểu Mà Đúng Không?",
+        "description": "<bright>Nội Tại:</bright> Đòn đánh được thay thế bằng một điệu nhảy gây @PhysicalDamageCalc1@ %i:scaleAD% sát thương vật lý lên tất cả kẻ địch liền kề.\n\n<bright>Kích Hoạt:</bright> Chui xuống đất, nhận @BurrowDurability@ Chống Chịu trong @BurrowDuration@ giây và hồi @HealthCalc1@ %i:scaleAP% Máu trong suốt thời gian này.\n\nBùa Xanh Lá: Khi đồng minh xuống dưới @TraitHealthThreshold@ Máu, họ hồi lại @TraitPercentHeal@ Máu tối đa.",
+        "icon": "",
+        "variables": {}
+      },
+      "icon": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_scuttlecrab/skins/base/images/t_18_scuttlecrab_teamplannersplash.png"
+    },
+    {
+      "id": "DA_Krug18",
+      "name": "Quái Đá Krug",
+      "cost": 3,
+      "traits": [
+        "DA_Riftbeast18",
+        "DA_18_Brawler"
+      ],
+      "stats": {
+        "hp": 1100,
+        "mana": {
+          "initial": 80,
+          "max": 135
+        },
+        "armor": 40,
+        "mr": 40,
+        "ad": 55,
+        "as": 0.6,
+        "range": 1
+      },
+      "ability": {
+        "name": "Sức Mạnh Của Đá",
+        "description": "<Bright>Nội Tại:</Bright> Khi hy sinh, tách thành 2 Quái Đá Nhỏ với @HealthCalc1@ %i:scaleHealth% Máu, lập tức khiêu khích và buộc kẻ địch phải tấn công chúng.\n\n<Bright>Kích Hoạt:</Bright> Nhận @HealthCalc2@ %i:scaleAP% Máu tối đa, sau đó lăn vào mục tiêu, gây @PhysicalDamageCalc1@ %i:scaleAD%%i:scaleHealth% sát thương.\n\nBùa Đá Phiến: Khi hy sinh, Quái Đá và Quái Đá Nhỏ tạo Lá Chắn cho đồng minh bằng @TraitShieldHealth@ Máu tối đa.",
+        "icon": "",
+        "variables": {}
+      },
+      "icon": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_krug/skins/base/images/t_18_krug_teamplannersplash.png"
+    },
+    {
+      "id": "DA_Sentinel18",
+      "name": "Người Đá",
+      "cost": 4,
+      "traits": [
+        "DA_Riftbeast18",
+        "DA_18_Vanguard",
+        "DA_18_Invoker"
+      ],
+      "stats": {
+        "hp": 1300,
+        "mana": {
+          "initial": 60,
+          "max": 150
+        },
+        "armor": 60,
+        "mr": 60,
+        "ad": 75,
+        "as": 0.6,
+        "range": 1
+      },
+      "ability": {
+        "name": "Sóng Xung Kích Lam",
+        "description": "Nhận @ShieldCalc1@ %i:scaleAP%%i:scaleHealth% Lá Chắn trong @ShieldDuration@ giây. Dậm xuống mặt đất, tạo ra một vết nứt hướng về phía có nhiều kẻ địch nhất. Kẻ địch trúng chiêu sẽ bị hất tung trong chốc lát, chịu @MagicDamageCalc1@ %i:scaleAP% sát thương phép và bị <keyword>Phá Năng Lượng</keyword> @ManaReaveFlat@.\n\nBùa Xanh: Mỗi khi Người Đá tung chiêu, đồng minh nhận được @TraitAlliesManaRegen@ Hồi Năng Lượng.\n\n<rules>Phá Năng Lượng: Tăng tiêu hao Năng Lượng của lần dùng Kỹ Năng tiếp theo.</rules>",
+        "icon": "",
+        "variables": {}
+      },
+      "icon": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_sentinel/skins/base/images/t_18_sentinel_teamplannersplash.png"
+    },
+    {
+      "id": "DA_Brambleback18",
+      "name": "Bụi Gai Đỏ",
+      "cost": 4,
+      "traits": [
+        "DA_Riftbeast18",
+        "DA_18_Slayer"
+      ],
+      "stats": {
+        "hp": 1100,
+        "mana": {
+          "initial": 0,
+          "max": 40
+        },
+        "armor": 65,
+        "mr": 65,
+        "ad": 120,
+        "as": 0.55,
+        "range": 1
+      },
+      "ability": {
+        "name": "Cuồng Nộ Rực Lửa",
+        "description": "<bright>Nội Tại:</bright> Khi mục tiêu bị hạ gục, nhảy tới mục tiêu tiếp theo, gây @PhysicalDamageCalc1@ %i:scaleAD% sát thương vật lý.\n\n<bright>Kích Hoạt:</bright> Nhận thêm @FrenzyADPercent@ Sức Mạnh Công Kích trong @Duration@ giây. Trong thời gian này, bỏ qua @GenericCalc1@ %i:scaleAP% Giáp.\n\n<bright>Bùa Đỏ:</bright> Đòn đánh áp dụng @BurnAmount@% <Keyword>Thiêu Đốt </Keyword> lên kẻ địch và hồi @TraitMaxHealthHeal@ Máu tối đa cho Bụi Gai Đỏ.",
+        "icon": "",
+        "variables": {}
+      },
+      "icon": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_brambleback/skins/base/images/t_18_brambleback_teamplannersplash.png"
+    },
+    {
+      "id": "DA_18_Xayah",
+      "name": "Xayah",
+      "cost": 1,
+      "traits": [
+        "DA_18_Elderwood",
+        "DA_18_Fae",
+        "DA_18_Rapidfire"
+      ],
+      "stats": {
+        "hp": 450,
+        "mana": {
+          "initial": 0,
+          "max": 50
+        },
+        "armor": 25,
+        "mr": 25,
+        "ad": 45,
+        "as": 0.7,
+        "range": 4
+      },
+      "ability": {
+        "name": "Bộ Cánh Chết Người",
+        "description": "Nhận @AttackSpeed@ Tốc Độ Đánh trong @NumAttacks@ đòn đánh tiếp theo. Những đòn đánh này được thay thế bằng các lông vũ gây @PhysicalDamageCalc1@ %i:scaleAD% sát thương vật lý và giảm Giáp đi @GenericCalc1@ %i:scaleAP%.",
+        "icon": "",
+        "variables": {}
+      },
+      "icon": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_xayah/skins/base/images/tft18_xayah_splash_tile_8.png"
+    },
+    {
+      "id": "DA_18_Ornn",
+      "name": "Ornn",
+      "cost": 1,
+      "traits": [
+        "DA_18_Elderwood",
+        "DA_18_Defender"
+      ],
+      "stats": {
+        "hp": 700,
+        "mana": {
+          "initial": 40,
+          "max": 100
+        },
+        "armor": 40,
+        "mr": 40,
+        "ad": 40,
+        "as": 0.6,
+        "range": 1
+      },
+      "ability": {
+        "name": "Thổi Bễ",
+        "description": "<Bright>Kích Hoạt:</Bright> Nhận @ShieldCalc1@ %i:scaleAP% Lá Chắn trong @ShieldDuration@ giây và gây @MagicDamageCalc1@ %i:scaleAP% sát thương phép lên các kẻ địch trong phạm vi hình nón.\n\n<Bright>Nhiệm Vụ:</Bright> Mỗi giao tranh người chơi, Ornn tích trữ sát thương đã chặn thành Sức Mạnh Lò Rèn, tăng thêm @DamageTaken3StarScalar@ ở mốc 3 sao. Nhận 1 Gói Trang Bị Tạo Tác mỗi khi ông nhận đủ Sức Mạnh Lò Rèn. <Rules>(Sức Mạnh Lò Rèn: </Rules>@Stack@<Rules> / </Rules>@GenericCalc1@<Rules>)</Rules>",
+        "icon": "",
+        "variables": {}
+      },
+      "icon": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_ornn/skins/base/images/tft18_ornn_splash_tile_2.png"
+    },
+    {
+      "id": "DA_Nidalee18_AP",
+      "name": "Nidalee",
+      "cost": 4,
+      "traits": [
+        "DA_Primal18",
+        "DA_18_Adaptor"
+      ],
+      "stats": {
+        "hp": 850,
+        "mana": {
+          "initial": 0,
+          "max": 45
+        },
+        "armor": 30,
+        "mr": 30,
+        "ad": 35,
+        "as": 0.8,
+        "range": 1
+      },
+      "ability": {
+        "name": "Phóng Lao",
+        "description": "<Bright>Thích Ứng </Bright>%i:scaleAP%<Bright>:</Bright> Nhận @BonusAttackSpeed@ Tốc Độ Đánh trong @NumEmpoweredAttacks@ đòn đánh tiếp theo. Những đòn đánh này được thay thế bằng phóng lao, gây @MagicDamageCalc1@ %i:scaleAP% sát thương phép. Đòn đánh thứ 3 sẽ nhắm vào kẻ địch xa nhất, có ít trang bị nhất và gây @MagicDamageCalc2@ %i:scaleAP% sát thương phép.\n\n<dim>Thích Ứng </dim>%i:scaleAD%<dim>: Biến hình thành một Sát Thủ dạng báo Cận Chiến để tấn công kẻ địch.</dim>",
+        "icon": "",
+        "variables": {}
+      },
+      "icon": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_nidalee/skins/base/images/tft18_nidalee_splash_tile_0.png"
+    },
+    {
+      "id": "DA_18_Hecarim",
+      "name": "Hecarim",
+      "cost": 3,
+      "traits": [
+        "DA_18_Elderwood",
+        "DA_18_Vanguard"
+      ],
+      "stats": {
+        "hp": 1100,
+        "mana": {
+          "initial": 50,
+          "max": 110
+        },
+        "armor": 50,
+        "mr": 50,
+        "ad": 50,
+        "as": 0.65,
+        "range": 1
+      },
+      "ability": {
+        "name": "Nhiếp Hồn Trận",
+        "description": "Nhận @Resists@ Giáp và Kháng Phép trong 3 giây và hồi lại @HealthCalc1@ %i:scaleAP% Máu trong thời gian hiệu lực. Phóng các kỵ sĩ hồn ma về phía @NumEnemies@ kẻ địch gần nhất, gây @MagicDamageCalc1@ %i:scaleAP% sát thương phép và Làm Choáng chúng trong @StunDuration@ giây.",
+        "icon": "",
+        "variables": {}
+      },
+      "icon": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_hecarim/skins/base/images/tft18_hecarim_splash_tile_5.png"
+    },
+    {
+      "id": "DA_18_Ezreal",
+      "name": "Ezreal",
+      "cost": 4,
+      "traits": [
+        "DA_18_Elderwood",
+        "DA_18_Executioner"
+      ],
+      "stats": {
+        "hp": 850,
+        "mana": {
+          "initial": 0,
+          "max": 30
+        },
+        "armor": 40,
+        "mr": 40,
+        "ad": 45,
+        "as": 0.75,
+        "range": 4
+      },
+      "ability": {
+        "name": "Loạn Chiến Rừng Thẳm",
+        "description": "Dịch chuyển tránh xa mục tiêu hiện tại, gây @PhysicalDamageCalc1@ %i:scaleAD% sát thương vật lý lên kẻ đó và nhận @AttackSpeedCalc1@ %i:scaleAP% Tốc Độ Đánh.\n\nMỗi lần thi triển thứ 4 sẽ tiêu hao Tốc Độ Đánh nhận được từ Loạn Chiến Rừng Thẳm và bắn ra một luồng năng lượng xuyên qua khu vực đông kẻ địch nhất, gây @PhysicalDamageCalc2@ %i:scaleAD% sát thương vật lý, giảm đi @DamageReductionPerHit@ với mỗi kẻ địch bị xuyên qua (tối thiểu @MinDamagePercent@).",
+        "icon": "",
+        "variables": {}
+      },
+      "icon": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_ezreal/skins/base/images/tft18_ezreal_splash_tile_1.png"
+    },
+    {
+      "id": "DA_18_Azir",
+      "name": "Azir",
+      "cost": 3,
+      "traits": [
+        "DA_18_Blackthorn",
+        "DA_18_Executioner",
+        "DA_18_Summoner"
+      ],
+      "stats": {
+        "hp": 650,
+        "mana": {
+          "initial": 0,
+          "max": 35
+        },
+        "armor": 35,
+        "mr": 35,
+        "ad": 30,
+        "as": 0.75,
+        "range": 4
+      },
+      "ability": {
+        "name": "Trỗi Dậy!",
+        "description": "Nhận @AttackSpeed@ Tốc Độ Đánh và triệu hồi @SoldiersToSpawn@ lính cát trong @NumAttacks@ đòn đánh tiếp theo. Những đòn đánh này được thay thế bằng các mệnh lệnh, chỉ huy binh sĩ gây @MagicDamageCalc1@ %i:scaleAP% sát thương phép mỗi đòn đánh.",
+        "icon": "",
+        "variables": {}
+      },
+      "icon": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_azir/skins/base/images/tft18_azir_splash_tile_5.png"
+    },
+    {
+      "id": "DA_18_RekSai",
+      "name": "Rek'Sai",
+      "cost": 1,
+      "traits": [
+        "DA_18_Blackthorn",
+        "DA_18_Brawler"
+      ],
+      "stats": {
+        "hp": 700,
+        "mana": {
+          "initial": 40,
+          "max": 100
+        },
+        "armor": 40,
+        "mr": 40,
+        "ad": 50,
+        "as": 0.55,
+        "range": 1
+      },
+      "ability": {
+        "name": "Nhổ Rễ",
+        "description": "<bright>Nội Tại:</bright> Hồi @HealthCalc2@ %i:scaleHealth% Máu mỗi giây, tăng gấp ba trong @SpellMultiplierDuration@ giây sau khi tung chiêu.\n\n<bright>Kích Hoạt:</bright> Lao lên từ mặt đất, Làm Choáng những kẻ địch liền kề trong @KnockupDuration@ giây và gây @MagicDamageCalc1@ %i:scaleAP% sát thương phép lên chúng.",
+        "icon": "",
+        "variables": {}
+      },
+      "icon": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_reksai/skins/base/images/tft18_reksai_splash_tile_17.png"
+    },
+    {
+      "id": "DA_18_Veigar",
+      "name": "Veigar",
+      "cost": 1,
+      "traits": [
+        "DA_18_Blackthorn",
+        "DA_18_Sprykin",
+        "DA_18_Spellweaver"
+      ],
+      "stats": {
+        "hp": 500,
+        "mana": {
+          "initial": 0,
+          "max": 30
+        },
+        "armor": 25,
+        "mr": 25,
+        "ad": 25,
+        "as": 0.7,
+        "range": 4
+      },
+      "ability": {
+        "name": "Vụ Nổ Vũ Trụ",
+        "description": "Phóng ra một luồng năng lượng khổng lồ vào mục tiêu, gây @MagicDamageCalc1@ %i:scaleAP% sát thương phép, tăng thành @MagicDamageCalc2@ %i:scaleAP% nếu mục tiêu còn dưới @HPThreshold@ Máu tối đa.\n\nNếu mục tiêu bị hạ gục, nhận vĩnh viễn @APOnKill@% Sức Mạnh Phép Thuật.\n\nThưởng hiện tại: @Stack@% %i:scaleAP%",
+        "icon": "",
+        "variables": {}
+      },
+      "icon": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_veigar/skins/base/images/tft18_veigar_splash_tile_13.png"
+    },
+    {
+      "id": "DA_18_Maokai",
+      "name": "Maokai",
+      "cost": 5,
+      "traits": [
+        "DA_18_Maokai_UniqueTrait",
+        "DA_Juggernaut18"
+      ],
+      "stats": {
+        "hp": 1150,
+        "mana": {
+          "initial": 30,
+          "max": 100
+        },
+        "armor": 60,
+        "mr": 60,
+        "ad": 80,
+        "as": 0.65,
+        "range": 1
+      },
+      "ability": {
+        "name": "Gieo Hạt Giống",
+        "description": "<Bright>Nội Tại:</Bright> Sau mỗi @DamageMitigatedPerSapling@ sát thương chặn được, một chồi non sẽ nhảy về phía một kẻ địch lân cận và gây @MagicDamageCalc1@ %i:scaleHealth% sát thương phép. Khi bị hạ gục, @SaplingsOnDeath@ chồi non sẽ nhảy ra.\n\n<Bright>Kích Hoạt:</Bright> Gây @MagicDamageCalc2@ %i:scaleHealth% sát thương phép lên mục tiêu và hồi lại @HealthCalc1@ %i:scaleAP% + @ActiveMissingHealthHeal@ Máu đã mất.",
+        "icon": "",
+        "variables": {}
+      },
+      "icon": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_maokai/skins/base/images/tft18_maokai_splash_tile_0.png"
+    },
+    {
+      "id": "DA_18_Malphite",
+      "name": "Malphite",
+      "cost": 4,
+      "traits": [
+        "DA_18_Blackthorn",
+        "DA_18_Battlemage"
+      ],
+      "stats": {
+        "hp": 1300,
+        "mana": {
+          "initial": 30,
+          "max": 80
+        },
+        "armor": 70,
+        "mr": 70,
+        "ad": 70,
+        "as": 0.55,
+        "range": 1
+      },
+      "ability": {
+        "name": "Vỏ Cây Hóa Đá",
+        "description": "Nhận @ShieldCalc1@ %i:scaleAP% Lá Chắn trong @ShieldDuration@ giây và trở nên hóa đá. Khi lá chắn vỡ, giải phóng một làn sóng năng lượng hắc ám, gây @MagicDamageCalc1@ %i:scaleAP%%i:scaleArmor%%i:scaleMR% sát thương phép lên các kẻ địch trong phạm vi @AoEHexRange@ ô.",
+        "icon": "",
+        "variables": {}
+      },
+      "icon": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_malphite/skins/base/images/tft18_malphite_splash_tile_27.png"
+    },
+    {
+      "id": "DA_18_Yorick",
+      "name": "Yorick",
+      "cost": 1,
+      "traits": [
+        "DA_18_Blossom",
+        "DA_Juggernaut18",
+        "DA_18_Summoner"
+      ],
+      "stats": {
+        "hp": 650,
+        "mana": {
+          "initial": 50,
+          "max": 110
+        },
+        "armor": 35,
+        "mr": 35,
+        "ad": 50,
+        "as": 0.6,
+        "range": 1
+      },
+      "ability": {
+        "name": "Tử Lễ",
+        "description": "<Bright>Nội Tại:</Bright> Khi bị hạ gục, sinh ra 1 Lữ Khách với @HealthCalc2@ %i:scaleHealth% Máu tối đa, lập tức khiêu khích và buộc kẻ địch phải tấn công nó.\n\n<Bright>Kích Hoạt:</Bright> Hồi lại @HealthCalc1@ %i:scaleAP% Máu và ra đòn lên mục tiêu, gây @PhysicalDamageCalc1@ %i:scaleAD% sát thương vật lý.",
+        "icon": "",
+        "variables": {}
+      },
+      "icon": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_yorick/skins/base/images/tft18_yorick_splash_tile_30.png"
+    },
+    {
+      "id": "DA_18_Yunara",
+      "name": "Yunara",
+      "cost": 2,
+      "traits": [
+        "DA_18_Blossom",
+        "DA_18_Executioner"
+      ],
+      "stats": {
+        "hp": 550,
+        "mana": {
+          "initial": 0,
+          "max": 35
+        },
+        "armor": 30,
+        "mr": 30,
+        "ad": 42,
+        "as": 0.75,
+        "range": 4
+      },
+      "ability": {
+        "name": "Kết Linh Thành Châu",
+        "description": "Lướt và phóng một quả cầu vào mục tiêu hiện tại, gây @PhysicalDamageCalc1@ %i:scaleAD%%i:scaleAP% sát thương vật lý và tách ra, gây @PhysicalDamageCalc2@ %i:scaleAD%%i:scaleAP% sát thương vật lý lên @NumSecondaryTargets@ kẻ địch ở gần.",
+        "icon": "",
+        "variables": {}
+      },
+      "icon": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_yunara/skins/base/images/tft18_yunara_splash_tile_0.png"
+    },
+    {
+      "id": "DA_18_Sett",
+      "name": "Sett",
+      "cost": 4,
+      "traits": [
+        "DA_18_Blossom",
+        "DA_18_Brawler"
+      ],
+      "stats": {
+        "hp": 1200,
+        "mana": {
+          "initial": 60,
+          "max": 135
+        },
+        "armor": 60,
+        "mr": 60,
+        "ad": 80,
+        "as": 0.65,
+        "range": 1
+      },
+      "ability": {
+        "name": "Cuồng Long Quyền",
+        "description": "<Bright>Nội Tại:</Bright> Khi xuống dưới @ManaHPThreshold@ Máu tối đa lần đầu tiên mỗi giao tranh, nhận 100 năng lượng.\n\n<Bright>Kích Hoạt:</Bright> Vung tay tung một cú đấm mạnh, nhanh chóng hồi lại @HealthCalc1@ %i:scaleHealth%%i:scaleAP% Máu trước khi gây @PhysicalDamageCalc1@ %i:scaleHealth%%i:scaleAD% sát thương vật lý theo hình nón rộng.",
+        "icon": "",
+        "variables": {}
+      },
+      "icon": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_sett/skins/base/images/tft18_sett_splash_tile_38.png"
+    },
+    {
+      "id": "DA_18_Ahri",
+      "name": "Ahri",
+      "cost": 4,
+      "traits": [
+        "DA_18_Blossom",
+        "DA_18_Spellweaver"
+      ],
+      "stats": {
+        "hp": 850,
+        "mana": {
+          "initial": 20,
+          "max": 100
+        },
+        "armor": 40,
+        "mr": 40,
+        "ad": 40,
+        "as": 0.8,
+        "range": 4
+      },
+      "ability": {
+        "name": "Tinh Linh Cầu",
+        "description": "Phóng một quả cầu linh hồn vào khu vực trong phạm vi @AbilityCenterHexRange@ ô có nhiều kẻ địch xung quanh nhất. Quả cầu gây @MagicDamageCalc1@ %i:scaleAP% sát thương phép lên kẻ địch trong bán kính @HexRadius@ ô, giảm đi @HexPercentDamageFalloffTooltip@ mỗi ô cách xa tâm chấn.",
+        "icon": "",
+        "variables": {}
+      },
+      "icon": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_ahri/skins/base/images/tft18_ahri_splash_tile_27.png"
+    },
+    {
+      "id": "DA_18_Ashe",
+      "name": "Ashe",
+      "cost": 5,
+      "traits": [
+        "DA_18_Blossom",
+        "DA_18_Hunter"
+      ],
+      "stats": {
+        "hp": 900,
+        "mana": {
+          "initial": 0,
+          "max": 80
+        },
+        "armor": 45,
+        "mr": 45,
+        "ad": 75,
+        "as": 0.8,
+        "range": 6
+      },
+      "ability": {
+        "name": "Khe Nứt Tâm Linh",
+        "description": "Bắn một mũi tên xuyên qua nhiều kẻ địch nhất theo đường thẳng, gây @PhysicalDamageCalc1@ %i:scaleAD% sát thương vật lý, giảm đi @DamageFalloffPerEnemy@ với mỗi kẻ địch trúng phải (tối thiểu @MinDamagePercent@). Nếu không có kẻ địch nào trúng chiêu, hoàn trả @ManaRefund@ năng lượng tiêu hao.\n\nMũi tên để lại một vệt dài trong @RiftDuration@ giây, gây @PhysicalDamageCalc2@ %i:scaleAD%%i:scaleAP% + @MaxHealthDamagePerSecond@ sát thương vật lý mỗi giây theo Máu tối đa lên các kẻ địch trong phạm vi, đồng thời <Keyword>Làm Chậm</Keyword> chúng đi @ChillPercent@%.\n\n<Rules>Làm Chậm: Giảm Tốc Độ Đánh</Rules>",
+        "icon": "",
+        "variables": {}
+      },
+      "icon": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_ashe/skins/base/images/tft18_ashe_splash_tile_76.png"
+    },
+    {
+      "id": "DA_18_Elise",
+      "name": "Elise",
+      "cost": 2,
+      "traits": [
+        "DA_18_Coven",
+        "DA_18_Vanguard"
+      ],
+      "stats": {
+        "hp": 900,
+        "mana": {
+          "initial": 20,
+          "max": 70
+        },
+        "armor": 45,
+        "mr": 45,
+        "ad": 20,
+        "as": 0.65,
+        "range": 1
+      },
+      "ability": {
+        "name": "Nữ Hoàng Nhền Nhện",
+        "description": "Hóa thành nhện và nhận @SpiderHealthBuff@ Máu tối đa. Đòn đánh trong Dạng Nhện gây @MagicDamageCalc1@ %i:scaleAP% sát thương phép cộng thêm và hồi @HealthCalc1@ %i:scaleAP% Máu. Các lần tung chiêu tiếp theo nhận @DecayingAS@ Tốc Độ Đánh giảm dần trong @ASBuffDuration@ giây.",
+        "icon": "",
+        "variables": {}
+      },
+      "icon": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_elise/skins/base/images/tft18_elise_splash_tile_24.png"
+    },
+    {
+      "id": "DA_18_Caitlyn",
+      "name": "Caitlyn",
+      "cost": 2,
+      "traits": [
+        "DA_18_Coven",
+        "DA_18_Hunter"
+      ],
+      "stats": {
+        "hp": 550,
+        "mana": {
+          "initial": 0,
+          "max": 3
+        },
+        "armor": 30,
+        "mr": 30,
+        "ad": 50,
+        "as": 0.7,
+        "range": 4
+      },
+      "ability": {
+        "name": "Thiện Xạ",
+        "description": "<Bright>Nội Tại:</Bright> Mỗi đòn đánh thứ ba được thay thế bằng phát bắn Thiện Xạ gây @PhysicalDamageCalc1@ %i:scaleAD%%i:scaleAP% sát thương vật lý.",
+        "icon": "",
+        "variables": {}
+      },
+      "icon": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_caitlyn/skins/base/images/tft18_caitlyn_splash_tile_30.png"
+    },
+    {
+      "id": "DA_18_Cassiopeia",
+      "name": "Cassiopeia",
+      "cost": 3,
+      "traits": [
+        "DA_18_Coven",
+        "DA_18_Spellweaver"
+      ],
+      "stats": {
+        "hp": 650,
+        "mana": {
+          "initial": 0,
+          "max": 30
+        },
+        "armor": 35,
+        "mr": 35,
+        "ad": 30,
+        "as": 0.75,
+        "range": 4
+      },
+      "ability": {
+        "name": "Vụ Nổ Độc Hại",
+        "description": "Hạ độc mục tiêu và kẻ địch gần nhất chưa trúng độc, gây @MagicDamageCalc1@ %i:scaleAP% sát thương phép trong @Duration@ giây. Độc có thể cộng dồn.",
+        "icon": "",
+        "variables": {}
+      },
+      "icon": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_cassiopeia/skins/base/images/tft18_cassiopeia_splash_tile_18.png"
+    },
+    {
+      "id": "DA_18_Morgana",
+      "name": "Morgana",
+      "cost": 4,
+      "traits": [
+        "DA_18_Coven",
+        "DA_18_Invoker"
+      ],
+      "stats": {
+        "hp": 1100,
+        "mana": {
+          "initial": 0,
+          "max": 65
+        },
+        "armor": 60,
+        "mr": 60,
+        "ad": 45,
+        "as": 0.75,
+        "range": 2
+      },
+      "ability": {
+        "name": "Lời Nguyền Tàn Úa",
+        "description": "<bright>Nội Tại:</bright> Nhận @Omnivamp@ Hút Máu Toàn Phần.\n\n<bright>Kích Hoạt:</bright> Bắn một luồng năng lượng hắc ám vào @NumEnemiesCursed@ kẻ địch gần đó, gây @MagicDamageCalc1@ %i:scaleAP% sát thương phép và nguyền rủa chúng trong @SpellDuration@ giây. Sau đó, tạo ra một vùng tàn úa có phạm vi @HexRangeAOE@ Ô trong cùng khoảng thời gian, gây @MagicDamageCalc2@ %i:scaleAP% sát thương phép mỗi giây. Kẻ địch bị Nguyền Rủa chịu thêm @MagicDamageCalc3@ %i:scaleAP% sát thương cho mỗi lần bị nguyền.",
+        "icon": "",
+        "variables": {}
+      },
+      "icon": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_morgana/skins/base/images/tft18_morgana_splash_tile_26.png"
+    },
+    {
+      "id": "DA_18_Rakan",
+      "name": "Rakan",
+      "cost": 1,
+      "traits": [
+        "DA_18_Fae",
+        "DA_Juggernaut18",
+        "DA_18_Vanguard"
+      ],
+      "stats": {
+        "hp": 700,
+        "mana": {
+          "initial": 35,
+          "max": 105
+        },
+        "armor": 35,
+        "mr": 35,
+        "ad": 45,
+        "as": 0.6,
+        "range": 1
+      },
+      "ability": {
+        "name": "Điệu Vũ Mê Hồn",
+        "description": "Nhận @ShieldCalc1@ %i:scaleAP% Lá Chắn trong @ShieldDuration@ giây. Sau đó, ban cho đồng minh đã gây nhiều sát thương nhất trong giao tranh này @AttackSpeedCalc1@ %i:scaleAP% Tốc Độ Đánh giảm dần trong @AttackSpeedDuration@ giây.",
+        "icon": "",
+        "variables": {}
+      },
+      "icon": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_rakan/skins/base/images/tft18_rakan_splash_tile_9.png"
+    },
+    {
+      "id": "DA_18_Lillia",
+      "name": "Lillia",
+      "cost": 4,
+      "traits": [
+        "DA_18_Fae",
+        "DA_18_Defender"
+      ],
+      "stats": {
+        "hp": 1300,
+        "mana": {
+          "initial": 40,
+          "max": 140
+        },
+        "armor": 60,
+        "mr": 60,
+        "ad": 40,
+        "as": 0.65,
+        "range": 1
+      },
+      "ability": {
+        "name": "Khúc Ru Rừng Thẳm",
+        "description": "Hồi lại @HealthCalc1@ %i:scaleAP% Máu và phóng @NumEnemiesToFireAt@ cánh bướm vào các kẻ địch gần đó. Kẻ địch trúng chiêu chịu @MagicDamageCalc1@ %i:scaleAP% sát thương phép và rơi vào giấc Ngủ trong @SleepDuration@ giây. Nếu kẻ địch nhận @DamageNeededToAwaken@ sát thương, chúng sẽ tỉnh dậy và chịu thêm sát thương phép bằng @WakeupDamage@ Máu tối đa.",
+        "icon": "",
+        "variables": {}
+      },
+      "icon": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_lillia/skins/base/images/tft18_lillia_splash_tile_28.png"
+    },
+    {
+      "id": "DA_18_Kobuko",
+      "name": "Kobuko",
+      "cost": 1,
+      "traits": [
+        "DA_18_Sprykin",
+        "DA_18_Brawler"
+      ],
+      "stats": {
+        "hp": 700,
+        "mana": {
+          "initial": 30,
+          "max": 90
+        },
+        "armor": 40,
+        "mr": 40,
+        "ad": 55,
+        "as": 0.65,
+        "range": 1
+      },
+      "ability": {
+        "name": "Vũ Điệu Đời Thường",
+        "description": "Hồi lại @HealthCalc1@ %i:scaleHealth%%i:scaleAP% Máu trong vòng @Duration@ giây. Đòn đánh tiếp theo được thay thế bằng một cú nện gây @MagicDamageCalc1@ %i:scaleHealth%%i:scaleAP% sát thương phép.",
+        "icon": "",
+        "variables": {
+          "PermanentHealthPerInterest": [
+            30,
+            10,
+            12,
+            20,
+            30,
+            30,
+            30
+          ],
+          "Duration": [
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2
+          ],
+          "Heal": [
+            60,
+            350,
+            400,
+            475,
+            100,
+            110,
+            120
+          ],
+          "DamageHPPercent": [
+            0.15,
+            0.15,
+            0.15,
+            0.15,
+            0.15,
+            0.15,
+            0.15
+          ],
+          "HRHealthPerRound": [
+            15,
+            60,
+            80,
+            200,
+            15,
+            15,
+            15
+          ]
+        }
+      },
+      "icon": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_kobuko/skins/base/images/tft18_kobuko_splash_tile_2.png"
+    },
+    {
+      "id": "DA_18_Teemo",
+      "name": "Teemo",
+      "cost": 2,
+      "traits": [
+        "DA_18_Sprykin",
+        "DA_18_Invoker"
+      ],
+      "stats": {
+        "hp": 550,
+        "mana": {
+          "initial": 0,
+          "max": 50
+        },
+        "armor": 30,
+        "mr": 30,
+        "ad": 35,
+        "as": 0.75,
+        "range": 4
+      },
+      "ability": {
+        "name": "Nấm Nhỏ Nấm To",
+        "description": "Ném 2 cụm nấm gây @MagicDamageCalc1@ %i:scaleAP% sát thương phép lên @NumEnemiesHit@ kẻ địch gần nhất. Sau đó ném 1 cây nấm khổng lồ gây @MagicDamageCalc2@ %i:scaleAP% sát thương phép lên mục tiêu.\n\nMỗi lần thi triển có @PercentChanceOfForage@ cơ hội tìm thêm một cây nấm có thể thu thập để nhận hiệu ứng thưởng.\n\n<bright>Đỏ:</bright> @RedRerolls@ Lượt Đổi <Rules>(Nấm Đỏ Đã Nhận: </Rules>@Stack@<Rules>)</Rules>\n<bright>Xanh Lá:</bright> @GreenHealth@ Máu Linh Thú <Rules>(Nấm Xanh Lá Đã Nhận:</Rules> @GenericCalc1@<Rules>)</Rules>\n<bright>Vàng:</bright> @YellowXP@ XP <Rules>(Nấm Vàng Đã Nhận:</Rules> @GenericCalc2@<Rules>)</Rules>",
+        "icon": "",
+        "variables": {}
+      },
+      "icon": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_teemo/skins/base/images/tft18_teemo_splash_tile_0.png"
+    },
+    {
+      "id": "DA_18_Rammus",
+      "name": "Rammus",
+      "cost": 3,
+      "traits": [
+        "DA_18_Sprykin",
+        "DA_18_Defender"
+      ],
+      "stats": {
+        "hp": 1100,
+        "mana": {
+          "initial": 30,
+          "max": 80
+        },
+        "armor": 50,
+        "mr": 50,
+        "ad": 50,
+        "as": 0.6,
+        "range": 1
+      },
+      "ability": {
+        "name": "Thế Thủ",
+        "description": "Khiêu khích, buộc kẻ địch tấn công tướng này. Trong @Duration@ giây, nhận @ShieldCalc1@ %i:scaleAP% Lá Chắn cùng @ArmorMR@ Giáp và Kháng Phép.\n\nKhi Lá Chắn vỡ, gây @PhysicalDamageCalc1@ %i:scaleArmor%%i:scaleMR% sát thương vật lý lên kẻ địch trong phạm vi @DamageHexRange@ Ô.",
+        "icon": "",
+        "variables": {}
+      },
+      "icon": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_rammus/skins/base/images/tft18_rammus_splash_tile_26.png"
+    },
+    {
+      "id": "DA_18_GnarSmall",
+      "name": "Gnar",
+      "cost": 5,
+      "traits": [
+        "DA_18_Elderwood",
+        "DA_18_Sprykin",
+        "DA_18_Brawler"
+      ],
+      "stats": {
+        "hp": 900,
+        "mana": {
+          "initial": 0,
+          "max": 70
+        },
+        "armor": 55,
+        "mr": 55,
+        "ad": 100,
+        "as": 0.9,
+        "range": 2
+      },
+      "ability": {
+        "name": "Đột Biến Gien",
+        "description": "<Bright>Nội Tại:</Bright> Nhận @RagePerSecond@ Nộ mỗi giây và @RagePerAttack@ Nộ mỗi đòn đánh.\n\n<Bright>Kích Hoạt:</Bright> Biến hình thành Gnar Khổng Lồ và nhảy vào nhóm kẻ địch đông nhất trong phạm vi @TransformSearchRadius@ ô. Sau đó, gây @PhysicalDamageCalc3@ %i:scaleAD% sát thương vật lý lên những kẻ địch trong phạm vi @TransformHexRadius@ ô, giảm Giáp và Kháng Phép của chúng đi @GenericCalc1@ %i:scaleAP%, và Làm Choáng chúng trong @StunDuration@ giây. Gnar Khổng Lồ nhận thêm @HealthCalc1@ Máu và thay thế Kỹ Năng của mình bằng Nắm & Quăng.\n\n<Bright>Nắm & Quăng:</Bright> Quăng mục tiêu về phía kẻ địch xa nhất, gây @PhysicalDamageCalc1@ %i:scaleAD% sát thương vật lý lên mục tiêu và @PhysicalDamageCalc2@ %i:scaleAD% sát thương vật lý lên những kẻ địch mà mục tiêu bay xuyên qua. Nếu chỉ còn 1 kẻ địch, ném kẻ đó khỏi sàn đấu.",
+        "icon": "",
+        "variables": {}
+      },
+      "icon": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_gnar/skins/base/images/tft18_gnar_splash_tile_0.png"
+    },
+    {
+      "id": "DA_18_Tristana",
+      "name": "Tristana",
+      "cost": 3,
+      "traits": [
+        "DA_18_Fae",
+        "DA_18_Sprykin",
+        "DA_18_Hunter"
+      ],
+      "stats": {
+        "hp": 650,
+        "mana": {
+          "initial": 0,
+          "max": 50
+        },
+        "armor": 35,
+        "mr": 35,
+        "ad": 55,
+        "as": 0.75,
+        "range": 4
+      },
+      "ability": {
+        "name": "Bọc Thuốc Súng",
+        "description": "Gắn một bọc thuốc súng lên mục tiêu, tồn tại trong @Duration@ giây. Khi kích hoạt, nhận tầm đánh vô hạn và @AttackSpeedCalc1@ %i:scaleAP% Tốc Độ Đánh. Sau khi hết thời gian, bọc thuốc súng phát nổ và chia đều sát thương lên tất cả kẻ địch trong phạm vi 2 ô, gây @PhysicalDamageCalc1@ %i:scaleAD% sát thương vật lý + @PhysicalDamageCalc2@ %i:scaleAD% với mỗi đòn đánh trong lúc thi triển.\n\n<Rules>Nếu kẻ địch đang dính bọc thuốc súng bị hạ gục, bọc thuốc súng sẽ gắn lên mục tiêu mới của Tristana.</Rules>",
+        "icon": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_tristana/hud/icons2d/tft18_tristana_e.png",
+        "variables": {}
+      },
+      "icon": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_tristana/skins/base/images/tft18_tristana_splash_tile_61.png"
+    },
+    {
+      "id": "DA_18_Sivir",
+      "name": "Sivir",
+      "cost": 4,
+      "traits": [
+        "DA_Primal18",
+        "DA_18_Hunter"
+      ],
+      "stats": {
+        "hp": 850,
+        "mana": {
+          "initial": 0,
+          "max": 40
+        },
+        "armor": 40,
+        "mr": 40,
+        "ad": 50,
+        "as": 0.8,
+        "range": 4
+      },
+      "ability": {
+        "name": "Gươm Boomerang",
+        "description": "Ném một phi tiêu chữ thập lớn gây @PhysicalDamageCalc1@ %i:scaleAD%%i:scaleAP% sát thương vật lý lên mục tiêu hiện tại và nảy @NumBounces@ lần giữa các kẻ địch ở gần, gây @PhysicalDamageCalc2@ %i:scaleAD%%i:scaleAP% sát thương vật lý mỗi lần nảy. Khi kỹ năng này hạ gục một kẻ địch, nảy thêm @BonusKillBounces@ lần nữa.",
+        "icon": "",
+        "variables": {}
+      },
+      "icon": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_sivir/skins/base/images/tft18_sivir_splash_tile_61.png"
+    },
+    {
+      "id": "DA_Vi18",
+      "name": "Vi",
+      "cost": 3,
+      "traits": [
+        "DA_Primal18",
+        "DA_Juggernaut18"
+      ],
+      "stats": {
+        "hp": 1100,
+        "mana": {
+          "initial": 0,
+          "max": 60
+        },
+        "armor": 50,
+        "mr": 50,
+        "ad": 45,
+        "as": 0.75,
+        "range": 1
+      },
+      "ability": {
+        "name": "Nắm Đấm Cuồng Nộ",
+        "description": "<bright>Nội Tại:</bright> Khi tung đòn đánh, hồi lại @HealthCalc1@ %i:scaleHealth% Máu.\n\n<bright>Kích Hoạt:</bright> Phát ra một tiếng gầm nguyên thủy, hồi lại @HealthCalc3@ %i:scaleAP% Máu. Sau đó nhận @SpellAS@ Tốc Độ Đánh, @SpellDurability@ Chống Chịu, và trở nên không thể cản phá trong @SpellDuration@ giây.",
+        "icon": "",
+        "variables": {}
+      },
+      "icon": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_vi/skins/base/images/tft18_vi_splash_tile_39.png"
+    },
+    {
+      "id": "DA_18_Akali_AD",
+      "name": "Akali",
+      "cost": 1,
+      "traits": [
+        "DA_18_Inferno",
+        "DA_18_Adaptor",
+        "DA_18_Slayer"
+      ],
+      "stats": {
+        "hp": 650,
+        "mana": {
+          "initial": 0,
+          "max": 25
+        },
+        "armor": 35,
+        "mr": 35,
+        "ad": 40,
+        "as": 0.75,
+        "range": 1
+      },
+      "ability": {
+        "name": "Phi Đao Song Kích",
+        "description": "<Bright>Thích Ứng </Bright>%i:scaleAD%<Bright>:</Bright> Phóng một loạt phi đao vào mục tiêu, gây @PhysicalDamageCalc1@ %i:scaleAD%%i:scaleAP% sát thương vật lý. Nếu mục tiêu đang bị <keyword>Thiêu Đốt</keyword>, gây thêm @PhysicalDamageCalc2@ %i:scaleAD% sát thương.\n\n<dim>Thích Ứng </dim>%i:scaleAP%<dim>: Nếu Kỹ Năng kết liễu mục tiêu, thi triển thêm lần nữa.</dim>",
+        "icon": "",
+        "variables": {}
+      },
+      "icon": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_akali/skins/base/images/tft18_akali_splash_tile_2.png"
+    },
+    {
+      "id": "DA_18_Varus",
+      "name": "Varus",
+      "cost": 1,
+      "traits": [
+        "DA_18_Inferno",
+        "DA_18_Rapidfire"
+      ],
+      "stats": {
+        "hp": 500,
+        "mana": {
+          "initial": 20,
+          "max": 110
+        },
+        "armor": 25,
+        "mr": 25,
+        "ad": 40,
+        "as": 0.75,
+        "range": 4
+      },
+      "ability": {
+        "name": "Mũi Tên Xuyên Phá",
+        "description": "Vận sức, sau đó bắn một mũi tên theo đường thẳng có nhiều kẻ địch nhất xuyên qua mục tiêu. Nó gây @PhysicalDamageCalc1@ %i:scaleAD%%i:scaleAP% sát thương vật lý lên các kẻ địch trúng đòn, giảm đi @DamageReductionPerHit@ với mỗi kẻ địch nó đi qua (tối thiểu @MinDamagePercent@).",
+        "icon": "",
+        "variables": {}
+      },
+      "icon": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_varus/skins/base/images/tft18_varus_splash_tile_9.png"
+    },
+    {
+      "id": "DA_Amumu18",
+      "name": "Amumu",
+      "cost": 4,
+      "traits": [
+        "DA_18_Inferno",
+        "DA_Juggernaut18"
+      ],
+      "stats": {
+        "hp": 1300,
+        "mana": {
+          "initial": 30,
+          "max": 125
+        },
+        "armor": 60,
+        "mr": 60,
+        "ad": 70,
+        "as": 0.7,
+        "range": 1
+      },
+      "ability": {
+        "name": "Giận Dữ",
+        "description": "<Bright>Nội Tại:</Bright> Mỗi giây, hồi lại @HealthCalc1@ %i:scaleAP%%i:scaleHealth% Máu và gây @MagicDamageCalc1@ %i:scaleAP% sát thương phép lên kẻ địch trong phạm vi @PassiveHexRadius@ ô.\n\n<Bright>Kích Hoạt:</Bright> Gây @MagicDamageCalc3@ %i:scaleAP% sát thương phép lên kẻ địch trong phạm vi @BigHexRadius@ ô và Làm Choáng chúng trong @StunDuration@ giây, tăng thành @GenericCalc1@ giây nếu mục tiêu đang bị <Keyword>Thiêu Đốt</Keyword>.\n\n<Rules>Thiêu Đốt: Gây sát thương chuẩn mỗi giây theo Máu tối đa của mục tiêu.</Rules>",
+        "icon": "",
+        "variables": {}
+      },
+      "icon": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_amumu/skins/base/images/tft18_amumu_splash_tile_17.png"
+    },
+    {
+      "id": "DA_18_Kennen",
+      "name": "Kennen",
+      "cost": 5,
+      "traits": [
+        "DA_18_Inferno",
+        "DA_18_Executioner"
+      ],
+      "stats": {
+        "hp": 1200,
+        "mana": {
+          "initial": 0,
+          "max": 40
+        },
+        "armor": 60,
+        "mr": 60,
+        "ad": 50,
+        "as": 0.85,
+        "range": 2
+      },
+      "ability": {
+        "name": "Bão Lửa",
+        "description": "Tích tụ sức mạnh, nhận @APPerBurningEnemy@ Sức Mạnh Phép Thuật với mỗi kẻ địch bị <Keyword>Thiêu Đốt</Keyword>. Sau đó, nhận @ShieldCalc1@ %i:scaleAP% Lá Chắn trong @ShieldDuration@ giây và lao qua một nhóm kẻ địch gần đó, gây @MagicDamageCalc1@ %i:scaleAP% sát thương phép lên mỗi kẻ địch.\n\nSau khi lao tới, giải phóng một cơn bão lửa có phạm vi @FirestormHexRadius@ Ô, gây tổng cộng @MagicDamageCalc2@ %i:scaleAP% sát thương phép, chia đều cho tất cả kẻ địch trúng phải trong vòng @FirestormDuration@ giây.",
+        "icon": "",
+        "variables": {}
+      },
+      "icon": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_kennen/skins/base/images/tft18_kennen_splash_tile_8.png"
+    },
+    {
+      "id": "DA_18_Aphelios",
+      "name": "Aphelios",
+      "cost": 4,
+      "traits": [
+        "DA_18_Lunar",
+        "DA_18_Rapidfire"
+      ],
+      "stats": {
+        "hp": 850,
+        "mana": {
+          "initial": 20,
+          "max": 70
+        },
+        "armor": 40,
+        "mr": 40,
+        "ad": 60,
+        "as": 0.8,
+        "range": 4
+      },
+      "ability": {
+        "name": "Xung Kích Ánh Trăng",
+        "description": "Trang bị Súng Huyết Tinh và quét mục tiêu @GenericCalc1@ %i:scaleAS% lần trong @Duration@ giây, mỗi lần gây @PhysicalDamageCalc1@ %i:scaleAD% sát thương vật lý.\n\nSau khi đợt tấn công kết thúc, bắn ra một luồng năng lượng gây @PhysicalDamageCalc2@ %i:scaleAD%%i:scaleAP% sát thương vật lý, chia đều cho tất cả kẻ địch trong bán kính 2 Ô.",
+        "icon": "",
+        "variables": {}
+      },
+      "icon": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_aphelios/skins/base/images/tft18_aphelios_splash_tile_0.png"
+    },
+    {
+      "id": "DA_18_Diana",
+      "name": "Diana",
+      "cost": 3,
+      "traits": [
+        "DA_18_Lunar",
+        "DA_18_Slayer",
+        "DA_18_Vanguard"
+      ],
+      "stats": {
+        "hp": 850,
+        "mana": {
+          "initial": 0,
+          "max": 40
+        },
+        "armor": 50,
+        "mr": 50,
+        "ad": 30,
+        "as": 0.8,
+        "range": 1
+      },
+      "ability": {
+        "name": "Lá Chắn Nhợt Nhạt",
+        "description": "Nhận @ShieldCalc1@ lá chắn trong @ShieldDuration@ giây và phóng ra @NumOrbs@ cầu ánh trăng tỏa ra kẻ địch trong phạm vi 2 ô, mỗi quả cầu gây @MagicDamageCalc1@ %i:scaleAP% sát thương phép.",
+        "icon": "",
+        "variables": {}
+      },
+      "icon": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_diana/skins/base/images/tft18_diana_splash_tile_0.png"
+    },
+    {
+      "id": "DA_18_Alune",
+      "name": "Alune",
+      "cost": 5,
+      "traits": [
+        "DA_AluneUniqueTrait18",
+        "DA_18_Lunar",
+        "DA_18_Spellweaver"
+      ],
+      "stats": {
+        "hp": 900,
+        "mana": {
+          "initial": 0,
+          "max": 35
+        },
+        "armor": 45,
+        "mr": 45,
+        "ad": 40,
+        "as": 0.85,
+        "range": 4
+      },
+      "ability": {
+        "name": "Trăng Mờ",
+        "description": "Gọi @NumMoonshards@ mảnh trăng rơi xuống, chia đều cho @NumEnemies@ kẻ địch gần nhất, gây @MagicDamageCalc1@ %i:scaleAP% sát thương phép với mỗi mục tiêu.\n\nNếu trăng tròn, cả mặt trăng sẽ giáng xuống sân đấu, gây @MagicDamageCalc2@ %i:scaleAP% sát thương phép chia đều cho tất cả kẻ địch.",
+        "icon": "",
+        "variables": {
+          "MagicDamage": [
+            0,
+            380,
+            570,
+            900,
+            0,
+            0,
+            0
+          ],
+          "ShredDuration": [
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6
+          ],
+          "ShredPercent": [
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20
+          ],
+          "PrimaryMagicDamage": [
+            0,
+            160,
+            240,
+            380,
+            0,
+            0,
+            0
+          ],
+          "AttackSpeed": [
+            0.4,
+            0.2,
+            0.25,
+            0.3,
+            0.4,
+            0.4,
+            0.4
+          ],
+          "AttackSpeedDuration": [
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5
+          ]
+        }
+      },
+      "icon": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_alune/skins/base/images/tft18_alune_splash_tile_15.png"
+    },
+    {
+      "id": "DA_18_Leona",
+      "name": "Leona",
+      "cost": 1,
+      "traits": [
+        "DA_18_Solar",
+        "DA_18_Defender"
+      ],
+      "stats": {
+        "hp": 750,
+        "mana": {
+          "initial": 30,
+          "max": 90
+        },
+        "armor": 40,
+        "mr": 40,
+        "ad": 50,
+        "as": 0.65,
+        "range": 1
+      },
+      "ability": {
+        "name": "Nện Khiên",
+        "description": "<Bright>Nội Tại:</Bright> Bắt đầu giao tranh với @GenericCalc1@ %i:scaleAP% Giáp và Kháng Phép cộng thêm, giảm dần trong @DecayDuration@ giây.\n\n<Bright>Kích Hoạt:</Bright> Đập mục tiêu hiện tại, gây @MagicDamageCalc1@ %i:scaleArmor% sát thương phép và Làm Choáng nạn nhân trong @StunDuration@ giây.",
+        "icon": "",
+        "variables": {}
+      },
+      "icon": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_leona/skins/base/images/tft18_leona_splash_tile_10.png"
+    },
+    {
+      "id": "DA_18_Kayle",
+      "name": "Kayle",
+      "cost": 2,
+      "traits": [
+        "DA_18_Solar",
+        "DA_18_Rapidfire"
+      ],
+      "stats": {
+        "hp": 550,
+        "mana": {
+          "initial": 0,
+          "max": 0
+        },
+        "armor": 30,
+        "mr": 30,
+        "ad": null,
+        "as": 0.75,
+        "range": 4
+      },
+      "ability": {
+        "name": "Phán Quyết Mặt Trời",
+        "description": "<Bright>Nội Tại:</Bright> Kayle thăng hoa dựa trên cấp sao của mình, cho cô các hiệu ứng thưởng cộng dồn.\n\n<Bright>Thăng Hoa 1:</Bright> Đòn đánh gây @MagicDamageCalc1@ %i:scaleAP% sát thương phép cộng thêm.\n<Bright>Thăng Hoa 2:</Bright> Đòn đánh gây <Keyword>Cào Xé</Keyword> @ShredLevel@% lên kẻ địch trong @ShredDuration@ giây.\n<Bright>Thăng Hoa 3:</Bright> Đòn đánh phóng ra sóng năng lượng, gây @MagicDamageCalc2@ %i:scaleAP% sát thương phép lên tất cả các đơn vị khác trúng đòn.\n<Bright>Thăng Hoa 4:</Bright> Nhận tầm đánh vô hạn. Mỗi đợt sóng thứ @NumAttacksForBigWave4Star@ sẽ lớn hơn nhiều.\n\n<Rules>Cào Xé: Giảm Kháng Phép</Rules>",
+        "icon": "",
+        "variables": {}
+      },
+      "icon": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_kayle/skins/base/images/tft18_kayle_splash_tile_42.png"
+    },
+    {
+      "id": "DA_18_Sejuani",
+      "name": "Sejuani",
+      "cost": 2,
+      "traits": [
+        "DA_18_Solar",
+        "DA_Juggernaut18"
+      ],
+      "stats": {
+        "hp": 900,
+        "mana": {
+          "initial": 40,
+          "max": 100
+        },
+        "armor": 45,
+        "mr": 45,
+        "ad": 50,
+        "as": 0.6,
+        "range": 1
+      },
+      "ability": {
+        "name": "Mặt Trời Thịnh Nộ",
+        "description": "Nhận @ShieldCalc1@ %i:scaleHealth%%i:scaleAP% Lá Chắn trong @ShieldDuration@ giây. Sau đó, quét theo hình nón gây @MagicDamageCalc1@ %i:scaleAP% sát thương phép và tấn công theo một đường thẳng, gây @MagicDamageCalc2@ %i:scaleAP% sát thương phép lên những kẻ địch trúng chiêu.",
+        "icon": "",
+        "variables": {}
+      },
+      "icon": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_sejuani/skins/base/images/tft18_sejuani_splash_tile_26.png"
+    },
+    {
+      "id": "DA_18_KhaZix",
+      "name": "Kha'Zix",
+      "cost": 3,
+      "traits": [
+        "DA_18_Rival"
+      ],
+      "stats": {
+        "hp": 950,
+        "mana": {
+          "initial": 0,
+          "max": 25
+        },
+        "armor": 55,
+        "mr": 55,
+        "ad": 40,
+        "as": 0.85,
+        "range": 1
+      },
+      "ability": {
+        "name": "Nếm Mùi Sợ Hãi",
+        "description": "Nhảy tới kẻ địch ở xa nhất trong phạm vi @LeapRangeHexes@ Ô, gây @MagicDamageCalc1@ %i:scaleAP% sát thương phép. Nếu kẻ địch không có đồng minh liền kề, thay vào đó, gây @MagicDamageCalc2@ %i:scaleAP% sát thương phép và nhận @IsolateManaGrant@ năng lượng.{Augment.Variant.RivalsAugment.AbilityTooltip}",
+        "icon": "",
+        "variables": {}
+      },
+      "icon": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_khazix/skins/base/images/tft18_khazix_splash_tile_0.png"
+    },
+    {
+      "id": "DA_18_Rengar",
+      "name": "Rengar",
+      "cost": 3,
+      "traits": [
+        "DA_18_Rival"
+      ],
+      "stats": {
+        "hp": 900,
+        "mana": {
+          "initial": 10,
+          "max": 50
+        },
+        "armor": 55,
+        "mr": 55,
+        "ad": 60,
+        "as": 0.75,
+        "range": 1
+      },
+      "ability": {
+        "name": "Tàn Ác",
+        "description": "Nhảy tới kẻ địch có phần trăm Máu thấp nhất trong phạm vi @JumpHexRange@ ô và đâm chúng, gây @PhysicalDamageCalc1@ %i:scaleAD% sát thương vật lý. Sau đó hồi @HealthCalc1@ %i:scaleAP% máu, tăng lên tối đa @HealthCalc2@ %i:scaleAP% dựa trên lượng Máu đã mất của họ.{Augment.Variant.RivalsAugment.AbilityTooltip}",
+        "icon": "",
+        "variables": {}
+      },
+      "icon": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_rengar/skins/base/images/tft18_rengar_splash_tile_0.png"
+    },
+    {
+      "id": "DA_KogMaw18_AD",
+      "name": "Kog'Maw",
+      "cost": 3,
+      "traits": [
+        "DA_18_Caustic",
+        "DA_18_Adaptor",
+        "DA_18_Invoker"
+      ],
+      "stats": {
+        "hp": 650,
+        "mana": {
+          "initial": 15,
+          "max": 55
+        },
+        "armor": 35,
+        "mr": 35,
+        "ad": 40,
+        "as": 0.8,
+        "range": 4
+      },
+      "ability": {
+        "name": "Đạn Pháo Oanh Tạc",
+        "description": "<Bright>Thích Ứng</Bright> %i:scaleAD%<Bright>:</Bright> Phóng axit vào mục tiêu và kẻ địch gần nhất còn lại, gây @PhysicalDamageCalc1@ %i:scaleAD%%i:scaleAP% sát thương vật lý. Kẻ địch dưới @ADBonusDamageThreshold@ Máu tối đa sẽ nhận @PhysicalDamageCalc2@ %i:scaleAD%%i:scaleAP% sát thương vật lý.\n\n<dim>Thích Ứng</dim>%i:scaleAP%<dim>: Gây sát thương theo thời gian lên kẻ địch.</dim>",
+        "icon": "",
+        "variables": {}
+      },
+      "icon": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_kogmaw/skins/base/images/tft18_kogmaw_splash_tile_3.png"
+    },
+    {
+      "id": "DA_18_Zyra",
+      "name": "Zyra",
+      "cost": 4,
+      "traits": [
+        "DA_18_ZyraUniqueTrait",
+        "DA_18_Summoner"
+      ],
+      "stats": {
+        "hp": 850,
+        "mana": {
+          "initial": 0,
+          "max": 45
+        },
+        "armor": 40,
+        "mr": 40,
+        "ad": 40,
+        "as": 0.75,
+        "range": 4
+      },
+      "ability": {
+        "name": "Sum Sê",
+        "description": "Triệu hồi @NumPlantsToSpawn@ cái cây quanh chiến trường để tấn công kẻ địch gần nhất @ThornSpitterNumAttacks@ lần. Mỗi đòn đánh gây @MagicDamageCalc1@ %i:scaleAP% sát thương phép.",
+        "icon": "",
+        "variables": {}
+      },
+      "icon": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_zyra/skins/base/images/tft18_zyra_splash_tile_0.png"
+    },
+    {
+      "id": "DA_Fiddlesticks18",
+      "name": "Fiddlesticks",
+      "cost": 3,
+      "traits": [
+        "DA_FloraFatalis18",
+        "DA_18_Defender",
+        "DA_18_Spellweaver"
+      ],
+      "stats": {
+        "hp": 1000,
+        "mana": {
+          "initial": 30,
+          "max": 90
+        },
+        "armor": 55,
+        "mr": 55,
+        "ad": 50,
+        "as": 0.65,
+        "range": 1
+      },
+      "ability": {
+        "name": "Thu Hoạch",
+        "description": "Giảm Kháng Phép của @NumTargets@ kẻ địch gần nhất đi @MRReduction@. Sau đó hút sinh lực từ chúng trong @CastDuration@ giây, hồi @HealthCalc1@ %i:scaleAP% Máu và gây @MagicDamageCalc1@ %i:scaleAP% sát thương phép lên mỗi mục tiêu trong suốt thời gian hiệu lực.",
+        "icon": "",
+        "variables": {}
+      },
+      "icon": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_fiddlesticks/skins/base/images/tft18_fiddlesticks_splash_tile_46.png"
+    },
+    {
+      "id": "DA_18_Soraka",
+      "name": "Soraka",
+      "cost": 4,
+      "traits": [
+        "DA_FloraFatalis18",
+        "DA_18_Executioner"
+      ],
+      "stats": {
+        "hp": 850,
+        "mana": {
+          "initial": 0,
+          "max": 30
+        },
+        "armor": 40,
+        "mr": 40,
+        "ad": 30,
+        "as": 0.75,
+        "range": 4
+      },
+      "ability": {
+        "name": "Vẫn Tinh",
+        "description": "Gọi xuống 1 tinh tú vào mục tiêu hiện tại, gây @MagicDamageCalc1@ %i:scaleAP% sát thương phép. Nếu một tinh tú trước đó đã rơi trúng mục tiêu, gọi xuống thêm @NumAdditionalStars@ tinh tú, mỗi tinh tú gây @MagicDamageCalc2@ %i:scaleAP% sát thương phép.",
+        "icon": "",
+        "variables": {}
+      },
+      "icon": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_soraka/skins/base/images/tft18_soraka_splash_tile_53.png"
+    },
+    {
+      "id": "DA_Taric18",
+      "name": "Taric",
+      "cost": 5,
+      "traits": [
+        "DA_Emerald18",
+        "DA_18_Vanguard"
+      ],
+      "stats": {
+        "hp": 1300,
+        "mana": {
+          "initial": 0,
+          "max": 65
+        },
+        "armor": 70,
+        "mr": 70,
+        "ad": 55,
+        "as": 0.75,
+        "range": 1
+      },
+      "ability": {
+        "name": "Lục Bảo Huy Hoàng",
+        "description": "<Bright>Nội Tại:</Bright> Lần đầu tiên Taric hoặc đồng minh được ghép cặp giảm xuống dưới @PassivePercentHealthThreshold@ Máu, giải phóng năng lượng lục bảo từ cả hai, tạo @ShieldCalc1@ %i:scaleHealth% Lá Chắn cho các đồng minh trong phạm vi @PassiveHexRadius@ ô trong @PassiveShieldDuration@ giây.\n\n<Bright>Kích Hoạt:</Bright> Hồi @HealthCalc1@ %i:scaleAP% Máu. Taric và đồng minh được ghép cặp gây @MagicDamageCalc1@ %i:scaleAP% sát thương phép cộng thêm trong @NumAttacks@ đòn đánh tiếp theo.",
+        "icon": "",
+        "variables": {}
+      },
+      "icon": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_taric/skins/base/images/tft18_taric_splash_tile_1.png"
+    },
+    {
+      "id": "DA_18_Ivern",
+      "name": "Ivern",
+      "cost": 5,
+      "traits": [
+        "DA_18_Greenfather"
+      ],
+      "stats": {
+        "hp": 1000,
+        "mana": {
+          "initial": 50,
+          "max": 80
+        },
+        "armor": 55,
+        "mr": 55,
+        "ad": 60,
+        "as": 0.8,
+        "range": 3
+      },
+      "ability": {
+        "name": "Hạt Hư Hỏng",
+        "description": "<bright>Nội Tại:</bright> Lá chắn từ Kỹ Năng này có thể chí mạng với <Keyword>Chuẩn Xác</Keyword>.\n\n<bright>Kích Hoạt:</bright> Trao cho @NumAlliesToShield@ đồng minh @ShieldCalc1@ %i:scaleAP%%i:scaleDA% Lá Chắn và @DamageAmpAmount@ Khuếch Đại Sát Thương trong @ShieldDuration@ giây. Sau đó gây @MagicDamageCalc1@ %i:scaleAP% sát thương phép lên kẻ địch liền kề họ. Sau khi thi triển @CastThreshold@ lần, cũng sẽ cho mục tiêu @AttackSpeed@ cộng dồn Tốc Độ Đánh.",
+        "icon": "",
+        "variables": {}
+      },
+      "icon": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_ivern/skins/base/images/tft18_ivern_splash_tile_0.png"
+    },
+    {
+      "id": "DA_Lux18_Base",
+      "name": "Lux",
+      "cost": 5,
+      "traits": [
+        "DA_18_LuxUniqueTrait"
+      ],
+      "stats": {
+        "hp": 900,
+        "mana": {
+          "initial": 20,
+          "max": 70
+        },
+        "armor": 40,
+        "mr": 40,
+        "ad": 40,
+        "as": 0.8,
+        "range": 6
+      },
+      "ability": {
+        "name": "Cầu Vồng Tối Thượng",
+        "description": "<bright>Nội Tại:</bright> Khi dùng chiêu, tất cả đồng minh có chung một tộc/hệ với Lux nhận @ManaCalc1@ %i:scaleAP% năng lượng.\n\n<bright>Kích Hoạt:</bright> Bắn một tia laser về phía có đông kẻ địch nhất gây @MagicDamageCalc1@ %i:scaleAP% sát thương phép, giảm đi @DamageReductionPerUnit@ với mỗi kẻ địch trúng chiêu.",
+        "icon": "",
+        "variables": {}
+      },
+      "icon": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_lux/skins/base/images/tft18_lux_splash_tile_7.png"
+    },
+    {
+      "id": "DA_18_Alistar",
+      "name": "Alistar",
+      "cost": 2,
+      "traits": [
+        "DA_18_Elderwood",
+        "DA_18_Brawler"
+      ],
+      "stats": {
+        "hp": 950,
+        "mana": {
+          "initial": 30,
+          "max": 90
+        },
+        "armor": 45,
+        "mr": 45,
+        "ad": 50,
+        "as": 0.6,
+        "range": 1
+      },
+      "ability": {
+        "name": "Tiếng Gầm Chiến Thắng",
+        "description": "Gầm thét, hồi lại @HealthCalc1@ %i:scaleHealth%%i:scaleAP% Máu, thanh tẩy hiệu ứng khống chế, và hồi @HealthCalc2@ %i:scaleAP% Máu cho 2 đồng minh có phần trăm Máu thấp nhất. Sau đó nện vào mục tiêu hiện tại, gây @MagicDamageCalc1@ %i:scaleAP% sát thương phép và làm choáng chúng trong @StunDuration@ giây.",
+        "icon": "",
+        "variables": {}
+      },
+      "icon": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_alistar/skins/base/images/tft18_alistar_splash_tile_40.png"
+    },
+    {
+      "id": "DA_Draven18",
+      "name": "Draven",
+      "cost": 5,
+      "traits": [
+        "DA_DravenUniqueTrait18"
+      ],
+      "stats": {
+        "hp": 900,
+        "mana": {
+          "initial": 0,
+          "max": 110
+        },
+        "armor": 45,
+        "mr": 45,
+        "ad": 48,
+        "as": 0.85,
+        "range": 6
+      },
+      "ability": {
+        "name": "Lốc Xoáy Tử Vong",
+        "description": "<bright>Nội Tại:</bright> Đòn đánh nhắm vào kẻ địch ngẫu nhiên trong tầm đánh và áp dụng 1 cộng dồn chảy máu, gây @PhysicalDamageCalc1@ %i:scaleAD% sát thương vật lý trong @BleedDuration@ giây. Mỗi đòn đánh có @GenericCalc1@ %i:scaleAP% cơ hội gây thêm @SpinningAxeDamageRatio@ sát thương vật lý và áp dụng @SpinningAxeBleedStacks@ cộng dồn chảy máu.\n\n<bright>Kích hoạt:</bright> Ném 2 rìu khổng lồ về phía kẻ địch đang chịu nhiều hiệu ứng chảy máu nhất. Gây @PhysicalDamageCalc3@ %i:scaleAD% sát thương vật lý lên những kẻ địch trúng chiêu và tiêu hao cộng dồn chảy máu, lập tức gây ra toàn bộ lượng sát thương còn lại. Sau đó thu rìu về, gây @GenericCalc2@ %i:scaleAD% sát thương vật lý lên những kẻ địch trúng chiêu. Nếu không có kẻ địch nào trúng chiêu, hoàn trả @ManaRefund@ năng lượng tiêu hao.",
+        "icon": "",
+        "variables": {}
+      },
+      "icon": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_draven/skins/base/images/tft18_draven_splash_tile_5.png"
+    },
+    {
+      "id": "DA_18_ElderDragon",
+      "name": "Rồng Ngàn Tuổi",
+      "cost": 5,
+      "traits": [
+        "DA_18_ApexPredator",
+        "DA_Riftbeast18"
+      ],
+      "stats": {
+        "hp": 1800,
+        "mana": {
+          "initial": 20,
+          "max": 60
+        },
+        "armor": 75,
+        "mr": 75,
+        "ad": 125,
+        "as": 0.5,
+        "range": 2
+      },
+      "ability": {
+        "name": "Sức Nóng Vô Song",
+        "description": "<Bright>Nội Tại:</Bright> Đòn đánh gây @AttackAoERatio@ sát thương lên những kẻ địch liền kề mục tiêu.\n\n<Bright>Kích Hoạt:</Bright> Trở nên bất tử và bay lên không trung. Khi quay lại, làm choáng tất cả kẻ địch trong @StunDuration@ giây, nhận @Omnivamp@ Hút Máu Toàn Phần, và Thiêu Đốt chúng trong @IgniteDuration@ giây.  Kẻ địch bị thiêu đốt chịu sát thương vật lý bằng @IgniteMaxHealthDamage@ Máu tối đa mỗi giây. Thay thế kỹ năng này bằng Hơi Thở Của Rồng và lập tức sử dụng kỹ năng này.\n\n<Bright>Hơi Thở Của Rồng:</Bright> Phun lửa theo đường thẳng xuyên qua mục tiêu, tấn công nhiều kẻ địch nhất có thể, gây @PhysicalDamageCalc2@ %i:scaleAD%%i:scaleAP% sát thương vật lý, giảm đi @DamageReductionPerHit@ với mỗi kẻ địch đã xuyên qua (tối thiểu @MinimumDamageThreshold@.) Thiêu đốt kẻ địch trong @IgniteDuration@ giây.\n\nBùa Rồng Ngàn Tuổi: Gây sát thương lên kẻ địch dưới @TraitExecuteThreshold@ Máu sẽ hành quyết mục tiêu.",
+        "icon": "",
+        "variables": {}
+      },
+      "icon": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_elderdragon/skins/base/images/t_18_elderdragon_teamplannersplash.png"
+    },
+    {
+      "id": "DA_Karma18",
+      "name": "Karma",
+      "cost": 1,
+      "traits": [
+        "DA_18_Blossom",
+        "DA_18_Spellweaver"
+      ],
+      "stats": {
+        "hp": 500,
+        "mana": {
+          "initial": 0,
+          "max": 40
+        },
+        "armor": 25,
+        "mr": 25,
+        "ad": 25,
+        "as": 0.7,
+        "range": 4
+      },
+      "ability": {
+        "name": "Liên Kết Nghiệp Duyên",
+        "description": "Nối liên kết với mục tiêu hiện tại, gây @MagicDamageCalc1@ %i:scaleAP% sát thương phép trong @TetherDuration@ giây. Rồi giải phóng một luồng sức mạnh xung quanh kẻ đó, gây @MagicDamageCalc2@ %i:scaleAP% sát thương phép lên tất cả kẻ địch trong phạm vi @AoEHexRange@ Ô và <keyword>Làm Chậm</keyword> chúng đi @SlowPercent@% trong @SlowDuration@ giây.\n\n<Rules>Làm Chậm: Giảm Tốc Độ Đánh</Rules>",
+        "icon": "",
+        "variables": {}
+      },
+      "icon": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_karma/skins/base/images/tft18_karma_splash_tile_70.png"
+    },
+    {
+      "id": "DA_18_LeBlanc",
+      "name": "LeBlanc",
+      "cost": 2,
+      "traits": [
+        "DA_18_Elderwood",
+        "DA_18_Spellweaver"
+      ],
+      "stats": {
+        "hp": 550,
+        "mana": {
+          "initial": 0,
+          "max": 40
+        },
+        "armor": 30,
+        "mr": 30,
+        "ad": 30,
+        "as": 0.7,
+        "range": 4
+      },
+      "ability": {
+        "name": "Ảo Ảnh",
+        "description": "<bright>Nội Tại:</bright> Sau giao tranh người chơi, LeBlanc mạnh nhất của bạn có @PercentChanceToPrint@ cơ hội tạo ra 1 bản sao của một đồng minh trên bàn của bạn, tăng thêm @PercentChanceToPrintKillBonus@ cho mỗi lần hạ gục.\n\n<bright>Kích Hoạt:</bright> Phóng 1 ảo ảnh vào mục tiêu hiện tại, gây @MagicDamageCalc1@ %i:scaleAP% sát thương phép và @MagicDamageCalc2@ %i:scaleAP% sát thương lên những kẻ địch liền kề.",
+        "icon": "",
+        "variables": {}
+      },
+      "icon": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_leblanc/skins/base/images/tft18_leblanc_splash_tile_5.png"
+    },
+    {
+      "id": "DA_18_MasterYi_AD",
+      "name": "Master Yi",
+      "cost": 3,
+      "traits": [
+        "DA_18_Blossom",
+        "DA_18_Adaptor"
+      ],
+      "stats": {
+        "hp": 850,
+        "mana": {
+          "initial": 0,
+          "max": 3
+        },
+        "armor": 55,
+        "mr": 55,
+        "ad": 63,
+        "as": 0.8,
+        "range": 1
+      },
+      "ability": {
+        "name": "Võ Thuật Wuju",
+        "description": "<Bright>Nội Tại:</Bright> Mỗi đòn đánh thứ 3 là một cú Chém Đôi. Tham gia hạ gục sẽ tăng tốc độ di chuyển.\n\n<Bright>Thích Ứng </Bright>%i:scaleAD%: Cú Chém Đôi cho @AttackSpeedCalc1@ %i:scaleAP% Tốc Độ Đánh cộng dồn.\n\n<dim>Thích Ứng </dim>%i:scaleAP%<dim>: Cú Chém Đôi gây sát thương cộng thêm và hồi máu.</dim>",
+        "icon": "",
+        "variables": {}
+      },
+      "icon": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_masteryi/skins/base/images/tft18_masteryi_splash_tile_52.png"
+    },
+    {
+      "id": "DA_18_Shen",
+      "name": "Shen",
+      "cost": 2,
+      "traits": [
+        "DA_18_Inferno",
+        "DA_18_Defender"
+      ],
+      "stats": {
+        "hp": 900,
+        "mana": {
+          "initial": 30,
+          "max": 90
+        },
+        "armor": 45,
+        "mr": 45,
+        "ad": 50,
+        "as": 0.65,
+        "range": 1
+      },
+      "ability": {
+        "name": "Lá Chắn Kiếm Khí",
+        "description": "Trao @ShieldCalc1@ %i:scaleAP% Lá Chắn cho Shen và @ShieldCalc2@ %i:scaleAP% Lá Chắn cho 1 đồng minh đã chịu sát thương gần đó trong @MagicShieldDuration@ giây. @NumAttacksBuff@ đòn đánh tiếp theo của cả hai được tăng @AttackSpeedBuff@ Tốc Độ Đánh và gây @MagicDamageCalc1@ %i:scaleAP% sát thương phép cộng thêm.",
+        "icon": "",
+        "variables": {}
+      },
+      "icon": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_shen/skins/base/images/tft18_shen_splash_tile_16.png"
+    },
+    {
+      "id": "DA_18_Warwick",
+      "name": "Warwick",
+      "cost": 2,
+      "traits": [
+        "DA_18_Blackthorn",
+        "DA_18_Slayer"
+      ],
+      "stats": {
+        "hp": 750,
+        "mana": {
+          "initial": 0,
+          "max": 40
+        },
+        "armor": 45,
+        "mr": 45,
+        "ad": 45,
+        "as": 0.75,
+        "range": 1
+      },
+      "ability": {
+        "name": "Cắn Xé",
+        "description": "Cắn mục tiêu hiện tại, gây @PhysicalDamageCalc1@ %i:scaleAD% sát thương vật lý và hồi máu bằng @GenericCalc1@ %i:scaleAP% lượng sát thương gây ra. Nhận @AttackSpeedBuff@ Tốc Độ Đánh cho đến hết giao tranh.",
+        "icon": "",
+        "variables": {}
+      },
+      "icon": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_warwick/skins/base/images/tft18_warwick_splash_tile_35.png"
+    },
+    {
+      "id": "DA_18_Camille",
+      "name": "Camille",
+      "cost": 1,
+      "traits": [
+        "DA_18_Coven",
+        "DA_18_Slayer"
+      ],
+      "stats": {
+        "hp": 700,
+        "mana": {
+          "initial": 0,
+          "max": 25
+        },
+        "armor": 40,
+        "mr": 40,
+        "ad": 40,
+        "as": 0.75,
+        "range": 1
+      },
+      "ability": {
+        "name": "Đá Quét Phòng Ngự",
+        "description": "Chém mục tiêu gây @PhysicalDamageCalc1@ %i:scaleAD%%i:scaleAP% sát thương vật lý và nhận @AbilityShield@ Lá Chắn trong @ShieldDuration@ giây.",
+        "icon": "",
+        "variables": {}
+      },
+      "icon": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_camille/skins/base/images/tft18_camille_splash_tile_2.png"
+    },
+    {
+      "id": "DA_Lux18_Blackthorn",
+      "name": "Lux (Gai Đen)",
+      "cost": 5,
+      "traits": [
+        "DA_18_Blackthorn",
+        "DA_18_LuxUniqueTrait"
+      ],
+      "stats": {
+        "hp": 900,
+        "mana": {
+          "initial": 20,
+          "max": 70
+        },
+        "armor": 45,
+        "mr": 45,
+        "ad": 40,
+        "as": 0.8,
+        "range": 6
+      },
+      "ability": {
+        "name": "Cầu Vồng Tối Thượng",
+        "description": "<bright>Nội Tại:</bright> Khi dùng chiêu, tất cả đồng minh có chung một tộc/hệ với Lux nhận @ManaCalc1@ %i:scaleAP% năng lượng.\n\n<bright>Kích Hoạt:</bright> Bắn một tia laser về phía nhiều kẻ địch nhất theo đường thẳng, gây @MagicDamageCalc1@ %i:scaleAP% sát thương phép, giảm đi @DamageReductionPerUnit@ với mỗi kẻ địch trúng chiêu (tối thiểu @MinimumFalloffDamageRatio@).\n\n<bright>Thưởng Gai Đen:</bright> Làm choáng mục tiêu trúng đòn trong @BlackthornStunDuration@ giây.",
+        "icon": "",
+        "variables": {}
+      },
+      "icon": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_lux/hud/splashes/t_18_lux_blackthorn_teamplanner.png"
+    },
+    {
+      "id": "DA_Lux18_Blossom",
+      "name": "Lux (Hoa Linh)",
+      "cost": 5,
+      "traits": [
+        "DA_18_Blossom",
+        "DA_18_LuxUniqueTrait"
+      ],
+      "stats": {
+        "hp": 900,
+        "mana": {
+          "initial": 20,
+          "max": 70
+        },
+        "armor": 45,
+        "mr": 45,
+        "ad": 40,
+        "as": 0.8,
+        "range": 6
+      },
+      "ability": {
+        "name": "Cầu Vồng Tối Thượng",
+        "description": "<bright>Nội Tại:</bright> Khi dùng chiêu, tất cả đồng minh có chung một tộc/hệ với Lux nhận @ManaCalc1@ %i:scaleAP% năng lượng.\n\n<bright>Kích Hoạt:</bright> Bắn một tia laser về phía nhiều kẻ địch nhất theo đường thẳng, gây @MagicDamageCalc1@ %i:scaleAP% sát thương phép, giảm đi @DamageReductionPerUnit@ với mỗi kẻ địch trúng chiêu (tối thiểu @MinimumFalloffDamageRatio@).\n\n<bright>Thưởng Hoa Linh:</bright> Mục tiêu đầu tiên trúng đòn nhận @BlossomBonusDamageRatio@ sát thương cộng thêm.",
+        "icon": "",
+        "variables": {}
+      },
+      "icon": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_lux/hud/splashes/t_18_lux_blossom_teamplanner.png"
+    },
+    {
+      "id": "DA_18_Lux_Coven",
+      "name": "Lux (Tiên Hắc Ám)",
+      "cost": 5,
+      "traits": [
+        "DA_18_Coven",
+        "DA_18_LuxUniqueTrait"
+      ],
+      "stats": {
+        "hp": 900,
+        "mana": {
+          "initial": 20,
+          "max": 70
+        },
+        "armor": 45,
+        "mr": 45,
+        "ad": 40,
+        "as": 0.8,
+        "range": 6
+      },
+      "ability": {
+        "name": "Cầu Vồng Tối Thượng",
+        "description": "<bright>Nội Tại:</bright> Khi dùng chiêu, tất cả đồng minh có chung một tộc/hệ với Lux nhận @ManaCalc1@ %i:scaleAP% năng lượng.\n\n<bright>Kích Hoạt:</bright> Bắn một tia laser về phía nhiều kẻ địch nhất theo đường thẳng, gây @MagicDamageCalc1@ %i:scaleAP% sát thương phép, giảm đi @DamageReductionPerUnit@ với mỗi kẻ địch trúng chiêu (tối thiểu @MinimumFalloffDamageRatio@).\n\n<bright>Thưởng Tiên Hắc Ám:</bright> Giảm Giáp và Kháng Phép của các mục tiêu trúng chiêu đi @CovenResistReduction@ cho đến hết giao tranh.",
+        "icon": "",
+        "variables": {}
+      },
+      "icon": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_lux/hud/splashes/t_18_lux_coven_teamplanner.png"
+    },
+    {
+      "id": "DA_18_Lux_Elderwood",
+      "name": "Lux (Thần Rừng)",
+      "cost": 5,
+      "traits": [
+        "DA_18_Elderwood",
+        "DA_18_LuxUniqueTrait"
+      ],
+      "stats": {
+        "hp": 900,
+        "mana": {
+          "initial": 20,
+          "max": 70
+        },
+        "armor": 45,
+        "mr": 45,
+        "ad": 40,
+        "as": 0.8,
+        "range": 6
+      },
+      "ability": {
+        "name": "Cầu Vồng Tối Thượng",
+        "description": "<bright>Nội Tại:</bright> Khi dùng chiêu, tất cả đồng minh có chung một tộc/hệ với Lux nhận @ManaCalc1@ %i:scaleAP% năng lượng.\n\n<bright>Kích Hoạt:</bright> Bắn một tia laser về phía nhiều kẻ địch nhất theo đường thẳng, gây @MagicDamageCalc1@ %i:scaleAP% sát thương phép, giảm đi @DamageReductionPerUnit@ với mỗi kẻ địch trúng chiêu (tối thiểu @MinimumFalloffDamageRatio@).\n\n<bright>Thưởng Thần Rừng:</bright> Khi thi triển sẽ tăng cho tất cả các đồng minh thêm @ElderwoodHealthIncrease@ Máu tối đa cho đến hết giao tranh.",
+        "icon": "",
+        "variables": {}
+      },
+      "icon": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_lux/hud/splashes/t_18_lux_elderwood_teamplanner.png"
+    },
+    {
+      "id": "DA_18_Lux_Fae",
+      "name": "Lux (Tiên Linh)",
+      "cost": 5,
+      "traits": [
+        "DA_18_Fae",
+        "DA_18_LuxUniqueTrait"
+      ],
+      "stats": {
+        "hp": 900,
+        "mana": {
+          "initial": 20,
+          "max": 70
+        },
+        "armor": 45,
+        "mr": 45,
+        "ad": 40,
+        "as": 0.8,
+        "range": 6
+      },
+      "ability": {
+        "name": "Cầu Vồng Tối Thượng",
+        "description": "<bright>Nội Tại:</bright> Khi dùng chiêu, tất cả đồng minh có chung một tộc/hệ với Lux nhận @ManaCalc1@ %i:scaleAP% năng lượng.\n\n<bright>Kích Hoạt:</bright> Bắn một tia laser về phía nhiều kẻ địch nhất theo đường thẳng, gây @MagicDamageCalc1@ %i:scaleAP% sát thương phép, giảm đi @DamageReductionPerUnit@ với mỗi kẻ địch trúng chiêu (tối thiểu @MinimumFalloffDamageRatio@).\n\n<bright>Thưởng Tiên Linh:</bright> Hồi máu cho đồng minh có phần trăm Máu thấp nhất tương đương @FaeHealRatio@ sát thương kỹ năng đã gây ra.",
+        "icon": "",
+        "variables": {}
+      },
+      "icon": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_lux/hud/splashes/t_18_lux_fae_teamplanner.png"
+    },
+    {
+      "id": "DA_18_Lux_Inferno",
+      "name": "Lux (Hỏa Ngục)",
+      "cost": 5,
+      "traits": [
+        "DA_18_Inferno",
+        "DA_18_LuxUniqueTrait"
+      ],
+      "stats": {
+        "hp": 900,
+        "mana": {
+          "initial": 20,
+          "max": 70
+        },
+        "armor": 45,
+        "mr": 45,
+        "ad": 40,
+        "as": 0.8,
+        "range": 6
+      },
+      "ability": {
+        "name": "Cầu Vồng Tối Thượng",
+        "description": "<bright>Nội Tại:</bright> Khi dùng chiêu, tất cả đồng minh có chung một tộc/hệ với Lux nhận @ManaCalc1@ %i:scaleAP% năng lượng.\n\n<bright>Kích Hoạt:</bright> Bắn một tia laser về phía nhiều kẻ địch nhất theo đường thẳng, gây @MagicDamageCalc1@ %i:scaleAP% sát thương phép, giảm đi @DamageReductionPerUnit@ với mỗi kẻ địch trúng chiêu (tối thiểu @MinimumFalloffDamageRatio@).\n\n<bright>Thưởng Hỏa Ngục:</bright> Hồi lại @InfernoManaRestore@ năng lượng mỗi lần tham gia hạ gục.",
+        "icon": "",
+        "variables": {}
+      },
+      "icon": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_lux/hud/splashes/t_18_lux_inferno_teamplanner.png"
+    },
+    {
+      "id": "DA_18_Lux_Moonbeam",
+      "name": "Lux (Mặt Trăng)",
+      "cost": 5,
+      "traits": [
+        "DA_18_Lunar",
+        "DA_18_LuxUniqueTrait"
+      ],
+      "stats": {
+        "hp": 900,
+        "mana": {
+          "initial": 20,
+          "max": 70
+        },
+        "armor": 45,
+        "mr": 45,
+        "ad": 40,
+        "as": 0.8,
+        "range": 6
+      },
+      "ability": {
+        "name": "Cầu Vồng Tối Thượng",
+        "description": "<bright>Nội Tại:</bright> Khi dùng chiêu, tất cả đồng minh có chung một tộc/hệ với Lux nhận @ManaCalc1@ %i:scaleAP% năng lượng.\n\n<bright>Kích Hoạt:</bright> Bắn một tia laser về phía nhiều kẻ địch nhất theo đường thẳng, gây @MagicDamageCalc1@ %i:scaleAP% sát thương phép, giảm đi @DamageReductionPerUnit@ với mỗi kẻ địch trúng chiêu (tối thiểu @MinimumFalloffDamageRatio@).\n\n<bright>Thưởng Mặt Trăng:</bright> Gây <Keyword>Suy Yếu</Keyword> @LunarVulnerablePercent@% lên kẻ địch trong @LunarVulnerableDuration@ giây.\n\n<Rules>Suy Yếu: Tăng sát thương gánh chịu</Rules>",
+        "icon": "",
+        "variables": {}
+      },
+      "icon": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_lux/hud/splashes/t_18_lux_moonbeam_teamplanner.png"
+    },
+    {
+      "id": "DA_18_Lux_Primal",
+      "name": "Lux (Nguyên Sinh)",
+      "cost": 5,
+      "traits": [
+        "DA_Primal18",
+        "DA_18_LuxUniqueTrait"
+      ],
+      "stats": {
+        "hp": 900,
+        "mana": {
+          "initial": 20,
+          "max": 70
+        },
+        "armor": 45,
+        "mr": 45,
+        "ad": 40,
+        "as": 0.8,
+        "range": 6
+      },
+      "ability": {
+        "name": "Cầu Vồng Tối Thượng",
+        "description": "<bright>Nội Tại:</bright> Khi dùng chiêu, tất cả đồng minh có chung một tộc/hệ với Lux nhận @ManaCalc1@ %i:scaleAP% năng lượng.\n\n<bright>Kích Hoạt:</bright> Bắn một tia laser về phía nhiều kẻ địch nhất theo đường thẳng, gây @MagicDamageCalc1@ %i:scaleAP% sát thương phép, giảm đi @DamageReductionPerUnit@ với mỗi kẻ địch trúng chiêu (tối thiểu @MinimumFalloffDamageRatio@).\n\n<bright>Thưởng Nguyên Sinh:</bright> Nhận @PrimalAttackSpeed@ Tốc Độ Đánh trong @PrimalASDuration@ giây sau khi thi triển.",
+        "icon": "",
+        "variables": {}
+      },
+      "icon": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_lux/hud/splashes/t_18_lux_primal_teamplanner.png"
+    },
+    {
+      "id": "DA_18_Lux_Sunbeam",
+      "name": "Lux (Mặt Trời)",
+      "cost": 5,
+      "traits": [
+        "DA_18_Solar",
+        "DA_18_LuxUniqueTrait"
+      ],
+      "stats": {
+        "hp": 900,
+        "mana": {
+          "initial": 20,
+          "max": 70
+        },
+        "armor": 45,
+        "mr": 45,
+        "ad": 40,
+        "as": 0.8,
+        "range": 6
+      },
+      "ability": {
+        "name": "Cầu Vồng Tối Thượng",
+        "description": "<bright>Nội Tại:</bright> Khi dùng chiêu, tất cả đồng minh có chung một tộc/hệ với Lux nhận @ManaCalc1@ %i:scaleAP% năng lượng.\n\n<bright>Kích Hoạt:</bright> Bắn một tia laser về phía có đông kẻ địch nhất theo đường thẳng, gây @MagicDamageCalc1@ %i:scaleAP% sát thương phép, giảm đi @DamageReductionPerUnit@ với mỗi kẻ địch trúng chiêu (tối thiểu @MinimumFalloffDamageRatio@).\n\n<bright>Thưởng Mặt Trời:</bright> Gây @SolarBonusDamageRatio@ sát thương cộng thêm. Với mỗi tướng 3 sao độc nhất được triển khai, gây @SolarBonusDamagePer3StarRadio@ sát thương cộng thêm.",
+        "icon": "",
+        "variables": {}
+      },
+      "icon": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_lux/hud/splashes/t_18_lux_sunbeam_teamplanner.png"
+    },
+    {
+      "id": "DA_CrimsonRaptor18",
+      "name": "Chim Mẹ",
+      "cost": 3,
+      "traits": [
+        "DA_Riftbeast18",
+        "DA_18_Summoner",
+        "DA_18_Rapidfire"
+      ],
+      "stats": {
+        "hp": 650,
+        "mana": {
+          "initial": 20,
+          "max": 60
+        },
+        "armor": 35,
+        "mr": 35,
+        "ad": 60,
+        "as": 0.75,
+        "range": 4
+      },
+      "ability": {
+        "name": "Gia Đình Chim Biến Dị",
+        "description": "Triệu hồi 4 Chim Non không thể bị chọn làm mục tiêu gần đó trong @GenericCalc1@ %i:scaleAP% giây. Mỗi khi Chim Mẹ tấn công, Chim Non cũng tấn công mục tiêu đó, gây @PhysicalDamageCalc1@ %i:scaleAD% sát thương vật lý.\n\nBùa Cam: Gây sát thương vật lý sẽ giảm Giáp của kẻ địch đi @ArmorReduc@.",
+        "icon": "",
+        "variables": {}
+      },
+      "icon": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_raptor/skins/base/images/t_18_crimsonraptor_teamplannersplash.png"
+    }
+  ],
+  "items": [
+    {
+      "id": "DA_18_Radiantize_Upgrade",
+      "name": "Ánh Sáng Hóa",
+      "components": [],
+      "description": "Sau @DelayUpgrade@ giây, @NumItemsUpgrade@ trang bị ngẫu nhiên đang được trang bị sẽ tạm thời trở thành dạng Ánh Sáng.",
+      "isUnique": false,
+      "icon": "https://raw.communitydragon.org/latest/game/assets/ux/tft/hud/zaps/wands/set18_mechanicicon.png"
+    },
+    {
+      "id": "DA_RedBuff",
+      "name": "Bùa Đỏ",
+      "components": [
+        "DA_Component_RecurveBow",
+        "DA_Component_RecurveBow"
+      ],
+      "description": "",
+      "isUnique": false,
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_rapidfirecannon.png"
+    },
+    {
+      "id": "DA_Evenshroud",
+      "name": "Giáp Vai Nguyệt Thần",
+      "components": [
+        "DA_Component_NegatronCloak",
+        "DA_Component_GiantsBelt"
+      ],
+      "description": "",
+      "isUnique": false,
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_spectralgauntlet.png"
+    },
+    {
+      "id": "DA_SpearOfShojin",
+      "name": "Ngọn Giáo Shojin",
+      "components": [
+        "DA_Component_TearOfTheGoddess",
+        "DA_Component_BFSword"
+      ],
+      "description": "",
+      "isUnique": false,
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_spearofshojin.png"
+    },
+    {
+      "id": "DA_Component_NegatronCloak",
+      "name": "Áo Choàng Bạc",
+      "components": [],
+      "description": "",
+      "isUnique": false,
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_negatroncloak.png"
+    },
+    {
+      "id": "DA_Quicksilver",
+      "name": "Áo Choàng Thủy Ngân",
+      "components": [
+        "DA_Component_NegatronCloak",
+        "DA_Component_SparringGloves"
+      ],
+      "description": "",
+      "isUnique": false,
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_quicksilver.png"
+    },
+    {
+      "id": "DA_18_EmblemVanguard",
+      "name": "Ấn Tiên Phong",
+      "components": [
+        "DA_Component_FryingPan",
+        "DA_Component_ChainVest"
+      ],
+      "description": "",
+      "isUnique": false,
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/spatula/set18/tft18_emblem_vanguard.png"
+    },
+    {
+      "id": "DA_GargoyleStoneplate",
+      "name": "Thú Tượng Thạch Giáp",
+      "components": [
+        "DA_Component_ChainVest",
+        "DA_Component_NegatronCloak"
+      ],
+      "description": "",
+      "isUnique": false,
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_gargoylestoneplate.png"
+    },
+    {
+      "id": "DA_18_EmblemBlackthorn",
+      "name": "Ấn Gai Đen",
+      "components": [
+        "DA_Component_Spatula",
+        "DA_Component_GiantsBelt"
+      ],
+      "description": "",
+      "isUnique": false,
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/spatula/set18/tft18_emblem_blackthorn.png"
+    },
+    {
+      "id": "DA_NashorsTooth",
+      "name": "Nanh Nashor",
+      "components": [
+        "DA_Component_RecurveBow",
+        "DA_Component_GiantsBelt"
+      ],
+      "description": "",
+      "isUnique": false,
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_leviathan.png"
+    },
+    {
+      "id": "DA_Component_TearOfTheGoddess",
+      "name": "Nước Mắt Nữ Thần",
+      "components": [],
+      "description": "",
+      "isUnique": false,
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_tearofthegoddess.png"
+    },
+    {
+      "id": "DA_18_EmblemHunter",
+      "name": "Ấn Thợ Săn",
+      "components": [
+        "DA_Component_FryingPan",
+        "DA_Component_BFSword"
+      ],
+      "description": "",
+      "isUnique": false,
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/spatula/set18/tft18_emblem_hunter.png"
+    },
+    {
+      "id": "DA_ThiefsGloves",
+      "name": "Găng Đạo Tặc",
+      "components": [
+        "DA_Component_SparringGloves",
+        "DA_Component_SparringGloves"
+      ],
+      "description": "",
+      "isUnique": false,
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_thiefsgloves.png"
+    },
+    {
+      "id": "DA_InfinityEdge",
+      "name": "Vô Cực Kiếm",
+      "components": [
+        "DA_Component_BFSword",
+        "DA_Component_SparringGloves"
+      ],
+      "description": "",
+      "isUnique": false,
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_infinityedge.png"
+    },
+    {
+      "id": "DA_Morellonomicon",
+      "name": "Quỷ Thư Morello",
+      "components": [
+        "DA_Component_GiantsBelt",
+        "DA_Component_NeedlesslyLargeRod"
+      ],
+      "description": "",
+      "isUnique": false,
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_morellonomicon.png"
+    },
+    {
+      "id": "DA_18_EmblemPrimal",
+      "name": "Ấn Nguyên Sinh",
+      "components": [
+        "DA_Component_Spatula",
+        "DA_Component_SparringGloves"
+      ],
+      "description": "",
+      "isUnique": false,
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/spatula/set18/tft18_emblem_primal.png"
+    },
+    {
+      "id": "DA_ProtectorsVow",
+      "name": "Lời Thề Hộ Vệ",
+      "components": [
+        "DA_Component_ChainVest",
+        "DA_Component_TearOfTheGoddess"
+      ],
+      "description": "",
+      "isUnique": false,
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_frozenheart.png"
+    },
+    {
+      "id": "DA_Component_BFSword",
+      "name": "Kiếm B.F.",
+      "components": [],
+      "description": "",
+      "isUnique": false,
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_bfsword.png"
+    },
+    {
+      "id": "DA_WarmogsArmor",
+      "name": "Giáp Máu Warmog",
+      "components": [
+        "DA_Component_GiantsBelt",
+        "DA_Component_GiantsBelt"
+      ],
+      "description": "",
+      "isUnique": false,
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_warmogsarmor.png"
+    },
+    {
+      "id": "DA_18_EmblemSlayer",
+      "name": "Ấn Tàn Phá",
+      "components": [
+        "DA_Component_FryingPan",
+        "DA_Component_NegatronCloak"
+      ],
+      "description": "",
+      "isUnique": false,
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/spatula/set18/tft18_emblem_ravager.png"
+    },
+    {
+      "id": "DA_VoidStaff",
+      "name": "Trượng Hư Vô",
+      "components": [
+        "DA_Component_RecurveBow",
+        "DA_Component_TearOfTheGoddess"
+      ],
+      "description": "",
+      "isUnique": false,
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_voidstaff.png"
+    },
+    {
+      "id": "DA_18_EmblemDefender",
+      "name": "Ấn Vệ Quân",
+      "components": [],
+      "description": "",
+      "isUnique": false,
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/spatula/set18/tft18_emblem_defender.png"
+    },
+    {
+      "id": "DA_DragonsClaw",
+      "name": "Vuốt Rồng",
+      "components": [
+        "DA_Component_NegatronCloak",
+        "DA_Component_NegatronCloak"
+      ],
+      "description": "",
+      "isUnique": false,
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_dragonsclaw.png"
+    },
+    {
+      "id": "DA_18_EmblemFloraFatalis",
+      "name": "Ấn Thực Vật",
+      "components": [],
+      "description": "",
+      "isUnique": false,
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/spatula/set18/tft18_emblem_florafatalis.png"
+    },
+    {
+      "id": "DA_18_EmblemFae",
+      "name": "Ấn Tiên Linh",
+      "components": [
+        "DA_Component_Spatula",
+        "DA_Component_BFSword"
+      ],
+      "description": "",
+      "isUnique": false,
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/spatula/set18/tft18_emblem_fae.png"
+    },
+    {
+      "id": "DA_SpiritVisage",
+      "name": "Giáp Tâm Linh",
+      "components": [
+        "DA_Component_GiantsBelt",
+        "DA_Component_TearOfTheGoddess"
+      ],
+      "description": "",
+      "isUnique": false,
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_spiritvisagerr.png"
+    },
+    {
+      "id": "DA_EdgeOfNight",
+      "name": "Áo Choàng Bóng Tối",
+      "components": [
+        "DA_Component_BFSword",
+        "DA_Component_ChainVest"
+      ],
+      "description": "",
+      "isUnique": false,
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_guardianangel.png"
+    },
+    {
+      "id": "DA_Component_RecurveBow",
+      "name": "Cung Gỗ",
+      "components": [],
+      "description": "",
+      "isUnique": false,
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_recurvebow.png"
+    },
+    {
+      "id": "DA_18_EmblemSprykin",
+      "name": "Ấn Tinh Nghịch",
+      "components": [
+        "DA_Component_Spatula",
+        "DA_Component_NegatronCloak"
+      ],
+      "description": "",
+      "isUnique": false,
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/spatula/set18/tft18_emblem_sprykin.png"
+    },
+    {
+      "id": "DA_TitansResolve",
+      "name": "Quyền Năng Khổng Lồ",
+      "components": [
+        "DA_Component_RecurveBow",
+        "DA_Component_ChainVest"
+      ],
+      "description": "",
+      "isUnique": false,
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_titansresolve.png"
+    },
+    {
+      "id": "DA_18_EmblemInvoker",
+      "name": "Ấn Thuật Sĩ",
+      "components": [
+        "DA_Component_FryingPan",
+        "DA_Component_TearOfTheGoddess"
+      ],
+      "description": "",
+      "isUnique": false,
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/spatula/set18/tft18_emblem_invoker.png"
+    },
+    {
+      "id": "DA_Component_GiantsBelt",
+      "name": "Đai Khổng Lồ",
+      "components": [],
+      "description": "",
+      "isUnique": false,
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_giantsbelt.png"
+    },
+    {
+      "id": "DA_18_EmblemBrawler",
+      "name": "Ấn Đấu Sĩ",
+      "components": [
+        "DA_Component_FryingPan",
+        "DA_Component_GiantsBelt"
+      ],
+      "description": "",
+      "isUnique": false,
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/spatula/set18/tft18_emblem_brawler.png"
+    },
+    {
+      "id": "DA_Component_SparringGloves",
+      "name": "Găng Đấu Tập",
+      "components": [],
+      "description": "",
+      "isUnique": false,
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_sparringgloves.png"
+    },
+    {
+      "id": "DA_Component_NeedlesslyLargeRod",
+      "name": "Gậy Quá Khổ",
+      "components": [],
+      "description": "",
+      "isUnique": false,
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_needlesslylargerod.png"
+    },
+    {
+      "id": "DA_TacticiansCape",
+      "name": "Áo Choàng Chiến Thuật",
+      "components": [
+        "DA_Component_Spatula",
+        "DA_Component_FryingPan"
+      ],
+      "description": "",
+      "isUnique": false,
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_tacticiansring.png"
+    },
+    {
+      "id": "DA_HextechGunblade",
+      "name": "Kiếm Súng Hextech",
+      "components": [
+        "DA_Component_BFSword",
+        "DA_Component_NeedlesslyLargeRod"
+      ],
+      "description": "",
+      "isUnique": false,
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_hextechgunblade.png"
+    },
+    {
+      "id": "DA_HandOfJustice",
+      "name": "Bàn Tay Công Lý",
+      "components": [
+        "DA_Component_TearOfTheGoddess",
+        "DA_Component_SparringGloves"
+      ],
+      "description": "",
+      "isUnique": false,
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_unstableconcoction.png"
+    },
+    {
+      "id": "DA_18_EmblemExecutioner",
+      "name": "Ấn Đao Phủ",
+      "components": [
+        "DA_Component_FryingPan",
+        "DA_Component_SparringGloves"
+      ],
+      "description": "",
+      "isUnique": false,
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/spatula/set18/tft18_emblem_executioner.png"
+    },
+    {
+      "id": "DA_StrikersFlail",
+      "name": "Chùy Đoản Côn",
+      "components": [
+        "DA_Component_GiantsBelt",
+        "DA_Component_SparringGloves"
+      ],
+      "description": "",
+      "isUnique": false,
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_powergauntlet.png"
+    },
+    {
+      "id": "DA_18_EmblemLunar",
+      "name": "Ấn Mặt Trăng",
+      "components": [
+        "DA_Component_Spatula",
+        "DA_Component_TearOfTheGoddess"
+      ],
+      "description": "",
+      "isUnique": false,
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/spatula/set18/tft18_emblem_lunar.png"
+    },
+    {
+      "id": "DA_SteadfastHeart",
+      "name": "Trái Tim Kiên Định",
+      "components": [
+        "DA_Component_ChainVest",
+        "DA_Component_SparringGloves"
+      ],
+      "description": "",
+      "isUnique": false,
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_nightharvester.png"
+    },
+    {
+      "id": "DA_GuinsoosRageblade",
+      "name": "Cuồng Đao Guinsoo",
+      "components": [
+        "DA_Component_RecurveBow",
+        "DA_Component_NeedlesslyLargeRod"
+      ],
+      "description": "",
+      "isUnique": false,
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_guinsoosrageblade.png"
+    },
+    {
+      "id": "DA_18_EmblemRapidfire",
+      "name": "Ấn Liên Kích",
+      "components": [
+        "DA_Component_FryingPan",
+        "DA_Component_RecurveBow"
+      ],
+      "description": "",
+      "isUnique": false,
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/spatula/set18/tft18_emblem_rapidfire.png"
+    },
+    {
+      "id": "DA_Bloodthirster",
+      "name": "Huyết Kiếm",
+      "components": [
+        "DA_Component_BFSword",
+        "DA_Component_NegatronCloak"
+      ],
+      "description": "",
+      "isUnique": false,
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_bloodthirster.png"
+    },
+    {
+      "id": "DA_IonicSpark",
+      "name": "Nỏ Sét",
+      "components": [
+        "DA_Component_NeedlesslyLargeRod",
+        "DA_Component_NegatronCloak"
+      ],
+      "description": "",
+      "isUnique": false,
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_ionicspark.png"
+    },
+    {
+      "id": "DA_RabadonsDeathcap",
+      "name": "Mũ Phù Thủy Rabadon",
+      "components": [
+        "DA_Component_NeedlesslyLargeRod",
+        "DA_Component_NeedlesslyLargeRod"
+      ],
+      "description": "",
+      "isUnique": false,
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_rabadonsdeathcap.png"
+    },
+    {
+      "id": "DA_18_EmblemElderwood",
+      "name": "Ấn Thần Rừng",
+      "components": [
+        "DA_Component_Spatula",
+        "DA_Component_ChainVest"
+      ],
+      "description": "",
+      "isUnique": false,
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/spatula/set18/tft18_emblem_elderwood.png"
+    },
+    {
+      "id": "DA_TacticiansCrown",
+      "name": "Vương Miện Chiến Thuật",
+      "components": [
+        "DA_Component_Spatula",
+        "DA_Component_Spatula"
+      ],
+      "description": "",
+      "isUnique": false,
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_forceofnature.png"
+    },
+    {
+      "id": "DA_LastWhisper",
+      "name": "Cung Xanh",
+      "components": [
+        "DA_Component_RecurveBow",
+        "DA_Component_SparringGloves"
+      ],
+      "description": "",
+      "isUnique": false,
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_lastwhisper.png"
+    },
+    {
+      "id": "DA_Crownguard",
+      "name": "Vương Miện Hoàng Gia",
+      "components": [
+        "DA_Component_NeedlesslyLargeRod",
+        "DA_Component_ChainVest"
+      ],
+      "description": "",
+      "isUnique": false,
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_crownguard.png"
+    },
+    {
+      "id": "DA_18_EmblemSpellweaver",
+      "name": "Ấn Thuật Sư",
+      "components": [
+        "DA_Component_FryingPan",
+        "DA_Component_NeedlesslyLargeRod"
+      ],
+      "description": "",
+      "isUnique": false,
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/spatula/set18/tft18_emblem_spellweaver.png"
+    },
+    {
+      "id": "DA_18_EmblemCoven",
+      "name": "Ấn Tiên Hắc Ám",
+      "components": [],
+      "description": "",
+      "isUnique": false,
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/spatula/set18/tft18_emblem_coven.png"
+    },
+    {
+      "id": "DA_Component_Spatula",
+      "name": "Xẻng Vàng",
+      "components": [],
+      "description": "",
+      "isUnique": false,
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_spatula.png"
+    },
+    {
+      "id": "DA_SteraksGage",
+      "name": "Móng Vuốt Sterak",
+      "components": [
+        "DA_Component_BFSword",
+        "DA_Component_GiantsBelt"
+      ],
+      "description": "",
+      "isUnique": false,
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_steraksgage.png"
+    },
+    {
+      "id": "DA_SunfireCape",
+      "name": "Áo Choàng Lửa",
+      "components": [
+        "DA_Component_ChainVest",
+        "DA_Component_GiantsBelt"
+      ],
+      "description": "",
+      "isUnique": false,
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_redbuff.png"
+    },
+    {
+      "id": "DA_ArchangelsStaff",
+      "name": "Quyền Trượng Thiên Thần",
+      "components": [
+        "DA_Component_NeedlesslyLargeRod",
+        "DA_Component_TearOfTheGoddess"
+      ],
+      "description": "",
+      "isUnique": false,
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_archangelsstaff.png"
+    },
+    {
+      "id": "DA_AdaptiveHelm",
+      "name": "Mũ Thích Nghi",
+      "components": [
+        "DA_Component_TearOfTheGoddess",
+        "DA_Component_NegatronCloak"
+      ],
+      "description": "",
+      "isUnique": false,
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_adaptivehelm.png"
+    },
+    {
+      "id": "DA_BrambleVest",
+      "name": "Áo Choàng Gai",
+      "components": [
+        "DA_Component_ChainVest",
+        "DA_Component_ChainVest"
+      ],
+      "description": "",
+      "isUnique": false,
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_bramblevest.png"
+    },
+    {
+      "id": "DA_JeweledGauntlet",
+      "name": "Găng Bảo Thạch",
+      "components": [
+        "DA_Component_SparringGloves",
+        "DA_Component_NeedlesslyLargeRod"
+      ],
+      "description": "",
+      "isUnique": false,
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_jeweledgauntlet.png"
+    },
+    {
+      "id": "DA_Component_ChainVest",
+      "name": "Giáp Lưới",
+      "components": [],
+      "description": "",
+      "isUnique": false,
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_chainvest.png"
+    },
+    {
+      "id": "DA_TacticiansShield",
+      "name": "Lá Chắn Chiến Thuật",
+      "components": [
+        "DA_Component_FryingPan",
+        "DA_Component_FryingPan"
+      ],
+      "description": "",
+      "isUnique": false,
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_tacticiansscepter.png"
+    },
+    {
+      "id": "DA_Component_FryingPan",
+      "name": "Chảo Vàng",
+      "components": [],
+      "description": "",
+      "isUnique": false,
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_fryingpan.png"
+    },
+    {
+      "id": "DA_BlueBuff",
+      "name": "Bùa Xanh",
+      "components": [
+        "DA_Component_TearOfTheGoddess",
+        "DA_Component_TearOfTheGoddess"
+      ],
+      "description": "",
+      "isUnique": false,
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_bluebuff.png"
+    },
+    {
+      "id": "DA_KrakensFury",
+      "name": "Thịnh Nộ Thủy Quái",
+      "components": [
+        "DA_Component_RecurveBow",
+        "DA_Component_NegatronCloak"
+      ],
+      "description": "",
+      "isUnique": false,
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_krakenslayer.png"
+    },
+    {
+      "id": "DA_GiantSlayer",
+      "name": "Diệt Khổng Lồ",
+      "components": [
+        "DA_Component_RecurveBow",
+        "DA_Component_BFSword"
+      ],
+      "description": "",
+      "isUnique": false,
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_madredsbloodrazor.png"
+    },
+    {
+      "id": "DA_18_EmblemBlossom",
+      "name": "Ấn Hoa Linh",
+      "components": [
+        "DA_Component_Spatula",
+        "DA_Component_NeedlesslyLargeRod"
+      ],
+      "description": "",
+      "isUnique": false,
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/spatula/set18/tft18_emblem_blossom.png"
+    },
+    {
+      "id": "DA_Deathblade",
+      "name": "Kiếm Tử Thần",
+      "components": [
+        "DA_Component_BFSword",
+        "DA_Component_BFSword"
+      ],
+      "description": "",
+      "isUnique": false,
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_deathblade.png"
+    },
+    {
+      "id": "DA_18_EmblemInferno",
+      "name": "Ấn Hỏa Ngục",
+      "components": [
+        "DA_Component_Spatula",
+        "DA_Component_RecurveBow"
+      ],
+      "description": "",
+      "isUnique": false,
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/spatula/set18/tft18_emblem_inferno.png"
+    },
+    {
+      "id": "DA_18_EmblemJuggernaut",
+      "name": "Ấn Dũng Sĩ",
+      "components": [],
+      "description": "",
+      "isUnique": false,
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/spatula/set18/tft18_emblem_juggernaut.png"
+    }
+  ]
+}
