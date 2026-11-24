@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Suspense } from "react";
+import BuilderSkeleton from "@/components/builder/BuilderSkeleton";
 import TeamBuilder from "@/components/builder/TeamBuilder";
 import { getSetIndex } from "@/lib/data";
 
@@ -17,7 +18,7 @@ export default function BuilderPage() {
       <p className="mt-1 mb-6 text-sm text-white/60">
         Chọn mùa, kéo tướng lên bàn cờ, gắn trang bị và chia sẻ đội hình bằng liên kết – không cần đăng nhập.
       </p>
-      <Suspense fallback={<p className="text-white/50">Đang tải…</p>}>
+      <Suspense fallback={<BuilderSkeleton withToolbar />}>
         <TeamBuilder sets={sets} />
       </Suspense>
     </div>

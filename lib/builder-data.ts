@@ -2,6 +2,7 @@ import "server-only";
 import type { BuilderData, BuilderItem } from "./builder";
 import { getSet } from "./data";
 import type { Item, SetData, Trait } from "./types";
+import { thumb } from "./ui";
 
 const norm = (s: string) =>
   s
@@ -69,7 +70,7 @@ export function buildBuilderData(set: SetData, id: string): BuilderData {
     rows: set.boardSize.rows,
     cols: set.boardSize.cols,
     champions: set.champions
-      .map((c) => ({ id: c.id, name: c.name, cost: c.cost, icon: c.icon, traits: c.traits }))
+      .map((c) => ({ id: c.id, name: c.name, cost: c.cost, icon: thumb(c.icon), traits: c.traits }))
       .sort((a, b) => a.cost - b.cost || a.name.localeCompare(b.name, "vi")),
     traits: set.traits.map((t) => ({
       id: t.id,

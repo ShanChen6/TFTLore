@@ -43,7 +43,7 @@ export function ChampionPool({
       className={`rounded-xl border p-3 transition ${isOver ? "border-rose-400 bg-rose-500/10" : "border-white/10 bg-slate-900/60"}`}
     >
       <div className="flex flex-wrap items-center gap-2">
-        <h3 className="mr-auto font-semibold">Tướng</h3>
+        <h2 className="mr-auto font-semibold">Tướng</h2>
         <input
           type="search"
           value={query}
@@ -75,7 +75,7 @@ export function ChampionPool({
           <option value="name">Theo tên</option>
         </select>
       </div>
-      <p className="mt-1 text-[11px] text-white/40">
+      <p className="mt-1 text-[11px] text-white/55">
         Kéo tướng lên bàn cờ hoặc bấm để tự xếp vào ô trống. Kéo tướng từ bàn cờ về đây để xóa.
       </p>
       <ul className="mt-2 grid max-h-64 grid-cols-[repeat(auto-fill,minmax(52px,1fr))] gap-1.5 overflow-y-auto pr-1">
@@ -131,7 +131,7 @@ export function ItemPool({ items, onPick }: { items: BuilderItem[]; onPick: (id:
   return (
     <div className="rounded-xl border border-white/10 bg-slate-900/60 p-3">
       <div className="flex flex-wrap items-center gap-1.5">
-        <h3 className="mr-auto font-semibold">Trang bị</h3>
+        <h2 className="mr-auto font-semibold">Trang bị</h2>
         {kinds.map((k) => (
           <button
             key={k}
@@ -145,7 +145,7 @@ export function ItemPool({ items, onPick }: { items: BuilderItem[]; onPick: (id:
           </button>
         ))}
       </div>
-      <p className="mt-1 text-[11px] text-white/40">
+      <p className="mt-1 text-[11px] text-white/55">
         Kéo trang bị thả lên tướng, hoặc chọn tướng trên bàn cờ rồi bấm vào trang bị.
       </p>
       <ul className="mt-2 grid max-h-64 grid-cols-[repeat(auto-fill,minmax(40px,1fr))] gap-1.5 overflow-y-auto pr-1">

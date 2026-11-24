@@ -3,6 +3,7 @@
 import Image from "next/image";
 import { useMemo, useState } from "react";
 import HtmlText from "./HtmlText";
+import { useSetDetails } from "./useSetDetails";
 import type { ItemView } from "./view";
 
 type Selection = { kind: "component"; id: string } | { kind: "item"; id: string } | null;
@@ -18,7 +19,7 @@ function groupOf(item: ItemView): string {
   return "Khác";
 }
 
-export default function ItemCombiner({ items }: { items: ItemView[] }) {
+export default function ItemCombiner({ setId, items }: { setId: string; items: ItemView[] }) {
   const byId = useMemo(() => new Map(items.map((i) => [i.id, i])), [items]);
 
   // Mảnh cơ bản = trang bị không có công thức nhưng được dùng để ghép trang bị khác.
@@ -55,7 +56,15 @@ export default function ItemCombiner({ items }: { items: ItemView[] }) {
     return [...groups.entries()];
   }, [items, componentIds]);
 
-  const [sel, setSel] = useState<Selection>(components[0] ? { kind: "component", id: components[0].id } : null);
+  const [sel, setSelRaw] = useState<Selection>(components[0] ? { kind: "component", id: components[0].id } : null);
+  const [touched, setTouched] = useState(false);
+  const setSel = (s: Selection) => {
+    setTouched(true);
+    setSelRaw(s);
+  };
+  // Mô tả trang bị chỉ tải khi người dùng tương tác với bảng ghép đồ.
+  const { details } = useSetDetails(setId, touched);
+  const htmlOf = (id: string) => (details ? (details.items[id] ?? "") : null);
   const selectedComponent = sel?.kind === "component" ? sel.id : null;
 
   return (
@@ -80,9 +89,15 @@ export default function ItemCombiner({ items }: { items: ItemView[] }) {
 
       <div className="min-w-0 rounded-xl border border-white/10 bg-slate-900/60 p-4">
         {sel?.kind === "component" && (
-          <ComponentDetail component={byId.get(sel.id)!} components={components} recipe={recipe} onPick={(id) => setSel({ kind: "item", id })} />
+          <ComponentDetail
+            component={byId.get(sel.id)!}
+            html={htmlOf(sel.id)}
+            components={components}
+            recipe={recipe}
+            onPick={(id) => setSel({ kind: "item", id })}
+          />
         )}
-        {sel?.kind === "item" && <ItemDetail item={byId.get(sel.id)!} byId={byId} />}
+        {sel?.kind === "item" && <ItemDetail item={byId.get(sel.id)!} html={htmlOf(sel.id)} byId={byId} />}
         {!sel && <p className="text-sm text-white/50">Mùa này không có dữ liệu ghép đồ.</p>}
       </div>
 
@@ -91,7 +106,7 @@ export default function ItemCombiner({ items }: { items: ItemView[] }) {
           {special.map(([group, list]) => (
             <div key={group} className="mt-4">
               <h3 className="mb-2 text-sm font-semibold text-white/70">
-                {group} <span className="text-white/40">({list.length})</span>
+                {group} <span className="text-white/55">({list.length})</span>
               </h3>
               <ul className="flex flex-wrap gap-1.5">
                 {list.map((i) => (
@@ -174,11 +189,14 @@ function ItemIcon({ item, size, active, onClick }: { item: ItemView; size: numbe
 
 function ComponentDetail({
   component,
+  html,
   components,
   recipe,
   onPick,
 }: {
   component: ItemView;
+  /** null = chưa tải mô tả. */
+  html: string | null;
   components: ItemView[];
   recipe: Map<string, ItemView>;
   onPick: (id: string) => void;
@@ -192,9 +210,11 @@ function ComponentDetail({
           <p className="text-xs text-white/50">Mảnh trang bị cơ bản</p>
         </div>
       </div>
-      <p className="mt-2 text-sm text-white/70">
-        <HtmlText html={component.html} />
-      </p>
+      {html && (
+        <p className="mt-2 text-sm text-white/70">
+          <HtmlText html={html} />
+        </p>
+      )}
       <ul className="mt-4 space-y-1.5">
         {components.map((other) => {
           const result = recipe.get(pairKey(component.id, other.id));
@@ -203,9 +223,9 @@ function ComponentDetail({
             <li key={other.id}>
               <button onClick={() => onPick(result.id)} className="flex w-full items-center gap-2 rounded-lg p-1 text-left text-sm hover:bg-white/5">
                 <Image src={component.icon} alt="" width={24} height={24} className="rounded" />
-                <span className="text-white/40">+</span>
+                <span className="text-white/55">+</span>
                 <Image src={other.icon} alt={other.name} width={24} height={24} className="rounded" />
-                <span className="text-white/40">=</span>
+                <span className="text-white/55">=</span>
                 <Image src={result.icon} alt="" width={28} height={28} className="rounded" />
                 <span className="truncate font-medium">{result.name}</span>
               </button>
@@ -217,7 +237,7 @@ function ComponentDetail({
   );
 }
 
-function ItemDetail({ item, byId }: { item: ItemView; byId: Map<string, ItemView> }) {
+function ItemDetail({ item, html, byId }: { item: ItemView; html: string | null; byId: Map<string, ItemView> }) {
   return (
     <div>
       <div className="flex items-center gap-3">
@@ -231,7 +251,7 @@ function ItemDetail({ item, byId }: { item: ItemView; byId: Map<string, ItemView
         <div className="mt-3 flex items-center gap-2 text-sm">
           {item.components.map((c, i) => (
             <span key={i} className="flex items-center gap-1">
-              {i > 0 && <span className="text-white/40">+</span>}
+              {i > 0 && <span className="text-white/55">+</span>}
               {byId.get(c) && <Image src={byId.get(c)!.icon} alt="" width={24} height={24} className="rounded" />}
               <span className="text-white/70">{byId.get(c)?.name ?? c}</span>
             </span>
@@ -239,7 +259,13 @@ function ItemDetail({ item, byId }: { item: ItemView; byId: Map<string, ItemView
         </div>
       )}
       <p className="mt-3 text-sm leading-relaxed text-white/80">
-        {item.html ? <HtmlText html={item.html} /> : <span className="text-white/40">Chưa có mô tả.</span>}
+        {html === null ? (
+          <span className="text-white/55">Đang tải mô tả…</span>
+        ) : html ? (
+          <HtmlText html={html} />
+        ) : (
+          <span className="text-white/55">Chưa có mô tả.</span>
+        )}
       </p>
     </div>
   );

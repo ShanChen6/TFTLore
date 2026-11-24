@@ -1,7 +1,7 @@
 import Image from "next/image";
 import HtmlText from "./HtmlText";
 import type { ChampionView, TraitView } from "./view";
-import { costColor, TRAIT_STYLE } from "@/lib/ui";
+import { costColor, thumb, TRAIT_STYLE } from "@/lib/ui";
 
 export default function TraitList({ traits, champions }: { traits: TraitView[]; champions: ChampionView[] }) {
   const champById = new Map(champions.map((c) => [c.id, c]));
@@ -41,7 +41,7 @@ export default function TraitList({ traits, champions }: { traits: TraitView[]; 
                     {b.count}
                   </span>
                   <span className="text-white/80">
-                    {b.effectHtml ? <HtmlText html={b.effectHtml} /> : <span className="text-white/40">Kích hoạt</span>}
+                    {b.effectHtml ? <HtmlText html={b.effectHtml} /> : <span className="text-white/55">Kích hoạt</span>}
                   </span>
                 </li>
               ))}
@@ -56,7 +56,7 @@ export default function TraitList({ traits, champions }: { traits: TraitView[]; 
               .map((c) => (
                 <li key={c.id} title={`${c.name} (${c.cost} vàng)`}>
                   <Image
-                    src={c.icon}
+                    src={thumb(c.icon)}
                     alt={c.name}
                     width={32}
                     height={32}

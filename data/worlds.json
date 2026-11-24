@@ -1,0 +1,16 @@
+{
+  "_note": "Đại sảnh Danh vọng CKTG TFT. Mỗi mục cần đối chiếu nguồn chính thức (Riot/LoL Esports) trước khi coi là chính xác. 'comp' là mã đội hình của Team Builder (tham số code), để trống nếu chưa có.",
+  "entries": [
+    {"setId": "3", "event": "Galaxies Championship", "year": 2020, "champion": "Qitong", "region": "Trung Quốc", "comp": null, "verified": false},
+    {"setId": "4", "event": "Fates Championship", "year": 2021, "champion": "Huanmie", "region": "Trung Quốc", "comp": null, "verified": false},
+    {"setId": "5", "event": "Reckoning Championship", "year": 2021, "champion": "Ddudu", "region": "Hàn Quốc", "comp": null, "verified": false},
+    {"setId": "6", "event": "Gizmos & Gadgets Championship", "year": 2022, "champion": "Kiyoon", "region": "Hàn Quốc", "comp": null, "verified": false},
+    {"setId": "7", "event": "Dragonlands Championship", "year": 2022, "champion": null, "region": null, "comp": null, "verified": false},
+    {"setId": "8", "event": null, "year": 2023, "champion": null, "region": null, "comp": null, "verified": false},
+    {"setId": "9", "event": null, "year": 2023, "champion": null, "region": null, "comp": null, "verified": false},
+    {"setId": "10", "event": null, "year": 2024, "champion": null, "region": null, "comp": null, "verified": false},
+    {"setId": "11", "event": null, "year": 2024, "champion": null, "region": null, "comp": null, "verified": false},
+    {"setId": "12", "event": null, "year": 2024, "champion": null, "region": null, "comp": null, "verified": false},
+    {"setId": "13", "event": null, "year": 2025, "champion": null, "region": null, "comp": null, "verified": false}
+  ]
+}

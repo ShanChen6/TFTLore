@@ -6,7 +6,7 @@ import ItemCombiner from "@/components/wiki/ItemCombiner";
 import TraitList from "@/components/wiki/TraitList";
 import type { ChampionView, ItemView, TraitView } from "@/components/wiki/view";
 import { getSet, getSetIndex } from "@/lib/data";
-import { abilityHtml, abilityVariableRows, formatTrait, itemHtml } from "@/lib/format";
+import { formatTrait } from "@/lib/format";
 import { formatDate } from "@/lib/ui";
 
 type Props = { params: Promise<{ setId: string }> };
@@ -44,8 +44,6 @@ export default async function SetPage({ params }: Props) {
     cost: c.cost,
     icon: c.icon,
     traits: c.traits,
-    stats: c.stats,
-    ability: { name: c.ability.name, html: abilityHtml(c), variables: abilityVariableRows(c) },
   }));
 
   const traits: TraitView[] = set.traits.map((t) => {
@@ -65,7 +63,6 @@ export default async function SetPage({ params }: Props) {
     name: i.name.trim(),
     icon: i.icon,
     components: i.components,
-    html: itemHtml(i),
     isUnique: i.isUnique,
   }));
 
@@ -105,24 +102,25 @@ export default async function SetPage({ params }: Props) {
       <nav className="sticky top-[57px] z-10 -mx-4 mb-6 flex gap-1 overflow-x-auto border-b border-white/10 bg-slate-950/90 px-4 py-2 backdrop-blur">
         {sections.map((s) => (
           <a key={s.id} href={`#${s.id}`} className="shrink-0 rounded-lg px-3 py-1.5 text-sm hover:bg-white/10">
-            {s.label} <span className="text-white/40">{s.count}</span>
+            {s.label} <span className="text-white/55">{s.count}</span>
           </a>
         ))}
       </nav>
 
       <section id="champions" className="scroll-mt-32">
         <h2 className="mb-4 text-2xl font-bold">Tướng</h2>
-        <ChampionBrowser champions={champions} traits={traits} />
+        <ChampionBrowser setId={setId} champions={champions} traits={traits} />
       </section>
 
-      <section id="traits" className="mt-16 scroll-mt-32">
+      {/* content-visibility: bỏ qua render phần ngoài màn hình cho tới khi cuộn tới */}
+      <section id="traits" className="mt-16 scroll-mt-32 [content-visibility:auto] [contain-intrinsic-size:auto_1500px]">
         <h2 className="mb-4 text-2xl font-bold">Tộc/Hệ</h2>
         <TraitList traits={traits} champions={champions} />
       </section>
 
-      <section id="items" className="mt-16 scroll-mt-32">
+      <section id="items" className="mt-16 scroll-mt-32 [content-visibility:auto] [contain-intrinsic-size:auto_900px]">
         <h2 className="mb-4 text-2xl font-bold">Bảng ghép trang bị</h2>
-        <ItemCombiner items={items} />
+        <ItemCombiner setId={setId} items={items} />
       </section>
 
       <nav className="mt-16 flex justify-between gap-4 border-t border-white/10 pt-6 text-sm">

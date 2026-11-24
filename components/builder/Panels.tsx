@@ -7,7 +7,7 @@ import { costColor, TRAIT_STYLE } from "@/lib/ui";
 
 export function SynergyPanel({ traits }: { traits: ActiveTrait[] }) {
   if (!traits.length) {
-    return <p className="text-sm text-white/40">Chưa có Tộc/Hệ nào. Hãy thêm tướng lên bàn cờ.</p>;
+    return <p className="text-sm text-white/55">Chưa có Tộc/Hệ nào. Hãy thêm tướng lên bàn cờ.</p>;
   }
   return (
     <ul className="space-y-1.5">
@@ -34,7 +34,7 @@ export function SynergyPanel({ traits }: { traits: ActiveTrait[] }) {
           <span className="w-6 text-center font-mono font-bold">{t.count}</span>
           <div className="min-w-0 flex-1">
             <p className="truncate text-sm font-medium">{t.trait.name}</p>
-            <p className="flex flex-wrap gap-x-1 text-[11px] text-white/40">
+            <p className="flex flex-wrap gap-x-1 text-[11px] text-white/55">
               {t.trait.breakpoints.map((b, i) => (
                 <span key={i} className={i === t.level ? "font-bold text-white" : ""}>
                   {i > 0 && <span className="text-white/20">›</span>} {b.count}

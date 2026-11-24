@@ -13,6 +13,7 @@ import {
   type DragEndEvent,
   type DragStartEvent,
 } from "@dnd-kit/core";
+import BuilderSkeleton from "./BuilderSkeleton";
 import HexBoard from "./HexBoard";
 import { SynergyPanel, UnitPanel } from "./Panels";
 import { ChampionPool, ItemPool } from "./Pools";
@@ -235,7 +236,7 @@ export default function TeamBuilder({ sets }: { sets: SetIndexEntry[] }) {
       </div>
 
       {error && <p className="mt-6 text-rose-300">{error}</p>}
-      {!data && !error && <p className="mt-6 text-white/50">Đang tải dữ liệu {currentSet?.name}…</p>}
+      {!data && !error && <BuilderSkeleton label={`Đang tải dữ liệu ${currentSet?.name ?? ""}…`} />}
 
       {data && (
         <div className="mt-4 grid gap-4 lg:grid-cols-[1fr_280px]">
@@ -305,7 +306,7 @@ export default function TeamBuilder({ sets }: { sets: SetIndexEntry[] }) {
           </div>
 
           <aside className="rounded-xl border border-white/10 bg-slate-900/60 p-3 lg:sticky lg:top-20 lg:self-start">
-            <h3 className="mb-2 font-semibold">Tộc/Hệ</h3>
+            <h2 className="mb-2 font-semibold">Tộc/Hệ</h2>
             <SynergyPanel traits={traits} />
           </aside>
         </div>

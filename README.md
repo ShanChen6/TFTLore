@@ -25,7 +25,9 @@ npm run dev
 | `/` | Hero + đếm ngược Mùa 19, dòng thời gian toàn bộ các mùa |
 | `/sets/[setId]` | Chi tiết mùa (`1`, `3.5`, `18`…): danh sách tướng có bộ lọc và popup chi tiết, Tộc/Hệ kèm mốc kích hoạt, bảng ghép trang bị |
 | `/builder?set=<id>&code=<…>` | Team Builder đa mùa: bàn cờ lục giác (3×7 ở Mùa 1, 4×7 các mùa khác), kéo thả tướng/trang bị, tự tính Tộc/Hệ, chia sẻ bằng liên kết và xuất ảnh PNG |
+| `/nostalgia` | Kỷ Lục & Hoài Niệm: bảng vàng tướng xuất hiện nhiều mùa nhất, tiến hóa Tộc/Hệ kinh điển, Đại sảnh Danh vọng CKTG |
 | `/api/builder/[setId]` | JSON rút gọn cho Team Builder, sinh tĩnh lúc build |
+| `/api/sets/[setId]/details` | Chi tiết tướng & mô tả trang bị, chỉ tải khi mở popup (giảm dung lượng trang mùa) |
 
 ### Team Builder
 
@@ -53,3 +55,25 @@ npm run assets:fetch    # tải icon, chuyển sang .webp và cập nhật đư�
 - Mùa 1 – 6.5 chỉ còn dữ liệu tiếng Anh; tên Tộc/Hệ và trang bị được dịch sang tiếng Việt khi khớp với dữ liệu các bản vá sau.
 - Tên tiếng Việt, ngày ra mắt và cơ chế từng mùa được chỉnh tay trong `data/set-meta.json`.
 - Nếu môi trường đi qua proxy, chạy kèm `NODE_USE_ENV_PROXY=1` (Node ≥ 22.21).
+
+## Kỷ Lục & Hoài Niệm
+
+- Bảng vàng và Tiến hóa Tộc/Hệ được tính tự động từ dữ liệu (`lib/nostalgia.ts`), nhận diện tướng/Tộc-Hệ xuyên mùa qua apiName.
+- Danh sách Tộc/Hệ kinh điển cấu hình trong `CLASSIC_TRAITS`.
+- Đại sảnh CKTG lấy từ `data/worlds.json`. Mỗi mục có `verified` (đã đối chiếu nguồn chính thức chưa) và `comp` – mã
+  đội hình vô địch (giá trị `code` copy từ URL Team Builder) để hiện nút “Xem đội hình vô địch”.
+
+## Deploy (Vercel)
+
+1. Vào [vercel.com/new](https://vercel.com/new), import repo `ShanChen6/TFTLore` (framework: Next.js, không cần cấu hình build).
+2. Trong **Settings → Git**, đặt **Production Branch** là `main`; nhánh `develop` sẽ tự có bản Preview.
+3. Thêm biến môi trường `NEXT_PUBLIC_SITE_URL` = tên miền chính thức (vd. `https://tftlore.vn`) để sitemap,
+   robots và Open Graph dùng đúng domain. Nếu bỏ trống, site dùng domain `*.vercel.app` mà Vercel cấp.
+4. Gắn tên miền ở **Settings → Domains**.
+
+Toàn bộ trang và JSON được build tĩnh nên cũng có thể deploy lên Cloudflare Pages qua `@cloudflare/next-on-pages`.
+
+## Ghi chú pháp lý
+
+Footer hiển thị nguyên văn thông báo “Legal Jibber Jabber” theo yêu cầu của Riot Games (kèm bản dịch tiếng Việt)
+và ghi nguồn dữ liệu CommunityDragon.

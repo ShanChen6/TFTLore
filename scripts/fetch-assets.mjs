@@ -54,15 +54,25 @@ async function download(url) {
   throw lastErr;
 }
 
+// Ảnh tướng có thêm bản thu nhỏ "<id>-sm.webp" cho các chỗ hiển thị icon nhỏ (builder, avatar).
+const THUMB_WIDTH = 128;
+
 async function processJob(job) {
   const out = path.join(PUBLIC_DIR, job.localPath);
-  if (!(await exists(out))) {
+  const thumb = job.kind === "champions" ? out.replace(/\.webp$/, "-sm.webp") : null;
+  if (!(await exists(out)) || (thumb && !(await exists(thumb)))) {
     const buf = await download(job.url);
     await mkdir(path.dirname(out), { recursive: true });
     await sharp(buf)
       .resize({ width: SIZES[job.kind], withoutEnlargement: true })
       .webp({ quality: 80 })
       .toFile(out);
+    if (thumb) {
+      await sharp(buf)
+        .resize({ width: THUMB_WIDTH, height: THUMB_WIDTH, fit: "cover", position: "top" })
+        .webp({ quality: 78 })
+        .toFile(thumb);
+    }
   }
   return job.localPath;
 }

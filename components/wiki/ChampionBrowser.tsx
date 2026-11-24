@@ -3,16 +3,19 @@
 import Image from "next/image";
 import { useEffect, useMemo, useState } from "react";
 import HtmlText from "./HtmlText";
-import type { ChampionView, TraitView } from "./view";
+import { useSetDetails } from "./useSetDetails";
+import type { ChampionDetail, ChampionView, TraitView } from "./view";
 import { costColor } from "@/lib/ui";
 
 const normalize = (s: string) =>
   s.normalize("NFD").replace(/[̀-ͯ]/g, "").replace(/đ/g, "d").replace(/Đ/g, "D").toLowerCase();
 
 export default function ChampionBrowser({
+  setId,
   champions,
   traits,
 }: {
+  setId: string;
   champions: ChampionView[];
   traits: TraitView[];
 }) {
@@ -73,16 +76,17 @@ export default function ChampionBrowser({
       <p className="mt-3 text-xs text-white/50">{visible.length} tướng</p>
 
       <ul className="mt-2 grid grid-cols-3 gap-2 sm:grid-cols-5 md:grid-cols-6 lg:grid-cols-8">
-        {visible.map((c) => (
+        {visible.map((c, i) => (
           <li key={c.id}>
             <button
               onClick={() => setSelected(c)}
               className={`group w-full overflow-hidden rounded-lg border-2 bg-slate-900 text-left transition hover:-translate-y-0.5 ${costColor(c.cost).border}`}
             >
               <div className="relative aspect-square">
-                <Image src={c.icon} alt={c.name} fill sizes="128px" className="object-cover" />
+                {/* 4 ảnh đầu nằm trong màn hình đầu tiên: tải ngay để cải thiện LCP */}
+                <Image src={c.icon} alt={c.name} fill sizes="128px" className="object-cover" priority={i < 4} />
                 <span
-                  className={`absolute top-1 right-1 rounded px-1 text-[10px] font-bold text-white ${costColor(c.cost).bg}`}
+                  className={`absolute top-1 right-1 rounded px-1 text-[10px] font-bold ${costColor(c.cost).bg}`}
                 >
                   {c.cost}
                 </span>
@@ -99,7 +103,7 @@ export default function ChampionBrowser({
       </ul>
 
       {selected && (
-        <ChampionModal champ={selected} traitById={traitById} onClose={() => setSelected(null)} />
+        <ChampionModal setId={setId} champ={selected} traitById={traitById} onClose={() => setSelected(null)} />
       )}
     </div>
   );
@@ -128,10 +132,12 @@ function FilterButton({
 }
 
 function ChampionModal({
+  setId,
   champ,
   traitById,
   onClose,
 }: {
+  setId: string;
   champ: ChampionView;
   traitById: Map<string, TraitView>;
   onClose: () => void;
@@ -146,17 +152,8 @@ function ChampionModal({
     };
   }, [onClose]);
 
-  const s = champ.stats;
-  const stats: [string, string | number | null][] = [
-    ["Máu", s.hp],
-    ["Năng lượng", s.mana.max == null ? null : `${s.mana.initial ?? 0}/${s.mana.max}`],
-    ["Giáp", s.armor],
-    ["Kháng phép", s.mr],
-    ["Sát thương", s.ad],
-    ["Tốc độ đánh", s.as],
-    ["Tầm đánh", s.range],
-  ];
-
+  const { details, error } = useSetDetails(setId);
+  const detail = details?.champions[champ.id];
   return (
     <div
       className="fixed inset-0 z-50 flex items-end justify-center bg-black/70 p-0 backdrop-blur-sm sm:items-center sm:p-4"
@@ -180,7 +177,7 @@ function ChampionModal({
             ✕
           </button>
           <div className="absolute bottom-3 left-4">
-            <span className={`rounded px-1.5 py-0.5 text-xs font-bold text-white ${costColor(champ.cost).bg}`}>
+            <span className={`rounded px-1.5 py-0.5 text-xs font-bold ${costColor(champ.cost).bg}`}>
               {champ.cost} vàng
             </span>
             <h3 className="mt-1 text-2xl font-bold">{champ.name}</h3>
@@ -199,53 +196,77 @@ function ChampionModal({
         </div>
 
         <div className="space-y-5 p-4">
-          <dl className="grid grid-cols-4 gap-2 text-center sm:grid-cols-7">
-            {stats.map(([label, value]) => (
-              <div key={label} className="rounded-lg bg-white/5 px-1 py-2">
-                <dt className="text-[10px] text-white/50">{label}</dt>
-                <dd className="font-mono text-sm">{value ?? "–"}</dd>
-              </div>
-            ))}
-          </dl>
-
-          <div>
-            <h4 className="font-semibold text-amber-200">{champ.ability.name || "Kỹ năng"}</h4>
-            <p className="mt-1 text-sm leading-relaxed text-white/80">
-              <HtmlText html={champ.ability.html} />
+          {detail ? (
+            <ChampionDetailBody detail={detail} />
+          ) : (
+            <p className="py-8 text-center text-sm text-white/50">
+              {error ? "Không tải được chi tiết tướng." : "Đang tải chi tiết…"}
             </p>
-            <p className="mt-1 text-[11px] text-white/40">
-              Giá trị dạng a / b / c tương ứng 1★ / 2★ / 3★. Dấu “?” là giá trị được tính trong trận.
-            </p>
-          </div>
-
-          {champ.ability.variables.length > 0 && (
-            <div className="overflow-x-auto">
-              <table className="w-full text-sm">
-                <thead>
-                  <tr className="text-left text-xs text-white/50">
-                    <th className="py-1 font-normal">Chỉ số kỹ năng</th>
-                    <th className="py-1 text-right font-normal">1★</th>
-                    <th className="py-1 text-right font-normal">2★</th>
-                    <th className="py-1 text-right font-normal">3★</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  {champ.ability.variables.map((v) => (
-                    <tr key={v.name} className="border-t border-white/5">
-                      <td className="py-1 font-mono text-xs text-white/70">{v.name}</td>
-                      {v.values.map((x, i) => (
-                        <td key={i} className="py-1 text-right font-mono">
-                          {x}
-                        </td>
-                      ))}
-                    </tr>
-                  ))}
-                </tbody>
-              </table>
-            </div>
           )}
         </div>
       </div>
     </div>
+  );
+}
+
+function ChampionDetailBody({ detail }: { detail: ChampionDetail }) {
+  const s = detail.stats;
+  const stats: [string, string | number | null][] = [
+    ["Máu", s.hp],
+    ["Năng lượng", s.mana.max == null ? null : `${s.mana.initial ?? 0}/${s.mana.max}`],
+    ["Giáp", s.armor],
+    ["Kháng phép", s.mr],
+    ["Sát thương", s.ad],
+    ["Tốc độ đánh", s.as],
+    ["Tầm đánh", s.range],
+  ];
+  return (
+    <>
+      <dl className="grid grid-cols-4 gap-2 text-center sm:grid-cols-7">
+        {stats.map(([label, value]) => (
+          <div key={label} className="rounded-lg bg-white/5 px-1 py-2">
+            <dt className="text-[10px] text-white/50">{label}</dt>
+            <dd className="font-mono text-sm">{value ?? "–"}</dd>
+          </div>
+        ))}
+      </dl>
+
+      <div>
+        <h4 className="font-semibold text-amber-200">{detail.ability.name || "Kỹ năng"}</h4>
+        <p className="mt-1 text-sm leading-relaxed text-white/80">
+          <HtmlText html={detail.ability.html} />
+        </p>
+        <p className="mt-1 text-[11px] text-white/55">
+          Giá trị dạng a / b / c tương ứng 1★ / 2★ / 3★. Dấu “?” là giá trị được tính trong trận.
+        </p>
+      </div>
+
+      {detail.ability.variables.length > 0 && (
+        <div className="overflow-x-auto">
+          <table className="w-full text-sm">
+            <thead>
+              <tr className="text-left text-xs text-white/50">
+                <th className="py-1 font-normal">Chỉ số kỹ năng</th>
+                <th className="py-1 text-right font-normal">1★</th>
+                <th className="py-1 text-right font-normal">2★</th>
+                <th className="py-1 text-right font-normal">3★</th>
+              </tr>
+            </thead>
+            <tbody>
+              {detail.ability.variables.map((v) => (
+                <tr key={v.name} className="border-t border-white/5">
+                  <td className="py-1 font-mono text-xs text-white/70">{v.name}</td>
+                  {v.values.map((x, i) => (
+                    <td key={i} className="py-1 text-right font-mono">
+                      {x}
+                    </td>
+                  ))}
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+      )}
+    </>
   );
 }
