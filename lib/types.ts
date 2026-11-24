@@ -51,6 +51,8 @@ export interface Item {
   description: string;
   isUnique: boolean;
   icon: string;
+  /** Giá trị biến (@Tên@) trong mô tả trang bị. */
+  variables: Record<string, number | null>;
 }
 
 export interface SetData {

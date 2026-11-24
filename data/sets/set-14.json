@@ -6171,7 +6171,12 @@
       ],
       "description": "<tftitemrules>Chiếc mũ này có thể giúp bạn xoay chuyển cả thế giới.</tftitemrules><br><br>@TFTUnitProperty.:TFT_Augment_DeadlierCaps_TRAKey@",
       "isUnique": false,
-      "icon": "/assets/set14/items/TFT_Item_RabadonsDeathcap.webp"
+      "icon": "/assets/set14/items/TFT_Item_RabadonsDeathcap.webp",
+      "variables": {
+        "AP": 55,
+        "BonusDamage": 0.15,
+        "{1543aa48}": 0.15
+      }
     },
     {
       "id": "TFT14_Item_Strategist_WinMore",
@@ -6179,7 +6184,8 @@
       "components": [],
       "description": "Đặt cược rằng bạn sẽ thắng 3+ lần trong số 5 giao tranh tiếp theo.",
       "isUnique": true,
-      "icon": "/assets/set14/items/TFT14_Item_Strategist_WinMore.webp"
+      "icon": "/assets/set14/items/TFT14_Item_Strategist_WinMore.webp",
+      "variables": {}
     },
     {
       "id": "TFT14_Item_Strategist_LoseMore",
@@ -6187,7 +6193,8 @@
       "components": [],
       "description": "Đặt cược rằng bạn sẽ thua 3+ lần trong số 5 giao tranh tiếp theo.",
       "isUnique": true,
-      "icon": "/assets/set14/items/TFT14_Item_Strategist_LoseMore.webp"
+      "icon": "/assets/set14/items/TFT14_Item_Strategist_LoseMore.webp",
+      "variables": {}
     },
     {
       "id": "TFT_Item_InfinityEdge",
@@ -6198,7 +6205,12 @@
       ],
       "description": "Nhận <TFTKeyword>Chuẩn Xác</TFTKeyword>.<br><br>{{TFT_Keyword_Precision}}",
       "isUnique": false,
-      "icon": "/assets/set14/items/TFT_Item_InfinityEdge.webp"
+      "icon": "/assets/set14/items/TFT_Item_InfinityEdge.webp",
+      "variables": {
+        "AD": 0.35,
+        "CritChance": 35,
+        "CritDamageToGive": null
+      }
     },
     {
       "id": "TFT_Item_FrozenHeart",
@@ -6209,7 +6221,17 @@
       ],
       "description": "Bắt Đầu Giao Tranh: Nhận @CombatStartMana@ Năng Lượng.<br><br>Khi còn @HealthThreshold@% Máu, nhận @TriggerMana@ Năng Lượng và Lá Chắn bằng @ShieldHealthPercent@% Máu tối đa.",
       "isUnique": false,
-      "icon": "/assets/set14/items/TFT_Item_FrozenHeart.webp"
+      "icon": "/assets/set14/items/TFT_Item_FrozenHeart.webp",
+      "variables": {
+        "Armor": 25,
+        "CombatStartMana": 20,
+        "HealthThreshold": 40,
+        "MagicResist": 25,
+        "ManaRegen": 1,
+        "ShieldDuration": 60,
+        "ShieldHealthPercent": 20,
+        "TriggerMana": 15
+      }
     },
     {
       "id": "TFT14_Item_EdgeRunnerEmblemItem",
@@ -6220,7 +6242,10 @@
       ],
       "description": "Chủ sở hữu nhận thêm tộc/hệ Công Nghệ Cao.",
       "isUnique": true,
-      "icon": "/assets/set14/items/TFT14_Item_EdgeRunnerEmblemItem.webp"
+      "icon": "/assets/set14/items/TFT14_Item_EdgeRunnerEmblemItem.webp",
+      "variables": {
+        "CritChance": 20
+      }
     },
     {
       "id": "TFT14_Item_DarkWebEmblemItem",
@@ -6231,7 +6256,10 @@
       ],
       "description": "Chủ sở hữu nhận thêm tộc/hệ Siêu Thú.",
       "isUnique": true,
-      "icon": "/assets/set14/items/TFT14_Item_DarkWebEmblemItem.webp"
+      "icon": "/assets/set14/items/TFT14_Item_DarkWebEmblemItem.webp",
+      "variables": {
+        "Mana": 15
+      }
     },
     {
       "id": "TFT14_Item_StrongEmblemItem",
@@ -6242,7 +6270,11 @@
       ],
       "description": "Chủ sở hữu nhận thêm tộc/hệ Đồ Tể.<br>Lượng hồi máu nhận được tăng thêm @HealAmp*100@%.",
       "isUnique": true,
-      "icon": "/assets/set14/items/TFT14_Item_StrongEmblemItem.webp"
+      "icon": "/assets/set14/items/TFT14_Item_StrongEmblemItem.webp",
+      "variables": {
+        "MagicResist": 20,
+        "healamp": 0.33
+      }
     },
     {
       "id": "TFT14_Item_MarksmanEmblemItem",
@@ -6253,7 +6285,11 @@
       ],
       "description": "Chủ sở hữu nhận thêm tộc/hệ Xạ Thủ.<br>Gây sát thương vật lý lên kẻ địch làm giảm Giáp của chúng đi @ArmorPerDamage@.",
       "isUnique": true,
-      "icon": "/assets/set14/items/TFT14_Item_MarksmanEmblemItem.webp"
+      "icon": "/assets/set14/items/TFT14_Item_MarksmanEmblemItem.webp",
+      "variables": {
+        "AD": 0.1,
+        "ArmorPerDamage": 3
+      }
     },
     {
       "id": "TFT14_Item_ControllerEmblemItem",
@@ -6264,7 +6300,11 @@
       ],
       "description": "Chủ sở hữu nhận thêm tộc/hệ Quân Sư và nhận @SecondaryEffectiveness*100@% thưởng chỉ số của tướng Quân Sư khác.",
       "isUnique": true,
-      "icon": "/assets/set14/items/TFT14_Item_ControllerEmblemItem.webp"
+      "icon": "/assets/set14/items/TFT14_Item_ControllerEmblemItem.webp",
+      "variables": {
+        "AD": 0.1,
+        "SecondaryEffectiveness": 0.5
+      }
     },
     {
       "id": "TFT14_Item_TechieEmblemItem",
@@ -6275,7 +6315,11 @@
       ],
       "description": "Chủ sở hữu nhận thêm tộc/hệ Chuyên Viên.<br>Chủ sở hữu nhận thêm @APIncrease*100@% Sức Mạnh Phép Thuật từ mọi nguồn.",
       "isUnique": true,
-      "icon": "/assets/set14/items/TFT14_Item_TechieEmblemItem.webp"
+      "icon": "/assets/set14/items/TFT14_Item_TechieEmblemItem.webp",
+      "variables": {
+        "AP": 10,
+        "APIncrease": 0.15
+      }
     },
     {
       "id": "TFT14_Item_HotRodEmblemItem",
@@ -6283,7 +6327,10 @@
       "components": [],
       "description": "Chủ sở hữu nhận thêm tộc/hệ Chiến Đội.",
       "isUnique": true,
-      "icon": "/assets/set14/items/TFT14_Item_HotRodEmblemItem.webp"
+      "icon": "/assets/set14/items/TFT14_Item_HotRodEmblemItem.webp",
+      "variables": {
+        "AD": 0.1
+      }
     },
     {
       "id": "TFT14_Item_ThirstyEmblemItem",
@@ -6294,7 +6341,11 @@
       ],
       "description": "Chủ sở hữu nhận thêm tộc/hệ Cơ Điện.<br>Khi tung chiêu, nhận @AmpPer10*100@% Khuếch Đại Sát Thương với mỗi 10 Năng Lượng tiêu hao",
       "isUnique": true,
-      "icon": "/assets/set14/items/TFT14_Item_ThirstyEmblemItem.webp"
+      "icon": "/assets/set14/items/TFT14_Item_ThirstyEmblemItem.webp",
+      "variables": {
+        "Mana": 15,
+        "{7d0d4c91}": 0.015
+      }
     },
     {
       "id": "TFT14_Item_BallistekEmblemItem",
@@ -6305,7 +6356,10 @@
       ],
       "description": "Chủ sở hữu nhận thêm tộc/hệ Robot Bộc Phá.",
       "isUnique": true,
-      "icon": "/assets/set14/items/TFT14_Item_BallistekEmblemItem.webp"
+      "icon": "/assets/set14/items/TFT14_Item_BallistekEmblemItem.webp",
+      "variables": {
+        "Armor": 20
+      }
     },
     {
       "id": "TFT14_Item_StreetDemonEmblemItem",
@@ -6316,7 +6370,10 @@
       ],
       "description": "Chủ sở hữu nhận thêm tộc/hệ Quỷ Đường Phố.",
       "isUnique": true,
-      "icon": "/assets/set14/items/TFT14_Item_StreetDemonEmblemItem.webp"
+      "icon": "/assets/set14/items/TFT14_Item_StreetDemonEmblemItem.webp",
+      "variables": {
+        "AP": 10
+      }
     },
     {
       "id": "TFT14_Item_DivinicorpEmblemItem",
@@ -6327,7 +6384,10 @@
       ],
       "description": "Chủ sở hữu nhận thêm tộc/hệ Thần Pháp.",
       "isUnique": true,
-      "icon": "/assets/set14/items/TFT14_Item_DivinicorpEmblemItem.webp"
+      "icon": "/assets/set14/items/TFT14_Item_DivinicorpEmblemItem.webp",
+      "variables": {
+        "AS": 10
+      }
     },
     {
       "id": "TFT14_Item_ArmorcladEmblemItem",
@@ -6338,7 +6398,11 @@
       ],
       "description": "Chủ sở hữu nhận thêm tộc/hệ Can Trường.<br>Nhận @ResistConversionToAPRatio*100@% Giáp và Kháng Phép thành Sức Mạnh Phép Thuật.",
       "isUnique": true,
-      "icon": "/assets/set14/items/TFT14_Item_ArmorcladEmblemItem.webp"
+      "icon": "/assets/set14/items/TFT14_Item_ArmorcladEmblemItem.webp",
+      "variables": {
+        "Armor": 20,
+        "ResistConversionToAPRatio": 0.15
+      }
     },
     {
       "id": "TFT14_Item_SwiftEmblemItem",
@@ -6349,7 +6413,11 @@
       ],
       "description": "Chủ sở hữu nhận thêm tộc/hệ Liên Kích và @Range@ tầm đánh.",
       "isUnique": true,
-      "icon": "/assets/set14/items/TFT14_Item_SwiftEmblemItem.webp"
+      "icon": "/assets/set14/items/TFT14_Item_SwiftEmblemItem.webp",
+      "variables": {
+        "AS": 10,
+        "Range": 2
+      }
     },
     {
       "id": "TFT14_Item_BruiserEmblemItem",
@@ -6360,7 +6428,12 @@
       ],
       "description": "Chủ sở hữu nhận thêm tộc/hệ Đấu Sĩ.<br>Với mỗi @HealthPerBonusDamage@ Máu tối đa, gây thêm @BonusDamage*100@% sát thương dưới dạng sát thương phép.",
       "isUnique": true,
-      "icon": "/assets/set14/items/TFT14_Item_BruiserEmblemItem.webp"
+      "icon": "/assets/set14/items/TFT14_Item_BruiserEmblemItem.webp",
+      "variables": {
+        "BonusDamage": 0.01,
+        "Health": 150,
+        "HealthPerBonusDamage": 240
+      }
     },
     {
       "id": "TFT14_Item_MobEmblemItem",
@@ -6371,7 +6444,14 @@
       ],
       "description": "Chủ sở hữu nhận thêm tộc/hệ Băng Đảng.<br><br><scaleLevel enabled=TFT14_Mob_IsActive_T1 alternate=TFTGuildInactive>Thưởng Trùm Sò: <ShowIfNot.TFT14_Mob_IsActive_T3><TFTBonus>+@AttackSpeed_T1*100@%</TFTBonus> Tốc Độ Đánh và nhận Lá Chắn tương đương <TFTBonus>@Shield_T1*100@%</TFTBonus> Máu tối đa khi bắt đầu giao tranh.</ShowIfNot.TFT14_Mob_IsActive_T3><ShowIf.TFT14_Mob_IsActive_T3><TFTBonus>+@AttackSpeed_T2*100@%</TFTBonus> Tốc Độ Đánh và nhận Lá Chắn tương đương <TFTBonus>@Shield_T2*100@%</TFTBonus> Máu tối đa khi bắt đầu giao tranh.</ShowIf.TFT14_Mob_IsActive_T3></scaleLevel>",
       "isUnique": true,
-      "icon": "/assets/set14/items/TFT14_Item_MobEmblemItem.webp"
+      "icon": "/assets/set14/items/TFT14_Item_MobEmblemItem.webp",
+      "variables": {
+        "AttackSpeed_T1": 0.3,
+        "AttackSpeed_T2": 0.5,
+        "MagicResist": 20,
+        "Shield_T1": 0.3,
+        "Shield_T2": 0.5
+      }
     },
     {
       "id": "TFT14_Item_ImmortalEmblemItem",
@@ -6382,7 +6462,10 @@
       ],
       "description": "Chủ sở hữu nhận thêm tộc/hệ Kim Ngưu.",
       "isUnique": true,
-      "icon": "/assets/set14/items/TFT14_Item_ImmortalEmblemItem.webp"
+      "icon": "/assets/set14/items/TFT14_Item_ImmortalEmblemItem.webp",
+      "variables": {
+        "Health": 150
+      }
     },
     {
       "id": "TFT14_Item_CutterEmblemItem",
@@ -6393,7 +6476,11 @@
       ],
       "description": "Chủ sở hữu nhận thêm tộc/hệ Đao Phủ.<br>Đòn Chí Mạng bỏ qua @ResistIgnore*100@% Giáp và Kháng Phép của mục tiêu.",
       "isUnique": true,
-      "icon": "/assets/set14/items/TFT14_Item_CutterEmblemItem.webp"
+      "icon": "/assets/set14/items/TFT14_Item_CutterEmblemItem.webp",
+      "variables": {
+        "CritChance": 20,
+        "ResistIgnore": 0.4
+      }
     },
     {
       "id": "TFT14_Item_SuitsEmblemItem",
@@ -6401,7 +6488,10 @@
       "components": [],
       "description": "Chủ sở hữu nhận thêm tộc/hệ Mã Hóa.",
       "isUnique": true,
-      "icon": "/assets/set14/items/TFT14_Item_SuitsEmblemItem.webp"
+      "icon": "/assets/set14/items/TFT14_Item_SuitsEmblemItem.webp",
+      "variables": {
+        "Health": 150
+      }
     },
     {
       "id": "TFT14_Item_GuardianEmblemItem",
@@ -6409,7 +6499,11 @@
       "components": [],
       "description": "Chủ sở hữu nhận thêm tộc/hệ Tiên Phong.<br>Chủ sở hữu nhận thêm @HealthPerShield@ Máu tối đa mỗi khi họ nhận một Lá Chắn.",
       "isUnique": true,
-      "icon": "/assets/set14/items/TFT14_Item_GuardianEmblemItem.webp"
+      "icon": "/assets/set14/items/TFT14_Item_GuardianEmblemItem.webp",
+      "variables": {
+        "Health": 150,
+        "HealthPerShield": 150
+      }
     },
     {
       "id": "TFT_Item_Redemption",
@@ -6420,7 +6514,15 @@
       ],
       "description": "Hồi lại @MissingHealthHeal*100@% Máu đã mất mỗi giây.",
       "isUnique": false,
-      "icon": "/assets/set14/items/TFT_Item_Redemption.webp"
+      "icon": "/assets/set14/items/TFT_Item_Redemption.webp",
+      "variables": {
+        "HealTickRate": 1,
+        "Health": 300,
+        "ManaRegen": 2,
+        "MaxHeal": 250,
+        "MissingHealthHeal": 0.02,
+        "{cd951938}": 0.08
+      }
     },
     {
       "id": "TFT14_Item_CloseGarenArmory",
@@ -6428,7 +6530,8 @@
       "components": [],
       "description": "Đóng Kho Đồ. Sẽ mở lại ở vòng tiếp theo với các tộc/hệ mới.",
       "isUnique": true,
-      "icon": "/assets/set14/items/TFT14_Item_CloseGarenArmory.webp"
+      "icon": "/assets/set14/items/TFT14_Item_CloseGarenArmory.webp",
+      "variables": {}
     },
     {
       "id": "TFT14_Item_HotRodNetGodItem",
@@ -6436,7 +6539,8 @@
       "components": [],
       "description": "Vĩnh viễn sửa đổi (mod) một tướng để hưởng lợi từ tộc/hệ Chiến Đội (nhưng không đóng góp vào mốc tộc/hệ).<br><br><tftitemrules>Mỗi tướng chỉ có thể có một Mod Tộc/Hệ.</tftitemrules><br><tftitemrules>Tiêu Thụ - Trang bị này sẽ biến mất sau khi sử dụng.</tftitemrules>",
       "isUnique": true,
-      "icon": "/assets/set14/items/TFT14_Item_HotRodNetGodItem.webp"
+      "icon": "/assets/set14/items/TFT14_Item_HotRodNetGodItem.webp",
+      "variables": {}
     },
     {
       "id": "TFT14_Item_ThirstyNetGodItem",
@@ -6444,7 +6548,8 @@
       "components": [],
       "description": "Vĩnh viễn sửa đổi (mod) một tướng để hưởng lợi từ tộc/hệ Cơ Điện (nhưng không đóng góp vào mốc tộc/hệ).<br><br><tftitemrules>Mỗi tướng chỉ có thể có một Mod Tộc/Hệ.</tftitemrules><br><tftitemrules>Tiêu Thụ - Trang bị này sẽ biến mất sau khi sử dụng.</tftitemrules>",
       "isUnique": true,
-      "icon": "/assets/set14/items/TFT14_Item_ThirstyNetGodItem.webp"
+      "icon": "/assets/set14/items/TFT14_Item_ThirstyNetGodItem.webp",
+      "variables": {}
     },
     {
       "id": "TFT14_Item_StreetDemonNetGodItem",
@@ -6452,7 +6557,8 @@
       "components": [],
       "description": "Vĩnh viễn sửa đổi (mod) một tướng để hưởng lợi từ tộc/hệ Quỷ Đường Phố (nhưng không đóng góp vào mốc tộc/hệ).<br><br><tftitemrules>Mỗi tướng chỉ có thể có một Mod Tộc/Hệ.</tftitemrules><br><tftitemrules>Tiêu Thụ - Trang bị này sẽ biến mất sau khi sử dụng.</tftitemrules>",
       "isUnique": true,
-      "icon": "/assets/set14/items/TFT14_Item_StreetDemonNetGodItem.webp"
+      "icon": "/assets/set14/items/TFT14_Item_StreetDemonNetGodItem.webp",
+      "variables": {}
     },
     {
       "id": "TFT14_Item_ArmorcladNetGodItem",
@@ -6460,7 +6566,8 @@
       "components": [],
       "description": "Vĩnh viễn sửa đổi (mod) một tướng để hưởng lợi từ tộc/hệ Can Trường (nhưng không đóng góp vào mốc tộc/hệ).<br><br><tftitemrules>Mỗi tướng chỉ có thể có một Mod Tộc/Hệ.</tftitemrules><br><tftitemrules>Tiêu Thụ - Trang bị này sẽ biến mất sau khi sử dụng.</tftitemrules>",
       "isUnique": true,
-      "icon": "/assets/set14/items/TFT14_Item_ArmorcladNetGodItem.webp"
+      "icon": "/assets/set14/items/TFT14_Item_ArmorcladNetGodItem.webp",
+      "variables": {}
     },
     {
       "id": "TFT14_Item_MarksmanNetGodItem",
@@ -6468,7 +6575,8 @@
       "components": [],
       "description": "Vĩnh viễn sửa đổi (mod) một tướng để hưởng lợi từ tộc/hệ Xạ Thủ (nhưng không đóng góp vào mốc tộc/hệ).<br><br><tftitemrules>Mỗi tướng chỉ có thể có một Mod Tộc/Hệ.</tftitemrules><br><tftitemrules>Tiêu Thụ - Trang bị này sẽ biến mất sau khi sử dụng.</tftitemrules>",
       "isUnique": true,
-      "icon": "/assets/set14/items/TFT14_Item_MarksmanNetGodItem.webp"
+      "icon": "/assets/set14/items/TFT14_Item_MarksmanNetGodItem.webp",
+      "variables": {}
     },
     {
       "id": "TFT14_Item_CutterNetGodItem",
@@ -6476,7 +6584,8 @@
       "components": [],
       "description": "Vĩnh viễn sửa đổi (mod) một tướng để hưởng lợi từ tộc/hệ Đao Phủ (nhưng không đóng góp vào mốc tộc/hệ).<br><br><tftitemrules>Mỗi tướng chỉ có thể có một Mod Tộc/Hệ.</tftitemrules><br><tftitemrules>Tiêu Thụ - Trang bị này sẽ biến mất sau khi sử dụng.</tftitemrules>",
       "isUnique": true,
-      "icon": "/assets/set14/items/TFT14_Item_CutterNetGodItem.webp"
+      "icon": "/assets/set14/items/TFT14_Item_CutterNetGodItem.webp",
+      "variables": {}
     },
     {
       "id": "TFT14_Item_ControllerNetGodItem",
@@ -6484,7 +6593,8 @@
       "components": [],
       "description": "Vĩnh viễn sửa đổi (mod) một tướng để hưởng lợi từ tộc/hệ Quân Sư (nhưng không đóng góp vào mốc tộc/hệ).<br><br><tftitemrules>Mỗi tướng chỉ có thể có một Mod Tộc/Hệ.</tftitemrules><br><tftitemrules>Tiêu Thụ - Trang bị này sẽ biến mất sau khi sử dụng.</tftitemrules>",
       "isUnique": true,
-      "icon": "/assets/set14/items/TFT14_Item_ControllerNetGodItem.webp"
+      "icon": "/assets/set14/items/TFT14_Item_ControllerNetGodItem.webp",
+      "variables": {}
     },
     {
       "id": "TFT14_Item_DivinicorpNetGodItem",
@@ -6492,7 +6602,8 @@
       "components": [],
       "description": "Vĩnh viễn sửa đổi (mod) một tướng để hưởng lợi từ tộc/hệ Thần Pháp (nhưng không đóng góp vào mốc tộc/hệ).<br><br><tftitemrules>Mỗi tướng chỉ có thể có một Mod Tộc/Hệ.</tftitemrules><br><tftitemrules>Tiêu Thụ - Trang bị này sẽ biến mất sau khi sử dụng.</tftitemrules>",
       "isUnique": true,
-      "icon": "/assets/set14/items/TFT14_Item_DivinicorpNetGodItem.webp"
+      "icon": "/assets/set14/items/TFT14_Item_DivinicorpNetGodItem.webp",
+      "variables": {}
     },
     {
       "id": "TFT14_Item_BallistekNetGodItem",
@@ -6500,7 +6611,8 @@
       "components": [],
       "description": "Vĩnh viễn sửa đổi (mod) một tướng để hưởng lợi từ tộc/hệ Robot Bộc Phá (nhưng không đóng góp vào mốc tộc/hệ).<br><br><tftitemrules>Mỗi tướng chỉ có thể có một Mod Tộc/Hệ.</tftitemrules><br><tftitemrules>Tiêu Thụ - Trang bị này sẽ biến mất sau khi sử dụng.</tftitemrules>",
       "isUnique": true,
-      "icon": "/assets/set14/items/TFT14_Item_BallistekNetGodItem.webp"
+      "icon": "/assets/set14/items/TFT14_Item_BallistekNetGodItem.webp",
+      "variables": {}
     },
     {
       "id": "TFT14_Item_DarkWebNetGodItem",
@@ -6508,7 +6620,8 @@
       "components": [],
       "description": "Vĩnh viễn sửa đổi (mod) một tướng để hưởng lợi từ tộc/hệ Siêu Thú (nhưng không đóng góp vào mốc tộc/hệ).<br><br><tftitemrules>Mỗi tướng chỉ có thể có một Mod Tộc/Hệ.</tftitemrules><br><tftitemrules>Tiêu Thụ - Trang bị này sẽ biến mất sau khi sử dụng.</tftitemrules>",
       "isUnique": true,
-      "icon": "/assets/set14/items/TFT14_Item_DarkWebNetGodItem.webp"
+      "icon": "/assets/set14/items/TFT14_Item_DarkWebNetGodItem.webp",
+      "variables": {}
     },
     {
       "id": "TFT14_Item_ImmortalNetGodItem",
@@ -6516,7 +6629,8 @@
       "components": [],
       "description": "Vĩnh viễn sửa đổi (mod) một tướng để hưởng lợi từ tộc/hệ Kim Ngưu (nhưng không đóng góp vào mốc tộc/hệ).<br><br><tftitemrules>Mỗi tướng chỉ có thể có một Mod Tộc/Hệ.</tftitemrules><br><tftitemrules>Tiêu Thụ - Trang bị này sẽ biến mất sau khi sử dụng.</tftitemrules>",
       "isUnique": true,
-      "icon": "/assets/set14/items/TFT14_Item_ImmortalNetGodItem.webp"
+      "icon": "/assets/set14/items/TFT14_Item_ImmortalNetGodItem.webp",
+      "variables": {}
     },
     {
       "id": "TFT14_Item_StrongNetGodItem",
@@ -6524,7 +6638,8 @@
       "components": [],
       "description": "Vĩnh viễn sửa đổi (mod) một tướng để hưởng lợi từ tộc/hệ Đồ Tể (nhưng không đóng góp vào mốc tộc/hệ).<br><br><tftitemrules>Mỗi tướng chỉ có thể có một Mod Tộc/Hệ.</tftitemrules><br><tftitemrules>Tiêu Thụ - Trang bị này sẽ biến mất sau khi sử dụng.</tftitemrules>",
       "isUnique": true,
-      "icon": "/assets/set14/items/TFT14_Item_StrongNetGodItem.webp"
+      "icon": "/assets/set14/items/TFT14_Item_StrongNetGodItem.webp",
+      "variables": {}
     },
     {
       "id": "TFT14_Item_EdgeRunnerNetGodItem",
@@ -6532,7 +6647,8 @@
       "components": [],
       "description": "Vĩnh viễn sửa đổi (mod) một tướng để hưởng lợi từ tộc/hệ Công Nghệ Cao (nhưng không đóng góp vào mốc tộc/hệ).<br><br><tftitemrules>Mỗi tướng chỉ có thể có một Mod Tộc/Hệ.</tftitemrules><br><tftitemrules>Tiêu Thụ - Trang bị này sẽ biến mất sau khi sử dụng.</tftitemrules>",
       "isUnique": true,
-      "icon": "/assets/set14/items/TFT14_Item_EdgeRunnerNetGodItem.webp"
+      "icon": "/assets/set14/items/TFT14_Item_EdgeRunnerNetGodItem.webp",
+      "variables": {}
     },
     {
       "id": "TFT14_Item_SuitsNetGodItem",
@@ -6540,7 +6656,8 @@
       "components": [],
       "description": "Vĩnh viễn sửa đổi (mod) một tướng để hưởng lợi từ tộc/hệ Mã Hóa (nhưng không đóng góp vào mốc tộc/hệ).<br><br><tftitemrules>Mỗi tướng chỉ có thể có một Mod Tộc/Hệ.</tftitemrules><br><tftitemrules>Tiêu Thụ - Trang bị này sẽ biến mất sau khi sử dụng.</tftitemrules>",
       "isUnique": true,
-      "icon": "/assets/set14/items/TFT14_Item_SuitsNetGodItem.webp"
+      "icon": "/assets/set14/items/TFT14_Item_SuitsNetGodItem.webp",
+      "variables": {}
     },
     {
       "id": "TFT14_Item_GuardianNetGodItem",
@@ -6548,7 +6665,8 @@
       "components": [],
       "description": "Vĩnh viễn sửa đổi (mod) một tướng để hưởng lợi từ tộc/hệ Tiên Phong (nhưng không đóng góp vào mốc tộc/hệ).<br><br><tftitemrules>Mỗi tướng chỉ có thể có một Mod Tộc/Hệ.</tftitemrules><br><tftitemrules>Tiêu Thụ - Trang bị này sẽ biến mất sau khi sử dụng.</tftitemrules>",
       "isUnique": true,
-      "icon": "/assets/set14/items/TFT14_Item_GuardianNetGodItem.webp"
+      "icon": "/assets/set14/items/TFT14_Item_GuardianNetGodItem.webp",
+      "variables": {}
     },
     {
       "id": "TFT14_Item_BruiserNetGodItem",
@@ -6556,7 +6674,8 @@
       "components": [],
       "description": "Vĩnh viễn sửa đổi (mod) một tướng để hưởng lợi từ tộc/hệ Đấu Sĩ (nhưng không đóng góp vào mốc tộc/hệ).<br><br><tftitemrules>Mỗi tướng chỉ có thể có một Mod Tộc/Hệ.</tftitemrules><br><tftitemrules>Tiêu Thụ - Trang bị này sẽ biến mất sau khi sử dụng.</tftitemrules>",
       "isUnique": true,
-      "icon": "/assets/set14/items/TFT14_Item_BruiserNetGodItem.webp"
+      "icon": "/assets/set14/items/TFT14_Item_BruiserNetGodItem.webp",
+      "variables": {}
     },
     {
       "id": "TFT14_Item_TechieNetGodItem",
@@ -6564,7 +6683,8 @@
       "components": [],
       "description": "Vĩnh viễn sửa đổi (mod) một tướng để hưởng lợi từ tộc/hệ Chuyên Viên (nhưng không đóng góp vào mốc tộc/hệ).<br><br><tftitemrules>Mỗi tướng chỉ có thể có một Mod Tộc/Hệ.</tftitemrules><br><tftitemrules>Tiêu Thụ - Trang bị này sẽ biến mất sau khi sử dụng.</tftitemrules>",
       "isUnique": true,
-      "icon": "/assets/set14/items/TFT14_Item_TechieNetGodItem.webp"
+      "icon": "/assets/set14/items/TFT14_Item_TechieNetGodItem.webp",
+      "variables": {}
     },
     {
       "id": "TFT14_Item_MobNetGodItem",
@@ -6572,7 +6692,14 @@
       "components": [],
       "description": "Vĩnh viễn sửa đổi (mod) một tướng để hưởng lợi từ tộc/hệ Băng Đảng (nhưng không đóng góp vào mốc tộc/hệ).<br><br><br><scaleLevel enabled=TFT14_Mob_IsActive_T1 alternate=TFTGuildInactive>Thưởng Trùm Sò: <ShowIfNot.TFT14_Mob_IsActive_T3><TFTBonus>+@AttackSpeed_T1*100@%</TFTBonus> Tốc Độ Đánh và nhận Lá Chắn tương đương <TFTBonus>@Shield_T1*100@%</TFTBonus> Máu tối đa khi bắt đầu giao tranh.</ShowIfNot.TFT14_Mob_IsActive_T3><ShowIf.TFT14_Mob_IsActive_T3><TFTBonus>+@AttackSpeed_T2*100@%</TFTBonus> Tốc Độ Đánh và nhận Lá Chắn tương đương <TFTBonus>@Shield_T2*100@%</TFTBonus> Máu tối đa khi bắt đầu giao tranh.</ShowIf.TFT14_Mob_IsActive_T3></scaleLevel><br><br><tftitemrules>Mỗi tướng chỉ có thể có một Mod Tộc/Hệ.</tftitemrules><br><tftitemrules>Tiêu Thụ - Trang bị này sẽ biến mất sau khi sử dụng.</tftitemrules>",
       "isUnique": true,
-      "icon": "/assets/set14/items/TFT14_Item_MobNetGodItem.webp"
+      "icon": "/assets/set14/items/TFT14_Item_MobNetGodItem.webp",
+      "variables": {
+        "AttackSpeed_T1": 0.3,
+        "AttackSpeed_T2": 0.5,
+        "MagicResist": 20,
+        "Shield_T1": 0.3,
+        "Shield_T2": 0.5
+      }
     },
     {
       "id": "TFT14_Item_SwiftNetGodItem",
@@ -6580,7 +6707,8 @@
       "components": [],
       "description": "Vĩnh viễn sửa đổi (mod) một tướng để hưởng lợi từ tộc/hệ Liên Kích (nhưng không đóng góp vào mốc tộc/hệ).<br><br><tftitemrules>Mỗi tướng chỉ có thể có một Mod Tộc/Hệ.</tftitemrules><br><tftitemrules>Tiêu Thụ - Trang bị này sẽ biến mất sau khi sử dụng.</tftitemrules>",
       "isUnique": true,
-      "icon": "/assets/set14/items/TFT14_Item_SwiftNetGodItem.webp"
+      "icon": "/assets/set14/items/TFT14_Item_SwiftNetGodItem.webp",
+      "variables": {}
     },
     {
       "id": "TFT_Item_TacticiansRing",
@@ -6591,7 +6719,12 @@
       ],
       "description": "Đội của bạn được +@MaxArmySizeIncrease@ giới hạn tướng tối đa.<br><br>@PercentGoldChance@% cơ hội rớt ra 1 vàng sau khi giao tranh @Timer@ giây.<br><br><tftitemrules>\"...và một chút may mắn.\"</tftitemrules>",
       "isUnique": false,
-      "icon": "/assets/set14/items/TFT_Item_TacticiansRing.webp"
+      "icon": "/assets/set14/items/TFT_Item_TacticiansRing.webp",
+      "variables": {
+        "MaxArmySizeIncrease": 1,
+        "PercentGoldChance": 10,
+        "Timer": 10
+      }
     },
     {
       "id": "TFT14_Item_Nitro_ChromeCounter",
@@ -6599,7 +6732,8 @@
       "components": [],
       "description": "<TFTTrackerLabel>Tổng Hợp Kim: @TFTUnitProperty.item:TFT14_HotRod_TotalScrap@<br>Tổng Thưởng: @TFTUnitProperty.item:TFT14_HotRod_TotalBonusAP@% %i:scaleAP% / @TFTUnitProperty.item:TFT14_HotRod_TotalBonusHP@ %i:scaleHealth%</TFTTrackerLabel>",
       "isUnique": false,
-      "icon": "/assets/set14/items/TFT14_Item_Nitro_ChromeCounter.webp"
+      "icon": "/assets/set14/items/TFT14_Item_Nitro_ChromeCounter.webp",
+      "variables": {}
     },
     {
       "id": "TFT_Item_ThiefsGloves",
@@ -6610,7 +6744,11 @@
       ],
       "description": "Mỗi vòng: Mang 2 trang bị ngẫu nhiên.<br><br><tftitemrules>[Tốn 3 ô trang bị.]</tftitemrules><br>@TFTUnitProperty.:TFT_BindOnEquipTRA@",
       "isUnique": false,
-      "icon": "/assets/set14/items/TFT_Item_ThiefsGloves.webp"
+      "icon": "/assets/set14/items/TFT_Item_ThiefsGloves.webp",
+      "variables": {
+        "CritChance": 20,
+        "Health": 150
+      }
     },
     {
       "id": "TFT_Item_GuinsoosRageblade",
@@ -6621,7 +6759,12 @@
       ],
       "description": "Nhận @AttackSpeedPerStack@% Tốc Độ Đánh cộng dồn mỗi giây.",
       "isUnique": false,
-      "icon": "/assets/set14/items/TFT_Item_GuinsoosRageblade.webp"
+      "icon": "/assets/set14/items/TFT_Item_GuinsoosRageblade.webp",
+      "variables": {
+        "AP": 10,
+        "AS": 10,
+        "AttackSpeedPerStack": 7
+      }
     },
     {
       "id": "TFT_Item_IonicSpark",
@@ -6632,7 +6775,16 @@
       ],
       "description": "@MRShred@% <TFTKeyword>Cào Xé</TFTKeyword> kẻ địch trong vòng @HexRange@ ô. Khi kẻ địch sử dụng Kỹ Năng, gây sát thương phép tương đương @ManaRatio@% Năng Lượng đã tiêu hao.<br><br><tftitemrules><tftbold>Cào Xé</tftbold>: Giảm Kháng Phép</tftitemrules>",
       "isUnique": false,
-      "icon": "/assets/set14/items/TFT_Item_IonicSpark.webp"
+      "icon": "/assets/set14/items/TFT_Item_IonicSpark.webp",
+      "variables": {
+        "AP": 15,
+        "Damage": 250,
+        "Health": 250,
+        "HexRange": 2,
+        "MRShred": 30,
+        "MagicResist": 35,
+        "ManaRatio": 150
+      }
     },
     {
       "id": "TFT_Item_SteraksGage",
@@ -6643,7 +6795,14 @@
       ],
       "description": "Khi còn @HealthThreshold@% Máu, nhận một Lá Chắn bằng @PercentHealthShield*100@% Máu tối đa của chủ sở hữu, giảm dần trong vòng @ShieldDuration@ giây.",
       "isUnique": false,
-      "icon": "/assets/set14/items/TFT_Item_SteraksGage.webp"
+      "icon": "/assets/set14/items/TFT_Item_SteraksGage.webp",
+      "variables": {
+        "AD": 0.45,
+        "Health": 300,
+        "HealthThreshold": 60,
+        "PercentHealthShield": 0.4,
+        "ShieldDuration": 4
+      }
     },
     {
       "id": "TFT_Item_DragonsClaw",
@@ -6654,7 +6813,14 @@
       ],
       "description": "Nhận @PercentMaxHP*100@% máu tối đa.<br><br>Sau mỗi @HealthRegenInterval@ giây, hồi lại @PercentHealthDamage@% Máu tối đa.",
       "isUnique": false,
-      "icon": "/assets/set14/items/TFT_Item_DragonsClaw.webp"
+      "icon": "/assets/set14/items/TFT_Item_DragonsClaw.webp",
+      "variables": {
+        "HealthRegenInterval": 2,
+        "ICD": 0.5,
+        "MagicResist": 60,
+        "PercentHealthDamage": 2.5,
+        "PercentMaxHP": 0.06
+      }
     },
     {
       "id": "TFT_Item_PowerGauntlet",
@@ -6665,7 +6831,16 @@
       ],
       "description": "Đòn Chí Mạng sẽ cho @BuffDamageAmp*100@% Khuếch Đại Sát Thương trong @Duration@ giây, cộng dồn tối đa @MaxStacks@ lần.",
       "isUnique": false,
-      "icon": "/assets/set14/items/TFT_Item_PowerGauntlet.webp"
+      "icon": "/assets/set14/items/TFT_Item_PowerGauntlet.webp",
+      "variables": {
+        "AS": 10,
+        "BuffDamageAmp": 0.05,
+        "CritChance": 20,
+        "Duration": 5,
+        "Health": 150,
+        "MaxStacks": 4,
+        "{1543aa48}": 0.1
+      }
     },
     {
       "id": "TFT_Item_GargoyleStoneplate",
@@ -6676,7 +6851,16 @@
       ],
       "description": "Tăng @ArmorPerEnemy@ Giáp và @MRPerEnemy@ Kháng Phép với mỗi kẻ địch đang nhắm vào chủ sở hữu.",
       "isUnique": false,
-      "icon": "/assets/set14/items/TFT_Item_GargoyleStoneplate.webp"
+      "icon": "/assets/set14/items/TFT_Item_GargoyleStoneplate.webp",
+      "variables": {
+        "Armor": 25,
+        "ArmorPerEnemy": 10,
+        "Health": 100,
+        "MRPerEnemy": 10,
+        "MagicResist": 25,
+        "SizeIncrease": 0.075,
+        "{4dc0582f}": 20
+      }
     },
     {
       "id": "TFT_Item_BrambleVest",
@@ -6687,7 +6871,18 @@
       ],
       "description": "Nhận @PercentMaxHP*100@% máu tối đa.<br><br>Giảm @AutoDamageReduction*100@% sát thương từ đòn đánh. Khi bị trúng đòn đánh bất kỳ, gây <magicDamage>@1StarAoEDamage@ sát thương phép</magicDamage> lên tất cả kẻ địch liền kề.<br><br><tftitemrules>Hồi chiêu: @ICD@ giây</tftitemrules>",
       "isUnique": false,
-      "icon": "/assets/set14/items/TFT_Item_BrambleVest.webp"
+      "icon": "/assets/set14/items/TFT_Item_BrambleVest.webp",
+      "variables": {
+        "1StarAoEDamage": 100,
+        "2StarAoEDamage": 100,
+        "3StarAoEDamage": 100,
+        "4StarAoEDamage": 100,
+        "Armor": 50,
+        "AutoDamageReduction": 0.05,
+        "ICD": 2,
+        "PercentMaxHP": 0.06,
+        "{6688a0d5}": 100
+      }
     },
     {
       "id": "TFT_Item_ChainVest",
@@ -6695,7 +6890,10 @@
       "components": [],
       "description": "%i:scaleArmor% +@Armor@ Giáp",
       "isUnique": false,
-      "icon": "/assets/set14/items/TFT_Item_ChainVest.webp"
+      "icon": "/assets/set14/items/TFT_Item_ChainVest.webp",
+      "variables": {
+        "Armor": 20
+      }
     },
     {
       "id": "TFT_Item_RecurveBow",
@@ -6703,7 +6901,10 @@
       "components": [],
       "description": "%i:scaleAS% +@AS@% Tốc Độ Đánh",
       "isUnique": false,
-      "icon": "/assets/set14/items/TFT_Item_RecurveBow.webp"
+      "icon": "/assets/set14/items/TFT_Item_RecurveBow.webp",
+      "variables": {
+        "AS": 10
+      }
     },
     {
       "id": "TFT_Item_MadredsBloodrazor",
@@ -6714,7 +6915,15 @@
       ],
       "description": "Nhận thêm @DamageAmp*100@% Khuếch Đại Sát Thương trước Tướng Đỡ Đòn.",
       "isUnique": false,
-      "icon": "/assets/set14/items/TFT_Item_MadredsBloodrazor.webp"
+      "icon": "/assets/set14/items/TFT_Item_MadredsBloodrazor.webp",
+      "variables": {
+        "AD": 0.15,
+        "AP": 15,
+        "AS": 15,
+        "DamageAmp": 0.15,
+        "{1543aa48}": 0.15,
+        "{abb9f4ce}": 25
+      }
     },
     {
       "id": "TFT_Item_RedBuff",
@@ -6725,7 +6934,18 @@
       ],
       "description": "Nhận @BonusPercentHP*100@% Máu tối đa. <br><br>Mỗi @ICD@ giây, gây @BurnPercent@% <TFTKeyword>Thiêu Đốt</TFTKeyword> và @GrievousWoundsPercent@% <TFTKeyword>Vết Thương Sâu</TFTKeyword> lên 1 kẻ địch trong phạm vi @HexRange@ ô trong @BurnDuration@ giây.<br><br><tftitemrules><tftbold>Thiêu Đốt</tftbold>: Gây sát thương chuẩn mỗi giây theo Máu tối đa của mục tiêu<br><tftbold>Vết Thương Sâu</tftbold>: Giảm hồi máu nhận được</tftitemrules>",
       "isUnique": false,
-      "icon": "/assets/set14/items/TFT_Item_RedBuff.webp"
+      "icon": "/assets/set14/items/TFT_Item_RedBuff.webp",
+      "variables": {
+        "Armor": 20,
+        "BonusPercentHP": 0.08,
+        "BurnDuration": 10,
+        "BurnPercent": 1,
+        "GrievousWoundsPercent": 33,
+        "Health": 150,
+        "HexRange": 2,
+        "ICD": 2,
+        "MonsterCap": 100
+      }
     },
     {
       "id": "TFT_Item_UnstableConcoction",
@@ -6736,7 +6956,16 @@
       ],
       "description": "Nhận 2 hiệu ứng:<li>@AD_NotStatBar*100@% Sức Mạnh Công Kích và @AP_NotStatBar@% Sức Mạnh Phép Thuật.<li>@StatOmnivamp_NotStatBar*100@% Hút Máu Toàn Phần.<br><br>Khi còn trên @HealthThreshold*100@% Máu, tăng gấp đôi Sức Mạnh Công Kích và Sức Mạnh Phép Thuật. Khi còn dưới @HealthThreshold*100@% Máu, nhận gấp đôi lượng Hút Máu Toàn Phần.",
       "isUnique": false,
-      "icon": "/assets/set14/items/TFT_Item_UnstableConcoction.webp"
+      "icon": "/assets/set14/items/TFT_Item_UnstableConcoction.webp",
+      "variables": {
+        "AD_NotStatBar": 0.15,
+        "AP_NotStatBar": 15,
+        "CritChance": 20,
+        "HealthThreshold": 0.5,
+        "ManaRegen": 1,
+        "StatOmnivamp_NotStatBar": 0.12,
+        "{f23e83fc}": 2
+      }
     },
     {
       "id": "TFT_Item_GuardianAngel",
@@ -6747,7 +6976,17 @@
       ],
       "description": "Khi còn @HealthThreshold@% Máu, trở nên không thể bị nhắm tới trong thoáng chốc, loại bỏ mọi hiệu ứng bất lợi và hồi lại @MissingHealthRestore*100@% Máu đã mất.",
       "isUnique": false,
-      "icon": "/assets/set14/items/TFT_Item_GuardianAngel.webp"
+      "icon": "/assets/set14/items/TFT_Item_GuardianAngel.webp",
+      "variables": {
+        "AD": 0.1,
+        "AP": 10,
+        "AS": 15,
+        "Armor": 20,
+        "DamageReduction": 100,
+        "HealthThreshold": 60,
+        "MissingHealthRestore": 0.2,
+        "StealthDuration": 1
+      }
     },
     {
       "id": "TFT_Item_TearOfTheGoddess",
@@ -6755,7 +6994,10 @@
       "components": [],
       "description": "%i:TFTManaRegen% +@ManaRegen@ Hồi Năng Lượng",
       "isUnique": false,
-      "icon": "/assets/set14/items/TFT_Item_TearOfTheGoddess.webp"
+      "icon": "/assets/set14/items/TFT_Item_TearOfTheGoddess.webp",
+      "variables": {
+        "ManaRegen": 1
+      }
     },
     {
       "id": "TFT_Item_NegatronCloak",
@@ -6763,7 +7005,10 @@
       "components": [],
       "description": "%i:scaleMR% +@MagicResist@ Kháng Phép",
       "isUnique": false,
-      "icon": "/assets/set14/items/TFT_Item_NegatronCloak.webp"
+      "icon": "/assets/set14/items/TFT_Item_NegatronCloak.webp",
+      "variables": {
+        "MagicResist": 20
+      }
     },
     {
       "id": "TFT_Item_TitansResolve",
@@ -6774,7 +7019,15 @@
       ],
       "description": "Nhận @StackingAD*100@% Sức Mạnh Công Kích và @StackingSP@% Sức Mạnh Phép Thuật khi tấn công hoặc nhận sát thương, cộng dồn tối đa @StackCap@ lần. <br><br>Ở cộng dồn tối đa, nhận @StackedAmp*100@% Khuếch Đại Sát Thương và đồng thời được miễn nhiễm khống chế.",
       "isUnique": false,
-      "icon": "/assets/set14/items/TFT_Item_TitansResolve.webp"
+      "icon": "/assets/set14/items/TFT_Item_TitansResolve.webp",
+      "variables": {
+        "AS": 10,
+        "Armor": 20,
+        "StackCap": 25,
+        "StackedAmp": 0.1,
+        "StackingAD": 0.02,
+        "StackingSP": 2
+      }
     },
     {
       "id": "TFT_Item_RunaansHurricane",
@@ -6785,7 +7038,15 @@
       ],
       "description": "Đòn đánh cho @ADOnAttack*100@% Sức Mạnh Công Kích cộng dồn, tối đa @MaxStacks@ đòn đánh. Sau @MaxStacks@ đòn đánh, nhận @ASCapstone*100@% Tốc Độ Đánh.",
       "isUnique": false,
-      "icon": "/assets/set14/items/TFT_Item_RunaansHurricane.webp"
+      "icon": "/assets/set14/items/TFT_Item_RunaansHurricane.webp",
+      "variables": {
+        "AD": 0.1,
+        "ADOnAttack": 0.035,
+        "AS": 10,
+        "ASCapstone": 0.15,
+        "MagicResist": 20,
+        "MaxStacks": 15
+      }
     },
     {
       "id": "TFT_Item_SparringGloves",
@@ -6793,7 +7054,10 @@
       "components": [],
       "description": "+@CritChance@ Tỉ Lệ Chí Mạng",
       "isUnique": false,
-      "icon": "/assets/set14/items/TFT_Item_SparringGloves.webp"
+      "icon": "/assets/set14/items/TFT_Item_SparringGloves.webp",
+      "variables": {
+        "CritChance": 20
+      }
     },
     {
       "id": "TFT_Item_Bloodthirster",
@@ -6804,7 +7068,17 @@
       ],
       "description": "Một lần mỗi giao tranh khi còn @HealthThreshold@% Máu, nhận Lá Chắn bằng @ShieldHealthPercent@% Máu tối đa, duy trì trong @ShieldDuration@ giây.",
       "isUnique": false,
-      "icon": "/assets/set14/items/TFT_Item_Bloodthirster.webp"
+      "icon": "/assets/set14/items/TFT_Item_Bloodthirster.webp",
+      "variables": {
+        "AD": 0.15,
+        "AP": 15,
+        "HealthThreshold": 40,
+        "LifeSteal": 20,
+        "MagicResist": 20,
+        "ShieldDuration": 5,
+        "ShieldHealthPercent": 25,
+        "StatOmnivamp": 0.2
+      }
     },
     {
       "id": "TFT_Item_ArchangelsStaff",
@@ -6815,7 +7089,13 @@
       ],
       "description": "Bắt đầu giao tranh: Nhận @APPerInterval@% Sức Mạnh Phép Thuật mỗi @IntervalSeconds@ giây trong giao tranh.",
       "isUnique": false,
-      "icon": "/assets/set14/items/TFT_Item_ArchangelsStaff.webp"
+      "icon": "/assets/set14/items/TFT_Item_ArchangelsStaff.webp",
+      "variables": {
+        "AP": 30,
+        "APPerInterval": 20,
+        "IntervalSeconds": 5,
+        "ManaRegen": 1
+      }
     },
     {
       "id": "TFT_Item_SpearOfShojin",
@@ -6826,7 +7106,13 @@
       ],
       "description": "Các đòn đánh giúp hồi lại @FlatManaRestore@ Năng Lượng.",
       "isUnique": false,
-      "icon": "/assets/set14/items/TFT_Item_SpearOfShojin.webp"
+      "icon": "/assets/set14/items/TFT_Item_SpearOfShojin.webp",
+      "variables": {
+        "AD": 0.15,
+        "AP": 15,
+        "FlatManaRestore": 5,
+        "ManaRegen": 1
+      }
     },
     {
       "id": "TFT_Item_SpectralGauntlet",
@@ -6837,7 +7123,15 @@
       ],
       "description": "@ARReductionAmount@% <TFTKeyword>Phân Tách</TFTKeyword> kẻ địch trong vòng @HexRange@ ô. Tăng @BonusResists@ Giáp và Kháng Phép trong @BonusResistDuration@ giây đầu giao tranh.<br><br><tftitemrules><tftbold>Phân Tách</tftbold>: Giảm Giáp</tftitemrules>",
       "isUnique": false,
-      "icon": "/assets/set14/items/TFT_Item_SpectralGauntlet.webp"
+      "icon": "/assets/set14/items/TFT_Item_SpectralGauntlet.webp",
+      "variables": {
+        "ARReductionAmount": 30,
+        "BonusResistDuration": 15,
+        "BonusResists": 15,
+        "Health": 250,
+        "HexRange": 2,
+        "MagicResist": 20
+      }
     },
     {
       "id": "TFT_Item_Spatula",
@@ -6845,7 +7139,10 @@
       "components": [],
       "description": "<tftitemrules>Nó phải có tác dụng gì đó...</tftitemrules>",
       "isUnique": false,
-      "icon": "/assets/set14/items/TFT_Item_Spatula.webp"
+      "icon": "/assets/set14/items/TFT_Item_Spatula.webp",
+      "variables": {
+        "{fe9818ef}": 5
+      }
     },
     {
       "id": "TFT_Item_Leviathan",
@@ -6856,7 +7153,15 @@
       ],
       "description": "Các đòn đánh giúp hồi lại @BaseManaOnHit@ Năng Lượng, tăng lên @ManaOnCrit@ nếu là đòn chí mạng.",
       "isUnique": false,
-      "icon": "/assets/set14/items/TFT_Item_Leviathan.webp"
+      "icon": "/assets/set14/items/TFT_Item_Leviathan.webp",
+      "variables": {
+        "AP": 15,
+        "AS": 10,
+        "BaseManaOnHit": 2,
+        "CritChance": 20,
+        "Health": 150,
+        "ManaOnCrit": 4
+      }
     },
     {
       "id": "TFT_Item_Morellonomicon",
@@ -6867,7 +7172,17 @@
       ],
       "description": "Đòn Đánh và Kỹ Năng gây @BurnPercent@% <TFTKeyword>Thiêu Đốt</TFTKeyword> và @GrievousWoundsPercent@% <TFTKeyword>Vết Thương Sâu</TFTKeyword> lên kẻ địch trong @BurnDuration@ giây.<br><br><tftitemrules><tftbold>Thiêu Đốt</tftbold>: Gây sát thương chuẩn mỗi giây theo Máu tối đa của mục tiêu<br><tftbold>Vết Thương Sâu</tftbold>: Giảm hồi máu nhận được</tftitemrules>",
       "isUnique": false,
-      "icon": "/assets/set14/items/TFT_Item_Morellonomicon.webp"
+      "icon": "/assets/set14/items/TFT_Item_Morellonomicon.webp",
+      "variables": {
+        "AP": 20,
+        "BurnDuration": 10,
+        "BurnPercent": 1,
+        "GrievousWoundsPercent": 33,
+        "Health": 150,
+        "ManaRegen": 1,
+        "MonsterCap": 100,
+        "TicksPerSecond": 1
+      }
     },
     {
       "id": "TFT_Item_RapidFireCannon",
@@ -6878,7 +7193,17 @@
       ],
       "description": "Đòn Đánh và Kỹ Năng gây @BurnPercent@% <TFTKeyword>Thiêu Đốt</TFTKeyword> và @HealingReductionPct@% <TFTKeyword>Vết Thương Sâu</TFTKeyword> lên kẻ địch trong @Duration@ giây.<br><br><tftitemrules><tftbold>Thiêu Đốt</tftbold>: Gây sát thương chuẩn mỗi giây theo Máu tối đa của mục tiêu<br><tftbold>Vết Thương Sâu</tftbold>: Giảm hồi máu nhận được</tftitemrules>",
       "isUnique": false,
-      "icon": "/assets/set14/items/TFT_Item_RapidFireCannon.webp"
+      "icon": "/assets/set14/items/TFT_Item_RapidFireCannon.webp",
+      "variables": {
+        "AS": 45,
+        "BonusDamage": 0.06,
+        "BurnPercent": 1,
+        "Duration": 5,
+        "HealingReductionPct": 33,
+        "HexRangeIncrease": 1,
+        "{1543aa48}": 0.03,
+        "{9f5117db}": 100
+      }
     },
     {
       "id": "TFT_Item_Crownguard",
@@ -6889,7 +7214,15 @@
       ],
       "description": "Bắt Đầu Giao Tranh: Nhận Lá Chắn bằng @ShieldSize@% Máu tối đa trong @ShieldDuration@ giây.<br><br>Khi Lá Chắn hết hiệu lực, nhận thêm @ShieldBonusAP@% Sức Mạnh Phép Thuật.<br>",
       "isUnique": false,
-      "icon": "/assets/set14/items/TFT_Item_Crownguard.webp"
+      "icon": "/assets/set14/items/TFT_Item_Crownguard.webp",
+      "variables": {
+        "AP": 20,
+        "Armor": 20,
+        "Health": 100,
+        "ShieldBonusAP": 25,
+        "ShieldDuration": 8,
+        "ShieldSize": 25
+      }
     },
     {
       "id": "TFT_Item_BFSword",
@@ -6897,7 +7230,10 @@
       "components": [],
       "description": "%i:scaleAD% +@AD*100@% Sức Mạnh Công Kích",
       "isUnique": false,
-      "icon": "/assets/set14/items/TFT_Item_BFSword.webp"
+      "icon": "/assets/set14/items/TFT_Item_BFSword.webp",
+      "variables": {
+        "AD": 0.1
+      }
     },
     {
       "id": "TFT_Item_AdaptiveHelm",
@@ -6908,7 +7244,14 @@
       ],
       "description": "Nhận thêm @ManaPercIncrease*100@% Năng Lượng từ mọi nguồn. Chủ sở hữu nhận thêm hiệu ứng tùy theo Vai Trò của họ:<br><br>Đỡ Đòn và Đấu Sĩ: Nhận @FrontlineResists@ Giáp và Kháng Phép.<br><br>Các Vai Trò Khác: Nhận thêm @BacklineADAP@% Sức Mạnh Công Kích và Sức Mạnh Phép Thuật.",
       "isUnique": false,
-      "icon": "/assets/set14/items/TFT_Item_AdaptiveHelm.webp"
+      "icon": "/assets/set14/items/TFT_Item_AdaptiveHelm.webp",
+      "variables": {
+        "BacklineADAP": 10,
+        "FrontlineResists": 30,
+        "MagicResist": 20,
+        "ManaPercIncrease": 0.15,
+        "ManaRegen": 3
+      }
     },
     {
       "id": "TFT_Item_BlueBuff",
@@ -6919,7 +7262,13 @@
       ],
       "description": "Nhận thêm @ModifiedADAP*100@% Sức Mạnh Công Kích và Sức Mạnh Phép Thuật từ mọi nguồn.",
       "isUnique": false,
-      "icon": "/assets/set14/items/TFT_Item_BlueBuff.webp"
+      "icon": "/assets/set14/items/TFT_Item_BlueBuff.webp",
+      "variables": {
+        "AD": 0.15,
+        "AP": 15,
+        "ManaRegen": 5,
+        "ModifiedADAP": 0.1
+      }
     },
     {
       "id": "TFT_Item_LastWhisper",
@@ -6930,7 +7279,14 @@
       ],
       "description": "Sát thương từ đòn đánh và Kỹ Năng sẽ khiến mục tiêu phải chịu @ArmorReductionPercent@% <TFTKeyword>Phân Tách</TFTKeyword> trong @ArmorBreakDuration@ giây. Hiệu ứng này không cộng dồn.<br><br><tftitemrules><tftbold>Phân Tách</tftbold>: Giảm Giáp</tftitemrules>",
       "isUnique": false,
-      "icon": "/assets/set14/items/TFT_Item_LastWhisper.webp"
+      "icon": "/assets/set14/items/TFT_Item_LastWhisper.webp",
+      "variables": {
+        "AD": 0.15,
+        "AS": 20,
+        "ArmorBreakDuration": 3,
+        "ArmorReductionPercent": 30,
+        "CritChance": 20
+      }
     },
     {
       "id": "TFT_Item_JeweledGauntlet",
@@ -6941,7 +7297,12 @@
       ],
       "description": "Nhận <TFTKeyword>Chuẩn Xác</TFTKeyword>.<br><br>{{TFT_Keyword_Precision}}",
       "isUnique": false,
-      "icon": "/assets/set14/items/TFT_Item_JeweledGauntlet.webp"
+      "icon": "/assets/set14/items/TFT_Item_JeweledGauntlet.webp",
+      "variables": {
+        "AP": 35,
+        "CritChance": 35,
+        "CritDamageToGive": null
+      }
     },
     {
       "id": "TFT_Item_GiantsBelt",
@@ -6949,7 +7310,10 @@
       "components": [],
       "description": "%i:scaleHealth% +@Health@ Máu",
       "isUnique": false,
-      "icon": "/assets/set14/items/TFT_Item_GiantsBelt.webp"
+      "icon": "/assets/set14/items/TFT_Item_GiantsBelt.webp",
+      "variables": {
+        "Health": 150
+      }
     },
     {
       "id": "TFT_Item_NeedlesslyLargeRod",
@@ -6957,7 +7321,10 @@
       "components": [],
       "description": "%i:scaleAP% +@AP@ Sức Mạnh Phép Thuật",
       "isUnique": false,
-      "icon": "/assets/set14/items/TFT_Item_NeedlesslyLargeRod.webp"
+      "icon": "/assets/set14/items/TFT_Item_NeedlesslyLargeRod.webp",
+      "variables": {
+        "AP": 10
+      }
     },
     {
       "id": "TFT_Item_NightHarvester",
@@ -6968,7 +7335,15 @@
       ],
       "description": "Nhận @BaseDurability*100@% Chống Chịu. Khi còn hơn @ThresholdForEmpower*100@% Máu, thay vào đó nhận @EmpoweredDurability*100@% Chống Chịu.<br><br>@TFTUnitProperty.:TFT_Augment_WarmogsBuckle_TRAKey@",
       "isUnique": false,
-      "icon": "/assets/set14/items/TFT_Item_NightHarvester.webp"
+      "icon": "/assets/set14/items/TFT_Item_NightHarvester.webp",
+      "variables": {
+        "Armor": 20,
+        "BaseDurability": 0.05,
+        "CritChance": 20,
+        "EmpoweredDurability": 0.15,
+        "Health": 250,
+        "ThresholdForEmpower": 0.5
+      }
     },
     {
       "id": "TFT_Item_FryingPan",
@@ -6976,7 +7351,8 @@
       "components": [],
       "description": "<tftitemrules>...còn lý do nào khác để nó ở đây nữa?</tftitemrules>",
       "isUnique": false,
-      "icon": "/assets/set14/items/TFT_Item_FryingPan.webp"
+      "icon": "/assets/set14/items/TFT_Item_FryingPan.webp",
+      "variables": {}
     },
     {
       "id": "TFT_Item_ForceOfNature",
@@ -6987,7 +7363,11 @@
       ],
       "description": "Đội của bạn được +@MaxArmySizeIncrease@ giới hạn tướng tối đa.<br><br>@PercentGoldChance@% cơ hội rớt ra 1 vàng khi chiến thắng giao tranh.<br><br><tftitemrules>\"...trái tim của một anh hùng...\"</tftitemrules>",
       "isUnique": false,
-      "icon": "/assets/set14/items/TFT_Item_ForceOfNature.webp"
+      "icon": "/assets/set14/items/TFT_Item_ForceOfNature.webp",
+      "variables": {
+        "MaxArmySizeIncrease": 1,
+        "PercentGoldChance": 10
+      }
     },
     {
       "id": "TFT_Item_Quicksilver",
@@ -6998,7 +7378,14 @@
       ],
       "description": "Bắt Đầu Giao Tranh: Miễn nhiễm khống chế trong @SpellShieldDuration@ giây.<br><br>Nhận @ProcAttackSpeed*100@% Tốc Độ Đánh cộng dồn mỗi giây.",
       "isUnique": false,
-      "icon": "/assets/set14/items/TFT_Item_Quicksilver.webp"
+      "icon": "/assets/set14/items/TFT_Item_Quicksilver.webp",
+      "variables": {
+        "AS": 15,
+        "CritChance": 20,
+        "MagicResist": 20,
+        "ProcAttackSpeed": 0.03,
+        "SpellShieldDuration": 18
+      }
     },
     {
       "id": "TFT_Item_Deathblade",
@@ -7009,7 +7396,12 @@
       ],
       "description": "<tftitemrules>Đem tới sự yên bình vĩnh hằng cho người mang - và cả những kẻ phải đối đầu với nó.</tftitemrules><br><br>@TFTUnitProperty.:TFT_Augment_TragicalBlade_TRAKey@",
       "isUnique": false,
-      "icon": "/assets/set14/items/TFT_Item_Deathblade.webp"
+      "icon": "/assets/set14/items/TFT_Item_Deathblade.webp",
+      "variables": {
+        "AD": 0.55,
+        "BonusDamage": 0.1,
+        "{1543aa48}": 0.1
+      }
     },
     {
       "id": "TFT_Item_TacticiansScepter",
@@ -7020,7 +7412,11 @@
       ],
       "description": "Đội của bạn được +@MaxArmySizeIncrease@ giới hạn tướng tối đa.<br><br>@PercentGoldChance@% cơ hội rớt ra 1 vàng khi chủ sở hữu tử trận.<br><br><tftitemrules>\"Chứa đầy tri thức của một Hiền Triết...\"</tftitemrules>",
       "isUnique": false,
-      "icon": "/assets/set14/items/TFT_Item_TacticiansScepter.webp"
+      "icon": "/assets/set14/items/TFT_Item_TacticiansScepter.webp",
+      "variables": {
+        "MaxArmySizeIncrease": 1,
+        "PercentGoldChance": 10
+      }
     },
     {
       "id": "TFT_Item_WarmogsArmor",
@@ -7031,7 +7427,11 @@
       ],
       "description": "Nhận @BonusPercentHP*100@% Máu tối đa.<br>",
       "isUnique": false,
-      "icon": "/assets/set14/items/TFT_Item_WarmogsArmor.webp"
+      "icon": "/assets/set14/items/TFT_Item_WarmogsArmor.webp",
+      "variables": {
+        "BonusPercentHP": 0.18,
+        "Health": 500
+      }
     },
     {
       "id": "TFT_Item_StatikkShiv",
@@ -7042,7 +7442,14 @@
       ],
       "description": "Sát thương từ đòn đánh và Kỹ Năng sẽ khiến mục tiêu phải chịu @MRShred@% <TFTKeyword>Cào Xé</TFTKeyword> trong @MRShredDuration@ giây. Hiệu ứng này không cộng dồn.<br><br><tftitemrules><tftbold>Cào Xé</tftbold>: Giảm Kháng Phép</tftitemrules>",
       "isUnique": false,
-      "icon": "/assets/set14/items/TFT_Item_StatikkShiv.webp"
+      "icon": "/assets/set14/items/TFT_Item_StatikkShiv.webp",
+      "variables": {
+        "AP": 35,
+        "AS": 15,
+        "MRShred": 30,
+        "MRShredDuration": 5,
+        "ManaRegen": 1
+      }
     },
     {
       "id": "TFT_Item_HextechGunblade",
@@ -7053,7 +7460,15 @@
       ],
       "description": "Hồi máu cho đồng minh thấp Máu nhất bằng @AllyHealing*100@% lượng sát thương gây ra.<br><br><TFTTrackerLabel>Hồi Máu Đồng Minh:</TFTTrackerLabel> <TFTHighlight>@TFTUnitProperty.item:TFT_Tracker_Value1@</TFTHighlight>",
       "isUnique": false,
-      "icon": "/assets/set14/items/TFT_Item_HextechGunblade.webp"
+      "icon": "/assets/set14/items/TFT_Item_HextechGunblade.webp",
+      "variables": {
+        "AD": 0.2,
+        "AP": 20,
+        "AllyHealing": 0.2,
+        "ManaRegen": 1,
+        "Omnivamp": 18,
+        "StatOmnivamp": 0.15
+      }
     }
   ]
 }

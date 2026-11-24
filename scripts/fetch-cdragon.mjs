@@ -270,9 +270,14 @@ function normalizeItems(n, rawItems = [], family, patch, tr) {
         id,
         name: vi?.name ?? raw.name,
         components,
-        description: cleanText(vi?.desc ?? raw.desc),
+        // Chỉ dịch tên: mô tả tiếng Việt của bản mới dùng biến/tỉ lệ khác với giá trị
+        // của bản vá cũ, ghép vào sẽ ra số sai (vd. +1000% SMCK).
+        description: cleanText(raw.desc),
         isUnique: Boolean(raw.unique),
         icon: versionedAssetUrl(raw.icon, patch),
+        variables: Object.fromEntries(
+          Object.entries(raw.effects ?? {}).map(([k, v]) => [k, num(v)]),
+        ),
       };
     });
 }

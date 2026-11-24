@@ -5167,7 +5167,11 @@
       ],
       "description": "Cho %i:scaleAP% @BonusAP@ Sức Mạnh Phép Thuật cộng thêm.",
       "isUnique": false,
-      "icon": "/assets/set7.5/items/TFT_Item_RabadonsDeathcap.webp"
+      "icon": "/assets/set7.5/items/TFT_Item_RabadonsDeathcap.webp",
+      "variables": {
+        "AP": 20,
+        "{d49caf5d}": 60
+      }
     },
     {
       "id": "TFT7_Item_DarkflightEssence",
@@ -5175,7 +5179,14 @@
       "components": [],
       "description": "Khi chủ sở hữu bị hạ, chỉ số của trang bị này sẽ được chuyển cho các tướng Bạo Long.<br><br><tftitemrules>[Nhận được khi sao chép trang bị không thể ghép thông qua tộc Bạo Long].</tftitemrules>",
       "isUnique": false,
-      "icon": "/assets/set7.5/items/TFT7_Item_DarkflightEssence.webp"
+      "icon": "/assets/set7.5/items/TFT7_Item_DarkflightEssence.webp",
+      "variables": {
+        "AD": 13,
+        "AP": 13,
+        "Armor": 13,
+        "Health": 130,
+        "MagicResist": 13
+      }
     },
     {
       "id": "TFT_Item_InfinityEdge",
@@ -5186,7 +5197,14 @@
       ],
       "description": "Cho %i:scaleCrit% @BonusCritChance@% Tỉ Lệ Chí Mạng cộng thêm và %i:scaleCritMult% @BonusCritDamage@% Sát Thương Chí Mạng cộng thêm. Mỗi %i:scaleCrit% Tỉ Lệ Chí Mạng trên 100% sẽ trở thành %i:scaleCritMult% @BonusCritDmgPerCritAbove100@% Sát Thương Chí mạng. <br><br><tftitemrules>[Duy Nhất - chỉ một mỗi tướng]</tftitemrules>",
       "isUnique": true,
-      "icon": "/assets/set7.5/items/TFT_Item_InfinityEdge.webp"
+      "icon": "/assets/set7.5/items/TFT_Item_InfinityEdge.webp",
+      "variables": {
+        "AD": 10,
+        "CritChance": 15,
+        "{45c7ed6b}": 1,
+        "{c34a89ec}": 60,
+        "{d34ac151}": 10
+      }
     },
     {
       "id": "TFT7_Item_CavalierEmblemItem",
@@ -5197,7 +5215,10 @@
       ],
       "description": "Chủ sở hữu là Kỵ Sĩ.<br><br><tftitemrules>[Duy Nhất - chỉ một mỗi tướng]</tftitemrules>",
       "isUnique": true,
-      "icon": "/assets/set7.5/items/TFT7_Item_CavalierEmblemItem.webp"
+      "icon": "/assets/set7.5/items/TFT7_Item_CavalierEmblemItem.webp",
+      "variables": {
+        "Armor": 20
+      }
     },
     {
       "id": "TFT_Item_FrozenHeart",
@@ -5208,7 +5229,17 @@
       ],
       "description": "Cho thêm %i:scaleMana% @BonusMana@ Năng Lượng khởi đầu.<br><br>Một lần mỗi giao tranh: Ở @HealthThreshold@% Máu, đồng minh trong vòng @HexRadius@ ô nhận một lá chắn giá trị @ShieldHealthPercent@% Máu tối đa trong @ShieldDuration@ giây. Đồng minh được tạo lá chắn nhận %i:scaleArmor% @Stats@ Giáp và %i:scaleMR% @Stats@ Kháng Phép trong phần còn lại của giao tranh.<br><br>​​<tftitemrules>[Trang bị hào quang]</tftitemrules>",
       "isUnique": false,
-      "icon": "/assets/set7.5/items/TFT_Item_FrozenHeart.webp"
+      "icon": "/assets/set7.5/items/TFT_Item_FrozenHeart.webp",
+      "variables": {
+        "Armor": 20,
+        "HealthThreshold": 50,
+        "Mana": 15,
+        "ShieldDuration": 2,
+        "{0034a6ef}": 10,
+        "{43012963}": 15,
+        "{5cc52ba8}": 3,
+        "{6a311cec}": 15
+      }
     },
     {
       "id": "TFT_Item_Shroud",
@@ -5219,7 +5250,13 @@
       ],
       "description": "Bắt đầu giao tranh: Chiếu một tia gây nhiễu, tăng năng lượng tối đa của kẻ địch trúng phải thêm @CostIncrease@% cho đến khi họ tung kỹ năng.<br><br><tftitemrules>[Duy Nhất - chỉ một mỗi tướng]</tftitemrules>",
       "isUnique": true,
-      "icon": "/assets/set7.5/items/TFT_Item_Shroud.webp"
+      "icon": "/assets/set7.5/items/TFT_Item_Shroud.webp",
+      "variables": {
+        "Armor": 20,
+        "{4516a18d}": 60,
+        "{a861afa0}": 35,
+        "{c4b5579c}": 15
+      }
     },
     {
       "id": "TFT7_Item_CannoneerEmblemItem",
@@ -5227,7 +5264,10 @@
       "components": [],
       "description": "Chủ sở hữu là Pháo Thủ.<br><br><tftitemrules>[Duy Nhất - chỉ một mỗi tướng]</tftitemrules>",
       "isUnique": true,
-      "icon": "/assets/set7.5/items/TFT7_Item_CannoneerEmblemItem.webp"
+      "icon": "/assets/set7.5/items/TFT7_Item_CannoneerEmblemItem.webp",
+      "variables": {
+        "Health": 150
+      }
     },
     {
       "id": "TFT7_Item_AstralEmblemItem",
@@ -5235,7 +5275,10 @@
       "components": [],
       "description": "Chủ sở hữu thuộc tộc Thượng Long.<br><br><tftitemrules>[Duy Nhất - chỉ một mỗi tướng]</tftitemrules>",
       "isUnique": true,
-      "icon": "/assets/set7.5/items/TFT7_Item_AstralEmblemItem.webp"
+      "icon": "/assets/set7.5/items/TFT7_Item_AstralEmblemItem.webp",
+      "variables": {
+        "Health": 150
+      }
     },
     {
       "id": "TFT_Item_Redemption",
@@ -5246,7 +5289,16 @@
       ],
       "description": "Hồi máu cho đồng minh trong vòng 1 ô @MissingHealthHeal@% Máu đã mất mỗi @HealTickRate@ giây. Họ cũng được giảm @AoEDamageReduction@% sát thương đa mục tiêu trong @HealTickRate@ giây (hiệu ứng giảm sát thương không cộng dồn).<br><br><tftitemrules>[Trang bị hào quang]</tftitemrules>",
       "isUnique": false,
-      "icon": "/assets/set7.5/items/TFT_Item_Redemption.webp"
+      "icon": "/assets/set7.5/items/TFT_Item_Redemption.webp",
+      "variables": {
+        "Health": 150,
+        "Mana": 15,
+        "MaxHeal": 1000,
+        "{033de552}": 25,
+        "{5cc52ba8}": 1,
+        "{7b6cc2f7}": 12,
+        "{c9f222c0}": 5
+      }
     },
     {
       "id": "TFT7_Item_WhispersEmblemItem",
@@ -5254,7 +5306,10 @@
       "components": [],
       "description": "Chủ sở hữu thuộc tộc Ám Long.<br><br><tftitemrules>[Duy Nhất - chỉ một mỗi tướng]</tftitemrules>",
       "isUnique": true,
-      "icon": "/assets/set7.5/items/TFT7_Item_WhispersEmblemItem.webp"
+      "icon": "/assets/set7.5/items/TFT7_Item_WhispersEmblemItem.webp",
+      "variables": {
+        "Health": 150
+      }
     },
     {
       "id": "TFT7_Item_TrainerEmblemItem",
@@ -5262,7 +5317,10 @@
       "components": [],
       "description": "Chủ sở hữu là Luyện Rồng.",
       "isUnique": true,
-      "icon": "/assets/set7.5/items/TFT7_Item_TrainerEmblemItem.webp"
+      "icon": "/assets/set7.5/items/TFT7_Item_TrainerEmblemItem.webp",
+      "variables": {
+        "Health": 150
+      }
     },
     {
       "id": "TFT_Item_Zephyr",
@@ -5273,7 +5331,12 @@
       ],
       "description": "Bắt đầu giao tranh: Triệu hồi một luồng gió mạnh ở phía đối diện của sân đấu, loại kẻ địch gần đó nhất ra khỏi chiến đấu trong @BanishDuration@ giây.<br><br><tftitemrules>[Bỏ qua miễn nhiễm khống chế.]<br>[Duy Nhất - chỉ một mỗi tướng]</tftitemrules>",
       "isUnique": true,
-      "icon": "/assets/set7.5/items/TFT_Item_Zephyr.webp"
+      "icon": "/assets/set7.5/items/TFT_Item_Zephyr.webp",
+      "variables": {
+        "Health": 150,
+        "MagicResist": 20,
+        "{510fdb6a}": 5
+      }
     },
     {
       "id": "TFT7_Item_ShimmerscaleGoldmancersStaff",
@@ -5281,7 +5344,15 @@
       "components": [],
       "description": "Cho %i:scaleAP% @AbilityPowerPerGold@ Sức Mạnh Phép Thuật mỗi %i:goldCoins% vàng đang sở hữu (tối đa %i:goldCoins% @AbilityPowerGoldMax@ vàng) và @OnKillProcChance*100@% tỉ lệ rơi ra %i:goldCoins% @OnKillProcGold@ vàng khi hạ sát kẻ địch.",
       "isUnique": true,
-      "icon": "/assets/set7.5/items/TFT7_Item_ShimmerscaleGoldmancersStaff.webp"
+      "icon": "/assets/set7.5/items/TFT7_Item_ShimmerscaleGoldmancersStaff.webp",
+      "variables": {
+        "AP": 20,
+        "Mana": 20,
+        "{0bb22e54}": 0.4,
+        "{534c4ace}": 80,
+        "{c08bc0df}": 1,
+        "{caeb0d5e}": 2
+      }
     },
     {
       "id": "TFT7_Item_ShimmerscaleDeterminedInvestor_HR",
@@ -5289,7 +5360,12 @@
       "components": [],
       "description": "Sau khi bị hạ gục trong giao tranh @StackLimit@ lần, trang bị này sẽ bị phá hủy. Khi bị phá hủy, cho một Cánh Tay Kim Cương, 1 Máy Nhân Bản, và %i:goldCoins% @GoldGranted@ vàng.",
       "isUnique": true,
-      "icon": "/assets/set7.5/items/TFT7_Item_ShimmerscaleDeterminedInvestor_HR.webp"
+      "icon": "/assets/set7.5/items/TFT7_Item_ShimmerscaleDeterminedInvestor_HR.webp",
+      "variables": {
+        "Health": 150,
+        "{a29511ea}": 4,
+        "{d6981e5a}": 15
+      }
     },
     {
       "id": "TFT7_Item_ShimmerscaleMogulsMail_HR",
@@ -5297,7 +5373,14 @@
       "components": [],
       "description": "Cho %i:scaleAD% @BaseResistsPerStack@ Giáp, %i:scaleAP% @BaseResistsPerStack@ Kháng Phép, và @BaseHealthPerStack@ Máu khi nhận sát thương, cộng dồn tối đa @StackCap@ lần.  <br><br>Ở tối đa cộng dồn, cho %i:goldCoins% @GoldAtFullStacks@ vàng.",
       "isUnique": true,
-      "icon": "/assets/set7.5/items/TFT7_Item_ShimmerscaleMogulsMail_HR.webp"
+      "icon": "/assets/set7.5/items/TFT7_Item_ShimmerscaleMogulsMail_HR.webp",
+      "variables": {
+        "Health": 350,
+        "{10fb38da}": 1,
+        "{28188627}": 8,
+        "{9396f00d}": 40,
+        "{bd2522f6}": 3
+      }
     },
     {
       "id": "TFT7_Item_ShimmerscaleGamblersBlade_HR",
@@ -5305,7 +5388,17 @@
       "components": [],
       "description": "Cho %i:scaleMS% @AttackSpeedPerGold*100@% Tốc Độ Đánh cộng thêm mỗi %i:goldCoins% vàng đang sở hữu (tối đa %i:goldCoins%  @AttackSpeedGoldLimit@ vàng).<br><br>Mỗi đòn đánh có @ChanceToProc*100@% tỉ lệ rơi ra %i:goldCoins%  @GoldPerProc@ vàng.",
       "isUnique": true,
-      "icon": "/assets/set7.5/items/TFT7_Item_ShimmerscaleGamblersBlade_HR.webp"
+      "icon": "/assets/set7.5/items/TFT7_Item_ShimmerscaleGamblersBlade_HR.webp",
+      "variables": {
+        "AP": 10,
+        "AS": 10,
+        "{267dbafd}": 0.03,
+        "{46736b3f}": 4,
+        "{48ea2af8}": 0.1,
+        "{5c7e25fe}": 1,
+        "{b38e1643}": 10,
+        "{ba231e8d}": 15
+      }
     },
     {
       "id": "TFT7_Item_ShimmerscaleHeartOfGold",
@@ -5313,7 +5406,14 @@
       "components": [],
       "description": "Một lần mỗi giao tranh: Nếu chủ sở hữu vẫn sống sót sau @ProcTimeInSeconds@ giây giao tranh, cho %i:goldCoins% 1 vàng mỗi @UnitsPerGold@ đồng minh sống sót, và các đồng minh sống sót sẽ gây thêm @BonusDamagePerGold*100@% sát thương mỗi %i:goldCoins% vàng đang sở hữu (tối đa %i:goldCoins% @GoldLimit@ vàng).",
       "isUnique": true,
-      "icon": "/assets/set7.5/items/TFT7_Item_ShimmerscaleHeartOfGold.webp"
+      "icon": "/assets/set7.5/items/TFT7_Item_ShimmerscaleHeartOfGold.webp",
+      "variables": {
+        "Health": 500,
+        "{354df8e4}": 15,
+        "{3bd431ee}": 80,
+        "{3c8420c1}": 2,
+        "{d91fb8ba}": 0.01
+      }
     },
     {
       "id": "TFT7_Item_ShimmerscaleDravensAxe_HR",
@@ -5321,7 +5421,18 @@
       "components": [],
       "description": "Nhận %i:scaleAD% @AttackDamagePerGold@ Sức Mạnh Công Kích mỗi %i:goldCoins% vàng đang sở hữu (tối đa %i:goldCoins%  @AttackDamageGoldLimit@ vàng).<br><br>Đòn đánh cho @StacksPerAttack@ cộng dồn, tối đa @CashoutStacks@ lần. Khi đầy cộng dồn, cho %i:goldCoins% @CashoutGold@ vàng và @CashoutComponents@ trang bị thành phần.",
       "isUnique": true,
-      "icon": "/assets/set7.5/items/TFT7_Item_ShimmerscaleDravensAxe_HR.webp"
+      "icon": "/assets/set7.5/items/TFT7_Item_ShimmerscaleDravensAxe_HR.webp",
+      "variables": {
+        "AD": 5,
+        "AS": 5,
+        "{08083372}": 1,
+        "{1ea4eaf3}": 1,
+        "{795d929d}": 3,
+        "{a3ea3744}": 5,
+        "{d2d1721f}": 50,
+        "{fc26a82d}": 15,
+        "{fd493b8a}": 2
+      }
     },
     {
       "id": "TFT7_Item_ShimmerscaleDiamondHands_HR",
@@ -5329,7 +5440,15 @@
       "components": [],
       "description": "Một lần mỗi giao tranh: Ở @HPThreshold1*100@% Máu và @HPThreshold2*100@% Máu, trở nên miễn nhiễm trong @BaseDamageImmunityTime@ giây và cho %i:goldCoins% @GoldPerImmunityProc@ vàng.",
       "isUnique": true,
-      "icon": "/assets/set7.5/items/TFT7_Item_ShimmerscaleDiamondHands_HR.webp"
+      "icon": "/assets/set7.5/items/TFT7_Item_ShimmerscaleDiamondHands_HR.webp",
+      "variables": {
+        "AP": 20,
+        "Health": 200,
+        "{02bf679a}": 1,
+        "{3105518b}": 0.66,
+        "{3205531e}": 0.33,
+        "{6a677a70}": 2
+      }
     },
     {
       "id": "TFT7_Item_ShimmerscaleCrownOfChampions",
@@ -5337,7 +5456,12 @@
       "components": [],
       "description": "Mỗi @SecondsForEmpoweredAttack@ giây, đòn đánh tiếp theo gây @AttackGoldMultiplier@x lượng %i:goldCoins% vàng hiện tại của bạn thành sát thương chuẩn.",
       "isUnique": true,
-      "icon": "/assets/set7.5/items/TFT7_Item_ShimmerscaleCrownOfChampions.webp"
+      "icon": "/assets/set7.5/items/TFT7_Item_ShimmerscaleCrownOfChampions.webp",
+      "variables": {
+        "Health": 100,
+        "{a2aa9545}": 5,
+        "{f296e3f0}": 9001
+      }
     },
     {
       "id": "TFT_Item_ZekesHerald",
@@ -5348,7 +5472,13 @@
       ],
       "description": "Bắt đầu giao tranh: Cho chủ sở hữu và đồng minh cùng hàng trong vòng 1 ô %i:scaleAS% @AttackSpeed@% Tốc Độ Đánh.<br><br>​​<tftitemrules>[Trang bị hào quang]</tftitemrules>",
       "isUnique": false,
-      "icon": "/assets/set7.5/items/TFT_Item_ZekesHerald.webp"
+      "icon": "/assets/set7.5/items/TFT_Item_ZekesHerald.webp",
+      "variables": {
+        "AD": 10,
+        "AttackSpeed": 30,
+        "Health": 150,
+        "{9b1e8f37}": 1
+      }
     },
     {
       "id": "TFT_Item_ThiefsGloves",
@@ -5359,7 +5489,11 @@
       ],
       "description": "Mỗi vòng đấu: Tạo ra hai trang bị ngẫu nhiên.<br><br><tftitemrules>[Tốn 3 ô trang bị.]</tftitemrules>",
       "isUnique": false,
-      "icon": "/assets/set7.5/items/TFT_Item_ThiefsGloves.webp"
+      "icon": "/assets/set7.5/items/TFT_Item_ThiefsGloves.webp",
+      "variables": {
+        "CritChance": 15,
+        "{c4b5579c}": 15
+      }
     },
     {
       "id": "TFT_Item_GuinsoosRageblade",
@@ -5370,7 +5504,12 @@
       ],
       "description": "Đòn đánh cho %i:scaleAS% @AttackSpeedPerStack@% Tốc Độ Đánh. Hiệu ứng này có thể cộng dồn.",
       "isUnique": false,
-      "icon": "/assets/set7.5/items/TFT_Item_GuinsoosRageblade.webp"
+      "icon": "/assets/set7.5/items/TFT_Item_GuinsoosRageblade.webp",
+      "variables": {
+        "AP": 10,
+        "AS": 10,
+        "AttackSpeedPerStack": 6
+      }
     },
     {
       "id": "TFT7_Item_JadeEmblemItem",
@@ -5378,7 +5517,10 @@
       "components": [],
       "description": "Chủ sở hữu thuộc tộc Ngọc Long.<br><br><tftitemrules>[Duy Nhất - chỉ một mỗi tướng]</tftitemrules>",
       "isUnique": true,
-      "icon": "/assets/set7.5/items/TFT7_Item_JadeEmblemItem.webp"
+      "icon": "/assets/set7.5/items/TFT7_Item_JadeEmblemItem.webp",
+      "variables": {
+        "Health": 150
+      }
     },
     {
       "id": "TFT_Item_IonicSpark",
@@ -5389,7 +5531,15 @@
       ],
       "description": "Kẻ địch trong vòng @HexRange@ ô bị giảm Kháng Phép đi @MRShred@%. Khi chúng sử dụng Kỹ Năng, chúng sẽ bị giật điện gây sát thương phép tương đương @ManaRatio@% Năng Lượng tối đa.<br><br><tftitemrules>[Sát thương trang bị trực tiếp]</tftitemrules>",
       "isUnique": false,
-      "icon": "/assets/set7.5/items/TFT_Item_IonicSpark.webp"
+      "icon": "/assets/set7.5/items/TFT_Item_IonicSpark.webp",
+      "variables": {
+        "AP": 10,
+        "Damage": 250,
+        "MagicResist": 20,
+        "{9b1e8f37}": 2,
+        "{df6f64b9}": 185,
+        "{fe079f34}": 50
+      }
     },
     {
       "id": "TFT7_Item_TempestEmblemItem",
@@ -5397,7 +5547,10 @@
       "components": [],
       "description": "Chủ sở hữu thuộc tộc Lôi Long.<br><br><tftitemrules>[Duy Nhất - chỉ một mỗi tướng]</tftitemrules>",
       "isUnique": true,
-      "icon": "/assets/set7.5/items/TFT7_Item_TempestEmblemItem.webp"
+      "icon": "/assets/set7.5/items/TFT7_Item_TempestEmblemItem.webp",
+      "variables": {
+        "Health": 150
+      }
     },
     {
       "id": "TFT_Item_DragonsClaw",
@@ -5408,7 +5561,15 @@
       ],
       "description": "Cho %i:scaleMR% @BonusMR@ Kháng Phép cộng thêm. Mỗi @HealthRegenInterval@ giây, hồi @PercentHealthDamage@%% Máu tối đa với mỗi kẻ địch nhắm đến chủ sở hữu.<br><br><font color='#cccccc'><i>Nếu chủ sở hữu là Rồng Thần, tăng cường tất cả chỉ số và hiệu ứng thêm @DragonValue@%.</i></font>",
       "isUnique": false,
-      "icon": "/assets/set7.5/items/TFT_Item_DragonsClaw.webp"
+      "icon": "/assets/set7.5/items/TFT_Item_DragonsClaw.webp",
+      "variables": {
+        "BonusMR": 80,
+        "ICD": 0.5,
+        "MagicResist": 40,
+        "PercentHealthDamage": 1.2,
+        "{1860f25f}": 20,
+        "{52358605}": 2
+      }
     },
     {
       "id": "TFT7_Item_WarriorEmblemItem",
@@ -5416,7 +5577,10 @@
       "components": [],
       "description": "Chủ sở hữu là Chiến Binh.<br><br><tftitemrules>[Duy Nhất - chỉ một mỗi tướng]</tftitemrules>",
       "isUnique": true,
-      "icon": "/assets/set7.5/items/TFT7_Item_WarriorEmblemItem.webp"
+      "icon": "/assets/set7.5/items/TFT7_Item_WarriorEmblemItem.webp",
+      "variables": {
+        "Health": 150
+      }
     },
     {
       "id": "TFT7_Item_AssassinEmblemItem",
@@ -5424,7 +5588,10 @@
       "components": [],
       "description": "Chủ sở hữu là Sát Thủ.<br><br><tftitemrules>[Duy Nhất - chỉ một mỗi tướng]</tftitemrules>",
       "isUnique": true,
-      "icon": "/assets/set7.5/items/TFT7_Item_AssassinEmblemItem.webp"
+      "icon": "/assets/set7.5/items/TFT7_Item_AssassinEmblemItem.webp",
+      "variables": {
+        "Health": 150
+      }
     },
     {
       "id": "TFT7_Item_MysticEmblemItem",
@@ -5432,7 +5599,10 @@
       "components": [],
       "description": "Chủ sở hữu là Bí Ẩn.<br><br><tftitemrules>[Duy Nhất - chỉ một mỗi tướng]</tftitemrules>",
       "isUnique": true,
-      "icon": "/assets/set7.5/items/TFT7_Item_MysticEmblemItem.webp"
+      "icon": "/assets/set7.5/items/TFT7_Item_MysticEmblemItem.webp",
+      "variables": {
+        "Health": 150
+      }
     },
     {
       "id": "TFT_Item_PowerGauntlet",
@@ -5443,7 +5613,14 @@
       ],
       "description": "Bắt đầu giao tranh: Chủ sở hữu và đồng minh trong vòng 1 ô cùng hàng nhận một lá chắn chặn hiệu ứng và một lượng sát thương từ kỹ năng đầu tiên của kẻ địch, tối đa 600 sát thương. <br>​​<br><tftitemrules>[Trang bị hào quang]</tftitemrules>",
       "isUnique": false,
-      "icon": "/assets/set7.5/items/TFT_Item_PowerGauntlet.webp"
+      "icon": "/assets/set7.5/items/TFT_Item_PowerGauntlet.webp",
+      "variables": {
+        "Health": 150,
+        "StunDuration": 4,
+        "{9b1e8f37}": 1,
+        "{c3360f16}": 600,
+        "{c4b5579c}": 15
+      }
     },
     {
       "id": "TFT_Item_GargoyleStoneplate",
@@ -5454,7 +5631,13 @@
       ],
       "description": "Cho %i:scaleArmor% @ArmorPerEnemy@ Giáp và %i:scaleMR% @MRPerEnemy@ Kháng Phép với mỗi kẻ địch nhắm vào chủ sở hữu.",
       "isUnique": false,
-      "icon": "/assets/set7.5/items/TFT_Item_GargoyleStoneplate.webp"
+      "icon": "/assets/set7.5/items/TFT_Item_GargoyleStoneplate.webp",
+      "variables": {
+        "Armor": 20,
+        "MagicResist": 20,
+        "{7ba8c0e3}": 16,
+        "{7c694b41}": 16
+      }
     },
     {
       "id": "TFT_Item_BrambleVest",
@@ -5465,7 +5648,18 @@
       ],
       "description": "Cho %i:scaleArmor% @BonusArmor@ Giáp cộng thêm. Giảm thiểu @CritReduction*100@% lượng sát thương cộng thêm từ các đòn chí mạng. Khi bị trúng một đòn đánh, gây @1StarAoEDamage@/@2StarAoEDamage@/@3StarAoEDamage@ %i:star% sát thương phép lên tất cả kẻ địch xung quanh (một lần mỗi @ICD@ giây).<br><br><tftitemrules>[Sát thương trang bị trực tiếp]</tftitemrules>",
       "isUnique": false,
-      "icon": "/assets/set7.5/items/TFT_Item_BrambleVest.webp"
+      "icon": "/assets/set7.5/items/TFT_Item_BrambleVest.webp",
+      "variables": {
+        "Armor": 45,
+        "BonusArmor": 40,
+        "ICD": 2.5,
+        "{156febb8}": 150,
+        "{1ee760be}": 75,
+        "{6688a0d5}": 100,
+        "{79a4455a}": 0.75,
+        "{a3b999e9}": 100,
+        "{b5c2a66b}": 200
+      }
     },
     {
       "id": "TFT_Item_ChainVest",
@@ -5473,7 +5667,10 @@
       "components": [],
       "description": "%i:scaleArmor% +@Armor@ Giáp",
       "isUnique": false,
-      "icon": "/assets/set7.5/items/TFT_Item_ChainVest.webp"
+      "icon": "/assets/set7.5/items/TFT_Item_ChainVest.webp",
+      "variables": {
+        "Armor": 20
+      }
     },
     {
       "id": "TFT7_Item_GuildEmblemItem",
@@ -5481,7 +5678,11 @@
       "components": [],
       "description": "Chủ sở hữu thuộc Bang Hội.<br><br><TFTDebonairVIP>Hiệu Ứng Bang Hội: @Omnivamp@% Hút Máu Toàn Phần</TFTDebonairVIP><br><br><tftitemrules>[Duy Nhất - chỉ một mỗi tiếng]</tftitemrules>",
       "isUnique": true,
-      "icon": "/assets/set7.5/items/TFT7_Item_GuildEmblemItem.webp"
+      "icon": "/assets/set7.5/items/TFT7_Item_GuildEmblemItem.webp",
+      "variables": {
+        "Health": 150,
+        "{ad16f688}": 3
+      }
     },
     {
       "id": "TFT7_Item_SwiftshotEmblemItem",
@@ -5492,7 +5693,10 @@
       ],
       "description": "Chủ sở hữu là Xạ Tiễn.<br><br><tftitemrules>[Duy Nhất - chỉ một mỗi tướng]</tftitemrules>",
       "isUnique": true,
-      "icon": "/assets/set7.5/items/TFT7_Item_SwiftshotEmblemItem.webp"
+      "icon": "/assets/set7.5/items/TFT7_Item_SwiftshotEmblemItem.webp",
+      "variables": {
+        "AS": 10
+      }
     },
     {
       "id": "TFT7_Item_LagoonEmblemItem",
@@ -5503,7 +5707,11 @@
       ],
       "description": "Chủ sở hữu thuộc tộc Thủy Long.<br><br><tftitemrules>[Duy Nhất - chỉ một mỗi tướng]</tftitemrules>",
       "isUnique": true,
-      "icon": "/assets/set7.5/items/TFT7_Item_LagoonEmblemItem.webp"
+      "icon": "/assets/set7.5/items/TFT7_Item_LagoonEmblemItem.webp",
+      "variables": {
+        "CritChance": 10,
+        "{c4b5579c}": 5
+      }
     },
     {
       "id": "TFT7_Item_LegendEmblemItem",
@@ -5511,7 +5719,10 @@
       "components": [],
       "description": "Chủ sở hữu là Thần Thoại.",
       "isUnique": true,
-      "icon": "/assets/set7.5/items/TFT7_Item_LegendEmblemItem.webp"
+      "icon": "/assets/set7.5/items/TFT7_Item_LegendEmblemItem.webp",
+      "variables": {
+        "Health": 150
+      }
     },
     {
       "id": "TFT_Item_RecurveBow",
@@ -5519,7 +5730,10 @@
       "components": [],
       "description": "%i:scaleAS% +@AS@% Tốc Độ Đánh",
       "isUnique": false,
-      "icon": "/assets/set7.5/items/TFT_Item_RecurveBow.webp"
+      "icon": "/assets/set7.5/items/TFT_Item_RecurveBow.webp",
+      "variables": {
+        "AS": 10
+      }
     },
     {
       "id": "TFT_Item_MadredsBloodrazor",
@@ -5530,7 +5744,14 @@
       ],
       "description": "Kỹ năng và đòn đánh của chủ sỡ hữu gây @SmallBonusPct@% sát thương thêm. Nếu mục tiêu có nhiều hơn @HealthThreshold@ Máu tối đa, lượng sát thương cộng thêm được tăng lên @LargeBonusPct@%.",
       "isUnique": false,
-      "icon": "/assets/set7.5/items/TFT_Item_MadredsBloodrazor.webp"
+      "icon": "/assets/set7.5/items/TFT_Item_MadredsBloodrazor.webp",
+      "variables": {
+        "AD": 10,
+        "AS": 10,
+        "HealthThreshold": 1900,
+        "{b8ae7546}": 45,
+        "{deada01e}": 20
+      }
     },
     {
       "id": "TFT_Item_RedBuff",
@@ -5541,7 +5762,18 @@
       ],
       "description": "Cho %i:scaleHealth% @BonusHP@ Máu cộng thêm. Mỗi @ICD@ giây, kẻ địch trong vòng @HexRange@ ô bị thiêu đốt, gây sát thương chuẩn tương đương @BurnPercent@% Máu tối đa trong @BurnDuration@ giây, và bị giảm khả năng hồi máu đi @GrievousWoundsPercent@% trong thời gian đốt.<br><br><tftitemrules>[Duy Nhất - chỉ một mỗi tướng]</tftitemrules>",
       "isUnique": true,
-      "icon": "/assets/set7.5/items/TFT_Item_RedBuff.webp"
+      "icon": "/assets/set7.5/items/TFT_Item_RedBuff.webp",
+      "variables": {
+        "Armor": 20,
+        "BonusHP": 150,
+        "Health": 150,
+        "ICD": 2,
+        "MonsterCap": 100,
+        "{2161bfa2}": 50,
+        "{57706a69}": 10,
+        "{97e52ce8}": 10,
+        "{9b1e8f37}": 2
+      }
     },
     {
       "id": "TFT7_Item_MageEmblemItem",
@@ -5552,7 +5784,10 @@
       ],
       "description": "Chủ sở hữu là Pháp Sư.<br><br><tftitemrules>[Duy Nhất - chỉ một mỗi tướng]</tftitemrules>",
       "isUnique": true,
-      "icon": "/assets/set7.5/items/TFT7_Item_MageEmblemItem.webp"
+      "icon": "/assets/set7.5/items/TFT7_Item_MageEmblemItem.webp",
+      "variables": {
+        "Mana": 15
+      }
     },
     {
       "id": "TFT7_Item_RevelEmblemItem",
@@ -5560,7 +5795,10 @@
       "components": [],
       "description": "Chủ sở hữu thuộc Lễ Hội.<br><br><tftitemrules>[Duy Nhất - chỉ một mỗi tướng]</tftitemrules>",
       "isUnique": true,
-      "icon": "/assets/set7.5/items/TFT7_Item_RevelEmblemItem.webp"
+      "icon": "/assets/set7.5/items/TFT7_Item_RevelEmblemItem.webp",
+      "variables": {
+        "Health": 150
+      }
     },
     {
       "id": "TFT_Item_UnstableConcoction",
@@ -5571,7 +5809,19 @@
       ],
       "description": "Cho 2 Hiệu Ứng:<li>%i:scaleAD% +@BaseAD@ Sức Mạnh Công Kích %i:scaleAP% +@BaseSP@ Sức Mạnh Phép Thuật.<li>@BaseHeal@% Hút Máu Toàn Phần.<br><br>Mỗi vòng đấu, một trong hai hiệu ứng sẽ được ngẫu nhiên tăng gấp đôi.",
       "isUnique": false,
-      "icon": "/assets/set7.5/items/TFT_Item_UnstableConcoction.webp"
+      "icon": "/assets/set7.5/items/TFT_Item_UnstableConcoction.webp",
+      "variables": {
+        "BaseHeal": 15,
+        "BonusAD": 15,
+        "CritChance": 15,
+        "Mana": 15,
+        "{19a89153}": 15,
+        "{41cb628d}": 15,
+        "{a60806db}": 66.667,
+        "{ae49cc70}": 15,
+        "{c0c9af7f}": 15,
+        "{f2474447}": 30
+      }
     },
     {
       "id": "TFT_Item_GuardianAngel",
@@ -5582,7 +5832,15 @@
       ],
       "description": "Một lần mỗi giao tranh: Ở @HealthThreshold@% Máu, trở nên vô hình trong thoáng chốc, không thể định vị và loại bỏ các hiệu ứng bất lợi. Sau đó, cho %i:scaleAS% @AttackSpeed@% Tốc Độ Đánh.<br><br><tftitemrules>[Duy Nhất - chỉ 1 mỗi tướng]</tftitemrules>",
       "isUnique": true,
-      "icon": "/assets/set7.5/items/TFT_Item_GuardianAngel.webp"
+      "icon": "/assets/set7.5/items/TFT_Item_GuardianAngel.webp",
+      "variables": {
+        "AD": 10,
+        "Armor": 20,
+        "AttackSpeed": 40,
+        "DamageReduction": 100,
+        "HealthThreshold": 60,
+        "{b1442c34}": 1
+      }
     },
     {
       "id": "TFT_Item_SeraphsEmbrace",
@@ -5593,7 +5851,13 @@
       ],
       "description": "Bắt đầu giao tranh: Cho thêm %i:scaleMana% @BonusMana@ Năng Lượng khởi đầu. Sau khi sử dụng Kỹ Năng, đặt Năng Lượng chủ sở hữu thành %i:scaleMana% @ManaRestore@.<br><br><tftitemrules>[Duy Nhất - chỉ 1 mỗi tướng]</tftitemrules><br>",
       "isUnique": true,
-      "icon": "/assets/set7.5/items/TFT_Item_SeraphsEmbrace.webp"
+      "icon": "/assets/set7.5/items/TFT_Item_SeraphsEmbrace.webp",
+      "variables": {
+        "Mana": 30,
+        "ManaRestore": 20,
+        "{43012963}": 20,
+        "{71bc3700}": 200
+      }
     },
     {
       "id": "TFT_Item_TearOfTheGoddess",
@@ -5601,7 +5865,10 @@
       "components": [],
       "description": "%i:scaleMana% +@Mana@ Năng Lượng",
       "isUnique": false,
-      "icon": "/assets/set7.5/items/TFT_Item_TearOfTheGoddess.webp"
+      "icon": "/assets/set7.5/items/TFT_Item_TearOfTheGoddess.webp",
+      "variables": {
+        "Mana": 15
+      }
     },
     {
       "id": "TFT_Item_NegatronCloak",
@@ -5609,7 +5876,10 @@
       "components": [],
       "description": "%i:scaleMR% +@MagicResist@ Kháng Phép",
       "isUnique": false,
-      "icon": "/assets/set7.5/items/TFT_Item_NegatronCloak.webp"
+      "icon": "/assets/set7.5/items/TFT_Item_NegatronCloak.webp",
+      "variables": {
+        "MagicResist": 20
+      }
     },
     {
       "id": "TFT_Item_TitansResolve",
@@ -5620,7 +5890,15 @@
       ],
       "description": "Cho %i:scaleAD% @StackingAD@ Sức Mạnh Công Kích và %i:scaleAP% @StackingAD@ Sức Mạnh Phép Thuật khi tấn công hoặc nhận sát thương, cộng dồn tối đa @StackCap@ lần.  <br><br>Ở tối đa cộng dồn, cho %i:scaleArmor% @BonusResistsAtStackCap@ Giáp và %i:scaleMR% @BonusResistsAtStackCap@ Kháng Phép.",
       "isUnique": false,
-      "icon": "/assets/set7.5/items/TFT_Item_TitansResolve.webp"
+      "icon": "/assets/set7.5/items/TFT_Item_TitansResolve.webp",
+      "variables": {
+        "AS": 10,
+        "Armor": 20,
+        "{9396f00d}": 25,
+        "{b3b8f644}": 2,
+        "{b55019fa}": 25,
+        "{cb9689ca}": 2
+      }
     },
     {
       "id": "TFT_Item_RunaansHurricane",
@@ -5631,7 +5909,14 @@
       ],
       "description": "Cho  %i:scaleAD% @BonusAD@ Sức Mạnh Công Kích cộng thêm. Đòn đánh của chủ sở hữu bắn ra một đường đạn phụ lên kẻ địch xung quanh, gây @MultiplierForDamage@% Sức Mạnh Công Kích %i:scaleAD% của chủ sở hữu thành sát thương vật lý.<br><br><tftitemrules>​​[Sát thương trang bị trực tiếp]</tftitemrules>",
       "isUnique": false,
-      "icon": "/assets/set7.5/items/TFT_Item_RunaansHurricane.webp"
+      "icon": "/assets/set7.5/items/TFT_Item_RunaansHurricane.webp",
+      "variables": {
+        "AS": 10,
+        "AdditionalTargets": 1,
+        "BonusAD": 20,
+        "MagicResist": 20,
+        "{276ba2c8}": 70
+      }
     },
     {
       "id": "TFT7_Item_GuardianEmblemItem",
@@ -5642,7 +5927,10 @@
       ],
       "description": "Chủ sở hữu là Hộ Pháp.<br><br><tftitemrules>[Duy Nhất - chỉ một mỗi tướng]</tftitemrules>",
       "isUnique": true,
-      "icon": "/assets/set7.5/items/TFT7_Item_GuardianEmblemItem.webp"
+      "icon": "/assets/set7.5/items/TFT7_Item_GuardianEmblemItem.webp",
+      "variables": {
+        "Health": 150
+      }
     },
     {
       "id": "TFT7_Item_TreasureDragonGold9",
@@ -5650,7 +5938,8 @@
       "components": [],
       "description": "9 Vàng",
       "isUnique": false,
-      "icon": "/assets/set7.5/items/TFT7_Item_TreasureDragonGold9.webp"
+      "icon": "/assets/set7.5/items/TFT7_Item_TreasureDragonGold9.webp",
+      "variables": {}
     },
     {
       "id": "TFT7_Item_TreasureDragonGold4",
@@ -5658,7 +5947,8 @@
       "components": [],
       "description": "4 Vàng",
       "isUnique": false,
-      "icon": "/assets/set7.5/items/TFT7_Item_TreasureDragonGold4.webp"
+      "icon": "/assets/set7.5/items/TFT7_Item_TreasureDragonGold4.webp",
+      "variables": {}
     },
     {
       "id": "TFT7_Item_TreasureDragonGold3",
@@ -5666,7 +5956,8 @@
       "components": [],
       "description": "3 Vàng",
       "isUnique": false,
-      "icon": "/assets/set7.5/items/TFT7_Item_TreasureDragonGold3.webp"
+      "icon": "/assets/set7.5/items/TFT7_Item_TreasureDragonGold3.webp",
+      "variables": {}
     },
     {
       "id": "TFT7_Item_TreasureDragonGold20",
@@ -5674,7 +5965,8 @@
       "components": [],
       "description": "20 Vàng",
       "isUnique": false,
-      "icon": "/assets/set7.5/items/TFT7_Item_TreasureDragonGold20.webp"
+      "icon": "/assets/set7.5/items/TFT7_Item_TreasureDragonGold20.webp",
+      "variables": {}
     },
     {
       "id": "TFT_Item_SparringGloves",
@@ -5682,7 +5974,11 @@
       "components": [],
       "description": "+@CritChance@ Tỉ Lệ Chí Mạng<br>+@DodgeChance@ Tỉ Lệ Né Tránh",
       "isUnique": false,
-      "icon": "/assets/set7.5/items/TFT_Item_SparringGloves.webp"
+      "icon": "/assets/set7.5/items/TFT_Item_SparringGloves.webp",
+      "variables": {
+        "CritChance": 5,
+        "{c4b5579c}": 10
+      }
     },
     {
       "id": "TFT_Item_Bloodthirster",
@@ -5693,7 +5989,15 @@
       ],
       "description": "Nhận @Lifesteal@% Hút Máu Toàn Phần.<br><br>Một lần mỗi giao tranh: Khi xuống dưới @HealthThreshold@% Máu, nhận một lá chắn tương đương @ShieldHealthPercent@% Máu tối đa tồn tại trong @ShieldDuration@ giây.",
       "isUnique": false,
-      "icon": "/assets/set7.5/items/TFT_Item_Bloodthirster.webp"
+      "icon": "/assets/set7.5/items/TFT_Item_Bloodthirster.webp",
+      "variables": {
+        "AD": 10,
+        "HealthThreshold": 40,
+        "LifeSteal": 25,
+        "MagicResist": 20,
+        "ShieldDuration": 5,
+        "{0034a6ef}": 25
+      }
     },
     {
       "id": "TFT_Item_ArchangelsStaff",
@@ -5704,7 +6008,14 @@
       ],
       "description": "Cho %i:scaleAP% @BonusAP@ Sức Mạnh Phép Thuật cộng thêm.<br><br>Bắt đầu giao tranh: Cho %i:scaleAP% @APPerInterval@ Sức Mạnh Phép Thuật mỗi @IntervalSeconds@ giây.",
       "isUnique": false,
-      "icon": "/assets/set7.5/items/TFT_Item_ArchangelsStaff.webp"
+      "icon": "/assets/set7.5/items/TFT_Item_ArchangelsStaff.webp",
+      "variables": {
+        "AP": 10,
+        "Mana": 15,
+        "{5deb4eb2}": 20,
+        "{a7db7345}": 5,
+        "{d49caf5d}": 20
+      }
     },
     {
       "id": "TFT_Item_TitanicHydra",
@@ -5715,7 +6026,12 @@
       ],
       "description": "Bắt đầu giao tranh: Khiêu khích kẻ địch trong tầm đánh của chủ sở hữu.<br><br>Khi bị hạ, một Bọ Hư Không sẽ xuất hiện, tiếp tục khiêu khích kẻ địch xung quanh. Bọ Hư Không sinh ra từ đơn vị triệu hồi sẽ có @SummonedStatReduction@% hiệu lực.",
       "isUnique": false,
-      "icon": "/assets/set7.5/items/TFT_Item_TitanicHydra.webp"
+      "icon": "/assets/set7.5/items/TFT_Item_TitanicHydra.webp",
+      "variables": {
+        "AS": 10,
+        "Health": 150,
+        "{7ff4f3b6}": 25
+      }
     },
     {
       "id": "TFT7_Item_ScalescornEmblemItem",
@@ -5723,7 +6039,10 @@
       "components": [],
       "description": "Chủ sở hữu là Đồ Long.<br><br><tftitemrules>[Duy Nhất - chỉ một mỗi tướng]</tftitemrules>",
       "isUnique": true,
-      "icon": "/assets/set7.5/items/TFT7_Item_ScalescornEmblemItem.webp"
+      "icon": "/assets/set7.5/items/TFT7_Item_ScalescornEmblemItem.webp",
+      "variables": {
+        "Health": 150
+      }
     },
     {
       "id": "TFT_Item_SpearOfShojin",
@@ -5734,7 +6053,13 @@
       ],
       "description": "Cho %i:scaleAP% @BonusAP@ Sức Mạnh Phép Thuật cộng thêm. Đòn đánh hồi thêm %i:scaleMana% @FlatManaRestore@ Năng Lượng.",
       "isUnique": false,
-      "icon": "/assets/set7.5/items/TFT_Item_SpearOfShojin.webp"
+      "icon": "/assets/set7.5/items/TFT_Item_SpearOfShojin.webp",
+      "variables": {
+        "AD": 10,
+        "Mana": 15,
+        "{4b9a3b61}": 5,
+        "{d49caf5d}": 20
+      }
     },
     {
       "id": "TFT7_Item_EvokerEmblemItem",
@@ -5742,7 +6067,10 @@
       "components": [],
       "description": "Chủ sở hữu là Thuật Sĩ.<br><br><tftitemrules>[Duy Nhất - chỉ một mỗi tướng]</tftitemrules>",
       "isUnique": true,
-      "icon": "/assets/set7.5/items/TFT7_Item_EvokerEmblemItem.webp"
+      "icon": "/assets/set7.5/items/TFT7_Item_EvokerEmblemItem.webp",
+      "variables": {
+        "Health": 150
+      }
     },
     {
       "id": "TFT_Item_Spatula",
@@ -5750,7 +6078,10 @@
       "components": [],
       "description": "Nó hẳn phải làm được <i>gì đó</i>...",
       "isUnique": false,
-      "icon": "/assets/set7.5/items/TFT_Item_Spatula.webp"
+      "icon": "/assets/set7.5/items/TFT_Item_Spatula.webp",
+      "variables": {
+        "{fe9818ef}": 5
+      }
     },
     {
       "id": "TFT7_Item_TrainerSnax",
@@ -5758,7 +6089,8 @@
       "components": [],
       "description": "Bé rồng Măm Măm cần ăn chừng này bánh quy để lên cấp!<br><br><tftitemrules>[Đây không được tính là trang bị.]</tftitemrules>",
       "isUnique": false,
-      "icon": "/assets/set7.5/items/TFT7_Item_TrainerSnax.webp"
+      "icon": "/assets/set7.5/items/TFT7_Item_TrainerSnax.webp",
+      "variables": {}
     },
     {
       "id": "TFT_Item_LocketOfTheIronSolari",
@@ -5769,7 +6101,17 @@
       ],
       "description": "Bắt đầu giao tranh: Tạo @1StarShieldValue@/@2StarShieldValue@/@3StarShieldValue@ %i:star% lá chắn cho chủ sở hữu và đồng minh cùng hàng trong vòng @HexRange@ ô trong @ShieldDuration@ giây.<br><br>​​<tftitemrules>[Trang bị hào quang]</tftitemrules>",
       "isUnique": false,
-      "icon": "/assets/set7.5/items/TFT_Item_LocketOfTheIronSolari.webp"
+      "icon": "/assets/set7.5/items/TFT_Item_LocketOfTheIronSolari.webp",
+      "variables": {
+        "AP": 10,
+        "Armor": 20,
+        "ShieldDuration": 15,
+        "{0d46330d}": 350,
+        "{6fb9af6a}": 300,
+        "{829e6cec}": 400,
+        "{9b1e8f37}": 2,
+        "{c78af25f}": 800
+      }
     },
     {
       "id": "TFT7_Item_BruiserEmblemItem",
@@ -5777,7 +6119,10 @@
       "components": [],
       "description": "Chủ sở hữu là Đấu Sĩ.<br><br><tftitemrules>[Duy Nhất - chỉ một mỗi tướng]</tftitemrules>",
       "isUnique": true,
-      "icon": "/assets/set7.5/items/TFT7_Item_BruiserEmblemItem.webp"
+      "icon": "/assets/set7.5/items/TFT7_Item_BruiserEmblemItem.webp",
+      "variables": {
+        "Health": 150
+      }
     },
     {
       "id": "TFT7_Item_DragonmancerEmblemItem",
@@ -5788,7 +6133,10 @@
       ],
       "description": "Chủ sở hữu là Chiến Binh Rồng.",
       "isUnique": true,
-      "icon": "/assets/set7.5/items/TFT7_Item_DragonmancerEmblemItem.webp"
+      "icon": "/assets/set7.5/items/TFT7_Item_DragonmancerEmblemItem.webp",
+      "variables": {
+        "AP": 10
+      }
     },
     {
       "id": "TFT7_Item_DarkflightEmblemItem",
@@ -5796,7 +6144,10 @@
       "components": [],
       "description": "Chủ sở hữu là Bạo Long.",
       "isUnique": true,
-      "icon": "/assets/set7.5/items/TFT7_Item_DarkflightEmblemItem.webp"
+      "icon": "/assets/set7.5/items/TFT7_Item_DarkflightEmblemItem.webp",
+      "variables": {
+        "Health": 150
+      }
     },
     {
       "id": "TFT_Item_Morellonomicon",
@@ -5807,7 +6158,17 @@
       ],
       "description": "Cho %i:scaleAP% @BonusAP@ Sức Mạnh Phép Thuật cộng thêm. Sát thương phép hoặc sát thương chuẩn từ Kỹ Năng sẽ thiêu đốt mục tiêu, gây @BurnPercent@% Máu tối đa của mục tiêu thành sát thương chuẩn trong @BurnDuration@ giây, và giảm hồi máu đi @GrievousWoundsPercent@% trong thời gian thiêu đốt.<br><br><tftitemrules>[Duy Nhất - chỉ một mỗi tướng]</tftitemrules>",
       "isUnique": true,
-      "icon": "/assets/set7.5/items/TFT_Item_Morellonomicon.webp"
+      "icon": "/assets/set7.5/items/TFT_Item_Morellonomicon.webp",
+      "variables": {
+        "AP": 10,
+        "Health": 150,
+        "MonsterCap": 100,
+        "TicksPerSecond": 1,
+        "{2161bfa2}": 50,
+        "{57706a69}": 10,
+        "{97e52ce8}": 10,
+        "{d49caf5d}": 20
+      }
     },
     {
       "id": "TFT_Item_RapidFireCannon",
@@ -5818,7 +6179,13 @@
       ],
       "description": "Cho %i:scaleAS% @BonusAS@% Tốc Độ Đánh cộng thêm và %i:scaleRange% @HexRangeIncrease@ Tầm Đánh.<br><br>Đòn đánh không thể hụt.",
       "isUnique": false,
-      "icon": "/assets/set7.5/items/TFT_Item_RapidFireCannon.webp"
+      "icon": "/assets/set7.5/items/TFT_Item_RapidFireCannon.webp",
+      "variables": {
+        "AS": 20,
+        "BonusAS": 30,
+        "{16394c87}": 1,
+        "{9f5117db}": 100
+      }
     },
     {
       "id": "TFT_Item_BFSword",
@@ -5826,7 +6193,10 @@
       "components": [],
       "description": "%i:scaleAD% +@AD@ Sức Mạnh Công Kích",
       "isUnique": false,
-      "icon": "/assets/set7.5/items/TFT_Item_BFSword.webp"
+      "icon": "/assets/set7.5/items/TFT_Item_BFSword.webp",
+      "variables": {
+        "AD": 10
+      }
     },
     {
       "id": "TFT_Item_LastWhisper",
@@ -5837,7 +6207,14 @@
       ],
       "description": "Cho %i:scaleAS% @BonusAS@% Tốc Độ Đánh. Gây sát thương vật lý từ Đòn Đánh hoặc Kỹ Năng giảm Giáp của kẻ địch đi @ArmorReductionPercent@% trong @ArmorBreakDuration@ giây. Hiệu ứng này không cộng dồn.<br><br><tftitemrules>[Duy Nhất - chỉ một mỗi tướng]</tftitemrules>",
       "isUnique": true,
-      "icon": "/assets/set7.5/items/TFT_Item_LastWhisper.webp"
+      "icon": "/assets/set7.5/items/TFT_Item_LastWhisper.webp",
+      "variables": {
+        "AS": 10,
+        "BonusAS": 10,
+        "CritChance": 15,
+        "{5079c7a2}": 50,
+        "{cc9fefa7}": 5
+      }
     },
     {
       "id": "TFT_Item_JeweledGauntlet",
@@ -5848,7 +6225,13 @@
       ],
       "description": "Cho %i:scaleCritMult% @CritDamageAmp@% Sát Thương Chí Mạng và %i:scaleAP% @BonusAP@ Sức Mạnh Phép Thuật cộng thêm. <br><br>Sát thương phép và sát thương chuẩn từ Kỹ Năng có thể chí mạng.",
       "isUnique": false,
-      "icon": "/assets/set7.5/items/TFT_Item_JeweledGauntlet.webp"
+      "icon": "/assets/set7.5/items/TFT_Item_JeweledGauntlet.webp",
+      "variables": {
+        "AP": 10,
+        "CritChance": 15,
+        "{353ede36}": 10,
+        "{d49caf5d}": 30
+      }
     },
     {
       "id": "TFT_Item_GiantsBelt",
@@ -5856,7 +6239,10 @@
       "components": [],
       "description": "%i:scaleHealth% +@Health@ Máu",
       "isUnique": false,
-      "icon": "/assets/set7.5/items/TFT_Item_GiantsBelt.webp"
+      "icon": "/assets/set7.5/items/TFT_Item_GiantsBelt.webp",
+      "variables": {
+        "Health": 150
+      }
     },
     {
       "id": "TFT_Item_NeedlesslyLargeRod",
@@ -5864,7 +6250,10 @@
       "components": [],
       "description": "%i:scaleAP% +@AP@ Sức Mạnh Phép Thuật",
       "isUnique": false,
-      "icon": "/assets/set7.5/items/TFT_Item_NeedlesslyLargeRod.webp"
+      "icon": "/assets/set7.5/items/TFT_Item_NeedlesslyLargeRod.webp",
+      "variables": {
+        "AP": 10
+      }
     },
     {
       "id": "TFT7_Item_ShimmerscaleEmblemItem",
@@ -5875,7 +6264,10 @@
       ],
       "description": "Chủ sở hữu thuộc tộc Kim Long.<br><br><tftitemrules>[Duy Nhất - chỉ một mỗi tướng]</tftitemrules>",
       "isUnique": true,
-      "icon": "/assets/set7.5/items/TFT7_Item_ShimmerscaleEmblemItem.webp"
+      "icon": "/assets/set7.5/items/TFT7_Item_ShimmerscaleEmblemItem.webp",
+      "variables": {
+        "AD": 10
+      }
     },
     {
       "id": "TFT_Item_ForceOfNature",
@@ -5886,7 +6278,10 @@
       ],
       "description": "Đội bạn nhận +@MaxArmySizeIncrease@ kích cỡ đội hình.",
       "isUnique": false,
-      "icon": "/assets/set7.5/items/TFT_Item_ForceOfNature.webp"
+      "icon": "/assets/set7.5/items/TFT_Item_ForceOfNature.webp",
+      "variables": {
+        "{ec9a04d1}": 1
+      }
     },
     {
       "id": "TFT_Item_Quicksilver",
@@ -5897,7 +6292,13 @@
       ],
       "description": "Cho %i:scaleAS% @BonusAS@% Tốc Độ Đánh cộng thêm.<br><br>Bắt đầu giao tranh: Chủ sở hữu được miễn nhiễm hiệu ứng khống chế trong @SpellShieldDuration@ giây.<br><br><tftitemrules>[Duy Nhất - chỉ 1 mỗi tướng]</tftitemrules>",
       "isUnique": true,
-      "icon": "/assets/set7.5/items/TFT_Item_Quicksilver.webp"
+      "icon": "/assets/set7.5/items/TFT_Item_Quicksilver.webp",
+      "variables": {
+        "BonusAS": 20,
+        "MagicResist": 20,
+        "{a2b76524}": 15,
+        "{c4b5579c}": 15
+      }
     },
     {
       "id": "TFT_Item_Deathblade",
@@ -5908,7 +6309,14 @@
       ],
       "description": "Cho %i:scaleAD% @1StarBonusAD@/@2StarBonusAD@/@3StarBonusAD@ %i:star% Sức Mạnh Công Kích Cộng Thêm.",
       "isUnique": false,
-      "icon": "/assets/set7.5/items/TFT_Item_Deathblade.webp"
+      "icon": "/assets/set7.5/items/TFT_Item_Deathblade.webp",
+      "variables": {
+        "AD": 20,
+        "{1b738810}": 65,
+        "{82618485}": 45,
+        "{eb990bd7}": 65,
+        "{f924a46e}": 25
+      }
     },
     {
       "id": "TFT_Item_Chalice",
@@ -5919,7 +6327,15 @@
       ],
       "description": "Bắt đầu giao tranh: Cho %i:scaleAP% @BonusAP@ Sức Mạnh Phép Thuật cho chủ sở hữu và đồng minh trong vòng 1 ô cùng hàng.<br><br>​​<tftitemrules>[Trang bị hào quang]</tftitemrules>",
       "isUnique": false,
-      "icon": "/assets/set7.5/items/TFT_Item_Chalice.webp"
+      "icon": "/assets/set7.5/items/TFT_Item_Chalice.webp",
+      "variables": {
+        "MagicResist": 20,
+        "Mana": 15,
+        "ManaRestore": 10,
+        "{9b1e8f37}": 1,
+        "{9fd37c1c}": 20,
+        "{d49caf5d}": 30
+      }
     },
     {
       "id": "TFT7_Item_RagewingEmblemItem",
@@ -5927,7 +6343,10 @@
       "components": [],
       "description": "Chủ sở hữu thuộc tộc Cuồng Long.<br><br><tftitemrules>[Duy Nhất - chỉ một mỗi tướng]</tftitemrules>",
       "isUnique": true,
-      "icon": "/assets/set7.5/items/TFT7_Item_RagewingEmblemItem.webp"
+      "icon": "/assets/set7.5/items/TFT7_Item_RagewingEmblemItem.webp",
+      "variables": {
+        "AS": 10
+      }
     },
     {
       "id": "TFT_Item_WarmogsArmor",
@@ -5938,7 +6357,11 @@
       ],
       "description": "Cho %i:scaleHealth% @BonusHP@ Máu cộng thêm.",
       "isUnique": false,
-      "icon": "/assets/set7.5/items/TFT_Item_WarmogsArmor.webp"
+      "icon": "/assets/set7.5/items/TFT_Item_WarmogsArmor.webp",
+      "variables": {
+        "BonusHP": 700,
+        "Health": 300
+      }
     },
     {
       "id": "TFT_Item_StatikkShiv",
@@ -5949,7 +6372,19 @@
       ],
       "description": "Cho %i:scaleAS% @BonusAS@% Tốc Độ Đánh. Mỗi đòn đánh thứ ba phóng ra một tia sét nảy vào @1StarBounces@ kẻ địch, gây @Damage@ sát thương phép và giảm Kháng Phép của chúng đi @MRShred@% trong @MRShredDuration@ giây.<br><br><tftitemrules>[Sát thương trang bị trực tiếp]</tftitemrules>",
       "isUnique": false,
-      "icon": "/assets/set7.5/items/TFT_Item_StatikkShiv.webp"
+      "icon": "/assets/set7.5/items/TFT_Item_StatikkShiv.webp",
+      "variables": {
+        "AS": 10,
+        "BonusAS": 10,
+        "Damage": 50,
+        "Mana": 15,
+        "{12a15e9e}": 4,
+        "{15144cec}": 4,
+        "{440f813d}": 4,
+        "{79e2ec7b}": 4,
+        "{b223097c}": 5,
+        "{fe079f34}": 50
+      }
     },
     {
       "id": "TFT_Item_HextechGunblade",
@@ -5960,7 +6395,12 @@
       ],
       "description": "Cho @OmniVamp@% Hút Máu Toàn Phần. Gây sát thương hồi lại cho đồng minh thấp máu nhất lượng tương đương.",
       "isUnique": false,
-      "icon": "/assets/set7.5/items/TFT_Item_HextechGunblade.webp"
+      "icon": "/assets/set7.5/items/TFT_Item_HextechGunblade.webp",
+      "variables": {
+        "AD": 10,
+        "AP": 10,
+        "{ad16f688}": 25
+      }
     },
     {
       "id": "TFT7_Item_MirageEmblemItem",
@@ -5971,7 +6411,10 @@
       ],
       "description": "Chủ sở hữu thuộc tộc Huyễn Long.<br><br><tftitemrules>[Duy Nhất - chỉ một mỗi tướng]</tftitemrules>",
       "isUnique": true,
-      "icon": "/assets/set7.5/items/TFT7_Item_MirageEmblemItem.webp"
+      "icon": "/assets/set7.5/items/TFT7_Item_MirageEmblemItem.webp",
+      "variables": {
+        "MagicResist": 20
+      }
     }
   ]
 }

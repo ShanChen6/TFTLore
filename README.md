@@ -18,6 +18,17 @@ npm install
 npm run dev
 ```
 
+## Các trang
+
+| Đường dẫn | Nội dung |
+|---|---|
+| `/` | Hero + đếm ngược Mùa 19, dòng thời gian toàn bộ các mùa |
+| `/sets/[setId]` | Chi tiết mùa (`1`, `3.5`, `18`…): danh sách tướng có bộ lọc và popup chi tiết, Tộc/Hệ kèm mốc kích hoạt, bảng ghép trang bị |
+
+Tất cả trang mùa được build tĩnh (SSG) qua `generateStaticParams`. Mô tả kỹ năng/Tộc-Hệ/trang bị được
+chuyển từ định dạng của Riot sang HTML trong `lib/format.ts` (thay biến `@Tên@` theo mốc sao/mốc kích hoạt).
+Giá trị được game tính trong trận (không có trong dữ liệu công khai) hiển thị là `?`.
+
 ## Dữ liệu & hình ảnh
 
 Dữ liệu 25 mùa (`data/sets/set-<id>.json`, id dạng `1`, `3.5`, `18`; mục lục ở `data/sets/index.json`) và icon (`public/assets/set<id>/`) đã được commit sẵn.

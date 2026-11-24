@@ -4039,9 +4039,12 @@
         "TFT1_Item_NeedlesslyLargeRod",
         "TFT1_Item_NeedlesslyLargeRod"
       ],
-      "description": "<tftitemrules>Chiếc mũ này có thể giúp bạn xoay chuyển cả thế giới.</tftitemrules><br><br>@TFTUnitProperty.:TFT_Augment_DeadlierCaps_TRAKey@",
+      "description": "Wearer gains +@APPercentAmp@% Spell Power Amplification.<br><br>(All sources of Spell Power are @APPercentAmp@% more effective)",
       "isUnique": false,
-      "icon": "/assets/set1/items/TFT_Item_RabadonsDeathcap.webp"
+      "icon": "/assets/set1/items/TFT_Item_RabadonsDeathcap.webp",
+      "variables": {
+        "{ce132611}": 50
+      }
     },
     {
       "id": "TFT_Item_InfinityEdge",
@@ -4050,9 +4053,14 @@
         "TFT1_Item_BFSword",
         "TFT_Item_SparringGloves"
       ],
-      "description": "Nhận <TFTKeyword>Chuẩn Xác</TFTKeyword>.<br><br>{{TFT_Keyword_Precision}}",
+      "description": "The wearer gains +@CriticalStrikeAmp@% Critical Strike Damage.",
       "isUnique": false,
-      "icon": "/assets/set1/items/TFT_Item_InfinityEdge.webp"
+      "icon": "/assets/set1/items/TFT_Item_InfinityEdge.webp",
+      "variables": {
+        "{3abb8549}": 20,
+        "{4724fc58}": 15,
+        "{eac3d5c4}": 125
+      }
     },
     {
       "id": "TFT_Item_Zephyr",
@@ -4061,9 +4069,12 @@
         "TFT_Item_NegatronCloak",
         "TFT1_Item_GiantsBelt"
       ],
-      "description": "Bắt đầu giao tranh: Triệu hồi lốc xoáy ở phía bên kia sân đấu, loại bỏ kẻ địch gần nhất khỏi sân đấu trong @BanishDuration@ giây. <br><br>Đội của bạn nhận được @AllyBonusAS@% Tốc Độ Đánh.<br><br><tftitemrules>[Trang Bị Hỗ Trợ]<br>[Bỏ qua khả năng miễn nhiễm khống chế.]<br>[Duy Nhất - chỉ 1 mỗi tướng]</tftitemrules><br>@TFTUnitProperty.:TFT_BindOnEquipTRA@",
+      "description": "When combat begins, the wearer summons a whirlwind on the opposite side of the arena that removes the closest enemy from combat for @BanishDuration@ seconds.<br><br><tftitemrules>[Unique - Only One Per Champion]</tftitemrules>",
       "isUnique": false,
-      "icon": "/assets/set1/items/TFT_Item_Zephyr.webp"
+      "icon": "/assets/set1/items/TFT_Item_Zephyr.webp",
+      "variables": {
+        "{510fdb6a}": 6
+      }
     },
     {
       "id": "TFT_Item_BladeOfTheRuinedKing",
@@ -4072,9 +4083,12 @@
         "TFT_Item_RecurveBow",
         "TFT_Item_Spatula"
       ],
-      "description": "TFT_item_description_BladeOfTheRuinedKing",
+      "description": "Extra %i:scaleAS% +@AS@<br>Wearer is also a Blademaster<br><br><tftitemrules>[Unique - Only One Per Champion]</tftitemrules>",
       "isUnique": false,
-      "icon": "/assets/set1/items/TFT_Item_BladeOfTheRuinedKing.webp"
+      "icon": "/assets/set1/items/TFT_Item_BladeOfTheRuinedKing.webp",
+      "variables": {
+        "AS": 20
+      }
     },
     {
       "id": "TFT_Item_ZekesHerald",
@@ -4083,9 +4097,13 @@
         "TFT1_Item_BFSword",
         "TFT1_Item_GiantsBelt"
       ],
-      "description": "Bắt đầu giao tranh: Tăng %i:scaleAS% @AttackSpeed@% Tốc Độ Đánh cho chủ sở hữu và đồng minh trong phạm vi 2 ô cùng hàng.<br><br>​<tftitemrules>[Trang Bị Hỗ Trợ]</tftitemrules>",
+      "description": "When combat begins, the wearer and all allies within @HexRange@ hexes in the same row gain +@AttackSpeed@% Attack Speed for the rest of combat.",
       "isUnique": false,
-      "icon": "/assets/set1/items/TFT_Item_ZekesHerald.webp"
+      "icon": "/assets/set1/items/TFT_Item_ZekesHerald.webp",
+      "variables": {
+        "AttackSpeed": 15,
+        "{9b1e8f37}": 2
+      }
     },
     {
       "id": "TFT_Item_GuinsoosRageblade",
@@ -4094,9 +4112,12 @@
         "TFT_Item_RecurveBow",
         "TFT1_Item_NeedlesslyLargeRod"
       ],
-      "description": "Nhận @AttackSpeedPerStack@% Tốc Độ Đánh cộng dồn mỗi giây.",
+      "description": "Basic Attacks grant the wearer +@AttackSpeedPerStack@% bonus Attack Speed for the rest of combat.<br><br>This effect can stack any number of times.",
       "isUnique": false,
-      "icon": "/assets/set1/items/TFT_Item_GuinsoosRageblade.webp"
+      "icon": "/assets/set1/items/TFT_Item_GuinsoosRageblade.webp",
+      "variables": {
+        "{aa03e0b1}": 5
+      }
     },
     {
       "id": "TFT_Item_IonicSpark",
@@ -4105,9 +4126,12 @@
         "TFT1_Item_NeedlesslyLargeRod",
         "TFT_Item_NegatronCloak"
       ],
-      "description": "@MRShred@% <TFTKeyword>Cào Xé</TFTKeyword> kẻ địch trong vòng @HexRange@ ô. Khi kẻ địch sử dụng Kỹ Năng, gây sát thương phép tương đương @ManaRatio@% Năng Lượng đã tiêu hao.<br><br><tftitemrules><tftbold>Cào Xé</tftbold>: Giảm Kháng Phép</tftitemrules>",
+      "description": "Whenever an enemy casts a spell, the wearer deals @Damage@ true damage to the caster.",
       "isUnique": false,
-      "icon": "/assets/set1/items/TFT_Item_IonicSpark.webp"
+      "icon": "/assets/set1/items/TFT_Item_IonicSpark.webp",
+      "variables": {
+        "Damage": 125
+      }
     },
     {
       "id": "TFT_Item_DragonsClaw",
@@ -4116,9 +4140,12 @@
         "TFT_Item_NegatronCloak",
         "TFT_Item_NegatronCloak"
       ],
-      "description": "Nhận @PercentMaxHP*100@% máu tối đa.<br><br>Sau mỗi @HealthRegenInterval@ giây, hồi lại @PercentHealthDamage@% Máu tối đa.",
+      "description": "Wearer gains @MagicReduction@% resistance to magic damage.",
       "isUnique": false,
-      "icon": "/assets/set1/items/TFT_Item_DragonsClaw.webp"
+      "icon": "/assets/set1/items/TFT_Item_DragonsClaw.webp",
+      "variables": {
+        "MagicReduction": 75
+      }
     },
     {
       "id": "TFT1_Item_NeekosHelp",
@@ -4126,7 +4153,8 @@
       "components": [],
       "description": "Place on a champion to create a one-star copy of them.<br><br><tftitemrules>[CONSUMABLE - This item disappears when used.]</tftitemrules>",
       "isUnique": false,
-      "icon": "/assets/set1/items/TFT1_Item_NeekosHelp.webp"
+      "icon": "/assets/set1/items/TFT1_Item_NeekosHelp.webp",
+      "variables": {}
     },
     {
       "id": "TFT_Item_PhantomDancer",
@@ -4135,9 +4163,10 @@
         "TFT_Item_RecurveBow",
         "TFT_Item_ChainVest"
       ],
-      "description": "TFT_item_description_PhantomDancer",
+      "description": "Wearer dodges all critical strikes.<br><br><tftitemrules>[Unique - Only One Per Champion]</tftitemrules>",
       "isUnique": false,
-      "icon": "/assets/set1/items/TFT_Item_PhantomDancer.webp"
+      "icon": "/assets/set1/items/TFT_Item_PhantomDancer.webp",
+      "variables": {}
     },
     {
       "id": "TFT_Item_Backhand",
@@ -4148,7 +4177,12 @@
       ],
       "description": "At the beginning of combat, the wearer gains a shield that blocks the first enemy spell that hits them. The enemy that breaks the shield is stunned for @StunDuration@ seconds.",
       "isUnique": false,
-      "icon": "/assets/set1/items/TFT_Item_Backhand.webp"
+      "icon": "/assets/set1/items/TFT_Item_Backhand.webp",
+      "variables": {
+        "Health": 200,
+        "StunDuration": 4,
+        "{c4b5579c}": 20
+      }
     },
     {
       "id": "TFT_Item_Thornmail",
@@ -4157,25 +4191,34 @@
         "TFT_Item_ChainVest",
         "TFT_Item_ChainVest"
       ],
-      "description": "tft_item_description_Thornmail",
+      "description": "When the wearer is hit by a Basic Attack, they reflect @DamageReflect@% of the mitigated damage as magic damage.",
       "isUnique": false,
-      "icon": "/assets/set1/items/TFT_Item_Thornmail.webp"
+      "icon": "/assets/set1/items/TFT_Item_Thornmail.webp",
+      "variables": {
+        "{6688a0d5}": 100
+      }
     },
     {
       "id": "TFT_Item_ChainVest",
       "name": "Giáp Lưới",
       "components": [],
-      "description": "%i:scaleArmor% +@Armor@ Giáp",
+      "description": "+@Armor@ Armor",
       "isUnique": false,
-      "icon": "/assets/set1/items/TFT_Item_ChainVest.webp"
+      "icon": "/assets/set1/items/TFT_Item_ChainVest.webp",
+      "variables": {
+        "Armor": 20
+      }
     },
     {
       "id": "TFT_Item_RecurveBow",
       "name": "Cung Gỗ",
       "components": [],
-      "description": "%i:scaleAS% +@AS@% Tốc Độ Đánh",
+      "description": "+@AS@% Attack Speed",
       "isUnique": false,
-      "icon": "/assets/set1/items/TFT_Item_RecurveBow.webp"
+      "icon": "/assets/set1/items/TFT_Item_RecurveBow.webp",
+      "variables": {
+        "AS": 20
+      }
     },
     {
       "id": "TFT_Item_GiantSlayer",
@@ -4186,7 +4229,10 @@
       ],
       "description": "The wearer's basic attacks deal an additional @MaxHPTrueDamage@% of the target's Maximum Health as true damage.",
       "isUnique": false,
-      "icon": "/assets/set1/items/TFT_Item_GiantSlayer.webp"
+      "icon": "/assets/set1/items/TFT_Item_GiantSlayer.webp",
+      "variables": {
+        "{0c633edc}": 5
+      }
     },
     {
       "id": "TFT_Item_RedBuff",
@@ -4195,9 +4241,15 @@
         "TFT_Item_ChainVest",
         "TFT1_Item_GiantsBelt"
       ],
-      "description": "Nhận @BonusPercentHP*100@% Máu tối đa. <br><br>Mỗi @ICD@ giây, gây @BurnPercent@% <TFTKeyword>Thiêu Đốt</TFTKeyword> và @GrievousWoundsPercent@% <TFTKeyword>Vết Thương Sâu</TFTKeyword> lên 1 kẻ địch trong phạm vi @HexRange@ ô trong @BurnDuration@ giây.<br><br><tftitemrules><tftbold>Thiêu Đốt</tftbold>: Gây sát thương chuẩn mỗi giây theo Máu tối đa của mục tiêu<br><tftbold>Vết Thương Sâu</tftbold>: Giảm hồi máu nhận được</tftitemrules>",
+      "description": "Wearer's Basic Attacks burn the target on-hit, dealing @BurnPercent@% of the target's Maximum Health as true damage over @BurnDuration@ seconds and reducing healing by 80% for the duration of the burn. A champion can only have one burn effect at a time, preferring the strongest.<br><br><tftitemrules>[Unique - Only One Per Champion]</tftitemrules>",
       "isUnique": false,
-      "icon": "/assets/set1/items/TFT_Item_RedBuff.webp"
+      "icon": "/assets/set1/items/TFT_Item_RedBuff.webp",
+      "variables": {
+        "MonsterCap": 100,
+        "{57706a69}": 20,
+        "{6df27940}": 1,
+        "{97e52ce8}": 10
+      }
     },
     {
       "id": "TFT_Item_IcebornGauntlet",
@@ -4206,9 +4258,14 @@
         "TFT_Item_ChainVest",
         "TFT_Item_SparringGloves"
       ],
-      "description": "tft_item_description_FrozenFist",
+      "description": "When the wearer dodges, they create a zone of ice. Enemies inside the zone have their Attack Speed reduced by @ASSlowPercentage@%.",
       "isUnique": false,
-      "icon": "/assets/set1/items/TFT_Item_IcebornGauntlet.webp"
+      "icon": "/assets/set1/items/TFT_Item_IcebornGauntlet.webp",
+      "variables": {
+        "Armor": 20,
+        "{c4b5579c}": 20,
+        "{d0088170}": 35
+      }
     },
     {
       "id": "TFT_Item_CursedBlade",
@@ -4217,9 +4274,12 @@
         "TFT_Item_RecurveBow",
         "TFT_Item_NegatronCloak"
       ],
-      "description": "TFT_item_description_CursedBlade",
+      "description": "Basic Attacks have a @ChanceOnHitToShrink@% chance on-hit to decrease the target's star level by 1 for the rest of combat.",
       "isUnique": false,
-      "icon": "/assets/set1/items/TFT_Item_CursedBlade.webp"
+      "icon": "/assets/set1/items/TFT_Item_CursedBlade.webp",
+      "variables": {
+        "{a56e0a21}": 20
+      }
     },
     {
       "id": "TFT_Item_GuardianAngel",
@@ -4228,9 +4288,13 @@
         "TFT1_Item_BFSword",
         "TFT_Item_ChainVest"
       ],
-      "description": "Khi còn @HealthThreshold@% Máu, trở nên không thể bị nhắm tới trong thoáng chốc, loại bỏ mọi hiệu ứng bất lợi và hồi lại @MissingHealthRestore*100@% Máu đã mất.",
+      "description": "When the wearer dies, they cleanse negative effects and revive with up to @HealthRestore@ Health after a @StasisDuration@ second delay.<br><br>This effect can trigger once per combat.",
       "isUnique": false,
-      "icon": "/assets/set1/items/TFT_Item_GuardianAngel.webp"
+      "icon": "/assets/set1/items/TFT_Item_GuardianAngel.webp",
+      "variables": {
+        "{c425872e}": 2,
+        "{dc44b1d7}": 500
+      }
     },
     {
       "id": "TFT1_Item_TearoftheGoddess",
@@ -4238,15 +4302,21 @@
       "components": [],
       "description": "+@Mana@ Mana",
       "isUnique": false,
-      "icon": "/assets/set1/items/TFT1_Item_TearoftheGoddess.webp"
+      "icon": "/assets/set1/items/TFT1_Item_TearoftheGoddess.webp",
+      "variables": {
+        "Mana": 20
+      }
     },
     {
       "id": "TFT_Item_NegatronCloak",
       "name": "Áo Choàng Bạc",
       "components": [],
-      "description": "%i:scaleMR% +@MagicResist@ Kháng Phép",
+      "description": "+@MagicResist@ Magic Resist",
       "isUnique": false,
-      "icon": "/assets/set1/items/TFT_Item_NegatronCloak.webp"
+      "icon": "/assets/set1/items/TFT_Item_NegatronCloak.webp",
+      "variables": {
+        "MagicResist": 20
+      }
     },
     {
       "id": "TFT_Item_RunaansHurricane",
@@ -4255,9 +4325,14 @@
         "TFT_Item_NegatronCloak",
         "TFT_Item_Spatula"
       ],
-      "description": "Đòn đánh cho @ADOnAttack*100@% Sức Mạnh Công Kích cộng dồn, tối đa @MaxStacks@ đòn đánh. Sau @MaxStacks@ đòn đánh, nhận @ASCapstone*100@% Tốc Độ Đánh.",
+      "description": "Extra %i:scaleMR% +@ExtraMR@<br>Basic Attack fire an additional missile at another nearby enemy, dealing @MultiplierForDamage@% of the wearer's Attack Damage and applying on-hit effects.",
       "isUnique": false,
-      "icon": "/assets/set1/items/TFT_Item_RunaansHurricane.webp"
+      "icon": "/assets/set1/items/TFT_Item_RunaansHurricane.webp",
+      "variables": {
+        "AdditionalTargets": 1,
+        "{276ba2c8}": 75,
+        "{9634ed1a}": 20
+      }
     },
     {
       "id": "TFT_Item_Mittens",
@@ -4268,7 +4343,11 @@
       ],
       "description": "Wearer is also a Yordle<br>Extra +10% Critical Strike Chance, +10% Dodge Chance<br><br><tftitemrules>[Unique - Only One Per Champion]</tftitemrules>",
       "isUnique": false,
-      "icon": "/assets/set1/items/TFT_Item_Mittens.webp"
+      "icon": "/assets/set1/items/TFT_Item_Mittens.webp",
+      "variables": {
+        "{3abb8549}": 10,
+        "{c4b5579c}": 10
+      }
     },
     {
       "id": "TFT1_Item_BFSword",
@@ -4276,7 +4355,10 @@
       "components": [],
       "description": "+@AD@ Attack Damage",
       "isUnique": false,
-      "icon": "/assets/set1/items/TFT1_Item_BFSword.webp"
+      "icon": "/assets/set1/items/TFT1_Item_BFSword.webp",
+      "variables": {
+        "{4724fc58}": 20
+      }
     },
     {
       "id": "TFT_Item_ThiefsGloves",
@@ -4285,9 +4367,13 @@
         "TFT_Item_SparringGloves",
         "TFT_Item_SparringGloves"
       ],
-      "description": "Mỗi vòng: Mang 2 trang bị ngẫu nhiên.<br><br><tftitemrules>[Tốn 3 ô trang bị.]</tftitemrules><br>@TFTUnitProperty.:TFT_BindOnEquipTRA@",
+      "description": "At the beginning of each planning phase, the wearer equips 2 temporary items. Temporary items increase in power based on your player level.<br><br><tftitemrules>[Consumes Three Item Slots]</tftitemrules>",
       "isUnique": false,
-      "icon": "/assets/set1/items/TFT_Item_ThiefsGloves.webp"
+      "icon": "/assets/set1/items/TFT_Item_ThiefsGloves.webp",
+      "variables": {
+        "{3abb8549}": 20,
+        "{c4b5579c}": 20
+      }
     },
     {
       "id": "TFT_Item_Bloodthirster",
@@ -4296,9 +4382,12 @@
         "TFT1_Item_BFSword",
         "TFT_Item_NegatronCloak"
       ],
-      "description": "Một lần mỗi giao tranh khi còn @HealthThreshold@% Máu, nhận Lá Chắn bằng @ShieldHealthPercent@% Máu tối đa, duy trì trong @ShieldDuration@ giây.",
+      "description": "Basic Attacks heal the wearer for @Lifesteal@% of the damage dealt.",
       "isUnique": false,
-      "icon": "/assets/set1/items/TFT_Item_Bloodthirster.webp"
+      "icon": "/assets/set1/items/TFT_Item_Bloodthirster.webp",
+      "variables": {
+        "LifeSteal": 40
+      }
     },
     {
       "id": "TFT_Item_KnightsVow",
@@ -4307,9 +4396,12 @@
         "TFT_Item_ChainVest",
         "TFT_Item_Spatula"
       ],
-      "description": "Tăng %i:scaleArmor% +@Armor@<br>Chủ sở hữu cũng là Hiệp Sĩ<br><br><tftitemrules>[Duy Nhất - chỉ một mỗi tướng]</tftitemrules>",
+      "description": "Extra %i:scaleArmor% +@Armor@<br>Wearer is also a Knight<br><br><tftitemrules>[Unique - Only One Per Champion]</tftitemrules>",
       "isUnique": false,
-      "icon": "/assets/set1/items/TFT_Item_KnightsVow.webp"
+      "icon": "/assets/set1/items/TFT_Item_KnightsVow.webp",
+      "variables": {
+        "Armor": 20
+      }
     },
     {
       "id": "TFT_Item_FrozenMallet",
@@ -4318,9 +4410,12 @@
         "TFT_Item_Spatula",
         "TFT1_Item_GiantsBelt"
       ],
-      "description": "TFT_item_description_FrozenMallet",
+      "description": "Extra %i:scaleHealth% +@Health@<br>Wearer is also glacial<br><br><tftitemrules>[Unique - Only One Per Champion]</tftitemrules>",
       "isUnique": false,
-      "icon": "/assets/set1/items/TFT_Item_FrozenMallet.webp"
+      "icon": "/assets/set1/items/TFT_Item_FrozenMallet.webp",
+      "variables": {
+        "Health": 200
+      }
     },
     {
       "id": "TFT_Item_TitanicHydra",
@@ -4329,9 +4424,12 @@
         "TFT_Item_RecurveBow",
         "TFT1_Item_GiantsBelt"
       ],
-      "description": "Bắt đầu giao tranh: <TFTKeyword>Khiêu Khích</TFTKeyword>.<br>Khi bị hạ, sinh ra 1 Bọ Hư Không, <TFTKeyword>Khiêu Khích</TFTKeyword> kẻ địch gần bên. Bọ Hư Không bị giảm mạnh hiệu lực khi được tạo ra bởi 1 đơn vị triệu hồi.<br><br><tftitemrules><tftbold>Khiêu Khích</tftbold>: những kẻ địch trong tầm đánh và có thể tấn công bị buộc phải tấn công kẻ khiêu khích</tftitemrules>",
+      "description": "Basic Attacks deal an additional @MaxHealth@% of the wearer's Maximum Health as magic damage to the target and adjacent enemies behind them.",
       "isUnique": false,
-      "icon": "/assets/set1/items/TFT_Item_TitanicHydra.webp"
+      "icon": "/assets/set1/items/TFT_Item_TitanicHydra.webp",
+      "variables": {
+        "MaxHealth": 3
+      }
     },
     {
       "id": "TFT_Item_YoumuusGhostblade",
@@ -4340,9 +4438,12 @@
         "TFT1_Item_BFSword",
         "TFT_Item_Spatula"
       ],
-      "description": "Chủ sở hữu cũng là Sát Thủ.<br><br><tftitemrules>[Duy Nhất - chỉ một mỗi tướng]</tftitemrules>",
+      "description": "Extra %i:scaleAD% +@AD@<br>Wearer is also an Assassin<br><br><tftitemrules>[Unique - Only One Per Champion]</tftitemrules>",
       "isUnique": false,
-      "icon": "/assets/set1/items/TFT_Item_YoumuusGhostblade.webp"
+      "icon": "/assets/set1/items/TFT_Item_YoumuusGhostblade.webp",
+      "variables": {
+        "{4724fc58}": 15
+      }
     },
     {
       "id": "TFT_Item_LocketOfTheIronSolari",
@@ -4351,9 +4452,14 @@
         "TFT1_Item_NeedlesslyLargeRod",
         "TFT_Item_ChainVest"
       ],
-      "description": "Bắt đầu giao tranh: Chủ sở hữu và đồng minh trong phạm vi @HexRange@ ô cùng hàng nhận @ShieldValue@ Lá Chắn, @BonusResists@ Giáp và @BonusResists@ Kháng Phép trong @ShieldDuration@ giây.<br><br>​<tftitemrules>[Trang Bị Hỗ Trợ]</tftitemrules>",
+      "description": "When combat begins, the wearer and all allies within @HexRange@ hexes in the same row gain a shield that blocks @ShieldValue@ damage for @ShieldDuration@ seconds.",
       "isUnique": false,
-      "icon": "/assets/set1/items/TFT_Item_LocketOfTheIronSolari.webp"
+      "icon": "/assets/set1/items/TFT_Item_LocketOfTheIronSolari.webp",
+      "variables": {
+        "ShieldDuration": 8,
+        "ShieldValue": 300,
+        "{9b1e8f37}": 2
+      }
     },
     {
       "id": "TFT_Item_Yuumi",
@@ -4362,9 +4468,12 @@
         "TFT1_Item_NeedlesslyLargeRod",
         "TFT_Item_Spatula"
       ],
-      "description": "TFT_item_description_Yuumi",
+      "description": "Extra %i:scaleAP% +@AP@<br>Wearer is also a Sorcerer<br><br><tftitemrules>[Unique - Only One Per Champion]</tftitemrules>",
       "isUnique": false,
-      "icon": "/assets/set1/items/TFT_Item_Yuumi.webp"
+      "icon": "/assets/set1/items/TFT_Item_Yuumi.webp",
+      "variables": {
+        "AP": 20
+      }
     },
     {
       "id": "TFT_Item_Morellonomicon",
@@ -4373,9 +4482,15 @@
         "TFT1_Item_NeedlesslyLargeRod",
         "TFT1_Item_GiantsBelt"
       ],
-      "description": "Đòn Đánh và Kỹ Năng gây @BurnPercent@% <TFTKeyword>Thiêu Đốt</TFTKeyword> và @GrievousWoundsPercent@% <TFTKeyword>Vết Thương Sâu</TFTKeyword> lên kẻ địch trong @BurnDuration@ giây.<br><br><tftitemrules><tftbold>Thiêu Đốt</tftbold>: Gây sát thương chuẩn mỗi giây theo Máu tối đa của mục tiêu<br><tftbold>Vết Thương Sâu</tftbold>: Giảm hồi máu nhận được</tftitemrules>",
+      "description": "When the wearer deals damage with their spell, they burn the target, dealing @BurnPercent@% of the target's Maximum Health as true damage over @BurnDuration@ seconds and reducing healing by 80% for the duration of the burn. A champion can only have one burn effect at a time, preferring the strongest.<br><br><tftitemrules>[Unique - Only One Per Champion]</tftitemrules>",
       "isUnique": false,
-      "icon": "/assets/set1/items/TFT_Item_Morellonomicon.webp"
+      "icon": "/assets/set1/items/TFT_Item_Morellonomicon.webp",
+      "variables": {
+        "MonsterCap": 100,
+        "{57706a69}": 20,
+        "{6df27940}": 1,
+        "{97e52ce8}": 10
+      }
     },
     {
       "id": "TFT_Item_RapidFirecannon",
@@ -4384,9 +4499,10 @@
         "TFT_Item_RecurveBow",
         "TFT_Item_RecurveBow"
       ],
-      "description": "Đòn Đánh và Kỹ Năng gây @BurnPercent@% <TFTKeyword>Thiêu Đốt</TFTKeyword> và @HealingReductionPct@% <TFTKeyword>Vết Thương Sâu</TFTKeyword> lên kẻ địch trong @Duration@ giây.<br><br><tftitemrules><tftbold>Thiêu Đốt</tftbold>: Gây sát thương chuẩn mỗi giây theo Máu tối đa của mục tiêu<br><tftbold>Vết Thương Sâu</tftbold>: Giảm hồi máu nhận được</tftitemrules>",
+      "description": "Wearer gains +100% Attack Range.",
       "isUnique": false,
-      "icon": "/assets/set1/items/TFT_Item_RapidFirecannon.webp"
+      "icon": "/assets/set1/items/TFT_Item_RapidFirecannon.webp",
+      "variables": {}
     },
     {
       "id": "TFT_Item_SwordBreaker",
@@ -4397,15 +4513,23 @@
       ],
       "description": "Wearer's Basic Attacks have a @ChanceOnHitToDisarm@% chance to disarm the target for @DisarmDuration@ seconds, preventing that enemy from Basic Attacking.",
       "isUnique": false,
-      "icon": "/assets/set1/items/TFT_Item_SwordBreaker.webp"
+      "icon": "/assets/set1/items/TFT_Item_SwordBreaker.webp",
+      "variables": {
+        "DisarmDuration": 3,
+        "{2426ea7e}": 33
+      }
     },
     {
       "id": "TFT_Item_SparringGloves",
       "name": "Găng Đấu Tập",
       "components": [],
-      "description": "+@CritChance@ Tỉ Lệ Chí Mạng",
+      "description": "+@CritChance@% Critical Strike Chance<br>+@DodgeChance@% Dodge Chance",
       "isUnique": false,
-      "icon": "/assets/set1/items/TFT_Item_SparringGloves.webp"
+      "icon": "/assets/set1/items/TFT_Item_SparringGloves.webp",
+      "variables": {
+        "{3abb8549}": 10,
+        "{c4b5579c}": 10
+      }
     },
     {
       "id": "TFT1_Item_GiantsBelt",
@@ -4413,7 +4537,10 @@
       "components": [],
       "description": "+@Health@ Health",
       "isUnique": false,
-      "icon": "/assets/set1/items/TFT1_Item_GiantsBelt.webp"
+      "icon": "/assets/set1/items/TFT1_Item_GiantsBelt.webp",
+      "variables": {
+        "Health": 200
+      }
     },
     {
       "id": "TFT1_Item_NeedlesslyLargeRod",
@@ -4421,7 +4548,10 @@
       "components": [],
       "description": "+@AP@% Spell Power",
       "isUnique": false,
-      "icon": "/assets/set1/items/TFT1_Item_NeedlesslyLargeRod.webp"
+      "icon": "/assets/set1/items/TFT1_Item_NeedlesslyLargeRod.webp",
+      "variables": {
+        "AP": 20
+      }
     },
     {
       "id": "TFT_Item_Jeweled",
@@ -4432,7 +4562,11 @@
       ],
       "description": "The wearer's spells can critically strike.<br><br><tftitemrules>[Unique - Only One Per Champion]</tftitemrules>",
       "isUnique": false,
-      "icon": "/assets/set1/items/TFT_Item_Jeweled.webp"
+      "icon": "/assets/set1/items/TFT_Item_Jeweled.webp",
+      "variables": {
+        "AP": 20,
+        "{3abb8549}": 20
+      }
     },
     {
       "id": "TFT_Item_RepeatingCrossbow",
@@ -4443,7 +4577,13 @@
       ],
       "description": "When the wearer dies, Repeating Crossbow is re-equipped to a new ally. Each time Repeating Crossbow is re-equipped, it grants an additional +@AttackSpeedPerStack@% Attack Speed and +@CritChancePerStack@% Critical Strike Chance for the remainder of combat.<br><br>This effect can stack any number of times.",
       "isUnique": false,
-      "icon": "/assets/set1/items/TFT_Item_RepeatingCrossbow.webp"
+      "icon": "/assets/set1/items/TFT_Item_RepeatingCrossbow.webp",
+      "variables": {
+        "AS": 20,
+        "{3abb8549}": 20,
+        "{aa03e0b1}": 30,
+        "{cb57edb0}": 30
+      }
     },
     {
       "id": "TFT_Item_ForceOfNature",
@@ -4452,9 +4592,12 @@
         "TFT_Item_Spatula",
         "TFT_Item_Spatula"
       ],
-      "description": "Đội của bạn được +@MaxArmySizeIncrease@ giới hạn tướng tối đa.<br><br>@PercentGoldChance@% cơ hội rớt ra 1 vàng khi chiến thắng giao tranh.<br><br><tftitemrules>\"...trái tim của một anh hùng...\"</tftitemrules>",
+      "description": "Wearer's team gains +@MaxArmySizeIncrease@ maximum team size.",
       "isUnique": false,
-      "icon": "/assets/set1/items/TFT_Item_ForceOfNature.webp"
+      "icon": "/assets/set1/items/TFT_Item_ForceOfNature.webp",
+      "variables": {
+        "{ec9a04d1}": 1
+      }
     },
     {
       "id": "TFT_Item_DeathBlade",
@@ -4463,17 +4606,24 @@
         "TFT1_Item_BFSword",
         "TFT1_Item_BFSword"
       ],
-      "description": "<tftitemrules>Đem tới sự yên bình vĩnh hằng cho người mang - và cả những kẻ phải đối đầu với nó.</tftitemrules><br><br>@TFTUnitProperty.:TFT_Augment_TragicalBlade_TRAKey@",
+      "description": "Whenever the wearer kills or participates in killing an enemy, gain +@ADPerStack@ Attack Damage for the remainder of combat.<br><br>This effect can stack any number of times. Starts with @StartingStacks@ stacks.",
       "isUnique": false,
-      "icon": "/assets/set1/items/TFT_Item_DeathBlade.webp"
+      "icon": "/assets/set1/items/TFT_Item_DeathBlade.webp",
+      "variables": {
+        "{ad68ce80}": 1,
+        "{f1d43b01}": 15
+      }
     },
     {
       "id": "TFT_Item_Spatula",
       "name": "Siêu Xẻng",
       "components": [],
-      "description": "<tftitemrules>Nó phải có tác dụng gì đó...</tftitemrules>",
+      "description": "It must do <i>something</i>...",
       "isUnique": false,
-      "icon": "/assets/set1/items/TFT_Item_Spatula.webp"
+      "icon": "/assets/set1/items/TFT_Item_Spatula.webp",
+      "variables": {
+        "{fe9818ef}": 5
+      }
     },
     {
       "id": "TFT_Item_WarmogsArmor",
@@ -4482,9 +4632,13 @@
         "TFT1_Item_GiantsBelt",
         "TFT1_Item_GiantsBelt"
       ],
-      "description": "Nhận @BonusPercentHP*100@% Máu tối đa.<br>",
+      "description": "Wearer regenerates @HealthRegen@% of their missing Health per second.",
       "isUnique": false,
-      "icon": "/assets/set1/items/TFT_Item_WarmogsArmor.webp"
+      "icon": "/assets/set1/items/TFT_Item_WarmogsArmor.webp",
+      "variables": {
+        "HealthRegen": 6,
+        "{0c90f194}": 400
+      }
     },
     {
       "id": "TFT_Item_HextechGunblade",
@@ -4493,9 +4647,12 @@
         "TFT1_Item_BFSword",
         "TFT1_Item_NeedlesslyLargeRod"
       ],
-      "description": "Hồi máu cho đồng minh thấp Máu nhất bằng @AllyHealing*100@% lượng sát thương gây ra.<br><br><TFTTrackerLabel>Hồi Máu Đồng Minh:</TFTTrackerLabel> <TFTHighlight>@TFTUnitProperty.item:TFT_Tracker_Value1@</TFTHighlight>",
+      "description": "Basic Attacks and spells heal the wearer for @OmniVamp@% of the damage dealt.",
       "isUnique": false,
-      "icon": "/assets/set1/items/TFT_Item_HextechGunblade.webp"
+      "icon": "/assets/set1/items/TFT_Item_HextechGunblade.webp",
+      "variables": {
+        "{ad16f688}": 25
+      }
     }
   ]
 }
