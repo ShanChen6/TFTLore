@@ -2,6 +2,7 @@
   "setId": 2,
   "name": "Mùa 2",
   "nameEn": "Rise of the Elements",
+  "isMidSet": false,
   "releaseDate": "2019-11-05",
   "boardSize": {
     "rows": 4,

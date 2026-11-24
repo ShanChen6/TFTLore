@@ -1,0 +1,177 @@
+[
+  {
+    "id": "1",
+    "name": "Mùa 1",
+    "nameEn": "Set 1",
+    "releaseDate": "2019-06-26",
+    "isMidSet": false
+  },
+  {
+    "id": "2",
+    "name": "Mùa 2",
+    "nameEn": "Rise of the Elements",
+    "releaseDate": "2019-11-05",
+    "isMidSet": false
+  },
+  {
+    "id": "3",
+    "name": "Mùa 3",
+    "nameEn": "Galaxies",
+    "releaseDate": "2020-03-18",
+    "isMidSet": false
+  },
+  {
+    "id": "3.5",
+    "name": "Mùa 3.5",
+    "nameEn": "Galaxies: Return to the Stars",
+    "releaseDate": "2020-06-24",
+    "isMidSet": true
+  },
+  {
+    "id": "4",
+    "name": "Mùa 4",
+    "nameEn": "Fates",
+    "releaseDate": "2020-09-16",
+    "isMidSet": false
+  },
+  {
+    "id": "4.5",
+    "name": "Mùa 4.5",
+    "nameEn": "Festival of Beasts",
+    "releaseDate": "2021-01-21",
+    "isMidSet": true
+  },
+  {
+    "id": "5",
+    "name": "Mùa 5",
+    "nameEn": "Reckoning",
+    "releaseDate": "2021-04-28",
+    "isMidSet": false
+  },
+  {
+    "id": "5.5",
+    "name": "Mùa 5.5",
+    "nameEn": "Dawn of Heroes",
+    "releaseDate": "2021-07-21",
+    "isMidSet": true
+  },
+  {
+    "id": "6",
+    "name": "Mùa 6",
+    "nameEn": "Gizmos & Gadgets",
+    "releaseDate": "2021-11-03",
+    "isMidSet": false
+  },
+  {
+    "id": "6.5",
+    "name": "Mùa 6.5",
+    "nameEn": "Neon Nights",
+    "releaseDate": "2022-02-16",
+    "isMidSet": true
+  },
+  {
+    "id": "7",
+    "name": "Mùa 7",
+    "nameEn": "Dragonlands",
+    "releaseDate": "2022-06-08",
+    "isMidSet": false
+  },
+  {
+    "id": "7.5",
+    "name": "Mùa 7.5",
+    "nameEn": "Uncharted Realms",
+    "releaseDate": "2022-09-07",
+    "isMidSet": true
+  },
+  {
+    "id": "8",
+    "name": "Mùa 8",
+    "nameEn": "Monsters Attack!",
+    "releaseDate": "2022-12-07",
+    "isMidSet": false
+  },
+  {
+    "id": "8.5",
+    "name": "Mùa 8.5",
+    "nameEn": "Glitched Out!",
+    "releaseDate": "2023-03-22",
+    "isMidSet": true
+  },
+  {
+    "id": "9",
+    "name": "Mùa 9",
+    "nameEn": "Runeterra Reforged",
+    "releaseDate": "2023-06-14",
+    "isMidSet": false
+  },
+  {
+    "id": "9.5",
+    "name": "Mùa 9.5",
+    "nameEn": "Horizonbound",
+    "releaseDate": "2023-09-13",
+    "isMidSet": true
+  },
+  {
+    "id": "10",
+    "name": "Mùa 10",
+    "nameEn": "Remix Rumble",
+    "releaseDate": "2023-11-20",
+    "isMidSet": false
+  },
+  {
+    "id": "11",
+    "name": "Mùa 11",
+    "nameEn": "Inkborn Fables",
+    "releaseDate": "2024-03-20",
+    "isMidSet": false
+  },
+  {
+    "id": "12",
+    "name": "Mùa 12",
+    "nameEn": "Magic n' Mayhem",
+    "releaseDate": "2024-07-31",
+    "isMidSet": false
+  },
+  {
+    "id": "13",
+    "name": "Mùa 13",
+    "nameEn": "Into the Arcane",
+    "releaseDate": "2024-11-20",
+    "isMidSet": false
+  },
+  {
+    "id": "14",
+    "name": "Mùa 14",
+    "nameEn": "Cyber City",
+    "releaseDate": "2025-04-02",
+    "isMidSet": false
+  },
+  {
+    "id": "15",
+    "name": "Mùa 15",
+    "nameEn": "K.O. Coliseum",
+    "releaseDate": "2025-07-30",
+    "isMidSet": false
+  },
+  {
+    "id": "16",
+    "name": "Mùa 16",
+    "nameEn": "Lore & Legends",
+    "releaseDate": null,
+    "isMidSet": false
+  },
+  {
+    "id": "17",
+    "name": "Mùa 17",
+    "nameEn": null,
+    "releaseDate": null,
+    "isMidSet": false
+  },
+  {
+    "id": "18",
+    "name": "Đại Ngàn Kỳ Bí",
+    "nameEn": null,
+    "releaseDate": "2026-08-12",
+    "isMidSet": false
+  }
+]

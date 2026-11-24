@@ -54,9 +54,12 @@ export interface Item {
 }
 
 export interface SetData {
+  /** Số mùa, mùa giữa kỳ dùng số thập phân (3.5, 4.5…). File tương ứng: data/sets/set-<setId>.json */
   setId: number;
   name: string;
   nameEn: string | null;
+  /** Mùa giữa kỳ (.5). */
+  isMidSet: boolean;
   releaseDate: string | null;
   boardSize: { rows: number; cols: number };
   mechanic: string;
@@ -65,4 +68,13 @@ export interface SetData {
   traits: Trait[];
   champions: Champion[];
   items: Item[];
+}
+
+/** Một mục trong data/sets/index.json (theo thứ tự thời gian). */
+export interface SetIndexEntry {
+  id: string;
+  name: string;
+  nameEn: string | null;
+  releaseDate: string | null;
+  isMidSet: boolean;
 }

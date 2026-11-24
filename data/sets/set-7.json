@@ -2,6 +2,7 @@
   "setId": 7,
   "name": "Mùa 7",
   "nameEn": "Dragonlands",
+  "isMidSet": false,
   "releaseDate": "2022-06-08",
   "boardSize": {
     "rows": 4,

@@ -2,6 +2,7 @@
   "setId": 9,
   "name": "Mùa 9",
   "nameEn": "Runeterra Reforged",
+  "isMidSet": false,
   "releaseDate": "2023-06-14",
   "boardSize": {
     "rows": 4,

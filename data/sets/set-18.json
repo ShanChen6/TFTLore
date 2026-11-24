@@ -2,6 +2,7 @@
   "setId": 18,
   "name": "Đại Ngàn Kỳ Bí",
   "nameEn": null,
+  "isMidSet": false,
   "releaseDate": "2026-08-12",
   "boardSize": {
     "rows": 4,

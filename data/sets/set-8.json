@@ -2,6 +2,7 @@
   "setId": 8,
   "name": "Mùa 8",
   "nameEn": "Monsters Attack!",
+  "isMidSet": false,
   "releaseDate": "2022-12-07",
   "boardSize": {
     "rows": 4,

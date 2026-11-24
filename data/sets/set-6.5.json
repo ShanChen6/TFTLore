@@ -1,0 +1,5474 @@
+{
+  "setId": 6.5,
+  "name": "Mùa 6.5",
+  "nameEn": "Neon Nights",
+  "isMidSet": true,
+  "releaseDate": "2022-02-16",
+  "boardSize": {
+    "rows": 4,
+    "cols": 7
+  },
+  "mechanic": "",
+  "source": {
+    "patch": "12.10",
+    "lang": "en_us"
+  },
+  "traits": [
+    {
+      "id": "Set6_Rivals",
+      "name": "Đối Thủ",
+      "description": "Hệ này chỉ kích hoạt khi bạn có đúng duy nhất một Đối Thủ trong đội hình, bởi các Đối Thủ sẽ từ chối hợp tác cùng nhau.<br><br>Vi được giảm @ViManaReduction@ năng lượng.<br><br>Jinx nhận  @JinxEmpoweredAS*100@% Tốc Độ Đánh trong @JinxASDuration@ giây sau khi tham gia hạ gục.",
+      "icon": "/assets/set6.5/traits/Set6_Rivals.webp",
+      "breakpoints": [
+        {
+          "count": 1,
+          "style": "unique",
+          "effect": "",
+          "variables": {
+            "{2a50526a}": 3,
+            "{3b173c39}": 4,
+            "{5263ba40}": 0.4000000059604645,
+            "{a859d7b0}": 20
+          }
+        }
+      ]
+    },
+    {
+      "id": "Set6_Syndicate",
+      "name": "Băng Đảng",
+      "description": "Một vài đồng minh nhất định sẽ được bóng tối bao phủ, nhận @Armor@ Giáp, @MagicResist@ Kháng Phép và @PercentOmnivamp@% Hút Máu Toàn Phần (hồi máu dựa trên mọi loại sát thương gây ra.)<br><br><row>(@MinUnits@) Tướng Băng Đảng với tỉ lệ máu thấp nhất</row><br><row>(@MinUnits@) Tất cả tướng Băng Đảng</row><br><row>(@MinUnits@) Toàn bộ đội hình, đồng thời hiệu ứng được tăng lên @SyndicateIncrease*100@%</row><br>",
+      "icon": "/assets/set6.5/traits/Set6_Syndicate.webp",
+      "breakpoints": [
+        {
+          "count": 3,
+          "style": "bronze",
+          "effect": "",
+          "variables": {
+            "Armor": 50,
+            "MagicResist": 50,
+            "{5c51b509}": 1,
+            "{c9b0e3af}": 20
+          }
+        },
+        {
+          "count": 5,
+          "style": "gold",
+          "effect": "",
+          "variables": {
+            "Armor": 50,
+            "MagicResist": 50,
+            "{5c51b509}": 2,
+            "{c9b0e3af}": 20
+          }
+        },
+        {
+          "count": 7,
+          "style": "prismatic",
+          "effect": "",
+          "variables": {
+            "Armor": 50,
+            "MagicResist": 50,
+            "{5c51b509}": 3,
+            "{867bc055}": 0.5,
+            "{c9b0e3af}": 20
+          }
+        }
+      ]
+    },
+    {
+      "id": "Set6_Yordle",
+      "name": "Yordle",
+      "description": "<row>(@MinUnits@) Sau mỗi trận chiến, một tướng Yordle ngẫu nhiên sẽ được thêm vào hàng chờ một cách miễn phí.</row><br><row>(@MinUnits@) Kỹ năng của Yordle tiêu hao ít hơn @PercentManaReduction@% năng lượng.</row><br>",
+      "icon": "/assets/set6.5/traits/Set6_Yordle.webp",
+      "breakpoints": [
+        {
+          "count": 3,
+          "style": "bronze",
+          "effect": "",
+          "variables": {
+            "{ed1f9fc2}": "null"
+          }
+        },
+        {
+          "count": 6,
+          "style": "gold",
+          "effect": "",
+          "variables": {
+            "{ed1f9fc2}": 40
+          }
+        }
+      ]
+    },
+    {
+      "id": "Set6_Scrap",
+      "name": "Tái Chế",
+      "description": "Khi bắt đầu giao tranh, các trang bị thành phần của các tướng Tái Chế sẽ trở thành trang bị hoàn chỉnh trong trận chiến đó. Đội bạn cũng nhận được lá chắn cho mỗi trang bị thành phần được trang bị trong đội hình, bao gồm cả những trang bị được ghép thành hoàn chỉnh.<br><br><row>(@MinUnits@) @NumComponents@ trang bị thành phần, @HPShieldAmount@ lá chắn</row><br><row>(@MinUnits@) @NumComponents@ trang bị thành phần, @HPShieldAmount@ lá chắn</row><br><row>(@MinUnits@) Tất cả trang bị thành phần, @HPShieldAmount@ lá chắn</row>",
+      "icon": "/assets/set6.5/traits/Set6_Scrap.webp",
+      "breakpoints": [
+        {
+          "count": 2,
+          "style": "bronze",
+          "effect": "",
+          "variables": {
+            "{5cc08b27}": 1,
+            "{94c6a08c}": 20
+          }
+        },
+        {
+          "count": 4,
+          "style": "silver",
+          "effect": "",
+          "variables": {
+            "{5cc08b27}": 3,
+            "{94c6a08c}": 30
+          }
+        },
+        {
+          "count": 6,
+          "style": "gold",
+          "effect": "",
+          "variables": {
+            "{5cc08b27}": 12,
+            "{94c6a08c}": 50
+          }
+        }
+      ]
+    },
+    {
+      "id": "Set6_Challenger",
+      "name": "Thách Đấu",
+      "description": "Tướng Thách Đấu nhận thêm Tốc Độ Đánh. Sau mỗi lần tham gia hạ gục, Tướng Thách Đấu lướt đến một mục tiêu mới và tăng gấp đôi lượng chỉ số này trong @BurstDuration@ giây.<br><expandRow>(@MinUnits@) @BonusAS@% Tốc Độ Đánh</expandRow>",
+      "icon": "/assets/set6.5/traits/Set6_Challenger.webp",
+      "breakpoints": [
+        {
+          "count": 2,
+          "style": "bronze",
+          "effect": "",
+          "variables": {
+            "BonusAS": 25,
+            "{17cfa971}": 2.5
+          }
+        },
+        {
+          "count": 4,
+          "style": "silver",
+          "effect": "",
+          "variables": {
+            "BonusAS": 50,
+            "{17cfa971}": 2.5
+          }
+        },
+        {
+          "count": 6,
+          "style": "gold",
+          "effect": "",
+          "variables": {
+            "BonusAS": 85,
+            "{17cfa971}": 2.5
+          }
+        },
+        {
+          "count": 8,
+          "style": "prismatic",
+          "effect": "",
+          "variables": {
+            "BonusAS": 160,
+            "{17cfa971}": 2.5
+          }
+        }
+      ]
+    },
+    {
+      "id": "Set6_Enchanter",
+      "name": "Thuật Sư",
+      "description": "Đội của bạn nhận thêm Kháng Phép. Thuật Sư nhận thêm giá trị hồi máu và lá chắn.<br><expandRow>(@MinUnits@) @MagicResistance@ Kháng Phép; @HealShieldBoost*100@% hồi máu và lá chắn</expandRow><br>",
+      "icon": "/assets/set6.5/traits/Set6_Enchanter.webp",
+      "breakpoints": [
+        {
+          "count": 2,
+          "style": "bronze",
+          "effect": "",
+          "variables": {
+            "{47343861}": 25,
+            "{98396b21}": 0.25
+          }
+        },
+        {
+          "count": 3,
+          "style": "silver",
+          "effect": "",
+          "variables": {
+            "{47343861}": 50,
+            "{98396b21}": 0.5
+          }
+        },
+        {
+          "count": 4,
+          "style": "gold",
+          "effect": "",
+          "variables": {
+            "{47343861}": 80,
+            "{98396b21}": 0.800000011920929
+          }
+        },
+        {
+          "count": 5,
+          "style": "prismatic",
+          "effect": "",
+          "variables": {
+            "{47343861}": 125,
+            "{98396b21}": 1.25
+          }
+        }
+      ]
+    },
+    {
+      "id": "Set6_YordleLord",
+      "name": "Trùm Yordle",
+      "description": "(1) Thưởng Thêm từ Yordle.<br><br>Veigar sẽ được hiệu triệu từ Cổng Yordle khi tất cả Yordle đều đạt 3 sao.<br><br>",
+      "icon": "/assets/set6.5/traits/Set6_YordleLord.webp",
+      "breakpoints": [
+        {
+          "count": 1,
+          "style": "unique",
+          "effect": "",
+          "variables": {}
+        }
+      ]
+    },
+    {
+      "id": "Set6_Bodyguard",
+      "name": "Vệ Sĩ",
+      "description": "Vệ Sĩ được tăng Giáp. Sau khi trận chiến diễn ra một lúc, các Vệ Sĩ sẽ nhận một lá chắn và khiêu khích kẻ địch gần kề, buộc họ tấn công mình.<br><br><expandRow>(@MinUnits@) @BonusArmor@ Giáp, @ShieldAmount@ Lá Chắn</expandRow>",
+      "icon": "/assets/set6.5/traits/Set6_Bodyguard.webp",
+      "breakpoints": [
+        {
+          "count": 2,
+          "style": "bronze",
+          "effect": "",
+          "variables": {
+            "BonusArmor": 80,
+            "ShieldAmount": 200
+          }
+        },
+        {
+          "count": 4,
+          "style": "silver",
+          "effect": "",
+          "variables": {
+            "BonusArmor": 160,
+            "ShieldAmount": 400
+          }
+        },
+        {
+          "count": 6,
+          "style": "gold",
+          "effect": "",
+          "variables": {
+            "BonusArmor": 250,
+            "ShieldAmount": 800
+          }
+        },
+        {
+          "count": 8,
+          "style": "prismatic",
+          "effect": "",
+          "variables": {
+            "BonusArmor": 450,
+            "ShieldAmount": 1800
+          }
+        }
+      ]
+    },
+    {
+      "id": "Set6_Socialite",
+      "name": "Thần Tượng",
+      "description": "Thần Tượng tạo ra một hào quang trên sân đấu. Đơn vị đứng trên hào quang ở đầu trận đấu nhận thêm hiệu ứng.<br><br><row>(@MinUnits@)@DamagePercent*100@% sát thương thêm</row><br><row>(@MinUnits@) và @ManaPerSecond@ Năng Lượng mỗi giây</row><br><row>(@MinUnits@) và hồi lại @OmnivampPercent*100@% lượng sát thương gây ra</row><br><row>(@MinUnits@) gấp đôi tất cả hiệu ứng trên</row>",
+      "icon": "/assets/set6.5/traits/Set6_Socialite.webp",
+      "breakpoints": [
+        {
+          "count": 1,
+          "style": "bronze",
+          "effect": "",
+          "variables": {
+            "DamagePercent": 0.18000000715255737,
+            "{5064373e}": "null",
+            "{5c51b509}": 1,
+            "{6c155e99}": "null",
+            "{f9f3a081}": "null"
+          }
+        },
+        {
+          "count": 2,
+          "style": "silver",
+          "effect": "",
+          "variables": {
+            "DamagePercent": 0.18000000715255737,
+            "{5064373e}": "null",
+            "{5c51b509}": 2,
+            "{6c155e99}": "null",
+            "{f9f3a081}": 4
+          }
+        },
+        {
+          "count": 3,
+          "style": "gold",
+          "effect": "",
+          "variables": {
+            "DamagePercent": 0.18000000715255737,
+            "{5064373e}": "null",
+            "{5c51b509}": 3,
+            "{6c155e99}": 0.33000001311302185,
+            "{f9f3a081}": 4
+          }
+        },
+        {
+          "count": 5,
+          "style": "prismatic",
+          "effect": "",
+          "variables": {
+            "DamagePercent": 0.36000001430511475,
+            "{5064373e}": "null",
+            "{5c51b509}": 4,
+            "{6c155e99}": 0.6600000262260437,
+            "{f9f3a081}": 8
+          }
+        }
+      ]
+    },
+    {
+      "id": "Set6_Mutant",
+      "name": "Đột Biến",
+      "description": "Hiệu ứng Đột Biến thay đổi ngẫu nhiên ở từng trận đấu.<br><br><tftstrong>Công Nghệ Cường Hóa</tftstrong> cho tướng Đột Biến chỉ số cộng thêm khi có ít nhất một trang bị.<br><tftstrong>Kẻ Ăn Tạp</tftstrong> khiến tướng Đột Biến trở nên mạnh hơn khi đồng minh bị hạ gục.<br><tftstrong>Hư Không Hóa</tftstrong> giúp tướng Đột Biến kết liễu kẻ địch dưới một ngưỡng Máu nhất định và gây sát thương chuẩn. <br><tftstrong>Tuyến Đa Bào</tftstrong> cho khả năng đòn đánh của tướng Đột Biến có thể đánh thêm.<br><tftstrong>Mạng Lưới Thần Kinh</tftstrong> giảm Năng Lượng tiêu hao Kỹ Năng của các tướng Đột Biến.<br><tftstrong>Hấp Thụ Sinh Hóa</tftstrong> cho cả đội Hút Máu Toàn Phần (hồi máu dựa trên mọi loại sát thương gây ra).<br><tftstrong>Tiến Hóa Biến Dị</tftstrong> cho tướng Đột Biến thêm chỉ số theo thời gian.",
+      "icon": "/assets/set6.5/traits/Set6_Mutant.webp",
+      "breakpoints": [
+        {
+          "count": 3,
+          "style": "bronze",
+          "effect": "",
+          "variables": {
+            "{02ce80f2}": 8,
+            "{190fb0a2}": 18,
+            "{2f805979}": 30,
+            "{2fb1d11d}": 0.019999999552965164,
+            "{3f1cec4d}": 20,
+            "{5c51b509}": 1,
+            "{66d8ecb1}": 50,
+            "{6b5aee70}": 2,
+            "{76882e8f}": 450,
+            "{7c799240}": 18,
+            "{7f322ebf}": "null",
+            "{82e43c84}": 20,
+            "{994006f0}": 2,
+            "{9cc303b4}": "null",
+            "{b6322d58}": 30,
+            "{c26236e7}": 40,
+            "{f3cab19f}": 175,
+            "{f90dd382}": "null"
+          }
+        },
+        {
+          "count": 5,
+          "style": "gold",
+          "effect": "",
+          "variables": {
+            "{02ce80f2}": 12,
+            "{190fb0a2}": 25,
+            "{2f805979}": 65,
+            "{2fb1d11d}": 0.029999999329447746,
+            "{3f1cec4d}": 20,
+            "{5c51b509}": 2,
+            "{66d8ecb1}": 50,
+            "{6b5aee70}": 2,
+            "{76882e8f}": 800,
+            "{7c799240}": 25,
+            "{7f322ebf}": "null",
+            "{82e43c84}": 40,
+            "{994006f0}": 4,
+            "{9cc303b4}": 40,
+            "{b6322d58}": 60,
+            "{c26236e7}": 75,
+            "{f3cab19f}": 225,
+            "{f90dd382}": "null"
+          }
+        },
+        {
+          "count": 7,
+          "style": "prismatic",
+          "effect": "",
+          "variables": {
+            "{02ce80f2}": 8,
+            "{190fb0a2}": 35,
+            "{2f805979}": 100,
+            "{2fb1d11d}": 0.03999999910593033,
+            "{3f1cec4d}": 20,
+            "{5c51b509}": 3,
+            "{66d8ecb1}": 50,
+            "{6b5aee70}": 2,
+            "{76882e8f}": 1250,
+            "{7c799240}": 35,
+            "{7f322ebf}": 40,
+            "{82e43c84}": 40,
+            "{994006f0}": 7,
+            "{9cc303b4}": 80,
+            "{b6322d58}": 90,
+            "{c26236e7}": 100,
+            "{f3cab19f}": 175,
+            "{f90dd382}": 50
+          }
+        }
+      ]
+    },
+    {
+      "id": "Set6_Mastermind",
+      "name": "Bố Già",
+      "description": "Khi trận chiến bắt đầu, Bố Già cho hai đồng minh đứng ngay trước mình @ManaGrant@ Năng Lượng (hiệu ứng này không cộng dồn)",
+      "icon": "/assets/set6.5/traits/Set6_Mastermind.webp",
+      "breakpoints": [
+        {
+          "count": 1,
+          "style": "unique",
+          "effect": "",
+          "variables": {
+            "{ce492058}": 30
+          }
+        }
+      ]
+    },
+    {
+      "id": "Set6_Mercenary",
+      "name": "Ngoại Binh",
+      "description": "Nhận một rương chiến lợi phẩm sẽ mở ra khi chiến thắng một vòng đấu với người chơi. Ở đầu giai đoạn dàn trận với người chơi, lắc xúc xắc để thêm vật phẩm vào trong rương. Càng lâu không mở, xúc xắc sẽ càng may mắn.<br><br><row>(@MinUnits@) Lắc 2 viên xúc xắc</row><br><row>(@MinUnits@) Xúc xắc may mắn hơn!</row><br><row>(@MinUnits@) Khi thắng vòng đấu, lắc một viên xúc xắc thứ ba cho thêm phần thưởng. </row>",
+      "icon": "/assets/set6.5/traits/Set6_Mercenary.webp",
+      "breakpoints": [
+        {
+          "count": 3,
+          "style": "bronze",
+          "effect": "",
+          "variables": {}
+        },
+        {
+          "count": 5,
+          "style": "gold",
+          "effect": "",
+          "variables": {}
+        },
+        {
+          "count": 7,
+          "style": "prismatic",
+          "effect": "",
+          "variables": {}
+        }
+      ]
+    },
+    {
+      "id": "Set6_Glutton",
+      "name": "Phàm Ăn",
+      "description": "Một đồng minh từ hàng chờ có thể được cho Tahm Kench ăn một lần trong giai đoạn dàn trận mỗi vòng đấu, cho hắn thêm một trong các chỉ số gồm Sức Mạnh Phép Thuật, Máu, Giáp, hoặc Kháng Phép.<br><br><tftitemrules>Để cho ăn, đưa con mồi từ hàng chờ dự bị vào miệng Tahm Kench, đợi hắn mở miệng ra và thả chuột.</tftitemrules>",
+      "icon": "/assets/set6.5/traits/Set6_Glutton.webp",
+      "breakpoints": [
+        {
+          "count": 1,
+          "style": "unique",
+          "effect": "",
+          "variables": {}
+        }
+      ]
+    },
+    {
+      "id": "Set6_Scholar",
+      "name": "Học Giả",
+      "description": "Đội bạn nhận thêm Năng Lượng mỗi @TickRate@ giây.<br><br><expandRow>(@MinUnits@) @ManaPerTick@ Năng Lượng</expandRow>",
+      "icon": "/assets/set6.5/traits/Set6_Scholar.webp",
+      "breakpoints": [
+        {
+          "count": 2,
+          "style": "bronze",
+          "effect": "",
+          "variables": {
+            "{471b1a16}": 2,
+            "{d0539890}": 5
+          }
+        },
+        {
+          "count": 4,
+          "style": "gold",
+          "effect": "",
+          "variables": {
+            "{471b1a16}": 2,
+            "{d0539890}": 15
+          }
+        },
+        {
+          "count": 6,
+          "style": "prismatic",
+          "effect": "",
+          "variables": {
+            "{471b1a16}": 2,
+            "{d0539890}": 30
+          }
+        }
+      ]
+    },
+    {
+      "id": "Set6_Innovator",
+      "name": "Nhà Phát Minh",
+      "description": "Các Nhà Phát Minh tạo ra một đơn vị máy tham gia trận chiến cùng họ. Đơn Vị Máy nhận thêm Máu và Sức Mạnh Công Kích dựa trên cấp sao của các tướng Nhà Phát Minh.<br><br><row>(@MinUnits@) Bọ Máy </row><br><row>(@MinUnits@) Gấu Máy</row><br><row>(@MinUnits@) Rồng Máy </row>",
+      "icon": "/assets/set6.5/traits/Set6_Innovator.webp",
+      "breakpoints": [
+        {
+          "count": 3,
+          "style": "bronze",
+          "effect": "",
+          "variables": {
+            "{45564848}": 1,
+            "{97ea7bfc}": 0.25
+          }
+        },
+        {
+          "count": 5,
+          "style": "gold",
+          "effect": "",
+          "variables": {
+            "{45564848}": 2,
+            "{97ea7bfc}": 0.25
+          }
+        },
+        {
+          "count": 7,
+          "style": "prismatic",
+          "effect": "",
+          "variables": {
+            "{45564848}": 3,
+            "{97ea7bfc}": 0.25
+          }
+        }
+      ]
+    },
+    {
+      "id": "Set6_Hextech",
+      "name": "Công Nghệ",
+      "description": "Khi trận chiến bắt đầu và mỗi @Frequency@ giây sau đó, Lõi Công Nghệ sẽ phát ra một xung điện, tạo cho các tướng Công Nghệ Đồng Minh một lá chắn trong @ShieldDuration@ giây (không cộng dồn). Khi lá chắn được kích hoạt, đòn đánh của chủ sở hữu gây thêm sát thương phép.  Ngoài ra, lá chắn và sát thương đòn đánh sẽ được tăng thêm @BonusPercentPerAugment@% với mỗi Nâng Cấp có trong Lõi Công Nghệ<br><br><expandRow>(@MinUnits@) @ShieldAmount@ lá chắn, @MagicDamage@ sát thương phép</expandRow>",
+      "icon": "/assets/set6.5/traits/Set6_Hextech.webp",
+      "breakpoints": [
+        {
+          "count": 2,
+          "style": "bronze",
+          "effect": "",
+          "variables": {
+            "MagicDamage": 15,
+            "ShieldAmount": 100,
+            "ShieldDuration": 4,
+            "{2fb31c01}": 6,
+            "{f49783e7}": 20
+          }
+        },
+        {
+          "count": 4,
+          "style": "silver",
+          "effect": "",
+          "variables": {
+            "MagicDamage": 30,
+            "ShieldAmount": 175,
+            "ShieldDuration": 4,
+            "{2fb31c01}": 6,
+            "{f49783e7}": 20
+          }
+        },
+        {
+          "count": 6,
+          "style": "gold",
+          "effect": "",
+          "variables": {
+            "MagicDamage": 55,
+            "ShieldAmount": 300,
+            "ShieldDuration": 4,
+            "{2fb31c01}": 6,
+            "{f49783e7}": 20
+          }
+        },
+        {
+          "count": 8,
+          "style": "prismatic",
+          "effect": "",
+          "variables": {
+            "MagicDamage": 90,
+            "ShieldAmount": 425,
+            "ShieldDuration": 4,
+            "{2fb31c01}": 6,
+            "{f49783e7}": 20
+          }
+        }
+      ]
+    },
+    {
+      "id": "Set6_Twinshot",
+      "name": "Liên Xạ",
+      "description": "Tướng Liên Xạ nhận thêm Sức Mạnh Công Kích và có tỉ lệ tấn công liên tục hai lần khi tung đòn đánh hoặc Kỹ Năng.<br><br><expandRow>(@MinUnits@) @BonusAD@ Sức Mạnh Công Kích, @ProcChance@% tỉ lệ</expandRow><br>",
+      "icon": "/assets/set6.5/traits/Set6_Twinshot.webp",
+      "breakpoints": [
+        {
+          "count": 2,
+          "style": "bronze",
+          "effect": "",
+          "variables": {
+            "BonusAD": 10,
+            "{b4a90a5d}": 40
+          }
+        },
+        {
+          "count": 3,
+          "style": "silver",
+          "effect": "",
+          "variables": {
+            "BonusAD": 25,
+            "{b4a90a5d}": 55
+          }
+        },
+        {
+          "count": 4,
+          "style": "gold",
+          "effect": "",
+          "variables": {
+            "BonusAD": 50,
+            "{b4a90a5d}": 75
+          }
+        },
+        {
+          "count": 5,
+          "style": "prismatic",
+          "effect": "",
+          "variables": {
+            "BonusAD": 80,
+            "{b4a90a5d}": 100
+          }
+        }
+      ]
+    },
+    {
+      "id": "Set6_Transformer",
+      "name": "Chuyển Dạng",
+      "description": "Jayce chuyển dạng búa cận chiến khi được xếp ở 2 hàng đầu, và chuyển dạng pháo đánh xa khi được xếp ở 2 hàng sau.",
+      "icon": "/assets/set6.5/traits/Set6_Transformer.webp",
+      "breakpoints": [
+        {
+          "count": 1,
+          "style": "unique",
+          "effect": "",
+          "variables": {}
+        }
+      ]
+    },
+    {
+      "id": "Set6_Bruiser",
+      "name": "Đấu Sĩ",
+      "description": "Cả đội nhận thêm Máu tối đa. Tướng Đấu Sĩ nhận gấp đôi lượng máu đó.<br><expandRow>(@MinUnits@) @BonusHealth@ Máu</expandRow>",
+      "icon": "/assets/set6.5/traits/Set6_Bruiser.webp",
+      "breakpoints": [
+        {
+          "count": 2,
+          "style": "bronze",
+          "effect": "",
+          "variables": {
+            "BonusHealth": 125
+          }
+        },
+        {
+          "count": 4,
+          "style": "silver",
+          "effect": "",
+          "variables": {
+            "BonusHealth": 225
+          }
+        },
+        {
+          "count": 6,
+          "style": "gold",
+          "effect": "",
+          "variables": {
+            "BonusHealth": 450
+          }
+        },
+        {
+          "count": 8,
+          "style": "prismatic",
+          "effect": "",
+          "variables": {
+            "BonusHealth": 800
+          }
+        }
+      ]
+    },
+    {
+      "id": "Set6_Assassin",
+      "name": "Sát Thủ",
+      "description": "Nội Tại: Khi giao tranh bắt đầu, Sát Thủ nhảy ra hàng sau kẻ địch.<br><br>Kỹ năng của Sát Thủ có thể chí mạng, và họ nhận được thêm Tỉ Lệ Chí Mạng cùng Sát Thương Chí Mạng.<br><br><expandRow>(@MinUnits@) +@CritChanceAmpPercent@% Tỉ Lệ Chí Mạng và +@CritAmpPercent@% Sát Thương Chí Mạng</expandRow><br>",
+      "icon": "/assets/set6.5/traits/Set6_Assassin.webp",
+      "breakpoints": [
+        {
+          "count": 2,
+          "style": "bronze",
+          "effect": "",
+          "variables": {
+            "{268f634e}": 20,
+            "{9f2eb1e2}": 10
+          }
+        },
+        {
+          "count": 4,
+          "style": "silver",
+          "effect": "",
+          "variables": {
+            "{268f634e}": 40,
+            "{9f2eb1e2}": 30
+          }
+        },
+        {
+          "count": 6,
+          "style": "gold",
+          "effect": "",
+          "variables": {
+            "{268f634e}": 75,
+            "{9f2eb1e2}": 60
+          }
+        }
+      ]
+    },
+    {
+      "id": "Set6_Colossus",
+      "name": "Khổng Lồ",
+      "description": "Nội Tại: Tướng Khổng Lồ to lớn và mạnh mẽ hơn. Họ đồng thời nhận @BonusHealthTooltip@ Máu cộng thêm và được miễn nhiễm hiệu ứng khống chế. Dù vậy, các tướng Khổng Lồ sẽ chiếm 2 vị trí trong đội hình.<br><row>(@MinUnits@) Tướng Khổng Lồ được giảm @DamageReduction*100@% sát thương</row><br><row>(@MinUnits@) Tướng khổng lồ nhận thêm @BonusHealthTooltip2@ Máu cộng thêm.</row>",
+      "icon": "/assets/set6.5/traits/Set6_Colossus.webp",
+      "breakpoints": [
+        {
+          "count": 2,
+          "style": "silver",
+          "effect": "",
+          "variables": {
+            "DamageReduction": 0.25,
+            "{5c51b509}": 2,
+            "{e86b1aa9}": 800
+          }
+        },
+        {
+          "count": 3,
+          "style": "gold",
+          "effect": "",
+          "variables": {
+            "DamageReduction": 0.25,
+            "{5c51b509}": 3,
+            "{7b9ae201}": 1888,
+            "{e86b1aa9}": 800
+          }
+        }
+      ]
+    },
+    {
+      "id": "Set6_Debonair",
+      "name": "Thanh Lịch",
+      "description": "Tướng Thanh Lịch nhận thêm Máu và Sức Mạnh Phép Thuật, và tỉ lệ bắt gặp một VIP Thanh Lịch trong cửa hàng cũng sẽ cao hơn. <br><br>Nếu có một VIP Thanh Lịch trong đội hình, họ sẽ được kích hoạt một hiệu ứng đặc trưng. Bạn phải bán VIP cũ để VIP mới có cơ hội được xuất hiện trong cửa hàng. <br><br><expandRow>(@MinUnits@)@Health@ Máu, @AbilityPower@ Sức Mạnh Phép Thuật </expandRow>",
+      "icon": "/assets/set6.5/traits/Set6_Debonair.webp",
+      "breakpoints": [
+        {
+          "count": 3,
+          "style": "bronze",
+          "effect": "",
+          "variables": {
+            "Health": 200,
+            "{7f1304b2}": 20
+          }
+        },
+        {
+          "count": 5,
+          "style": "gold",
+          "effect": "",
+          "variables": {
+            "Health": 450,
+            "{7f1304b2}": 45
+          }
+        },
+        {
+          "count": 7,
+          "style": "prismatic",
+          "effect": "",
+          "variables": {
+            "Health": 800,
+            "{7f1304b2}": 80
+          }
+        }
+      ]
+    },
+    {
+      "id": "Set6_Arcanist",
+      "name": "Pháp Sư",
+      "description": "Pháp Sư tăng Sức Mạnh Phép Thuật cho cả đội.<br><row>(@MinUnits@) Cả đội nhận @TeamAbilityPower@ SMPT</row><br><row>(@MinUnits@) Cả đội nhận @TeamAbilityPower@ SMPT, Pháp Sư nhận thêm @ArcanistAbilityPower@</row><br><row>(@MinUnits@) Cả đội nhận @TeamAbilityPower@ SMPT, Pháp Sư nhận thêm @ArcanistAbilityPower@</row><br><row>(@MinUnits@) Cả đội nhận @TeamAbilityPower@ SMPT</row>",
+      "icon": "/assets/set6.5/traits/Set6_Arcanist.webp",
+      "breakpoints": [
+        {
+          "count": 2,
+          "style": "bronze",
+          "effect": "",
+          "variables": {
+            "{2f744e2b}": 20,
+            "{faa12163}": "null"
+          }
+        },
+        {
+          "count": 4,
+          "style": "silver",
+          "effect": "",
+          "variables": {
+            "{2f744e2b}": 20,
+            "{faa12163}": 30
+          }
+        },
+        {
+          "count": 6,
+          "style": "gold",
+          "effect": "",
+          "variables": {
+            "{2f744e2b}": 50,
+            "{faa12163}": 50
+          }
+        },
+        {
+          "count": 8,
+          "style": "prismatic",
+          "effect": "",
+          "variables": {
+            "{2f744e2b}": 150,
+            "{faa12163}": "null"
+          }
+        }
+      ]
+    },
+    {
+      "id": "Set6_Sniper",
+      "name": "Xạ Thủ",
+      "description": "Nội Tại: Xạ Thủ được tăng @HexRangeIncrease@ ô Tầm Đánh. <br><br>Xạ Thủ gây sát thương thêm dựa trên mỗi ô khoảng cách giữa bản thân và mục tiêu.<br><expandRow>(@MinUnits@) @PercentDamageIncrease@% sát thương thêm</expandRow>",
+      "icon": "/assets/set6.5/traits/Set6_Sniper.webp",
+      "breakpoints": [
+        {
+          "count": 2,
+          "style": "bronze",
+          "effect": "",
+          "variables": {
+            "{16394c87}": 1,
+            "{75994f47}": 8
+          }
+        },
+        {
+          "count": 4,
+          "style": "gold",
+          "effect": "",
+          "variables": {
+            "{16394c87}": 1,
+            "{75994f47}": 16
+          }
+        },
+        {
+          "count": 6,
+          "style": "prismatic",
+          "effect": "",
+          "variables": {
+            "{16394c87}": 1,
+            "{75994f47}": 30
+          }
+        }
+      ]
+    },
+    {
+      "id": "Set6_Striker",
+      "name": "Tiến Công",
+      "description": "Tướng Tiến Công nhận thêm Sức Mạnh Công Kích.<br><expandRow>(@MinUnits@) +@ADBoost@ Sức Mạnh Công Kích</expandRow>",
+      "icon": "/assets/set6.5/traits/Set6_Striker.webp",
+      "breakpoints": [
+        {
+          "count": 2,
+          "style": "bronze",
+          "effect": "",
+          "variables": {
+            "{df962703}": 30
+          }
+        },
+        {
+          "count": 4,
+          "style": "gold",
+          "effect": "",
+          "variables": {
+            "{df962703}": 70
+          }
+        },
+        {
+          "count": 6,
+          "style": "prismatic",
+          "effect": "",
+          "variables": {
+            "{df962703}": 120
+          }
+        }
+      ]
+    },
+    {
+      "id": "Set6_Clockwork",
+      "name": "Máy Móc",
+      "description": "Đội của bạn được tăng Tốc Độ Đánh, nhận thêm với mỗi nâng cấp trong Lõi Công Nghệ.<br><br><expandRow>(@MinUnits@) @AttackSpeedBonus*100@% Tốc Độ Đánh + @BonusPerAugment*100@% mỗi nâng cấp</expandRow><br><br>",
+      "icon": "/assets/set6.5/traits/Set6_Clockwork.webp",
+      "breakpoints": [
+        {
+          "count": 2,
+          "style": "bronze",
+          "effect": "",
+          "variables": {
+            "{51aec5d2}": 0.05000000074505806,
+            "{cbb3a34f}": 0.10000000149011612
+          }
+        },
+        {
+          "count": 4,
+          "style": "gold",
+          "effect": "",
+          "variables": {
+            "{51aec5d2}": 0.10000000149011612,
+            "{cbb3a34f}": 0.3499999940395355
+          }
+        },
+        {
+          "count": 6,
+          "style": "prismatic",
+          "effect": "",
+          "variables": {
+            "{51aec5d2}": 0.15000000596046448,
+            "{cbb3a34f}": 0.699999988079071
+          }
+        }
+      ]
+    },
+    {
+      "id": "Set6_Enforcer",
+      "name": "Cảnh Binh",
+      "description": "<row>(@MinUnits@) Ở đầu trận đấu, tướng Cảnh Binh làm choáng kẻ địch có nhiều Máu nhất. Mục tiêu được thả tự do sau @DetainDuration@ giây, hoặc sau khi mất @HPPercent*100@% Máu tối đa. Cảnh Binh sẽ không cố bắt giữ những kẻ địch được miễn nhiễm khống chế.</row><br><row>(@MinUnits@) Khi bắt đầu trận đấu, tướng Cảnh Binh nhận @AttackSpeed*100@% Tốc Độ Đánh trong phần còn lại của trận chiến.</row>",
+      "icon": "/assets/set6.5/traits/Set6_Enforcer.webp",
+      "breakpoints": [
+        {
+          "count": 3,
+          "style": "gold",
+          "effect": "",
+          "variables": {
+            "HPPercent": 0.4000000059604645,
+            "{70ed38c6}": 4,
+            "{d2b7f6f1}": 1
+          }
+        },
+        {
+          "count": 5,
+          "style": "prismatic",
+          "effect": "",
+          "variables": {
+            "AttackSpeed": 1,
+            "HPPercent": 0.4000000059604645,
+            "{70ed38c6}": 4,
+            "{d2b7f6f1}": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "Set6_Chemtech",
+      "name": "Hóa Kỹ",
+      "description": "Sau khi xuống dưới ngưỡng @HealthThreshold@% Máu, tướng Hóa Kỹ được bơm hóa chất, nhận thêm Tốc Độ Đánh, @DamageReduction@% giảm sát thương và hồi lại một phần Máu tối đa mỗi giây trong @Duration@ giây.<br><br><expandRow>(@MinUnits@) @AttackSpeed@% Tốc Độ Đánh, @HealthRegen@% Máu</expandRow>",
+      "icon": "/assets/set6.5/traits/Set6_Chemtech.webp",
+      "breakpoints": [
+        {
+          "count": 3,
+          "style": "bronze",
+          "effect": "",
+          "variables": {
+            "AttackSpeed": 15,
+            "DamageReduction": 15,
+            "Duration": 8,
+            "HealthRegen": 4,
+            "HealthThreshold": 75
+          }
+        },
+        {
+          "count": 5,
+          "style": "silver",
+          "effect": "",
+          "variables": {
+            "AttackSpeed": 40,
+            "DamageReduction": 15,
+            "Duration": 8,
+            "HealthRegen": 8,
+            "HealthThreshold": 75
+          }
+        },
+        {
+          "count": 7,
+          "style": "gold",
+          "effect": "",
+          "variables": {
+            "AttackSpeed": 90,
+            "DamageReduction": 15,
+            "Duration": 8,
+            "HealthRegen": 15,
+            "HealthThreshold": 75
+          }
+        },
+        {
+          "count": 9,
+          "style": "prismatic",
+          "effect": "",
+          "variables": {
+            "AttackSpeed": 200,
+            "DamageReduction": 15,
+            "Duration": 8,
+            "HealthRegen": 25,
+            "HealthThreshold": 75
+          }
+        }
+      ]
+    }
+  ],
+  "champions": [
+    {
+      "id": "TFT6_Leona",
+      "name": "Leona",
+      "cost": 3,
+      "traits": [
+        "Set6_Debonair",
+        "Set6_Bodyguard"
+      ],
+      "stats": {
+        "hp": 850,
+        "mana": {
+          "initial": 75,
+          "max": 125
+        },
+        "armor": 50,
+        "mr": 50,
+        "ad": 50,
+        "as": 0.6,
+        "range": 1
+      },
+      "ability": {
+        "name": "Solar Eclipse",
+        "description": "Leona calls down a beacon of light upon herself, granting herself a @ModifiedShielding@ Health shield for @Duration@ seconds. Leona and allies within 2 hexes gain @BonusStats@ Armor and Magic Resistance for the same duration.<br><br><TFTDebonairVIP>VIP Bonus: Every second, Leona heals herself for @T1DebutantBonus@% max health for each unit targeting her.</TFTDebonairVIP>",
+        "icon": "https://raw.communitydragon.org/12.10/game/assets/characters/leona/hud/icons2d/leonasolarflare.png",
+        "variables": {
+          "Shielding": [
+            0,
+            400,
+            650,
+            1000,
+            160,
+            200,
+            240
+          ],
+          "Duration": [
+            4,
+            5,
+            5,
+            8,
+            4,
+            4,
+            4
+          ],
+          "BonusStats": [
+            25,
+            30,
+            50,
+            80,
+            25,
+            25,
+            25
+          ],
+          "T1DebutantBonus": [
+            1.25,
+            1.25,
+            1.25,
+            1.25,
+            1.25,
+            1.25,
+            1.25
+          ]
+        }
+      },
+      "icon": "/assets/set6.5/champions/TFT6_Leona.webp"
+    },
+    {
+      "id": "TFT6_Singed",
+      "name": "Singed",
+      "cost": 1,
+      "traits": [
+        "Set6_Chemtech",
+        "Set6_Innovator"
+      ],
+      "stats": {
+        "hp": 700,
+        "mana": {
+          "initial": 100,
+          "max": 150
+        },
+        "armor": 40,
+        "mr": 40,
+        "ad": 60,
+        "as": 0.55,
+        "range": 1
+      },
+      "ability": {
+        "name": "Fling",
+        "description": "Singed flings a nearby enemy towards the largest cluster of enemies, stunning his target for @StunDuration@ seconds when they land. All adjacent enemies take @ModifiedDamage@ magic damage and are briefly stunned.",
+        "icon": "https://raw.communitydragon.org/12.10/game/assets/characters/singed/hud/icons2d/singed_e.png",
+        "variables": {
+          "AoEStunDuration": [
+            0.75,
+            0.75,
+            0.75,
+            0.75,
+            0.75,
+            0.75,
+            0.75
+          ],
+          "Damage": [
+            50,
+            125,
+            175,
+            250,
+            800,
+            1600,
+            3200
+          ],
+          "StunDuration": [
+            2,
+            1.5,
+            2,
+            3,
+            4,
+            4,
+            4
+          ]
+        }
+      },
+      "icon": "/assets/set6.5/champions/TFT6_Singed.webp"
+    },
+    {
+      "id": "TFT6_Warwick",
+      "name": "Warwick",
+      "cost": 2,
+      "traits": [
+        "Set6_Chemtech",
+        "Set6_Challenger"
+      ],
+      "stats": {
+        "hp": 750,
+        "mana": {
+          "initial": 0,
+          "max": 0
+        },
+        "armor": 40,
+        "mr": 40,
+        "ad": 45,
+        "as": 0.75,
+        "range": 1
+      },
+      "ability": {
+        "name": "Eternal Hunger",
+        "description": "Passive: Warwick's Attacks deal an additional @ModifiedPercentHealth@ of his target's current Health as bonus magic damage, and heal him for @ModifiedHealAmount@ Health.",
+        "icon": "https://raw.communitydragon.org/12.10/game/assets/characters/warwick/hud/icons2d/warwickp.png",
+        "variables": {
+          "PercentHealth": [
+            0.05,
+            0.07,
+            0.09,
+            0.12,
+            0.05,
+            0.05,
+            0.05
+          ],
+          "HealAmount": [
+            0,
+            30,
+            40,
+            50,
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      "icon": "/assets/set6.5/champions/TFT6_Warwick.webp"
+    },
+    {
+      "id": "TFT6_Zac",
+      "name": "Zac",
+      "cost": 3,
+      "traits": [
+        "Set6_Chemtech",
+        "Set6_Bruiser"
+      ],
+      "stats": {
+        "hp": 800,
+        "mana": {
+          "initial": 50,
+          "max": 90
+        },
+        "armor": 45,
+        "mr": 45,
+        "ad": 60,
+        "as": 0.6,
+        "range": 1
+      },
+      "ability": {
+        "name": "Yoink!",
+        "description": "Zac stretches his arms up to 3 hexes to pull the 2 most distant enemies towards him, dealing @ModifiedDamage@ magic damage. During this time, Zac gains @DamageReduction@% damage reduction.",
+        "icon": "https://raw.communitydragon.org/12.10/game/assets/characters/zac/hud/icons2d/zacq.png",
+        "variables": {
+          "Damage": [
+            50,
+            300,
+            450,
+            700,
+            450,
+            550,
+            650
+          ],
+          "HexPull": [
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2
+          ],
+          "DamageReduction": [
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60
+          ]
+        }
+      },
+      "icon": "/assets/set6.5/champions/TFT6_Zac.webp"
+    },
+    {
+      "id": "TFT6_Viktor",
+      "name": "Viktor",
+      "cost": 5,
+      "traits": [
+        "Set6_Chemtech",
+        "Set6_Arcanist"
+      ],
+      "stats": {
+        "hp": 851,
+        "mana": {
+          "initial": 0,
+          "max": 145
+        },
+        "armor": 35,
+        "mr": 35,
+        "ad": 50,
+        "as": 0.8,
+        "range": 4
+      },
+      "ability": {
+        "name": "Chaos Rays",
+        "description": "Passive: Viktor's attacks melt his target's defenses, reducing their Armor by @ArmorReduction*100@% for @ShredDuration@ seconds.<br><br>Viktor summons multiple singularities that fire death rays, which cut across the battlefield in a line. To enemies caught in its path, death rays deal @ModifiedDamage@ magic damage, destroy @ShieldDestructionPercent*100@% of any remaining shields.",
+        "icon": "https://raw.communitydragon.org/12.10/game/assets/characters/viktor/hud/icons2d/viktor_e2.png",
+        "variables": {
+          "DamageAmount": [
+            50,
+            360,
+            420,
+            1500,
+            50,
+            50,
+            50
+          ],
+          "NumLasers": [
+            3,
+            3,
+            4,
+            12,
+            3,
+            3,
+            3
+          ],
+          "ShredDuration": [
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6
+          ],
+          "ArmorReduction": [
+            0.5,
+            0.7,
+            0.7,
+            0.7,
+            0.5,
+            0.5,
+            0.5
+          ],
+          "ShieldDestructionPercent": [
+            0,
+            0.4,
+            0.5,
+            2,
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      "icon": "/assets/set6.5/champions/TFT6_Viktor.webp"
+    },
+    {
+      "id": "TFT6_Camille",
+      "name": "Camille",
+      "cost": 1,
+      "traits": [
+        "Set6_Clockwork",
+        "Set6_Challenger"
+      ],
+      "stats": {
+        "hp": 700,
+        "mana": {
+          "initial": 0,
+          "max": 60
+        },
+        "armor": 40,
+        "mr": 40,
+        "ad": 45,
+        "as": 0.6,
+        "range": 1
+      },
+      "ability": {
+        "name": "Defensive Sweep",
+        "description": "Camille gains a shield blocking @ModifiedShield@ damage over @ShieldDuration@ seconds, then sweeps her leg, dealing @ModifiedDamage@ magic damage to enemies in a cone. While this shield holds, Camille's attacks restore @ModifiedHealing@ Health.",
+        "icon": "https://raw.communitydragon.org/12.10/game/assets/characters/camille/hud/icons2d/camille_w.png",
+        "variables": {
+          "ShieldDuration": [
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4
+          ],
+          "Damage": [
+            25,
+            200,
+            275,
+            375,
+            325,
+            400,
+            475
+          ],
+          "Shield": [
+            100,
+            225,
+            300,
+            435,
+            300,
+            350,
+            400
+          ],
+          "HealingPerAttack": [
+            10,
+            30,
+            50,
+            80,
+            90,
+            110,
+            130
+          ]
+        }
+      },
+      "icon": "/assets/set6.5/champions/TFT6_Camille.webp"
+    },
+    {
+      "id": "TFT6_Zilean",
+      "name": "Zilean",
+      "cost": 2,
+      "traits": [
+        "Set6_Clockwork",
+        "Set6_Innovator"
+      ],
+      "stats": {
+        "hp": 600,
+        "mana": {
+          "initial": 30,
+          "max": 70
+        },
+        "armor": 20,
+        "mr": 20,
+        "ad": 40,
+        "as": 0.6,
+        "range": 4
+      },
+      "ability": {
+        "name": "Time Bomb",
+        "description": "Zilean places a bomb on the closest enemy, stunning them for @StunDuration@ seconds. When the stun ends or the target dies, the bomb explodes, dealing @ModifiedDamage@ magic damage to adjacent enemies and reducing their Attack Speed by @Slow*100@% for @SlowDuration@ seconds.",
+        "icon": "https://raw.communitydragon.org/12.10/game/assets/characters/zilean/hud/icons2d/zilean_q.png",
+        "variables": {
+          "Damage": [
+            0,
+            275,
+            400,
+            777,
+            0,
+            0,
+            0
+          ],
+          "Slow": [
+            0,
+            0.3,
+            0.4,
+            0.5,
+            0,
+            0,
+            0
+          ],
+          "StunDuration": [
+            0,
+            1.5,
+            1.5,
+            1.5,
+            0,
+            0,
+            0
+          ],
+          "SlowDuration": [
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4
+          ]
+        }
+      },
+      "icon": "/assets/set6.5/champions/TFT6_Zilean.webp"
+    },
+    {
+      "id": "TFT6_Orianna",
+      "name": "Orianna",
+      "cost": 4,
+      "traits": [
+        "Set6_Clockwork",
+        "Set6_Enchanter"
+      ],
+      "stats": {
+        "hp": 700,
+        "mana": {
+          "initial": 40,
+          "max": 100
+        },
+        "armor": 30,
+        "mr": 30,
+        "ad": 50,
+        "as": 0.8,
+        "range": 4
+      },
+      "ability": {
+        "name": "Command: Shockwave",
+        "description": "Orianna sends her ball towards the largest group of champions, then commands it to release a shockwave. Allies within 2 hexes gain @ModifiedShieldAmount@ shield for @Duration@ seconds, while enemies within the area are briefly knocked up and dealt @ModifiedDamage@ magic damage. Enemies adjacent to the ball are drawn in and stunned for @StunDuration@ seconds.",
+        "icon": "https://raw.communitydragon.org/12.10/game/assets/characters/orianna/hud/icons2d/oriannacommanddetonate.png",
+        "variables": {
+          "ShieldAmount": [
+            0,
+            125,
+            200,
+            700,
+            0,
+            0,
+            0
+          ],
+          "Duration": [
+            0,
+            4,
+            4,
+            4,
+            0,
+            0,
+            0
+          ],
+          "Damage": [
+            0,
+            300,
+            425,
+            1500,
+            0,
+            0,
+            0
+          ],
+          "StunDuration": [
+            2,
+            1,
+            1,
+            4,
+            2,
+            2,
+            2
+          ]
+        }
+      },
+      "icon": "/assets/set6.5/champions/TFT6_Orianna.webp"
+    },
+    {
+      "id": "TFT6_Jhin",
+      "name": "Jhin",
+      "cost": 4,
+      "traits": [
+        "Set6_Clockwork",
+        "Set6_Sniper"
+      ],
+      "stats": {
+        "hp": 700,
+        "mana": {
+          "initial": 0,
+          "max": 60
+        },
+        "armor": 30,
+        "mr": 30,
+        "ad": 85,
+        "as": 2,
+        "range": 4
+      },
+      "ability": {
+        "name": "Curtain Call",
+        "description": "Jhin transforms his weapon into a powerful sniper rifle for his next 4 shots. Each shot deals <scaleAD>@TotalDamage@</scaleAD> physical damage (@PercentAttackDamage*100@% of his Attack Damage %i:scaleAD%), reduced by @DamageFalloff*100@% for each target it pierces through. The 4th shot is guaranteed to critically strike, and deals @ModifiedBonusDamage@ more damage based on his target's missing Health.<br><br>Passive: Jhin always attacks @AttackSpeed@ times per second. He converts each 1% of bonus Attack Speed into @ADFromAttackSpeed@ Attack Damage.",
+        "icon": "https://raw.communitydragon.org/12.10/game/assets/characters/jhin/hud/icons2d/jhin_r.png",
+        "variables": {
+          "BonusDamage": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "PercentAttackDamage": [
+            1.2,
+            1.75,
+            2,
+            3,
+            1.2,
+            1.2,
+            1.2
+          ],
+          "DamageFalloff": [
+            0.33,
+            0.33,
+            0.33,
+            0.33,
+            0.33,
+            0.33,
+            0.33
+          ],
+          "AttackSpeed": [
+            0.85,
+            0.9,
+            0.9,
+            1.4,
+            0.85,
+            0.85,
+            0.85
+          ],
+          "ADFromAttackSpeed": [
+            0.8,
+            0.8,
+            0.8,
+            0.8,
+            0.8,
+            0.8,
+            0.8
+          ]
+        }
+      },
+      "icon": "/assets/set6.5/champions/TFT6_Jhin.webp"
+    },
+    {
+      "id": "TFT6_MissFortune",
+      "name": "Miss Fortune",
+      "cost": 3,
+      "traits": [
+        "Set6_Mercenary",
+        "Set6_Sniper"
+      ],
+      "stats": {
+        "hp": 650,
+        "mana": {
+          "initial": 40,
+          "max": 80
+        },
+        "armor": 25,
+        "mr": 25,
+        "ad": 55,
+        "as": 0.7,
+        "range": 3
+      },
+      "ability": {
+        "name": "Make it Rain",
+        "description": "Miss Fortune rains 4 waves of bullets down around her target, dealing @ModifiedMagicDamage@ total magic damage to enemies in the area and reducing their incoming healing by @HealingReduction@% for @HealingReductionDuration@ seconds.",
+        "icon": "https://raw.communitydragon.org/12.10/game/assets/characters/missfortune/hud/icons2d/missfortune_e.png",
+        "variables": {
+          "MagicDamage": [
+            0,
+            275,
+            375,
+            600,
+            0,
+            0,
+            0
+          ],
+          "HealingReduction": [
+            0,
+            50,
+            50,
+            50,
+            50,
+            50,
+            50
+          ],
+          "HealingReductionDuration": [
+            0,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6
+          ]
+        }
+      },
+      "icon": "/assets/set6.5/champions/TFT6_MissFortune.webp"
+    },
+    {
+      "id": "TFT6_Illaoi",
+      "name": "Illaoi",
+      "cost": 1,
+      "traits": [
+        "Set6_Mercenary",
+        "Set6_Bruiser"
+      ],
+      "stats": {
+        "hp": 700,
+        "mana": {
+          "initial": 40,
+          "max": 80
+        },
+        "armor": 40,
+        "mr": 40,
+        "ad": 60,
+        "as": 0.55,
+        "range": 1
+      },
+      "ability": {
+        "name": "Harsh Lesson",
+        "description": "Illaoi slams her target, linking her soul to it for @Duration@ seconds and dealing @ModifiedDamage@ magic damage. While linked, Illaoi is healed for @PercentHealing*100@% of the damage taken by her target.",
+        "icon": "https://raw.communitydragon.org/12.10/game/assets/characters/illaoi/hud/icons2d/illaoi_w.png",
+        "variables": {
+          "MagicDamage": [
+            0,
+            250,
+            375,
+            650,
+            0,
+            0,
+            0
+          ],
+          "PercentHealing": [
+            0,
+            0.3,
+            0.35,
+            0.45,
+            0,
+            0,
+            0
+          ],
+          "Duration": [
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5
+          ]
+        }
+      },
+      "icon": "/assets/set6.5/champions/TFT6_Illaoi.webp"
+    },
+    {
+      "id": "TFT6_Gangplank",
+      "name": "Gangplank",
+      "cost": 3,
+      "traits": [
+        "Set6_Mercenary",
+        "Set6_Twinshot"
+      ],
+      "stats": {
+        "hp": 750,
+        "mana": {
+          "initial": 0,
+          "max": 50
+        },
+        "armor": 40,
+        "mr": 40,
+        "ad": 65,
+        "as": 0.75,
+        "range": 1
+      },
+      "ability": {
+        "name": "Parrrley",
+        "description": "Gangplank attacks his target with his gun, dealing <scaleAD>@TotalDamage@</scaleAD> physical damage (@ADPercent*100@% of his Attack Damage %i:scaleAD% + @ModifiedDamage@). If this attack kills a champion, Gangplank plunders 1 gold.",
+        "icon": "https://raw.communitydragon.org/12.10/game/assets/characters/gangplank/hud/icons2d/gangplank_q.png",
+        "variables": {
+          "Damage": [
+            0,
+            110,
+            175,
+            275,
+            0,
+            0,
+            0
+          ],
+          "ADPercent": [
+            1.7,
+            1.7,
+            1.7,
+            1.7,
+            1.7,
+            1.7,
+            1.7
+          ]
+        }
+      },
+      "icon": "/assets/set6.5/champions/TFT6_Gangplank.webp"
+    },
+    {
+      "id": "TFT6_TahmKench",
+      "name": "Tahm Kench",
+      "cost": 5,
+      "traits": [
+        "Set6_Mercenary",
+        "Set6_Bruiser",
+        "Set6_Glutton"
+      ],
+      "stats": {
+        "hp": 1000,
+        "mana": {
+          "initial": 30,
+          "max": 60
+        },
+        "armor": 60,
+        "mr": 60,
+        "ad": 70,
+        "as": 0.55,
+        "range": 1
+      },
+      "ability": {
+        "name": "Devour",
+        "description": "Tahm Kench devours his target, storing them in his belly and dealing @ModifiedDamage@ magic damage over @BellyDuration@ seconds. During this time, they are invulnerable to other sources of damage and Tahm Kench takes @DamageReduction*100@% less damage.<br><br>If they die while inside, Tahm Kench either spits out a random component they were holding, or the cost of the unit in gold. Otherwise, he spits them towards the farthest enemy, briefly stunning targets on impact.<br><br>If a target is immune to crowd control, Tahm Kench will instead deal @ReducedModifiedDamage@ magic damage.",
+        "icon": "https://raw.communitydragon.org/12.10/game/assets/characters/tahmkench/hud/icons2d/tahmkenchrwrapper.png",
+        "variables": {
+          "Damage": [
+            600,
+            900,
+            1350,
+            30000,
+            9999,
+            1300,
+            1550
+          ],
+          "StunDuration": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "BellyDuration": [
+            0,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3
+          ],
+          "DamageReduction": [
+            0.3,
+            0.3,
+            0.3,
+            0.3,
+            0.3,
+            0.3,
+            0.3
+          ],
+          "TickRate": [
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5
+          ],
+          "ReducedDamageToCC": [
+            0,
+            450,
+            675,
+            15000,
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      "icon": "/assets/set6.5/champions/TFT6_TahmKench.webp"
+    },
+    {
+      "id": "TFT6_Seraphine",
+      "name": "Seraphine",
+      "cost": 4,
+      "traits": [
+        "Set6_Socialite",
+        "Set6_Innovator"
+      ],
+      "stats": {
+        "hp": 750,
+        "mana": {
+          "initial": 70,
+          "max": 130
+        },
+        "armor": 30,
+        "mr": 30,
+        "ad": 40,
+        "as": 0.7,
+        "range": 4
+      },
+      "ability": {
+        "name": "Encore",
+        "description": "Seraphine projects her song towards the largest group of enemy units, dealing @ModifiedDamage@ magic damage to enemies. Allies it passes through are healed for @ModifiedHeal@ Health and gain @ASBonus*100@% bonus Attack Speed for @ASBonusDuration@ seconds.",
+        "icon": "https://raw.communitydragon.org/12.10/game/assets/characters/seraphine/hud/icons2d/seraphine_r.png",
+        "variables": {
+          "Damage": [
+            1,
+            250,
+            400,
+            1200,
+            2,
+            2.25,
+            2.5
+          ],
+          "Heal": [
+            0,
+            250,
+            350,
+            1000,
+            0,
+            0,
+            0
+          ],
+          "ASBonus": [
+            0.3,
+            0.3,
+            0.45,
+            1,
+            0.3,
+            0.3,
+            0.3
+          ],
+          "ASBonusDuration": [
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4
+          ]
+        }
+      },
+      "icon": "/assets/set6.5/champions/TFT6_Seraphine.webp"
+    },
+    {
+      "id": "TFT6_Zyra",
+      "name": "Zyra",
+      "cost": 2,
+      "traits": [
+        "Set6_Syndicate",
+        "Set6_Scholar"
+      ],
+      "stats": {
+        "hp": 600,
+        "mana": {
+          "initial": 60,
+          "max": 120
+        },
+        "armor": 20,
+        "mr": 20,
+        "ad": 40,
+        "as": 0.7,
+        "range": 4
+      },
+      "ability": {
+        "name": "Grasping Spines",
+        "description": "Zyra summons vines in the row with the most enemies, dealing @ModifiedDamage@ magic damage and stunning them for @StunDuration@ seconds.",
+        "icon": "https://raw.communitydragon.org/12.10/game/assets/characters/zyra/hud/icons2d/zyraq.png",
+        "variables": {
+          "Damage": [
+            0,
+            275,
+            375,
+            575,
+            0,
+            0,
+            0
+          ],
+          "StunDuration": [
+            1,
+            1.5,
+            2,
+            2.5,
+            3,
+            3.5,
+            4
+          ]
+        }
+      },
+      "icon": "/assets/set6.5/champions/TFT6_Zyra.webp"
+    },
+    {
+      "id": "TFT6_Darius",
+      "name": "Darius",
+      "cost": 1,
+      "traits": [
+        "Set6_Syndicate",
+        "Set6_Bodyguard"
+      ],
+      "stats": {
+        "hp": 650,
+        "mana": {
+          "initial": 70,
+          "max": 120
+        },
+        "armor": 40,
+        "mr": 40,
+        "ad": 60,
+        "as": 0.5,
+        "range": 1
+      },
+      "ability": {
+        "name": "Decimate",
+        "description": "Darius swings his axe in a circle, dealing @ModifiedDamage@ magic damage, then heals himself @ModifiedHeal@ Health for each enemy hit.",
+        "icon": "https://raw.communitydragon.org/12.10/game/assets/characters/darius/hud/icons2d/darius_icon_decimate.png",
+        "variables": {
+          "Damage": [
+            125,
+            200,
+            275,
+            350,
+            425,
+            500,
+            575
+          ],
+          "Heal": [
+            100,
+            120,
+            140,
+            160,
+            180,
+            200,
+            220
+          ],
+          "HexRange": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ]
+        }
+      },
+      "icon": "/assets/set6.5/champions/TFT6_Darius.webp"
+    },
+    {
+      "id": "TFT6b_Vi",
+      "name": "Vi",
+      "cost": 4,
+      "traits": [
+        "Set6_Enforcer",
+        "Set6_Rivals",
+        "Set6_Bruiser"
+      ],
+      "stats": {
+        "hp": 900,
+        "mana": {
+          "initial": 0,
+          "max": 40
+        },
+        "armor": 50,
+        "mr": 50,
+        "ad": 70,
+        "as": 0.7,
+        "range": 1
+      },
+      "ability": {
+        "name": "Piltover Pulverizer",
+        "description": "Vi shields herself for @ModifiedShield@ damage and deals @ModifiedDamage@ magic damage to her target and enemies behind it.<br><br>On her 2nd cast, she also dashes through her target.<br><br>On her 3rd cast, she instead throws her target into the air and slams them back to the ground, dealing @ModifiedDamageFinal@ in a circle around her target.",
+        "icon": "https://raw.communitydragon.org/12.10/game/assets/characters/tft6_vi/hud/icons2d/tft6_vie.tft_set6.png",
+        "variables": {
+          "Damage": [
+            50,
+            175,
+            250,
+            600,
+            1000,
+            1250,
+            1500
+          ],
+          "AoEHexRadius": [
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2
+          ],
+          "DamageFinal": [
+            0,
+            250,
+            350,
+            900,
+            0,
+            0,
+            0
+          ],
+          "Shield": [
+            0,
+            225,
+            325,
+            850,
+            0,
+            0,
+            0
+          ],
+          "ShieldDuration": [
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4
+          ]
+        }
+      },
+      "icon": "/assets/set6.5/champions/TFT6b_Vi.webp"
+    },
+    {
+      "id": "TFT6_Caitlyn",
+      "name": "Caitlyn",
+      "cost": 1,
+      "traits": [
+        "Set6_Enforcer",
+        "Set6_Sniper"
+      ],
+      "stats": {
+        "hp": 500,
+        "mana": {
+          "initial": 0,
+          "max": 100
+        },
+        "armor": 15,
+        "mr": 15,
+        "ad": 50,
+        "as": 0.8,
+        "range": 4
+      },
+      "ability": {
+        "name": "Ace in the Hole",
+        "description": "Caitlyn takes aim at the farthest enemy, firing a deadly bullet towards them that deals @ModifiedDamage@ magic damage to the first enemy it hits.",
+        "icon": "https://raw.communitydragon.org/12.10/game/assets/characters/caitlyn/hud/icons2d/caitlyn_aceinthehole.png",
+        "variables": {
+          "Damage": [
+            0,
+            900,
+            1500,
+            2250,
+            2400,
+            3000,
+            3600
+          ]
+        }
+      },
+      "icon": "/assets/set6.5/champions/TFT6_Caitlyn.webp"
+    },
+    {
+      "id": "TFT6_Jayce",
+      "name": "Jayce",
+      "cost": 5,
+      "traits": [
+        "Set6_Enforcer",
+        "Set6_Innovator",
+        "Set6_Transformer"
+      ],
+      "stats": {
+        "hp": 999,
+        "mana": {
+          "initial": 0,
+          "max": 60
+        },
+        "armor": 30,
+        "mr": 30,
+        "ad": 85,
+        "as": 0.75,
+        "range": 1
+      },
+      "ability": {
+        "name": "Mercury Cannon/Mercury Hammer",
+        "description": "Melee form: Jayce slams his hammer down onto nearby enemies, dealing damage and reducing their Armor and Magic Resist.<br>Ranged form: Jayce deploys an acceleration gate, granting bonus Attack Speed to allies in the same row, then fires an orb of electricity at the largest enemy group.",
+        "icon": "https://raw.communitydragon.org/12.10/game/assets/characters/jayce/hud/icons2d/jayce_r1.png",
+        "variables": {}
+      },
+      "icon": "/assets/set6.5/champions/TFT6_Jayce.webp"
+    },
+    {
+      "id": "TFT6_Malzahar",
+      "name": "Malzahar",
+      "cost": 3,
+      "traits": [
+        "Set6_Mutant",
+        "Set6_Arcanist"
+      ],
+      "stats": {
+        "hp": 650,
+        "mana": {
+          "initial": 50,
+          "max": 80
+        },
+        "armor": 30,
+        "mr": 30,
+        "ad": 40,
+        "as": 0.7,
+        "range": 4
+      },
+      "ability": {
+        "name": "Malefic Visions",
+        "description": "Malzahar infects the mind of the closest unafflicted target, dealing @ModifiedDamage@ magic damage over @Duration@ seconds and reducing the Magic Resist of enemies by @MRShred*100@%.<br><br>If an afflicted target dies, Malefic Visions spreads to the nearest @SpreadTargets@ unafflicted targets with the remaining duration.",
+        "icon": "https://raw.communitydragon.org/12.10/game/assets/characters/malzahar/hud/icons2d/malzahar_e.png",
+        "variables": {
+          "Damage": [
+            0,
+            650,
+            900,
+            1100,
+            0,
+            0,
+            0
+          ],
+          "Duration": [
+            0,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8
+          ],
+          "MRShred": [
+            0.4,
+            0.4,
+            0.4,
+            0.4,
+            0.4,
+            0.4,
+            0.4
+          ],
+          "SpreadTargets": [
+            0,
+            1,
+            1,
+            2,
+            4,
+            5,
+            6
+          ],
+          "TickRate": [
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5
+          ]
+        }
+      },
+      "icon": "/assets/set6.5/champions/TFT6_Malzahar.webp"
+    },
+    {
+      "id": "TFT6_ChoGath",
+      "name": "Cho'Gath",
+      "cost": 3,
+      "traits": [
+        "Set6_Mutant",
+        "Set6_Bruiser",
+        "Set6_Colossus"
+      ],
+      "stats": {
+        "hp": 750,
+        "mana": {
+          "initial": 100,
+          "max": 165
+        },
+        "armor": 50,
+        "mr": 50,
+        "ad": 100,
+        "as": 0.55,
+        "range": 1
+      },
+      "ability": {
+        "name": "Feast",
+        "description": "Cho'Gath devours the lowest Health enemy within range, dealing @ModifiedDamage@ magic damage. If this kills the target, Cho'Gath gains a stack of Feast (increased to two in Hyper Roll), up to @MaxFeastStacks@. Each stack of Feast permanently grants @BonusHealthOnKill*100@% bonus Health and size.",
+        "icon": "https://raw.communitydragon.org/12.10/game/assets/characters/chogath/hud/icons2d/greenterror_feast.png",
+        "variables": {
+          "Damage": [
+            200,
+            850,
+            950,
+            1050,
+            3200,
+            6400,
+            12800
+          ],
+          "BonusHealthOnKill": [
+            0.02,
+            0.02,
+            0.02,
+            0.02,
+            0.02,
+            0.02,
+            0.02
+          ],
+          "MaxFeastStacks": [
+            0,
+            30,
+            60,
+            999,
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      "icon": "/assets/set6.5/champions/TFT6_ChoGath.webp"
+    },
+    {
+      "id": "TFT6_Galio",
+      "name": "Galio",
+      "cost": 5,
+      "traits": [
+        "Set6_Socialite",
+        "Set6_Bodyguard",
+        "Set6_Colossus"
+      ],
+      "stats": {
+        "hp": 1300,
+        "mana": {
+          "initial": 200,
+          "max": 300
+        },
+        "armor": 70,
+        "mr": 70,
+        "ad": 110,
+        "as": 0.65,
+        "range": 1
+      },
+      "ability": {
+        "name": "Colossal Entrance",
+        "description": "Galio becomes invulnerable and leaps into the sky before crashing down on the largest group of enemies. Enemies within a large radius take <scaleAP>@TotalDamage@</scaleAP> magic damage (@ModifiedDamage@ + @MaxHealthPercent*100@% of Galio's <health>maximum Health</health> %i:scaleHealth%) and are knocked up for @StunDuration@ second(s).<br><br>Passive: Galio's Critical Strikes slam the ground, dealing @ModifiedBonusDamage@ bonus magic damage to enemies around his target.",
+        "icon": "https://raw.communitydragon.org/12.10/game/assets/characters/galio/hud/icons2d/galio_r.png",
+        "variables": {
+          "Damage": [
+            200,
+            125,
+            175,
+            9001,
+            200,
+            200,
+            200
+          ],
+          "HexRadius": [
+            3,
+            3,
+            3,
+            5,
+            3,
+            3,
+            3
+          ],
+          "StunDuration": [
+            1,
+            1.5,
+            1.5,
+            10,
+            1.5,
+            1.5,
+            1.5
+          ],
+          "CritBonusDamage": [
+            0,
+            70,
+            100,
+            1999,
+            0,
+            0,
+            0
+          ],
+          "MaxHealthPercent": [
+            0.1,
+            0.1,
+            0.1,
+            0.1,
+            0.1,
+            0.1,
+            0.1
+          ]
+        }
+      },
+      "icon": "/assets/set6.5/champions/TFT6_Galio.webp"
+    },
+    {
+      "id": "TFT6_Ezreal",
+      "name": "Ezreal",
+      "cost": 1,
+      "traits": [
+        "Set6_Scrap",
+        "Set6_Innovator"
+      ],
+      "stats": {
+        "hp": 500,
+        "mana": {
+          "initial": 0,
+          "max": 40
+        },
+        "armor": 15,
+        "mr": 15,
+        "ad": 45,
+        "as": 0.65,
+        "range": 4
+      },
+      "ability": {
+        "name": "Mystic Shot",
+        "description": "Ezreal fires a missile at his target, dealing <scaleAD>@TotalDamage@</scaleAD> physical damage (@PercentAD*100@% of his Attack Damage %i:scaleAD% + @BonusDamage@). If the missile hits, he grants himself @ModifiedAS@ bonus stacking Attack Speed, up to <scaleAP>@MaxAS@ %i:scaleAP%</scaleAP> at @MaxStacks@ stacks.",
+        "icon": "https://raw.communitydragon.org/12.10/game/assets/characters/ezreal/hud/icons2d/ezreal_q.png",
+        "variables": {
+          "BonusDamage": [
+            0,
+            25,
+            50,
+            100,
+            0,
+            0,
+            0
+          ],
+          "ASBoost": [
+            0.18,
+            0.18,
+            0.18,
+            0.18,
+            0.18,
+            0.18,
+            0.18
+          ],
+          "MaxStacks": [
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5
+          ],
+          "PercentAD": [
+            1.5,
+            1.5,
+            1.5,
+            1.5,
+            1.5,
+            1.5,
+            1.5
+          ]
+        }
+      },
+      "icon": "/assets/set6.5/champions/TFT6_Ezreal.webp"
+    },
+    {
+      "id": "TFT6_Blitzcrank",
+      "name": "Blitzcrank",
+      "cost": 2,
+      "traits": [
+        "Set6_Scrap",
+        "Set6_Bodyguard"
+      ],
+      "stats": {
+        "hp": 650,
+        "mana": {
+          "initial": 175,
+          "max": 175
+        },
+        "armor": 45,
+        "mr": 45,
+        "ad": 65,
+        "as": 0.5,
+        "range": 1
+      },
+      "ability": {
+        "name": "Rocket Grab",
+        "description": "Blitzcrank pulls the farthest enemy, dealing @ModifiedDamage@ magic damage and stunning them for @StunDuration@ seconds. His next attack knocks them up for 1 second. Allies within range will prefer attacking Blitzcrank's target.",
+        "icon": "https://raw.communitydragon.org/12.10/game/assets/characters/blitzcrank/hud/icons2d/blitzcrank_rocketgrab.png",
+        "variables": {
+          "Damage": [
+            200,
+            150,
+            300,
+            900,
+            950,
+            1200,
+            1450
+          ],
+          "StunDuration": [
+            1.5,
+            1.5,
+            1.5,
+            1.5,
+            1.5,
+            1.5,
+            1.5
+          ]
+        }
+      },
+      "icon": "/assets/set6.5/champions/TFT6_Blitzcrank.webp"
+    },
+    {
+      "id": "TFT6_Ekko",
+      "name": "Ekko",
+      "cost": 3,
+      "traits": [
+        "Set6_Scrap",
+        "Set6_Innovator",
+        "Set6_Assassin"
+      ],
+      "stats": {
+        "hp": 700,
+        "mana": {
+          "initial": 60,
+          "max": 120
+        },
+        "armor": 40,
+        "mr": 40,
+        "ad": 55,
+        "as": 0.7,
+        "range": 1
+      },
+      "ability": {
+        "name": "Parallel Convergence",
+        "description": "Ekko invokes an afterimage that bats a device towards the largest group of units. Upon landing, it deals @ModifiedDamage@ magic damage to enemies within and applies @ASSlow*100@% reduced Attack Speed for @SlowDuration@ seconds. Allies inside gain @ModifiedASBuff@ bonus Attack Speed for @BuffDuration@ seconds.",
+        "icon": "https://raw.communitydragon.org/12.10/game/assets/characters/ekko/hud/icons2d/ekko_w.png",
+        "variables": {
+          "FieldDelay": [
+            2.2,
+            2.2,
+            2.2,
+            2.2,
+            2.2,
+            2.2,
+            2.2
+          ],
+          "FieldDuration": [
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2
+          ],
+          "HexRadius": [
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2
+          ],
+          "BonusAS": [
+            0.1,
+            0.3,
+            0.4,
+            0.5,
+            0.9,
+            1.1,
+            1.3
+          ],
+          "ASSlow": [
+            0,
+            0.2,
+            0.2,
+            0.3,
+            0,
+            0,
+            0
+          ],
+          "Damage": [
+            75,
+            125,
+            200,
+            400,
+            575,
+            700,
+            825
+          ],
+          "SlowDuration": [
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4
+          ],
+          "BuffDuration": [
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4
+          ]
+        }
+      },
+      "icon": "/assets/set6.5/champions/TFT6_Ekko.webp"
+    },
+    {
+      "id": "TFT6_Ziggs",
+      "name": "Ziggs",
+      "cost": 1,
+      "traits": [
+        "Set6_Scrap",
+        "Set6_Yordle",
+        "Set6_Arcanist"
+      ],
+      "stats": {
+        "hp": 500,
+        "mana": {
+          "initial": 0,
+          "max": 60
+        },
+        "armor": 15,
+        "mr": 15,
+        "ad": 55,
+        "as": 0.6,
+        "range": 4
+      },
+      "ability": {
+        "name": "Mini Inferno Bomb",
+        "description": "Ziggs hurls a bomb at his target. After a moderate delay, the bomb lands dealing @ModifiedDamage@ magic damage to the enemy in the epicenter, and half to adjacent enemies.",
+        "icon": "https://raw.communitydragon.org/12.10/game/assets/characters/ziggs/hud/icons2d/ziggsr.png",
+        "variables": {
+          "Damage": [
+            0,
+            300,
+            400,
+            550,
+            700,
+            500,
+            600
+          ]
+        }
+      },
+      "icon": "/assets/set6.5/champions/TFT6_Ziggs.webp"
+    },
+    {
+      "id": "TFT6_Jinx",
+      "name": "Jinx",
+      "cost": 5,
+      "traits": [
+        "Set6_Scrap",
+        "Set6_Rivals",
+        "Set6_Twinshot"
+      ],
+      "stats": {
+        "hp": 888,
+        "mana": {
+          "initial": 0,
+          "max": 99
+        },
+        "armor": 45,
+        "mr": 45,
+        "ad": 80,
+        "as": 1,
+        "range": 4
+      },
+      "ability": {
+        "name": "Super Mega Death Rocket",
+        "description": "Jinx rides her rocket into the sky, then comes crashing down near the center-most enemy, dealing @ModifiedDamage@ magic damage to enemies around the epicenter, and @FalloffPercent*100@% to all other enemies in a large area. The epicenter burns every unit except Jinx for @HexDuration@ seconds, dealing @PercentBurn@% of the target's maximum Health as true damage, and reducing healing by 50% for the duration.<br><br>She then swaps to her rocket launcher and targets random units for the rest of combat. Her attacks now explode for <scaleAD>@TooltipDamage@</scaleAD> physical damage (@RocketLauncherPercentAD*100%@% of her Attack Damage %i:scaleAD%) in a small area around her target.",
+        "icon": "https://raw.communitydragon.org/12.10/game/assets/characters/jinx/hud/icons2d/jinx_r.png",
+        "variables": {
+          "Damage": [
+            500,
+            450,
+            700,
+            8888,
+            3000,
+            3000,
+            3000
+          ],
+          "InnerRadius": [
+            1,
+            1,
+            1,
+            2,
+            1,
+            1,
+            1
+          ],
+          "OuterRadius": [
+            3,
+            3,
+            3,
+            5,
+            3,
+            3,
+            3
+          ],
+          "PercentBurn": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "FalloffPercent": [
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5
+          ],
+          "RocketLauncherPercentAD": [
+            0.75,
+            2.1,
+            2.2,
+            8.88,
+            0.75,
+            0.75,
+            0.75
+          ],
+          "HexDuration": [
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5
+          ]
+        }
+      },
+      "icon": "/assets/set6.5/champions/TFT6_Jinx.webp"
+    },
+    {
+      "id": "TFT6_Poppy",
+      "name": "Poppy",
+      "cost": 1,
+      "traits": [
+        "Set6_Yordle",
+        "Set6_Bodyguard"
+      ],
+      "stats": {
+        "hp": 650,
+        "mana": {
+          "initial": 50,
+          "max": 100
+        },
+        "armor": 40,
+        "mr": 40,
+        "ad": 60,
+        "as": 0.55,
+        "range": 1
+      },
+      "ability": {
+        "name": "Buckler Toss",
+        "description": "Poppy throws her buckler at the farthest enemy, dealing @PercentArmorDamage*100@% of her Armor as magic damage. (total: @TotalDamage@) The buckler then bounces back, granting Poppy a shield that blocks @ModifiedShield@ damage.",
+        "icon": "https://raw.communitydragon.org/12.10/game/assets/characters/poppy/hud/icons2d/poppy_passive.png",
+        "variables": {
+          "PercentArmorDamage": [
+            2,
+            1.8,
+            2.2,
+            2.8,
+            4,
+            4,
+            4
+          ],
+          "ShieldAmount": [
+            100,
+            225,
+            275,
+            325,
+            525,
+            600,
+            700
+          ]
+        }
+      },
+      "icon": "/assets/set6.5/champions/TFT6_Poppy.webp"
+    },
+    {
+      "id": "TFT6_Lulu",
+      "name": "Lulu",
+      "cost": 2,
+      "traits": [
+        "Set6_Yordle",
+        "Set6_Enchanter"
+      ],
+      "stats": {
+        "hp": 600,
+        "mana": {
+          "initial": 60,
+          "max": 125
+        },
+        "armor": 25,
+        "mr": 25,
+        "ad": 40,
+        "as": 0.65,
+        "range": 3
+      },
+      "ability": {
+        "name": "Wild Growth",
+        "description": "Lulu enlarges @NumAllies@ low Health allies, granting them @ModifiedBonusHealth@ bonus Health and knocking up enemies near them. If the ally is already enlarged, they are healed instead.",
+        "icon": "https://raw.communitydragon.org/12.10/game/assets/characters/lulu/hud/icons2d/lulu_giantgrowth.png",
+        "variables": {
+          "BonusHealth": [
+            300,
+            350,
+            370,
+            390,
+            600,
+            1200,
+            1200
+          ],
+          "BuffDuration": [
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60
+          ],
+          "CCDuration": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "NumAllies": [
+            1,
+            1,
+            2,
+            3,
+            1,
+            1,
+            1
+          ]
+        }
+      },
+      "icon": "/assets/set6.5/champions/TFT6_Lulu.webp"
+    },
+    {
+      "id": "TFT6_Vex",
+      "name": "Vex",
+      "cost": 3,
+      "traits": [
+        "Set6_Yordle",
+        "Set6_Arcanist"
+      ],
+      "stats": {
+        "hp": 850,
+        "mana": {
+          "initial": 50,
+          "max": 90
+        },
+        "armor": 50,
+        "mr": 50,
+        "ad": 50,
+        "as": 0.6,
+        "range": 2
+      },
+      "ability": {
+        "name": "Personal Space",
+        "description": "Vex shields herself against @ModifiedShield@ damage over @ShieldDuration@ seconds. When the shield expires, it deals @ModifiedDamage@ magic damage to all enemies within 2 hexes, and an additional @ModifiedBonusDamage@ magic damage if it wasn't destroyed.<br><br>If it was destroyed, Personal Space becomes @ShieldAmp*100@% stronger this combat. This effect can stack.",
+        "icon": "https://raw.communitydragon.org/12.10/game/assets/characters/vex/hud/icons2d/icons_vex_w01.s_yordle.png",
+        "variables": {
+          "ShieldAmount": [
+            400,
+            500,
+            650,
+            850,
+            900,
+            900,
+            900
+          ],
+          "ShieldDuration": [
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4
+          ],
+          "ShieldAmp": [
+            0.15,
+            0.15,
+            0.15,
+            0.15,
+            0.15,
+            0.15,
+            0.15
+          ],
+          "ShieldDamage": [
+            125,
+            100,
+            135,
+            175,
+            125,
+            125,
+            125
+          ],
+          "BonusDamage": [
+            125,
+            100,
+            135,
+            175,
+            125,
+            125,
+            125
+          ]
+        }
+      },
+      "icon": "/assets/set6.5/champions/TFT6_Vex.webp"
+    },
+    {
+      "id": "TFT6_Kassadin",
+      "name": "Kassadin",
+      "cost": 1,
+      "traits": [
+        "Set6_Mutant",
+        "Set6_Scholar"
+      ],
+      "stats": {
+        "hp": 750,
+        "mana": {
+          "initial": 60,
+          "max": 100
+        },
+        "armor": 40,
+        "mr": 40,
+        "ad": 50,
+        "as": 0.65,
+        "range": 1
+      },
+      "ability": {
+        "name": "Null Sphere",
+        "description": "Kassadin fires an orb of void energy at his target, dealing @ModifiedDamage@ magic damage. Enemies hit by the orb suffer a @ManaReave*100@% increased Mana cost for their next Ability cast. Kassadin also grants himself a @ModifiedShieldAmount@ shield and takes @DamageReduction*100@% less damage for @Duration@ seconds.",
+        "icon": "https://raw.communitydragon.org/12.10/game/assets/characters/kassadin/hud/icons2d/kassadin_q.png",
+        "variables": {
+          "ManaReave": [
+            0,
+            0.5,
+            0.5,
+            0.5,
+            0,
+            0,
+            0
+          ],
+          "DamageReduction": [
+            0.25,
+            0.25,
+            0.25,
+            0.25,
+            0.25,
+            0.25,
+            0.25
+          ],
+          "Damage": [
+            150,
+            250,
+            325,
+            400,
+            150,
+            150,
+            150
+          ],
+          "Duration": [
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5
+          ],
+          "ShieldAmount": [
+            0,
+            150,
+            250,
+            350,
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      "icon": "/assets/set6.5/champions/TFT6_Kassadin.webp"
+    },
+    {
+      "id": "TFT6_Quinn",
+      "name": "Quinn",
+      "cost": 2,
+      "traits": [
+        "Set6_Mercenary",
+        "Set6_Challenger"
+      ],
+      "stats": {
+        "hp": 550,
+        "mana": {
+          "initial": 70,
+          "max": 140
+        },
+        "armor": 20,
+        "mr": 20,
+        "ad": 55,
+        "as": 0.7,
+        "range": 4
+      },
+      "ability": {
+        "name": "Disarming Assault",
+        "description": "Quinn sends Valor out at the target with the highest Attack Speed, dealing @ModifiedDamage@ magic damage to the target and nearby enemies, disarming them for @DisarmDuration@ seconds.",
+        "icon": "https://raw.communitydragon.org/12.10/game/assets/characters/quinn/hud/icons2d/quinn_q.png",
+        "variables": {
+          "BonusDamage": [
+            0,
+            200,
+            300,
+            650,
+            0,
+            0,
+            0
+          ],
+          "DisarmDuration": [
+            3,
+            1.5,
+            2,
+            2.5,
+            3,
+            3,
+            3
+          ],
+          "ADReduction": [],
+          "ADReductionDuration": []
+        }
+      },
+      "icon": "/assets/set6.5/champions/TFT6_Quinn.webp"
+    },
+    {
+      "id": "TFT6_Talon",
+      "name": "Talon",
+      "cost": 2,
+      "traits": [
+        "Set6_Debonair",
+        "Set6_Assassin"
+      ],
+      "stats": {
+        "hp": 650,
+        "mana": {
+          "initial": 0,
+          "max": 0
+        },
+        "armor": 20,
+        "mr": 20,
+        "ad": 45,
+        "as": 0.7,
+        "range": 1
+      },
+      "ability": {
+        "name": "Blade's End",
+        "description": "Passive: Talon's 1st attack on an enemy causes them to bleed for @ModifiedDamage@ magic damage over @BleedDuration@ seconds. Every 3rd attack on a target applies an additional bleed.<br><br><TFTDebonairVIP>VIP Bonus: Talon's bleed now deals true damage and lasts @VIPBleedDurationBonus@% longer.</TFTDebonairVIP>",
+        "icon": "https://raw.communitydragon.org/12.10/game/assets/characters/talon/hud/icons2d/talonp.png",
+        "variables": {
+          "Damage": [
+            0,
+            450,
+            575,
+            800,
+            0,
+            0,
+            0
+          ],
+          "BleedDuration": [
+            7,
+            7,
+            7,
+            7,
+            7,
+            7,
+            7
+          ],
+          "VIPBleedDurationBonus": [
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100
+          ]
+        }
+      },
+      "icon": "/assets/set6.5/champions/TFT6_Talon.webp"
+    },
+    {
+      "id": "TFT6_Kaisa",
+      "name": "Kai'Sa",
+      "cost": 5,
+      "traits": [
+        "Set6_Mutant",
+        "Set6_Challenger"
+      ],
+      "stats": {
+        "hp": 850,
+        "mana": {
+          "initial": 80,
+          "max": 160
+        },
+        "armor": 30,
+        "mr": 30,
+        "ad": 60,
+        "as": 1.2,
+        "range": 3
+      },
+      "ability": {
+        "name": "Icathian Monsoon",
+        "description": "Kai'sa dashes away from all enemies, then fires a volley of @NumMissiles@ missiles spread evenly among all enemies that deal @ModifiedDamage@ magic damage each.<br><br>For each time Kai'Sa has attacked this combat, she'll fire an additional missile.",
+        "icon": "https://raw.communitydragon.org/12.10/game/assets/characters/kaisa/hud/icons2d/kaisa_q2.png",
+        "variables": {
+          "NumMissiles": [
+            4,
+            12,
+            18,
+            100,
+            12,
+            12,
+            12
+          ],
+          "FakeCastTime": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "Damage": [
+            50,
+            75,
+            100,
+            180,
+            50,
+            50,
+            50
+          ]
+        }
+      },
+      "icon": "/assets/set6.5/champions/TFT6_Kaisa.webp"
+    },
+    {
+      "id": "TFT6_Braum",
+      "name": "Braum",
+      "cost": 4,
+      "traits": [
+        "Set6_Syndicate",
+        "Set6_Bodyguard"
+      ],
+      "stats": {
+        "hp": 1100,
+        "mana": {
+          "initial": 120,
+          "max": 200
+        },
+        "armor": 60,
+        "mr": 60,
+        "ad": 70,
+        "as": 0.6,
+        "range": 1
+      },
+      "ability": {
+        "name": "Vault Breaker",
+        "description": "Braum slams his vault door into the ground, creating a fissure towards his target. Enemies within 2 hexes of Braum, and those struck by the fissure, are stunned for @StunDuration@ seconds and take @ModifiedDamage@ magic damage.",
+        "icon": "https://raw.communitydragon.org/12.10/game/assets/characters/braum/hud/icons2d/braum_r.png",
+        "variables": {
+          "Damage": [
+            100,
+            100,
+            200,
+            750,
+            100,
+            100,
+            100
+          ],
+          "StunDuration": [
+            2.5,
+            2,
+            2.75,
+            8,
+            7,
+            7,
+            7
+          ]
+        }
+      },
+      "icon": "/assets/set6.5/champions/TFT6_Braum.webp"
+    },
+    {
+      "id": "TFT6_Veigar",
+      "name": "Veigar",
+      "cost": 7,
+      "traits": [
+        "Set6_YordleLord"
+      ],
+      "stats": {
+        "hp": 800,
+        "mana": {
+          "initial": 0,
+          "max": 75
+        },
+        "armor": 25,
+        "mr": 25,
+        "ad": 45,
+        "as": 0.8,
+        "range": 4
+      },
+      "ability": {
+        "name": "",
+        "description": "",
+        "icon": "https://raw.communitydragon.org/12.10/game/assets/characters/tft6_veigar/hud/icons2d/tft6_veigar_w.tft_set6.png",
+        "variables": {
+          "NumStrikes": [
+            0,
+            20,
+            30,
+            99,
+            0,
+            0,
+            0
+          ],
+          "Damage": [
+            0,
+            300,
+            325,
+            777,
+            250,
+            250,
+            250
+          ]
+        }
+      },
+      "icon": "/assets/set6.5/champions/TFT6_Veigar.webp"
+    },
+    {
+      "id": "TFT6_Nocturne",
+      "name": "Nocturne",
+      "cost": 1,
+      "traits": [
+        "Set6_Hextech",
+        "Set6_Assassin"
+      ],
+      "stats": {
+        "hp": 600,
+        "mana": {
+          "initial": 40,
+          "max": 80
+        },
+        "armor": 25,
+        "mr": 25,
+        "ad": 45,
+        "as": 0.7,
+        "range": 1
+      },
+      "ability": {
+        "name": "Unspeakable Horror",
+        "description": "Nocturne terrifies his target, stunning them with fear for @StunDuration@ seconds and dealing @ModifiedDamage@ magic damage over the duration.",
+        "icon": "https://raw.communitydragon.org/12.10/game/assets/characters/nocturne/hud/icons2d/nocturne_unspeakablehorror.png",
+        "variables": {
+          "Damage": [
+            200,
+            190,
+            300,
+            450,
+            500,
+            500,
+            500
+          ],
+          "StunDuration": [
+            2,
+            2,
+            2.5,
+            3,
+            3.5,
+            2.5,
+            2.5
+          ]
+        }
+      },
+      "icon": "/assets/set6.5/champions/TFT6_Nocturne.webp"
+    },
+    {
+      "id": "TFT6_Brand",
+      "name": "Brand",
+      "cost": 1,
+      "traits": [
+        "Set6_Debonair",
+        "Set6_Arcanist"
+      ],
+      "stats": {
+        "hp": 500,
+        "mana": {
+          "initial": 0,
+          "max": 20
+        },
+        "armor": 20,
+        "mr": 20,
+        "ad": 40,
+        "as": 0.65,
+        "range": 3
+      },
+      "ability": {
+        "name": "Sear",
+        "description": "Brand launches a fireball at the nearest enemy, lighting them ablaze for @BlazeDuration@ seconds and dealing @ModifiedDamage@ magic damage. If the enemy is already on fire, they take @ModifiedBonusDamage@ bonus magic damage which stuns them for @StunDuration@ seconds. (total: @TotalDamage@%i:scaleAP%)<br><br><TFTDebonairVIP>VIP Bonus: Brand fires a 2nd fireball at a different nearby target (prioritizes ablaze enemies) dealing @VIPBonusReducedDamage@% reduced damage. </TFTDebonairVIP>",
+        "icon": "https://raw.communitydragon.org/12.10/game/assets/characters/brand/hud/icons2d/brandq.png",
+        "variables": {
+          "Damage": [
+            0,
+            135,
+            175,
+            235,
+            0,
+            0,
+            0
+          ],
+          "BlazeDuration": [
+            0,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4
+          ],
+          "BonusDamage": [
+            0,
+            165,
+            225,
+            300,
+            0,
+            0,
+            0
+          ],
+          "StunDuration": [
+            0,
+            1,
+            1.5,
+            2,
+            0,
+            0,
+            0
+          ],
+          "VIPBonusReducedDamage": [
+            45,
+            45,
+            45,
+            45,
+            45,
+            45,
+            45
+          ]
+        }
+      },
+      "icon": "/assets/set6.5/champions/TFT6_Brand.webp"
+    },
+    {
+      "id": "TFT6_Sejuani",
+      "name": "Sejuani",
+      "cost": 2,
+      "traits": [
+        "Set6_Hextech",
+        "Set6_Enforcer",
+        "Set6_Bruiser"
+      ],
+      "stats": {
+        "hp": 800,
+        "mana": {
+          "initial": 20,
+          "max": 80
+        },
+        "armor": 45,
+        "mr": 45,
+        "ad": 55,
+        "as": 0.55,
+        "range": 1
+      },
+      "ability": {
+        "name": "Fury of the North",
+        "description": "Sejuani signals Bristle to charge, dealing @ModifiedDamage@ magic damage and stunning her target for @StunDuration@ seconds. She then gains Frost Armor, granting her @DefensiveStats@ Armor and Magic Resist for @Duration@ seconds.",
+        "icon": "https://raw.communitydragon.org/12.10/game/assets/characters/sejuani/hud/icons2d/sejuani_passive.png",
+        "variables": {
+          "DefensiveStats": [
+            0,
+            50,
+            75,
+            125,
+            0,
+            0,
+            0
+          ],
+          "Duration": [
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4
+          ],
+          "StunDuration": [
+            0,
+            1.5,
+            1.5,
+            2,
+            0,
+            0,
+            0
+          ],
+          "MagicDamage": [
+            0,
+            300,
+            450,
+            750,
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      "icon": "/assets/set6.5/champions/TFT6_Sejuani.webp"
+    },
+    {
+      "id": "TFT6_Syndra",
+      "name": "Syndra",
+      "cost": 2,
+      "traits": [
+        "Set6_Debonair",
+        "Set6_Scholar"
+      ],
+      "stats": {
+        "hp": 600,
+        "mana": {
+          "initial": 50,
+          "max": 100
+        },
+        "armor": 20,
+        "mr": 20,
+        "ad": 40,
+        "as": 0.65,
+        "range": 4
+      },
+      "ability": {
+        "name": "Force of Will",
+        "description": "Syndra flings the nearest enemy towards the farthest enemy, dealing @ModifiedDamage@ magic damage to all enemies within 1 hex upon impact and stunning the thrown target for @StunDuration@ seconds.<br><br><TFTDebonairVIP>VIP Bonus: Force of Will's impact area is 1 hex larger and knocks up affected enemies for @VIPDebutantBonus@ seconds.</TFTDebonairVIP>",
+        "icon": "https://raw.communitydragon.org/12.10/game/assets/characters/syndra/hud/icons2d/syndraw2.png",
+        "variables": {
+          "Damage": [
+            0,
+            225,
+            300,
+            425,
+            0,
+            0,
+            0
+          ],
+          "StunDuration": [
+            0,
+            2,
+            2.5,
+            3,
+            0,
+            0,
+            0
+          ],
+          "VIPDebutantBonus": [
+            1.5,
+            1.5,
+            1.5,
+            1.5,
+            1.5,
+            1.5,
+            1.5
+          ]
+        }
+      },
+      "icon": "/assets/set6.5/champions/TFT6_Syndra.webp"
+    },
+    {
+      "id": "TFT6_RekSai",
+      "name": "Rek'Sai",
+      "cost": 2,
+      "traits": [
+        "Set6_Mutant",
+        "Set6_Striker",
+        "Set6_Bruiser"
+      ],
+      "stats": {
+        "hp": 750,
+        "mana": {
+          "initial": 50,
+          "max": 70
+        },
+        "armor": 45,
+        "mr": 45,
+        "ad": 55,
+        "as": 0.7,
+        "range": 1
+      },
+      "ability": {
+        "name": "Furious Bite",
+        "description": "Rek'Sai bites her target, dealing <scaleAD>@TotalDamage@</scaleAD> physical damage (@ADPercent*100@% of her Attack Damage %i:scaleAD% + @Damage@) and healing herself for @ModifiedHeal@ health. If she has already bit her target, she heals for @ModifiedHealBonus@ health instead.",
+        "icon": "https://raw.communitydragon.org/12.10/game/assets/characters/reksai/hud/icons2d/reksai_e1.png",
+        "variables": {
+          "ADPercent": [
+            1.25,
+            1.25,
+            1.25,
+            1.25,
+            1.25,
+            1.25,
+            1.25
+          ],
+          "ResistPercentSteal": [
+            0,
+            0.3,
+            0.35,
+            0.4,
+            0,
+            0,
+            0
+          ],
+          "Damage": [
+            0,
+            100,
+            150,
+            200,
+            0,
+            0,
+            0
+          ],
+          "Heal": [
+            0,
+            200,
+            225,
+            400,
+            0,
+            0,
+            0
+          ],
+          "HealBonus": [
+            0,
+            275,
+            350,
+            600,
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      "icon": "/assets/set6.5/champions/TFT6_RekSai.webp"
+    },
+    {
+      "id": "TFT6_Ashe",
+      "name": "Ashe",
+      "cost": 2,
+      "traits": [
+        "Set6_Syndicate",
+        "Set6_Sniper"
+      ],
+      "stats": {
+        "hp": 600,
+        "mana": {
+          "initial": 30,
+          "max": 60
+        },
+        "armor": 20,
+        "mr": 20,
+        "ad": 60,
+        "as": 0.7,
+        "range": 4
+      },
+      "ability": {
+        "name": "Volley",
+        "description": "Ashe fires a volley of @NumOfArrows@ arrows centered on her target, dealing <scaleAD>@TotalDamage@</scaleAD> physical damage per arrow (@ADPercent*100@% of her Attack Damage %i:scaleAD%) and slowing their Attack Speed by @ASReduction@% for @ModifiedDuration@ seconds.",
+        "icon": "https://raw.communitydragon.org/12.10/game/assets/characters/ashe/hud/icons2d/ashe_w.png",
+        "variables": {
+          "ADPercent": [
+            1.1,
+            1.1,
+            1.1,
+            1.1,
+            1.1,
+            1.1,
+            1.1
+          ],
+          "NumOfArrows": [
+            0,
+            8,
+            8,
+            8,
+            0,
+            0,
+            0
+          ],
+          "ASReduction": [
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20
+          ],
+          "Duration": [
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3
+          ]
+        }
+      },
+      "icon": "/assets/set6.5/champions/TFT6_Ashe.webp"
+    },
+    {
+      "id": "TFT6_Sivir",
+      "name": "Sivir",
+      "cost": 4,
+      "traits": [
+        "Set6_Hextech",
+        "Set6_Striker"
+      ],
+      "stats": {
+        "hp": 700,
+        "mana": {
+          "initial": 0,
+          "max": 60
+        },
+        "armor": 30,
+        "mr": 30,
+        "ad": 60,
+        "as": 0.8,
+        "range": 4
+      },
+      "ability": {
+        "name": "Ricochet",
+        "description": "For the next @Duration@ seconds, Sivir grants herself @ModifiedAttackSpeed@ bonus Attack Speed and her attacks bounce up to @NumBounces@ times, dealing <scaleAD>@DamageCalc@</scaleAD> physical damage (@PercentDamage*100@% of her Attack Damage %i:scaleAD%) to enemies hit.",
+        "icon": "https://raw.communitydragon.org/12.10/game/assets/characters/sivir/hud/icons2d/sivir_w.png",
+        "variables": {
+          "PercentDamage": [
+            0.3,
+            0.3,
+            0.3,
+            0.3,
+            0.3,
+            0.3,
+            0.3
+          ],
+          "NumBounces": [
+            3,
+            4,
+            5,
+            9,
+            11,
+            13,
+            15
+          ],
+          "BounceRange": [
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5
+          ],
+          "Duration": [
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5
+          ],
+          "BonusAttackSpeed": [
+            0,
+            0.3,
+            0.6,
+            3,
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      "icon": "/assets/set6.5/champions/TFT6_Sivir.webp"
+    },
+    {
+      "id": "TFT6_Tryndamere",
+      "name": "Tryndamere",
+      "cost": 3,
+      "traits": [
+        "Set6_Chemtech",
+        "Set6_Challenger"
+      ],
+      "stats": {
+        "hp": 800,
+        "mana": {
+          "initial": 40,
+          "max": 100
+        },
+        "armor": 35,
+        "mr": 35,
+        "ad": 70,
+        "as": 0.75,
+        "range": 1
+      },
+      "ability": {
+        "name": "Spinning Slash",
+        "description": "Tryndamere spins in a line towards the most enemies, dealing <scaleAD>@TooltipDamage@</scaleAD> physical damage (@SpinDamage*100@% of his Attack Damage %i:scaleAD% + @ModifiedDamage@) to enemies in his path and empowering his next 3 attacks to deal @BonusAAPercent*100@% more damage.",
+        "icon": "https://raw.communitydragon.org/12.10/game/assets/characters/tryndamere/hud/icons2d/tryndamere_e.png",
+        "variables": {
+          "SpinDamage": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "BaseSpinDamage": [
+            0,
+            70,
+            90,
+            110,
+            0,
+            0,
+            0
+          ],
+          "BonusAAPercent": [
+            0.25,
+            0.25,
+            0.25,
+            0.25,
+            0.25,
+            0.25,
+            0.25
+          ]
+        }
+      },
+      "icon": "/assets/set6.5/champions/TFT6_Tryndamere.webp"
+    },
+    {
+      "id": "TFT6_Gnar",
+      "name": "Gnar",
+      "cost": 3,
+      "traits": [
+        "Set6_Yordle",
+        "Set6_Socialite",
+        "Set6_Striker"
+      ],
+      "stats": {
+        "hp": 700,
+        "mana": {
+          "initial": 0,
+          "max": 80
+        },
+        "armor": 40,
+        "mr": 40,
+        "ad": 60,
+        "as": 0.7,
+        "range": 3
+      },
+      "ability": {
+        "name": "GNAR!",
+        "description": "Gnar transforms into Mega Gnar for the rest of combat. Mega Gnar throws a boulder at the farthest enemy within 3 hexes, dealing <scaleAD>@TotalDamage@</scaleAD> physical damage (@ADPercent*100@% of his Attack Damage %i:scaleAD% + @Damage@) to all enemies it passes through. <br><br>While in Mega Gnar form, Gnar is melee, gains @ModifiedTransformHealth@ Health, and his mana costs are reduced by @TransformManaReduc@.",
+        "icon": "https://raw.communitydragon.org/12.10/game/assets/characters/gnar/hud/icons2d/gnarbig_r.png",
+        "variables": {
+          "RCCDuration": [
+            1.5,
+            1.5,
+            2,
+            3,
+            1.5,
+            1.5,
+            1.5
+          ],
+          "RKnockbackDistance": [],
+          "TransformDuration": [
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60
+          ],
+          "TransformHealth": [
+            50,
+            500,
+            750,
+            1200,
+            850,
+            1050,
+            1250
+          ],
+          "ADPercent": [
+            1.75,
+            1.75,
+            1.75,
+            1.75,
+            1.75,
+            1.75,
+            1.75
+          ],
+          "Damage": [
+            0,
+            150,
+            200,
+            300,
+            0,
+            0,
+            0
+          ],
+          "TransformManaReduc": [
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20
+          ]
+        }
+      },
+      "icon": "/assets/set6.5/champions/TFT6_Gnar.webp"
+    },
+    {
+      "id": "TFT6_Morgana",
+      "name": "Morgana",
+      "cost": 3,
+      "traits": [
+        "Set6_Syndicate",
+        "Set6_Enchanter"
+      ],
+      "stats": {
+        "hp": 800,
+        "mana": {
+          "initial": 70,
+          "max": 130
+        },
+        "armor": 50,
+        "mr": 50,
+        "ad": 50,
+        "as": 0.6,
+        "range": 2
+      },
+      "ability": {
+        "name": "Soul Shackles",
+        "description": "Morgana grants herself a @ModifiedShieldAmount@ shield for @ShieldDuration@ seconds and shackles herself to all enemies in a @Radius@ hex radius. She then deals @ModifiedDamagePerSecond@ magic damage per second to them, as long as the shield holds. <br><br>If the shield expires without being broken, all targets are stunned for @StunDuration@ seconds. If the shield is broken, Morgana instead refunds herself @RefundedMana@ mana.",
+        "icon": "https://raw.communitydragon.org/12.10/game/assets/characters/morgana/hud/icons2d/fallenangel_purgatory.png",
+        "variables": {
+          "ShieldAmount": [
+            50,
+            500,
+            600,
+            700,
+            550,
+            675,
+            800
+          ],
+          "ShieldDuration": [
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3
+          ],
+          "Radius": [
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2
+          ],
+          "StunDuration": [
+            0,
+            1.5,
+            2,
+            2.5,
+            0,
+            0,
+            0
+          ],
+          "DamagePerSecond": [
+            0,
+            80,
+            125,
+            175,
+            0,
+            0,
+            0
+          ],
+          "RefundedMana": [
+            30,
+            30,
+            30,
+            30,
+            30,
+            30,
+            30
+          ]
+        }
+      },
+      "icon": "/assets/set6.5/champions/TFT6_Morgana.webp"
+    },
+    {
+      "id": "TFT6_Lucian",
+      "name": "Lucian",
+      "cost": 3,
+      "traits": [
+        "Set6_Hextech",
+        "Set6_Twinshot"
+      ],
+      "stats": {
+        "hp": 700,
+        "mana": {
+          "initial": 0,
+          "max": 40
+        },
+        "armor": 30,
+        "mr": 30,
+        "ad": 55,
+        "as": 0.75,
+        "range": 3
+      },
+      "ability": {
+        "name": "Relentless Pursuit",
+        "description": "Lucian dashes away from his current target and fires @NumShots@ shots at nearby enemies that each deal @ModifiedDamage@ magic damage.",
+        "icon": "https://raw.communitydragon.org/12.10/game/assets/characters/lucian/hud/icons2d/lucian_e.png",
+        "variables": {
+          "Damage": [
+            0,
+            170,
+            260,
+            295,
+            500,
+            625,
+            750
+          ],
+          "NumShots": [
+            0,
+            2,
+            2,
+            3,
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      "icon": "/assets/set6.5/champions/TFT6_Lucian.webp"
+    },
+    {
+      "id": "TFT6_Draven",
+      "name": "Draven",
+      "cost": 4,
+      "traits": [
+        "Set6_Debonair",
+        "Set6_Challenger"
+      ],
+      "stats": {
+        "hp": 800,
+        "mana": {
+          "initial": 0,
+          "max": 40
+        },
+        "armor": 30,
+        "mr": 30,
+        "ad": 85,
+        "as": 0.8,
+        "range": 4
+      },
+      "ability": {
+        "name": "Spinning Axes",
+        "description": "Passive: Draven ignores @PassiveArmorPenPercent@% of his target's Armor.<br><br>Draven starts spinning an axe, empowering his next attack to deal <scaleAD>@TotalDamage@</scaleAD> bonus physical damage (@ADMult*100@% of his Attack Damage %i:scaleAD% + @ModifiedDamage@). It will return to his original location after striking the target. If Draven catches it, he will empower the axe again. Draven can spin up to 2 axes at a time.<br><br><TFTDebonairVIP>VIP Bonus: Draven gains infinite attack range and ignores an additional @ArmorPenPercent@% his target's Armor.</TFTDebonairVIP>",
+        "icon": "https://raw.communitydragon.org/12.10/game/assets/characters/draven/hud/icons2d/draven_spinningaxe.png",
+        "variables": {
+          "BuffDuration": [
+            5.75,
+            5.75,
+            5.75,
+            5.75,
+            5.75,
+            5.75,
+            5.75
+          ],
+          "ADMult": [
+            1,
+            1.7,
+            1.8,
+            4,
+            3,
+            3.5,
+            4
+          ],
+          "Damage": [
+            0,
+            120,
+            150,
+            400,
+            0,
+            0,
+            0
+          ],
+          "ArmorPenPercent": [
+            25,
+            25,
+            25,
+            25,
+            25,
+            25,
+            25
+          ],
+          "T1DebutantBonus": [
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5
+          ],
+          "PassiveArmorPenPercent": [
+            25,
+            25,
+            25,
+            25,
+            25,
+            25,
+            25
+          ]
+        }
+      },
+      "icon": "/assets/set6.5/champions/TFT6_Draven.webp"
+    },
+    {
+      "id": "TFT6_KhaZix",
+      "name": "Kha'Zix",
+      "cost": 4,
+      "traits": [
+        "Set6_Mutant",
+        "Set6_Assassin"
+      ],
+      "stats": {
+        "hp": 800,
+        "mana": {
+          "initial": 0,
+          "max": 40
+        },
+        "armor": 35,
+        "mr": 35,
+        "ad": 90,
+        "as": 0.9,
+        "range": 1
+      },
+      "ability": {
+        "name": "Void Assault",
+        "description": "Kha'Zix leaps towards the lowest Health enemy, striking them for <scaleAD>@TotalDamage@</scaleAD> physical damage (@ADPercent*100@% of his Attack Damage %i:scaleAD% + @ModifiedDamage@) and increasing their maximum Mana by @ManaReave@% until they cast.",
+        "icon": "https://raw.communitydragon.org/12.10/game/assets/characters/khazix/hud/icons2d/khazix_r.png",
+        "variables": {
+          "MSBuff": [
+            1500,
+            1500,
+            1500,
+            1500,
+            1500,
+            1500,
+            1500
+          ],
+          "Damage": [
+            0,
+            175,
+            225,
+            500,
+            500,
+            500,
+            500
+          ],
+          "ManaReave": [
+            0,
+            50,
+            50,
+            50,
+            20,
+            25,
+            30
+          ],
+          "ADPercent": [
+            0,
+            1.8,
+            1.85,
+            2.6,
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      "icon": "/assets/set6.5/champions/TFT6_KhaZix.webp"
+    },
+    {
+      "id": "TFT6_Ahri",
+      "name": "Ahri",
+      "cost": 4,
+      "traits": [
+        "Set6_Syndicate",
+        "Set6_Arcanist"
+      ],
+      "stats": {
+        "hp": 800,
+        "mana": {
+          "initial": 30,
+          "max": 50
+        },
+        "armor": 30,
+        "mr": 30,
+        "ad": 45,
+        "as": 0.8,
+        "range": 4
+      },
+      "ability": {
+        "name": "Orbs of Deception",
+        "description": "Ahri fires an orb in a @HexRange@ hex line, dealing @ModifiedDamage@ magic damage to all enemies it passes through on the way out and the way back. Enemies already hit by an orb take @MultiOrbDamage*100@% damage for each subsequent orb. Ahri fires @SpiritFireStacks@ additional orb(s) for each time she has cast this combat.",
+        "icon": "https://raw.communitydragon.org/12.10/game/assets/characters/ahri/hud/icons2d/ahri_orbofdeception.png",
+        "variables": {
+          "Damage": [
+            150,
+            140,
+            210,
+            500,
+            500,
+            400,
+            400
+          ],
+          "HexRange": [
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5
+          ],
+          "SpiritFireStacks": [
+            0,
+            1,
+            1,
+            2,
+            0,
+            0,
+            0
+          ],
+          "MultiOrbDamage": [
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.6
+          ],
+          "AngleBetweenOrbs": [
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10
+          ]
+        }
+      },
+      "icon": "/assets/set6.5/champions/TFT6_Ahri.webp"
+    },
+    {
+      "id": "TFT6_Irelia",
+      "name": "Irelia",
+      "cost": 4,
+      "traits": [
+        "Set6_Scrap",
+        "Set6_Striker"
+      ],
+      "stats": {
+        "hp": 900,
+        "mana": {
+          "initial": 0,
+          "max": 40
+        },
+        "armor": 50,
+        "mr": 50,
+        "ad": 70,
+        "as": 0.8,
+        "range": 1
+      },
+      "ability": {
+        "name": "Bladesurge",
+        "description": "Irelia dashes to her target, striking them for <scaleAD>@TooltipDamage@</scaleAD> physical damage (@PercentADDamage*100@% of her Attack Damage %i:scaleAD% + @ModifiedDamage@). If this kills the target, she Bladesurges again at the lowest Health enemy.",
+        "icon": "https://raw.communitydragon.org/12.10/game/assets/characters/irelia/hud/icons2d/irelia_q.png",
+        "variables": {
+          "PercentADDamage": [
+            1.9,
+            1.9,
+            1.9,
+            1.9,
+            1.9,
+            1.9,
+            1.9
+          ],
+          "BaseDamage": [
+            0,
+            75,
+            100,
+            550,
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      "icon": "/assets/set6.5/champions/TFT6_Irelia.webp"
+    },
+    {
+      "id": "TFT6_Corki",
+      "name": "Corki",
+      "cost": 2,
+      "traits": [
+        "Set6_Yordle",
+        "Set6_Twinshot"
+      ],
+      "stats": {
+        "hp": 650,
+        "mana": {
+          "initial": 25,
+          "max": 50
+        },
+        "armor": 25,
+        "mr": 25,
+        "ad": 55,
+        "as": 0.7,
+        "range": 4
+      },
+      "ability": {
+        "name": "Bombardment",
+        "description": "Corki fires a missile at his target that explodes on impact, dealing @ModifiedDamage@ magic damage to enemies within 1 hex.",
+        "icon": "https://raw.communitydragon.org/12.10/game/assets/characters/corki/hud/icons2d/corki_missilebarrage.png",
+        "variables": {
+          "RocketDamage": [
+            0,
+            180,
+            220,
+            290,
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      "icon": "/assets/set6.5/champions/TFT6_Corki.webp"
+    },
+    {
+      "id": "TFT6_Senna",
+      "name": "Senna",
+      "cost": 3,
+      "traits": [
+        "Set6_Socialite",
+        "Set6_Enchanter"
+      ],
+      "stats": {
+        "hp": 650,
+        "mana": {
+          "initial": 30,
+          "max": 70
+        },
+        "armor": 25,
+        "mr": 25,
+        "ad": 60,
+        "as": 0.7,
+        "range": 4
+      },
+      "ability": {
+        "name": "Piercing Darkness",
+        "description": "Senna fires a beam in the direction of her target, dealing <scaleAD>@TotalDamage@</scaleAD> physical damage (@PercentAD*100@% of her Attack Damage %i:scaleAD% + @Damage@). For each enemy hit, she heals the lowest health ally for @ModifiedPercentHealing@ of the damage dealt.",
+        "icon": "https://raw.communitydragon.org/12.10/game/assets/characters/senna/hud/icons2d/senna_q.png",
+        "variables": {
+          "PercentAD": [
+            1.5,
+            1.5,
+            1.5,
+            1.5,
+            1.5,
+            1.5,
+            1.5
+          ],
+          "PercentHealing": [
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.6
+          ],
+          "BaseHealing": [],
+          "Damage": [
+            0,
+            100,
+            140,
+            200,
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      "icon": "/assets/set6.5/champions/TFT6_Senna.webp"
+    },
+    {
+      "id": "TFT6_Alistar",
+      "name": "Alistar",
+      "cost": 4,
+      "traits": [
+        "Set6_Hextech",
+        "Set6_Colossus"
+      ],
+      "stats": {
+        "hp": 1400,
+        "mana": {
+          "initial": 80,
+          "max": 160
+        },
+        "armor": 80,
+        "mr": 80,
+        "ad": 90,
+        "as": 0.6,
+        "range": 1
+      },
+      "ability": {
+        "name": "Pulverize",
+        "description": "Alistar charges at his target, knocking them back for a short distance. Then he slams the ground, dealing @ModifiedDamage@ magic damage and stunning all nearby enemies for @StunDuration@ seconds.",
+        "icon": "https://raw.communitydragon.org/12.10/game/assets/characters/tft6_alistar/hud/icons2d/tft6_alistar_q.tft_set6_stage2.png",
+        "variables": {
+          "Damage": [
+            0,
+            200,
+            325,
+            1200,
+            1000,
+            1000,
+            900
+          ],
+          "Radius": [
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2
+          ],
+          "StunDuration": [
+            1.5,
+            1.5,
+            2,
+            8,
+            3.5,
+            4,
+            4.5
+          ],
+          "KnockupDuration": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ]
+        }
+      },
+      "icon": "/assets/set6.5/champions/TFT6_Alistar.webp"
+    },
+    {
+      "id": "TFT6_Renata",
+      "name": "Renata Glasc",
+      "cost": 4,
+      "traits": [
+        "Set6_Chemtech",
+        "Set6_Scholar"
+      ],
+      "stats": {
+        "hp": 800,
+        "mana": {
+          "initial": 0,
+          "max": 60
+        },
+        "armor": 30,
+        "mr": 30,
+        "ad": 40,
+        "as": 0.7,
+        "range": 3
+      },
+      "ability": {
+        "name": "Toxic Wave",
+        "description": "Renata unleashes a toxic poison wave towards the largest group of nearby enemies within @SpellRange@ hexes, poisoning all enemies caught in its path for @Duration@ seconds. Poisoned enemies suffer @ASReduction@% reduced Attack Speed and take @ModifiedDamagePerSecond@ magic damage per second. The poison's damage can stack, but is removed if Renata dies.",
+        "icon": "https://raw.communitydragon.org/12.10/game/assets/characters/tft6_renata/hud/icons2d/renata_toxicwave_2.png",
+        "variables": {
+          "DamagePerSecond": [
+            1,
+            50,
+            75,
+            250,
+            2,
+            2.25,
+            2.5
+          ],
+          "ASReduction": [
+            0.3,
+            20,
+            20,
+            20,
+            0.3,
+            0.3,
+            0.3
+          ],
+          "Duration": [
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15
+          ],
+          "SpellRange": [
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6
+          ]
+        }
+      },
+      "icon": "/assets/set6.5/champions/TFT6_Renata.webp"
+    },
+    {
+      "id": "TFT6_Silco",
+      "name": "Silco",
+      "cost": 5,
+      "traits": [
+        "Set6_Mastermind",
+        "Set6_Scholar"
+      ],
+      "stats": {
+        "hp": 850,
+        "mana": {
+          "initial": 0,
+          "max": 40
+        },
+        "armor": 40,
+        "mr": 40,
+        "ad": 60,
+        "as": 0.7,
+        "range": 4
+      },
+      "ability": {
+        "name": "Unstable Concoction",
+        "description": "Silco injects an unstable concoction into @NumTargets@ of his lowest Health allies, granting them @MaxHealth*100@% maximum Health, @AttackSpeed*100@% bonus Attack Speed, and immunity to crowd control for @Duration@ seconds. When the concoction wears off, unstable units die by explosion, dealing @ModifiedDamage@ magic damage to nearby enemies.",
+        "icon": "https://raw.communitydragon.org/12.10/game/assets/characters/tft6_silco/hud/icons2d/tft6_silco_eyeofthestorm.tft_set6_stage2.png",
+        "variables": {
+          "NumTargets": [
+            0,
+            1,
+            1,
+            5,
+            4,
+            5,
+            6
+          ],
+          "AttackSpeed": [
+            50,
+            0.5,
+            1.25,
+            6.66,
+            0.5,
+            0.5,
+            0.5
+          ],
+          "MaxHealth": [
+            70,
+            0.5,
+            0.5,
+            0.5,
+            70,
+            70,
+            70
+          ],
+          "Duration": [
+            6,
+            6,
+            7,
+            10,
+            6,
+            6,
+            6
+          ],
+          "Damage": [
+            0,
+            350,
+            600,
+            5000,
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      "icon": "/assets/set6.5/champions/TFT6_Silco.webp"
+    },
+    {
+      "id": "TFT6_Zeri",
+      "name": "Zeri",
+      "cost": 5,
+      "traits": [
+        "Set6_Debonair",
+        "Set6_Sniper"
+      ],
+      "stats": {
+        "hp": 850,
+        "mana": {
+          "initial": 0,
+          "max": 60
+        },
+        "armor": 30,
+        "mr": 30,
+        "ad": 75,
+        "as": 0.9,
+        "range": 11
+      },
+      "ability": {
+        "name": "Lightning Crash",
+        "description": "Zeri charges herself up with electricity for @Duration@ seconds. While electrified, she aims at the farthest enemy, her attacks pierce, and she dashes after every shot.<br><br>Passive: Zeri's Basic Attacks fire @NumBullets@ bullets, each dealing <scaleAD>@TooltipDamage@</scaleAD> physical damage (@PercentAD*100@% of her Attack Damage %i:scaleAD%) and @ModifiedBonusOnHit@ bonus magic damage. <br><br><TFTDebonairVIP>VIP Bonus: Zeri's electrified duration lasts until the end of combat. </TFTDebonairVIP>",
+        "icon": "https://raw.communitydragon.org/12.10/game/assets/characters/zeri/hud/icons2d/zerir.zeri.png",
+        "variables": {
+          "Damage": [
+            0,
+            200,
+            350,
+            5000,
+            500,
+            625,
+            750
+          ],
+          "NumBullets": [
+            5,
+            5,
+            5,
+            30,
+            5,
+            5,
+            5
+          ],
+          "PercentAD": [
+            0.18,
+            0.18,
+            0.18,
+            0.18,
+            0.18,
+            0.18,
+            0.18
+          ],
+          "BonusOnHit": [
+            0,
+            12,
+            20,
+            40,
+            0,
+            0,
+            0
+          ],
+          "Duration": [
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6
+          ],
+          "CritBoost": [
+            0.25,
+            0.25,
+            0.4,
+            1,
+            0.25,
+            0.25,
+            0.25
+          ],
+          "CritDuration": [
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8
+          ],
+          "VIPTotalDuration": [
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60
+          ]
+        }
+      },
+      "icon": "/assets/set6.5/champions/TFT6_Zeri.webp"
+    },
+    {
+      "id": "TFT6_Twitch",
+      "name": "Twitch",
+      "cost": 1,
+      "traits": [
+        "Set6_Chemtech",
+        "Set6_Assassin"
+      ],
+      "stats": {
+        "hp": 450,
+        "mana": {
+          "initial": 0,
+          "max": 45
+        },
+        "armor": 15,
+        "mr": 15,
+        "ad": 45,
+        "as": 0.7,
+        "range": 3
+      },
+      "ability": {
+        "name": "Piercing Bolt",
+        "description": "Twitch fires a powerful bolt towards his target that pierces through enemies, deals <scaleAD>@TotalDamage@</scaleAD> physical damage (@PercentAttackDamage*100@% of his Attack Damage %i:scaleAD% + @ModifiedDamage@), and reduces healing by @GWStrength*100@% for @GWDuration@ seconds.",
+        "icon": "https://raw.communitydragon.org/12.10/game/assets/characters/twitch/hud/icons2d/twitch_r.png",
+        "variables": {
+          "PercentAttackDamage": [
+            1.25,
+            1.25,
+            1.25,
+            1.25,
+            1.25,
+            1.25,
+            1.25
+          ],
+          "GWStrength": [
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5
+          ],
+          "GWDuration": [
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5
+          ],
+          "BaseDamage": [
+            0.5,
+            60,
+            70,
+            80,
+            0.5,
+            0,
+            0
+          ]
+        }
+      },
+      "icon": "/assets/set6.5/champions/TFT6_Twitch.webp"
+    },
+    {
+      "id": "TFT6_Swain",
+      "name": "Swain",
+      "cost": 2,
+      "traits": [
+        "Set6_Hextech",
+        "Set6_Arcanist"
+      ],
+      "stats": {
+        "hp": 800,
+        "mana": {
+          "initial": 40,
+          "max": 85
+        },
+        "armor": 45,
+        "mr": 45,
+        "ad": 40,
+        "as": 0.6,
+        "range": 2
+      },
+      "ability": {
+        "name": "Death's Hand",
+        "description": "Swain unleashes piercing bolts of eldritch power in a cone towards his target, dealing @ModifiedDamage@ magic damage to enemies within and healing Swain for @ModifiedHealing@ for each enemy hit.",
+        "icon": "https://raw.communitydragon.org/12.10/game/assets/characters/swain/hud/icons2d/swain_q.png",
+        "variables": {
+          "BaseDamage": [
+            0,
+            250,
+            350,
+            500,
+            0,
+            0,
+            0
+          ],
+          "Range": [
+            660,
+            660,
+            660,
+            660,
+            660,
+            660,
+            660
+          ],
+          "Healing": [
+            80,
+            250,
+            300,
+            350,
+            80,
+            80,
+            80
+          ]
+        }
+      },
+      "icon": "/assets/set6.5/champions/TFT6_Swain.webp"
+    },
+    {
+      "id": "TFT6_JarvanIV",
+      "name": "Jarvan IV",
+      "cost": 1,
+      "traits": [
+        "Set6_Hextech",
+        "Set6_Striker"
+      ],
+      "stats": {
+        "hp": 700,
+        "mana": {
+          "initial": 50,
+          "max": 100
+        },
+        "armor": 40,
+        "mr": 40,
+        "ad": 55,
+        "as": 0.7,
+        "range": 1
+      },
+      "ability": {
+        "name": "Ageless Standard",
+        "description": "Jarvan calls down his standard to a nearby location, granting all nearby allies @ModifiedAS@ Attack Speed for @Duration@ seconds.",
+        "icon": "https://raw.communitydragon.org/12.10/game/assets/characters/jarvaniv/hud/icons2d/jarvaniv_demacianstandard.png",
+        "variables": {
+          "Duration": [
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5
+          ],
+          "HexRadius": [
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3
+          ],
+          "ASPercent": [
+            0.65,
+            0.4,
+            0.55,
+            0.8,
+            1.05,
+            1.15,
+            1.25
+          ]
+        }
+      },
+      "icon": "/assets/set6.5/champions/TFT6_JarvanIV.webp"
+    }
+  ],
+  "items": [
+    {
+      "id": "TFT_Item_RabadonsDeathcap",
+      "name": "Mũ Phù Thủy Rabadon",
+      "components": [
+        "TFT_Item_NeedlesslyLargeRod",
+        "TFT_Item_NeedlesslyLargeRod"
+      ],
+      "description": "<tftitemrules>Chiếc mũ này có thể giúp bạn xoay chuyển cả thế giới.</tftitemrules><br><br>@TFTUnitProperty.:TFT_Augment_DeadlierCaps_TRAKey@",
+      "isUnique": false,
+      "icon": "/assets/set6.5/items/TFT_Item_RabadonsDeathcap.webp"
+    },
+    {
+      "id": "TFT_Item_InfinityEdge",
+      "name": "Vô Cực Kiếm",
+      "components": [
+        "TFT_Item_BFSword",
+        "TFT_Item_SparringGloves"
+      ],
+      "description": "Nhận <TFTKeyword>Chuẩn Xác</TFTKeyword>.<br><br>{{TFT_Keyword_Precision}}",
+      "isUnique": true,
+      "icon": "/assets/set6.5/items/TFT_Item_InfinityEdge.webp"
+    },
+    {
+      "id": "TFT_Item_FrozenHeart",
+      "name": "Lời Thề Hộ Vệ",
+      "components": [
+        "TFT_Item_TearOfTheGoddess",
+        "TFT_Item_ChainVest"
+      ],
+      "description": "Bắt Đầu Giao Tranh: Nhận @CombatStartMana@ Năng Lượng.<br><br>Khi còn @HealthThreshold@% Máu, nhận @TriggerMana@ Năng Lượng và Lá Chắn bằng @ShieldHealthPercent@% Máu tối đa.",
+      "isUnique": true,
+      "icon": "/assets/set6.5/items/TFT_Item_FrozenHeart.webp"
+    },
+    {
+      "id": "TFT6_Item_EnforcerEmblemItem",
+      "name": "Ấn Cảnh Binh",
+      "components": [],
+      "description": "Chủ sở hữu là Cảnh Binh.<br><br><tftitemrules>[Duy Nhất - chỉ một mỗi tướng]<br>Thần Bí - không có công thức ghép.]</tftitemrules>",
+      "isUnique": true,
+      "icon": "/assets/set6.5/items/TFT6_Item_EnforcerEmblemItem.webp"
+    },
+    {
+      "id": "TFT_Item_Shroud",
+      "name": "Áo Choàng Tĩnh Lặng",
+      "components": [
+        "TFT_Item_ChainVest",
+        "TFT_Item_SparringGloves"
+      ],
+      "description": "Bắt đầu giao tranh: Bắn một tia khiến kẻ địch chịu @CostIncrease@% <TFTKeyword>Tăng Năng Lượng</TFTKeyword>.<br><br>Đội của bạn nhận được @BonusAllyHealth@ Máu.<br><br><tftitemrules>[Trang Bị Hỗ Trợ] [Duy Nhất - chỉ 1 mỗi tướng]<br><tftbold>Tăng Năng Lượng</tftbold>: Tăng Năng Lượng tối đa cho tới lần tung chiêu tiếp theo</tftitemrules><br>@TFTUnitProperty.:TFT_BindOnEquipTRA@",
+      "isUnique": true,
+      "icon": "/assets/set6.5/items/TFT_Item_Shroud.webp"
+    },
+    {
+      "id": "TFT_Item_Redemption",
+      "name": "Giáp Tâm Linh",
+      "components": [
+        "TFT_Item_TearOfTheGoddess",
+        "TFT_Item_GiantsBelt"
+      ],
+      "description": "Hồi lại @MissingHealthHeal*100@% Máu đã mất mỗi giây.",
+      "isUnique": false,
+      "icon": "/assets/set6.5/items/TFT_Item_Redemption.webp"
+    },
+    {
+      "id": "TFT_Item_Zephyr",
+      "name": "Phong Kiếm",
+      "components": [
+        "TFT_Item_NegatronCloak",
+        "TFT_Item_GiantsBelt"
+      ],
+      "description": "Bắt đầu giao tranh: Triệu hồi lốc xoáy ở phía bên kia sân đấu, loại bỏ kẻ địch gần nhất khỏi sân đấu trong @BanishDuration@ giây. <br><br>Đội của bạn nhận được @AllyBonusAS@% Tốc Độ Đánh.<br><br><tftitemrules>[Trang Bị Hỗ Trợ]<br>[Bỏ qua khả năng miễn nhiễm khống chế.]<br>[Duy Nhất - chỉ 1 mỗi tướng]</tftitemrules><br>@TFTUnitProperty.:TFT_BindOnEquipTRA@",
+      "isUnique": true,
+      "icon": "/assets/set6.5/items/TFT_Item_Zephyr.webp"
+    },
+    {
+      "id": "TFT6_Item_ClockworkEmblemItem",
+      "name": "Ấn Máy Móc",
+      "components": [],
+      "description": "Chủ sở hữu là Máy Móc.<br><br><tftitemrules>[Duy Nhất - chỉ một mỗi tướng]<br>Thần Bí - không có công thức ghép.]</tftitemrules>",
+      "isUnique": true,
+      "icon": "/assets/set6.5/items/TFT6_Item_ClockworkEmblemItem.webp"
+    },
+    {
+      "id": "TFT_Item_ZekesHerald",
+      "name": "Tụ Bão Zeke",
+      "components": [
+        "TFT_Item_BFSword",
+        "TFT_Item_GiantsBelt"
+      ],
+      "description": "Bắt đầu giao tranh: Tăng %i:scaleAS% @AttackSpeed@% Tốc Độ Đánh cho chủ sở hữu và đồng minh trong phạm vi 2 ô cùng hàng.<br><br>​<tftitemrules>[Trang Bị Hỗ Trợ]</tftitemrules>",
+      "isUnique": false,
+      "icon": "/assets/set6.5/items/TFT_Item_ZekesHerald.webp"
+    },
+    {
+      "id": "TFT_Item_ThiefsGloves",
+      "name": "Găng Đạo Tặc",
+      "components": [
+        "TFT_Item_SparringGloves",
+        "TFT_Item_SparringGloves"
+      ],
+      "description": "Mỗi vòng: Mang 2 trang bị ngẫu nhiên.<br><br><tftitemrules>[Tốn 3 ô trang bị.]</tftitemrules><br>@TFTUnitProperty.:TFT_BindOnEquipTRA@",
+      "isUnique": false,
+      "icon": "/assets/set6.5/items/TFT_Item_ThiefsGloves.webp"
+    },
+    {
+      "id": "TFT_Item_GuinsoosRageblade",
+      "name": "Cuồng Đao Guinsoo",
+      "components": [
+        "TFT_Item_RecurveBow",
+        "TFT_Item_NeedlesslyLargeRod"
+      ],
+      "description": "Nhận @AttackSpeedPerStack@% Tốc Độ Đánh cộng dồn mỗi giây.",
+      "isUnique": false,
+      "icon": "/assets/set6.5/items/TFT_Item_GuinsoosRageblade.webp"
+    },
+    {
+      "id": "TFT_Item_IonicSpark",
+      "name": "Nỏ Sét",
+      "components": [
+        "TFT_Item_NeedlesslyLargeRod",
+        "TFT_Item_NegatronCloak"
+      ],
+      "description": "@MRShred@% <TFTKeyword>Cào Xé</TFTKeyword> kẻ địch trong vòng @HexRange@ ô. Khi kẻ địch sử dụng Kỹ Năng, gây sát thương phép tương đương @ManaRatio@% Năng Lượng đã tiêu hao.<br><br><tftitemrules><tftbold>Cào Xé</tftbold>: Giảm Kháng Phép</tftitemrules>",
+      "isUnique": false,
+      "icon": "/assets/set6.5/items/TFT_Item_IonicSpark.webp"
+    },
+    {
+      "id": "TFT_Item_DragonsClaw",
+      "name": "Vuốt Rồng",
+      "components": [
+        "TFT_Item_NegatronCloak",
+        "TFT_Item_NegatronCloak"
+      ],
+      "description": "Nhận @PercentMaxHP*100@% máu tối đa.<br><br>Sau mỗi @HealthRegenInterval@ giây, hồi lại @PercentHealthDamage@% Máu tối đa.",
+      "isUnique": false,
+      "icon": "/assets/set6.5/items/TFT_Item_DragonsClaw.webp"
+    },
+    {
+      "id": "TFT_Item_PowerGauntlet",
+      "name": "Chùy Đoản Côn",
+      "components": [
+        "TFT_Item_GiantsBelt",
+        "TFT_Item_SparringGloves"
+      ],
+      "description": "Đòn Chí Mạng sẽ cho @BuffDamageAmp*100@% Khuếch Đại Sát Thương trong @Duration@ giây, cộng dồn tối đa @MaxStacks@ lần.",
+      "isUnique": false,
+      "icon": "/assets/set6.5/items/TFT_Item_PowerGauntlet.webp"
+    },
+    {
+      "id": "TFT6_Item_BodyguardEmblemItem",
+      "name": "Ấn Vệ Sĩ",
+      "components": [],
+      "description": "Chủ sở hữu là Vệ Sĩ.<br><br><tftitemrules>[Duy Nhất - chỉ một mỗi tướng]<br>Thần Bí - không có công thức ghép.]</tftitemrules>",
+      "isUnique": true,
+      "icon": "/assets/set6.5/items/TFT6_Item_BodyguardEmblemItem.webp"
+    },
+    {
+      "id": "TFT_Item_GargoyleStoneplate",
+      "name": "Thú Tượng Thạch Giáp",
+      "components": [
+        "TFT_Item_ChainVest",
+        "TFT_Item_NegatronCloak"
+      ],
+      "description": "Tăng @ArmorPerEnemy@ Giáp và @MRPerEnemy@ Kháng Phép với mỗi kẻ địch đang nhắm vào chủ sở hữu.",
+      "isUnique": false,
+      "icon": "/assets/set6.5/items/TFT_Item_GargoyleStoneplate.webp"
+    },
+    {
+      "id": "TFT_Item_BrambleVest",
+      "name": "Áo Choàng Gai",
+      "components": [
+        "TFT_Item_ChainVest",
+        "TFT_Item_ChainVest"
+      ],
+      "description": "Nhận @PercentMaxHP*100@% máu tối đa.<br><br>Giảm @AutoDamageReduction*100@% sát thương từ đòn đánh. Khi bị trúng đòn đánh bất kỳ, gây <magicDamage>@1StarAoEDamage@ sát thương phép</magicDamage> lên tất cả kẻ địch liền kề.<br><br><tftitemrules>Hồi chiêu: @ICD@ giây</tftitemrules>",
+      "isUnique": false,
+      "icon": "/assets/set6.5/items/TFT_Item_BrambleVest.webp"
+    },
+    {
+      "id": "TFT_Item_ChainVest",
+      "name": "Giáp Lưới",
+      "components": [],
+      "description": "%i:scaleArmor% +@Armor@ Giáp",
+      "isUnique": false,
+      "icon": "/assets/set6.5/items/TFT_Item_ChainVest.webp"
+    },
+    {
+      "id": "TFT6_Item_ProtectorEmblemItem",
+      "name": "Ấn Hộ Vệ",
+      "components": [],
+      "description": "Chủ sở hữu là Hộ Vệ.<br><br><tftitemrules>[Duy Nhất - chỉ một mỗi tướng]<br>Thần Bí - không có công thức ghép.]</tftitemrules>",
+      "isUnique": true,
+      "icon": "/assets/set6.5/items/TFT6_Item_ProtectorEmblemItem.webp"
+    },
+    {
+      "id": "TFT6_Item_InnovatorEmblemItem",
+      "name": "Ấn Nhà Phát Minh",
+      "components": [],
+      "description": "Chủ sở hữu là Nhà Phát Minh.<br><br><tftitemrules>[Duy Nhất - chỉ một mỗi tướng]<br>Thần Bí - không có công thức ghép.]</tftitemrules>",
+      "isUnique": true,
+      "icon": "/assets/set6.5/items/TFT6_Item_InnovatorEmblemItem.webp"
+    },
+    {
+      "id": "TFT6_Item_ScholarEmblemItem",
+      "name": "Ấn Học Giả",
+      "components": [],
+      "description": "Chủ sở hữu là Học Giả.<br><br><tftitemrules>[Duy Nhất - chỉ một mỗi tướng]<br>Thần Bí - không có công thức ghép.]</tftitemrules>",
+      "isUnique": true,
+      "icon": "/assets/set6.5/items/TFT6_Item_ScholarEmblemItem.webp"
+    },
+    {
+      "id": "TFT_Item_RecurveBow",
+      "name": "Cung Gỗ",
+      "components": [],
+      "description": "%i:scaleAS% +@AS@% Tốc Độ Đánh",
+      "isUnique": false,
+      "icon": "/assets/set6.5/items/TFT_Item_RecurveBow.webp"
+    },
+    {
+      "id": "TFT_Item_MadredsBloodrazor",
+      "name": "Diệt Khổng Lồ",
+      "components": [
+        "TFT_Item_BFSword",
+        "TFT_Item_RecurveBow"
+      ],
+      "description": "Nhận thêm @DamageAmp*100@% Khuếch Đại Sát Thương trước Tướng Đỡ Đòn.",
+      "isUnique": false,
+      "icon": "/assets/set6.5/items/TFT_Item_MadredsBloodrazor.webp"
+    },
+    {
+      "id": "TFT_Item_RedBuff",
+      "name": "Áo Choàng Lửa",
+      "components": [
+        "TFT_Item_ChainVest",
+        "TFT_Item_GiantsBelt"
+      ],
+      "description": "Nhận @BonusPercentHP*100@% Máu tối đa. <br><br>Mỗi @ICD@ giây, gây @BurnPercent@% <TFTKeyword>Thiêu Đốt</TFTKeyword> và @GrievousWoundsPercent@% <TFTKeyword>Vết Thương Sâu</TFTKeyword> lên 1 kẻ địch trong phạm vi @HexRange@ ô trong @BurnDuration@ giây.<br><br><tftitemrules><tftbold>Thiêu Đốt</tftbold>: Gây sát thương chuẩn mỗi giây theo Máu tối đa của mục tiêu<br><tftbold>Vết Thương Sâu</tftbold>: Giảm hồi máu nhận được</tftitemrules>",
+      "isUnique": true,
+      "icon": "/assets/set6.5/items/TFT_Item_RedBuff.webp"
+    },
+    {
+      "id": "TFT6_Item_ImperialEmblemItem",
+      "name": "Ấn Đế Chế",
+      "components": [
+        "TFT_Item_Spatula",
+        "TFT_Item_BFSword"
+      ],
+      "description": "Chủ sở hữu là Đế Chế.<br><br><tftitemrules>[Duy Nhất - chỉ một mỗi tướng]</tftitemrules>",
+      "isUnique": true,
+      "icon": "/assets/set6.5/items/TFT6_Item_ImperialEmblemItem.webp"
+    },
+    {
+      "id": "TFT_Item_UnstableConcoction",
+      "name": "Bàn Tay Công Lý",
+      "components": [
+        "TFT_Item_TearOfTheGoddess",
+        "TFT_Item_SparringGloves"
+      ],
+      "description": "Nhận 2 hiệu ứng:<li>@AD_NotStatBar*100@% Sức Mạnh Công Kích và @AP_NotStatBar@% Sức Mạnh Phép Thuật.<li>@StatOmnivamp_NotStatBar*100@% Hút Máu Toàn Phần.<br><br>Khi còn trên @HealthThreshold*100@% Máu, tăng gấp đôi Sức Mạnh Công Kích và Sức Mạnh Phép Thuật. Khi còn dưới @HealthThreshold*100@% Máu, nhận gấp đôi lượng Hút Máu Toàn Phần.",
+      "isUnique": false,
+      "icon": "/assets/set6.5/items/TFT_Item_UnstableConcoction.webp"
+    },
+    {
+      "id": "TFT_Item_GuardianAngel",
+      "name": "Áo Choàng Bóng Tối",
+      "components": [
+        "TFT_Item_BFSword",
+        "TFT_Item_ChainVest"
+      ],
+      "description": "Khi còn @HealthThreshold@% Máu, trở nên không thể bị nhắm tới trong thoáng chốc, loại bỏ mọi hiệu ứng bất lợi và hồi lại @MissingHealthRestore*100@% Máu đã mất.",
+      "isUnique": true,
+      "icon": "/assets/set6.5/items/TFT_Item_GuardianAngel.webp"
+    },
+    {
+      "id": "TFT_Item_SeraphsEmbrace",
+      "name": "Bùa Xanh",
+      "components": [
+        "TFT_Item_TearOfTheGoddess",
+        "TFT_Item_TearOfTheGoddess"
+      ],
+      "description": "Nhận @ManaRefund@ Năng Lượng sau khi tung chiêu. <br><br>Khi chủ sở hữu tham gia hạ gục, họ sẽ gây thêm @DamageAmp*100@% sát thương trong @TakedownTimer@ giây.<br><br><tftitemrules>[Duy nhất - chỉ 1 mỗi tướng]</tftitemrules>",
+      "isUnique": true,
+      "icon": "/assets/set6.5/items/TFT_Item_SeraphsEmbrace.webp"
+    },
+    {
+      "id": "TFT_Item_TearOfTheGoddess",
+      "name": "Nước Mắt Nữ Thần",
+      "components": [],
+      "description": "%i:TFTManaRegen% +@ManaRegen@ Hồi Năng Lượng",
+      "isUnique": false,
+      "icon": "/assets/set6.5/items/TFT_Item_TearOfTheGoddess.webp"
+    },
+    {
+      "id": "TFT_Item_NegatronCloak",
+      "name": "Áo Choàng Bạc",
+      "components": [],
+      "description": "%i:scaleMR% +@MagicResist@ Kháng Phép",
+      "isUnique": false,
+      "icon": "/assets/set6.5/items/TFT_Item_NegatronCloak.webp"
+    },
+    {
+      "id": "TFT6_Item_BruiserEmblemItem",
+      "name": "Ấn Đấu Sĩ",
+      "components": [],
+      "description": "Chủ sở hữu là Đấu Sĩ.<br><br><tftitemrules>[Duy Nhất - chỉ một mỗi tướng]<br>Thần Bí - không có công thức ghép.]</tftitemrules>",
+      "isUnique": true,
+      "icon": "/assets/set6.5/items/TFT6_Item_BruiserEmblemItem.webp"
+    },
+    {
+      "id": "TFT_Item_TitansResolve",
+      "name": "Quyền Năng Khổng Lồ",
+      "components": [
+        "TFT_Item_ChainVest",
+        "TFT_Item_RecurveBow"
+      ],
+      "description": "Nhận @StackingAD*100@% Sức Mạnh Công Kích và @StackingSP@% Sức Mạnh Phép Thuật khi tấn công hoặc nhận sát thương, cộng dồn tối đa @StackCap@ lần. <br><br>Ở cộng dồn tối đa, nhận @StackedAmp*100@% Khuếch Đại Sát Thương và đồng thời được miễn nhiễm khống chế.",
+      "isUnique": false,
+      "icon": "/assets/set6.5/items/TFT_Item_TitansResolve.webp"
+    },
+    {
+      "id": "TFT6_Item_SocialiteEmblemItem",
+      "name": "Ấn Thần Tượng",
+      "components": [],
+      "description": "Chủ sở hữu là Thần Tượng.<br><br><tftitemrules>[Duy Nhất - chỉ một mỗi tướng]<br>Thần Bí - không có công thức ghép.]</tftitemrules>",
+      "isUnique": true,
+      "icon": "/assets/set6.5/items/TFT6_Item_SocialiteEmblemItem.webp"
+    },
+    {
+      "id": "TFT6_Item_MutantEmblemItem",
+      "name": "Ấn Đột Biến",
+      "components": [
+        "TFT_Item_NegatronCloak",
+        "TFT_Item_Spatula"
+      ],
+      "description": "Chủ sở hữu là Đột Biến.<br><br><tftitemrules>[Duy Nhất - chỉ một mỗi tướng]</tftitemrules>",
+      "isUnique": true,
+      "icon": "/assets/set6.5/items/TFT6_Item_MutantEmblemItem.webp"
+    },
+    {
+      "id": "TFT_Item_RunaansHurricane",
+      "name": "Thịnh Nộ Thủy Quái",
+      "components": [
+        "TFT_Item_NegatronCloak",
+        "TFT_Item_RecurveBow"
+      ],
+      "description": "Đòn đánh cho @ADOnAttack*100@% Sức Mạnh Công Kích cộng dồn, tối đa @MaxStacks@ đòn đánh. Sau @MaxStacks@ đòn đánh, nhận @ASCapstone*100@% Tốc Độ Đánh.",
+      "isUnique": false,
+      "icon": "/assets/set6.5/items/TFT_Item_RunaansHurricane.webp"
+    },
+    {
+      "id": "TFT_Item_SparringGloves",
+      "name": "Găng Đấu Tập",
+      "components": [],
+      "description": "+@CritChance@ Tỉ Lệ Chí Mạng",
+      "isUnique": false,
+      "icon": "/assets/set6.5/items/TFT_Item_SparringGloves.webp"
+    },
+    {
+      "id": "TFT_Item_Bloodthirster",
+      "name": "Huyết Kiếm",
+      "components": [
+        "TFT_Item_BFSword",
+        "TFT_Item_NegatronCloak"
+      ],
+      "description": "Một lần mỗi giao tranh khi còn @HealthThreshold@% Máu, nhận Lá Chắn bằng @ShieldHealthPercent@% Máu tối đa, duy trì trong @ShieldDuration@ giây.",
+      "isUnique": false,
+      "icon": "/assets/set6.5/items/TFT_Item_Bloodthirster.webp"
+    },
+    {
+      "id": "TFT_Item_ArchangelsStaff",
+      "name": "Quyền Trượng Thiên Thần ",
+      "components": [
+        "TFT_Item_NeedlesslyLargeRod",
+        "TFT_Item_TearOfTheGoddess"
+      ],
+      "description": "Bắt đầu giao tranh: Nhận @APPerInterval@% Sức Mạnh Phép Thuật mỗi @IntervalSeconds@ giây trong giao tranh.",
+      "isUnique": false,
+      "icon": "/assets/set6.5/items/TFT_Item_ArchangelsStaff.webp"
+    },
+    {
+      "id": "TFT6_Item_ScrapEmblemItem",
+      "name": "Ấn Tái Chế",
+      "components": [],
+      "description": "Chủ sở hữu là Tái Chế.<br><br><tftitemrules>[Duy Nhất - chỉ một mỗi tướng]<br>Thần Bí - không có công thức ghép.]</tftitemrules>",
+      "isUnique": true,
+      "icon": "/assets/set6.5/items/TFT6_Item_ScrapEmblemItem.webp"
+    },
+    {
+      "id": "TFT6_Item_DebonairEmblemItem",
+      "name": "Ấn Thanh Lịch",
+      "components": [
+        "TFT_Item_ChainVest",
+        "TFT_Item_Spatula"
+      ],
+      "description": "Chủ sở hữu trở nên Thanh Lịch.<br><br><tftitemrules>[Duy Nhất - chỉ một mỗi tướng]</tftitemrules>",
+      "isUnique": true,
+      "icon": "/assets/set6.5/items/TFT6_Item_DebonairEmblemItem.webp"
+    },
+    {
+      "id": "TFT6_Item_ArcanistEmblemItem",
+      "name": "Ấn Pháp Sư",
+      "components": [
+        "TFT_Item_NeedlesslyLargeRod",
+        "TFT_Item_Spatula"
+      ],
+      "description": "Chủ sở hữu là Pháp Sư.<br><br><tftitemrules>[Duy Nhất - chỉ một mỗi tướng</tftitemrules>",
+      "isUnique": true,
+      "icon": "/assets/set6.5/items/TFT6_Item_ArcanistEmblemItem.webp"
+    },
+    {
+      "id": "TFT6_Item_ChallengerEmblemItem",
+      "name": "Ấn Thách Đấu",
+      "components": [
+        "TFT_Item_RecurveBow",
+        "TFT_Item_Spatula"
+      ],
+      "description": "Chủ sở hữu cũng là Thách Đấu.<br><br><tftitemrules>[Duy Nhất - chỉ một mỗi tướng]</tftitemrules>",
+      "isUnique": true,
+      "icon": "/assets/set6.5/items/TFT6_Item_ChallengerEmblemItem.webp"
+    },
+    {
+      "id": "TFT_Item_TitanicHydra",
+      "name": "Thông Đạo Zz'rot",
+      "components": [
+        "TFT_Item_RecurveBow",
+        "TFT_Item_GiantsBelt"
+      ],
+      "description": "Bắt đầu giao tranh: <TFTKeyword>Khiêu Khích</TFTKeyword>.<br>Khi bị hạ, sinh ra 1 Bọ Hư Không, <TFTKeyword>Khiêu Khích</TFTKeyword> kẻ địch gần bên. Bọ Hư Không bị giảm mạnh hiệu lực khi được tạo ra bởi 1 đơn vị triệu hồi.<br><br><tftitemrules><tftbold>Khiêu Khích</tftbold>: những kẻ địch trong tầm đánh và có thể tấn công bị buộc phải tấn công kẻ khiêu khích</tftitemrules>",
+      "isUnique": false,
+      "icon": "/assets/set6.5/items/TFT_Item_TitanicHydra.webp"
+    },
+    {
+      "id": "TFT_Item_SpearOfShojin",
+      "name": "Ngọn Giáo Shojin",
+      "components": [
+        "TFT_Item_BFSword",
+        "TFT_Item_TearOfTheGoddess"
+      ],
+      "description": "Các đòn đánh giúp hồi lại @FlatManaRestore@ Năng Lượng.",
+      "isUnique": false,
+      "icon": "/assets/set6.5/items/TFT_Item_SpearOfShojin.webp"
+    },
+    {
+      "id": "TFT_Item_Spatula",
+      "name": "Siêu Xẻng",
+      "components": [],
+      "description": "<tftitemrules>Nó phải có tác dụng gì đó...</tftitemrules>",
+      "isUnique": false,
+      "icon": "/assets/set6.5/items/TFT_Item_Spatula.webp"
+    },
+    {
+      "id": "TFT6_Item_SyndicateEmblemItem",
+      "name": "Ấn Băng Đảng",
+      "components": [],
+      "description": "Chủ sở hữu thuộc Băng Đảng.<br><br><tftitemrules>[Duy Nhất - chỉ một mỗi tướng]</tftitemrules>",
+      "isUnique": true,
+      "icon": "/assets/set6.5/items/TFT6_Item_SyndicateEmblemItem.webp"
+    },
+    {
+      "id": "TFT6_Item_SniperEmblemItem",
+      "name": "Ấn Xạ Thủ",
+      "components": [],
+      "description": "Chủ sở hữu là Xạ Thủ.<br><br><tftitemrules>[Duy Nhất - chỉ một mỗi tướng]<br>Thần Bí - không có công thức ghép.]</tftitemrules>",
+      "isUnique": true,
+      "icon": "/assets/set6.5/items/TFT6_Item_SniperEmblemItem.webp"
+    },
+    {
+      "id": "TFT_Item_LocketOfTheIronSolari",
+      "name": "Dây Chuyền Iron Solari",
+      "components": [
+        "TFT_Item_NeedlesslyLargeRod",
+        "TFT_Item_ChainVest"
+      ],
+      "description": "Bắt đầu giao tranh: Chủ sở hữu và đồng minh trong phạm vi @HexRange@ ô cùng hàng nhận @ShieldValue@ Lá Chắn, @BonusResists@ Giáp và @BonusResists@ Kháng Phép trong @ShieldDuration@ giây.<br><br>​<tftitemrules>[Trang Bị Hỗ Trợ]</tftitemrules>",
+      "isUnique": false,
+      "icon": "/assets/set6.5/items/TFT_Item_LocketOfTheIronSolari.webp"
+    },
+    {
+      "id": "TFT_Item_Morellonomicon",
+      "name": "Quỷ Thư Morello",
+      "components": [
+        "TFT_Item_NeedlesslyLargeRod",
+        "TFT_Item_GiantsBelt"
+      ],
+      "description": "Đòn Đánh và Kỹ Năng gây @BurnPercent@% <TFTKeyword>Thiêu Đốt</TFTKeyword> và @GrievousWoundsPercent@% <TFTKeyword>Vết Thương Sâu</TFTKeyword> lên kẻ địch trong @BurnDuration@ giây.<br><br><tftitemrules><tftbold>Thiêu Đốt</tftbold>: Gây sát thương chuẩn mỗi giây theo Máu tối đa của mục tiêu<br><tftbold>Vết Thương Sâu</tftbold>: Giảm hồi máu nhận được</tftitemrules>",
+      "isUnique": true,
+      "icon": "/assets/set6.5/items/TFT_Item_Morellonomicon.webp"
+    },
+    {
+      "id": "TFT_Item_RapidFireCannon",
+      "name": "Bùa Đỏ",
+      "components": [
+        "TFT_Item_RecurveBow",
+        "TFT_Item_RecurveBow"
+      ],
+      "description": "Đòn Đánh và Kỹ Năng gây @BurnPercent@% <TFTKeyword>Thiêu Đốt</TFTKeyword> và @HealingReductionPct@% <TFTKeyword>Vết Thương Sâu</TFTKeyword> lên kẻ địch trong @Duration@ giây.<br><br><tftitemrules><tftbold>Thiêu Đốt</tftbold>: Gây sát thương chuẩn mỗi giây theo Máu tối đa của mục tiêu<br><tftbold>Vết Thương Sâu</tftbold>: Giảm hồi máu nhận được</tftitemrules>",
+      "isUnique": false,
+      "icon": "/assets/set6.5/items/TFT_Item_RapidFireCannon.webp"
+    },
+    {
+      "id": "TFT_Item_BFSword",
+      "name": "Kiếm B.F.",
+      "components": [],
+      "description": "%i:scaleAD% +@AD*100@% Sức Mạnh Công Kích",
+      "isUnique": false,
+      "icon": "/assets/set6.5/items/TFT_Item_BFSword.webp"
+    },
+    {
+      "id": "TFT6_Item_StrikerEmblemItem",
+      "name": "Ấn Tiến Công",
+      "components": [
+        "TFT_Item_Spatula",
+        "TFT_Item_BFSword"
+      ],
+      "description": "Chủ sở hữu có thêm hệ Tiến Công.<br><br><tftitemrules>[Duy Nhất - chỉ một mỗi tướng]</tftitemrules>",
+      "isUnique": true,
+      "icon": "/assets/set6.5/items/TFT6_Item_StrikerEmblemItem.webp"
+    },
+    {
+      "id": "TFT_Item_LastWhisper",
+      "name": "Cung Xanh",
+      "components": [
+        "TFT_Item_RecurveBow",
+        "TFT_Item_SparringGloves"
+      ],
+      "description": "Sát thương từ đòn đánh và Kỹ Năng sẽ khiến mục tiêu phải chịu @ArmorReductionPercent@% <TFTKeyword>Phân Tách</TFTKeyword> trong @ArmorBreakDuration@ giây. Hiệu ứng này không cộng dồn.<br><br><tftitemrules><tftbold>Phân Tách</tftbold>: Giảm Giáp</tftitemrules>",
+      "isUnique": true,
+      "icon": "/assets/set6.5/items/TFT_Item_LastWhisper.webp"
+    },
+    {
+      "id": "TFT6_Item_AssassinEmblemItem",
+      "name": "Ấn Sát Thủ",
+      "components": [
+        "TFT_Item_SparringGloves",
+        "TFT_Item_Spatula"
+      ],
+      "description": "Chủ sở hữu là Sát Thủ.<br><br><tftitemrules>[Duy Nhất - chỉ một mỗi tướng]</tftitemrules>",
+      "isUnique": true,
+      "icon": "/assets/set6.5/items/TFT6_Item_AssassinEmblemItem.webp"
+    },
+    {
+      "id": "TFT_Item_JeweledGauntlet",
+      "name": "Găng Bảo Thạch",
+      "components": [
+        "TFT_Item_NeedlesslyLargeRod",
+        "TFT_Item_SparringGloves"
+      ],
+      "description": "Nhận <TFTKeyword>Chuẩn Xác</TFTKeyword>.<br><br>{{TFT_Keyword_Precision}}",
+      "isUnique": false,
+      "icon": "/assets/set6.5/items/TFT_Item_JeweledGauntlet.webp"
+    },
+    {
+      "id": "TFT_Item_GiantsBelt",
+      "name": "Đai Khổng Lồ",
+      "components": [],
+      "description": "%i:scaleHealth% +@Health@ Máu",
+      "isUnique": false,
+      "icon": "/assets/set6.5/items/TFT_Item_GiantsBelt.webp"
+    },
+    {
+      "id": "TFT_Item_NeedlesslyLargeRod",
+      "name": "Gậy Quá Khổ",
+      "components": [],
+      "description": "%i:scaleAP% +@AP@ Sức Mạnh Phép Thuật",
+      "isUnique": false,
+      "icon": "/assets/set6.5/items/TFT_Item_NeedlesslyLargeRod.webp"
+    },
+    {
+      "id": "TFT_Item_ForceOfNature",
+      "name": "Vương Miện Chiến Thuật ",
+      "components": [
+        "TFT_Item_Spatula",
+        "TFT_Item_Spatula"
+      ],
+      "description": "Đội của bạn được +@MaxArmySizeIncrease@ giới hạn tướng tối đa.<br><br>@PercentGoldChance@% cơ hội rớt ra 1 vàng khi chiến thắng giao tranh.<br><br><tftitemrules>\"...trái tim của một anh hùng...\"</tftitemrules>",
+      "isUnique": false,
+      "icon": "/assets/set6.5/items/TFT_Item_ForceOfNature.webp"
+    },
+    {
+      "id": "TFT6_Item_AcademyEmblemItem",
+      "name": "Ấn Học Viện",
+      "components": [
+        "TFT_Item_Spatula",
+        "TFT_Item_TearOfTheGoddess"
+      ],
+      "description": "Chủ sở hữu là Học Viện.<br><br><tftitemrules>[Duy Nhất - chỉ một mỗi tướng]</tftitemrules>",
+      "isUnique": true,
+      "icon": "/assets/set6.5/items/TFT6_Item_AcademyEmblemItem.webp"
+    },
+    {
+      "id": "TFT_Item_Quicksilver",
+      "name": "Áo Choàng Thủy Ngân",
+      "components": [
+        "TFT_Item_SparringGloves",
+        "TFT_Item_NegatronCloak"
+      ],
+      "description": "Bắt Đầu Giao Tranh: Miễn nhiễm khống chế trong @SpellShieldDuration@ giây.<br><br>Nhận @ProcAttackSpeed*100@% Tốc Độ Đánh cộng dồn mỗi giây.",
+      "isUnique": true,
+      "icon": "/assets/set6.5/items/TFT_Item_Quicksilver.webp"
+    },
+    {
+      "id": "TFT_Item_Deathblade",
+      "name": "Kiếm Tử Thần",
+      "components": [
+        "TFT_Item_BFSword",
+        "TFT_Item_BFSword"
+      ],
+      "description": "<tftitemrules>Đem tới sự yên bình vĩnh hằng cho người mang - và cả những kẻ phải đối đầu với nó.</tftitemrules><br><br>@TFTUnitProperty.:TFT_Augment_TragicalBlade_TRAKey@",
+      "isUnique": false,
+      "icon": "/assets/set6.5/items/TFT_Item_Deathblade.webp"
+    },
+    {
+      "id": "TFT_Item_Chalice",
+      "name": "Cốc Sức Mạnh",
+      "components": [
+        "TFT_Item_NegatronCloak",
+        "TFT_Item_TearOfTheGoddess"
+      ],
+      "description": "Bắt đầu giao tranh: Tăng @ChaliceAP@ Sức Mạnh Phép Thuật và @BonusInitialMana@ Năng Lượng cho chủ sở hữu và đồng minh trong phạm vi 2 ô cùng hàng.<br><br>​<tftitemrules>[Trang Bị Hỗ Trợ]</tftitemrules>",
+      "isUnique": false,
+      "icon": "/assets/set6.5/items/TFT_Item_Chalice.webp"
+    },
+    {
+      "id": "TFT_Item_WarmogsArmor",
+      "name": "Giáp Máu Warmog",
+      "components": [
+        "TFT_Item_GiantsBelt",
+        "TFT_Item_GiantsBelt"
+      ],
+      "description": "Nhận @BonusPercentHP*100@% Máu tối đa.<br>",
+      "isUnique": false,
+      "icon": "/assets/set6.5/items/TFT_Item_WarmogsArmor.webp"
+    },
+    {
+      "id": "TFT6_Item_HextechEmblemItem",
+      "name": "Ấn Công Nghệ.",
+      "components": [
+        "TFT_Item_Spatula",
+        "TFT_Item_TearOfTheGoddess"
+      ],
+      "description": "Chủ sở hữu có thêm tộc Công Nghệ.<br><br><tftitemrules>[Duy Nhất - chỉ một mỗi tướng]</tftitemrules>",
+      "isUnique": true,
+      "icon": "/assets/set6.5/items/TFT6_Item_HextechEmblemItem.webp"
+    },
+    {
+      "id": "TFT6_Item_ChemtechEmblemItem",
+      "name": "Ấn Hóa Kỹ",
+      "components": [
+        "TFT_Item_GiantsBelt",
+        "TFT_Item_Spatula"
+      ],
+      "description": "Chủ sở hữu là Hóa Kỹ.<br><br><tftitemrules>[Duy Nhất - chỉ một mỗi tướng]</tftitemrules>",
+      "isUnique": true,
+      "icon": "/assets/set6.5/items/TFT6_Item_ChemtechEmblemItem.webp"
+    },
+    {
+      "id": "TFT_Item_StatikkShiv",
+      "name": "Trượng Hư Vô",
+      "components": [
+        "TFT_Item_RecurveBow",
+        "TFT_Item_TearOfTheGoddess"
+      ],
+      "description": "Sát thương từ đòn đánh và Kỹ Năng sẽ khiến mục tiêu phải chịu @MRShred@% <TFTKeyword>Cào Xé</TFTKeyword> trong @MRShredDuration@ giây. Hiệu ứng này không cộng dồn.<br><br><tftitemrules><tftbold>Cào Xé</tftbold>: Giảm Kháng Phép</tftitemrules>",
+      "isUnique": false,
+      "icon": "/assets/set6.5/items/TFT_Item_StatikkShiv.webp"
+    },
+    {
+      "id": "TFT_Item_HextechGunblade",
+      "name": "Kiếm Súng Hextech",
+      "components": [
+        "TFT_Item_BFSword",
+        "TFT_Item_NeedlesslyLargeRod"
+      ],
+      "description": "Hồi máu cho đồng minh thấp Máu nhất bằng @AllyHealing*100@% lượng sát thương gây ra.<br><br><TFTTrackerLabel>Hồi Máu Đồng Minh:</TFTTrackerLabel> <TFTHighlight>@TFTUnitProperty.item:TFT_Tracker_Value1@</TFTHighlight>",
+      "isUnique": false,
+      "icon": "/assets/set6.5/items/TFT_Item_HextechGunblade.webp"
+    }
+  ]
+}

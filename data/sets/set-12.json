@@ -2,6 +2,7 @@
   "setId": 12,
   "name": "Mùa 12",
   "nameEn": "Magic n' Mayhem",
+  "isMidSet": false,
   "releaseDate": "2024-07-31",
   "boardSize": {
     "rows": 4,

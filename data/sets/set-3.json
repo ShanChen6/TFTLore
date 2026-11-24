@@ -2,6 +2,7 @@
   "setId": 3,
   "name": "Mùa 3",
   "nameEn": "Galaxies",
+  "isMidSet": false,
   "releaseDate": "2020-03-18",
   "boardSize": {
     "rows": 4,

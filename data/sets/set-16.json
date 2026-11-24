@@ -2,6 +2,7 @@
   "setId": 16,
   "name": "Mùa 16",
   "nameEn": "Lore & Legends",
+  "isMidSet": false,
   "releaseDate": null,
   "boardSize": {
     "rows": 4,

@@ -2,6 +2,7 @@
   "setId": 1,
   "name": "Mùa 1",
   "nameEn": "Set 1",
+  "isMidSet": false,
   "releaseDate": "2019-06-26",
   "boardSize": {
     "rows": 3,

@@ -2,6 +2,7 @@
   "setId": 4,
   "name": "Mùa 4",
   "nameEn": "Fates",
+  "isMidSet": false,
   "releaseDate": "2020-09-16",
   "boardSize": {
     "rows": 4,

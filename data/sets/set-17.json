@@ -2,6 +2,7 @@
   "setId": 17,
   "name": "Mùa 17",
   "nameEn": null,
+  "isMidSet": false,
   "releaseDate": null,
   "boardSize": {
     "rows": 4,

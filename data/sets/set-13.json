@@ -2,6 +2,7 @@
   "setId": 13,
   "name": "Mùa 13",
   "nameEn": "Into the Arcane",
+  "isMidSet": false,
   "releaseDate": "2024-11-20",
   "boardSize": {
     "rows": 4,

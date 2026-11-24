@@ -2,6 +2,7 @@
   "setId": 14,
   "name": "Mùa 14",
   "nameEn": "Cyber City",
+  "isMidSet": false,
   "releaseDate": "2025-04-02",
   "boardSize": {
     "rows": 4,

@@ -2,6 +2,7 @@
   "setId": 11,
   "name": "Mùa 11",
   "nameEn": "Inkborn Fables",
+  "isMidSet": false,
   "releaseDate": "2024-03-20",
   "boardSize": {
     "rows": 4,

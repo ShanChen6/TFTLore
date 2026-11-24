@@ -1,0 +1,5977 @@
+{
+  "setId": 7.5,
+  "name": "Mùa 7.5",
+  "nameEn": "Uncharted Realms",
+  "isMidSet": true,
+  "releaseDate": "2022-09-07",
+  "boardSize": {
+    "rows": 4,
+    "cols": 7
+  },
+  "mechanic": "",
+  "source": {
+    "patch": "12.22",
+    "lang": "vi_vn"
+  },
+  "traits": [
+    {
+      "id": "Set7_Cannoneer",
+      "name": "Pháo Thủ",
+      "description": "Mỗi đòn đánh thứ 5 bắn ra một quả đại pháo phát nổ gây sát thương vật lý ra xung quanh mục tiêu.<br><br><expandRow>(@MinUnits@) @AttackPercent*100@% Sức Mạnh Công Kích</expandRow>",
+      "icon": "/assets/set7.5/traits/Set7_Cannoneer.webp",
+      "breakpoints": [
+        {
+          "count": 2,
+          "style": "bronze",
+          "effect": "",
+          "variables": {
+            "{ff57f232}": 1.5
+          }
+        },
+        {
+          "count": 4,
+          "style": "silver",
+          "effect": "",
+          "variables": {
+            "{ff57f232}": 3
+          }
+        },
+        {
+          "count": 6,
+          "style": "gold",
+          "effect": "",
+          "variables": {
+            "{ff57f232}": 5
+          }
+        }
+      ]
+    },
+    {
+      "id": "Set7_Tempest",
+      "name": "Lôi Long",
+      "description": "Sau @DelayTime@ giây, sấm sét sẽ giáng xuống chiến trường. Kẻ địch bị choáng trong @StunDuration@ giây và nhận sát thương chuẩn tương đương với một phần Máu tối đa. Sau đó, tướng Lôi Long sẽ được tăng sát thương gây ra.<br><br><expandRow>(@MinUnits@) @PercentHealthDamage@% sát thương tia sét, @DamageAmp@% sát thương tăng</expandRow>",
+      "icon": "/assets/set7.5/traits/Set7_Tempest.webp",
+      "breakpoints": [
+        {
+          "count": 2,
+          "style": "bronze",
+          "effect": "",
+          "variables": {
+            "BuffDuration": 60,
+            "DamageAmp": 10,
+            "PercentHealthDamage": 10,
+            "StunDuration": 1,
+            "{17f82fb1}": 8,
+            "{81ce23cf}": 1
+          }
+        },
+        {
+          "count": 4,
+          "style": "silver",
+          "effect": "",
+          "variables": {
+            "BuffDuration": 60,
+            "DamageAmp": 30,
+            "PercentHealthDamage": 20,
+            "StunDuration": 1,
+            "{17f82fb1}": 8,
+            "{81ce23cf}": 2
+          }
+        },
+        {
+          "count": 6,
+          "style": "gold",
+          "effect": "",
+          "variables": {
+            "BuffDuration": 60,
+            "DamageAmp": 60,
+            "PercentHealthDamage": 30,
+            "StunDuration": 1,
+            "{17f82fb1}": 8,
+            "{81ce23cf}": 3
+          }
+        },
+        {
+          "count": 8,
+          "style": "prismatic",
+          "effect": "",
+          "variables": {
+            "BuffDuration": 60,
+            "DamageAmp": 120,
+            "PercentHealthDamage": 45,
+            "StunDuration": 1,
+            "{17f82fb1}": 8,
+            "{81ce23cf}": 4
+          }
+        }
+      ]
+    },
+    {
+      "id": "Set7_Assassin",
+      "name": "Sát Thủ",
+      "description": "Nội Tại: Nhảy ra hàng sau kẻ địch khi giao tranh bắt đầu.<br><br>Kỹ năng của Sát Thủ có thể chí mạng, và họ nhận được thêm Tỉ Lệ Chí Mạng và Sát Thương Chí Mạng.<br><br><expandRow>(@MinUnits@) +@CritChanceAmpPercent@% Tỉ Lệ Chí Mạng và +@CritAmpPercent@% Sát Thương Chí Mạng</expandRow>",
+      "icon": "/assets/set7.5/traits/Set7_Assassin.webp",
+      "breakpoints": [
+        {
+          "count": 2,
+          "style": "bronze",
+          "effect": "",
+          "variables": {
+            "{268f634e}": 10,
+            "{9f2eb1e2}": 20
+          }
+        },
+        {
+          "count": 4,
+          "style": "gold",
+          "effect": "",
+          "variables": {
+            "{268f634e}": 25,
+            "{9f2eb1e2}": 50
+          }
+        },
+        {
+          "count": 6,
+          "style": "prismatic",
+          "effect": "",
+          "variables": {
+            "{268f634e}": 75,
+            "{9f2eb1e2}": 75
+          }
+        }
+      ]
+    },
+    {
+      "id": "Set7_Prodigy",
+      "name": "Rồng Luyện",
+      "description": "(@MinUnits@) Măm Măm nhận một tộc ngẫu nhiên mỗi trận đấu. Nó sẽ triệu hồi ra các tướng Luyện Rồng để trợ giúp mình trong trận chiến, và cũng sẽ hưởng lợi từ tộc này.<br><br>Sức Mạnh Phép Thuật của tướng Luyện Rồng sẽ luôn bằng với Sức Mạnh Phép Thuật của Măm Măm. Khi Măm Măm bị hạ, tướng Luyện Rồng nhận @AttackSpeed*100@% Tốc Độ Đánh.",
+      "icon": "/assets/set7.5/traits/Set7_Prodigy.webp",
+      "breakpoints": [
+        {
+          "count": 3,
+          "style": "gold",
+          "effect": "",
+          "variables": {
+            "AttackSpeed": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "Set7_Dragon",
+      "name": "Rồng",
+      "description": "Nội Tại: Cần 2 vị trí trong đội hình. <br><br>Rồng cho +3 mốc kích hoạt cho tộc được đánh dấu, và cho thêm hiệu ứng dựa trên số Rồng trong đội hình. <br><br><row>(@MinUnits@) @BonusHealth@ Máu cộng thêm </row><br><row>(@MinUnits@) và @Defenses@ Giáp và Kháng Phép </row><br><row>(@MinUnits@) và @PercentBonusDamage*100@% sát thương thêm</row><br><row>(@MinUnits@) và +@TeamSizeIncrease@ kích cỡ đội hình</row><br><row>(@MinUnits@) và @Healing@ Máu mỗi giây</row><br><row>(@MinUnits@) và Rồng nhà bạn sẽ thăng hoa!</row>",
+      "icon": "/assets/set7.5/traits/Set7_Dragon.webp",
+      "breakpoints": [
+        {
+          "count": 1,
+          "style": "bronze",
+          "effect": "",
+          "variables": {
+            "AttackSpeed": "null",
+            "BonusHealth": 500,
+            "Healing": "null",
+            "{002b5c4d}": "null",
+            "{0bca9660}": "null",
+            "{0c95b70d}": "null",
+            "{cb6b5298}": "null"
+          }
+        },
+        {
+          "count": 2,
+          "style": "silver",
+          "effect": "",
+          "variables": {
+            "AttackSpeed": "null",
+            "BonusHealth": 500,
+            "Healing": "null",
+            "{002b5c4d}": "null",
+            "{0bca9660}": 20,
+            "{0c95b70d}": "null",
+            "{cb6b5298}": "null"
+          }
+        },
+        {
+          "count": 3,
+          "style": "silver",
+          "effect": "",
+          "variables": {
+            "AttackSpeed": "null",
+            "BonusHealth": 500,
+            "Healing": "null",
+            "{002b5c4d}": "null",
+            "{0bca9660}": 20,
+            "{0c95b70d}": "null",
+            "{cb6b5298}": 0.10000000149011612
+          }
+        },
+        {
+          "count": 4,
+          "style": "silver",
+          "effect": "",
+          "variables": {
+            "AttackSpeed": "null",
+            "BonusHealth": 500,
+            "Healing": "null",
+            "{002b5c4d}": "null",
+            "{0bca9660}": 20,
+            "{0c95b70d}": 1,
+            "{cb6b5298}": 0.10000000149011612
+          }
+        },
+        {
+          "count": 5,
+          "style": "gold",
+          "effect": "",
+          "variables": {
+            "AttackSpeed": 0.10000000149011612,
+            "BonusHealth": 500,
+            "Healing": 40,
+            "{002b5c4d}": "null",
+            "{0bca9660}": 20,
+            "{0c95b70d}": 1,
+            "{cb6b5298}": 0.10000000149011612
+          }
+        },
+        {
+          "count": 6,
+          "style": "prismatic",
+          "effect": "",
+          "variables": {
+            "AttackSpeed": 0.10000000149011612,
+            "BonusHealth": 500,
+            "Healing": 40,
+            "{002b5c4d}": 30,
+            "{0bca9660}": 20,
+            "{0c95b70d}": 1,
+            "{cb6b5298}": 0.10000000149011612
+          }
+        }
+      ]
+    },
+    {
+      "id": "Set7_Ragewing",
+      "name": "Cuồng Long",
+      "description": "Nội Tại: Năng Lượng được chuyển thành Nộ; đòn đánh sẽ cho 15 Nộ. Sau khi sử dụng Kỹ Năng, trở nên cuồng nộ trong 4 giây: Tăng 25% Tốc Độ Đánh nhưng không thể nhận thêm Nộ.<br><br>Chỉ số nhận thêm khi cuồng nộ:<br><br><row>(@MinUnits@) @AttackSpeedPercent@% Tốc Độ Đánh và @Omnivamp@% Hút Máu Toàn Phần (hồi máu theo sát thương gây ra)</row><br><row>(@MinUnits@) @AttackSpeedPercent@% Tốc Độ Đánh và @Omnivamp@% Hút Máu Toàn Phần</row><br><row>(@MinUnits@) @AttackSpeedPercent@% Tốc Độ Đánh và @Omnivamp@% Hút Máu Toàn Phần</row><br><row>(@MinUnits@) @AttackSpeedPercent@% Tốc Độ Đánh và @Omnivamp@% Hút Máu Toàn Phần</row>",
+      "icon": "/assets/set7.5/traits/Set7_Ragewing.webp",
+      "breakpoints": [
+        {
+          "count": 2,
+          "style": "bronze",
+          "effect": "",
+          "variables": {
+            "{a8ca7859}": 50,
+            "{ad16f688}": 15
+          }
+        },
+        {
+          "count": 4,
+          "style": "silver",
+          "effect": "",
+          "variables": {
+            "{a8ca7859}": 100,
+            "{ad16f688}": 30
+          }
+        },
+        {
+          "count": 6,
+          "style": "silver",
+          "effect": "",
+          "variables": {
+            "{a8ca7859}": 150,
+            "{ad16f688}": 45
+          }
+        },
+        {
+          "count": 8,
+          "style": "gold",
+          "effect": "",
+          "variables": {
+            "{a8ca7859}": 325,
+            "{ad16f688}": 85
+          }
+        }
+      ]
+    },
+    {
+      "id": "Set7_Guild",
+      "name": "Bang Hội",
+      "description": "Cho những hiệu ứng riêng biệt cho đội hình; thành viên Bang Hội được nhận gấp đôi hiệu ứng. Tăng lên với mỗi thành viên Bang Hội trong đội hình!<br><br><TFTGuildActive enabled=TFT7_Trait_Guild_ActiveSejuani alternate=TFTGuildInactive>Sejuani: +@TFTUnitProperty.trait:TFT7_Trait_Guild_SejuaniBonus@ Máu</TFTGuildActive><br><TFTGuildActive enabled=TFT7_Trait_Guild_ActiveTwitch alternate=TFTGuildInactive>Twitch: +@TFTUnitProperty.trait:TFT7_Trait_Guild_TwitchBonus@% Tốc Độ Đánh</TFTGuildActive><br><TFTGuildActive enabled=TFT7_Trait_Guild_ActiveDragon alternate=TFTGuildInactive>Tưng Tửng: +@TFTUnitProperty.trait:TFT7_Trait_Guild_DragonBonus@ Giáp và Kháng Phép</TFTGuildActive><br><TFTGuildActive enabled=TFT7_Trait_Guild_ActiveJayce alternate=TFTGuildInactive>Jayce: +@TFTUnitProperty.trait:TFT7_Trait_Guild_JayceBonus@ Sức Mạnh Công Kích và Sức Mạnh Phép Thuật</TFTGuildActive><br><TFTGuildActive enabled=TFT7_Trait_Guild_ActiveBard alternate=TFTGuildInactive>Bard: +@TFTUnitProperty.trait:TFT7_Trait_Guild_BardBonus@ Năng Lượng mỗi Đòn Đánh</TFTGuildActive><br><TFTGuildActive enabled=TFT7_Trait_Guild_ActiveEmblem alternate=TFTGuildInactive>Ấn: +@TFTUnitProperty.trait:TFT7_Trait_Guild_EmblemBonus@% Hút Máu Toàn Phần</TFTGuildActive><br><br><expandRow>(@MinUnits@) @Multiplier@% Hiệu Ứng Bang Hội</expandRow><br><br><br><br>",
+      "icon": "/assets/set7.5/traits/Set7_Guild.webp",
+      "breakpoints": [
+        {
+          "count": 1,
+          "style": "bronze",
+          "effect": "",
+          "variables": {
+            "{f506c7e6}": 100
+          }
+        },
+        {
+          "count": 2,
+          "style": "bronze",
+          "effect": "",
+          "variables": {
+            "{f506c7e6}": 110
+          }
+        },
+        {
+          "count": 3,
+          "style": "silver",
+          "effect": "",
+          "variables": {
+            "{f506c7e6}": 120
+          }
+        },
+        {
+          "count": 4,
+          "style": "silver",
+          "effect": "",
+          "variables": {
+            "{f506c7e6}": 130
+          }
+        },
+        {
+          "count": 5,
+          "style": "silver",
+          "effect": "",
+          "variables": {
+            "{f506c7e6}": 140
+          }
+        },
+        {
+          "count": 6,
+          "style": "silver",
+          "effect": "",
+          "variables": {
+            "{f506c7e6}": 150
+          }
+        },
+        {
+          "count": 7,
+          "style": "gold",
+          "effect": "",
+          "variables": {
+            "{f506c7e6}": 160
+          }
+        },
+        {
+          "count": 8,
+          "style": "prismatic",
+          "effect": "",
+          "variables": {
+            "{f506c7e6}": 175
+          }
+        }
+      ]
+    },
+    {
+      "id": "Set7_Cavalier",
+      "name": "Kỵ Sĩ",
+      "description": "Nội Tại: Lao nhanh đến kẻ địch khi di chuyển.<br><br>Kỵ Sĩ được tăng Giáp và Kháng Phép. Ở đầu trận chiến và sau mỗi lần xung phong, chỉ số này được tăng thêm @ChargeIncreasePct@% trong @Duration@ giây.<br><br><expandRow>(@MinUnits@) @Armor@ Giáp, @MagicResist@ Kháng Phép</expandRow>",
+      "icon": "/assets/set7.5/traits/Set7_Cavalier.webp",
+      "breakpoints": [
+        {
+          "count": 2,
+          "style": "bronze",
+          "effect": "",
+          "variables": {
+            "Armor": 35,
+            "Duration": 4,
+            "MagicResist": 35,
+            "{c51d362c}": 200
+          }
+        },
+        {
+          "count": 3,
+          "style": "silver",
+          "effect": "",
+          "variables": {
+            "Armor": 50,
+            "Duration": 4,
+            "MagicResist": 50,
+            "{c51d362c}": 200
+          }
+        },
+        {
+          "count": 4,
+          "style": "silver",
+          "effect": "",
+          "variables": {
+            "Armor": 65,
+            "Duration": 4,
+            "MagicResist": 65,
+            "{c51d362c}": 200
+          }
+        },
+        {
+          "count": 5,
+          "style": "gold",
+          "effect": "",
+          "variables": {
+            "Armor": 85,
+            "Duration": 4,
+            "MagicResist": 85,
+            "{c51d362c}": 200
+          }
+        },
+        {
+          "count": 6,
+          "style": "prismatic",
+          "effect": "",
+          "variables": {
+            "Armor": 110,
+            "Duration": 4,
+            "MagicResist": 110,
+            "{c51d362c}": 200
+          }
+        }
+      ]
+    },
+    {
+      "id": "Set7_Mage",
+      "name": "Pháp Sư",
+      "description": "Pháp Sư sẽ tung kỹ năng hai lần, với tổng Sức Mạnh Phép Thuật được thay đổi.<br><br><expandRow>(@MinUnits@) @APMultiplier*100@% Sức Mạnh Phép Thuật</expandRow>",
+      "icon": "/assets/set7.5/traits/Set7_Mage.webp",
+      "breakpoints": [
+        {
+          "count": 3,
+          "style": "bronze",
+          "effect": "",
+          "variables": {
+            "{2afd498b}": 0.800000011920929
+          }
+        },
+        {
+          "count": 5,
+          "style": "silver",
+          "effect": "",
+          "variables": {
+            "{2afd498b}": 1.0499999523162842
+          }
+        },
+        {
+          "count": 7,
+          "style": "gold",
+          "effect": "",
+          "variables": {
+            "{2afd498b}": 1.350000023841858
+          }
+        },
+        {
+          "count": 9,
+          "style": "prismatic",
+          "effect": "",
+          "variables": {
+            "{2afd498b}": 1.9500000476837158
+          }
+        }
+      ]
+    },
+    {
+      "id": "Set7_Evoker",
+      "name": "Thuật Sĩ",
+      "description": "Thuật Sĩ nhận Năng Lượng mỗi khi đồng minh hoặc kẻ địch sử dụng Kỹ Năng.<br><br><expandRow>(@MinUnits@) @ManaAmount@ Năng Lượng</expandRow>",
+      "icon": "/assets/set7.5/traits/Set7_Evoker.webp",
+      "breakpoints": [
+        {
+          "count": 2,
+          "style": "bronze",
+          "effect": "",
+          "variables": {
+            "{af2150c6}": 5
+          }
+        },
+        {
+          "count": 3,
+          "style": "silver",
+          "effect": "",
+          "variables": {
+            "{af2150c6}": 8
+          }
+        },
+        {
+          "count": 4,
+          "style": "gold",
+          "effect": "",
+          "variables": {
+            "{af2150c6}": 10
+          }
+        }
+      ]
+    },
+    {
+      "id": "Set7_Darkflight",
+      "name": "Bạo Long",
+      "description": "Triệu hồi một tế đàn hiến tế. Bắt đầu giao tranh: Đơn vị đặt trong tế đàn sẽ bị hiến tế, cho một bản sao trang bị ngẫu nhiên mà họ sở hữu cho tất cả tướng Bạo Long, kèm theo máu cộng thêm.<br><br><tftitemrules>Ấn và trang bị không thể ghép sẽ bị hắc hóa khi sao chép, biến thành Tinh Hoa Bạo Long.</tftitemrules><br><br><expandRow>(@MinUnits@) @BonusHealth@ Máu</expandRow><br>",
+      "icon": "/assets/set7.5/traits/Set7_Darkflight.webp",
+      "breakpoints": [
+        {
+          "count": 2,
+          "style": "bronze",
+          "effect": "",
+          "variables": {
+            "BonusHealth": 500
+          }
+        },
+        {
+          "count": 4,
+          "style": "silver",
+          "effect": "",
+          "variables": {
+            "BonusHealth": 750
+          }
+        },
+        {
+          "count": 6,
+          "style": "gold",
+          "effect": "",
+          "variables": {
+            "BonusHealth": 1000
+          }
+        },
+        {
+          "count": 8,
+          "style": "prismatic",
+          "effect": "",
+          "variables": {
+            "BonusHealth": 1600
+          }
+        }
+      ]
+    },
+    {
+      "id": "Set7_Shimmerscale",
+      "name": "Kim Long",
+      "description": "Nhận trang bị Hoàng Kim ngẫu nhiên.<br><br><row>(@MinUnits@) @NumItems@ trang bị đặc biệt </row><br><row>(@MinUnits@) @NumItems@ trang bị đặc biệt</row><br><row>(@MinUnits@) @NumItems@ trang bị đặc biệt</row><br><row>(@MinUnits@) @NumItems@ trang bị đặc biệt bao gồm Vương Miện Vô Địch</row><br><br><tftitemrules>Bạn có thể gỡ trang bị Kim Long bằng cách đưa chủ sở hữu lên hàng chờ dự bị.</tftitemrules>",
+      "icon": "/assets/set7.5/traits/Set7_Shimmerscale.webp",
+      "breakpoints": [
+        {
+          "count": 3,
+          "style": "bronze",
+          "effect": "",
+          "variables": {
+            "{6c216145}": 1
+          }
+        },
+        {
+          "count": 5,
+          "style": "silver",
+          "effect": "",
+          "variables": {
+            "{6c216145}": 2
+          }
+        },
+        {
+          "count": 7,
+          "style": "gold",
+          "effect": "",
+          "variables": {
+            "{6c216145}": 4
+          }
+        },
+        {
+          "count": 9,
+          "style": "prismatic",
+          "effect": "",
+          "variables": {
+            "{6c216145}": 5
+          }
+        }
+      ]
+    },
+    {
+      "id": "Set7_Dragonmancer",
+      "name": "Chiến Binh Rồng",
+      "description": "Sử dụng Thần Long Ban Phước để chọn ra một Đại Hiệp. Thần Long Đại Hiệp được tăng lượng lớn Máu và Sức Mạnh Phép Thuật, và được tăng thêm @StatIncreasePercent@% với mỗi cấp sao của các Chiến Binh Rồng.<br><br><expandRow>(@MinUnits@) +@BonusHealth@ Máu, +@BonusAP@ Sức Mạnh Phép Thuật </expandRow>",
+      "icon": "/assets/set7.5/traits/Set7_Dragonmancer.webp",
+      "breakpoints": [
+        {
+          "count": 2,
+          "style": "bronze",
+          "effect": "",
+          "variables": {
+            "BonusHealth": 275,
+            "{89626cbc}": 20,
+            "{d49caf5d}": 25
+          }
+        },
+        {
+          "count": 4,
+          "style": "silver",
+          "effect": "",
+          "variables": {
+            "BonusHealth": 575,
+            "{89626cbc}": 20,
+            "{d49caf5d}": 40
+          }
+        },
+        {
+          "count": 6,
+          "style": "gold",
+          "effect": "",
+          "variables": {
+            "BonusHealth": 775,
+            "{89626cbc}": 20,
+            "{d49caf5d}": 50
+          }
+        },
+        {
+          "count": 8,
+          "style": "prismatic",
+          "effect": "",
+          "variables": {
+            "BonusHealth": 1000,
+            "{89626cbc}": 20,
+            "{d49caf5d}": 70
+          }
+        }
+      ]
+    },
+    {
+      "id": "Set7_Scalescorn",
+      "name": "Đồ Long",
+      "description": "Đồ Long được giảm @PercentDamageReduction@% sát thương nhận vào từ kẻ địch có nhiều hơn @HealthThreshold@ máu. Họ sẽ gây thêm sát thương phép tương đương với một phần sát thương gây ra.<br><br><expandRow>(@MinUnits@) @PercentBonusDamage@% sát thương phép</expandRow>",
+      "icon": "/assets/set7.5/traits/Set7_Scalescorn.webp",
+      "breakpoints": [
+        {
+          "count": 2,
+          "style": "bronze",
+          "effect": "",
+          "variables": {
+            "HealthThreshold": 1900,
+            "{bdd452e8}": 15,
+            "{cb6b5298}": 15
+          }
+        },
+        {
+          "count": 4,
+          "style": "gold",
+          "effect": "",
+          "variables": {
+            "HealthThreshold": 1900,
+            "{bdd452e8}": 15,
+            "{cb6b5298}": 50
+          }
+        },
+        {
+          "count": 6,
+          "style": "prismatic",
+          "effect": "",
+          "variables": {
+            "HealthThreshold": 1900,
+            "{bdd452e8}": 15,
+            "{cb6b5298}": 90
+          }
+        }
+      ]
+    },
+    {
+      "id": "Set7_Whispers",
+      "name": "Ám Long",
+      "description": "Sát thương từ Ám Long nguyền rủa kẻ địch, giảm Giáp và Kháng Phép của chúng đi 40% trong @Duration@ giây.<br>Khi gây sát thương lên kẻ địch bị ám, tướng Ám Long nhận thêm chỉ số cộng dồn:<br><br><expandRow>(@MinUnits@) + @ADandAP@ Sức Mạnh Công Kích và Sức Mạnh Phép Thuật</expandRow>",
+      "icon": "/assets/set7.5/traits/Set7_Whispers.webp",
+      "breakpoints": [
+        {
+          "count": 2,
+          "style": "bronze",
+          "effect": "",
+          "variables": {
+            "Duration": 6,
+            "{08a84200}": 1
+          }
+        },
+        {
+          "count": 4,
+          "style": "silver",
+          "effect": "",
+          "variables": {
+            "Duration": 6,
+            "{08a84200}": 3
+          }
+        },
+        {
+          "count": 6,
+          "style": "gold",
+          "effect": "",
+          "variables": {
+            "Duration": 6,
+            "{08a84200}": 7
+          }
+        }
+      ]
+    },
+    {
+      "id": "Set7_Mirage",
+      "name": "Huyễn Long",
+      "description": "Tướng Huyễn Long nhận hiệu ứng tộc ngẫu nhiên trong từng trận đấu.",
+      "icon": "/assets/set7.5/traits/Set7_Mirage.webp",
+      "breakpoints": [
+        {
+          "count": 2,
+          "style": "bronze",
+          "effect": "",
+          "variables": {
+            "{03907b27}": 40,
+            "{2c8fe3dc}": 2,
+            "{34a68396}": 20,
+            "{48ffe45c}": 20,
+            "{67deaf34}": 10,
+            "{7845f61e}": 5,
+            "{7fb6d810}": 50,
+            "{835c3290}": 6,
+            "{9ea1c8a7}": 50,
+            "{b04db727}": 200,
+            "{bd0f4998}": 9,
+            "{e32ac3a7}": 20,
+            "{f25ff422}": 10
+          }
+        },
+        {
+          "count": 4,
+          "style": "silver",
+          "effect": "",
+          "variables": {
+            "{03907b27}": 65,
+            "{2c8fe3dc}": 4,
+            "{34a68396}": 33,
+            "{48ffe45c}": 30,
+            "{67deaf34}": 10,
+            "{7845f61e}": 8,
+            "{7fb6d810}": 50,
+            "{835c3290}": 12,
+            "{9ea1c8a7}": 65,
+            "{b04db727}": 300,
+            "{bd0f4998}": 9,
+            "{e32ac3a7}": 30,
+            "{f25ff422}": 10
+          }
+        },
+        {
+          "count": 6,
+          "style": "gold",
+          "effect": "",
+          "variables": {
+            "{03907b27}": 65,
+            "{2c8fe3dc}": 6,
+            "{34a68396}": 50,
+            "{48ffe45c}": 45,
+            "{67deaf34}": 10,
+            "{7845f61e}": 12,
+            "{7fb6d810}": 50,
+            "{835c3290}": 20,
+            "{9ea1c8a7}": 80,
+            "{b04db727}": 450,
+            "{bd0f4998}": 9,
+            "{e32ac3a7}": 40,
+            "{f25ff422}": 10
+          }
+        },
+        {
+          "count": 8,
+          "style": "prismatic",
+          "effect": "",
+          "variables": {
+            "{03907b27}": 110,
+            "{2c8fe3dc}": 8,
+            "{34a68396}": 100,
+            "{48ffe45c}": 60,
+            "{67deaf34}": 10,
+            "{7845f61e}": 20,
+            "{7fb6d810}": 50,
+            "{835c3290}": 30,
+            "{9ea1c8a7}": 100,
+            "{b04db727}": 600,
+            "{bd0f4998}": 9,
+            "{e32ac3a7}": 50,
+            "{f25ff422}": 10
+          }
+        }
+      ]
+    },
+    {
+      "id": "Set7_Mystic",
+      "name": "Bí Ẩn",
+      "description": "Cả đội nhận thêm Kháng Phép.<br><br><expandRow>(@MinUnits@) @MagicResist@ Kháng Phép</expandRow>",
+      "icon": "/assets/set7.5/traits/Set7_Mystic.webp",
+      "breakpoints": [
+        {
+          "count": 2,
+          "style": "bronze",
+          "effect": "",
+          "variables": {
+            "MagicResist": 40
+          }
+        },
+        {
+          "count": 3,
+          "style": "silver",
+          "effect": "",
+          "variables": {
+            "MagicResist": 80
+          }
+        },
+        {
+          "count": 4,
+          "style": "gold",
+          "effect": "",
+          "variables": {
+            "MagicResist": 150
+          }
+        },
+        {
+          "count": 5,
+          "style": "prismatic",
+          "effect": "",
+          "variables": {
+            "MagicResist": 300
+          }
+        }
+      ]
+    },
+    {
+      "id": "Set7_Monolith",
+      "name": "Địa Long",
+      "description": "(@MinUnits@) Địa Long Terra tạo ra 3 ô đặc biệt trên sân đấu. Bắt đầu giao chiến: Đơn vị đứng trên các ô này ở đầu giao tranh sẽ được giảm @DamageReductionPercent@% sát thương.",
+      "icon": "/assets/set7.5/traits/Set7_Monolith.webp",
+      "breakpoints": [
+        {
+          "count": 3,
+          "style": "gold",
+          "effect": "",
+          "variables": {
+            "{5064373e}": 18
+          }
+        }
+      ]
+    },
+    {
+      "id": "Set7_Starcaller",
+      "name": "Tinh Nữ",
+      "description": "(@MinUnits@) Tinh Nữ đầu tiên sử dụng Kỹ Năng sẽ hồi (@Tier1Heal@/@Tier2Heal@/@Tier3Heal@) máu cho linh thú của bạn, phụ thuộc vào cấp sao. Hồi máu phụ trội sẽ hủy diệt một tướng của đối thủ.",
+      "icon": "/assets/set7.5/traits/Set7_Starcaller.webp",
+      "breakpoints": [
+        {
+          "count": 1,
+          "style": "unique",
+          "effect": "",
+          "variables": {
+            "{1b929fa6}": 1,
+            "{31d66d45}": 1,
+            "{42df8264}": 1,
+            "{4979f1a4}": 2,
+            "{509811bd}": 2,
+            "{56034ed0}": 75,
+            "{9b24c7a2}": 2,
+            "{f305b0e7}": 3,
+            "{fa4f482e}": 20,
+            "{fd44bf8b}": 30
+          }
+        }
+      ]
+    },
+    {
+      "id": "Set7_SpellThief",
+      "name": "Trộm Phép",
+      "description": "(@MinUnits@) Zoe lấy một Kỹ Năng mới mỗi lần tung chiêu hoặc ở đầu mỗi vòng đấu.",
+      "icon": "/assets/set7.5/traits/Set7_SpellThief.webp",
+      "breakpoints": [
+        {
+          "count": 1,
+          "style": "unique",
+          "effect": "",
+          "variables": {}
+        }
+      ]
+    },
+    {
+      "id": "Set7_Guardian",
+      "name": "Hộ Pháp",
+      "description": "Một lần mỗi giao tranh, khi xuống dưới @HealthThreshold@% Máu, Hộ Pháp tạo một lá chắn theo Máu tối đa của bản thân cho mình và đồng minh gần nhất. Những lá chắn cộng dồn với nhau!<br><br><expandRow> (@MinUnits@) Lá chắn giá trị @ShieldPercentAmount@% máu</expandRow>",
+      "icon": "/assets/set7.5/traits/Set7_Guardian.webp",
+      "breakpoints": [
+        {
+          "count": 2,
+          "style": "bronze",
+          "effect": "",
+          "variables": {
+            "Duration": 60,
+            "HealthThreshold": 50,
+            "{a77cf7ad}": 25
+          }
+        },
+        {
+          "count": 4,
+          "style": "silver",
+          "effect": "",
+          "variables": {
+            "Duration": 60,
+            "HealthThreshold": 50,
+            "{a77cf7ad}": 40
+          }
+        },
+        {
+          "count": 6,
+          "style": "gold",
+          "effect": "",
+          "variables": {
+            "Duration": 60,
+            "HealthThreshold": 50,
+            "{a77cf7ad}": 80
+          }
+        },
+        {
+          "count": 8,
+          "style": "prismatic",
+          "effect": "",
+          "variables": {
+            "Duration": 60,
+            "HealthThreshold": 50,
+            "{a77cf7ad}": 130
+          }
+        }
+      ]
+    },
+    {
+      "id": "Set7_Warrior",
+      "name": "Chiến Binh",
+      "description": "Chiến Binh có @ProcChance@% tỉ lệ được tăng sát thương cho đòn đánh tiếp theo.<br><br><expandRow>(@MinUnits@) +@PercentDamage@% sát thương</expandRow>",
+      "icon": "/assets/set7.5/traits/Set7_Warrior.webp",
+      "breakpoints": [
+        {
+          "count": 2,
+          "style": "bronze",
+          "effect": "",
+          "variables": {
+            "PercentDamage": 75,
+            "{b4a90a5d}": 50
+          }
+        },
+        {
+          "count": 4,
+          "style": "gold",
+          "effect": "",
+          "variables": {
+            "PercentDamage": 150,
+            "{b4a90a5d}": 50
+          }
+        },
+        {
+          "count": 6,
+          "style": "prismatic",
+          "effect": "",
+          "variables": {
+            "PercentDamage": 275,
+            "{b4a90a5d}": 50
+          }
+        }
+      ]
+    },
+    {
+      "id": "Set7_Jade",
+      "name": "Ngọc Long",
+      "description": "Triệu hồi các Tượng Ngọc có thể được đặt trên sân đấu, tăng dần sức mạnh. <br><br>Mỗi giao tranh, các đồng minh bắt đầu trận chiến cạnh một tượng ngọc sẽ được hồi phục theo Máu tối đa mỗi @Interval@ giây và nhận thêm tốc độ đánh. Khi tượng ngọc bị phá hủy, nó gây sát thương phép tương đương @PercentHealth@% Máu tối đa của bản thân lên kẻ địch xung quanh.<br><br><row>(@MinUnits@) 1 tượng, +@HealthRegen@% hồi máu, +@AttackSpeed*100@% Tốc Độ Đánh</row><br><row>(@MinUnits@) 2 tượng, +@HealthRegen@% hồi máu, +@AttackSpeed*100@% Tốc Độ Đánh</row><br><row>(@MinUnits@) 3 tượng, +@HealthRegen@% hồi máu, +@AttackSpeed*100@% Tốc Độ Đánh</row><br><row>(@MinUnits@) 4 tượng, +@HealthRegen@% hồi máu, +@AttackSpeed*100@% Tốc Độ Đánh</row>",
+      "icon": "/assets/set7.5/traits/Set7_Jade.webp",
+      "breakpoints": [
+        {
+          "count": 3,
+          "style": "bronze",
+          "effect": "",
+          "variables": {
+            "AttackSpeed": 0.10000000149011612,
+            "HealthRegen": 2,
+            "PercentHealth": 33,
+            "{25dee9e0}": 1,
+            "{288bc6fe}": 0.25,
+            "{cedd8578}": 2
+          }
+        },
+        {
+          "count": 5,
+          "style": "silver",
+          "effect": "",
+          "variables": {
+            "AttackSpeed": 0.2199999988079071,
+            "HealthRegen": 3,
+            "PercentHealth": 33,
+            "{25dee9e0}": 2,
+            "{288bc6fe}": 0.25,
+            "{cedd8578}": 2
+          }
+        },
+        {
+          "count": 7,
+          "style": "gold",
+          "effect": "",
+          "variables": {
+            "AttackSpeed": 0.550000011920929,
+            "HealthRegen": 5,
+            "PercentHealth": 33,
+            "{25dee9e0}": 3,
+            "{288bc6fe}": 0.25,
+            "{cedd8578}": 2
+          }
+        },
+        {
+          "count": 9,
+          "style": "prismatic",
+          "effect": "",
+          "variables": {
+            "AttackSpeed": 0.8799999952316284,
+            "HealthRegen": 8,
+            "PercentHealth": 33,
+            "{25dee9e0}": 4,
+            "{288bc6fe}": 0.25,
+            "{cedd8578}": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "Set7_Astral",
+      "name": "Thượng Long",
+      "description": "Sau mỗi giao tranh với người chơi, nhận một Viên Thượng Long. Tổng cấp sao của tướng Thượng Long sẽ tăng chất lượng của viên.<br><br>Tướng Thượng Long nhận thêm Sức Mạnh Phép Thuật. <br><br><row>(@MinUnits@) @AbilityPower@ Sức Mạnh Phép Thuật</row><br><row>(@MinUnits@) @AbilityPower@ Sức Mạnh Phép Thuật</row><br><row>(@MinUnits@) @AbilityPower@ Sức Mạnh Phép Thuật</row>",
+      "icon": "/assets/set7.5/traits/Set7_Astral.webp",
+      "breakpoints": [
+        {
+          "count": 3,
+          "style": "bronze",
+          "effect": "",
+          "variables": {
+            "{246b675b}": 1,
+            "{41233bac}": 4,
+            "{7f1304b2}": 5
+          }
+        },
+        {
+          "count": 5,
+          "style": "silver",
+          "effect": "",
+          "variables": {
+            "{246b675b}": 1,
+            "{41233bac}": 4,
+            "{7f1304b2}": 30
+          }
+        },
+        {
+          "count": 8,
+          "style": "gold",
+          "effect": "",
+          "variables": {
+            "{246b675b}": 1,
+            "{41233bac}": 4,
+            "{7f1304b2}": 75
+          }
+        }
+      ]
+    },
+    {
+      "id": "Set7_Swiftshot",
+      "name": "Xạ Tiễn",
+      "description": "Nội Tại: nhận thêm 2 ô Tầm Đánh.<br><br>Xạ Tiễn nhận thêm Tốc Độ Đánh dựa trên khoảng cách giữa bản thân và mục tiêu tính theo ô.<br><br><expandRow>(@MinUnits@)@BonusAS@% Tốc Độ Đánh</expandRow>",
+      "icon": "/assets/set7.5/traits/Set7_Swiftshot.webp",
+      "breakpoints": [
+        {
+          "count": 2,
+          "style": "bronze",
+          "effect": "",
+          "variables": {
+            "BonusAS": 10
+          }
+        },
+        {
+          "count": 3,
+          "style": "silver",
+          "effect": "",
+          "variables": {
+            "BonusAS": 15
+          }
+        },
+        {
+          "count": 4,
+          "style": "gold",
+          "effect": "",
+          "variables": {
+            "BonusAS": 25
+          }
+        },
+        {
+          "count": 5,
+          "style": "prismatic",
+          "effect": "",
+          "variables": {
+            "BonusAS": 40
+          }
+        }
+      ]
+    },
+    {
+      "id": "Set7_Bard",
+      "name": "Nhạc Công",
+      "description": "(@MinUnits@) Đồng đội sống sót sau trận đấu với người chơi sẽ có @DropChancePercent@% tỉ lệ sinh ra một Nốt Nhạc. Bard luôn sinh ra một Nốt Nhạc khi ăn mừng thắng trận.<br><br>Mỗi Nốt Nhạc thu thập được sẽ tăng tỉ lệ ra tướng cấp cao thêm 1%.",
+      "icon": "/assets/set7.5/traits/Set7_Bard.webp",
+      "breakpoints": [
+        {
+          "count": 1,
+          "style": "unique",
+          "effect": "",
+          "variables": {
+            "{b8705dd9}": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "Set7_Bruiser",
+      "name": "Đấu Sĩ",
+      "description": "Cả đội nhận thêm Máu tối đa. Đấu Sĩ nhận gấp đôi lượng máu này.<br><br><expandRow>(@MinUnits@) @BonusHealth@ Máu</expandRow>",
+      "icon": "/assets/set7.5/traits/Set7_Bruiser.webp",
+      "breakpoints": [
+        {
+          "count": 2,
+          "style": "bronze",
+          "effect": "",
+          "variables": {
+            "BonusHealth": 180
+          }
+        },
+        {
+          "count": 4,
+          "style": "silver",
+          "effect": "",
+          "variables": {
+            "BonusHealth": 375
+          }
+        },
+        {
+          "count": 6,
+          "style": "gold",
+          "effect": "",
+          "variables": {
+            "BonusHealth": 700
+          }
+        },
+        {
+          "count": 8,
+          "style": "prismatic",
+          "effect": "",
+          "variables": {
+            "BonusHealth": 1500
+          }
+        }
+      ]
+    },
+    {
+      "id": "Set7_Shapeshifter",
+      "name": "Hóa Hình",
+      "description": "Biến hình cho thêm Máu tối đa.<br><br><expandRow>(@MinUnits@) @HPPercent@% Máu cộng thêm</expandRow>",
+      "icon": "/assets/set7.5/traits/Set7_Shapeshifter.webp",
+      "breakpoints": [
+        {
+          "count": 2,
+          "style": "bronze",
+          "effect": "",
+          "variables": {
+            "HPPercent": 60
+          }
+        },
+        {
+          "count": 4,
+          "style": "gold",
+          "effect": "",
+          "variables": {
+            "HPPercent": 150
+          }
+        }
+      ]
+    },
+    {
+      "id": "Set7_Lagoon",
+      "name": "Thủy Long",
+      "description": "Triệu hồi một Thủy Thạch sẽ cho phần thưởng dựa trên số lượng chiêu thức mà các đơn vị Thủy Long tung ra theo thời gian. Tướng Thủy Long cũng nhận được Sức Mạnh Phép Thuật và Tốc Độ Đánh.<br><br><expandRow>(@MinUnits@) @AbilityPower@ Sức Mạnh Phép Thuật, @AttackSpeed*100@% Tốc Độ Đánh</expandRow><br><br>Tổng lần tung chiêu: <active>@TFTUnitProperty.trait:TFT7_LagoonCount@</active><br>Vàng nhận được: <active>@TFTUnitProperty.trait:TFT7_LagoonRewardCountGold@</active><br>Phần thưởng nhận được: <active>@TFTUnitProperty.trait:TFT7_LagoonRewardCount@</active>@TFTUnitProperty.trait:TFT_Modes_TRA1@",
+      "icon": "/assets/set7.5/traits/Set7_Lagoon.webp",
+      "breakpoints": [
+        {
+          "count": 3,
+          "style": "bronze",
+          "effect": "",
+          "variables": {
+            "AttackSpeed": 0.07999999821186066,
+            "{7f1304b2}": 8
+          }
+        },
+        {
+          "count": 6,
+          "style": "silver",
+          "effect": "",
+          "variables": {
+            "AttackSpeed": 0.30000001192092896,
+            "{7f1304b2}": 30
+          }
+        },
+        {
+          "count": 9,
+          "style": "gold",
+          "effect": "",
+          "variables": {
+            "AttackSpeed": 0.550000011920929,
+            "{7f1304b2}": 55
+          }
+        },
+        {
+          "count": 12,
+          "style": "prismatic",
+          "effect": "",
+          "variables": {
+            "AttackSpeed": 2,
+            "{7f1304b2}": 200
+          }
+        }
+      ]
+    }
+  ],
+  "champions": [
+    {
+      "id": "TFT7_Vladimir",
+      "name": "Vladimir",
+      "cost": 1,
+      "traits": [
+        "Set7_Astral",
+        "Set7_Mage"
+      ],
+      "stats": {
+        "hp": 700,
+        "mana": {
+          "initial": 0,
+          "max": 70
+        },
+        "armor": 45,
+        "mr": 45,
+        "ad": 40,
+        "as": 0.6,
+        "range": 2
+      },
+      "ability": {
+        "name": "Truyền Máu ",
+        "description": "Vladimir gây @ModifiedDamage@ sát thương phép lên mục tiêu và hồi lại @ModifiedHeal@ Máu.",
+        "icon": "https://raw.communitydragon.org/12.22/game/assets/characters/vladimir/hud/icons2d/vladimirq.png",
+        "variables": {
+          "Damage": [
+            75,
+            275,
+            325,
+            375,
+            575,
+            700,
+            825
+          ],
+          "Heal": [
+            0,
+            275,
+            325,
+            375,
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      "icon": "/assets/set7.5/champions/TFT7_Vladimir.webp"
+    },
+    {
+      "id": "TFT7_Nidalee",
+      "name": "Nidalee",
+      "cost": 1,
+      "traits": [
+        "Set7_Astral",
+        "Set7_Shapeshifter"
+      ],
+      "stats": {
+        "hp": 600,
+        "mana": {
+          "initial": 0,
+          "max": 50
+        },
+        "armor": 30,
+        "mr": 30,
+        "ad": 60,
+        "as": 0.7,
+        "range": 4
+      },
+      "ability": {
+        "name": "Sức Mạnh Hoang Dã",
+        "description": "Nidalee biến hình thành Dạng Báo trong phần còn lại của giao tranh, giảm Tầm Đánh về 1 và nhận thêm Tốc Độ Di Chuyển cũng như @ModifiedAS@ Tốc Độ Đánh. Khi ở dạng báo, mỗi đòn đánh thứ @NumAttacks@ sẽ là một phát vồ chí mạng gây <scaleAD>@TotalDamage@</scaleAD> sát thương vật lý (@ADRatio*100@% Sức Mạnh Công Kích %i:scaleAD%).",
+        "icon": "https://raw.communitydragon.org/12.22/game/assets/characters/nidalee/hud/icons2d/nidalee_r2.png",
+        "variables": {
+          "BaseAS": [
+            0.4,
+            0.4,
+            0.45,
+            0.5,
+            0.4,
+            0.4,
+            0.4
+          ],
+          "ADRatio": [
+            2.25,
+            2.25,
+            2.25,
+            2.25,
+            2.25,
+            2.25,
+            2.25
+          ],
+          "NumAttacks": [
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3
+          ],
+          "BufferTime": [
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5
+          ]
+        }
+      },
+      "icon": "/assets/set7.5/champions/TFT7_Nidalee.webp"
+    },
+    {
+      "id": "TFT7_Senna",
+      "name": "Senna",
+      "cost": 1,
+      "traits": [
+        "Set7_Ragewing",
+        "Set7_Cannoneer"
+      ],
+      "stats": {
+        "hp": 500,
+        "mana": {
+          "initial": 15,
+          "max": 75
+        },
+        "armor": 15,
+        "mr": 15,
+        "ad": 50,
+        "as": 0.7,
+        "range": 4
+      },
+      "ability": {
+        "name": "Trói Buộc",
+        "description": "Senna bắn ra một luồng sương đen về phía kẻ địch xa nhất, tấn công kẻ địch đầu tiên trúng phải và gây <scaleAD>@TotalDamage@</scaleAD> sát thương vật lý (@PercentAttackDamage@% Sức Mạnh Công Kích %i:scaleAD%) trong một phạm vi nhỏ xung quanh và gây thêm @ModifiedBonusDamage@ sát thương phép lên kẻ địch đầu tiên trúng chiêu.",
+        "icon": "https://raw.communitydragon.org/12.22/game/assets/characters/senna/hud/icons2d/senna_w.png",
+        "variables": {
+          "BonusMagicDamage": [
+            0,
+            300,
+            450,
+            650,
+            0,
+            0,
+            0
+          ],
+          "PercentAttackDamage": [
+            0,
+            200,
+            240,
+            300,
+            200,
+            200,
+            200
+          ]
+        }
+      },
+      "icon": "/assets/set7.5/champions/TFT7_Senna.webp"
+    },
+    {
+      "id": "TFT7_Sett",
+      "name": "Sett",
+      "cost": 1,
+      "traits": [
+        "Set7_Ragewing",
+        "Set7_Dragonmancer"
+      ],
+      "stats": {
+        "hp": 650,
+        "mana": {
+          "initial": 30,
+          "max": 60
+        },
+        "armor": 40,
+        "mr": 40,
+        "ad": 60,
+        "as": 0.7,
+        "range": 1
+      },
+      "ability": {
+        "name": "Không Trượt Phát Nào",
+        "description": "Trong @Duration@ giây tiếp theo, Sett nhận @ModifiedResistAmount@ Giáp và Kháng Phép, và cứ mỗi hai đòn đánh sẽ gây thêm <scaleAD>@TotalBonusDamage@</scaleAD> sát thương vật lý (@ADRatio*100@% Sức Mạnh Công Kích %i:scaleAD%).",
+        "icon": "https://raw.communitydragon.org/12.22/game/assets/characters/sett/hud/icons2d/sett_q.png",
+        "variables": {
+          "BaseResistAmount": [
+            15,
+            50,
+            60,
+            80,
+            110,
+            140,
+            170
+          ],
+          "ADRatio": [
+            0,
+            1.5,
+            1.55,
+            1.7,
+            1.6,
+            1.6,
+            1.6
+          ],
+          "Duration": [
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4
+          ]
+        }
+      },
+      "icon": "/assets/set7.5/champions/TFT7_Sett.webp"
+    },
+    {
+      "id": "TFT7_Gnar",
+      "name": "Gnar",
+      "cost": 2,
+      "traits": [
+        "Set7_Jade",
+        "Set7_Shapeshifter"
+      ],
+      "stats": {
+        "hp": 750,
+        "mana": {
+          "initial": 0,
+          "max": 70
+        },
+        "armor": 40,
+        "mr": 40,
+        "ad": 50,
+        "as": 0.7,
+        "range": 2
+      },
+      "ability": {
+        "name": "Gnar Khổng Lồ",
+        "description": "Gnar biến hình thành dạng Khổng Lồ, nhảy về phía mục tiêu của nó và hất tung kẻ địch xung quanh trong @StunDuration@ giây. Gnar đồng thời nhận @ModifiedAD@ Sức Mạnh Công Kích và @ModifiedArmor@ Giáp, nhưng tầm đánh bị giảm còn 1.",
+        "icon": "https://raw.communitydragon.org/12.22/game/assets/characters/gnar/hud/icons2d/gnar_passive.png",
+        "variables": {
+          "AttackDamage": [
+            0,
+            60,
+            90,
+            150,
+            0,
+            0,
+            0
+          ],
+          "Armor": [
+            0,
+            40,
+            60,
+            90,
+            0,
+            0,
+            0
+          ],
+          "StunDuration": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ]
+        }
+      },
+      "icon": "/assets/set7.5/champions/TFT7_Gnar.webp"
+    },
+    {
+      "id": "TFT7_Sejuani",
+      "name": "Sejuani",
+      "cost": 1,
+      "traits": [
+        "Set7_Guild",
+        "Set7_Cavalier"
+      ],
+      "stats": {
+        "hp": 650,
+        "mana": {
+          "initial": 25,
+          "max": 75
+        },
+        "armor": 40,
+        "mr": 40,
+        "ad": 60,
+        "as": 0.55,
+        "range": 1
+      },
+      "ability": {
+        "name": "Mùa Đông Thịnh Nộ",
+        "description": "Sejuani vung chùy, tấn công tất cả kẻ địch theo hình nón gây <magicDamage>@SpellDamage@</magicDamage> %i:scaleHealth% sát thương phép (<scaleAP>@TooltipModifiedFractionMaxHealth@</scaleAP> Máu tối đa). Cô sau đó sẽ nhanh chóng tấn công lần nữa, gây lượng sát thương tương đương với mục tiêu của mình và những kẻ địch phía sau chúng, đồng thời làm choáng trong @StunDuration@ giây.",
+        "icon": "https://raw.communitydragon.org/12.22/game/assets/characters/sejuani/hud/icons2d/sejuani_w.png",
+        "variables": {
+          "FractionMaxHealth": [
+            0.06,
+            0.06,
+            0.06,
+            0.06,
+            0.06,
+            0.06,
+            0.06
+          ],
+          "StunDuration": [
+            0,
+            1.5,
+            1.75,
+            2,
+            0,
+            0,
+            0
+          ],
+          "GuildBonus": [
+            100,
+            100,
+            100,
+            100,
+            100,
+            100,
+            100
+          ]
+        }
+      },
+      "icon": "/assets/set7.5/champions/TFT7_Sejuani.webp"
+    },
+    {
+      "id": "TFT7_Ezreal",
+      "name": "Ezreal",
+      "cost": 1,
+      "traits": [
+        "Set7_Tempest",
+        "Set7_Swiftshot"
+      ],
+      "stats": {
+        "hp": 500,
+        "mana": {
+          "initial": 0,
+          "max": 40
+        },
+        "armor": 15,
+        "mr": 15,
+        "ad": 35,
+        "as": 0.7,
+        "range": 3
+      },
+      "ability": {
+        "name": "Phát Bắn Thần Bí",
+        "description": "Ezreal bắn một luồng năng lượng về phía mục tiêu của mình. Kẻ địch đầu tiên trúng chiêu nhận @ModifiedMagicDamage@ sát thương phép và cho Ezreal @ModifiedAS@ Tốc Độ Đánh cộng thêm, cộng dồn tối đa @MaxStacks@ lần.",
+        "icon": "https://raw.communitydragon.org/12.22/game/assets/characters/ezreal/hud/icons2d/ezreal_q.png",
+        "variables": {
+          "ASBoost": [
+            0.1,
+            0.1,
+            0.1,
+            0.1,
+            0.1,
+            0.1,
+            0.1
+          ],
+          "MaxStacks": [
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5
+          ],
+          "MagicDamage": [
+            70,
+            200,
+            275,
+            415,
+            70,
+            70,
+            70
+          ]
+        }
+      },
+      "icon": "/assets/set7.5/champions/TFT7_Ezreal.webp"
+    },
+    {
+      "id": "TFT7_Skarner",
+      "name": "Skarner",
+      "cost": 1,
+      "traits": [
+        "Set7_Astral",
+        "Set7_Bruiser"
+      ],
+      "stats": {
+        "hp": 650,
+        "mana": {
+          "initial": 40,
+          "max": 90
+        },
+        "armor": 45,
+        "mr": 45,
+        "ad": 60,
+        "as": 0.6,
+        "range": 1
+      },
+      "ability": {
+        "name": "Lớp Vỏ Tinh Thể",
+        "description": "Skarner tạo @ModifiedShield@ lá chắn cho bản thân trong @Duration@ giây, và nhận @AttackSpeed*100@% Tốc Độ Đánh khi nó còn hiệu lực.",
+        "icon": "https://raw.communitydragon.org/12.22/game/assets/characters/skarner/hud/icons2d/skarner_w.png",
+        "variables": {
+          "ShieldAmount": [
+            225,
+            300,
+            375,
+            450,
+            425,
+            475,
+            525
+          ],
+          "Duration": [
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8
+          ],
+          "AttackSpeed": [
+            1.4,
+            1.6,
+            1.8,
+            2,
+            2.2,
+            2.4,
+            2.6
+          ]
+        }
+      },
+      "icon": "/assets/set7.5/champions/TFT7_Skarner.webp"
+    },
+    {
+      "id": "TFT7_Yone",
+      "name": "Yone",
+      "cost": 2,
+      "traits": [
+        "Set7_Mirage",
+        "Set7_Warrior"
+      ],
+      "stats": {
+        "hp": 800,
+        "mana": {
+          "initial": 0,
+          "max": 0
+        },
+        "armor": 40,
+        "mr": 40,
+        "ad": 55,
+        "as": 0.85,
+        "range": 1
+      },
+      "ability": {
+        "name": "Đạo Của Kẻ Săn",
+        "description": "Nội Tại: Đòn đánh cơ bản của Yone chuyển qua lại giữa việc gây @ModifiedBonusDamage@ sát thương phép cộng thêm và <scaleAD>@BonusPhysicalDamage@</scaleAD> sát thương vật lý cộng thêm (@PercentAD*100@% Sức Mạnh Công Kích %i:scaleAD%).",
+        "icon": "https://raw.communitydragon.org/12.22/game/assets/characters/yone/hud/icons2d/yonepassive.png",
+        "variables": {
+          "BonusDamage": [
+            0,
+            85,
+            125,
+            180,
+            0,
+            0,
+            0
+          ],
+          "PercentAD": [
+            0.33,
+            0.3,
+            0.35,
+            0.4,
+            0.33,
+            0.33,
+            0.33
+          ]
+        }
+      },
+      "icon": "/assets/set7.5/champions/TFT7_Yone.webp"
+    },
+    {
+      "id": "TFT7_Varus",
+      "name": "Varus",
+      "cost": 3,
+      "traits": [
+        "Set7_Astral",
+        "Set7_Swiftshot"
+      ],
+      "stats": {
+        "hp": 650,
+        "mana": {
+          "initial": 75,
+          "max": 150
+        },
+        "armor": 25,
+        "mr": 25,
+        "ad": 55,
+        "as": 0.7,
+        "range": 3
+      },
+      "ability": {
+        "name": "Sợi Xích Tinh Vân",
+        "description": "Varus phóng thích một sợi xích mang sức mạnh vũ trụ, bám vào mục tiêu đầu tiên trúng phải, gây <scaleAD>@TooltipDamage@</scaleAD> sát thương vật lý (@ADPercent@% Sức Mạnh Công Kích %i:scaleAD%) và gây choáng chúng trong @StunDuration@ giây. Sợi xích sẽ lan sang @SpreadCount@ mục tiêu xung quanh, gây @ModifiedMagicDamage@ sát thương phép và làm choáng chúng với thời gian tương tự.",
+        "icon": "https://raw.communitydragon.org/12.22/game/assets/characters/varus/hud/icons2d/varusr.png",
+        "variables": {
+          "ADPercent": [
+            0,
+            300,
+            300,
+            300,
+            300,
+            300,
+            300
+          ],
+          "StunDuration": [
+            0,
+            1.5,
+            1.75,
+            2,
+            0,
+            0,
+            0
+          ],
+          "SpreadCount": [
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3
+          ],
+          "MagicDamage": [
+            0,
+            150,
+            250,
+            400,
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      "icon": "/assets/set7.5/champions/TFT7_Varus.webp"
+    },
+    {
+      "id": "TFT7_LeeSin",
+      "name": "Lee Sin",
+      "cost": 3,
+      "traits": [
+        "Set7_Tempest",
+        "Set7_Dragonmancer"
+      ],
+      "stats": {
+        "hp": 800,
+        "mana": {
+          "initial": 30,
+          "max": 90
+        },
+        "armor": 50,
+        "mr": 50,
+        "ad": 55,
+        "as": 0.75,
+        "range": 1
+      },
+      "ability": {
+        "name": "Lôi Vân Long Cước",
+        "description": "Lee Sin đá mục tiêu, làm choáng chúng trong @StunDuration@ giây và hất ngược chúng về sau. Mục tiêu và tất cả kẻ địch trên dường bay chịu @ModifiedMagicDamage@ sát thương phép và bị giảm Kháng Phép đi @TooltipMRShred@% trong @ShredDuration@ giây.",
+        "icon": "https://raw.communitydragon.org/12.22/game/assets/characters/leesin/hud/icons2d/blindmonkr.png",
+        "variables": {
+          "StunDuration": [
+            0,
+            1.25,
+            1.25,
+            1.25,
+            1.25,
+            1.25,
+            1.25
+          ],
+          "MagicDamage": [
+            0,
+            215,
+            285,
+            385,
+            0,
+            0,
+            0
+          ],
+          "DragonmancerASPercent": [
+            0,
+            50,
+            50,
+            50,
+            50,
+            50,
+            50
+          ],
+          "DragonmancerASDuration": [
+            0,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5
+          ],
+          "ShredDuration": [
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5
+          ],
+          "TooltipMRShred": [
+            40,
+            40,
+            40,
+            40,
+            40,
+            40,
+            40
+          ]
+        }
+      },
+      "icon": "/assets/set7.5/champions/TFT7_LeeSin.webp"
+    },
+    {
+      "id": "TFT7_Shyvana",
+      "name": "Shyvana",
+      "cost": 5,
+      "traits": [
+        "Set7_Ragewing",
+        "Set7_Shapeshifter",
+        "Set7_Dragon"
+      ],
+      "stats": {
+        "hp": 900,
+        "mana": {
+          "initial": 15,
+          "max": 60
+        },
+        "armor": 70,
+        "mr": 70,
+        "ad": 120,
+        "as": 0.8,
+        "range": 1
+      },
+      "ability": {
+        "name": "Hóa Rồng",
+        "description": "Shyvana biến hình thành Dạng Rồng trong phần còn lại của giao tranh, thay thế kỹ năng của mình bằng Hơi Thở Cuồng Long. Cô sau đó trở nên không thể bị định vị trước khi đâm xuống nhóm kẻ địch đông nhất, gây @ModifiedInitialDamage@ sát thương phép và làm choáng chúng trong @StunDuration@ giây. Sau khi hạ cánh, Shyvana sẽ ngay lập tức sử dụng Hơi Thở Cuồng Long.<br><br>Hơi Thở Cuồng Long: Shyvana khạc lửa theo hình nón, gây tối đa @ModifiedFlameBreathDamage@ sát thương phép. Khi khạc lửa, Shyvana sẽ luôn ở trong trạng thái cuồng nộ.",
+        "icon": "https://raw.communitydragon.org/12.22/game/assets/characters/shyvana/hud/icons2d/shyvanadragonsdescent.png",
+        "variables": {
+          "InitialDamage": [
+            0,
+            80,
+            150,
+            1500,
+            0,
+            0,
+            0
+          ],
+          "PercentMaxHealth": [
+            0,
+            60,
+            75,
+            999,
+            0,
+            0,
+            0
+          ],
+          "StunDuration": [
+            0,
+            1.25,
+            1.25,
+            10,
+            1.25,
+            1.25,
+            1.25
+          ],
+          "LingerDuration": [
+            0,
+            1.5,
+            1.5,
+            1.5,
+            1.5,
+            1.5,
+            1.5
+          ],
+          "FlameBreathDuration": [
+            3.75,
+            3.75,
+            3.75,
+            3.75,
+            3.75,
+            3.75,
+            3.75
+          ],
+          "FlameBreathDamage": [
+            1500,
+            700,
+            1200,
+            20000,
+            30000,
+            30000,
+            30000
+          ]
+        }
+      },
+      "icon": "/assets/set7.5/champions/TFT7_Shyvana.webp"
+    },
+    {
+      "id": "TFT7_Hecarim",
+      "name": "Hecarim",
+      "cost": 4,
+      "traits": [
+        "Set7_Ragewing",
+        "Set7_Cavalier"
+      ],
+      "stats": {
+        "hp": 1000,
+        "mana": {
+          "initial": 30,
+          "max": 90
+        },
+        "armor": 60,
+        "mr": 60,
+        "ad": 60,
+        "as": 0.75,
+        "range": 1
+      },
+      "ability": {
+        "name": "Bóng Ma Kỵ Sĩ",
+        "description": "Hecarim triệu hồi những kỵ sĩ ma lao xuyên qua mục tiêu của hắn, gây @ModifiedDamage@ sát thương phép và làm choáng kẻ địch trúng chiêu trong @StunDuration@ giây.",
+        "icon": "https://raw.communitydragon.org/12.22/game/assets/characters/hecarim/hud/icons2d/hecarim_onslaughtofshadows.png",
+        "variables": {
+          "Damage": [
+            0,
+            200,
+            300,
+            1500,
+            0,
+            0,
+            0
+          ],
+          "StunDuration": [
+            0,
+            1.5,
+            2,
+            8,
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      "icon": "/assets/set7.5/champions/TFT7_Hecarim.webp"
+    },
+    {
+      "id": "TFT7_Soraka",
+      "name": "Soraka",
+      "cost": 5,
+      "traits": [
+        "Set7_Jade",
+        "Set7_Starcaller"
+      ],
+      "stats": {
+        "hp": 800,
+        "mana": {
+          "initial": 100,
+          "max": 200
+        },
+        "armor": 30,
+        "mr": 30,
+        "ad": 40,
+        "as": 0.7,
+        "range": 4
+      },
+      "ability": {
+        "name": "Vẫn Tinh",
+        "description": "Spell_TFT7_SorakaR_Tooltip",
+        "icon": "https://raw.communitydragon.org/12.22/game/assets/characters/soraka/hud/icons2d/soraka_r.png",
+        "variables": {
+          "Healing": [
+            0,
+            105,
+            165,
+            1000,
+            0,
+            0,
+            0
+          ],
+          "Stars": [
+            14,
+            14,
+            14,
+            14,
+            14,
+            14,
+            14
+          ],
+          "Duration": [
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2
+          ],
+          "ManaPerAttack": [
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15
+          ],
+          "HealthThreshold": [
+            50,
+            50,
+            50,
+            50,
+            50,
+            50,
+            50
+          ]
+        }
+      },
+      "icon": "/assets/set7.5/champions/TFT7_Soraka.webp"
+    },
+    {
+      "id": "TFT7_Karma",
+      "name": "Karma",
+      "cost": 1,
+      "traits": [
+        "Set7_Jade",
+        "Set7_Dragonmancer"
+      ],
+      "stats": {
+        "hp": 500,
+        "mana": {
+          "initial": 0,
+          "max": 50
+        },
+        "armor": 20,
+        "mr": 20,
+        "ad": 40,
+        "as": 0.7,
+        "range": 4
+      },
+      "ability": {
+        "name": "Nội Hỏa",
+        "description": "Karma chưởng ra một luồng năng lượng về phía mục tiêu của mình, gây @ModifiedDamage@ sát thương phép trong một khu vực nhỏ xung quanh mục tiêu đầu tiên trúng chiêu.",
+        "icon": "https://raw.communitydragon.org/12.22/game/assets/characters/karma/hud/icons2d/karma_q1.png",
+        "variables": {
+          "MagicDamage": [
+            0,
+            200,
+            265,
+            380,
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      "icon": "/assets/set7.5/champions/TFT7_Karma.webp"
+    },
+    {
+      "id": "TFT7_Zoe",
+      "name": "Zoe",
+      "cost": 5,
+      "traits": [
+        "Set7_Shimmerscale",
+        "Set7_SpellThief",
+        "Set7_Mage"
+      ],
+      "stats": {
+        "hp": 800,
+        "mana": {
+          "initial": 40,
+          "max": 110
+        },
+        "armor": 20,
+        "mr": 20,
+        "ad": 45,
+        "as": 0.75,
+        "range": 4
+      },
+      "ability": {
+        "name": "Trộm Phép",
+        "description": "Zoe mượn tạm Kỹ Năng từ những chiều không gian khác và sử dụng chúng tương tự như đó là kỹ năng của mình.",
+        "icon": "https://raw.communitydragon.org/12.22/game/assets/characters/zoe/hud/icons2d/zoe_w.png",
+        "variables": {
+          "BaseDamage": []
+        }
+      },
+      "icon": "/assets/set7.5/champions/TFT7_Zoe.webp"
+    },
+    {
+      "id": "TFT7_Yasuo",
+      "name": "Yasuo",
+      "cost": 5,
+      "traits": [
+        "Set7_Mirage",
+        "Set7_Dragonmancer",
+        "Set7_Warrior"
+      ],
+      "stats": {
+        "hp": 1000,
+        "mana": {
+          "initial": 0,
+          "max": 25
+        },
+        "armor": 50,
+        "mr": 50,
+        "ad": 90,
+        "as": 1,
+        "range": 1
+      },
+      "ability": {
+        "name": "Quét Kiếm",
+        "description": "Yasuo tạo @ModifiedShieldAmount@ lá chắn cho bản thân trong @ShieldDuration@ giây và lướt xuyên mục tiêu, chém tất cả kẻ địch xung quanh gây <scaleAD>@TotalDamage@</scaleAD> sát thương vật lý (@PercentAttackDamage@% Sức Mạnh Công Kích %i:scaleAD%).<br><br>Mỗi lần tung chiêu thứ ba sẽ gây @EmpoweredDamagePct@% sát thương, tấn công trên một vùng rộng hơn, và hất tung kẻ địch trong @StunDuration@ giây. Nếu Yasuo tấn công một kẻ địch duy nhất còn sống sót, anh sẽ thực hiện những nhát chém liên tiếp cho đến khi kẻ địch bị hạ.",
+        "icon": "https://raw.communitydragon.org/12.22/game/assets/characters/yasuo/hud/icons2d/yasuo_e.png",
+        "variables": {
+          "ShieldAmount": [
+            0,
+            180,
+            240,
+            2500,
+            0,
+            0,
+            0
+          ],
+          "ShieldDuration": [
+            0,
+            2,
+            2,
+            20,
+            2,
+            2,
+            2
+          ],
+          "PercentAttackDamage": [
+            0,
+            150,
+            180,
+            3000,
+            0,
+            0,
+            0
+          ],
+          "StunDuration": [
+            0,
+            1.5,
+            1.5,
+            1.5,
+            1.5,
+            1.5,
+            1.5
+          ],
+          "EmpoweredDamagePct": [
+            0,
+            250,
+            250,
+            250,
+            250,
+            250,
+            250
+          ]
+        }
+      },
+      "icon": "/assets/set7.5/champions/TFT7_Yasuo.webp"
+    },
+    {
+      "id": "TFT7_Nunu",
+      "name": "Nunu & Willump",
+      "cost": 3,
+      "traits": [
+        "Set7_Mirage",
+        "Set7_Cavalier"
+      ],
+      "stats": {
+        "hp": 850,
+        "mana": {
+          "initial": 40,
+          "max": 100
+        },
+        "armor": 50,
+        "mr": 50,
+        "ad": 65,
+        "as": 0.55,
+        "range": 1
+      },
+      "ability": {
+        "name": "Nuốt Chửng",
+        "description": "Nunu ra lệnh cho Willump cắn mục tiêu, gây @ModifiedDamage@ sát thương phép. Nếu mục tiêu của Willump có ít máu hơn nó trước cú cắn, nó gây thêm @DamageAmp*100@% sát thương.",
+        "icon": "https://raw.communitydragon.org/12.22/game/assets/characters/nunu/hud/icons2d/nunuq.png",
+        "variables": {
+          "Damage": [
+            200,
+            375,
+            525,
+            925,
+            3200,
+            6400,
+            12800
+          ],
+          "DamageAmp": [
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5
+          ]
+        }
+      },
+      "icon": "/assets/set7.5/champions/TFT7_Nunu.webp"
+    },
+    {
+      "id": "TFT7_Bard",
+      "name": "Bard",
+      "cost": 5,
+      "traits": [
+        "Set7_Guild",
+        "Set7_Mystic",
+        "Set7_Bard"
+      ],
+      "stats": {
+        "hp": 850,
+        "mana": {
+          "initial": 160,
+          "max": 240
+        },
+        "armor": 40,
+        "mr": 40,
+        "ad": 60,
+        "as": 0.7,
+        "range": 4
+      },
+      "ability": {
+        "name": "Thiên Mệnh Khả Biến",
+        "description": "Bard ném một luồng đạn ma thuật về phía đám kẻ địch đông nhất, làm choáng chúng trong @StasisDuration@ giây và khiến chúng nhận thêm @ModifiedDamageAmpRatio@ sát thương trong khi bị choáng. Nếu quăng chiêu trúng ít nhất một kẻ địch, Bard sẽ nhảy để ăn mừng.",
+        "icon": "https://raw.communitydragon.org/12.22/game/assets/characters/bard/hud/icons2d/bard_r.png",
+        "variables": {
+          "StasisDuration": [
+            2,
+            1.25,
+            2,
+            15,
+            1.5,
+            1.5,
+            1.5
+          ],
+          "DamageAmpRatio": [
+            0,
+            0.15,
+            0.2,
+            99.99,
+            0.2,
+            0.2,
+            0.2
+          ],
+          "GuildBonus": [
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2
+          ]
+        }
+      },
+      "icon": "/assets/set7.5/champions/TFT7_Bard.webp"
+    },
+    {
+      "id": "TFT7_Xayah",
+      "name": "Xayah",
+      "cost": 4,
+      "traits": [
+        "Set7_Ragewing",
+        "Set7_Swiftshot"
+      ],
+      "stats": {
+        "hp": 750,
+        "mana": {
+          "initial": 0,
+          "max": 60
+        },
+        "armor": 25,
+        "mr": 25,
+        "ad": 70,
+        "as": 0.75,
+        "range": 3
+      },
+      "ability": {
+        "name": "Bão Lông Vũ ",
+        "description": "Trong @Duration@ giây, mỗi khi Xayah tấn công cô sẽ bắn lông vũ ra sau kẻ địch và @NumBonusAttacks@ kẻ địch xung quanh.<br><br>Khi hết thời gian hiệu lực, Xayah sẽ triệu hồi tất cả lông vũ, gây <scaleAD>@ModifiedPullbackDamagePerFeather@</scaleAD> sát thương vật lý (@RecallAD*100@% Sức Mạnh Công Kích %i:scaleAD% + @TooltipRecallAP@) mỗi lông vũ lên kẻ địch chúng lướt qua.",
+        "icon": "https://raw.communitydragon.org/12.22/game/assets/characters/xayah/hud/icons2d/xayahw.png",
+        "variables": {
+          "NumBonusAttacks": [
+            0,
+            2,
+            2,
+            4,
+            0,
+            0,
+            0
+          ],
+          "PullbackDamagePerFeather": [
+            0,
+            13,
+            20,
+            75,
+            0,
+            0,
+            0
+          ],
+          "RecallAD": [
+            0.2,
+            0.2,
+            0.2,
+            0.3,
+            0.2,
+            0.2,
+            0.2
+          ],
+          "Duration": [
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4
+          ]
+        }
+      },
+      "icon": "/assets/set7.5/champions/TFT7_Xayah.webp"
+    },
+    {
+      "id": "TFT7_Qiyana",
+      "name": "Qiyana",
+      "cost": 2,
+      "traits": [
+        "Set7_Tempest",
+        "Set7_Assassin"
+      ],
+      "stats": {
+        "hp": 700,
+        "mana": {
+          "initial": 30,
+          "max": 90
+        },
+        "armor": 35,
+        "mr": 35,
+        "ad": 55,
+        "as": 0.75,
+        "range": 1
+      },
+      "ability": {
+        "name": "Lưỡi Kiếm Nguyên Tố",
+        "description": "Qiyana lướt đến vị trí thích hợp nhất để tấn công kẻ địch của mình bằng lưỡi kiếm, gây @ModifiedDamage@ sát thương phép theo một quãng ngắn và giải giới kẻ địch trúng chiêu trong @CCDuration@ giây.",
+        "icon": "https://raw.communitydragon.org/12.22/game/assets/characters/qiyana/hud/icons2d/qiyana_q1.png",
+        "variables": {
+          "BaseDamage": [
+            50,
+            225,
+            300,
+            450,
+            450,
+            450,
+            450
+          ],
+          "CCDuration": [
+            1.25,
+            1.5,
+            1.75,
+            2,
+            2.25,
+            2.5,
+            2.75
+          ]
+        }
+      },
+      "icon": "/assets/set7.5/champions/TFT7_Qiyana.webp"
+    },
+    {
+      "id": "TFT7_Sylas",
+      "name": "Sylas",
+      "cost": 3,
+      "traits": [
+        "Set7_Whispers",
+        "Set7_Mage",
+        "Set7_Bruiser"
+      ],
+      "stats": {
+        "hp": 800,
+        "mana": {
+          "initial": 60,
+          "max": 120
+        },
+        "armor": 50,
+        "mr": 50,
+        "ad": 60,
+        "as": 0.6,
+        "range": 1
+      },
+      "ability": {
+        "name": "Kháng Ma Thuật",
+        "description": "Sylas múa xích, gây @ModifiedDamage@ sát thương phép lên kẻ địch trúng chiêu và tạo @ModifiedShield@ lá chắn cho bản thân trong @ShieldDuration@ giây. Nếu đã có lá chắn, Sylas sẽ tung chiêu trên một diện rộng hơn và áp dụng hiệu ứng Phá Năng Lượng lên kẻ địch, tăng năng lượng sử dụng cho kỹ năng tiếp theo của chúng thêm 35%.",
+        "icon": "https://raw.communitydragon.org/12.22/game/assets/characters/sylas/hud/icons2d/sylasp.png",
+        "variables": {
+          "Damage": [
+            0,
+            140,
+            200,
+            320,
+            0,
+            0,
+            0
+          ],
+          "Shield": [
+            0,
+            365,
+            415,
+            525,
+            0,
+            0,
+            0
+          ],
+          "ShieldDuration": [
+            0,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6
+          ]
+        }
+      },
+      "icon": "/assets/set7.5/champions/TFT7_Sylas.webp"
+    },
+    {
+      "id": "TFT7_Leona",
+      "name": "Leona",
+      "cost": 1,
+      "traits": [
+        "Set7_Mirage",
+        "Set7_Guardian"
+      ],
+      "stats": {
+        "hp": 650,
+        "mana": {
+          "initial": 40,
+          "max": 80
+        },
+        "armor": 45,
+        "mr": 45,
+        "ad": 75,
+        "as": 0.55,
+        "range": 1
+      },
+      "ability": {
+        "name": "Khiên Mặt Trời",
+        "description": "Leona giương khiên, giảm tất cả sát thương lên bản thân đi @ModifiedDamageReduction@ trong 4 giây.",
+        "icon": "https://raw.communitydragon.org/12.22/game/assets/characters/leona/hud/icons2d/leonasolarbarrier.png",
+        "variables": {
+          "FlatDamageReduction": [
+            0,
+            35,
+            45,
+            70,
+            160,
+            200,
+            240
+          ],
+          "Duration": [
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4
+          ]
+        }
+      },
+      "icon": "/assets/set7.5/champions/TFT7_Leona.webp"
+    },
+    {
+      "id": "TFT7_Twitch",
+      "name": "Twitch",
+      "cost": 2,
+      "traits": [
+        "Set7_Guild",
+        "Set7_Swiftshot"
+      ],
+      "stats": {
+        "hp": 550,
+        "mana": {
+          "initial": 40,
+          "max": 80
+        },
+        "armor": 20,
+        "mr": 20,
+        "ad": 55,
+        "as": 0.7,
+        "range": 3
+      },
+      "ability": {
+        "name": "Lọ Thuốc Phát Nổ",
+        "description": "Twitch ném một lọ thuốc phát nổ trong một khu vực, gây <scaleAD>@TotalDamage@</scaleAD> sát thương vật lý (@ADRatio*100@% Sức Mạnh Công Kích %i:scaleAD% + @ModifiedBaseDamage@) và giảm Giáp kẻ địch trúng chiêu đi @TooltipShredMult*100@% trong @ShredDuration@ giây.",
+        "icon": "https://raw.communitydragon.org/12.22/game/assets/characters/twitch/hud/icons2d/twitch_w.png",
+        "variables": {
+          "BaseDamage": [
+            0,
+            40,
+            80,
+            150,
+            0,
+            0,
+            0
+          ],
+          "ADRatio": [
+            1.6,
+            1.6,
+            1.6,
+            1.6,
+            1.6,
+            1.6,
+            1.6
+          ],
+          "TooltipShredMult": [
+            0.4,
+            0.4,
+            0.4,
+            0.4,
+            0.4,
+            0.4,
+            0.4
+          ],
+          "ShredDuration": [
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5
+          ],
+          "GuildBonus": [
+            0.1,
+            0.1,
+            0.1,
+            0.1,
+            0.1,
+            0.1,
+            0.1
+          ]
+        }
+      },
+      "icon": "/assets/set7.5/champions/TFT7_Twitch.webp"
+    },
+    {
+      "id": "TFT7_AoShin",
+      "name": "Ao Shin",
+      "cost": 5,
+      "traits": [
+        "Set7_Tempest",
+        "Set7_Dragon"
+      ],
+      "stats": {
+        "hp": 800,
+        "mana": {
+          "initial": 0,
+          "max": 190
+        },
+        "armor": 35,
+        "mr": 35,
+        "ad": 60,
+        "as": 0.8,
+        "range": 4
+      },
+      "ability": {
+        "name": "Long Thần Lôi Vũ",
+        "description": "Ao Shin bắn ra một loạt @NumStrikes@ quả cầu tích điện vào kẻ địch ngẫu nhiên. Mỗi quả cầu sét gây @ModifiedDamage@ sát thương phép và giảm @ManaDrain@ Năng lượng hiện tại từ mục tiêu.",
+        "icon": "https://raw.communitydragon.org/12.22/game/assets/characters/tft7_aoshin/hud/icons2d/tft7_aoshin_spell.tft_set7.png",
+        "variables": {
+          "Damage": [
+            0,
+            185,
+            275,
+            2000,
+            0,
+            0,
+            0
+          ],
+          "NumStrikes": [
+            0,
+            20,
+            20,
+            100,
+            18,
+            18,
+            18
+          ],
+          "ManaDrain": [
+            0,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10
+          ]
+        }
+      },
+      "icon": "/assets/set7.5/champions/TFT7_AoShin.webp"
+    },
+    {
+      "id": "TFT7_DragonPurple",
+      "name": "Sy'fen",
+      "cost": 4,
+      "traits": [
+        "Set7_Whispers",
+        "Set7_Bruiser",
+        "Set7_Dragon"
+      ],
+      "stats": {
+        "hp": 900,
+        "mana": {
+          "initial": 100,
+          "max": 170
+        },
+        "armor": 60,
+        "mr": 60,
+        "ad": 90,
+        "as": 0.7,
+        "range": 1
+      },
+      "ability": {
+        "name": "Càn Quét",
+        "description": "Sy'fen lao đến kẻ địch xa nhất trong vòng @ChargeDistance@ ô, gây <scaleAD>@TotalDamage@</scaleAD> sát thương vật lý (@ADRatio*100@% SMCK %i:scaleAD%) và hất tung các kẻ địch nó lướt qua.<br><br>Sau cú càn quét, Sy'fen sẽ cắn một kẻ địch, gây <scaleAD>@TotalBiteDamage@</scaleAD> sát thương vật lý (@BiteADRatio*100@% SMCK %i:scaleAD%) và bỏ qua @ModifiedArmorPenPercent@% Giáp của mục tiêu. Cú cắn này không thể bị né tránh.",
+        "icon": "https://raw.communitydragon.org/12.22/game/assets/characters/tft7_dragonpurple/hud/icons2d/tft7_dragonpurple_ability.tft_set7.png",
+        "variables": {
+          "ADRatio": [
+            0,
+            1.5,
+            1.7,
+            4.5,
+            2,
+            2,
+            2
+          ],
+          "BiteADRatio": [
+            0,
+            4.5,
+            5.5,
+            25,
+            0,
+            0,
+            0
+          ],
+          "ArmorPenPercent": [
+            0,
+            33,
+            33,
+            33,
+            33,
+            33,
+            33
+          ],
+          "ChargeDistance": [
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5
+          ]
+        }
+      },
+      "icon": "/assets/set7.5/champions/TFT7_DragonPurple.webp"
+    },
+    {
+      "id": "TFT7_DragonGreen",
+      "name": "Shi Oh Yu",
+      "cost": 4,
+      "traits": [
+        "Set7_Jade",
+        "Set7_Mystic",
+        "Set7_Dragon"
+      ],
+      "stats": {
+        "hp": 850,
+        "mana": {
+          "initial": 30,
+          "max": 100
+        },
+        "armor": 60,
+        "mr": 60,
+        "ad": 75,
+        "as": 0.75,
+        "range": 1
+      },
+      "ability": {
+        "name": "Dạng Ngọc Bích",
+        "description": "Shi Oh Yu chuyển thành dạng ngọc, nhận @ModifiedDamageReduction@ giảm sát thương, miễn nhiễm hiệu ứng khống chế, và cường hóa ba đòn đánh tiếp theo với các hiệu ứng đặc biệt gây tổng cộng @TotalDamage@ sát thương (@PercentAttackDamage@% Sức Mạnh Công Kích %i:scaleAD%).<br><br>Đòn Đánh 1: Gây <scaleAD>@TotalDamage@</scaleAD> sát thương vật lý và hất tung kẻ địch trong @Stun@ giây.<br>Đòn Đánh 2: Gây <trueDamage>@TotalDamage@</trueDamage> sát thương chuẩn.<br>Đòn Đánh 3: Kết thúc dạng ngọc bích, gây <scaleAD>@TotalDamage@</scaleAD> sát thương vật lý lên tất cả kẻ địch trên đường thẳng và hất tung chúng trong @Stun@ giây.",
+        "icon": "https://raw.communitydragon.org/12.22/game/assets/characters/karma/hud/icons2d/karma_passive.png",
+        "variables": {
+          "DamageReduction": [
+            0.2,
+            0.2,
+            0.25,
+            0.4,
+            0.5,
+            0.5,
+            0.5
+          ],
+          "Stun": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "PercentAttackDamage": [
+            0,
+            250,
+            300,
+            1000,
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      "icon": "/assets/set7.5/champions/TFT7_DragonGreen.webp"
+    },
+    {
+      "id": "TFT7_DragonGold",
+      "name": "Idas",
+      "cost": 4,
+      "traits": [
+        "Set7_Shimmerscale",
+        "Set7_Dragon",
+        "Set7_Guardian"
+      ],
+      "stats": {
+        "hp": 950,
+        "mana": {
+          "initial": 80,
+          "max": 160
+        },
+        "armor": 60,
+        "mr": 60,
+        "ad": 90,
+        "as": 0.55,
+        "range": 1
+      },
+      "ability": {
+        "name": "Lớp Vảy Hoàng Kim",
+        "description": "Idas hóa cứng lớp vảy của mình trong @DefenseDuration@ giây, giảm sát thương nhận vào đi @DamageReduction@. Nó sau đó gầm lên, hồi cho bản thân @ModifiedHeal@ Máu và tạo @ModifiedShieldValue@ lá chắn cho đồng minh trong @RoarDuration@ giây. Lá chắn cho @ASBonusBase*100@% Tốc Độ Đánh khi tồn tại.",
+        "icon": "https://raw.communitydragon.org/12.22/game/assets/characters/jarvaniv/hud/icons2d/jarvaniv_goldenaegis.png",
+        "variables": {
+          "DefenseDuration": [
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2
+          ],
+          "DamageReduction": [
+            0,
+            30,
+            50,
+            300,
+            0,
+            0,
+            0
+          ],
+          "Heal": [
+            0,
+            450,
+            600,
+            3000,
+            0,
+            0,
+            0
+          ],
+          "ASBonusBase": [
+            0.3,
+            0.3,
+            0.3,
+            0.3,
+            0.3,
+            0.3,
+            0.3
+          ],
+          "RoarDuration": [
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5
+          ],
+          "ShieldValue": [
+            0,
+            150,
+            250,
+            1200,
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      "icon": "/assets/set7.5/champions/TFT7_DragonGold.webp"
+    },
+    {
+      "id": "TFT7_DragonBlue",
+      "name": "Daeja",
+      "cost": 4,
+      "traits": [
+        "Set7_Mirage",
+        "Set7_Dragon"
+      ],
+      "stats": {
+        "hp": 800,
+        "mana": {
+          "initial": 0,
+          "max": 100
+        },
+        "armor": 30,
+        "mr": 30,
+        "ad": 20,
+        "as": 0.6,
+        "range": 4
+      },
+      "ability": {
+        "name": "Cuồng Phong",
+        "description": "Nội Tại: Đòn đánh của Daeja là một loạt ba luồng năng lượng liên hoàn gây thêm @ModifiedPassiveDamage@ sát thương phép và giảm Kháng Phép của kẻ địch đi @MRReduction@.<br><br>Kích Hoạt: Daeja bắn ra một luồng gió cực mạnh về phía đám kẻ địch đông nhất theo đường thẳng, gây @ModifiedBlastDamage@ sát thương phép.",
+        "icon": "https://raw.communitydragon.org/12.22/game/assets/characters/ezreal/hud/icons2d/ezreal_mysticshot.png",
+        "variables": {
+          "PassiveDamage": [
+            0,
+            25,
+            40,
+            150,
+            0,
+            0,
+            0
+          ],
+          "MRReduction": [
+            0,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5
+          ],
+          "BlastDamage": [
+            0,
+            250,
+            335,
+            1350,
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      "icon": "/assets/set7.5/champions/TFT7_DragonBlue.webp"
+    },
+    {
+      "id": "TFT7_AurelionSol",
+      "name": "Aurelion Sol",
+      "cost": 5,
+      "traits": [
+        "Set7_Astral",
+        "Set7_Evoker",
+        "Set7_Dragon"
+      ],
+      "stats": {
+        "hp": 800,
+        "mana": {
+          "initial": 0,
+          "max": 60
+        },
+        "armor": 35,
+        "mr": 35,
+        "ad": 60,
+        "as": 0.75,
+        "range": 4
+      },
+      "ability": {
+        "name": "Hố Đen Vũ Trụ",
+        "description": "Aurelion Sol triệu hồi một hố đen bất ổn bên dưới một kẻ địch ngẫu nhiên. Sau 2 giây nó sẽ hút vào trong, gây @ModifiedSpellDamage@ sát thương phép lên tất cả kẻ địch trong vùng và tăng sát thương chúng phải nhận thêm @DebuffPercent*100@% trong @DebuffDuration@ giây.<br><br>Hố đen sinh ra sau  @AscendTimer@ giây giao tranh sẽ lớn hơn và gây thêm @AscendDamageIncrease*100@% sát thương.",
+        "icon": "https://raw.communitydragon.org/12.22/game/assets/characters/aurelionsol/hud/icons2d/aurelionsol_q_explode.png",
+        "variables": {
+          "SpellDamage": [
+            0,
+            370,
+            600,
+            4000,
+            0,
+            0,
+            0
+          ],
+          "DebuffPercent": [
+            0.2,
+            0.2,
+            0.2,
+            0.2,
+            0.2,
+            0.2,
+            0.2
+          ],
+          "DebuffDuration": [
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10
+          ],
+          "AscendTimer": [
+            18,
+            18,
+            18,
+            18,
+            18,
+            18,
+            18
+          ],
+          "AscendDamageIncrease": [
+            0.2,
+            0.2,
+            0.2,
+            0.2,
+            0.2,
+            0.2,
+            0.2
+          ]
+        }
+      },
+      "icon": "/assets/set7.5/champions/TFT7_AurelionSol.webp"
+    },
+    {
+      "id": "TFT7_AquaticDragon",
+      "name": "Sohm",
+      "cost": 4,
+      "traits": [
+        "Set7_Lagoon",
+        "Set7_Mage",
+        "Set7_Dragon"
+      ],
+      "stats": {
+        "hp": 800,
+        "mana": {
+          "initial": 0,
+          "max": 40
+        },
+        "armor": 30,
+        "mr": 30,
+        "ad": 30,
+        "as": 0.75,
+        "range": 4
+      },
+      "ability": {
+        "name": "Thủy Hoa Bừng Nở",
+        "description": "Sohm tạo ra một đợt sóng về phía kẻ địch chưa bị đánh dấu, đánh dấu chúng bằng một Thủy Hoa và gây @ModifiedDamage@ sát thương phép lên kẻ địch trúng chiêu. Thủy Hoa sẽ chuyển sang một mục tiêu gần đó nếu như kẻ địch bị hạ gục.<br><br>Sau @NormalCastCount@ lần tung chiêu, kỹ năng tiếp theo của nó sẽ triệu hồi một xoáy nước bên dưới mỗi Thủy Hoa, gây @ModifiedExplodeDamage@ sát thương phép lên kẻ địch trong vùng.",
+        "icon": "https://raw.communitydragon.org/12.22/game/assets/characters/nilah/hud/icons2d/nilahr.nilah.png",
+        "variables": {
+          "BaseDamage": [
+            100,
+            165,
+            225,
+            600,
+            200,
+            225,
+            250
+          ],
+          "NormalCastCount": [
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3
+          ],
+          "ReducedDamageRatio": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "BaseExplodeDamage": [
+            150,
+            285,
+            400,
+            1400,
+            1500,
+            1500,
+            1500
+          ]
+        }
+      },
+      "icon": "/assets/set7.5/champions/TFT7_AquaticDragon.webp"
+    },
+    {
+      "id": "TFT7_Taliyah",
+      "name": "Taliyah",
+      "cost": 1,
+      "traits": [
+        "Set7_Lagoon",
+        "Set7_Mage"
+      ],
+      "stats": {
+        "hp": 550,
+        "mana": {
+          "initial": 0,
+          "max": 60
+        },
+        "armor": 15,
+        "mr": 15,
+        "ad": 30,
+        "as": 0.7,
+        "range": 4
+      },
+      "ability": {
+        "name": "Phi Thạch",
+        "description": "Taliyah ném ra 3 thủy thạch về phía mục tiêu, mỗi viên gây @ModifiedMagicDamage@ sát thương phép lên kẻ địch đầu tiên trúng chiêu.",
+        "icon": "https://raw.communitydragon.org/12.22/game/assets/characters/tft7_taliyah/hud/icons2d/tft7_taliyah_q.tft_set7_stage2.png",
+        "variables": {
+          "Damage": [
+            80,
+            160,
+            240,
+            380,
+            280,
+            330,
+            380
+          ]
+        }
+      },
+      "icon": "/assets/set7.5/champions/TFT7_Taliyah.webp"
+    },
+    {
+      "id": "TFT7_Malphite",
+      "name": "Malphite",
+      "cost": 1,
+      "traits": [
+        "Set7_Lagoon",
+        "Set7_Bruiser"
+      ],
+      "stats": {
+        "hp": 700,
+        "mana": {
+          "initial": 90,
+          "max": 90
+        },
+        "armor": 40,
+        "mr": 40,
+        "ad": 80,
+        "as": 0.6,
+        "range": 1
+      },
+      "ability": {
+        "name": "Lá Chắn San Hô",
+        "description": "Malphite tự tạo lá chắn giá trị <magicDamage>@TotalShield@</magicDamage> %i:scaleHealth% (@ModifiedBase@ + @ShieldPercentHealth*100@% máu tối đa) trong @ShieldDuration@ giây.",
+        "icon": "https://raw.communitydragon.org/12.22/game/assets/characters/malphite/hud/icons2d/malphite_graniteshield.png",
+        "variables": {
+          "ShieldPercentHealth": [
+            0.1,
+            0.1,
+            0.1,
+            0.1,
+            0.1,
+            0.1,
+            0.1
+          ],
+          "ShieldDuration": [
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5
+          ],
+          "ShieldBase": [
+            150,
+            200,
+            250,
+            325,
+            350,
+            400,
+            450
+          ]
+        }
+      },
+      "icon": "/assets/set7.5/champions/TFT7_Malphite.webp"
+    },
+    {
+      "id": "TFT7_Zac",
+      "name": "Zac",
+      "cost": 2,
+      "traits": [
+        "Set7_Lagoon",
+        "Set7_Guardian"
+      ],
+      "stats": {
+        "hp": 800,
+        "mana": {
+          "initial": 0,
+          "max": 60
+        },
+        "armor": 45,
+        "mr": 45,
+        "ad": 60,
+        "as": 0.6,
+        "range": 1
+      },
+      "ability": {
+        "name": "Dòng Nước Bất Ổn",
+        "description": "Zac phát nổ, gây sát thương lên kẻ địch xung quanh trong vòng @AoERadius@ ô, gây sát thương tương đương @ModifiedPercentHealthDamage@ Máu tối đa thành sát thương phép và hồi @ModifiedHeal@ máu cho bản thân.",
+        "icon": "https://raw.communitydragon.org/12.22/game/assets/characters/tft7_zac/hud/icons2d/tft7_zacw.tft_set7_stage2.png",
+        "variables": {
+          "AoERadius": [
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2
+          ],
+          "PercentHealthDamage": [
+            0,
+            0.1,
+            0.12,
+            0.18,
+            0,
+            0,
+            0
+          ],
+          "Heal": [
+            0,
+            220,
+            250,
+            300,
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      "icon": "/assets/set7.5/champions/TFT7_Zac.webp"
+    },
+    {
+      "id": "TFT7_Aphelios",
+      "name": "Aphelios",
+      "cost": 2,
+      "traits": [
+        "Set7_Darkflight",
+        "Set7_Cannoneer"
+      ],
+      "stats": {
+        "hp": 500,
+        "mana": {
+          "initial": 80,
+          "max": 175
+        },
+        "armor": 20,
+        "mr": 20,
+        "ad": 60,
+        "as": 0.7,
+        "range": 4
+      },
+      "ability": {
+        "name": "Nguyệt Thực Trói Buộc<br>",
+        "description": "Aphelios bắn ra @TotalBoltNumber@ tia đạn theo hình nón, mỗi tia gây <scaleAD>@ModifiedSpellDamage@</scaleAD> sát thương vật lý (@PercentAD*100@% Sức Mạnh Công Kích %i:scaleAD%). Mỗi kẻ địch chỉ có thể nhận sát thương từ một tia đạn. Sau đó cậu sẽ làm choáng tất cả kẻ địch trúng chiêu trong @StunDuration@ giây.",
+        "icon": "https://raw.communitydragon.org/12.22/game/assets/characters/tft7_aphelios/hud/icons2d/infernum_m.tft_set7_stage2.png",
+        "variables": {
+          "BoltNumber": [
+            1,
+            5,
+            5,
+            7,
+            9,
+            11,
+            13
+          ],
+          "BoltTravelDistance": [
+            1200,
+            1200,
+            1200,
+            1200,
+            1200,
+            1200,
+            1200
+          ],
+          "BoltAngle": [
+            8.5,
+            8.5,
+            8.5,
+            8.5,
+            8.5,
+            8.5,
+            8.5
+          ],
+          "StunDuration": [
+            1,
+            1.25,
+            1.5,
+            1.75,
+            2,
+            2.25,
+            2.5
+          ],
+          "PercentAD": [
+            2.5,
+            3.25,
+            3.5,
+            4,
+            2.9,
+            3,
+            3.1
+          ],
+          "ShotgunDamageFalloff": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ]
+        }
+      },
+      "icon": "/assets/set7.5/champions/TFT7_Aphelios.webp"
+    },
+    {
+      "id": "TFT7_Rell",
+      "name": "Rell",
+      "cost": 2,
+      "traits": [
+        "Set7_Darkflight",
+        "Set7_Cavalier"
+      ],
+      "stats": {
+        "hp": 700,
+        "mana": {
+          "initial": 0,
+          "max": 70
+        },
+        "armor": 45,
+        "mr": 45,
+        "ad": 50,
+        "as": 0.6,
+        "range": 1
+      },
+      "ability": {
+        "name": "Liên Kết Từ Trường",
+        "description": "Rell tạo một lá chắn giữa bản thân và đồng minh thấp máu nhất, gây @ModifiedDamage@ sát thương phép lên tất cả kẻ địch giữa bản thân và đồng minh được kết nối. Cô cũng cho bản thân và đồng minh thêm @Resists@% lượng Giáp và Kháng Phép của mình trong @Duration@ giây.",
+        "icon": "https://raw.communitydragon.org/12.22/game/assets/characters/tft7_rell/hud/icons2d/tft7_relle.tft_set7_stage2.png",
+        "variables": {
+          "Resists": [
+            30,
+            35,
+            40,
+            50,
+            70,
+            80,
+            90
+          ],
+          "Damage": [
+            100,
+            160,
+            240,
+            440,
+            500,
+            600,
+            700
+          ],
+          "Duration": [
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4
+          ]
+        }
+      },
+      "icon": "/assets/set7.5/champions/TFT7_Rell.webp"
+    },
+    {
+      "id": "TFT7_Zyra",
+      "name": "Zyra",
+      "cost": 2,
+      "traits": [
+        "Set7_Whispers",
+        "Set7_Evoker"
+      ],
+      "stats": {
+        "hp": 600,
+        "mana": {
+          "initial": 50,
+          "max": 125
+        },
+        "armor": 20,
+        "mr": 20,
+        "ad": 40,
+        "as": 0.65,
+        "range": 4
+      },
+      "ability": {
+        "name": "Rễ Cây Trói Buộc",
+        "description": "Zyra hiệu triệu dây leo tấn công vào hàng có nhiều kẻ địch nhất, gây @ModifiedDamage@ sát thương phép và làm choáng chúng trong @StunDuration@ giây.",
+        "icon": "https://raw.communitydragon.org/12.22/game/assets/characters/zyra/hud/icons2d/zyraq.png",
+        "variables": {
+          "Damage": [
+            0,
+            225,
+            325,
+            550,
+            0,
+            0,
+            0
+          ],
+          "StunDuration": [
+            0.75,
+            1,
+            1.25,
+            1.5,
+            1.75,
+            2,
+            2.25
+          ]
+        }
+      },
+      "icon": "/assets/set7.5/champions/TFT7_Zyra.webp"
+    },
+    {
+      "id": "TFT7_Kaisa",
+      "name": "Kai'Sa",
+      "cost": 2,
+      "traits": [
+        "Set7_Lagoon",
+        "Set7_Dragonmancer"
+      ],
+      "stats": {
+        "hp": 550,
+        "mana": {
+          "initial": 0,
+          "max": 45
+        },
+        "armor": 25,
+        "mr": 25,
+        "ad": 35,
+        "as": 0.8,
+        "range": 4
+      },
+      "ability": {
+        "name": "Mưa Thủy Triều",
+        "description": "Kai'Sa bắn ra @NumMissiles@ loạt tên lửa chia sẻ cho mục tiêu chính và tối đa @SecondaryTargetCap@ mục tiêu trong tầm đánh, gây @ModifiedDamage@ sát thương phép. Mỗi lần tung chiêu sẽ tăng thêm @PerCastMissile@ tên lửa, tối đa @MissileCap@.",
+        "icon": "https://raw.communitydragon.org/12.22/game/assets/characters/tft7_kaisa/hud/icons2d/tft7_kaisa_q.tft_set7_stage2.png",
+        "variables": {
+          "NumMissiles": [
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4
+          ],
+          "Damage": [
+            50,
+            40,
+            55,
+            85,
+            50,
+            50,
+            50
+          ],
+          "MissileCap": [
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12
+          ],
+          "PerMissileDelay": [
+            0.1,
+            0.1,
+            0.1,
+            0.1,
+            0.1,
+            0.1,
+            0.1
+          ],
+          "PerCastMissile": [
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2
+          ],
+          "PercentBonusDamage": [
+            0.1,
+            0.1,
+            0.1,
+            0.1,
+            0.1,
+            0.1,
+            0.1
+          ],
+          "SecondaryTargetCap": [
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2
+          ],
+          "SpellRange": [
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4
+          ]
+        }
+      },
+      "icon": "/assets/set7.5/champions/TFT7_Kaisa.webp"
+    },
+    {
+      "id": "TFT7_Seraphine",
+      "name": "Seraphine",
+      "cost": 3,
+      "traits": [
+        "Set7_Lagoon",
+        "Set7_Evoker",
+        "Set7_Mystic"
+      ],
+      "stats": {
+        "hp": 750,
+        "mana": {
+          "initial": 100,
+          "max": 175
+        },
+        "armor": 30,
+        "mr": 30,
+        "ad": 50,
+        "as": 0.7,
+        "range": 3
+      },
+      "ability": {
+        "name": "Khúc Ca Của Biển",
+        "description": "Seraphine cất lên khúc ca của biến cả, cho @ModifiedShield@ lá chắn và @ModifiedOnHit@ sát thương phép trên đòn đánh cho tất cả đồng minh trong vòng @Hex@ ô trong @Duration@ giây.",
+        "icon": "https://raw.communitydragon.org/12.22/game/assets/characters/tft7_seraphine/hud/icons2d/tft7_seraphine_w1.tft_set7_stage2.png",
+        "variables": {
+          "Shield": [
+            300,
+            160,
+            220,
+            300,
+            200,
+            200,
+            100
+          ],
+          "Duration": [
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4
+          ],
+          "Hex": [
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2
+          ],
+          "AttackSpeed": [
+            0.2,
+            0.2,
+            0.3,
+            0.5,
+            0.6,
+            0.6,
+            0.6
+          ],
+          "ManaGain": [
+            2,
+            5,
+            7,
+            10,
+            2,
+            2,
+            2
+          ],
+          "OnHit": [
+            0,
+            20,
+            35,
+            65,
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      "icon": "/assets/set7.5/champions/TFT7_Seraphine.webp"
+    },
+    {
+      "id": "TFT7_Rengar",
+      "name": "Rengar",
+      "cost": 3,
+      "traits": [
+        "Set7_Darkflight",
+        "Set7_Assassin"
+      ],
+      "stats": {
+        "hp": 700,
+        "mana": {
+          "initial": 70,
+          "max": 140
+        },
+        "armor": 30,
+        "mr": 30,
+        "ad": 70,
+        "as": 0.75,
+        "range": 1
+      },
+      "ability": {
+        "name": "Thú Săn Mồi Lẩn Khuất",
+        "description": "Rengar nhảy về phía kẻ địch có giáp thấp nhất, gây <scaleAD>@TotalPhysicalDamage@</scaleAD> sát thương vật lý (@ADPercent*100@% Sức Mạnh Công Kích %i:scaleAD% + @BonusPhysicalDamage@). Hắn sau đó sẽ được tăng mạnh tốc độ đánh trong @NumEmpoweredAttacks@ đòn đánh tiếp theo.<br>",
+        "icon": "https://raw.communitydragon.org/12.22/game/assets/characters/tft7_rengar/hud/icons2d/tft7_rengarqemp.tft_set7_stage2.png",
+        "variables": {
+          "ADPercent": [
+            2.45,
+            2.4,
+            2.45,
+            2.75,
+            2.45,
+            2.45,
+            2.45
+          ],
+          "FlatDamage": [
+            40,
+            60,
+            80,
+            100,
+            120,
+            140,
+            160
+          ],
+          "ASGain": [
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2
+          ],
+          "CritChanceGain": [],
+          "NumEmpoweredAttacks": [
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2
+          ]
+        }
+      },
+      "icon": "/assets/set7.5/champions/TFT7_Rengar.webp"
+    },
+    {
+      "id": "TFT7_Zeri",
+      "name": "Zeri",
+      "cost": 3,
+      "traits": [
+        "Set7_Lagoon",
+        "Set7_Cannoneer"
+      ],
+      "stats": {
+        "hp": 600,
+        "mana": {
+          "initial": 20,
+          "max": 70
+        },
+        "armor": 20,
+        "mr": 20,
+        "ad": 65,
+        "as": 0.75,
+        "range": 4
+      },
+      "ability": {
+        "name": "Xung Điện Cao Thế",
+        "description": "Zeri bắn ra một tia nước về phía kẻ địch gần nhất trong vòng @RangeCheck@ ô, hoặc kẻ địch ở gần tâm sân đấu nhất, làm choáng nhẹ chúng trong @StunDuration@ giây. Khi tia nước phát nổ nó sẽ gây <scaleAD>@TargetDamage@</scaleAD> (@PercentAD*100@% Sức Mạnh Công Kích %i:scaleAD%) sát thương vật lý và tạo ra một luồng điện phía sau mục tiêu gây @ModifiedDamage@ sát thương phép lên tất cả mục tiêu trúng phải.",
+        "icon": "https://raw.communitydragon.org/12.22/game/assets/characters/tft7_zeri/hud/icons2d/tft7_zeriw.tft_set7_stage2.png",
+        "variables": {
+          "Damage": [
+            200,
+            275,
+            375,
+            525,
+            1400,
+            1700,
+            2000
+          ],
+          "StunDuration": [
+            0.75,
+            0.75,
+            0.75,
+            0.75,
+            0.75,
+            0.75,
+            0.75
+          ],
+          "PercentAD": [
+            1.2,
+            1.1,
+            1.15,
+            1.2,
+            1.2,
+            1.2,
+            1.2
+          ],
+          "RangeCheck": [
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3
+          ]
+        }
+      },
+      "icon": "/assets/set7.5/champions/TFT7_Zeri.webp"
+    },
+    {
+      "id": "TFT7_Rakan",
+      "name": "Rakan",
+      "cost": 3,
+      "traits": [
+        "Set7_Ragewing",
+        "Set7_Guardian",
+        "Set7_Mystic"
+      ],
+      "stats": {
+        "hp": 800,
+        "mana": {
+          "initial": 15,
+          "max": 75
+        },
+        "armor": 50,
+        "mr": 50,
+        "ad": 55,
+        "as": 0.75,
+        "range": 2
+      },
+      "ability": {
+        "name": "Vũ Điệu Thần Tốc",
+        "description": "Rakan lướt đến kẻ địch xa nhất trong tầm đánh, Giải Giới tất cả kẻ địch anh lướt qua trong @DisarmDuration@ giây, và khiêu khích mục tiêu của mình.<br><br>Sau đó trong vòng @ShieldDuration@ giây, Rakan tạo cho bản thân @ModifiedShield@ lá chắn và mỗi đòn đánh đòn đánh của anh cho anh thêm @ModifiedBonusShield@ lá chắn.",
+        "icon": "https://raw.communitydragon.org/12.22/game/assets/characters/tft7_rakan/hud/icons2d/tft7_rakan_r.tft_set7_stage2.png",
+        "variables": {
+          "Radius": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "ShieldAmount": [
+            0,
+            230,
+            350,
+            650,
+            0,
+            0,
+            0
+          ],
+          "DisarmDuration": [
+            1.5,
+            1.5,
+            1.5,
+            1.5,
+            1.5,
+            1.5,
+            1.5
+          ],
+          "ShieldDuration": [
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4
+          ],
+          "BaseBonusShield": [
+            50,
+            50,
+            70,
+            100,
+            70,
+            70,
+            70
+          ]
+        }
+      },
+      "icon": "/assets/set7.5/champions/TFT7_Rakan.webp"
+    },
+    {
+      "id": "TFT7_Graves",
+      "name": "Graves",
+      "cost": 4,
+      "traits": [
+        "Set7_Tempest",
+        "Set7_Cannoneer"
+      ],
+      "stats": {
+        "hp": 800,
+        "mana": {
+          "initial": 0,
+          "max": 40
+        },
+        "armor": 30,
+        "mr": 30,
+        "ad": 65,
+        "as": 0.65,
+        "range": 3
+      },
+      "ability": {
+        "name": "Rút Súng Nhanh",
+        "description": "Nội Tại: Đòn đánh của Graves là 4 tia đạn tỏa ra theo hình nón trước mặt gã, mỗi viên đạn sẽ gây @PercentAttackDamage@% Sức Mạnh Công Kích của gã lên kẻ địch đầu tiên trúng phải (sát thương mỗi viên đạn: @TotalDamage@).<br><br>Kích Hoạt: Graves lướt về phía mục tiêu và bắn hai lần liên tục, đồng thời cho bản thân @ModifiedResists@ Giáp và Kháng Phép trong @ResistDuration@ giây.",
+        "icon": "https://raw.communitydragon.org/12.22/game/assets/characters/tft7_graves/hud/icons2d/tft7_gravesquickdraw.tft_set7_stage2.png",
+        "variables": {
+          "PercentAttackDamage": [
+            0,
+            65,
+            65,
+            145,
+            0,
+            0,
+            0
+          ],
+          "Resists": [
+            0,
+            30,
+            40,
+            80,
+            0,
+            0,
+            0
+          ],
+          "ResistDuration": [
+            0,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4
+          ]
+        }
+      },
+      "icon": "/assets/set7.5/champions/TFT7_Graves.webp"
+    },
+    {
+      "id": "TFT7_Jayce",
+      "name": "Jayce",
+      "cost": 4,
+      "traits": [
+        "Set7_Guild",
+        "Set7_Shapeshifter"
+      ],
+      "stats": {
+        "hp": 900,
+        "mana": {
+          "initial": 20,
+          "max": 80
+        },
+        "armor": 25,
+        "mr": 25,
+        "ad": 60,
+        "as": 0.8,
+        "range": 3
+      },
+      "ability": {
+        "name": "Công Lý Tối Cao",
+        "description": "Jayce chuyển thành dạng cận chiến, sau đó dậm mạnh xuống mặt đất xung quanh mục tiêu, gây @ModifiedMagicDamage@ sát thương phép và nhận @Resists@ Giáp và Kháng Phép. Anh sau đó sẽ chuyển kỹ năng của mình thành Lôi Phạt trong phần còn lại của trận chiến.<br><br>Lôi Phạt: Jayce hiệu triệu sấm sét lên mục tiêu của mình, gây @ModifiedSmiteDamage@ sát thương phép, đồng thời gây @ModifiedSecondMagicDamage@ sát thương phép lên các kẻ địch khác trong vùng. Anh sau đó được hồi @ModifiedHeal@ máu, cộng thêm @BonusHealRatio*100@% với mỗi kẻ địch trúng chiêu.",
+        "icon": "https://raw.communitydragon.org/12.22/game/assets/characters/tft7_jayce/hud/icons2d/tft7_jayce_q1.tft_set7_stage2.png",
+        "variables": {
+          "BaseHeal": [
+            200,
+            100,
+            150,
+            500,
+            800,
+            800,
+            800
+          ],
+          "BonusHealRatio": [
+            0.2,
+            0.2,
+            0.2,
+            0.2,
+            0.2,
+            0.2,
+            0.2
+          ],
+          "StunDuration": [
+            1.25,
+            1.25,
+            1.25,
+            1.25,
+            1.25,
+            1.25,
+            1.25
+          ],
+          "BaseMagicDamage": [
+            0,
+            300,
+            400,
+            1500,
+            0,
+            0,
+            0
+          ],
+          "BaseSecondMagicDamage": [
+            150,
+            225,
+            275,
+            1200,
+            800,
+            800,
+            800
+          ],
+          "BaseSmiteDamage": [
+            450,
+            400,
+            550,
+            2000,
+            3000,
+            3000,
+            3000
+          ],
+          "Resists": [
+            40,
+            40,
+            40,
+            40,
+            40,
+            40,
+            40
+          ]
+        }
+      },
+      "icon": "/assets/set7.5/champions/TFT7_Jayce.webp"
+    },
+    {
+      "id": "TFT7_Pantheon",
+      "name": "Pantheon",
+      "cost": 4,
+      "traits": [
+        "Set7_Whispers",
+        "Set7_Warrior"
+      ],
+      "stats": {
+        "hp": 1000,
+        "mana": {
+          "initial": 30,
+          "max": 60
+        },
+        "armor": 50,
+        "mr": 50,
+        "ad": 60,
+        "as": 0.65,
+        "range": 1
+      },
+      "ability": {
+        "name": "Công Kích Vũ Bão",
+        "description": "Nội Tại: Pantheon được giảm @DamageReductionPercent*100@% sát thương.<br><br>Kích Hoạt: Pantheon chặn khiên trong @Duration@ giây, tăng gấp đôi hiệu lực của nội tại và gây <scaleAD>@TotalDamage@</scaleAD> sát thương vật lý (@PercentAttackDamage*100@% Sức Mạnh Công Kích %i:scaleAD% + @ModifiedBaseDamage@) lên khu vực trước mặt gã trong thời gian này. Kẻ địch trúng sát thương sẽ bị giảm khả năng hồi phục đi @HealingReduction@% trong @HealingReductionDuration@ giây.",
+        "icon": "https://raw.communitydragon.org/12.22/game/assets/characters/pantheon/hud/icons2d/pantheon_e2.png",
+        "variables": {
+          "DamageReductionPercent": [
+            0,
+            0.2,
+            0.25,
+            0.4,
+            0,
+            0,
+            0
+          ],
+          "PercentAttackDamage": [
+            3,
+            2.65,
+            2.8,
+            3.8,
+            3,
+            3,
+            3
+          ],
+          "Duration": [
+            0,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2
+          ],
+          "HealingReduction": [
+            0,
+            50,
+            50,
+            50,
+            50,
+            50,
+            50
+          ],
+          "HealingReductionDuration": [
+            0,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3
+          ],
+          "BonusAD": [
+            50,
+            50,
+            50,
+            50,
+            50,
+            50,
+            50
+          ],
+          "BaseDamage": [
+            0,
+            70,
+            110,
+            700,
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      "icon": "/assets/set7.5/champions/TFT7_Pantheon.webp"
+    },
+    {
+      "id": "TFT7_DragonEarth",
+      "name": "Terra",
+      "cost": 5,
+      "traits": [
+        "Set7_Monolith",
+        "Set7_Dragon"
+      ],
+      "stats": {
+        "hp": 1050,
+        "mana": {
+          "initial": 30,
+          "max": 70
+        },
+        "armor": 100,
+        "mr": 100,
+        "ad": 80,
+        "as": 0.65,
+        "range": 1
+      },
+      "ability": {
+        "name": "Địa Chấn",
+        "description": "Terra dậm mạnh xuống mặt đất ba lần, tạo nên một cơn địa chấn khủng khiếp xung quanh nó, gây <scaleAD>@TotalDamage@</scaleAD> sát thương vật lý (@ArmorAndMRPercent@% tổng %i:scaleArmor% Giáp và %i:scaleMR%  Kháng Phép cộng với @AttackDamagePercent@% Sức Mạnh Công Kích của nó) Sau khi cơn địa chấn kết thúc, lớp vảy của Terra sẽ hóa cứng trong @ResistDuration@ giây, cho nó @ModifiedResistBuff@ Giáp và Kháng Phép.",
+        "icon": "https://raw.communitydragon.org/12.22/game/assets/characters/taliyah/hud/icons2d/taliyah_e.png",
+        "variables": {
+          "ArmorAndMRPercent": [
+            0,
+            150,
+            200,
+            2500,
+            100,
+            100,
+            100
+          ],
+          "AttackDamagePercent": [
+            0,
+            200,
+            200,
+            200,
+            200,
+            200,
+            200
+          ],
+          "ResistBuff": [
+            0,
+            130,
+            165,
+            4000,
+            200,
+            200,
+            200
+          ],
+          "ResistDuration": [
+            0,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8
+          ]
+        }
+      },
+      "icon": "/assets/set7.5/champions/TFT7_DragonEarth.webp"
+    },
+    {
+      "id": "TFT7_Nilah",
+      "name": "Nilah",
+      "cost": 4,
+      "traits": [
+        "Set7_Lagoon",
+        "Set7_Assassin"
+      ],
+      "stats": {
+        "hp": 800,
+        "mana": {
+          "initial": 0,
+          "max": 50
+        },
+        "armor": 45,
+        "mr": 45,
+        "ad": 70,
+        "as": 0.75,
+        "range": 2
+      },
+      "ability": {
+        "name": "Lướt Trên Mặt Nước",
+        "description": "Nilah quất lưỡi roi kiếm về phía mục tiêu, sau đó lướt xuyên qua chúng và gây <scaleAD>@TotalDamage@</scaleAD> sát thương vật lý (@ADPercent*100@% Sức Mạnh Công Kích %i:scaleAD% + @ModifiedDamage@). Nếu gây sát thương lên lá chắn, cô sẽ nhận lại lá chắn tương đương @PercentShield*100@% lượng sát thương mình đã gây lên họ trong @ShieldStealDuration@ giây. Cô sẽ ngay lập tức sử dụng lại kỹ năng nếu mục tiêu vẫn còn lá chắn hoặc bị hạ gục.",
+        "icon": "https://raw.communitydragon.org/12.22/game/assets/characters/tft7_nilah/hud/icons2d/tft7_nilahe.tft_set7_stage2.png",
+        "variables": {
+          "PercentShield": [
+            0.6,
+            0.8,
+            1,
+            3,
+            0.6,
+            0.6,
+            0.6
+          ],
+          "Damage": [
+            0,
+            130,
+            200,
+            700,
+            0,
+            0,
+            0
+          ],
+          "ShieldStealDuration": [
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4
+          ],
+          "ADPercent": [
+            0,
+            2,
+            2.25,
+            5,
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      "icon": "/assets/set7.5/champions/TFT7_Nilah.webp"
+    },
+    {
+      "id": "TFT7_DragonSwain",
+      "name": "Bạo Long Swain",
+      "cost": 4,
+      "traits": [
+        "Set7_Darkflight",
+        "Set7_Dragon"
+      ],
+      "stats": {
+        "hp": 900,
+        "mana": {
+          "initial": 60,
+          "max": 110
+        },
+        "armor": 70,
+        "mr": 70,
+        "ad": 40,
+        "as": 0.6,
+        "range": 2
+      },
+      "ability": {
+        "name": "Ý Chỉ Ác Long",
+        "description": "Swain giải phóng bầy rồng con, gồm @NumDragonlings@ con bay về phía kẻ địch xung quanh và gây @ModifiedDamage@ sát thương lên mục tiêu của chúng, sau đó quay về Swain và hồi cho hắn @HealPercent@% lượng Máu đã mất.",
+        "icon": "https://raw.communitydragon.org/12.22/game/assets/characters/swain/hud/icons2d/swain_p.png",
+        "variables": {
+          "NumDragonlings": [
+            0,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8
+          ],
+          "Damage": [
+            0,
+            90,
+            130,
+            600,
+            0,
+            0,
+            0
+          ],
+          "HealPercent": [
+            0,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12
+          ]
+        }
+      },
+      "icon": "/assets/set7.5/champions/TFT7_DragonSwain.webp"
+    },
+    {
+      "id": "TFT7b_Volibear",
+      "name": "Volibear",
+      "cost": 3,
+      "traits": [
+        "Set7_Shimmerscale",
+        "Set7_Dragonmancer"
+      ],
+      "stats": {
+        "hp": 800,
+        "mana": {
+          "initial": 0,
+          "max": 40
+        },
+        "armor": 50,
+        "mr": 50,
+        "ad": 50,
+        "as": 0.75,
+        "range": 1
+      },
+      "ability": {
+        "name": "Bão Tố Vĩnh Cửu",
+        "description": "Volibear nổi điên, nhận thêm @ModifiedBonusHealth@ Máu. Trong phần còn lại của giao tranh, mỗi @NumAttacks@ đòn đánh sẽ phóng sét gây @ModifiedDamagePerTarget@ sát thương phép cộng thêm lên mục tiêu, và @ModifiedDamagePerTarget@ sát thương phép lên @NumTargets@ kẻ địch xung quanh.",
+        "icon": "https://raw.communitydragon.org/12.22/game/assets/characters/volibear/hud/icons2d/volibear_icon_p.png",
+        "variables": {
+          "BonusHealth": [
+            0,
+            400,
+            700,
+            1200,
+            0,
+            0,
+            0
+          ],
+          "NumTargets": [
+            0,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4
+          ],
+          "DamagePerTarget": [
+            0,
+            130,
+            185,
+            250,
+            0,
+            0,
+            0
+          ],
+          "NumAttacks": [
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3
+          ]
+        }
+      },
+      "icon": "/assets/set7.5/champions/TFT7b_Volibear.webp"
+    },
+    {
+      "id": "TFT7b_Heimerdinger",
+      "name": "Heimerdinger",
+      "cost": 3,
+      "traits": [
+        "Set7_Mage"
+      ],
+      "stats": {
+        "hp": 600,
+        "mana": {
+          "initial": 50,
+          "max": 100
+        },
+        "armor": 25,
+        "mr": 25,
+        "ad": 50,
+        "as": 0.65,
+        "range": 4
+      },
+      "ability": {
+        "name": "Ném Trứng",
+        "description": "Heimerdinger ném trứng nổ vào kẻ địch có tỉ lệ Máu cao nhất, gây @ModifiedDamage@ sát thương phép và làm choáng chúng trong @StunDuration@ giây.",
+        "icon": "https://raw.communitydragon.org/12.22/game/assets/characters/heimerdinger/hud/icons2d/heimerdinger_e1.png",
+        "variables": {
+          "MagicDamage": [
+            0,
+            225,
+            325,
+            475,
+            0,
+            0,
+            0
+          ],
+          "StunDuration": [
+            0,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5
+          ]
+        }
+      },
+      "icon": "/assets/set7.5/champions/TFT7b_Heimerdinger.webp"
+    },
+    {
+      "id": "TFT7b_Lulu",
+      "name": "Lulu",
+      "cost": 3,
+      "traits": [
+        "Set7_Evoker"
+      ],
+      "stats": {
+        "hp": 600,
+        "mana": {
+          "initial": 50,
+          "max": 100
+        },
+        "armor": 25,
+        "mr": 25,
+        "ad": 50,
+        "as": 0.65,
+        "range": 4
+      },
+      "ability": {
+        "name": "Biến Hóa ",
+        "description": "Lulu biến hóa @NumTargets@ đơn vị xung quanh cô. Đồng minh được biến hóa nhận @ModifiedAttackSpeedPercent@ Tốc Độ Đánh cộng thêm trong @AllyBuffDuration@ giây. Kẻ địch bị biến hóa bị choáng và biến thành một thú vô hại trong @PolymorphDuration@ giây, nhận @DamageAmp@% sát thương thêm. Nếu có ít hơn 3 đơn vị xung quanh, Lulu có thể biến hóa bản thân mình.",
+        "icon": "https://raw.communitydragon.org/12.22/game/assets/characters/lulu/hud/icons2d/lulu_whimsy.png",
+        "variables": {
+          "NumTargets": [
+            2,
+            3,
+            3,
+            3,
+            6,
+            7,
+            8
+          ],
+          "AttackSpeedPercent": [
+            8,
+            0.4,
+            0.5,
+            0.7,
+            8,
+            8,
+            8
+          ],
+          "AllyBuffDuration": [
+            0,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5
+          ],
+          "PolymorphDuration": [
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "DamageAmp": [
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20
+          ]
+        }
+      },
+      "icon": "/assets/set7.5/champions/TFT7b_Lulu.webp"
+    },
+    {
+      "id": "TFT7b_Tristana",
+      "name": "Tristana",
+      "cost": 3,
+      "traits": [
+        "Set7_Cannoneer"
+      ],
+      "stats": {
+        "hp": 600,
+        "mana": {
+          "initial": 50,
+          "max": 100
+        },
+        "armor": 25,
+        "mr": 25,
+        "ad": 60,
+        "as": 0.75,
+        "range": 4
+      },
+      "ability": {
+        "name": "Gói Chất Nổ",
+        "description": "Tristana ném đến tối đa @NumOfCharges@ gói chất nổ, ưu tiên các kẻ địch ở gần chưa có gói chất nổ. Gói chất nổ sẽ phát nổ sau @Duration@ giây, gây <scaleAD>@TotalDamage@</scaleAD> sát thương vật lý (@PercentAD*100@% Sức Mạnh Công Kích %i:scaleAD%) lên kẻ địch xung quanh và thêm @ModifiedDamage@ sát thương phép lên mục tiêu chính.",
+        "icon": "https://raw.communitydragon.org/12.22/game/assets/characters/tristana/hud/icons2d/tristana_e.png",
+        "variables": {
+          "Damage": [
+            0,
+            130,
+            160,
+            200,
+            0,
+            0,
+            0
+          ],
+          "NumOfCharges": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "HexRadius": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "Duration": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "PercentAD": [
+            1.2,
+            1.4,
+            1.7,
+            2.1,
+            1.4,
+            1.45,
+            1.5
+          ],
+          "NomsyAttackDamage": [
+            0,
+            50,
+            75,
+            120,
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      "icon": "/assets/set7.5/champions/TFT7b_Tristana.webp"
+    },
+    {
+      "id": "TFT7_Wukong",
+      "name": "Ngộ Không",
+      "cost": 1,
+      "traits": [
+        "Set7_Jade",
+        "Set7_Warrior"
+      ],
+      "stats": {
+        "hp": 650,
+        "mana": {
+          "initial": 0,
+          "max": 60
+        },
+        "armor": 45,
+        "mr": 45,
+        "ad": 65,
+        "as": 0.7,
+        "range": 1
+      },
+      "ability": {
+        "name": "Thiết Bảng Ngàn Cân",
+        "description": "Ngộ Không dùng thiết bảng tấn công mục tiêu của gã, gây <scaleAD>@ModifiedDamage@</scaleAD> sát thương vật lý (@PercentAD*100@% Sức Mạnh Công Kích %i:scaleAD% cộng @TooltipBaseDamage@) và làm choáng chúng trong @Duration@ giây.",
+        "icon": "https://raw.communitydragon.org/12.22/game/assets/characters/monkeyking/hud/icons2d/monkeykingcrushingblow.png",
+        "variables": {
+          "PercentAD": [
+            1.5,
+            1.85,
+            2,
+            2.5,
+            3.5,
+            4,
+            4.5
+          ],
+          "Duration": [
+            1.5,
+            1,
+            1.25,
+            1.5,
+            2,
+            2,
+            2
+          ],
+          "BaseDamage": [
+            25,
+            50,
+            75,
+            100,
+            125,
+            150,
+            175
+          ]
+        }
+      },
+      "icon": "/assets/set7.5/champions/TFT7_Wukong.webp"
+    },
+    {
+      "id": "TFT7_Nasus",
+      "name": "Nasus",
+      "cost": 1,
+      "traits": [
+        "Set7_Shimmerscale",
+        "Set7_Guardian"
+      ],
+      "stats": {
+        "hp": 600,
+        "mana": {
+          "initial": 30,
+          "max": 90
+        },
+        "armor": 40,
+        "mr": 40,
+        "ad": 60,
+        "as": 0.55,
+        "range": 1
+      },
+      "ability": {
+        "name": "Bình Minh Thịnh Nộ",
+        "description": "Nasus bao phủ bản thân trong ánh sáng trong @Duration@ giây, cho @BonusHealth@ máu tối đa và gây @ModifiedDamage@ sát thương phép lên kẻ địch kề bên mỗi giây.",
+        "icon": "https://raw.communitydragon.org/12.22/game/assets/characters/nasus/hud/icons2d/nasus_r.png",
+        "variables": {
+          "BonusHealth": [
+            100,
+            225,
+            350,
+            650,
+            700,
+            850,
+            1000
+          ],
+          "Damage": [
+            30,
+            70,
+            100,
+            205,
+            150,
+            180,
+            210
+          ],
+          "Duration": [
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6
+          ]
+        }
+      },
+      "icon": "/assets/set7.5/champions/TFT7_Nasus.webp"
+    },
+    {
+      "id": "TFT7_Jax",
+      "name": "Jax",
+      "cost": 2,
+      "traits": [
+        "Set7_Jade",
+        "Set7_Shimmerscale",
+        "Set7_Bruiser"
+      ],
+      "stats": {
+        "hp": 750,
+        "mana": {
+          "initial": 70,
+          "max": 140
+        },
+        "armor": 45,
+        "mr": 45,
+        "ad": 55,
+        "as": 0.7,
+        "range": 1
+      },
+      "ability": {
+        "name": "Phản Đòn",
+        "description": "Jax né tất cả các đòn tấn công lên bản thân trong @Duration@ giây, sau đó phản đòn tất cả kẻ địch xung quanh, gây @ModifiedDamage@ sát thương phép và làm choáng chúng trong @StunDuration@ giây.",
+        "icon": "https://raw.communitydragon.org/12.22/game/assets/characters/jax/hud/icons2d/armsmaster_coupdegrace.png",
+        "variables": {
+          "Duration": [
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2
+          ],
+          "Damage": [
+            50,
+            225,
+            350,
+            750,
+            500,
+            500,
+            500
+          ],
+          "AttackRadius": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "StunDuration": [
+            0.75,
+            1,
+            1.25,
+            1.5,
+            1.75,
+            2,
+            2.25
+          ]
+        }
+      },
+      "icon": "/assets/set7.5/champions/TFT7_Jax.webp"
+    },
+    {
+      "id": "TFT7_Lux",
+      "name": "Lux",
+      "cost": 2,
+      "traits": [
+        "Set7_Astral",
+        "Set7_Mage"
+      ],
+      "stats": {
+        "hp": 600,
+        "mana": {
+          "initial": 0,
+          "max": 60
+        },
+        "armor": 20,
+        "mr": 20,
+        "ad": 30,
+        "as": 0.7,
+        "range": 4
+      },
+      "ability": {
+        "name": "Cầu Vồng Vũ Trụ",
+        "description": "Lux bắn ra một tia sáng về phía kẻ địch xa nhất, gây @ModifiedDamage@ sát thương phép lên kẻ địch đầu tiên trúng chiêu, và @LesserModifiedDamage@ sát thương phép lên các kẻ địch sau đó.",
+        "icon": "https://raw.communitydragon.org/12.22/game/assets/characters/lux/hud/icons2d/luxlightstrikekugel.png",
+        "variables": {
+          "BaseDamage": [
+            0,
+            325,
+            410,
+            525,
+            0,
+            0,
+            0
+          ],
+          "LesserDamage": [
+            0,
+            175,
+            210,
+            240,
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      "icon": "/assets/set7.5/champions/TFT7_Lux.webp"
+    },
+    {
+      "id": "TFT7_DragonGuild",
+      "name": "Tưng Tửng",
+      "cost": 3,
+      "traits": [
+        "Set7_Guild",
+        "Set7_Dragon"
+      ],
+      "stats": {
+        "hp": 800,
+        "mana": {
+          "initial": 40,
+          "max": 100
+        },
+        "armor": 50,
+        "mr": 50,
+        "ad": 85,
+        "as": 0.75,
+        "range": 1
+      },
+      "ability": {
+        "name": "Tưng Tửng Tung Tăng",
+        "description": "Tưng Tửng tạo @ModifiedShieldAmount@ lá chắn cho bản thân trong @ShieldDuration@ giây và lộn nhào về phía kẻ địch có phần trăm máu cao nhất, gây <scaleAD>@TotalDamage@</scaleAD> sát thương vật lý (@AttackDamageRatio*100@% Sức Mạnh Công Kích %i:scaleAD%) và đẩy lùi nhẹ chúng.",
+        "icon": "https://raw.communitydragon.org/12.22/game/assets/characters/kled/hud/icons2d/kled_p_cooldown.png",
+        "variables": {
+          "ShieldAmount": [
+            0,
+            375,
+            450,
+            650,
+            0,
+            0,
+            0
+          ],
+          "AttackDamageRatio": [
+            0,
+            4,
+            4.25,
+            6,
+            2.1,
+            2.1,
+            2.1
+          ],
+          "ShieldDuration": [
+            0,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2
+          ]
+        }
+      },
+      "icon": "/assets/set7.5/champions/TFT7_DragonGuild.webp"
+    },
+    {
+      "id": "TFT7_Braum",
+      "name": "Braum",
+      "cost": 2,
+      "traits": [
+        "Set7_Scalescorn",
+        "Set7_Guardian"
+      ],
+      "stats": {
+        "hp": 800,
+        "mana": {
+          "initial": 30,
+          "max": 60
+        },
+        "armor": 60,
+        "mr": 60,
+        "ad": 85,
+        "as": 0.6,
+        "range": 1
+      },
+      "ability": {
+        "name": "Tối Kiên Cường",
+        "description": "Braum dựng khiên hướng về phía có đông kẻ địch nhất trong @ShieldDuration@ giây, giảm sát thương nhận được từ hướng đó đi @ModifiedShieldDR@.",
+        "icon": "https://raw.communitydragon.org/12.22/game/assets/characters/braum/hud/icons2d/braum_e.png",
+        "variables": {
+          "ShieldDR": [
+            0.7,
+            0.7,
+            0.75,
+            0.85,
+            0.9,
+            0.95,
+            1
+          ],
+          "ShieldDuration": [
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4
+          ]
+        }
+      },
+      "icon": "/assets/set7.5/champions/TFT7_Braum.webp"
+    },
+    {
+      "id": "TFT7_Olaf",
+      "name": "Olaf",
+      "cost": 3,
+      "traits": [
+        "Set7_Scalescorn",
+        "Set7_Bruiser",
+        "Set7_Warrior"
+      ],
+      "stats": {
+        "hp": 800,
+        "mana": {
+          "initial": 30,
+          "max": 100
+        },
+        "armor": 50,
+        "mr": 50,
+        "ad": 55,
+        "as": 0.7,
+        "range": 1
+      },
+      "ability": {
+        "name": "Chiến Binh Cuồng Nộ",
+        "description": "Nội Tại: Olaf tìm kiếm cái chết vinh quang, vĩnh viễn nhận thêm %i:scaleAD% @StackingAD@ Sức Mạnh Công Kích (@StackingAD*2@ ở Xúc Xắc Điên Cuồng) khi bị hạ gục (Cộng Thêm Hiện Tại: %i:scaleAD% @TFTUnitProperty.:TFT7_OlafPassiveBonusAD@ Sát Thương).<br><br>Kích Hoạt: Olaf bổ mục tiêu, gây <scaleAD>@TotalDamage@</scaleAD> sát thương vật lý (@AttackDamageRatio*100@% Sức Mạnh Công Kích %i:scaleAD%) và nhận thêm @ModifiedAttackSpeedRatio@ Tốc Độ Đánh trong @BuffDuration@ giây. Nếu ông đang ở dưới @HealthPercentThreshold@% Máu, lượng Tốc Độ Đánh được gấp đôi.",
+        "icon": "https://raw.communitydragon.org/12.22/game/assets/characters/olaf/hud/icons2d/olaf_e.png",
+        "variables": {
+          "AttackDamageRatio": [
+            0,
+            2.2,
+            2.3,
+            2.4,
+            0,
+            0,
+            0
+          ],
+          "AttackSpeedRatio": [
+            0.3,
+            0.35,
+            0.45,
+            0.6,
+            0.7,
+            0.8,
+            0.9
+          ],
+          "BuffDuration": [
+            0,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6
+          ],
+          "HealthPercentThreshold": [
+            0,
+            50,
+            50,
+            50,
+            50,
+            50,
+            50
+          ],
+          "StackingAD": [
+            4,
+            4,
+            4,
+            4,
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      "icon": "/assets/set7.5/champions/TFT7_Olaf.webp"
+    },
+    {
+      "id": "TFT7_Lillia",
+      "name": "Lillia",
+      "cost": 2,
+      "traits": [
+        "Set7_Scalescorn",
+        "Set7_Cavalier",
+        "Set7_Mage"
+      ],
+      "stats": {
+        "hp": 750,
+        "mana": {
+          "initial": 0,
+          "max": 50
+        },
+        "armor": 50,
+        "mr": 50,
+        "ad": 50,
+        "as": 0.75,
+        "range": 1
+      },
+      "ability": {
+        "name": "Nện Cái Nè!",
+        "description": "Lillia tấn công trong một khu vực nhỏ tại mục tiêu hiện tại, gây @ModifiedMagicDamage@ sát thương phép chia đều cho tất cả kẻ địch trúng chiêu và @ModifiedCenterBonusMagicDamage@ sát thương phép cộng thêm với kẻ địch ở vùng tâm chấn động.",
+        "icon": "https://raw.communitydragon.org/12.22/game/assets/characters/lillia/hud/icons2d/lillia_icon_w.png",
+        "variables": {
+          "MagicDamage": [
+            0,
+            215,
+            275,
+            370,
+            0,
+            0,
+            0
+          ],
+          "CenterBonusMagicDamage": [
+            0,
+            190,
+            240,
+            340,
+            0,
+            0,
+            0
+          ],
+          "StunDuration": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ]
+        }
+      },
+      "icon": "/assets/set7.5/champions/TFT7_Lillia.webp"
+    },
+    {
+      "id": "TFT7_Diana",
+      "name": "Diana",
+      "cost": 3,
+      "traits": [
+        "Set7_Scalescorn",
+        "Set7_Assassin"
+      ],
+      "stats": {
+        "hp": 700,
+        "mana": {
+          "initial": 30,
+          "max": 90
+        },
+        "armor": 35,
+        "mr": 35,
+        "ad": 55,
+        "as": 0.75,
+        "range": 1
+      },
+      "ability": {
+        "name": "Thác Bạc",
+        "description": "Diana che chắn bản thân khỏi @ModifiedShield@ sát thương trong @ShieldDuration@ giây và triệu hồi @Orbs@ quả cầu quay xung quanh mình. Những quả cầu sẽ phát nổ gây @ModifiedDamage@ sát thương phép khi trúng một kẻ địch, tái tạo lại Lá chắn khi quả cầu cuối cùng phát nổ.",
+        "icon": "https://raw.communitydragon.org/12.22/game/assets/characters/diana/hud/icons2d/diana_w_lunarshower.png",
+        "variables": {
+          "Orbs": [
+            2,
+            5,
+            6,
+            7,
+            8,
+            7,
+            8
+          ],
+          "OrbDamage": [
+            70,
+            90,
+            105,
+            120,
+            110,
+            120,
+            130
+          ],
+          "ShieldValue": [
+            50,
+            300,
+            350,
+            400,
+            500,
+            550,
+            650
+          ],
+          "ShieldDuration": [
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6
+          ]
+        }
+      },
+      "icon": "/assets/set7.5/champions/TFT7_Diana.webp"
+    },
+    {
+      "id": "TFT7_NomsyMage",
+      "name": "Măm Măm",
+      "cost": 3,
+      "traits": [
+        "Set7_Prodigy",
+        "Set7_Dragon",
+        "Set7_Mage"
+      ],
+      "stats": {
+        "hp": 650,
+        "mana": {
+          "initial": 0,
+          "max": 90
+        },
+        "armor": 30,
+        "mr": 30,
+        "ad": 60,
+        "as": 0.75,
+        "range": 4
+      },
+      "ability": {
+        "name": "Cầu Lửa!",
+        "description": "Măm Măm khạc một quả cầu lửa khổng lồ về phía một kẻ địch ngẫu nhiên, thứ sẽ phát nổ khi va chạm, gây @ModifiedDamage@ sát thương phép lên kẻ địch trong vòng 1 ô, và nổ bung ra thành các quả cầu lửa khác gây @PercentDamage*100@% lượng sát thương.",
+        "icon": "https://raw.communitydragon.org/12.22/game/assets/characters/brand/hud/icons2d/brandpyroclasm.png",
+        "variables": {
+          "MagicDamage": [
+            0,
+            190,
+            270,
+            420,
+            0,
+            0,
+            0
+          ],
+          "PercentDamage": [
+            0,
+            0.3,
+            0.35,
+            0.4,
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      "icon": "/assets/set7.5/champions/TFT7_NomsyMage.webp"
+    },
+    {
+      "id": "TFT7_NomsyCannoneer",
+      "name": "Măm Măm",
+      "cost": 3,
+      "traits": [
+        "Set7_Prodigy",
+        "Set7_Dragon",
+        "Set7_Cannoneer"
+      ],
+      "stats": {
+        "hp": 650,
+        "mana": {
+          "initial": 0,
+          "max": 90
+        },
+        "armor": 30,
+        "mr": 30,
+        "ad": 60,
+        "as": 0.75,
+        "range": 4
+      },
+      "ability": {
+        "name": "Cầu Lửa!",
+        "description": "Măm Măm khạc một quả cầu lửa khổng lồ về phía một kẻ địch ngẫu nhiên, thứ sẽ phát nổ khi va chạm, gây @ModifiedDamage@ sát thương phép lên kẻ địch trong vòng 1 ô, và nổ bung ra thành các quả cầu lửa khác gây @PercentDamage*100@% lượng sát thương.",
+        "icon": "https://raw.communitydragon.org/12.22/game/assets/characters/brand/hud/icons2d/brandpyroclasm.png",
+        "variables": {
+          "MagicDamage": [
+            0,
+            190,
+            270,
+            420,
+            0,
+            0,
+            0
+          ],
+          "PercentDamage": [
+            0,
+            0.3,
+            0.35,
+            0.4,
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      "icon": "/assets/set7.5/champions/TFT7_NomsyCannoneer.webp"
+    },
+    {
+      "id": "TFT7_NomsyEvoker",
+      "name": "Măm Măm",
+      "cost": 3,
+      "traits": [
+        "Set7_Prodigy",
+        "Set7_Dragon",
+        "Set7_Evoker"
+      ],
+      "stats": {
+        "hp": 650,
+        "mana": {
+          "initial": 0,
+          "max": 90
+        },
+        "armor": 30,
+        "mr": 30,
+        "ad": 60,
+        "as": 0.75,
+        "range": 4
+      },
+      "ability": {
+        "name": "Cầu Lửa!",
+        "description": "Măm Măm khạc một quả cầu lửa khổng lồ về phía một kẻ địch ngẫu nhiên, thứ sẽ phát nổ khi va chạm, gây @ModifiedDamage@ sát thương phép lên kẻ địch trong vòng 1 ô, và nổ bung ra thành các quả cầu lửa khác gây @PercentDamage*100@% lượng sát thương.",
+        "icon": "https://raw.communitydragon.org/12.22/game/assets/characters/brand/hud/icons2d/brandpyroclasm.png",
+        "variables": {
+          "MagicDamage": [
+            0,
+            190,
+            270,
+            420,
+            0,
+            0,
+            0
+          ],
+          "PercentDamage": [
+            0,
+            0.3,
+            0.35,
+            0.4,
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      "icon": "/assets/set7.5/champions/TFT7_NomsyEvoker.webp"
+    }
+  ],
+  "items": [
+    {
+      "id": "TFT_Item_RabadonsDeathcap",
+      "name": "Mũ Phù Thủy Rabadon",
+      "components": [
+        "TFT_Item_NeedlesslyLargeRod",
+        "TFT_Item_NeedlesslyLargeRod"
+      ],
+      "description": "Cho %i:scaleAP% @BonusAP@ Sức Mạnh Phép Thuật cộng thêm.",
+      "isUnique": false,
+      "icon": "/assets/set7.5/items/TFT_Item_RabadonsDeathcap.webp"
+    },
+    {
+      "id": "TFT7_Item_DarkflightEssence",
+      "name": "Tinh Hoa Bạo Long",
+      "components": [],
+      "description": "Khi chủ sở hữu bị hạ, chỉ số của trang bị này sẽ được chuyển cho các tướng Bạo Long.<br><br><tftitemrules>[Nhận được khi sao chép trang bị không thể ghép thông qua tộc Bạo Long].</tftitemrules>",
+      "isUnique": false,
+      "icon": "/assets/set7.5/items/TFT7_Item_DarkflightEssence.webp"
+    },
+    {
+      "id": "TFT_Item_InfinityEdge",
+      "name": "Vô Cực Kiếm",
+      "components": [
+        "TFT_Item_BFSword",
+        "TFT_Item_SparringGloves"
+      ],
+      "description": "Cho %i:scaleCrit% @BonusCritChance@% Tỉ Lệ Chí Mạng cộng thêm và %i:scaleCritMult% @BonusCritDamage@% Sát Thương Chí Mạng cộng thêm. Mỗi %i:scaleCrit% Tỉ Lệ Chí Mạng trên 100% sẽ trở thành %i:scaleCritMult% @BonusCritDmgPerCritAbove100@% Sát Thương Chí mạng. <br><br><tftitemrules>[Duy Nhất - chỉ một mỗi tướng]</tftitemrules>",
+      "isUnique": true,
+      "icon": "/assets/set7.5/items/TFT_Item_InfinityEdge.webp"
+    },
+    {
+      "id": "TFT7_Item_CavalierEmblemItem",
+      "name": "Ấn Kỵ Sĩ",
+      "components": [
+        "TFT_Item_Spatula",
+        "TFT_Item_ChainVest"
+      ],
+      "description": "Chủ sở hữu là Kỵ Sĩ.<br><br><tftitemrules>[Duy Nhất - chỉ một mỗi tướng]</tftitemrules>",
+      "isUnique": true,
+      "icon": "/assets/set7.5/items/TFT7_Item_CavalierEmblemItem.webp"
+    },
+    {
+      "id": "TFT_Item_FrozenHeart",
+      "name": "Lời Thề Hộ Vệ",
+      "components": [
+        "TFT_Item_TearOfTheGoddess",
+        "TFT_Item_ChainVest"
+      ],
+      "description": "Cho thêm %i:scaleMana% @BonusMana@ Năng Lượng khởi đầu.<br><br>Một lần mỗi giao tranh: Ở @HealthThreshold@% Máu, đồng minh trong vòng @HexRadius@ ô nhận một lá chắn giá trị @ShieldHealthPercent@% Máu tối đa trong @ShieldDuration@ giây. Đồng minh được tạo lá chắn nhận %i:scaleArmor% @Stats@ Giáp và %i:scaleMR% @Stats@ Kháng Phép trong phần còn lại của giao tranh.<br><br>​​<tftitemrules>[Trang bị hào quang]</tftitemrules>",
+      "isUnique": false,
+      "icon": "/assets/set7.5/items/TFT_Item_FrozenHeart.webp"
+    },
+    {
+      "id": "TFT_Item_Shroud",
+      "name": "Áo Choàng Tĩnh Lặng",
+      "components": [
+        "TFT_Item_ChainVest",
+        "TFT_Item_SparringGloves"
+      ],
+      "description": "Bắt đầu giao tranh: Chiếu một tia gây nhiễu, tăng năng lượng tối đa của kẻ địch trúng phải thêm @CostIncrease@% cho đến khi họ tung kỹ năng.<br><br><tftitemrules>[Duy Nhất - chỉ một mỗi tướng]</tftitemrules>",
+      "isUnique": true,
+      "icon": "/assets/set7.5/items/TFT_Item_Shroud.webp"
+    },
+    {
+      "id": "TFT7_Item_CannoneerEmblemItem",
+      "name": "Ấn Pháo Thủ",
+      "components": [],
+      "description": "Chủ sở hữu là Pháo Thủ.<br><br><tftitemrules>[Duy Nhất - chỉ một mỗi tướng]</tftitemrules>",
+      "isUnique": true,
+      "icon": "/assets/set7.5/items/TFT7_Item_CannoneerEmblemItem.webp"
+    },
+    {
+      "id": "TFT7_Item_AstralEmblemItem",
+      "name": "Ấn Thượng Long",
+      "components": [],
+      "description": "Chủ sở hữu thuộc tộc Thượng Long.<br><br><tftitemrules>[Duy Nhất - chỉ một mỗi tướng]</tftitemrules>",
+      "isUnique": true,
+      "icon": "/assets/set7.5/items/TFT7_Item_AstralEmblemItem.webp"
+    },
+    {
+      "id": "TFT_Item_Redemption",
+      "name": "Dây Chuyền Chuộc Tội",
+      "components": [
+        "TFT_Item_TearOfTheGoddess",
+        "TFT_Item_GiantsBelt"
+      ],
+      "description": "Hồi máu cho đồng minh trong vòng 1 ô @MissingHealthHeal@% Máu đã mất mỗi @HealTickRate@ giây. Họ cũng được giảm @AoEDamageReduction@% sát thương đa mục tiêu trong @HealTickRate@ giây (hiệu ứng giảm sát thương không cộng dồn).<br><br><tftitemrules>[Trang bị hào quang]</tftitemrules>",
+      "isUnique": false,
+      "icon": "/assets/set7.5/items/TFT_Item_Redemption.webp"
+    },
+    {
+      "id": "TFT7_Item_WhispersEmblemItem",
+      "name": "Ấn Ám Long",
+      "components": [],
+      "description": "Chủ sở hữu thuộc tộc Ám Long.<br><br><tftitemrules>[Duy Nhất - chỉ một mỗi tướng]</tftitemrules>",
+      "isUnique": true,
+      "icon": "/assets/set7.5/items/TFT7_Item_WhispersEmblemItem.webp"
+    },
+    {
+      "id": "TFT7_Item_TrainerEmblemItem",
+      "name": "Ấn Luyện Rồng",
+      "components": [],
+      "description": "Chủ sở hữu là Luyện Rồng.",
+      "isUnique": true,
+      "icon": "/assets/set7.5/items/TFT7_Item_TrainerEmblemItem.webp"
+    },
+    {
+      "id": "TFT_Item_Zephyr",
+      "name": "Phong Kiếm",
+      "components": [
+        "TFT_Item_NegatronCloak",
+        "TFT_Item_GiantsBelt"
+      ],
+      "description": "Bắt đầu giao tranh: Triệu hồi một luồng gió mạnh ở phía đối diện của sân đấu, loại kẻ địch gần đó nhất ra khỏi chiến đấu trong @BanishDuration@ giây.<br><br><tftitemrules>[Bỏ qua miễn nhiễm khống chế.]<br>[Duy Nhất - chỉ một mỗi tướng]</tftitemrules>",
+      "isUnique": true,
+      "icon": "/assets/set7.5/items/TFT_Item_Zephyr.webp"
+    },
+    {
+      "id": "TFT7_Item_ShimmerscaleGoldmancersStaff",
+      "name": "Quyền Trượng Giả Kim",
+      "components": [],
+      "description": "Cho %i:scaleAP% @AbilityPowerPerGold@ Sức Mạnh Phép Thuật mỗi %i:goldCoins% vàng đang sở hữu (tối đa %i:goldCoins% @AbilityPowerGoldMax@ vàng) và @OnKillProcChance*100@% tỉ lệ rơi ra %i:goldCoins% @OnKillProcGold@ vàng khi hạ sát kẻ địch.",
+      "isUnique": true,
+      "icon": "/assets/set7.5/items/TFT7_Item_ShimmerscaleGoldmancersStaff.webp"
+    },
+    {
+      "id": "TFT7_Item_ShimmerscaleDeterminedInvestor_HR",
+      "name": "Đầu Tư Kiên Định",
+      "components": [],
+      "description": "Sau khi bị hạ gục trong giao tranh @StackLimit@ lần, trang bị này sẽ bị phá hủy. Khi bị phá hủy, cho một Cánh Tay Kim Cương, 1 Máy Nhân Bản, và %i:goldCoins% @GoldGranted@ vàng.",
+      "isUnique": true,
+      "icon": "/assets/set7.5/items/TFT7_Item_ShimmerscaleDeterminedInvestor_HR.webp"
+    },
+    {
+      "id": "TFT7_Item_ShimmerscaleMogulsMail_HR",
+      "name": "Giáp Đại Hãn",
+      "components": [],
+      "description": "Cho %i:scaleAD% @BaseResistsPerStack@ Giáp, %i:scaleAP% @BaseResistsPerStack@ Kháng Phép, và @BaseHealthPerStack@ Máu khi nhận sát thương, cộng dồn tối đa @StackCap@ lần.  <br><br>Ở tối đa cộng dồn, cho %i:goldCoins% @GoldAtFullStacks@ vàng.",
+      "isUnique": true,
+      "icon": "/assets/set7.5/items/TFT7_Item_ShimmerscaleMogulsMail_HR.webp"
+    },
+    {
+      "id": "TFT7_Item_ShimmerscaleGamblersBlade_HR",
+      "name": "Kiếm của Tay Bạc",
+      "components": [],
+      "description": "Cho %i:scaleMS% @AttackSpeedPerGold*100@% Tốc Độ Đánh cộng thêm mỗi %i:goldCoins% vàng đang sở hữu (tối đa %i:goldCoins%  @AttackSpeedGoldLimit@ vàng).<br><br>Mỗi đòn đánh có @ChanceToProc*100@% tỉ lệ rơi ra %i:goldCoins%  @GoldPerProc@ vàng.",
+      "isUnique": true,
+      "icon": "/assets/set7.5/items/TFT7_Item_ShimmerscaleGamblersBlade_HR.webp"
+    },
+    {
+      "id": "TFT7_Item_ShimmerscaleHeartOfGold",
+      "name": "Ngọc Quá Khổ",
+      "components": [],
+      "description": "Một lần mỗi giao tranh: Nếu chủ sở hữu vẫn sống sót sau @ProcTimeInSeconds@ giây giao tranh, cho %i:goldCoins% 1 vàng mỗi @UnitsPerGold@ đồng minh sống sót, và các đồng minh sống sót sẽ gây thêm @BonusDamagePerGold*100@% sát thương mỗi %i:goldCoins% vàng đang sở hữu (tối đa %i:goldCoins% @GoldLimit@ vàng).",
+      "isUnique": true,
+      "icon": "/assets/set7.5/items/TFT7_Item_ShimmerscaleHeartOfGold.webp"
+    },
+    {
+      "id": "TFT7_Item_ShimmerscaleDravensAxe_HR",
+      "name": "Rìu Của Draven",
+      "components": [],
+      "description": "Nhận %i:scaleAD% @AttackDamagePerGold@ Sức Mạnh Công Kích mỗi %i:goldCoins% vàng đang sở hữu (tối đa %i:goldCoins%  @AttackDamageGoldLimit@ vàng).<br><br>Đòn đánh cho @StacksPerAttack@ cộng dồn, tối đa @CashoutStacks@ lần. Khi đầy cộng dồn, cho %i:goldCoins% @CashoutGold@ vàng và @CashoutComponents@ trang bị thành phần.",
+      "isUnique": true,
+      "icon": "/assets/set7.5/items/TFT7_Item_ShimmerscaleDravensAxe_HR.webp"
+    },
+    {
+      "id": "TFT7_Item_ShimmerscaleDiamondHands_HR",
+      "name": "Cánh Tay Kim Cương",
+      "components": [],
+      "description": "Một lần mỗi giao tranh: Ở @HPThreshold1*100@% Máu và @HPThreshold2*100@% Máu, trở nên miễn nhiễm trong @BaseDamageImmunityTime@ giây và cho %i:goldCoins% @GoldPerImmunityProc@ vàng.",
+      "isUnique": true,
+      "icon": "/assets/set7.5/items/TFT7_Item_ShimmerscaleDiamondHands_HR.webp"
+    },
+    {
+      "id": "TFT7_Item_ShimmerscaleCrownOfChampions",
+      "name": "Vương Miện Vô Địch",
+      "components": [],
+      "description": "Mỗi @SecondsForEmpoweredAttack@ giây, đòn đánh tiếp theo gây @AttackGoldMultiplier@x lượng %i:goldCoins% vàng hiện tại của bạn thành sát thương chuẩn.",
+      "isUnique": true,
+      "icon": "/assets/set7.5/items/TFT7_Item_ShimmerscaleCrownOfChampions.webp"
+    },
+    {
+      "id": "TFT_Item_ZekesHerald",
+      "name": "Tụ Bão Zeke",
+      "components": [
+        "TFT_Item_BFSword",
+        "TFT_Item_GiantsBelt"
+      ],
+      "description": "Bắt đầu giao tranh: Cho chủ sở hữu và đồng minh cùng hàng trong vòng 1 ô %i:scaleAS% @AttackSpeed@% Tốc Độ Đánh.<br><br>​​<tftitemrules>[Trang bị hào quang]</tftitemrules>",
+      "isUnique": false,
+      "icon": "/assets/set7.5/items/TFT_Item_ZekesHerald.webp"
+    },
+    {
+      "id": "TFT_Item_ThiefsGloves",
+      "name": "Găng Đạo Tặc",
+      "components": [
+        "TFT_Item_SparringGloves",
+        "TFT_Item_SparringGloves"
+      ],
+      "description": "Mỗi vòng đấu: Tạo ra hai trang bị ngẫu nhiên.<br><br><tftitemrules>[Tốn 3 ô trang bị.]</tftitemrules>",
+      "isUnique": false,
+      "icon": "/assets/set7.5/items/TFT_Item_ThiefsGloves.webp"
+    },
+    {
+      "id": "TFT_Item_GuinsoosRageblade",
+      "name": "Cuồng Đao Guinsoo",
+      "components": [
+        "TFT_Item_RecurveBow",
+        "TFT_Item_NeedlesslyLargeRod"
+      ],
+      "description": "Đòn đánh cho %i:scaleAS% @AttackSpeedPerStack@% Tốc Độ Đánh. Hiệu ứng này có thể cộng dồn.",
+      "isUnique": false,
+      "icon": "/assets/set7.5/items/TFT_Item_GuinsoosRageblade.webp"
+    },
+    {
+      "id": "TFT7_Item_JadeEmblemItem",
+      "name": "Ấn Ngọc Long",
+      "components": [],
+      "description": "Chủ sở hữu thuộc tộc Ngọc Long.<br><br><tftitemrules>[Duy Nhất - chỉ một mỗi tướng]</tftitemrules>",
+      "isUnique": true,
+      "icon": "/assets/set7.5/items/TFT7_Item_JadeEmblemItem.webp"
+    },
+    {
+      "id": "TFT_Item_IonicSpark",
+      "name": "Nỏ Sét",
+      "components": [
+        "TFT_Item_NeedlesslyLargeRod",
+        "TFT_Item_NegatronCloak"
+      ],
+      "description": "Kẻ địch trong vòng @HexRange@ ô bị giảm Kháng Phép đi @MRShred@%. Khi chúng sử dụng Kỹ Năng, chúng sẽ bị giật điện gây sát thương phép tương đương @ManaRatio@% Năng Lượng tối đa.<br><br><tftitemrules>[Sát thương trang bị trực tiếp]</tftitemrules>",
+      "isUnique": false,
+      "icon": "/assets/set7.5/items/TFT_Item_IonicSpark.webp"
+    },
+    {
+      "id": "TFT7_Item_TempestEmblemItem",
+      "name": "Ấn Lôi Long",
+      "components": [],
+      "description": "Chủ sở hữu thuộc tộc Lôi Long.<br><br><tftitemrules>[Duy Nhất - chỉ một mỗi tướng]</tftitemrules>",
+      "isUnique": true,
+      "icon": "/assets/set7.5/items/TFT7_Item_TempestEmblemItem.webp"
+    },
+    {
+      "id": "TFT_Item_DragonsClaw",
+      "name": "Vuốt Rồng",
+      "components": [
+        "TFT_Item_NegatronCloak",
+        "TFT_Item_NegatronCloak"
+      ],
+      "description": "Cho %i:scaleMR% @BonusMR@ Kháng Phép cộng thêm. Mỗi @HealthRegenInterval@ giây, hồi @PercentHealthDamage@%% Máu tối đa với mỗi kẻ địch nhắm đến chủ sở hữu.<br><br><font color='#cccccc'><i>Nếu chủ sở hữu là Rồng Thần, tăng cường tất cả chỉ số và hiệu ứng thêm @DragonValue@%.</i></font>",
+      "isUnique": false,
+      "icon": "/assets/set7.5/items/TFT_Item_DragonsClaw.webp"
+    },
+    {
+      "id": "TFT7_Item_WarriorEmblemItem",
+      "name": "Ấn Chiến Binh",
+      "components": [],
+      "description": "Chủ sở hữu là Chiến Binh.<br><br><tftitemrules>[Duy Nhất - chỉ một mỗi tướng]</tftitemrules>",
+      "isUnique": true,
+      "icon": "/assets/set7.5/items/TFT7_Item_WarriorEmblemItem.webp"
+    },
+    {
+      "id": "TFT7_Item_AssassinEmblemItem",
+      "name": "Ấn Sát Thủ",
+      "components": [],
+      "description": "Chủ sở hữu là Sát Thủ.<br><br><tftitemrules>[Duy Nhất - chỉ một mỗi tướng]</tftitemrules>",
+      "isUnique": true,
+      "icon": "/assets/set7.5/items/TFT7_Item_AssassinEmblemItem.webp"
+    },
+    {
+      "id": "TFT7_Item_MysticEmblemItem",
+      "name": "Ấn Bí Ẩn",
+      "components": [],
+      "description": "Chủ sở hữu là Bí Ẩn.<br><br><tftitemrules>[Duy Nhất - chỉ một mỗi tướng]</tftitemrules>",
+      "isUnique": true,
+      "icon": "/assets/set7.5/items/TFT7_Item_MysticEmblemItem.webp"
+    },
+    {
+      "id": "TFT_Item_PowerGauntlet",
+      "name": "Vuốt Ma Ám",
+      "components": [
+        "TFT_Item_GiantsBelt",
+        "TFT_Item_SparringGloves"
+      ],
+      "description": "Bắt đầu giao tranh: Chủ sở hữu và đồng minh trong vòng 1 ô cùng hàng nhận một lá chắn chặn hiệu ứng và một lượng sát thương từ kỹ năng đầu tiên của kẻ địch, tối đa 600 sát thương. <br>​​<br><tftitemrules>[Trang bị hào quang]</tftitemrules>",
+      "isUnique": false,
+      "icon": "/assets/set7.5/items/TFT_Item_PowerGauntlet.webp"
+    },
+    {
+      "id": "TFT_Item_GargoyleStoneplate",
+      "name": "Thú Tượng Thạch Giáp",
+      "components": [
+        "TFT_Item_ChainVest",
+        "TFT_Item_NegatronCloak"
+      ],
+      "description": "Cho %i:scaleArmor% @ArmorPerEnemy@ Giáp và %i:scaleMR% @MRPerEnemy@ Kháng Phép với mỗi kẻ địch nhắm vào chủ sở hữu.",
+      "isUnique": false,
+      "icon": "/assets/set7.5/items/TFT_Item_GargoyleStoneplate.webp"
+    },
+    {
+      "id": "TFT_Item_BrambleVest",
+      "name": "Áo Choàng Gai",
+      "components": [
+        "TFT_Item_ChainVest",
+        "TFT_Item_ChainVest"
+      ],
+      "description": "Cho %i:scaleArmor% @BonusArmor@ Giáp cộng thêm. Giảm thiểu @CritReduction*100@% lượng sát thương cộng thêm từ các đòn chí mạng. Khi bị trúng một đòn đánh, gây @1StarAoEDamage@/@2StarAoEDamage@/@3StarAoEDamage@ %i:star% sát thương phép lên tất cả kẻ địch xung quanh (một lần mỗi @ICD@ giây).<br><br><tftitemrules>[Sát thương trang bị trực tiếp]</tftitemrules>",
+      "isUnique": false,
+      "icon": "/assets/set7.5/items/TFT_Item_BrambleVest.webp"
+    },
+    {
+      "id": "TFT_Item_ChainVest",
+      "name": "Giáp Lưới",
+      "components": [],
+      "description": "%i:scaleArmor% +@Armor@ Giáp",
+      "isUnique": false,
+      "icon": "/assets/set7.5/items/TFT_Item_ChainVest.webp"
+    },
+    {
+      "id": "TFT7_Item_GuildEmblemItem",
+      "name": "Ấn Bang Hội",
+      "components": [],
+      "description": "Chủ sở hữu thuộc Bang Hội.<br><br><TFTDebonairVIP>Hiệu Ứng Bang Hội: @Omnivamp@% Hút Máu Toàn Phần</TFTDebonairVIP><br><br><tftitemrules>[Duy Nhất - chỉ một mỗi tiếng]</tftitemrules>",
+      "isUnique": true,
+      "icon": "/assets/set7.5/items/TFT7_Item_GuildEmblemItem.webp"
+    },
+    {
+      "id": "TFT7_Item_SwiftshotEmblemItem",
+      "name": "Ấn Xạ Tiễn",
+      "components": [
+        "TFT_Item_Spatula",
+        "TFT_Item_RecurveBow"
+      ],
+      "description": "Chủ sở hữu là Xạ Tiễn.<br><br><tftitemrules>[Duy Nhất - chỉ một mỗi tướng]</tftitemrules>",
+      "isUnique": true,
+      "icon": "/assets/set7.5/items/TFT7_Item_SwiftshotEmblemItem.webp"
+    },
+    {
+      "id": "TFT7_Item_LagoonEmblemItem",
+      "name": "Ấn Thủy Long",
+      "components": [
+        "TFT_Item_SparringGloves",
+        "TFT_Item_Spatula"
+      ],
+      "description": "Chủ sở hữu thuộc tộc Thủy Long.<br><br><tftitemrules>[Duy Nhất - chỉ một mỗi tướng]</tftitemrules>",
+      "isUnique": true,
+      "icon": "/assets/set7.5/items/TFT7_Item_LagoonEmblemItem.webp"
+    },
+    {
+      "id": "TFT7_Item_LegendEmblemItem",
+      "name": "Ấn Thần Thoại",
+      "components": [],
+      "description": "Chủ sở hữu là Thần Thoại.",
+      "isUnique": true,
+      "icon": "/assets/set7.5/items/TFT7_Item_LegendEmblemItem.webp"
+    },
+    {
+      "id": "TFT_Item_RecurveBow",
+      "name": "Cung Gỗ",
+      "components": [],
+      "description": "%i:scaleAS% +@AS@% Tốc Độ Đánh",
+      "isUnique": false,
+      "icon": "/assets/set7.5/items/TFT_Item_RecurveBow.webp"
+    },
+    {
+      "id": "TFT_Item_MadredsBloodrazor",
+      "name": "Diệt Khổng Lồ",
+      "components": [
+        "TFT_Item_BFSword",
+        "TFT_Item_RecurveBow"
+      ],
+      "description": "Kỹ năng và đòn đánh của chủ sỡ hữu gây @SmallBonusPct@% sát thương thêm. Nếu mục tiêu có nhiều hơn @HealthThreshold@ Máu tối đa, lượng sát thương cộng thêm được tăng lên @LargeBonusPct@%.",
+      "isUnique": false,
+      "icon": "/assets/set7.5/items/TFT_Item_MadredsBloodrazor.webp"
+    },
+    {
+      "id": "TFT_Item_RedBuff",
+      "name": "Áo Choàng Lửa",
+      "components": [
+        "TFT_Item_ChainVest",
+        "TFT_Item_GiantsBelt"
+      ],
+      "description": "Cho %i:scaleHealth% @BonusHP@ Máu cộng thêm. Mỗi @ICD@ giây, kẻ địch trong vòng @HexRange@ ô bị thiêu đốt, gây sát thương chuẩn tương đương @BurnPercent@% Máu tối đa trong @BurnDuration@ giây, và bị giảm khả năng hồi máu đi @GrievousWoundsPercent@% trong thời gian đốt.<br><br><tftitemrules>[Duy Nhất - chỉ một mỗi tướng]</tftitemrules>",
+      "isUnique": true,
+      "icon": "/assets/set7.5/items/TFT_Item_RedBuff.webp"
+    },
+    {
+      "id": "TFT7_Item_MageEmblemItem",
+      "name": "Ấn Pháp Sư",
+      "components": [
+        "TFT_Item_Spatula",
+        "TFT_Item_TearOfTheGoddess"
+      ],
+      "description": "Chủ sở hữu là Pháp Sư.<br><br><tftitemrules>[Duy Nhất - chỉ một mỗi tướng]</tftitemrules>",
+      "isUnique": true,
+      "icon": "/assets/set7.5/items/TFT7_Item_MageEmblemItem.webp"
+    },
+    {
+      "id": "TFT7_Item_RevelEmblemItem",
+      "name": "Ấn Lễ Hội",
+      "components": [],
+      "description": "Chủ sở hữu thuộc Lễ Hội.<br><br><tftitemrules>[Duy Nhất - chỉ một mỗi tướng]</tftitemrules>",
+      "isUnique": true,
+      "icon": "/assets/set7.5/items/TFT7_Item_RevelEmblemItem.webp"
+    },
+    {
+      "id": "TFT_Item_UnstableConcoction",
+      "name": "Bàn Tay Công Lý",
+      "components": [
+        "TFT_Item_TearOfTheGoddess",
+        "TFT_Item_SparringGloves"
+      ],
+      "description": "Cho 2 Hiệu Ứng:<li>%i:scaleAD% +@BaseAD@ Sức Mạnh Công Kích %i:scaleAP% +@BaseSP@ Sức Mạnh Phép Thuật.<li>@BaseHeal@% Hút Máu Toàn Phần.<br><br>Mỗi vòng đấu, một trong hai hiệu ứng sẽ được ngẫu nhiên tăng gấp đôi.",
+      "isUnique": false,
+      "icon": "/assets/set7.5/items/TFT_Item_UnstableConcoction.webp"
+    },
+    {
+      "id": "TFT_Item_GuardianAngel",
+      "name": "Áo Choàng Bóng Tối",
+      "components": [
+        "TFT_Item_BFSword",
+        "TFT_Item_ChainVest"
+      ],
+      "description": "Một lần mỗi giao tranh: Ở @HealthThreshold@% Máu, trở nên vô hình trong thoáng chốc, không thể định vị và loại bỏ các hiệu ứng bất lợi. Sau đó, cho %i:scaleAS% @AttackSpeed@% Tốc Độ Đánh.<br><br><tftitemrules>[Duy Nhất - chỉ 1 mỗi tướng]</tftitemrules>",
+      "isUnique": true,
+      "icon": "/assets/set7.5/items/TFT_Item_GuardianAngel.webp"
+    },
+    {
+      "id": "TFT_Item_SeraphsEmbrace",
+      "name": "Bùa Xanh",
+      "components": [
+        "TFT_Item_TearOfTheGoddess",
+        "TFT_Item_TearOfTheGoddess"
+      ],
+      "description": "Bắt đầu giao tranh: Cho thêm %i:scaleMana% @BonusMana@ Năng Lượng khởi đầu. Sau khi sử dụng Kỹ Năng, đặt Năng Lượng chủ sở hữu thành %i:scaleMana% @ManaRestore@.<br><br><tftitemrules>[Duy Nhất - chỉ 1 mỗi tướng]</tftitemrules><br>",
+      "isUnique": true,
+      "icon": "/assets/set7.5/items/TFT_Item_SeraphsEmbrace.webp"
+    },
+    {
+      "id": "TFT_Item_TearOfTheGoddess",
+      "name": "Nước Mắt Nữ Thần",
+      "components": [],
+      "description": "%i:scaleMana% +@Mana@ Năng Lượng",
+      "isUnique": false,
+      "icon": "/assets/set7.5/items/TFT_Item_TearOfTheGoddess.webp"
+    },
+    {
+      "id": "TFT_Item_NegatronCloak",
+      "name": "Áo Choàng Bạc",
+      "components": [],
+      "description": "%i:scaleMR% +@MagicResist@ Kháng Phép",
+      "isUnique": false,
+      "icon": "/assets/set7.5/items/TFT_Item_NegatronCloak.webp"
+    },
+    {
+      "id": "TFT_Item_TitansResolve",
+      "name": "Quyền Năng Khổng Lồ",
+      "components": [
+        "TFT_Item_ChainVest",
+        "TFT_Item_RecurveBow"
+      ],
+      "description": "Cho %i:scaleAD% @StackingAD@ Sức Mạnh Công Kích và %i:scaleAP% @StackingAD@ Sức Mạnh Phép Thuật khi tấn công hoặc nhận sát thương, cộng dồn tối đa @StackCap@ lần.  <br><br>Ở tối đa cộng dồn, cho %i:scaleArmor% @BonusResistsAtStackCap@ Giáp và %i:scaleMR% @BonusResistsAtStackCap@ Kháng Phép.",
+      "isUnique": false,
+      "icon": "/assets/set7.5/items/TFT_Item_TitansResolve.webp"
+    },
+    {
+      "id": "TFT_Item_RunaansHurricane",
+      "name": "Cuồng Cung Runaan",
+      "components": [
+        "TFT_Item_NegatronCloak",
+        "TFT_Item_RecurveBow"
+      ],
+      "description": "Cho  %i:scaleAD% @BonusAD@ Sức Mạnh Công Kích cộng thêm. Đòn đánh của chủ sở hữu bắn ra một đường đạn phụ lên kẻ địch xung quanh, gây @MultiplierForDamage@% Sức Mạnh Công Kích %i:scaleAD% của chủ sở hữu thành sát thương vật lý.<br><br><tftitemrules>​​[Sát thương trang bị trực tiếp]</tftitemrules>",
+      "isUnique": false,
+      "icon": "/assets/set7.5/items/TFT_Item_RunaansHurricane.webp"
+    },
+    {
+      "id": "TFT7_Item_GuardianEmblemItem",
+      "name": "Ấn Hộ Pháp",
+      "components": [
+        "TFT_Item_Spatula",
+        "TFT_Item_GiantsBelt"
+      ],
+      "description": "Chủ sở hữu là Hộ Pháp.<br><br><tftitemrules>[Duy Nhất - chỉ một mỗi tướng]</tftitemrules>",
+      "isUnique": true,
+      "icon": "/assets/set7.5/items/TFT7_Item_GuardianEmblemItem.webp"
+    },
+    {
+      "id": "TFT7_Item_TreasureDragonGold9",
+      "name": "9 Vàng",
+      "components": [],
+      "description": "9 Vàng",
+      "isUnique": false,
+      "icon": "/assets/set7.5/items/TFT7_Item_TreasureDragonGold9.webp"
+    },
+    {
+      "id": "TFT7_Item_TreasureDragonGold4",
+      "name": "4 Vàng",
+      "components": [],
+      "description": "4 Vàng",
+      "isUnique": false,
+      "icon": "/assets/set7.5/items/TFT7_Item_TreasureDragonGold4.webp"
+    },
+    {
+      "id": "TFT7_Item_TreasureDragonGold3",
+      "name": "3 Vàng",
+      "components": [],
+      "description": "3 Vàng",
+      "isUnique": false,
+      "icon": "/assets/set7.5/items/TFT7_Item_TreasureDragonGold3.webp"
+    },
+    {
+      "id": "TFT7_Item_TreasureDragonGold20",
+      "name": "20 Vàng",
+      "components": [],
+      "description": "20 Vàng",
+      "isUnique": false,
+      "icon": "/assets/set7.5/items/TFT7_Item_TreasureDragonGold20.webp"
+    },
+    {
+      "id": "TFT_Item_SparringGloves",
+      "name": "Găng Đấu Tập",
+      "components": [],
+      "description": "+@CritChance@ Tỉ Lệ Chí Mạng<br>+@DodgeChance@ Tỉ Lệ Né Tránh",
+      "isUnique": false,
+      "icon": "/assets/set7.5/items/TFT_Item_SparringGloves.webp"
+    },
+    {
+      "id": "TFT_Item_Bloodthirster",
+      "name": "Huyết Kiếm",
+      "components": [
+        "TFT_Item_BFSword",
+        "TFT_Item_NegatronCloak"
+      ],
+      "description": "Nhận @Lifesteal@% Hút Máu Toàn Phần.<br><br>Một lần mỗi giao tranh: Khi xuống dưới @HealthThreshold@% Máu, nhận một lá chắn tương đương @ShieldHealthPercent@% Máu tối đa tồn tại trong @ShieldDuration@ giây.",
+      "isUnique": false,
+      "icon": "/assets/set7.5/items/TFT_Item_Bloodthirster.webp"
+    },
+    {
+      "id": "TFT_Item_ArchangelsStaff",
+      "name": "Quyền Trượng Thiên Thần ",
+      "components": [
+        "TFT_Item_NeedlesslyLargeRod",
+        "TFT_Item_TearOfTheGoddess"
+      ],
+      "description": "Cho %i:scaleAP% @BonusAP@ Sức Mạnh Phép Thuật cộng thêm.<br><br>Bắt đầu giao tranh: Cho %i:scaleAP% @APPerInterval@ Sức Mạnh Phép Thuật mỗi @IntervalSeconds@ giây.",
+      "isUnique": false,
+      "icon": "/assets/set7.5/items/TFT_Item_ArchangelsStaff.webp"
+    },
+    {
+      "id": "TFT_Item_TitanicHydra",
+      "name": "Thông Đạo Zz'rot",
+      "components": [
+        "TFT_Item_RecurveBow",
+        "TFT_Item_GiantsBelt"
+      ],
+      "description": "Bắt đầu giao tranh: Khiêu khích kẻ địch trong tầm đánh của chủ sở hữu.<br><br>Khi bị hạ, một Bọ Hư Không sẽ xuất hiện, tiếp tục khiêu khích kẻ địch xung quanh. Bọ Hư Không sinh ra từ đơn vị triệu hồi sẽ có @SummonedStatReduction@% hiệu lực.",
+      "isUnique": false,
+      "icon": "/assets/set7.5/items/TFT_Item_TitanicHydra.webp"
+    },
+    {
+      "id": "TFT7_Item_ScalescornEmblemItem",
+      "name": "Ấn Đồ Long",
+      "components": [],
+      "description": "Chủ sở hữu là Đồ Long.<br><br><tftitemrules>[Duy Nhất - chỉ một mỗi tướng]</tftitemrules>",
+      "isUnique": true,
+      "icon": "/assets/set7.5/items/TFT7_Item_ScalescornEmblemItem.webp"
+    },
+    {
+      "id": "TFT_Item_SpearOfShojin",
+      "name": "Ngọn Thương Shojin",
+      "components": [
+        "TFT_Item_BFSword",
+        "TFT_Item_TearOfTheGoddess"
+      ],
+      "description": "Cho %i:scaleAP% @BonusAP@ Sức Mạnh Phép Thuật cộng thêm. Đòn đánh hồi thêm %i:scaleMana% @FlatManaRestore@ Năng Lượng.",
+      "isUnique": false,
+      "icon": "/assets/set7.5/items/TFT_Item_SpearOfShojin.webp"
+    },
+    {
+      "id": "TFT7_Item_EvokerEmblemItem",
+      "name": "Ấn Thuật Sĩ",
+      "components": [],
+      "description": "Chủ sở hữu là Thuật Sĩ.<br><br><tftitemrules>[Duy Nhất - chỉ một mỗi tướng]</tftitemrules>",
+      "isUnique": true,
+      "icon": "/assets/set7.5/items/TFT7_Item_EvokerEmblemItem.webp"
+    },
+    {
+      "id": "TFT_Item_Spatula",
+      "name": "Siêu Xẻng",
+      "components": [],
+      "description": "Nó hẳn phải làm được <i>gì đó</i>...",
+      "isUnique": false,
+      "icon": "/assets/set7.5/items/TFT_Item_Spatula.webp"
+    },
+    {
+      "id": "TFT7_Item_TrainerSnax",
+      "name": "Bánh Quy Ngon Lành",
+      "components": [],
+      "description": "Bé rồng Măm Măm cần ăn chừng này bánh quy để lên cấp!<br><br><tftitemrules>[Đây không được tính là trang bị.]</tftitemrules>",
+      "isUnique": false,
+      "icon": "/assets/set7.5/items/TFT7_Item_TrainerSnax.webp"
+    },
+    {
+      "id": "TFT_Item_LocketOfTheIronSolari",
+      "name": "Dây Chuyền Iron Solari",
+      "components": [
+        "TFT_Item_NeedlesslyLargeRod",
+        "TFT_Item_ChainVest"
+      ],
+      "description": "Bắt đầu giao tranh: Tạo @1StarShieldValue@/@2StarShieldValue@/@3StarShieldValue@ %i:star% lá chắn cho chủ sở hữu và đồng minh cùng hàng trong vòng @HexRange@ ô trong @ShieldDuration@ giây.<br><br>​​<tftitemrules>[Trang bị hào quang]</tftitemrules>",
+      "isUnique": false,
+      "icon": "/assets/set7.5/items/TFT_Item_LocketOfTheIronSolari.webp"
+    },
+    {
+      "id": "TFT7_Item_BruiserEmblemItem",
+      "name": "Ấn Đấu Sĩ",
+      "components": [],
+      "description": "Chủ sở hữu là Đấu Sĩ.<br><br><tftitemrules>[Duy Nhất - chỉ một mỗi tướng]</tftitemrules>",
+      "isUnique": true,
+      "icon": "/assets/set7.5/items/TFT7_Item_BruiserEmblemItem.webp"
+    },
+    {
+      "id": "TFT7_Item_DragonmancerEmblemItem",
+      "name": "Ấn Chiến Binh Rồng",
+      "components": [
+        "TFT_Item_Spatula",
+        "TFT_Item_NeedlesslyLargeRod"
+      ],
+      "description": "Chủ sở hữu là Chiến Binh Rồng.",
+      "isUnique": true,
+      "icon": "/assets/set7.5/items/TFT7_Item_DragonmancerEmblemItem.webp"
+    },
+    {
+      "id": "TFT7_Item_DarkflightEmblemItem",
+      "name": "Ấn Bạo Long",
+      "components": [],
+      "description": "Chủ sở hữu là Bạo Long.",
+      "isUnique": true,
+      "icon": "/assets/set7.5/items/TFT7_Item_DarkflightEmblemItem.webp"
+    },
+    {
+      "id": "TFT_Item_Morellonomicon",
+      "name": "Quỷ Thư Morello",
+      "components": [
+        "TFT_Item_NeedlesslyLargeRod",
+        "TFT_Item_GiantsBelt"
+      ],
+      "description": "Cho %i:scaleAP% @BonusAP@ Sức Mạnh Phép Thuật cộng thêm. Sát thương phép hoặc sát thương chuẩn từ Kỹ Năng sẽ thiêu đốt mục tiêu, gây @BurnPercent@% Máu tối đa của mục tiêu thành sát thương chuẩn trong @BurnDuration@ giây, và giảm hồi máu đi @GrievousWoundsPercent@% trong thời gian thiêu đốt.<br><br><tftitemrules>[Duy Nhất - chỉ một mỗi tướng]</tftitemrules>",
+      "isUnique": true,
+      "icon": "/assets/set7.5/items/TFT_Item_Morellonomicon.webp"
+    },
+    {
+      "id": "TFT_Item_RapidFireCannon",
+      "name": "Đại Bác Liên Thanh",
+      "components": [
+        "TFT_Item_RecurveBow",
+        "TFT_Item_RecurveBow"
+      ],
+      "description": "Cho %i:scaleAS% @BonusAS@% Tốc Độ Đánh cộng thêm và %i:scaleRange% @HexRangeIncrease@ Tầm Đánh.<br><br>Đòn đánh không thể hụt.",
+      "isUnique": false,
+      "icon": "/assets/set7.5/items/TFT_Item_RapidFireCannon.webp"
+    },
+    {
+      "id": "TFT_Item_BFSword",
+      "name": "Kiếm B.F.",
+      "components": [],
+      "description": "%i:scaleAD% +@AD@ Sức Mạnh Công Kích",
+      "isUnique": false,
+      "icon": "/assets/set7.5/items/TFT_Item_BFSword.webp"
+    },
+    {
+      "id": "TFT_Item_LastWhisper",
+      "name": "Cung Xanh",
+      "components": [
+        "TFT_Item_RecurveBow",
+        "TFT_Item_SparringGloves"
+      ],
+      "description": "Cho %i:scaleAS% @BonusAS@% Tốc Độ Đánh. Gây sát thương vật lý từ Đòn Đánh hoặc Kỹ Năng giảm Giáp của kẻ địch đi @ArmorReductionPercent@% trong @ArmorBreakDuration@ giây. Hiệu ứng này không cộng dồn.<br><br><tftitemrules>[Duy Nhất - chỉ một mỗi tướng]</tftitemrules>",
+      "isUnique": true,
+      "icon": "/assets/set7.5/items/TFT_Item_LastWhisper.webp"
+    },
+    {
+      "id": "TFT_Item_JeweledGauntlet",
+      "name": "Găng Bảo Thạch",
+      "components": [
+        "TFT_Item_NeedlesslyLargeRod",
+        "TFT_Item_SparringGloves"
+      ],
+      "description": "Cho %i:scaleCritMult% @CritDamageAmp@% Sát Thương Chí Mạng và %i:scaleAP% @BonusAP@ Sức Mạnh Phép Thuật cộng thêm. <br><br>Sát thương phép và sát thương chuẩn từ Kỹ Năng có thể chí mạng.",
+      "isUnique": false,
+      "icon": "/assets/set7.5/items/TFT_Item_JeweledGauntlet.webp"
+    },
+    {
+      "id": "TFT_Item_GiantsBelt",
+      "name": "Đai Khổng Lồ",
+      "components": [],
+      "description": "%i:scaleHealth% +@Health@ Máu",
+      "isUnique": false,
+      "icon": "/assets/set7.5/items/TFT_Item_GiantsBelt.webp"
+    },
+    {
+      "id": "TFT_Item_NeedlesslyLargeRod",
+      "name": "Gậy Quá Khổ",
+      "components": [],
+      "description": "%i:scaleAP% +@AP@ Sức Mạnh Phép Thuật",
+      "isUnique": false,
+      "icon": "/assets/set7.5/items/TFT_Item_NeedlesslyLargeRod.webp"
+    },
+    {
+      "id": "TFT7_Item_ShimmerscaleEmblemItem",
+      "name": "Ấn Kim Long",
+      "components": [
+        "TFT_Item_Spatula",
+        "TFT_Item_BFSword"
+      ],
+      "description": "Chủ sở hữu thuộc tộc Kim Long.<br><br><tftitemrules>[Duy Nhất - chỉ một mỗi tướng]</tftitemrules>",
+      "isUnique": true,
+      "icon": "/assets/set7.5/items/TFT7_Item_ShimmerscaleEmblemItem.webp"
+    },
+    {
+      "id": "TFT_Item_ForceOfNature",
+      "name": "Vương Miện Chiến Thuật ",
+      "components": [
+        "TFT_Item_Spatula",
+        "TFT_Item_Spatula"
+      ],
+      "description": "Đội bạn nhận +@MaxArmySizeIncrease@ kích cỡ đội hình.",
+      "isUnique": false,
+      "icon": "/assets/set7.5/items/TFT_Item_ForceOfNature.webp"
+    },
+    {
+      "id": "TFT_Item_Quicksilver",
+      "name": "Áo Choàng Thủy Ngân",
+      "components": [
+        "TFT_Item_SparringGloves",
+        "TFT_Item_NegatronCloak"
+      ],
+      "description": "Cho %i:scaleAS% @BonusAS@% Tốc Độ Đánh cộng thêm.<br><br>Bắt đầu giao tranh: Chủ sở hữu được miễn nhiễm hiệu ứng khống chế trong @SpellShieldDuration@ giây.<br><br><tftitemrules>[Duy Nhất - chỉ 1 mỗi tướng]</tftitemrules>",
+      "isUnique": true,
+      "icon": "/assets/set7.5/items/TFT_Item_Quicksilver.webp"
+    },
+    {
+      "id": "TFT_Item_Deathblade",
+      "name": "Kiếm Tử Thần",
+      "components": [
+        "TFT_Item_BFSword",
+        "TFT_Item_BFSword"
+      ],
+      "description": "Cho %i:scaleAD% @1StarBonusAD@/@2StarBonusAD@/@3StarBonusAD@ %i:star% Sức Mạnh Công Kích Cộng Thêm.",
+      "isUnique": false,
+      "icon": "/assets/set7.5/items/TFT_Item_Deathblade.webp"
+    },
+    {
+      "id": "TFT_Item_Chalice",
+      "name": "Cốc Sức Mạnh",
+      "components": [
+        "TFT_Item_NegatronCloak",
+        "TFT_Item_TearOfTheGoddess"
+      ],
+      "description": "Bắt đầu giao tranh: Cho %i:scaleAP% @BonusAP@ Sức Mạnh Phép Thuật cho chủ sở hữu và đồng minh trong vòng 1 ô cùng hàng.<br><br>​​<tftitemrules>[Trang bị hào quang]</tftitemrules>",
+      "isUnique": false,
+      "icon": "/assets/set7.5/items/TFT_Item_Chalice.webp"
+    },
+    {
+      "id": "TFT7_Item_RagewingEmblemItem",
+      "name": "Ấn Cuồng Long",
+      "components": [],
+      "description": "Chủ sở hữu thuộc tộc Cuồng Long.<br><br><tftitemrules>[Duy Nhất - chỉ một mỗi tướng]</tftitemrules>",
+      "isUnique": true,
+      "icon": "/assets/set7.5/items/TFT7_Item_RagewingEmblemItem.webp"
+    },
+    {
+      "id": "TFT_Item_WarmogsArmor",
+      "name": "Giáp Máu Warmog",
+      "components": [
+        "TFT_Item_GiantsBelt",
+        "TFT_Item_GiantsBelt"
+      ],
+      "description": "Cho %i:scaleHealth% @BonusHP@ Máu cộng thêm.",
+      "isUnique": false,
+      "icon": "/assets/set7.5/items/TFT_Item_WarmogsArmor.webp"
+    },
+    {
+      "id": "TFT_Item_StatikkShiv",
+      "name": "Dao Điện Statikk",
+      "components": [
+        "TFT_Item_RecurveBow",
+        "TFT_Item_TearOfTheGoddess"
+      ],
+      "description": "Cho %i:scaleAS% @BonusAS@% Tốc Độ Đánh. Mỗi đòn đánh thứ ba phóng ra một tia sét nảy vào @1StarBounces@ kẻ địch, gây @Damage@ sát thương phép và giảm Kháng Phép của chúng đi @MRShred@% trong @MRShredDuration@ giây.<br><br><tftitemrules>[Sát thương trang bị trực tiếp]</tftitemrules>",
+      "isUnique": false,
+      "icon": "/assets/set7.5/items/TFT_Item_StatikkShiv.webp"
+    },
+    {
+      "id": "TFT_Item_HextechGunblade",
+      "name": "Kiếm Súng Hextech",
+      "components": [
+        "TFT_Item_BFSword",
+        "TFT_Item_NeedlesslyLargeRod"
+      ],
+      "description": "Cho @OmniVamp@% Hút Máu Toàn Phần. Gây sát thương hồi lại cho đồng minh thấp máu nhất lượng tương đương.",
+      "isUnique": false,
+      "icon": "/assets/set7.5/items/TFT_Item_HextechGunblade.webp"
+    },
+    {
+      "id": "TFT7_Item_MirageEmblemItem",
+      "name": "Ấn Huyễn Long",
+      "components": [
+        "TFT_Item_NegatronCloak",
+        "TFT_Item_Spatula"
+      ],
+      "description": "Chủ sở hữu thuộc tộc Huyễn Long.<br><br><tftitemrules>[Duy Nhất - chỉ một mỗi tướng]</tftitemrules>",
+      "isUnique": true,
+      "icon": "/assets/set7.5/items/TFT7_Item_MirageEmblemItem.webp"
+    }
+  ]
+}

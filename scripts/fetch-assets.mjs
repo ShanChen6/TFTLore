@@ -1,10 +1,10 @@
 #!/usr/bin/env node
 // Tải icon Tướng / Tộc-Hệ / Trang bị từ CommunityDragon, chuyển sang .webp và lưu vào
-// public/assets/set<n>/<loại>/<id>.webp, rồi cập nhật đường dẫn trong data/sets/*.json.
+// public/assets/set<mùa>/<loại>/<id>.webp, rồi cập nhật đường dẫn trong data/sets/*.json.
 //
 // Chạy sau `npm run data:fetch`:
-//   npm run assets:fetch            # toàn bộ 18 mùa
-//   npm run assets:fetch -- 1 18    # chỉ một số mùa
+//   npm run assets:fetch              # toàn bộ các mùa trong data/sets/index.json
+//   npm run assets:fetch -- 1 3.5 18  # chỉ một số mùa
 //
 // Ảnh gốc được cache trong .cache/assets nên chạy lại không phải tải lại.
 
@@ -93,20 +93,21 @@ async function runPool(jobs, worker) {
 }
 
 async function main() {
-  const only = process.argv.slice(2).map(Number).filter(Boolean);
+  const only = process.argv.slice(2);
   await mkdir(CACHE_DIR, { recursive: true });
 
+  const index = JSON.parse(await readFile(path.join(DATA_DIR, "index.json"), "utf8"));
   const sets = [];
-  for (let n = 1; n <= 18; n++) {
-    if (only.length && !only.includes(n)) continue;
-    const file = path.join(DATA_DIR, `set-${n}.json`);
+  for (const { id } of index) {
+    if (only.length && !only.includes(id)) continue;
+    const file = path.join(DATA_DIR, `set-${id}.json`);
     if (!(await exists(file))) continue;
-    sets.push({ n, file, data: JSON.parse(await readFile(file, "utf8")) });
+    sets.push({ id, file, data: JSON.parse(await readFile(file, "utf8")) });
   }
 
   // Gom việc cần làm; bỏ qua mục đã là đường dẫn cục bộ.
   const jobs = [];
-  for (const { n, data } of sets) {
+  for (const { id, data } of sets) {
     for (const kind of ["champions", "traits", "items"]) {
       for (const entry of data[kind]) {
         if (!entry.icon?.startsWith("http")) continue;
@@ -114,7 +115,7 @@ async function main() {
           entry,
           kind,
           url: entry.icon,
-          localPath: `/assets/set${n}/${kind}/${safe(entry.id)}.webp`,
+          localPath: `/assets/set${id}/${kind}/${safe(entry.id)}.webp`,
         });
       }
     }

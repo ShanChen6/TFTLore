@@ -2,6 +2,7 @@
   "setId": 5,
   "name": "Mùa 5",
   "nameEn": "Reckoning",
+  "isMidSet": false,
   "releaseDate": "2021-04-28",
   "boardSize": {
     "rows": 4,

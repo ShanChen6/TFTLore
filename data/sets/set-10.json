@@ -2,6 +2,7 @@
   "setId": 10,
   "name": "Mùa 10",
   "nameEn": "Remix Rumble",
+  "isMidSet": false,
   "releaseDate": "2023-11-20",
   "boardSize": {
     "rows": 4,

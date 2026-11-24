@@ -2,6 +2,7 @@
   "setId": 15,
   "name": "Mùa 15",
   "nameEn": "K.O. Coliseum",
+  "isMidSet": false,
   "releaseDate": "2025-07-30",
   "boardSize": {
     "rows": 4,
