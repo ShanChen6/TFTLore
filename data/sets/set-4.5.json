@@ -4852,7 +4852,7 @@
     },
     {
       "id": "TFT_Item_FrozenMallet",
-      "name": "TFT_item_name_FrozenMallet",
+      "name": "Frozen Mallet",
       "components": [
         "TFT_Item_Spatula",
         "TFT4_Item_GiantsBelt"
@@ -5102,7 +5102,7 @@
     },
     {
       "id": "TFT_Item_BladeOfTheRuinedKing",
-      "name": "TFT_item_name_BladeOfTheRuinedKing",
+      "name": "Blade of the Ruined King",
       "components": [
         "TFT_Item_RecurveBow",
         "TFT_Item_Spatula"

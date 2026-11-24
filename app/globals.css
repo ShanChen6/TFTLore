@@ -8,3 +8,26 @@ body {
 .hex {
   clip-path: polygon(25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%, 0% 50%);
 }
+
+/* Bàn cờ lục giác (đỉnh nhọn hướng lên). --hex là chiều rộng mỗi ô. */
+.hex-board {
+  /* 100vw trừ padding trang (32px) + khung bàn cờ (~30px) + khe giữa ô */
+  --hex: min(76px, calc((100vw - 76px) / (var(--cols) + 0.6)));
+  --item: calc(var(--hex) * 0.24);
+  padding-right: calc(var(--hex) / 2);
+}
+.hex-cell {
+  width: var(--hex);
+  height: calc(var(--hex) * 1.1547);
+  margin: 0 1px;
+}
+.hex-cell .hex,
+.hex-board .hex {
+  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+}
+.hex-row + .hex-row {
+  margin-top: calc(var(--hex) * -0.26);
+}
+.hex-row-odd {
+  margin-left: calc(var(--hex) / 2);
+}

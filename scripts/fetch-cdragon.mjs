@@ -133,11 +133,15 @@ async function buildTranslations() {
   for (const patch of TRANSLATION_PATCHES) {
     const d = await loadPatch(patch, "vi_vn");
     for (const i of d.items ?? []) {
-      if (i.apiName && i.name && !items.has(i.apiName.toLowerCase())) items.set(i.apiName.toLowerCase(), i);
+      const placeholder = /^tft\d*_|_name$/i.test(i.name ?? "");
+      if (i.apiName && i.name && !placeholder && !items.has(i.apiName.toLowerCase()))
+        items.set(i.apiName.toLowerCase(), i);
     }
     for (const s of d.setData ?? []) {
       for (const t of s.traits ?? []) {
-        if (t.apiName && t.name && !traits.has(t.apiName.toLowerCase())) traits.set(t.apiName.toLowerCase(), t);
+        const placeholder = /^tft\d*_|_name$/i.test(t.name ?? "");
+        if (t.apiName && t.name && !placeholder && !traits.has(t.apiName.toLowerCase()))
+          traits.set(t.apiName.toLowerCase(), t);
       }
     }
   }

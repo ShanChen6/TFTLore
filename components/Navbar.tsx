@@ -9,9 +9,17 @@ export default function Navbar() {
         <Link href="/" className="text-lg font-bold tracking-tight text-amber-300">
           TFTLore
         </Link>
-        <div className="flex items-center gap-2 text-sm text-white/80">
-          <span className="hidden sm:inline">Mùa 19 còn</span>
-          <Countdown target={SEASON_19.releaseAt} compact />
+        <div className="flex items-center gap-4 text-sm text-white/80">
+          <Link href="/#timeline" className="hidden hover:text-white sm:inline">
+            Các mùa
+          </Link>
+          <Link href="/builder" className="hover:text-white">
+            Xếp đội hình
+          </Link>
+          <span className="flex items-center gap-2">
+            <span className="hidden md:inline">Mùa 19 còn</span>
+            <Countdown target={SEASON_19.releaseAt} compact />
+          </span>
         </div>
       </nav>
     </header>

@@ -4078,7 +4078,7 @@
     },
     {
       "id": "TFT_Item_BladeOfTheRuinedKing",
-      "name": "TFT_item_name_BladeOfTheRuinedKing",
+      "name": "Blade of the Ruined King",
       "components": [
         "TFT_Item_RecurveBow",
         "TFT_Item_Spatula"
@@ -4158,7 +4158,7 @@
     },
     {
       "id": "TFT_Item_PhantomDancer",
-      "name": "TFT_item_name_PhantomDancer",
+      "name": "Phantom Dancer",
       "components": [
         "TFT_Item_RecurveBow",
         "TFT_Item_ChainVest"
@@ -4253,7 +4253,7 @@
     },
     {
       "id": "TFT_Item_IcebornGauntlet",
-      "name": "tft_item_name_FrozenFist",
+      "name": "Iceborn Gauntlet",
       "components": [
         "TFT_Item_ChainVest",
         "TFT_Item_SparringGloves"
@@ -4269,7 +4269,7 @@
     },
     {
       "id": "TFT_Item_CursedBlade",
-      "name": "tft_item_name_CursedBlade",
+      "name": "Cursed Blade",
       "components": [
         "TFT_Item_RecurveBow",
         "TFT_Item_NegatronCloak"
@@ -4405,7 +4405,7 @@
     },
     {
       "id": "TFT_Item_FrozenMallet",
-      "name": "TFT_item_name_FrozenMallet",
+      "name": "Frozen Mallet",
       "components": [
         "TFT_Item_Spatula",
         "TFT1_Item_GiantsBelt"
@@ -4463,7 +4463,7 @@
     },
     {
       "id": "TFT_Item_Yuumi",
-      "name": "TFT_item_name_Yuumi",
+      "name": "Yuumi",
       "components": [
         "TFT1_Item_NeedlesslyLargeRod",
         "TFT_Item_Spatula"

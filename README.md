@@ -24,6 +24,15 @@ npm run dev
 |---|---|
 | `/` | Hero + đếm ngược Mùa 19, dòng thời gian toàn bộ các mùa |
 | `/sets/[setId]` | Chi tiết mùa (`1`, `3.5`, `18`…): danh sách tướng có bộ lọc và popup chi tiết, Tộc/Hệ kèm mốc kích hoạt, bảng ghép trang bị |
+| `/builder?set=<id>&code=<…>` | Team Builder đa mùa: bàn cờ lục giác (3×7 ở Mùa 1, 4×7 các mùa khác), kéo thả tướng/trang bị, tự tính Tộc/Hệ, chia sẻ bằng liên kết và xuất ảnh PNG |
+| `/api/builder/[setId]` | JSON rút gọn cho Team Builder, sinh tĩnh lúc build |
+
+### Team Builder
+
+- Trạng thái bàn cờ (tướng, vị trí, cấp sao, trang bị) được nén bằng `lz-string` vào tham số `code` trên URL – không cần database.
+- Synergy Engine (`lib/builder.ts`): đếm tướng độc nhất, cộng Tộc/Hệ từ Ấn; sắp xếp Kim Cương → Vàng → Bạc → Đồng → chưa kích hoạt.
+- Luật trang bị: tối đa 3 món, không trùng đồ Duy Nhất, không gắn Ấn cho tướng đã có Tộc/Hệ đó.
+- Ấn → Tộc/Hệ được suy ra tự động (`lib/builder-data.ts`) theo tên, apiName hoặc mô tả trang bị.
 
 Tất cả trang mùa được build tĩnh (SSG) qua `generateStaticParams`. Mô tả kỹ năng/Tộc-Hệ/trang bị được
 chuyển từ định dạng của Riot sang HTML trong `lib/format.ts` (thay biến `@Tên@` theo mốc sao/mốc kích hoạt).

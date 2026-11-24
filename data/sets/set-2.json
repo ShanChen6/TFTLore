@@ -4660,7 +4660,7 @@
     },
     {
       "id": "TFT_Item_IcebornGauntlet",
-      "name": "tft_item_name_FrozenFist",
+      "name": "Iceborn Gauntlet",
       "components": [
         "TFT_Item_ChainVest",
         "TFT_Item_SparringGloves"
@@ -4794,7 +4794,7 @@
     },
     {
       "id": "TFT_Item_FrozenMallet",
-      "name": "TFT_item_name_FrozenMallet",
+      "name": "Frozen Mallet",
       "components": [
         "TFT_Item_Spatula",
         "TFT2_Item_GiantsBelt"
@@ -4991,7 +4991,7 @@
     },
     {
       "id": "TFT_Item_BladeOfTheRuinedKing",
-      "name": "TFT_item_name_BladeOfTheRuinedKing",
+      "name": "Blade of the Ruined King",
       "components": [
         "TFT_Item_RecurveBow",
         "TFT_Item_Spatula"

@@ -94,6 +94,12 @@ export default async function SetPage({ params }: Props) {
           {set.source.lang === "en_us" && " (một phần tiếng Anh)"}
         </p>
         {set.mechanic && <p className="mt-3 max-w-3xl text-white/80">{set.mechanic}</p>}
+        <Link
+          href={`/builder?set=${set.setId}`}
+          className="mt-4 inline-block rounded-lg border border-amber-300/50 px-4 py-2 text-sm text-amber-200 hover:bg-amber-300/10"
+        >
+          Xếp đội hình {set.name} →
+        </Link>
       </header>
 
       <nav className="sticky top-[57px] z-10 -mx-4 mb-6 flex gap-1 overflow-x-auto border-b border-white/10 bg-slate-950/90 px-4 py-2 backdrop-blur">
