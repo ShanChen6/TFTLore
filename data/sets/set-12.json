@@ -17,7 +17,7 @@
       "id": "TFT12_Witchcraft",
       "name": "Ma Thuật",
       "description": "Các Kỹ Năng của tướng Ma Thuật đặt 1 lời nguyền lên kẻ địch trong @CurseDuration@ giây. Khi kẻ địch mang lời nguyền hy sinh, lời nguyền sẽ lan sang kẻ địch gần nhất.<br><br>Kẻ địch mang lời nguyền sẽ bị:<br><br><row>(@MinUnits@) giảm kích cỡ, mất @MaxHealthReduce@ %i:scaleHealth%</row><br><row>(@MinUnits@) ĐỒNG THỜI hóa xanh lá, nhận sát thương phép mỗi giây bằng @CurseHealPct@% Máu tối đa của chúng</row><br><row>(@MinUnits@) ĐỒNG THỜI bị suy yếu, nhận thêm @TrueDamagePct@% sát thương chuẩn từ các tướng Ma Thuật</row><br><row>(@MinUnits@) ĐỒNG THỜI bị hóa ếch, làm choáng trong @FrogPolymorphDuration@ giây sau mỗi @FrogPolymorphCooldown@ giây. Tất cả các hiệu ứng nguyền rủa khác được tăng thêm @ChaseIncreasePercent@%.</row>",
-      "icon": "https://raw.communitydragon.org/14.23/game/assets/ux/traiticons/trait_icon_12_witch.tft_set12.png",
+      "icon": "/assets/set12/traits/TFT12_Witchcraft.webp",
       "breakpoints": [
         {
           "count": 2,
@@ -81,7 +81,7 @@
       "id": "TFT12_Arcana",
       "name": "Ẩn Chính",
       "description": "Dùng trang bị Định Danh Ẩn Chính để chọn tướng Ẩn Chính Tối Cao. Mỗi tướng Ẩn Chính sẽ cho sức mạnh theo những điều kiện khác nhau.<br><br>Điều kiện cho:<br><scaleLevel>Ahri:</scaleLevel> Triển khai tướng 3-sao.<br><scaleLevel>Hecarim:</scaleLevel> Có mang trang bị.<br><scaleLevel>Tahm Kench:</scaleLevel> Kích hoạt các tộc/hệ.<br><scaleLevel>Xerath:</scaleLevel> Mua Bùa.<br><scaleLevel>Ấn:</scaleLevel> Mang các trang bị Xẻng Vàng.",
-      "icon": "https://raw.communitydragon.org/14.23/game/assets/ux/traiticons/trait_icon_12_arcana.tft_set12.png",
+      "icon": "/assets/set12/traits/TFT12_Arcana.webp",
       "breakpoints": [
         {
           "count": 2,
@@ -161,7 +161,7 @@
       "id": "TFT12_Frost",
       "name": "Băng Giá",
       "description": "Tướng Băng Giá nhận thêm %i:scaleAP% Sức Mạnh Phép Thuật và %i:scaleAD% Sức Mạnh Công Kích. Một vài kẻ địch tử trận đầu tiên sẽ hóa thành chiến binh băng đồng minh, giúp thu hút đòn tấn công của kẻ địch nếu chúng ở trong tầm và chuyển mục tiêu.<br><br><row>(@MinUnits@) @BonusStats@ %i:scaleAP%%i:scaleAD%, @NumStatues@ chiến binh</row><br><row>(@MinUnits@) @BonusStats@ %i:scaleAP%%i:scaleAD%, @NumStatues@ chiến binh</row><br><row>(@MinUnits@) @BonusStats@ %i:scaleAP%%i:scaleAD%, @NumStatues@ chiến binh, các chiến binh phát nổ khi hy sinh</row><br><row>(@MinUnits@) @BonusStats@ %i:scaleAP%%i:scaleAD%, @NumStatues@ chiến binh, gấp đôi sức mạnh vụ nổ</row><br><br><rules>Chiến binh có @HealthPerStage@ Máu sau mỗi giai đoạn.</rules>",
-      "icon": "https://raw.communitydragon.org/14.23/game/assets/ux/traiticons/trait_icon_12_winter.tft_set12.png",
+      "icon": "/assets/set12/traits/TFT12_Frost.webp",
       "breakpoints": [
         {
           "count": 3,
@@ -217,7 +217,7 @@
       "id": "TFT12_Hunter",
       "name": "Thợ Săn",
       "description": "Thợ Săn được tăng  %i:scaleAD% Sức Mạnh Công Kích, gia tăng ở lần đầu tiên họ tham gia hạ gục mỗi giao tranh.<br><br><row>(@MinUnits@) @BaseAD@% %i:scaleAD%, @BonusADAfterTakedown@% sau khi tham gia hạ gục</row><br><row>(@MinUnits@) @BaseAD@% %i:scaleAD%, @BonusADAfterTakedown@% sau khi tham gia hạ gục</row><br><row>(@MinUnits@) @BaseAD@% %i:scaleAD%, @BonusADAfterTakedown@% sau khi tham gia hạ gục. Đồng thời nhận thêm @BaseAS*100@% %i:scaleAS%.</row>",
-      "icon": "https://raw.communitydragon.org/14.23/game/assets/ux/traiticons/trait_icon_12_hunter.tft_set12.png",
+      "icon": "/assets/set12/traits/TFT12_Hunter.webp",
       "breakpoints": [
         {
           "count": 2,
@@ -255,7 +255,7 @@
       "id": "TFT12_Explorer",
       "name": "Bạn Thân",
       "description": "Norra triệu hồi Yuumi để hỗ trợ cho đội của bạn! Cô ấy có thể quấn quýt vào một đồng đội bằng cách kéo cô lên trên họ. Yuumi chia sẻ Sức Mạnh Phép Thuật của mình với Norra và hy sinh khi Norra bị hạ gục.",
-      "icon": "https://raw.communitydragon.org/14.23/game/assets/ux/traiticons/trait_icon_12_explorer.tft_set12.png",
+      "icon": "/assets/set12/traits/TFT12_Explorer.webp",
       "breakpoints": [
         {
           "count": 1,
@@ -269,7 +269,7 @@
       "id": "TFT12_Druid",
       "name": "Tự Nhiên",
       "description": "Ngộ Không không có thưởng tộc/hệ, nhưng thay vào đó có một Kỹ Năng mạnh mẽ và chỉ số gia tăng.",
-      "icon": "https://raw.communitydragon.org/14.23/game/assets/ux/traiticons/trait_icon_12_druid.tft_set12.png",
+      "icon": "/assets/set12/traits/TFT12_Druid.webp",
       "breakpoints": [
         {
           "count": 1,
@@ -283,7 +283,7 @@
       "id": "TFT12_Scholar",
       "name": "Học Giả",
       "description": "Học Giả nhận thêm  %i:scaleMana% Năng Lượng khi tung đòn đánh và được tăng  %i:scaleAP% Sức Mạnh Phép Thuật.<br><br><row>(@MinUnits@) @ManaPerAttack@ %i:scaleMana% mỗi đòn đánh, @AP@ %i:scaleAP%</row><br><row>(@MinUnits@) @ManaPerAttack@ %i:scaleMana% mỗi đòn đánh, @AP@ %i:scaleAP%</row><br><row>(@MinUnits@) @ManaPerAttack@ %i:scaleMana% mỗi đòn đánh, @AP@ %i:scaleAP%, đồng thời các Kỹ Năng sẽ hồi máu cho một đồng minh bằng @AllyHealing*100@% sát thương gây ra</row>",
-      "icon": "https://raw.communitydragon.org/14.23/game/assets/ux/traiticons/trait_icon_6_scholar.png",
+      "icon": "/assets/set12/traits/TFT12_Scholar.webp",
       "breakpoints": [
         {
           "count": 2,
@@ -319,7 +319,7 @@
       "id": "TFT12_Multistriker",
       "name": "Liên Hoàn",
       "description": "Đòn đánh của tướng Liên Hoàn có cơ hội kích hoạt @NumBonusAttacks@ đòn đánh cộng thêm.<br><br><row>(@MinUnits@) @ProcChance@% cơ hội</row><br><row>(@MinUnits@) @ProcChance@% cơ hội</row><br><row>(@MinUnits@) @ProcChance@% cơ hội; hồi lại @OnHitHealPerc*100@% Máu tối đa mỗi đòn đánh</row><br><row>(@MinUnits@) @ProcChance@% cơ hội; hồi lại @OnHitHealPerc*100@% Máu tối đa mỗi đòn đánh</row>",
-      "icon": "https://raw.communitydragon.org/14.23/game/assets/ux/traiticons/trait_icon_12_weaponmaster.tft_set12.png",
+      "icon": "/assets/set12/traits/TFT12_Multistriker.webp",
       "breakpoints": [
         {
           "count": 3,
@@ -371,7 +371,7 @@
       "id": "TFT12_BatQueen",
       "name": "Dơi Chúa",
       "description": "Khi dơi của Morgana tiêu diệt một kẻ địch, chúng có @PercentChanceToAbduct@% cơ hội bắt cóc một bản sao 1 sao của kẻ đó.<ShowIfCustom.Set=TFTSetEventCT><br><br>Trong Kho Báu Của Choncc, cơ hội bắt cóc sẽ tăng ở vòng 3-1 và 4-1.</ShowIfCustom.Set=TFTSetEventCT>",
-      "icon": "https://raw.communitydragon.org/14.23/game/assets/ux/traiticons/trait_icon_12_batqueen.tft_set12.png",
+      "icon": "/assets/set12/traits/TFT12_BatQueen.webp",
       "breakpoints": [
         {
           "count": 1,
@@ -390,7 +390,7 @@
       "id": "TFT12_Warrior",
       "name": "Chiến Binh",
       "description": "Tướng Chiến Binh được tăng  %i:scaleSV% Hút Máu Toàn Phần và  %i:scaleDA% Khuếch Đại Sát Thương. Khi Chiến Binh còn dưới @HealthThreshold*100@% máu, họ nhận được gấp đôi  %i:scaleDA%.<br><br><row>(@MinUnits@) @Omnivamp*100@% %i:scaleSV%, @BonusDamage*100@% %i:scaleDA%</row><br><row>(@MinUnits@) @Omnivamp*100@% %i:scaleSV%, @BonusDamage*100@% %i:scaleDA%</row><br><row>(@MinUnits@) @Omnivamp*100@% %i:scaleSV%, @BonusDamage*100@% %i:scaleDA%, đồng thời nhận thêm @DamageReduction*100@% %i:scaleDR% Chống Chịu</row>",
-      "icon": "https://raw.communitydragon.org/14.23/game/assets/ux/traiticons/trait_icon_12_warrior.tft_set12.png",
+      "icon": "/assets/set12/traits/TFT12_Warrior.webp",
       "breakpoints": [
         {
           "count": 2,
@@ -432,7 +432,7 @@
       "id": "TFT12_Chrono",
       "name": "Thời Không",
       "description": "Tướng Thời Không được tăng @BaseAP@ %i:scaleAP% Sức Mạnh Phép Thuật. <br><br>Bắt đầu giao tranh: Khởi động bộ đếm @Timer@ giây, đẩy nhanh thêm @SecondsPerCast@ giây mỗi khi tướng Thời Không thi triển Kỹ Năng. Khi kết thúc đếm ngược, nhận một hiệu ứng đặc biệt:<br><br><row>(@MinUnits@) Toàn đội hồi lại @MaxHealthHeal*100@% %i:scaleHealth%; tướng Thời Không được tăng @BonusAP@ %i:scaleAP%</row><br><row>(@MinUnits@) VÀ ngưng đọng thời gian trong @FreezeDuration@ giây, chỉ tướng Thời Không có thể di chuyển và được tăng @BonusAP@ %i:scaleAP% </row><br><row>(@MinUnits@) Ngưng đọng thời gian trong @FreezeDuration@ giây, toàn đội hồi lại @TimeHeal*100@% %i:scaleHealth%; chỉ tướng Thời Không có thể di chuyển và được tăng @BonusAP@ %i:scaleAP% và @BonusAS@% %i:scaleAS%</row>",
-      "icon": "https://raw.communitydragon.org/14.23/game/assets/ux/traiticons/trait_icon_12_time.tft_set12.png",
+      "icon": "/assets/set12/traits/TFT12_Chrono.webp",
       "breakpoints": [
         {
           "count": 2,
@@ -485,7 +485,7 @@
       "id": "TFT12_Incantor",
       "name": "Thần Chú",
       "description": "Đội của bạn nhận @TeamwideAP@ %i:scaleAP% Sức Mạnh Phép Thuật. <br><br>Khi tướng Thần Chú tấn công hoặc tung chiêu, tất cả các tướng Thần Chú nhận cộng dồn %i:scaleAP%, tối đa @MaxStacks@ cộng dồn. Mỗi đòn đánh thứ hai sẽ cho @StacksPerAttack@ cộng dồn, mỗi Kỹ Năng tung ra sẽ cho @StacksPerCast@ cộng dồn.<br><br><row>(@MinUnits@) @BonusAPPerStack@ %i:scaleAP% mỗi cộng dồn</row><br><row>(@MinUnits@) @BonusAPPerStack@ %i:scaleAP% mỗi cộng dồn; đội của bạn nhận @TeamwideAP@ %i:scaleAP% </row><br>",
-      "icon": "https://raw.communitydragon.org/14.23/game/assets/ux/traiticons/trait_icon_12_incantor.tft_set12.png",
+      "icon": "/assets/set12/traits/TFT12_Incantor.webp",
       "breakpoints": [
         {
           "count": 2,
@@ -517,7 +517,7 @@
       "id": "TFT12_Ascendant",
       "name": "Thăng Hoa",
       "description": "(1) Bùa Thể Thăng Hoa có thể xuất hiện trong cửa hàng cá nhân. Tỉ lệ tăng thêm @PercentageChancePerPlayerCombat@% sau khi giao tranh với người chơi, tối đa @MaxPercentageChance@%. Sau khi mua, tỉ lệ sẽ được đặt lại.<br><br>Tỉ Lệ Hiện Tại: @TFTUnitProperty.trait:TFT12_AscendantOdds@%<br><br>",
-      "icon": "https://raw.communitydragon.org/14.23/game/assets/ux/traiticons/trait_icon_12_ascendant.tft_set12.png",
+      "icon": "/assets/set12/traits/TFT12_Ascendant.webp",
       "breakpoints": [
         {
           "count": 1,
@@ -534,7 +534,7 @@
       "id": "TFT12_Faerie",
       "name": "Tiên Linh",
       "description": "Các tướng Tiên Linh được tăng  %i:scaleHealth% Máu và tạo ra các trang bị đặc biệt, mạnh dần theo bậc của tộc/hệ. <br><br><row>(@MinUnits@) @BonusHealth@ %i:scaleHealth%, nhận Vương Miện Nữ Hoàng giúp tăng @DamageAmp*100@% %i:scaleDA% Khuếch Đại Sát Thương</row><br><row>(@MinUnits@) @BonusHealth@ %i:scaleHealth%, Vương Miện tăng @DamageAmp*100@% %i:scaleDA%, nhận thêm Giáp Hộ Vệ Nữ Hoàng</row><br><row>(@MinUnits@) @BonusHealth@ %i:scaleHealth%, Vương Miện tăng @DamageAmp*100@% %i:scaleDA%, nhận thêm Vương Miện thứ hai</row><br><row>(@MinUnits@) @BonusHealth@ %i:scaleHealth%, Vương Miện tăng @DamageAmp*100@% %i:scaleDA%, các trang bị chuyển thành dạng Ánh Sáng</row><br><br><rules>Chỉ tướng Tiên Linh mới có thể mang các trang bị Tiên Linh.</rules>",
-      "icon": "https://raw.communitydragon.org/14.23/game/assets/ux/traiticons/trait_icon_12_faerie.tft_set12.png",
+      "icon": "/assets/set12/traits/TFT12_Faerie.webp",
       "breakpoints": [
         {
           "count": 3,
@@ -586,7 +586,7 @@
       "id": "TFT12_Preserver",
       "name": "Bảo Hộ",
       "description": "Đội của bạn hồi lại một phần %i:scaleHealth% Máu tối đa của họ sau mỗi @Duration@ giây. Nếu đã đầy Máu, thay vào đó hồi %i:scaleMana% Năng Lượng.<br><br>Tướng Bảo Hộ nhận được lượng hồi phục gấp đôi.<br><br><br><expandRow>(@MinUnits@) @HealthPct*100@% %i:scaleHealth% hoặc @ManaPct*100@% %i:scaleMana%</expandRow>",
-      "icon": "https://raw.communitydragon.org/14.23/game/assets/ux/traiticons/trait_icon_12_preserver.tft_set12.png",
+      "icon": "/assets/set12/traits/TFT12_Preserver.webp",
       "breakpoints": [
         {
           "count": 2,
@@ -638,7 +638,7 @@
       "id": "TFT12_Vanguard",
       "name": "Tiên Phong",
       "description": "Tướng Tiên Phong được tăng @DamageReductionPct*100@% %i:scaleDR% Chống Chịu khi có Lá Chắn. <br><br>Khi bắt đầu giao tranh và khi còn @HealthThreshold*100@%&nbsp;Máu: Nhận 1 Lá Chắn tỉ lệ với Máu tối đa trong @ShieldDuration@&nbsp;giây.<br><br><row>(@MinUnits@) @ShieldPercentAmount*100@% Máu tối đa</row><br><row>(@MinUnits@) @ShieldPercentAmount*100@% Máu tối đa</row><br><row>(@MinUnits@) @ShieldPercentAmount*100@% Máu tối đa; 15% %i:scaleDR% khi có Lá Chắn</row>",
-      "icon": "https://raw.communitydragon.org/14.23/game/assets/ux/traiticons/trait_icon_12_vanguard.tft_set12.png",
+      "icon": "/assets/set12/traits/TFT12_Vanguard.webp",
       "breakpoints": [
         {
           "count": 2,
@@ -679,7 +679,7 @@
       "id": "TFT12_Eldritch",
       "name": "Kỳ Quái",
       "description": "Khi đội của bạn mất đi @HealthRatio*100@% Máu, một Cựu Thần sẽ thức tỉnh. Nó được tăng @PercentHealthPerStarLevel*100@% Máu và @APPerStarLevel*100@% Sức Mạnh&nbsp;Phép Thuật với mỗi cấp sao Kỳ Quái.<br><br><row>(@MinUnits@) Người Đá Sa Ngã</row><br><row>(@MinUnits@) Địa Long Hắc Ám</row><br><row>(@MinUnits@) Quái Thú Ngàn Mắt</row><br><row>(@MinUnits@) Lôi Thần Giáng Thế</row>",
-      "icon": "https://raw.communitydragon.org/14.23/game/assets/ux/traiticons/trait_icon_12_eldritch.tft_set12.png",
+      "icon": "/assets/set12/traits/TFT12_Eldritch.webp",
       "breakpoints": [
         {
           "count": 3,
@@ -731,7 +731,7 @@
       "id": "TFT12_Shapeshifter",
       "name": "Hóa Hình",
       "description": "Tướng Hóa Hình nhận %i:scaleHealth% Máu tối đa. Sau khi thi triển Kỹ Năng lần đầu tiên, hiệu ứng này tăng gấp ba. <br><br><row>(@MinUnits@) @BonusHealthRatio*100@% %i:scaleHealth%</row><br><row>(@MinUnits@) @BonusHealthRatio*100@% %i:scaleHealth%</row><br><row>(@MinUnits@) @BonusHealthRatio*100@% %i:scaleHealth%</row><br><row>(@MinUnits@) @BonusHealthRatio*100@% %i:scaleHealth%, và hồi lại @MaxHeal*100@% %i:scaleHealth% mỗi @HealDuration@ giây</row><br><row>(@MinUnits@) @BonusHealthRatio*100@% %i:scaleHealth%, và hồi lại @MaxHeal*100@% %i:scaleHealth% mỗi @HealDuration@ giây</row><br>",
-      "icon": "https://raw.communitydragon.org/14.23/game/assets/ux/traiticons/trait_icon_shapeshifter.png",
+      "icon": "/assets/set12/traits/TFT12_Shapeshifter.webp",
       "breakpoints": [
         {
           "count": 2,
@@ -783,7 +783,7 @@
       "id": "TFT12_Blaster",
       "name": "Pháo Thủ",
       "description": "Tướng Pháo Thủ được tăng %i:scaleDA% Khuếch Đại Sát Thương, giá trị sẽ tăng thêm trong @Duration@ giây sau khi thi triển Kỹ Năng.<br><br><expandRow>(@MinUnits@) @BaseDamageAmp*100@% %i:scaleDA%; @DamageAmpAfterCasting*100@% khi đang dồn sát thương</expandRow>",
-      "icon": "https://raw.communitydragon.org/14.23/game/assets/ux/traiticons/trait_icon_12_artillerist.tft_set12.png",
+      "icon": "/assets/set12/traits/TFT12_Blaster.webp",
       "breakpoints": [
         {
           "count": 2,
@@ -821,7 +821,7 @@
       "id": "TFT12_Bastion",
       "name": "Can Trường",
       "description": "Đội của bạn được tăng %i:scaleArmor%%i:scaleMR% @TeamwideResists@ Giáp và Kháng Phép.<br><br>Tướng Can Trường nhận được nhiều hơn, và giá trị tăng gấp đôi trong @Duration@ giây đầu của giao tranh.<br><br><row>(@MinUnits@) @BonusArmor@ %i:scaleArmor%%i:scaleMR%</row><br><row>(@MinUnits@) @BonusArmor@ %i:scaleArmor%%i:scaleMR%</row><br><row>(@MinUnits@) @BonusArmor@ %i:scaleArmor%%i:scaleMR%</row><br><row>(@MinUnits@) @BonusArmor@ %i:scaleArmor%%i:scaleMR% và @NumUnits@ tướng bắt đầu giao tranh ở 2 hàng sau trở nên bất tử cho đến khi 4 tướng Can Trường tử trận</row>",
-      "icon": "https://raw.communitydragon.org/14.23/game/assets/ux/traiticons/trait_icon_9_bastion.png",
+      "icon": "/assets/set12/traits/TFT12_Bastion.webp",
       "breakpoints": [
         {
           "count": 2,
@@ -883,7 +883,7 @@
       "id": "TFT12_Ravenous",
       "name": "Phàm Ăn",
       "description": "Briar được tăng %i:scaleDA% @TOOLTIPDamageAmpPerHealth*100@% Khuếch Đại Sát Thương với mỗi máu người chơi bạn đã mất. Mỗi vòng đấu, nhận 1 Bữa Nhẹ giúp tăng cho cô <scaleHealth>@BriarHealthGain@ %i:scaleHealth%</scaleHealth>, đổi lại mất @TacticianHealthToFeed@ máu người chơi.<ShowIfCustom.Set=TFTSetEventCT><br><br>Trong Kho Báu Của Choncc, hiệu ứng Bữa Nhẹ sẽ cường hóa ở vòng 3-1 và 4-1.</ShowIfCustom.Set=TFTSetEventCT>",
-      "icon": "https://raw.communitydragon.org/14.23/game/assets/ux/traiticons/trait_icon_12_ravenous.tft_set12.png",
+      "icon": "/assets/set12/traits/TFT12_Ravenous.webp",
       "breakpoints": [
         {
           "count": 1,
@@ -913,7 +913,7 @@
       "id": "TFT12_Dragon",
       "name": "Rồng",
       "description": "<row>(@MinUnits@) Đòn Đánh và Kỹ Năng của Rồng gây @BurnPercent@% <TFTKeyword>Thiêu Đốt</TFTKeyword> và <TFTKeyword>Vết Thương Sâu</TFTKeyword> lên kẻ địch trong @BurnWoundDuration@ giây.</row><br><row>(@MinUnits@) Sức mạnh tình bạn sẽ nâng cấp tất cả các Kỹ Năng của rồng!</row><br><br><rules>Thiêu Đốt: Gây sát thương chuẩn mỗi giây theo Máu tối đa của mục tiêu</rules>",
-      "icon": "https://raw.communitydragon.org/14.23/game/assets/ux/traiticons/trait_icon_12_dragon.tft_set12.png",
+      "icon": "/assets/set12/traits/TFT12_Dragon.webp",
       "breakpoints": [
         {
           "count": 2,
@@ -941,7 +941,7 @@
       "id": "TFT12_Honeymancy",
       "name": "Ong Mật",
       "description": "Tướng Ong Mật mang theo @MiniCount@ con Ong, giúp gây sát thương phép lên mục tiêu của họ sau mỗi @Period@ giây. Ong sẽ gây sát thương dựa theo lượng sát thương mà tướng Ong Mật gây ra và gánh chịu.<br><br>Khi một tướng Ong Mật tử trận, họ để lại @NumTransfers@ con Ong đi theo các tướng Ong Mật gần đó cho đến hết giao tranh.<br><br><row>(@MinUnits@) @BonusDamage*100@% lượng sát thương gây ra, @DamageReceived*100@% lượng sát thương gánh chịu</row><br><row>(@MinUnits@) @BonusDamage*100@% lượng sát thương gây ra, @DamageReceived*100@% lượng sát thương gánh chịu</row><br><row>(@MinUnits@) @BonusDamage*100@% lượng sát thương gây ra, @DamageReceived*100@% lượng sát thương gánh chịu. Ong gây sát thương nhanh gấp đôi.</row>",
-      "icon": "https://raw.communitydragon.org/14.23/game/assets/ux/traiticons/trait_icon_12_bee.tft_set12.png",
+      "icon": "/assets/set12/traits/TFT12_Honeymancy.webp",
       "breakpoints": [
         {
           "count": 3,
@@ -985,7 +985,7 @@
       "id": "TFT12_Portal",
       "name": "Thông Đạo",
       "description": "Bắt đầu giao tranh: Tướng Thông Đạo tạo Lá Chắn trong @ShieldDuration@ giây. <br><br>Các vật thể từ chiều không gian khác bay ra từ thông đạo sau mỗi vài giây, trợ giúp cho đồng đội và quấy phá kẻ địch. Thông đạo sẽ mạnh hơn @IncreasePerStarLevel*100@% với mỗi cấp sao của tướng Thông Đạo.<br><br><row>(@MinUnits@) @ShieldAmount@ Lá Chắn, thông đạo cỡ Nhỏ</row><br><row>(@MinUnits@) @ShieldAmount@ Lá Chắn, thông đạo cỡ Trung</row><br><row>(@MinUnits@) @ShieldAmount@ Lá Chắn, thông đạo cỡ Lớn</row><br><row>(@MinUnits@) @ShieldAmount@ Lá Chắn, thông đạo KHỔNG LỒ</row>",
-      "icon": "https://raw.communitydragon.org/14.23/game/assets/ux/traiticons/trait_icon_12_portal.tft_set12.png",
+      "icon": "/assets/set12/traits/TFT12_Portal.webp",
       "breakpoints": [
         {
           "count": 3,
@@ -1081,7 +1081,7 @@
       "id": "TFT12_Mage",
       "name": "Pháp Sư",
       "description": "Pháp Sư sẽ tung Kỹ Năng hai lần, với tổng  %i:scaleAP% Sức Mạnh Phép Thuật được thay đổi.<br><br><row>(@MinUnits@) @APMultiplier*100@% %i:scaleAP%</row><br><row>(@MinUnits@) @APMultiplier*100@% %i:scaleAP%</row><br><row>(@MinUnits@) @APMultiplier*100@% %i:scaleAP%</row><br><row>(@MinUnits@) @APMultiplier*100@% %i:scaleAP%, các Pháp Sư sẽ tung chiêu thường xuyên hơn RẤT NHIỀU</row>",
-      "icon": "https://raw.communitydragon.org/14.23/game/assets/ux/traiticons/trait_icon_2_mage.png",
+      "icon": "/assets/set12/traits/TFT12_Mage.webp",
       "breakpoints": [
         {
           "count": 3,
@@ -1122,7 +1122,7 @@
       "id": "TFT12_Sugarcraft",
       "name": "Bánh Ngọt",
       "description": "Tướng Bánh Ngọt làm một chiếc bánh nhiều tầng bằng đường. Nhận thêm đường cho mỗi trang bị thành phần mà các tướng của bạn đang giữ sau giao tranh người chơi.<br><br>Họ sẽ được tăng %i:scaleAD% Sức Mạnh Công Kích và %i:scaleAP% Sức Mạnh Phép Thuật, cộng thêm @BonusRatio*100@% cho mỗi lớp bánh. Khi chiếc bánh đạt tới @MaxLayers@ lớp, thay vào đó, nhận kẹo!<br><br><row>(@MinUnits@) @SugarMultiplier@ đường, @BaseAPAD@ %i:scaleAD%%i:scaleAP%</row><br><row>(@MinUnits@) @SugarMultiplier@ đường, @BaseAPAD@ %i:scaleAD%%i:scaleAP%</row><br><row>(@MinUnits@) @SugarMultiplier@ đường, @BaseAPAD@ %i:scaleAD%%i:scaleAP%, cả đội được tăng @BonusHealth@ %i:scaleHealth%</row><br><row>(@MinUnits@) @SugarMultiplier@ đường, @BaseAPAD@ %i:scaleAD%%i:scaleAP%, cả đội được tăng @BonusHealth@ %i:scaleHealth%</row><br><br>Tổng cộng: <TFTBonus>@TFTUnitProperty.trait:TFT12_Pastry_BonusStats@</TFTBonus> %i:scaleAD%%i:scaleAP%<br>Lớp bánh: <TFTBonus>@TFTUnitProperty.trait:TFT12_Pastry_NumLayers@</TFTBonus> / @MaxLayers@<br>Đường mỗi vòng đấu: <TFTBonus>@TFTUnitProperty.trait:TFT12_Pastry_SugarToAdd@</TFTBonus> = @TFTUnitProperty.trait:TFT12_Pastry_TotalComponents@ trang bị thành phần x @TFTUnitProperty.trait:TFT12_Pastry_TraitSugarMult@ từ tộc/hệ<br><br>",
-      "icon": "https://raw.communitydragon.org/14.23/game/assets/ux/traiticons/trait_icon_12_sugarcraft.tft_set12.png",
+      "icon": "/assets/set12/traits/TFT12_Sugarcraft.webp",
       "breakpoints": [
         {
           "count": 2,
@@ -1188,7 +1188,7 @@
       "id": "TFT12_Pyro",
       "name": "Hỏa",
       "description": "Đội của bạn được tăng @BaseASPct@% %i:scaleAS% Tốc Độ Đánh. Các tướng Hỏa được tăng thêm %i:scaleAS% và hành quyết những kẻ địch còn dưới @ExecutePct@% Máu.<br><br>Với mỗi mạng tiêu diệt được, tướng Hỏa sẽ tạo ra 1 tro tàn địa ngục để bạn thu thập ở vòng sau. Với mỗi @NumCinders@ tro tàn bạn đã thu thập, đội của bạn nhận thêm @ASPctPerNumCinders@% %i:scaleAS%.<br><br><row>(@MinUnits@) @PyroUnitAS@% %i:scaleAS%</row><br><row>(@MinUnits@) @PyroUnitAS@% %i:scaleAS%</row><br><row>(@MinUnits@) @PyroUnitAS@% %i:scaleAS%</row><br><row>(@MinUnits@) @PyroUnitAS@% %i:scaleAS% và hành quyết tướng còn dưới @ExecutePct@% Máu</row><br><br>Tro tàn đã thu thập: @TFTUnitProperty.trait:TFT12_PyroCindersCollected@<br>%i:scaleAS% cho toàn đội: @TFTUnitProperty.trait:TFT12_PyroAttackSpeed@%",
-      "icon": "https://raw.communitydragon.org/14.23/game/assets/ux/traiticons/trait_icon_12_pyrokinesis.tft_set12.png",
+      "icon": "/assets/set12/traits/TFT12_Pyro.webp",
       "breakpoints": [
         {
           "count": 2,
@@ -1328,7 +1328,7 @@
           ]
         }
       },
-      "icon": "https://raw.communitydragon.org/14.23/game/assets/characters/tft12_zilean/skins/base/images/tft12_zilean_mobile.tft_set12.png"
+      "icon": "/assets/set12/champions/TFT12_Zilean.webp"
     },
     {
       "id": "TFT12_Twitch",
@@ -1402,7 +1402,7 @@
           ]
         }
       },
-      "icon": "https://raw.communitydragon.org/14.23/game/assets/characters/tft12_twitch/skins/base/images/tft12_twitch_mobile.tft_set12.png"
+      "icon": "/assets/set12/champions/TFT12_Twitch.webp"
     },
     {
       "id": "TFT12_Warwick",
@@ -1485,7 +1485,7 @@
           ]
         }
       },
-      "icon": "https://raw.communitydragon.org/14.23/game/assets/characters/tft12_warwick/skins/base/images/tft12_warwick_mobile.tft_set12.png"
+      "icon": "/assets/set12/champions/TFT12_Warwick.webp"
     },
     {
       "id": "TFT12_Hwei",
@@ -1541,7 +1541,7 @@
           ]
         }
       },
-      "icon": "https://raw.communitydragon.org/14.23/game/assets/characters/tft12_hwei/skins/base/images/tft12_hwei_mobile.tft_set12.png"
+      "icon": "/assets/set12/champions/TFT12_Hwei.webp"
     },
     {
       "id": "TFT12_Diana",
@@ -1651,7 +1651,7 @@
           ]
         }
       },
-      "icon": "https://raw.communitydragon.org/14.23/game/assets/characters/tft12_diana/skins/base/images/tft12_diana_mobile.tft_set12.png"
+      "icon": "/assets/set12/champions/TFT12_Diana.webp"
     },
     {
       "id": "TFT12_Jax",
@@ -1716,7 +1716,7 @@
           ]
         }
       },
-      "icon": "https://raw.communitydragon.org/14.23/game/assets/characters/tft12_jax/skins/base/images/tft12_jax_mobile.tft_set12.png"
+      "icon": "/assets/set12/champions/TFT12_Jax.webp"
     },
     {
       "id": "TFT12_Vex",
@@ -1799,7 +1799,7 @@
           ]
         }
       },
-      "icon": "https://raw.communitydragon.org/14.23/game/assets/characters/tft12_vex/skins/base/images/tft12_vex_mobile.tft_set12.png"
+      "icon": "/assets/set12/champions/TFT12_Vex.webp"
     },
     {
       "id": "TFT12_Smolder",
@@ -1900,7 +1900,7 @@
           ]
         }
       },
-      "icon": "https://raw.communitydragon.org/14.23/game/assets/characters/tft12_smolder/skins/base/images/tft12_smolder_mobile.tft_set12.png"
+      "icon": "/assets/set12/champions/TFT12_Smolder.webp"
     },
     {
       "id": "TFT12_Karma",
@@ -1956,7 +1956,7 @@
           ]
         }
       },
-      "icon": "https://raw.communitydragon.org/14.23/game/assets/characters/tft12_karma/skins/base/images/tft12_karma_mobile.tft_set12.png"
+      "icon": "/assets/set12/champions/TFT12_Karma.webp"
     },
     {
       "id": "TFT12_Camille",
@@ -2057,7 +2057,7 @@
           ]
         }
       },
-      "icon": "https://raw.communitydragon.org/14.23/game/assets/characters/tft12_camille/skins/base/images/tft12_camille_mobile.tft_set12.png"
+      "icon": "/assets/set12/champions/TFT12_Camille.webp"
     },
     {
       "id": "TFT12_Blitzcrank",
@@ -2158,7 +2158,7 @@
           ]
         }
       },
-      "icon": "https://raw.communitydragon.org/14.23/game/assets/characters/tft12_blitzcrank/skins/base/images/tft12_blitzcrank_mobile.tft_set12.png"
+      "icon": "/assets/set12/champions/TFT12_Blitzcrank.webp"
     },
     {
       "id": "TFT12_Elise",
@@ -2250,7 +2250,7 @@
           ]
         }
       },
-      "icon": "https://raw.communitydragon.org/14.23/game/assets/characters/tft12_elise/skins/base/images/tft12_elise_mobile.tft_set12.png"
+      "icon": "/assets/set12/champions/TFT12_Elise.webp"
     },
     {
       "id": "TFT12_Jayce",
@@ -2306,7 +2306,7 @@
           ]
         }
       },
-      "icon": "https://raw.communitydragon.org/14.23/game/assets/characters/tft12_jayce/skins/base/images/tft12_jayce_mobile.tft_set12.png"
+      "icon": "/assets/set12/champions/TFT12_Jayce.webp"
     },
     {
       "id": "TFT12_Tristana",
@@ -2380,7 +2380,7 @@
           ]
         }
       },
-      "icon": "https://raw.communitydragon.org/14.23/game/assets/characters/tft12_tristana/skins/base/images/tft12_tristana_mobile.tft_set12.png"
+      "icon": "/assets/set12/champions/TFT12_Tristana.webp"
     },
     {
       "id": "TFT12_Ashe",
@@ -2427,7 +2427,7 @@
           ]
         }
       },
-      "icon": "https://raw.communitydragon.org/14.23/game/assets/characters/tft12_ashe/skins/base/images/tft12_ashe_mobile.tft_set12.png"
+      "icon": "/assets/set12/champions/TFT12_Ashe.webp"
     },
     {
       "id": "TFT12_Zoe",
@@ -2502,7 +2502,7 @@
           ]
         }
       },
-      "icon": "https://raw.communitydragon.org/14.23/game/assets/characters/tft12_zoe/skins/base/images/tft12_zoe_mobile.tft_set12.png"
+      "icon": "/assets/set12/champions/TFT12_Zoe.webp"
     },
     {
       "id": "TFT12_Nilah",
@@ -2585,7 +2585,7 @@
           ]
         }
       },
-      "icon": "https://raw.communitydragon.org/14.23/game/assets/characters/tft12_nilah/skins/base/images/tft12_nilah_mobile.tft_set12.png"
+      "icon": "/assets/set12/champions/TFT12_Nilah.webp"
     },
     {
       "id": "TFT12_Kassadin",
@@ -2659,7 +2659,7 @@
           ]
         }
       },
-      "icon": "https://raw.communitydragon.org/14.23/game/assets/characters/tft12_kassadin/skins/base/images/tft12_kassadin_mobile.tft_set12.png"
+      "icon": "/assets/set12/champions/TFT12_Kassadin.webp"
     },
     {
       "id": "TFT12_KogMaw",
@@ -2715,7 +2715,7 @@
           ]
         }
       },
-      "icon": "https://raw.communitydragon.org/14.23/game/assets/characters/tft12_kogmaw/skins/base/images/tft12_kogmaw_mobile.tft_set12.png"
+      "icon": "/assets/set12/champions/TFT12_KogMaw.webp"
     },
     {
       "id": "TFT12_Cassiopeia",
@@ -2762,7 +2762,7 @@
           ]
         }
       },
-      "icon": "https://raw.communitydragon.org/14.23/game/assets/characters/tft12_cassiopeia/skins/base/images/tft12_cassiopeia_mobile.tft_set12.png"
+      "icon": "/assets/set12/champions/TFT12_Cassiopeia.webp"
     },
     {
       "id": "TFT12_Syndra",
@@ -2854,7 +2854,7 @@
           ]
         }
       },
-      "icon": "https://raw.communitydragon.org/14.23/game/assets/characters/tft12_syndra/skins/base/images/tft12_syndra_mobile.tft_set12.png"
+      "icon": "/assets/set12/champions/TFT12_Syndra.webp"
     },
     {
       "id": "TFT12_Nunu",
@@ -2955,7 +2955,7 @@
           ]
         }
       },
-      "icon": "https://raw.communitydragon.org/14.23/game/assets/characters/tft12_nunu/skins/base/images/tft12_nunu_mobile.tft_set12.png"
+      "icon": "/assets/set12/champions/TFT12_Nunu.webp"
     },
     {
       "id": "TFT12_Katarina",
@@ -3047,7 +3047,7 @@
           ]
         }
       },
-      "icon": "https://raw.communitydragon.org/14.23/game/assets/characters/tft12_katarina/skins/base/images/tft12_katarina_mobile.tft_set12.png"
+      "icon": "/assets/set12/champions/TFT12_Katarina.webp"
     },
     {
       "id": "TFT12_Hecarim",
@@ -3113,7 +3113,7 @@
           ]
         }
       },
-      "icon": "https://raw.communitydragon.org/14.23/game/assets/characters/tft12_hecarim/skins/base/images/tft12_hecarim_mobile.tft_set12.png"
+      "icon": "/assets/set12/champions/TFT12_Hecarim.webp"
     },
     {
       "id": "TFT12_Neeko",
@@ -3223,7 +3223,7 @@
           ]
         }
       },
-      "icon": "https://raw.communitydragon.org/14.23/game/assets/characters/tft12_neeko/skins/base/images/tft12_neeko_mobile.tft_set12.png"
+      "icon": "/assets/set12/champions/TFT12_Neeko.webp"
     },
     {
       "id": "TFT12_Ezreal",
@@ -3288,7 +3288,7 @@
           ]
         }
       },
-      "icon": "https://raw.communitydragon.org/14.23/game/assets/characters/tft12_ezreal/skins/base/images/tft12_ezreal_mobile.tft_set12.png"
+      "icon": "/assets/set12/champions/TFT12_Ezreal.webp"
     },
     {
       "id": "TFT12_Jinx",
@@ -3362,7 +3362,7 @@
           ]
         }
       },
-      "icon": "https://raw.communitydragon.org/14.23/game/assets/characters/tft12_jinx/skins/base/images/tft12_jinx_mobile.tft_set12.png"
+      "icon": "/assets/set12/champions/TFT12_Jinx.webp"
     },
     {
       "id": "TFT12_Veigar",
@@ -3418,7 +3418,7 @@
           ]
         }
       },
-      "icon": "https://raw.communitydragon.org/14.23/game/assets/characters/tft12_veigar/skins/base/images/tft12_veigar_mobile.tft_set12.png"
+      "icon": "/assets/set12/champions/TFT12_Veigar.webp"
     },
     {
       "id": "TFT12_Bard",
@@ -3484,7 +3484,7 @@
           ]
         }
       },
-      "icon": "https://raw.communitydragon.org/14.23/game/assets/characters/tft12_bard/skins/base/images/tft12_bard_mobile.tft_set12.png"
+      "icon": "/assets/set12/champions/TFT12_Bard.webp"
     },
     {
       "id": "TFT12_Lillia",
@@ -3558,7 +3558,7 @@
           ]
         }
       },
-      "icon": "https://raw.communitydragon.org/14.23/game/assets/characters/tft12_lillia/skins/base/images/tft12_lillia_mobile.tft_set12.png"
+      "icon": "/assets/set12/champions/TFT12_Lillia.webp"
     },
     {
       "id": "TFT12_Mordekaiser",
@@ -3623,7 +3623,7 @@
           ]
         }
       },
-      "icon": "https://raw.communitydragon.org/14.23/game/assets/characters/tft12_mordekaiser/skins/base/images/tft12_mordekaiser_mobile.tft_set12.png"
+      "icon": "/assets/set12/champions/TFT12_Mordekaiser.webp"
     },
     {
       "id": "TFT12_Fiora",
@@ -3697,7 +3697,7 @@
           ]
         }
       },
-      "icon": "https://raw.communitydragon.org/14.23/game/assets/characters/tft12_fiora/skins/base/images/tft12_fiora_mobile.tft_set12.png"
+      "icon": "/assets/set12/champions/TFT12_Fiora.webp"
     },
     {
       "id": "TFT12_Gwen",
@@ -3762,7 +3762,7 @@
           ]
         }
       },
-      "icon": "https://raw.communitydragon.org/14.23/game/assets/characters/tft12_gwen/skins/base/images/tft12_gwen_mobile.tft_set12.png"
+      "icon": "/assets/set12/champions/TFT12_Gwen.webp"
     },
     {
       "id": "TFT12_Rakan",
@@ -3863,7 +3863,7 @@
           ]
         }
       },
-      "icon": "https://raw.communitydragon.org/14.23/game/assets/characters/tft12_rakan/skins/base/images/tft12_rakan_mobile.tft_set12.png"
+      "icon": "/assets/set12/champions/TFT12_Rakan.webp"
     },
     {
       "id": "TFT12_TahmKench",
@@ -3928,7 +3928,7 @@
           ]
         }
       },
-      "icon": "https://raw.communitydragon.org/14.23/game/assets/characters/tft12_tahmkench/skins/base/images/tft12_tahmkench_mobile.tft_set12.png"
+      "icon": "/assets/set12/champions/TFT12_TahmKench.webp"
     },
     {
       "id": "TFT12_Kalista",
@@ -3993,7 +3993,7 @@
           ]
         }
       },
-      "icon": "https://raw.communitydragon.org/14.23/game/assets/characters/tft12_kalista/skins/base/images/tft12_kalista_mobile.tft_set12.png"
+      "icon": "/assets/set12/champions/TFT12_Kalista.webp"
     },
     {
       "id": "TFT12_Ryze",
@@ -4076,7 +4076,7 @@
           ]
         }
       },
-      "icon": "https://raw.communitydragon.org/14.23/game/assets/characters/tft12_ryze/skins/base/images/tft12_ryze_mobile.tft_set12.png"
+      "icon": "/assets/set12/champions/TFT12_Ryze.webp"
     },
     {
       "id": "TFT12_Nami",
@@ -4132,7 +4132,7 @@
           ]
         }
       },
-      "icon": "https://raw.communitydragon.org/14.23/game/assets/characters/tft12_nami/skins/base/images/tft12_nami_mobile.tft_set12.png"
+      "icon": "/assets/set12/champions/TFT12_Nami.webp"
     },
     {
       "id": "TFT12_Briar",
@@ -4288,7 +4288,7 @@
           ]
         }
       },
-      "icon": "https://raw.communitydragon.org/14.23/game/assets/characters/tft12_briar/skins/base/images/tft12_briar_mobile.tft_set12.png"
+      "icon": "/assets/set12/champions/TFT12_Briar.webp"
     },
     {
       "id": "TFT12_Morgana",
@@ -4381,7 +4381,7 @@
           ]
         }
       },
-      "icon": "https://raw.communitydragon.org/14.23/game/assets/characters/tft12_morgana/skins/base/images/tft12_morgana_mobile.tft_set12.png"
+      "icon": "/assets/set12/champions/TFT12_Morgana.webp"
     },
     {
       "id": "TFT12_Xerath",
@@ -4437,7 +4437,7 @@
           ]
         }
       },
-      "icon": "https://raw.communitydragon.org/14.23/game/assets/characters/tft12_xerath/skins/base/images/tft12_xerath_mobile.tft_set12.png"
+      "icon": "/assets/set12/champions/TFT12_Xerath.webp"
     },
     {
       "id": "TFT12_Milio",
@@ -4529,7 +4529,7 @@
           ]
         }
       },
-      "icon": "https://raw.communitydragon.org/14.23/game/assets/characters/tft12_milio/skins/base/images/tft12_milio_mobile.tft_set12.png"
+      "icon": "/assets/set12/champions/TFT12_Milio.webp"
     },
     {
       "id": "TFT12_Norra",
@@ -4586,7 +4586,7 @@
           ]
         }
       },
-      "icon": "https://raw.communitydragon.org/14.23/game/assets/characters/tft12_norra/skins/base/images/tft12_norra_mobile.tft_set12.png"
+      "icon": "/assets/set12/champions/TFT12_Norra.webp"
     },
     {
       "id": "TFT12_Nomsy",
@@ -4669,7 +4669,7 @@
           ]
         }
       },
-      "icon": "https://raw.communitydragon.org/14.23/game/assets/characters/tft12_nomsy/skins/base/images/tft12_nomsy_mobile.tft_set12.png"
+      "icon": "/assets/set12/champions/TFT12_Nomsy.webp"
     },
     {
       "id": "TFT12_Varus",
@@ -4743,7 +4743,7 @@
           ]
         }
       },
-      "icon": "https://raw.communitydragon.org/14.23/game/assets/characters/tft12_varus/skins/base/images/tft12_varus_mobile.tft_set12.png"
+      "icon": "/assets/set12/champions/TFT12_Varus.webp"
     },
     {
       "id": "TFT12_Nasus",
@@ -4808,7 +4808,7 @@
           ]
         }
       },
-      "icon": "https://raw.communitydragon.org/14.23/game/assets/characters/tft12_nasus/skins/base/images/tft12_nasus_mobile.tft_set12.png"
+      "icon": "/assets/set12/champions/TFT12_Nasus.webp"
     },
     {
       "id": "TFT12_Akali",
@@ -4883,7 +4883,7 @@
           ]
         }
       },
-      "icon": "https://raw.communitydragon.org/14.23/game/assets/characters/tft12_akali/skins/base/images/tft12_akali_mobile.tft_set12.png"
+      "icon": "/assets/set12/champions/TFT12_Akali.webp"
     },
     {
       "id": "TFT12_Taric",
@@ -4966,7 +4966,7 @@
           ]
         }
       },
-      "icon": "https://raw.communitydragon.org/14.23/game/assets/characters/tft12_taric/skins/base/images/tft12_taric_mobile.tft_set12.png"
+      "icon": "/assets/set12/champions/TFT12_Taric.webp"
     },
     {
       "id": "TFT12_Galio",
@@ -5068,7 +5068,7 @@
           ]
         }
       },
-      "icon": "https://raw.communitydragon.org/14.23/game/assets/characters/tft12_galio/skins/base/images/tft12_galio_mobile.tft_set12.png"
+      "icon": "/assets/set12/champions/TFT12_Galio.webp"
     },
     {
       "id": "TFT12_Shen",
@@ -5187,7 +5187,7 @@
           ]
         }
       },
-      "icon": "https://raw.communitydragon.org/14.23/game/assets/characters/tft12_shen/skins/base/images/tft12_shen_mobile.tft_set12.png"
+      "icon": "/assets/set12/champions/TFT12_Shen.webp"
     },
     {
       "id": "TFT12_Shyvana",
@@ -5270,7 +5270,7 @@
           ]
         }
       },
-      "icon": "https://raw.communitydragon.org/14.23/game/assets/characters/tft12_shyvana/skins/base/images/tft12_shyvana_mobile.tft_set12.png"
+      "icon": "/assets/set12/champions/TFT12_Shyvana.webp"
     },
     {
       "id": "TFT12_Poppy",
@@ -5353,7 +5353,7 @@
           ]
         }
       },
-      "icon": "https://raw.communitydragon.org/14.23/game/assets/characters/tft12_poppy/skins/base/images/tft12_poppy_mobile.tft_set12.png"
+      "icon": "/assets/set12/champions/TFT12_Poppy.webp"
     },
     {
       "id": "TFT12_Rumble",
@@ -5446,7 +5446,7 @@
           ]
         }
       },
-      "icon": "https://raw.communitydragon.org/14.23/game/assets/characters/tft12_rumble/skins/base/images/tft12_rumble_mobile.tft_set12.png"
+      "icon": "/assets/set12/champions/TFT12_Rumble.webp"
     },
     {
       "id": "TFT12_Ziggs",
@@ -5520,7 +5520,7 @@
           ]
         }
       },
-      "icon": "https://raw.communitydragon.org/14.23/game/assets/characters/tft12_ziggs/skins/base/images/tft12_ziggs_mobile.tft_set12.png"
+      "icon": "/assets/set12/champions/TFT12_Ziggs.webp"
     },
     {
       "id": "TFT12_Swain",
@@ -5585,7 +5585,7 @@
           ]
         }
       },
-      "icon": "https://raw.communitydragon.org/14.23/game/assets/characters/tft12_swain/skins/base/images/tft12_swain_mobile.tft_set12.png"
+      "icon": "/assets/set12/champions/TFT12_Swain.webp"
     },
     {
       "id": "TFT12_Ahri",
@@ -5641,7 +5641,7 @@
           ]
         }
       },
-      "icon": "https://raw.communitydragon.org/14.23/game/assets/characters/tft12_ahri/skins/base/images/tft12_ahri_mobile.tft_set12.png"
+      "icon": "/assets/set12/champions/TFT12_Ahri.webp"
     },
     {
       "id": "TFT12_Soraka",
@@ -5688,7 +5688,7 @@
           ]
         }
       },
-      "icon": "https://raw.communitydragon.org/14.23/game/assets/characters/tft12_soraka/skins/base/images/tft12_soraka_mobile.tft_set12.png"
+      "icon": "/assets/set12/champions/TFT12_Soraka.webp"
     },
     {
       "id": "TFT12_Seraphine",
@@ -5762,7 +5762,7 @@
           ]
         }
       },
-      "icon": "https://raw.communitydragon.org/14.23/game/assets/characters/tft12_seraphine/skins/base/images/tft12_seraphine_mobile.tft_set12.png"
+      "icon": "/assets/set12/champions/TFT12_Seraphine.webp"
     },
     {
       "id": "TFT12_Olaf",
@@ -5836,7 +5836,7 @@
           ]
         }
       },
-      "icon": "https://raw.communitydragon.org/14.23/game/assets/characters/tft12_olaf/skins/base/images/tft12_olaf_mobile.tft_set12.png"
+      "icon": "/assets/set12/champions/TFT12_Olaf.webp"
     },
     {
       "id": "TFT12_Wukong",
@@ -5963,7 +5963,7 @@
           ]
         }
       },
-      "icon": "https://raw.communitydragon.org/14.23/game/assets/characters/tft12_wukong/skins/base/images/tft12_wukong_mobile.tft_set12.png"
+      "icon": "/assets/set12/champions/TFT12_Wukong.webp"
     }
   ],
   "items": [
@@ -5976,7 +5976,7 @@
       ],
       "description": "<tftitemrules>Chiếc mũ này có thể giúp bạn xoay chuyển cả thế giới.</tftitemrules>",
       "isUnique": false,
-      "icon": "https://raw.communitydragon.org/14.23/game/assets/maps/tft/icons/items/hexcore/tft_item_rabadonsdeathcap.tft_set13.png"
+      "icon": "/assets/set12/items/TFT_Item_RabadonsDeathcap.webp"
     },
     {
       "id": "TFT_Item_InfinityEdge",
@@ -5987,7 +5987,7 @@
       ],
       "description": "Kỹ năng có thể gây chí mạng.<br><br>Nếu kỹ năng của tướng sở hữu đã có thể chí mạng, nhận @CritDamageToGive*100@% Sát Thương Chí Mạng.",
       "isUnique": false,
-      "icon": "https://raw.communitydragon.org/14.23/game/assets/maps/tft/icons/items/hexcore/tft_item_infinityedge.tft_set13.png"
+      "icon": "/assets/set12/items/TFT_Item_InfinityEdge.webp"
     },
     {
       "id": "TFT_Item_FrozenHeart",
@@ -5998,7 +5998,7 @@
       ],
       "description": "Một lần mỗi giao tranh, khi còn @HealthThreshold@% Máu, nhận một lá chắn tương đương @ShieldHealthPercent@% Máu tối đa, tồn tại trong @ShieldDuration@ giây, đồng thời nhận @Stats@ Giáp và @Stats@ Kháng Phép.",
       "isUnique": false,
-      "icon": "https://raw.communitydragon.org/14.23/game/assets/maps/tft/icons/items/hexcore/tft_item_frozenheart.tft_set13.png"
+      "icon": "/assets/set12/items/TFT_Item_FrozenHeart.webp"
     },
     {
       "id": "TFT12_Item_Arcana_Signifier",
@@ -6006,7 +6006,7 @@
       "components": [],
       "description": "Dùng lên một tướng Ẩn Chính để thay đổi hiệu ứng Ẩn Chính thành của họ. <br><br><scaleLevel>Ahri:</scaleLevel> Nhận thêm Sức Mạnh Phép Thuật với mỗi tướng 3 sao.<br><scaleLevel>Hecarim:</scaleLevel> Tướng có mang trang bị được tăng Giảm Sát thương và Sức Mạnh Công Kích.<br><scaleLevel>Tahm Kench:</scaleLevel> Nhận thêm Máu với mỗi tộc/hệ được kích hoạt.<br><scaleLevel>Xerath:</scaleLevel> Các kỹ năng sẽ gây thêm sát thương chuẩn với mỗi Bùa đã mua.<br><scaleLevel>Ấn:</scaleLevel> Nhận thêm Khuếch Đại Sát Thương với mỗi trang bị Xẻng Vàng được trang bị.<br><br>",
       "isUnique": false,
-      "icon": "https://raw.communitydragon.org/14.23/game/assets/maps/particles/tft/item_icons/tft12/tft12_arcanasignifier.tft_set12.png"
+      "icon": "/assets/set12/items/TFT12_Item_Arcana_Signifier.webp"
     },
     {
       "id": "TFT12_Item_Faerie_QueensCrownRadiant",
@@ -6014,7 +6014,7 @@
       "components": [],
       "description": "Sau khi gây sát thương @MaxNumStacks@ lần, nhận <TFTRadiantItemBonus>@TFTUnitProperty.item:TFT12_Faerie_DamageAmp@%</TFTRadiantItemBonus> %i:scaleDA% cho đến hết giao tranh.<br><br><TFTRadiantItemBonus>Sau khi gây sát thương @RadiantMaxStacks@ lần, nhận @RadiantMaxHealth*100@% Máu tối đa, @RadiantOmnivamp*100@% Hút Máu Toàn Phần và @RadiantDamageAmp*100@% Khuếch Đại Sát Thương.</TFTRadiantItemBonus><br><br><tftitemrules>Chỉ tướng Tiên Linh có thể mang trang bị này.</tftitemrules><br><tftitemrules>Chuyển tướng về hàng dự bị để gỡ trang bị.</tftitemrules>",
       "isUnique": true,
-      "icon": "https://raw.communitydragon.org/14.23/game/assets/maps/particles/tft/item_icons/tft12/tft12_faeriecrown_radiant.tft_set12.png"
+      "icon": "/assets/set12/items/TFT12_Item_Faerie_QueensCrownRadiant.webp"
     },
     {
       "id": "TFT12_Item_Faerie_QueensCrown",
@@ -6022,7 +6022,7 @@
       "components": [],
       "description": "Sau khi gây sát thương @MaxNumStacks@ lần, nhận <TFTBonus>@TFTUnitProperty.item:TFT12_Faerie_DamageAmp@%</TFTBonus> %i:scaleDA% cho đến hết giao tranh.<br><br><tftitemrules>Chỉ tướng Tiên Linh có thể mang trang bị này.</tftitemrules><br><tftitemrules>Chuyển tướng về hàng dự bị để gỡ trang bị.</tftitemrules>",
       "isUnique": true,
-      "icon": "https://raw.communitydragon.org/14.23/game/assets/maps/particles/tft/item_icons/tft12/tft12_faeriecrown.tft_set12.png"
+      "icon": "/assets/set12/items/TFT12_Item_Faerie_QueensCrown.webp"
     },
     {
       "id": "TFT12_Item_MilioThreeStar_CursedQuicksilver",
@@ -6030,7 +6030,7 @@
       "components": [],
       "description": "Chủ sở hữu trang bị này đã bị choáng. Hiệu ứng này sẽ dừng khi chúng bị hạ gục.",
       "isUnique": false,
-      "icon": "https://raw.communitydragon.org/14.23/game/assets/maps/particles/tft/item_icons/shadow/s_quicksilver.png"
+      "icon": "/assets/set12/items/TFT12_Item_MilioThreeStar_CursedQuicksilver.webp"
     },
     {
       "id": "TFT12_Item_Bound_LightSnack",
@@ -6038,7 +6038,7 @@
       "components": [],
       "description": "Dùng lên Briar để cho cô ta <scaleHealth>@TFTUnitProperty.item:TFT12_BoundHealthGain@ %i:scaleHealth%</scaleHealth>, đổi lại mất @TFTUnitProperty.item:TFT12_BoundHealthCost@ Máu người chơi.<ShowIfCustom.Set=TFTSetEventCT><br><br>Trong Kho Báu Của Choncc, trang bị này được cải thiện ở Vòng 3-1 và 4-1.</ShowIfCustom.Set=TFTSetEventCT><br><br><tftitemrules>[Tiêu Thụ - Trang bị này sẽ biến mất sau khi sử dụng.]</tftitemrules>",
       "isUnique": false,
-      "icon": "https://raw.communitydragon.org/14.23/game/assets/maps/particles/tft/item_icons/tft12/tft12_ravenous_lightsnack.tft_set12.png"
+      "icon": "/assets/set12/items/TFT12_Item_Bound_LightSnack.webp"
     },
     {
       "id": "TFT12_Item_MilioThreeStar_CursedGuinsoosRageblade",
@@ -6046,7 +6046,7 @@
       "components": [],
       "description": "Chủ sở hữu trang bị này đặt tốc độ đánh của họ tối đa @ASCap@ và không thể tăng năng lượng hay thi triển kỹ năng. Mỗi khi họ bị tấn công, kẻ tấn công sẽ nhận <TFTBonus>@BonusAttackSpeed*100@%</TFTBonus> Tốc Độ Đánh.",
       "isUnique": false,
-      "icon": "https://raw.communitydragon.org/14.23/game/assets/maps/particles/tft/item_icons/shadow/s_guinsoos_rageblade.png"
+      "icon": "/assets/set12/items/TFT12_Item_MilioThreeStar_CursedGuinsoosRageblade.webp"
     },
     {
       "id": "TFT12_Item_MilioThreeStar_CursedHextechGunblade",
@@ -6054,7 +6054,7 @@
       "components": [],
       "description": "Đòn đánh của chủ sở hữu sẽ bị giảm @NegativeDamageAmp*100@% sát thương gây ra. Chúng cũng sẽ dùng @DamageRatio*100@% lượng máu tối đa của mình thành sát thương chuẩn mỗi giây, và hồi cho Milio lượng máu tương tự.",
       "isUnique": false,
-      "icon": "https://raw.communitydragon.org/14.23/game/assets/maps/particles/tft/item_icons/shadow/s_hextech_gunblade.png"
+      "icon": "/assets/set12/items/TFT12_Item_MilioThreeStar_CursedHextechGunblade.webp"
     },
     {
       "id": "TFT12_Item_Faerie_Armor",
@@ -6062,7 +6062,7 @@
       "components": [],
       "description": "Tăng @HealShieldPower*100@% hiệu quả hồi máu và tạo lá chắn. Hồi máu bằng @QueenHealRatio*100@% sát thương gây ra bởi Nữ Hoàng. <br><br><tftitemrules>Chỉ tướng Tiên Linh có thể mang trang bị này.</tftitemrules><br><tftitemrules>Chuyển tướng về hàng dự bị để gỡ trang bị.</tftitemrules>",
       "isUnique": true,
-      "icon": "https://raw.communitydragon.org/14.23/game/assets/maps/particles/tft/item_icons/tft12/tft12_faeriequeenguardarmor.tft_set12.png"
+      "icon": "/assets/set12/items/TFT12_Item_Faerie_Armor.webp"
     },
     {
       "id": "TFT12_Item_Faerie_ArmorRadiant",
@@ -6070,7 +6070,7 @@
       "components": [],
       "description": "Tăng <TFTRadiantItemBonus>@HealShieldPower*100@%</TFTRadiantItemBonus> hiệu quả hồi máu và tạo lá chắn. Hồi máu bằng <TFTRadiantItemBonus>@QueenHealRatio*100@%</TFTRadiantItemBonus> sát thương gây ra bởi Nữ Hoàng.<br><br><tftitemrules>Chỉ tướng Tiên Linh có thể mang trang bị này.</tftitemrules><br><tftitemrules>Chuyển tướng về hàng dự bị để gỡ trang bị.</tftitemrules>",
       "isUnique": true,
-      "icon": "https://raw.communitydragon.org/14.23/game/assets/maps/particles/tft/item_icons/tft12/tft12_faeriequeenguardarmor_radiant.tft_set12.png"
+      "icon": "/assets/set12/items/TFT12_Item_Faerie_ArmorRadiant.webp"
     },
     {
       "id": "TFT_Item_Redemption",
@@ -6081,7 +6081,7 @@
       ],
       "description": "Hồi cho đồng minh trong phạm vi 1 ô @MissingHealthHeal@% lượng Máu đã mất của họ mỗi @HealTickRate@ giây. Chúng đồng thời nhận được @AoEDamageReduction@% Chống Chịu trong @HealTickRate@ giây (hiệu ứng này không cộng dồn).<br><br><TFTTrackerLabel>Hồi Máu:</TFTTrackerLabel> <TFTHighlight>@TFTUnitProperty.item:TFT_Tracker_Value1@</TFTHighlight>",
       "isUnique": false,
-      "icon": "https://raw.communitydragon.org/14.23/game/assets/maps/tft/icons/items/hexcore/tft_item_redemption.tft_set13.png"
+      "icon": "/assets/set12/items/TFT_Item_Redemption.webp"
     },
     {
       "id": "TFT12_Item_SugarcraftEmblemItem",
@@ -6092,7 +6092,7 @@
       ],
       "description": "Chủ sở hữu nhận thêm tộc/hệ Bánh Ngọt.",
       "isUnique": true,
-      "icon": "https://raw.communitydragon.org/14.23/game/assets/maps/particles/tft/item_icons/traits/spatula/set12/tft_set12_emblem_sugarcraft.png"
+      "icon": "/assets/set12/items/TFT12_Item_SugarcraftEmblemItem.webp"
     },
     {
       "id": "TFT12_Item_BlasterEmblemItem",
@@ -6100,7 +6100,7 @@
       "components": [],
       "description": "Chủ sở hữu nhận thêm tộc/hệ Pháo Thủ.",
       "isUnique": true,
-      "icon": "https://raw.communitydragon.org/14.23/game/assets/maps/particles/tft/item_icons/traits/spatula/set12/tft_set12_emblem_artillerist.png"
+      "icon": "/assets/set12/items/TFT12_Item_BlasterEmblemItem.webp"
     },
     {
       "id": "TFT12_Item_VanguardEmblemItem",
@@ -6108,7 +6108,7 @@
       "components": [],
       "description": "Chủ sở hữu nhận thêm tộc/hệ Tiên Phong.",
       "isUnique": true,
-      "icon": "https://raw.communitydragon.org/14.23/game/assets/maps/particles/tft/item_icons/traits/spatula/set12/tft_set12_emblem_vanguard.png"
+      "icon": "/assets/set12/items/TFT12_Item_VanguardEmblemItem.webp"
     },
     {
       "id": "TFT12_Item_ScholarEmblemItem",
@@ -6119,7 +6119,7 @@
       ],
       "description": "Chủ sở hữu nhận thêm tộc/hệ Học Giả.",
       "isUnique": true,
-      "icon": "https://raw.communitydragon.org/14.23/game/assets/maps/particles/tft/item_icons/traits/spatula/set12/tft_set12_emblem_scholar.png"
+      "icon": "/assets/set12/items/TFT12_Item_ScholarEmblemItem.webp"
     },
     {
       "id": "TFT12_Item_ChronoEmblemItem",
@@ -6127,7 +6127,7 @@
       "components": [],
       "description": "Chủ sở hữu nhận thêm tộc/hệ Thời Không.",
       "isUnique": true,
-      "icon": "https://raw.communitydragon.org/14.23/game/assets/maps/particles/tft/item_icons/traits/spatula/set12/tft_set12_emblem_chrono.png"
+      "icon": "/assets/set12/items/TFT12_Item_ChronoEmblemItem.webp"
     },
     {
       "id": "TFT12_Item_HoneymancyEmblemItem",
@@ -6138,7 +6138,7 @@
       ],
       "description": "Chủ sở hữu nhận thêm tộc/hệ Ong Mật.",
       "isUnique": true,
-      "icon": "https://raw.communitydragon.org/14.23/game/assets/maps/particles/tft/item_icons/traits/spatula/set12/tft_set12_emblem_honeymancy.png"
+      "icon": "/assets/set12/items/TFT12_Item_HoneymancyEmblemItem.webp"
     },
     {
       "id": "TFT12_Item_PreserverEmblemItem",
@@ -6149,7 +6149,7 @@
       ],
       "description": "Chủ sở hữu nhận thêm tộc/hệ Bảo Hộ.",
       "isUnique": true,
-      "icon": "https://raw.communitydragon.org/14.23/game/assets/maps/particles/tft/item_icons/traits/spatula/set12/tft_set12_emblem_preserver.png"
+      "icon": "/assets/set12/items/TFT12_Item_PreserverEmblemItem.webp"
     },
     {
       "id": "TFT12_Item_ArcanaEmblemItem",
@@ -6157,7 +6157,7 @@
       "components": [],
       "description": "Chủ sở hữu nhận thêm tộc/hệ Ẩn Chính.",
       "isUnique": true,
-      "icon": "https://raw.communitydragon.org/14.23/game/assets/maps/particles/tft/item_icons/traits/spatula/set12/tft_set12_emblem_arcana.png"
+      "icon": "/assets/set12/items/TFT12_Item_ArcanaEmblemItem.webp"
     },
     {
       "id": "TFT12_Item_MageEmblemItem",
@@ -6168,7 +6168,7 @@
       ],
       "description": "Chủ sở hữu nhận thêm tộc/hệ Pháp Sư.",
       "isUnique": true,
-      "icon": "https://raw.communitydragon.org/14.23/game/assets/maps/particles/tft/item_icons/traits/spatula/set12/tft_set12_emblem_mage.png"
+      "icon": "/assets/set12/items/TFT12_Item_MageEmblemItem.webp"
     },
     {
       "id": "TFT12_Item_FaerieEmblemItem",
@@ -6179,7 +6179,7 @@
       ],
       "description": "Chủ sở hữu nhận thêm tộc/hệ Tiên Linh.",
       "isUnique": true,
-      "icon": "https://raw.communitydragon.org/14.23/game/assets/maps/particles/tft/item_icons/traits/spatula/set12/tft_set12_emblem_faerie.png"
+      "icon": "/assets/set12/items/TFT12_Item_FaerieEmblemItem.webp"
     },
     {
       "id": "TFT12_Item_BastionEmblemItem",
@@ -6190,7 +6190,7 @@
       ],
       "description": "Chủ sở hữu nhận thêm tộc/hệ Can Trường.",
       "isUnique": true,
-      "icon": "https://raw.communitydragon.org/14.23/game/assets/maps/particles/tft/item_icons/traits/spatula/set12/tft_set12_emblem_bastion.png"
+      "icon": "/assets/set12/items/TFT12_Item_BastionEmblemItem.webp"
     },
     {
       "id": "TFT12_Item_WarriorEmblemItem",
@@ -6201,7 +6201,7 @@
       ],
       "description": "Chủ sở hữu nhận thêm tộc/hệ Chiến Binh.",
       "isUnique": true,
-      "icon": "https://raw.communitydragon.org/14.23/game/assets/maps/particles/tft/item_icons/traits/spatula/set12/tft_set12_emblem_warrior.png"
+      "icon": "/assets/set12/items/TFT12_Item_WarriorEmblemItem.webp"
     },
     {
       "id": "TFT12_Item_IncantorEmblemItem",
@@ -6209,7 +6209,7 @@
       "components": [],
       "description": "Chủ sở hữu nhận thêm tộc/hệ Thần Chú.",
       "isUnique": true,
-      "icon": "https://raw.communitydragon.org/14.23/game/assets/maps/particles/tft/item_icons/traits/spatula/set12/tft_set12_emblem_incantor.png"
+      "icon": "/assets/set12/items/TFT12_Item_IncantorEmblemItem.webp"
     },
     {
       "id": "TFT12_Item_FrostEmblemItem",
@@ -6220,7 +6220,7 @@
       ],
       "description": "Chủ sở hữu nhận thêm tộc/hệ Băng Giá.",
       "isUnique": true,
-      "icon": "https://raw.communitydragon.org/14.23/game/assets/maps/particles/tft/item_icons/traits/spatula/set12/tft_set12_emblem_frost.png"
+      "icon": "/assets/set12/items/TFT12_Item_FrostEmblemItem.webp"
     },
     {
       "id": "TFT12_Item_WitchcraftEmblemItem",
@@ -6231,7 +6231,7 @@
       ],
       "description": "Chủ sở hữu nhận thêm tộc/hệ Ma Thuật.",
       "isUnique": true,
-      "icon": "https://raw.communitydragon.org/14.23/game/assets/maps/particles/tft/item_icons/traits/spatula/set12/tft_set12_emblem_witchcraft.png"
+      "icon": "/assets/set12/items/TFT12_Item_WitchcraftEmblemItem.webp"
     },
     {
       "id": "TFT12_Item_MultistrikerEmblemItem",
@@ -6242,7 +6242,7 @@
       ],
       "description": "Chủ sở hữu nhận thêm tộc/hệ Liên Hoàn.",
       "isUnique": true,
-      "icon": "https://raw.communitydragon.org/14.23/game/assets/maps/particles/tft/item_icons/traits/spatula/set12/tft_set12_emblem_multistriker.png"
+      "icon": "/assets/set12/items/TFT12_Item_MultistrikerEmblemItem.webp"
     },
     {
       "id": "TFT12_Item_ShapeshifterEmblemItem",
@@ -6253,7 +6253,7 @@
       ],
       "description": "Chủ sở hữu nhận thêm tộc/hệ Hóa Hình.",
       "isUnique": true,
-      "icon": "https://raw.communitydragon.org/14.23/game/assets/maps/particles/tft/item_icons/traits/spatula/set12/tft_set12_emblem_shapeshifter.png"
+      "icon": "/assets/set12/items/TFT12_Item_ShapeshifterEmblemItem.webp"
     },
     {
       "id": "TFT12_Item_EldritchEmblemItem",
@@ -6264,7 +6264,7 @@
       ],
       "description": "Chủ sở hữu nhận thêm tộc/hệ Kỳ Quái.",
       "isUnique": true,
-      "icon": "https://raw.communitydragon.org/14.23/game/assets/maps/particles/tft/item_icons/traits/spatula/set12/tft_set12_emblem_eldritch.png"
+      "icon": "/assets/set12/items/TFT12_Item_EldritchEmblemItem.webp"
     },
     {
       "id": "TFT12_Item_PyroEmblemItem",
@@ -6275,7 +6275,7 @@
       ],
       "description": "Chủ sở hữu nhận thêm tộc/hệ Hỏa.",
       "isUnique": true,
-      "icon": "https://raw.communitydragon.org/14.23/game/assets/maps/particles/tft/item_icons/traits/spatula/set12/tft_set12_emblem_pyro.png"
+      "icon": "/assets/set12/items/TFT12_Item_PyroEmblemItem.webp"
     },
     {
       "id": "TFT12_Item_HunterEmblemItem",
@@ -6286,7 +6286,7 @@
       ],
       "description": "Chủ sở hữu nhận thêm tộc/hệ Thợ Săn.",
       "isUnique": true,
-      "icon": "https://raw.communitydragon.org/14.23/game/assets/maps/particles/tft/item_icons/traits/spatula/set12/tft_set12_emblem_hunter.png"
+      "icon": "/assets/set12/items/TFT12_Item_HunterEmblemItem.webp"
     },
     {
       "id": "TFT12_Item_PortalEmblemItem",
@@ -6297,7 +6297,7 @@
       ],
       "description": "Chủ sở hữu nhận thêm tộc/hệ Thông Đạo.",
       "isUnique": true,
-      "icon": "https://raw.communitydragon.org/14.23/game/assets/maps/particles/tft/item_icons/traits/spatula/set12/tft_set12_emblem_portal.png"
+      "icon": "/assets/set12/items/TFT12_Item_PortalEmblemItem.webp"
     },
     {
       "id": "TFT_Item_TacticiansRing",
@@ -6308,7 +6308,7 @@
       ],
       "description": "Đội của bạn được +@MaxArmySizeIncrease@ giới hạn tướng tối đa.<br><br>@PercentGoldChance@% cơ hội rớt ra 1 vàng sau khi giao tranh @Timer@ giây.<br><br><tftitemrules>\"...và một chút may mắn.\"</tftitemrules>",
       "isUnique": false,
-      "icon": "https://raw.communitydragon.org/14.23/game/assets/maps/tft/icons/items/hexcore/tft_item_tacticiansring.tft_set13.png"
+      "icon": "/assets/set12/items/TFT_Item_TacticiansRing.webp"
     },
     {
       "id": "TFT_Item_ThiefsGloves",
@@ -6319,7 +6319,7 @@
       ],
       "description": "Mỗi vòng: Mang 2 trang bị ngẫu nhiên.<br><br><tftitemrules>[Tốn 3 ô trang bị.]</tftitemrules><br>@TFTUnitProperty.:TFT_BindOnEquipTRA@",
       "isUnique": false,
-      "icon": "https://raw.communitydragon.org/14.23/game/assets/maps/tft/icons/items/hexcore/tft_item_thiefsgloves.tft_set13.png"
+      "icon": "/assets/set12/items/TFT_Item_ThiefsGloves.webp"
     },
     {
       "id": "TFT_Item_GuinsoosRageblade",
@@ -6330,7 +6330,7 @@
       ],
       "description": "Đòn đánh giúp tăng @AttackSpeedPerStack@% cộng dồn Tốc Độ Đánh.",
       "isUnique": false,
-      "icon": "https://raw.communitydragon.org/14.23/game/assets/maps/tft/icons/items/hexcore/tft_item_guinsoosrageblade.tft_set13.png"
+      "icon": "/assets/set12/items/TFT_Item_GuinsoosRageblade.webp"
     },
     {
       "id": "TFT_Item_IonicSpark",
@@ -6341,7 +6341,7 @@
       ],
       "description": "@MRShred@% <TFTKeyword>Cào Xé</TFTKeyword> kẻ địch trong vòng @HexRange@ ô. Khi kẻ địch sử dụng Kỹ Năng, gây sát thương phép tương đương @ManaRatio@% Năng Lượng đã tiêu hao.<br><br><tftitemrules><tftbold>Cào Xé</tftbold>: Giảm Kháng Phép</tftitemrules>",
       "isUnique": false,
-      "icon": "https://raw.communitydragon.org/14.23/game/assets/maps/tft/icons/items/hexcore/tft_item_ionicspark.tft_set13.png"
+      "icon": "/assets/set12/items/TFT_Item_IonicSpark.webp"
     },
     {
       "id": "TFT_Item_SteraksGage",
@@ -6352,7 +6352,7 @@
       ],
       "description": "Một lần mỗi giao tranh, khi còn @HealthThreshold@% Máu, tăng @BonusMaxHealthPerc@% Máu tối đa và @BonusADToGive@% Sức Mạnh Công Kích.",
       "isUnique": false,
-      "icon": "https://raw.communitydragon.org/14.23/game/assets/maps/tft/icons/items/hexcore/tft_item_steraksgage.tft_set13.png"
+      "icon": "/assets/set12/items/TFT_Item_SteraksGage.webp"
     },
     {
       "id": "TFT_Item_DragonsClaw",
@@ -6363,7 +6363,7 @@
       ],
       "description": "Nhận @PercentMaxHP*100@% máu tối đa.<br><br>Sau mỗi @HealthRegenInterval@ giây, hồi lại @PercentHealthDamage@% Máu tối đa.",
       "isUnique": false,
-      "icon": "https://raw.communitydragon.org/14.23/game/assets/maps/tft/icons/items/hexcore/tft_item_dragonsclaw.tft_set13.png"
+      "icon": "/assets/set12/items/TFT_Item_DragonsClaw.webp"
     },
     {
       "id": "TFT_Item_PowerGauntlet",
@@ -6374,7 +6374,7 @@
       ],
       "description": "Sau khi gây sát thương lên Lá Chắn, nhận thêm @DamageAmp*100@% Khuếch Đại Sát Thương trong @Duration@ giây.",
       "isUnique": false,
-      "icon": "https://raw.communitydragon.org/14.23/game/assets/maps/tft/icons/items/hexcore/tft_item_powergauntlet.tft_set13.png"
+      "icon": "/assets/set12/items/TFT_Item_PowerGauntlet.webp"
     },
     {
       "id": "TFT_Item_GargoyleStoneplate",
@@ -6385,7 +6385,7 @@
       ],
       "description": "Tăng @ArmorPerEnemy@ Giáp và @MRPerEnemy@ Kháng Phép với mỗi kẻ địch đang nhắm vào chủ sở hữu.",
       "isUnique": false,
-      "icon": "https://raw.communitydragon.org/14.23/game/assets/maps/tft/icons/items/hexcore/tft_item_gargoylestoneplate.tft_set13.png"
+      "icon": "/assets/set12/items/TFT_Item_GargoyleStoneplate.webp"
     },
     {
       "id": "TFT_Item_BrambleVest",
@@ -6396,7 +6396,7 @@
       ],
       "description": "Nhận @PercentMaxHP*100@% máu tối đa.<br><br>Giảm @AutoDamageReduction*100@% sát thương từ đòn đánh. Khi bị trúng đòn đánh bất kỳ, gây <magicDamage>@1StarAoEDamage@ sát thương phép</magicDamage> lên tất cả kẻ địch liền kề.<br><br><tftitemrules>Hồi chiêu: @ICD@ giây</tftitemrules>",
       "isUnique": false,
-      "icon": "https://raw.communitydragon.org/14.23/game/assets/maps/tft/icons/items/hexcore/tft_item_bramblevest.tft_set13.png"
+      "icon": "/assets/set12/items/TFT_Item_BrambleVest.webp"
     },
     {
       "id": "TFT_Item_ChainVest",
@@ -6404,7 +6404,7 @@
       "components": [],
       "description": "%i:scaleArmor% +@Armor@ Giáp",
       "isUnique": false,
-      "icon": "https://raw.communitydragon.org/14.23/game/assets/maps/tft/icons/items/hexcore/tft_item_chainvest.tft_set13.png"
+      "icon": "/assets/set12/items/TFT_Item_ChainVest.webp"
     },
     {
       "id": "TFT_Item_RecurveBow",
@@ -6412,7 +6412,7 @@
       "components": [],
       "description": "%i:scaleAS% +@AS@% Tốc Độ Đánh",
       "isUnique": false,
-      "icon": "https://raw.communitydragon.org/14.23/game/assets/maps/tft/icons/items/hexcore/tft_item_recurvebow.tft_set13.png"
+      "icon": "/assets/set12/items/TFT_Item_RecurveBow.webp"
     },
     {
       "id": "TFT_Item_MadredsBloodrazor",
@@ -6423,7 +6423,7 @@
       ],
       "description": "Nhận thêm @DamageAmp*100@% Khuếch Đại Sát Thương trước những kẻ địch có nhiều hơn @HealthThreshold@ Máu tối đa.",
       "isUnique": false,
-      "icon": "https://raw.communitydragon.org/14.23/game/assets/maps/tft/icons/items/hexcore/tft_item_madredsbloodrazor.tft_set13.png"
+      "icon": "/assets/set12/items/TFT_Item_MadredsBloodrazor.webp"
     },
     {
       "id": "TFT_Item_RedBuff",
@@ -6434,7 +6434,7 @@
       ],
       "description": "Nhận @BonusPercentHP*100@% Máu tối đa. <br><br>Sau mỗi @ICD@ giây, gây @BurnPercent@% <TFTKeyword>Thiêu Đốt</TFTKeyword> và @GrievousWoundsPercent@% <TFTKeyword>Vết Thương Sâu</TFTKeyword> lên kẻ địch trong phạm vi @HexRange@ ô trong @BurnDuration@ giây.<br><br><tftitemrules>[Duy nhất - chỉ 1 mỗi tướng]<br><tftbold>Thiêu Đốt</tftbold>: Gây sát thương chuẩn mỗi giây theo Máu tối đa của mục tiêu<br><tftbold>Vết Thương Sâu</tftbold>: Giảm hồi máu nhận được</tftitemrules>",
       "isUnique": true,
-      "icon": "https://raw.communitydragon.org/14.23/game/assets/maps/tft/icons/items/hexcore/tft_item_redbuff.tft_set13.png"
+      "icon": "/assets/set12/items/TFT_Item_RedBuff.webp"
     },
     {
       "id": "TFT_Item_UnstableConcoction",
@@ -6445,7 +6445,7 @@
       ],
       "description": "Nhận 2 hiệu ứng:<li>@AD_NotStatBar*100@% Sức Mạnh Công Kích và @AP_NotStatBar@ Sức Mạnh Phép Thuật.<li>@StatOmnivamp_NotStatBar*100@% Hút Máu Toàn Phần.<br><br>Khi còn trên @HealthThreshold*100@% Máu, gấp đôi lượng Sức Mạnh Công Kích và Sức Mạnh Phép Thuật. Khi còn dưới @HealthThreshold*100@% Máu, nhận gấp đôi lượng Hút Máu Toàn Phần.",
       "isUnique": false,
-      "icon": "https://raw.communitydragon.org/14.23/game/assets/maps/tft/icons/items/hexcore/tft_item_unstableconcoction.tft_set13.png"
+      "icon": "/assets/set12/items/TFT_Item_UnstableConcoction.webp"
     },
     {
       "id": "TFT_Item_GuardianAngel",
@@ -6456,7 +6456,7 @@
       ],
       "description": "Một lần mỗi giao tranh: Khi còn @HealthThreshold@% Máu, trở nên không thể chỉ định trong thoáng chốc và loại bỏ mọi hiệu ứng bất lợi. Sau đó nhận thêm @AttackSpeed@% Tốc Độ Đánh.<br><br><tftitemrules>[Duy nhất - chỉ 1 mỗi tướng]</tftitemrules>",
       "isUnique": true,
-      "icon": "https://raw.communitydragon.org/14.23/game/assets/maps/tft/icons/items/hexcore/tft_item_guardianangel.tft_set13.png"
+      "icon": "/assets/set12/items/TFT_Item_GuardianAngel.webp"
     },
     {
       "id": "TFT_Item_TearOfTheGoddess",
@@ -6464,7 +6464,7 @@
       "components": [],
       "description": "%i:scaleMana% +@Mana@ Năng Lượng",
       "isUnique": false,
-      "icon": "https://raw.communitydragon.org/14.23/game/assets/maps/tft/icons/items/hexcore/tft_item_tearofthegoddess.tft_set13.png"
+      "icon": "/assets/set12/items/TFT_Item_TearOfTheGoddess.webp"
     },
     {
       "id": "TFT_Item_NegatronCloak",
@@ -6472,7 +6472,7 @@
       "components": [],
       "description": "%i:scaleMR% +@MagicResist@ Kháng Phép",
       "isUnique": false,
-      "icon": "https://raw.communitydragon.org/14.23/game/assets/maps/tft/icons/items/hexcore/tft_item_negatroncloak.tft_set13.png"
+      "icon": "/assets/set12/items/TFT_Item_NegatronCloak.webp"
     },
     {
       "id": "TFT_Item_TitansResolve",
@@ -6483,7 +6483,7 @@
       ],
       "description": "Nhận @StackingAD*100@% Sức Mạnh Công Kích và @StackingSP@ Sức Mạnh Phép Thuật khi tấn công hoặc nhận sát thương, cộng dồn tối đa @StackCap@ lần.  <br><br>Khi đạt tối đa cộng dồn, tăng @BonusResistsAtStackCap@ Giáp và @BonusResistsAtStackCap@ Kháng Phép.",
       "isUnique": false,
-      "icon": "https://raw.communitydragon.org/14.23/game/assets/maps/tft/icons/items/hexcore/tft_item_titansresolve.tft_set13.png"
+      "icon": "/assets/set12/items/TFT_Item_TitansResolve.webp"
     },
     {
       "id": "TFT_Item_RunaansHurricane",
@@ -6494,7 +6494,7 @@
       ],
       "description": "Đòn đánh của chủ sở hữu bắn ra đường đạn phụ lên 1 kẻ địch ở gần, gây sát thương vật lý tương đương @MultiplierForDamage@% Sức Mạnh Công Kích %i:scaleAD%.",
       "isUnique": false,
-      "icon": "https://raw.communitydragon.org/14.23/game/assets/maps/tft/icons/items/hexcore/tft_item_runaanshurricane.tft_set13.png"
+      "icon": "/assets/set12/items/TFT_Item_RunaansHurricane.webp"
     },
     {
       "id": "TFT_Item_SparringGloves",
@@ -6502,7 +6502,7 @@
       "components": [],
       "description": "+@CritChance@ Tỉ Lệ Chí Mạng",
       "isUnique": false,
-      "icon": "https://raw.communitydragon.org/14.23/game/assets/maps/tft/icons/items/hexcore/tft_item_sparringgloves.tft_set13.png"
+      "icon": "/assets/set12/items/TFT_Item_SparringGloves.webp"
     },
     {
       "id": "TFT_Item_Bloodthirster",
@@ -6513,7 +6513,7 @@
       ],
       "description": "Một lần mỗi giao tranh khi còn @HealthThreshold@% Máu, nhận Lá Chắn bằng @ShieldHealthPercent@% Máu tối đa, duy trì trong @ShieldDuration@ giây.",
       "isUnique": false,
-      "icon": "https://raw.communitydragon.org/14.23/game/assets/maps/tft/icons/items/hexcore/tft_item_bloodthirster.tft_set13.png"
+      "icon": "/assets/set12/items/TFT_Item_Bloodthirster.webp"
     },
     {
       "id": "TFT_Item_ArchangelsStaff",
@@ -6524,7 +6524,7 @@
       ],
       "description": "Bắt Đầu Giao Tranh: Nhận @APPerInterval@ Sức Mạnh Phép Thuật sau mỗi @IntervalSeconds@ giây trong giao tranh.",
       "isUnique": false,
-      "icon": "https://raw.communitydragon.org/14.23/game/assets/maps/tft/icons/items/hexcore/tft_item_archangelsstaff.tft_set13.png"
+      "icon": "/assets/set12/items/TFT_Item_ArchangelsStaff.webp"
     },
     {
       "id": "TFT_Item_SpearOfShojin",
@@ -6535,7 +6535,7 @@
       ],
       "description": "Các đòn đánh giúp hồi lại @FlatManaRestore@ Năng Lượng.",
       "isUnique": false,
-      "icon": "https://raw.communitydragon.org/14.23/game/assets/maps/tft/icons/items/hexcore/tft_item_spearofshojin.tft_set13.png"
+      "icon": "/assets/set12/items/TFT_Item_SpearOfShojin.webp"
     },
     {
       "id": "TFT_Item_SpectralGauntlet",
@@ -6546,7 +6546,7 @@
       ],
       "description": "@ARReductionAmount@% <TFTKeyword>Phân Tách</TFTKeyword> kẻ địch trong vòng @HexRange@ ô. Tăng @BonusResists@ Giáp và Kháng Phép trong @BonusResistDuration@ giây đầu giao tranh.<br><br><tftitemrules><tftbold>Phân Tách</tftbold>: Giảm Giáp</tftitemrules>",
       "isUnique": false,
-      "icon": "https://raw.communitydragon.org/14.23/game/assets/maps/tft/icons/items/hexcore/tft_item_spectralgauntlet.tft_set13.png"
+      "icon": "/assets/set12/items/TFT_Item_SpectralGauntlet.webp"
     },
     {
       "id": "TFT_Item_Spatula",
@@ -6554,7 +6554,7 @@
       "components": [],
       "description": "<tftitemrules>Nó phải có tác dụng gì đó...</tftitemrules>",
       "isUnique": false,
-      "icon": "https://raw.communitydragon.org/14.23/game/assets/maps/tft/icons/items/hexcore/tft_item_spatula.tft_set13.png"
+      "icon": "/assets/set12/items/TFT_Item_Spatula.webp"
     },
     {
       "id": "TFT_Item_Leviathan",
@@ -6565,7 +6565,7 @@
       ],
       "description": "Sau khi sử dụng một Kỹ Năng, nhận thêm @AttackSpeedToGive@% Tốc Độ Đánh trong @ASDuration@ giây.",
       "isUnique": false,
-      "icon": "https://raw.communitydragon.org/14.23/game/assets/maps/tft/icons/items/hexcore/tft_item_leviathan.tft_set13.png"
+      "icon": "/assets/set12/items/TFT_Item_Leviathan.webp"
     },
     {
       "id": "TFT_Item_Morellonomicon",
@@ -6576,7 +6576,7 @@
       ],
       "description": "Đòn Đánh và Kỹ Năng gây @BurnPercent@% <TFTKeyword>Thiêu Đốt</TFTKeyword> và @GrievousWoundsPercent@% <TFTKeyword>Vết Thương Sâu</TFTKeyword> lên kẻ địch trong @BurnDuration@ giây.<br><br><tftitemrules>[Duy nhất - chỉ 1 mỗi tướng]<br><tftbold>Thiêu Đốt</tftbold>: Gây sát thương chuẩn mỗi giây theo Máu tối đa của mục tiêu<br><tftbold>Vết Thương Sâu</tftbold>: Giảm hồi máu nhận được</tftitemrules>",
       "isUnique": true,
-      "icon": "https://raw.communitydragon.org/14.23/game/assets/maps/tft/icons/items/hexcore/tft_item_morellonomicon.tft_set13.png"
+      "icon": "/assets/set12/items/TFT_Item_Morellonomicon.webp"
     },
     {
       "id": "TFT_Item_RapidFireCannon",
@@ -6587,7 +6587,7 @@
       ],
       "description": "Đòn Đánh và Kỹ Năng gây @BurnPercent@% <TFTKeyword>Thiêu Đốt</TFTKeyword> và @HealingReductionPct@% <TFTKeyword>Vết Thương Sâu</TFTKeyword> lên kẻ địch trong @Duration@ giây.<br><br><tftitemrules><tftbold>Thiêu Đốt</tftbold>: Gây sát thương chuẩn mỗi giây theo Máu tối đa của mục tiêu<br><tftbold>Vết Thương Sâu</tftbold>: Giảm hồi máu nhận được</tftitemrules>",
       "isUnique": false,
-      "icon": "https://raw.communitydragon.org/14.23/game/assets/maps/tft/icons/items/hexcore/tft_item_rapidfirecannon.tft_set13.png"
+      "icon": "/assets/set12/items/TFT_Item_RapidFireCannon.webp"
     },
     {
       "id": "TFT_Item_Crownguard",
@@ -6598,7 +6598,7 @@
       ],
       "description": "Bắt Đầu Giao Tranh: Nhận một lá chắn bằng @ShieldSize@% Máu tối đa trong @ShieldDuration@ giây.<br>Khi lá chắn hết hiệu lực, nhận thêm @ShieldBonusAP@ Sức Mạnh Phép Thuật.<br>",
       "isUnique": false,
-      "icon": "https://raw.communitydragon.org/14.23/game/assets/maps/tft/icons/items/hexcore/tft_item_crownguard.tft_set13.png"
+      "icon": "/assets/set12/items/TFT_Item_Crownguard.webp"
     },
     {
       "id": "TFT_Item_BFSword",
@@ -6606,7 +6606,7 @@
       "components": [],
       "description": "%i:scaleAD% +@AD*100@% Sức Mạnh Công Kích",
       "isUnique": false,
-      "icon": "https://raw.communitydragon.org/14.23/game/assets/maps/tft/icons/items/hexcore/tft_item_bfsword.tft_set13.png"
+      "icon": "/assets/set12/items/TFT_Item_BFSword.webp"
     },
     {
       "id": "TFT_Item_AdaptiveHelm",
@@ -6617,7 +6617,7 @@
       ],
       "description": "Bắt đầu giao tranh: Nhận thêm các chỉ số khác nhau tùy thuộc vào vị trí khởi đầu.<br><br>Hai Hàng Đầu: @FrontRowBonusResists@ Giáp và Kháng Phép. Nhận @FrontLineManaPerHit@ Năng Lượng khi bị tấn công.<br><br>Hai Hàng Sau: @BackRowBonusAP@ Sức Mạnh Phép Thuật. Hồi @ManaPerTickrate@ Năng Lượng mỗi @ManaTickrate@ giây.<br>",
       "isUnique": false,
-      "icon": "https://raw.communitydragon.org/14.23/game/assets/maps/tft/icons/items/hexcore/tft_item_adaptivehelm.tft_set13.png"
+      "icon": "/assets/set12/items/TFT_Item_AdaptiveHelm.webp"
     },
     {
       "id": "TFT_Item_BlueBuff",
@@ -6628,7 +6628,7 @@
       ],
       "description": "Nhận @ManaRefund@ Năng Lượng sau khi tung chiêu. <br><br>Khi chủ sở hữu tham gia hạ gục, họ sẽ gây thêm @DamageAmp*100@% sát thương trong @TakedownTimer@ giây.<br><br><tftitemrules>[Duy nhất - chỉ 1 mỗi tướng]</tftitemrules>",
       "isUnique": true,
-      "icon": "https://raw.communitydragon.org/14.23/game/assets/maps/tft/icons/items/hexcore/tft_item_bluebuff.tft_set13.png"
+      "icon": "/assets/set12/items/TFT_Item_BlueBuff.webp"
     },
     {
       "id": "TFT_Item_LastWhisper",
@@ -6639,7 +6639,7 @@
       ],
       "description": "Gây sát thương vật lý sẽ khiến kẻ địch phải chịu @ArmorReductionPercent@% <TFTKeyword>Phân Tách</TFTKeyword> trong @ArmorBreakDuration@ giây. Hiệu ứng này không cộng dồn.<br><br><tftitemrules>[Duy nhất - chỉ 1 mỗi tướng]<br><tftbold>Phân Tách</tftbold>: giảm Giáp</tftitemrules>",
       "isUnique": true,
-      "icon": "https://raw.communitydragon.org/14.23/game/assets/maps/tft/icons/items/hexcore/tft_item_lastwhisper.tft_set13.png"
+      "icon": "/assets/set12/items/TFT_Item_LastWhisper.webp"
     },
     {
       "id": "TFT_Item_JeweledGauntlet",
@@ -6650,7 +6650,7 @@
       ],
       "description": "Kỹ năng có thể gây chí mạng.<br><br>Nếu kỹ năng của tướng sở hữu đã có thể chí mạng, nhận @CritDamageToGive*100@% Sát Thương Chí Mạng.",
       "isUnique": false,
-      "icon": "https://raw.communitydragon.org/14.23/game/assets/maps/tft/icons/items/hexcore/tft_item_jeweledgauntlet.tft_set13.png"
+      "icon": "/assets/set12/items/TFT_Item_JeweledGauntlet.webp"
     },
     {
       "id": "TFT_Item_GiantsBelt",
@@ -6658,7 +6658,7 @@
       "components": [],
       "description": "%i:scaleHealth% +@Health@ Máu",
       "isUnique": false,
-      "icon": "https://raw.communitydragon.org/14.23/game/assets/maps/tft/icons/items/hexcore/tft_item_giantsbelt.tft_set13.png"
+      "icon": "/assets/set12/items/TFT_Item_GiantsBelt.webp"
     },
     {
       "id": "TFT_Item_NeedlesslyLargeRod",
@@ -6666,7 +6666,7 @@
       "components": [],
       "description": "%i:scaleAP% +@AP@ Sức Mạnh Phép Thuật",
       "isUnique": false,
-      "icon": "https://raw.communitydragon.org/14.23/game/assets/maps/tft/icons/items/hexcore/tft_item_needlesslylargerod.tft_set13.png"
+      "icon": "/assets/set12/items/TFT_Item_NeedlesslyLargeRod.webp"
     },
     {
       "id": "TFT_Item_NightHarvester",
@@ -6677,7 +6677,7 @@
       ],
       "description": "Nhận @BaseDurability*100@% Chống Chịu. Khi còn hơn @ThresholdForEmpower*100@% Máu, thay vào đó nhận @EmpoweredDurability*100@% Chống Chịu.",
       "isUnique": false,
-      "icon": "https://raw.communitydragon.org/14.23/game/assets/maps/tft/icons/items/hexcore/tft_item_nightharvester.tft_set13.png"
+      "icon": "/assets/set12/items/TFT_Item_NightHarvester.webp"
     },
     {
       "id": "TFT_Item_FryingPan",
@@ -6685,7 +6685,7 @@
       "components": [],
       "description": "<tftitemrules>...còn lý do nào khác để nó ở đây nữa?</tftitemrules>",
       "isUnique": false,
-      "icon": "https://raw.communitydragon.org/14.23/game/assets/maps/tft/icons/items/hexcore/tft_item_fryingpan.tft_set13.png"
+      "icon": "/assets/set12/items/TFT_Item_FryingPan.webp"
     },
     {
       "id": "TFT_Item_ForceOfNature",
@@ -6696,7 +6696,7 @@
       ],
       "description": "Đội của bạn được +@MaxArmySizeIncrease@ giới hạn tướng tối đa.<br><br>@PercentGoldChance@% cơ hội rớt ra 1 vàng khi chiến thắng giao tranh.<br><br><tftitemrules>\"...trái tim của một anh hùng...\"</tftitemrules>",
       "isUnique": false,
-      "icon": "https://raw.communitydragon.org/14.23/game/assets/maps/tft/icons/items/hexcore/tft_item_forceofnature.tft_set13.png"
+      "icon": "/assets/set12/items/TFT_Item_ForceOfNature.webp"
     },
     {
       "id": "TFT_Item_Quicksilver",
@@ -6707,7 +6707,7 @@
       ],
       "description": "Bắt Đầu Giao Tranh: Miễn nhiễm hiệu ứng khống chế trong @SpellShieldDuration@ giây. Trong thời gian hiệu ứng, nhận @ProcAttackSpeed*100@% Tốc Độ Đánh mỗi @ProcInterval@ giây.<br><br><tftitemrules>[Duy nhất - chỉ 1 mỗi tướng]</tftitemrules>",
       "isUnique": true,
-      "icon": "https://raw.communitydragon.org/14.23/game/assets/maps/tft/icons/items/hexcore/tft_item_quicksilver.tft_set13.png"
+      "icon": "/assets/set12/items/TFT_Item_Quicksilver.webp"
     },
     {
       "id": "TFT_Item_Deathblade",
@@ -6718,7 +6718,7 @@
       ],
       "description": "<tftitemrules>Đem tới sự yên bình vĩnh hằng cho người mang - và cả những kẻ phải đối đầu với nó.</tftitemrules>",
       "isUnique": false,
-      "icon": "https://raw.communitydragon.org/14.23/game/assets/maps/tft/icons/items/hexcore/tft_item_deathblade.tft_set13.png"
+      "icon": "/assets/set12/items/TFT_Item_Deathblade.webp"
     },
     {
       "id": "TFT_Item_TacticiansScepter",
@@ -6729,7 +6729,7 @@
       ],
       "description": "Đội của bạn được +@MaxArmySizeIncrease@ giới hạn tướng tối đa.<br><br>@PercentGoldChance@% cơ hội rớt ra 1 vàng khi chủ sở hữu tử trận.<br><br><tftitemrules>\"Chứa đầy tri thức của một Hiền Triết...\"</tftitemrules>",
       "isUnique": false,
-      "icon": "https://raw.communitydragon.org/14.23/game/assets/maps/tft/icons/items/hexcore/tft_item_tacticiansscepter.tft_set13.png"
+      "icon": "/assets/set12/items/TFT_Item_TacticiansScepter.webp"
     },
     {
       "id": "TFT_Item_WarmogsArmor",
@@ -6740,7 +6740,7 @@
       ],
       "description": "Nhận @BonusPercentHP*100@% máu tối đa.",
       "isUnique": false,
-      "icon": "https://raw.communitydragon.org/14.23/game/assets/maps/tft/icons/items/hexcore/tft_item_warmogsarmor.tft_set13.png"
+      "icon": "/assets/set12/items/TFT_Item_WarmogsArmor.webp"
     },
     {
       "id": "TFT_Item_StatikkShiv",
@@ -6751,7 +6751,7 @@
       ],
       "description": "Mỗi đòn đánh thứ ba gây thêm @Damage@ sát thương phép và khiến @1StarBounces@ kẻ địch phải chịu @MRShred@% <TFTKeyword>Cào Xé</TFTKeyword> trong @MRShredDuration@ giây.<br><br><tftitemrules><tftbold>Cào Xé</tftbold>: giảm Kháng Phép</tftitemrules>",
       "isUnique": false,
-      "icon": "https://raw.communitydragon.org/14.23/game/assets/maps/tft/icons/items/hexcore/tft_item_statikkshiv.tft_set13.png"
+      "icon": "/assets/set12/items/TFT_Item_StatikkShiv.webp"
     },
     {
       "id": "TFT_Item_HextechGunblade",
@@ -6762,7 +6762,7 @@
       ],
       "description": "Hồi máu cho đồng minh thấp Máu nhất bằng @AllyHealing*100@% lượng sát thương gây ra.<br><br><TFTTrackerLabel>Hồi Máu Đồng Minh:</TFTTrackerLabel> <TFTHighlight>@TFTUnitProperty.item:TFT_Tracker_Value1@</TFTHighlight>",
       "isUnique": false,
-      "icon": "https://raw.communitydragon.org/14.23/game/assets/maps/tft/icons/items/hexcore/tft_item_hextechgunblade.tft_set13.png"
+      "icon": "/assets/set12/items/TFT_Item_HextechGunblade.webp"
     }
   ]
 }

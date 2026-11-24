@@ -17,7 +17,7 @@
       "id": "DA_18_Elderwood",
       "name": "Thần Rừng",
       "description": "Nhận các cây Thần Rừng có thể đặt được.<br><row>(@MinUnits@) 1 Cây Vỏ Đá và 1 Hoa Sinh Mệnh</row><br><row>(@MinUnits@) Cây Vỏ Đá thứ hai & các Cây Vỏ Đá được tăng @StonebarkTreeBonusHealth@ Máu</row><br><row>(@MinUnits@) và Hộ Vệ Rừng</row><br><row>(@MinUnits@) Các cây trở thành 2 sao</row><br><row>(@MinUnits@) Các cây trở thành 3 sao và khu rừng được hình thành</row>",
-      "icon": "https://raw.communitydragon.org/latest/game/assets/ux/traiticons/trait_icon_18_elderwood.png",
+      "icon": "/assets/set18/traits/DA_18_Elderwood.webp",
       "breakpoints": [
         {
           "count": 3,
@@ -71,7 +71,7 @@
       "id": "DA_18_LuxUniqueTrait",
       "name": "Thế Thần",
       "description": "Sở hữu một tướng Thế Thần sẽ biến mọi tướng Thế Thần khác trong cửa hàng của bạn về Tộc/Hệ của tướng Thế Thần đó.<br><br>Tộc/Hệ được chọn của tướng Thế Thần sẽ được tính gấp đôi cho các mốc thưởng Tộc/Hệ.",
-      "icon": "https://raw.communitydragon.org/latest/game/assets/ux/traiticons/trait_icon_18_avatar.png",
+      "icon": "/assets/set18/traits/DA_18_LuxUniqueTrait.webp",
       "breakpoints": [
         {
           "count": 1,
@@ -85,7 +85,7 @@
       "id": "DA_18_Slayer",
       "name": "Tàn Phá",
       "description": "Tướng Tàn Phá nhận @Omnivamp*100@% Hút Máu Toàn Phần. Ngoài ra, tướng Tàn Phá sẽ gây thêm sát thương, tăng gấp đôi khi tấn công kẻ địch còn dưới @EnemyHealthThreshold*100@% Máu.<br><row>(@MinUnits@) @BonusDamagePercentBase*100@% Sát Thương Cộng Thêm</row><br><row>(@MinUnits@) @BonusDamagePercentBase*100@% Sát Thương Cộng Thêm</row><br><row>(@MinUnits@) @BonusDamagePercentBase*100@% Sát Thương Cộng Thêm</row>",
-      "icon": "https://raw.communitydragon.org/latest/game/assets/ux/traiticons/trait_icon_18_ravager.png",
+      "icon": "/assets/set18/traits/DA_18_Slayer.webp",
       "breakpoints": [
         {
           "count": 2,
@@ -123,7 +123,7 @@
       "id": "DA_DravenUniqueTrait18",
       "name": "Săn Thưởng",
       "description": "Chọn một nhiệm vụ. Draven mạnh nhất của bạn có thể hoàn thành nhiệm vụ săn thưởng để nhận phần thưởng tương ứng. Sau khi hoàn thành một nhiệm vụ săn thưởng, hãy chọn nhiệm vụ tiếp theo.",
-      "icon": "https://raw.communitydragon.org/latest/game/assets/ux/traiticons/trait_icon_18_bountyseeker.png",
+      "icon": "/assets/set18/traits/DA_DravenUniqueTrait18.webp",
       "breakpoints": [
         {
           "count": 1,
@@ -137,7 +137,7 @@
       "id": "DA_18_Solar",
       "name": "Mặt Trời",
       "description": "<row>(@MinUnits@) Tướng của bạn nhận lá chắn bằng @ShieldRatio*100@% Máu tối đa và gây @BonusMagicDamage*100@% sát thương phép cộng thêm. Nhận thêm hiệu ứng bổ sung với mỗi tướng 3 sao độc nhất:<br><br>1: Tăng lá chắn và sát thương phép thêm @PercentIncreasePer3Star*100@% với mỗi tướng 3 sao. <br>@NumThreeStarThreshold1@: @Threshold1AttackSpeed*100@% %i:scaleAS% và @Threshold1ArmorMagicResist@ %i:scaleArmor%%i:scaleMR%<br>@NumThreeStarThreshold2@: Chuyển đổi @Threshold2TrueDamageConversion*100@% sát thương phép cộng thêm thành sát thương chuẩn.<br>@NumThreeStarThreshold3@: Mỗi @Threshold3StarUpPeriod@ giây giao tranh, 1 tướng 3 sao thăng hoa lên 4 sao.</row>",
-      "icon": "https://raw.communitydragon.org/latest/game/assets/ux/traiticons/trait_icon_18_solar.png",
+      "icon": "/assets/set18/traits/DA_18_Solar.webp",
       "breakpoints": [
         {
           "count": 3,
@@ -162,7 +162,7 @@
       "id": "DA_18_Sprykin",
       "name": "Tinh Nghịch",
       "description": "Nhận Lông Xù Khổng Lồ. Thả một tướng Tinh Nghịch lên LXKL để chọn làm Kỵ Sĩ.<br><row>(@MinUnits@) Kỵ Sĩ nhận được<br>@HealthIncrease*100@% %i:scaleHealth% và @AttackSpeedIncrease*100@% %i:scaleAS%</row><br><row>(@MinUnits@) @HealthIncrease*100@% %i:scaleHealth% @AttackSpeedIncrease*100@% %i:scaleAS%, và @TeamwideRatio*100@% Kỹ năng của LXKL sẽ áp dụng cho các tướng Tinh Nghịch của bạn.</row><br><row>(@MinUnits@) @HealthIncrease*100@% %i:scaleHealth% @AttackSpeedIncrease*100@% %i:scaleAS%, và @TeamwideRatio*100@% Kỹ năng của LXKL sẽ áp dụng cho các tướng Tinh Nghịch của bạn.</row>",
-      "icon": "https://raw.communitydragon.org/latest/game/assets/ux/traiticons/trait_icon_18_sprykin.png",
+      "icon": "/assets/set18/traits/DA_18_Sprykin.webp",
       "breakpoints": [
         {
           "count": 3,
@@ -199,7 +199,7 @@
       "id": "DA_18_Adaptor",
       "name": "Thích Ứng",
       "description": "Thiên Phú: Kỹ năng của tướng Thích Ứng sẽ thay đổi tùy theo việc Sức Mạnh Công Kích hay Sức Mạnh Phép Thuật của họ cao hơn.<br><br>Tướng Thích Ứng nhận thêm Sức Mạnh Phép Thuật hoặc Sức Mạnh Công Kích, tùy vào chỉ số nào cao hơn.<br><row>(@MinUnits@) @ADAPGain*100@% HOẶC </row><br><row>(@MinUnits@) @ADAPGain*100@% HOẶC </row><br><row>(@MinUnits@) @ADAPGain*100@% HOẶC </row>",
-      "icon": "https://raw.communitydragon.org/latest/game/assets/ux/traiticons/trait_icon_18_adaptor.png",
+      "icon": "/assets/set18/traits/DA_18_Adaptor.webp",
       "breakpoints": [
         {
           "count": 2,
@@ -231,7 +231,7 @@
       "id": "DA_18_Coven",
       "name": "Tiên Hắc Ám",
       "description": "Nhận Tinh Hoa khi hạ gục tướng, và nhận thêm khi thua giao tranh người chơi. <br><br>Bắt đầu từ mốc @EssenceForRitualTooltip@ Tinh Hoa, bạn có thể chọn chuyển đổi Tinh Hoa thành phần thưởng hoặc tiếp tục tích lũy. Mỗi phần thưởng yêu cầu lượng Tinh Hoa tăng dần.<br><row>(@MinUnits@) @EssencePerDeath@ Tinh Hoa mỗi mạng hạ gục, @EssencePerLoss@ Tinh Hoa mỗi lần thua</row><br><row>(@MinUnits@) @EssencePerDeath@ mỗi mạng hạ gục, @EssencePerLoss@ mỗi lần thua</row><br><row>(@MinUnits@) @EssencePerDeath@ mỗi mạng hạ gục, @EssencePerLoss@ mỗi lần thua</row><br><row>(@MinUnits@) @EssencePerDeath@ mỗi mạng hạ gục, @EssencePerLoss@ mỗi lần thua</row>",
-      "icon": "https://raw.communitydragon.org/latest/game/assets/ux/traiticons/trait_icon_18_coven.png",
+      "icon": "/assets/set18/traits/DA_18_Coven.webp",
       "breakpoints": [
         {
           "count": 3,
@@ -279,7 +279,7 @@
       "id": "DA_18_Hunter",
       "name": "Thợ Săn",
       "description": "Tướng Thợ Săn nhận Sức Mạnh Công Kích. Nếu tướng Thợ Săn không đổi mục tiêu trong @HunterDuration@ giây, họ nhận thêm @DamageAmp*100@% Khuếch Đại Sát Thương.<br><row>(@MinUnits@) @HunterAD*100@% %i:scaleAD%</row><br><row>(@MinUnits@) @HunterAD*100@% %i:scaleAD%</row><br><row>(@MinUnits@) @HunterAD*100@% %i:scaleAD%</row><br><row>(@MinUnits@) @HunterAD*100@% %i:scaleAD%</row>",
-      "icon": "https://raw.communitydragon.org/latest/game/assets/ux/traiticons/trait_icon_18_hunter.png",
+      "icon": "/assets/set18/traits/DA_18_Hunter.webp",
       "breakpoints": [
         {
           "count": 2,
@@ -327,7 +327,7 @@
       "id": "DA_18_Maokai_UniqueTrait",
       "name": "Cổ Thụ",
       "description": "Mỗi khi một kẻ địch trong @UniqueTraitHexRange@ ô bị hạ gục, tướng Cổ Thụ mạnh nhất của bạn nhận @UniqueTraitHealthPerStack@ Máu tối đa vĩnh viễn.<br><br>Hiện tại: 0",
-      "icon": "https://raw.communitydragon.org/latest/game/assets/ux/traiticons/trait_icon_18_oldgrowth.png",
+      "icon": "/assets/set18/traits/DA_18_Maokai_UniqueTrait.webp",
       "breakpoints": [
         {
           "count": 1,
@@ -344,7 +344,7 @@
       "id": "DA_18_Battlemage",
       "name": "Cự Thạch",
       "description": "Tướng Cự Thạch tăng @Resists@ Giáp và Kháng Phép với mỗi kẻ địch đang nhắm vào họ.",
-      "icon": "https://raw.communitydragon.org/latest/game/assets/ux/traiticons/trait_icon_18_monolith.png",
+      "icon": "/assets/set18/traits/DA_18_Battlemage.webp",
       "breakpoints": [
         {
           "count": 1,
@@ -360,7 +360,7 @@
       "id": "DA_Primal18",
       "name": "Nguyên Sinh",
       "description": "Chọn 1 trong 4 Phước Lành Nguyên Sinh.<br><row>(@MinUnits@)</row><br><row>(@MinUnits@)</row>",
-      "icon": "https://raw.communitydragon.org/latest/game/assets/ux/traiticons/trait_icon_18_primal.png",
+      "icon": "/assets/set18/traits/DA_Primal18.webp",
       "breakpoints": [
         {
           "count": 2,
@@ -380,7 +380,7 @@
       "id": "DA_18_Greenfather",
       "name": "Thụ Thần",
       "description": "Nhận @SeedsPerCast@ hạt giống khi Ivern mạnh nhất của bạn thi triển, cộng thêm @CombatStartSeeds@ mỗi giao tranh. Ivern dùng @SeedsToGrowHex@ hạt giống để nuôi lớn 1 ô trên bàn đấu của bạn, trao hiệu ứng cộng thêm cho đơn vị đứng trên ô đó. <br><br>Hạt Giống: 0 / @SeedsToGrowHex@<br><br>Hệ Sinh Thái Hiện Tại:",
-      "icon": "https://raw.communitydragon.org/latest/game/assets/ux/traiticons/trait_icon_18_greenfather.png",
+      "icon": "/assets/set18/traits/DA_18_Greenfather.webp",
       "breakpoints": [
         {
           "count": 1,
@@ -398,7 +398,7 @@
       "id": "DA_18_Invoker",
       "name": "Thuật Sĩ",
       "description": "Đội của bạn được tăng Hồi Năng Lượng, tướng Thuật Sĩ nhận được nhiều hơn.<br><row>(@MinUnits@) @TeamManaRegen@ %i:scaleManaRegen% | @InvokerManaBonus@ %i:scaleManaRegen%</row><br><row>(@MinUnits@) @TeamManaRegen@ %i:scaleManaRegen% | @InvokerManaBonus@ %i:scaleManaRegen%</row><br><row>(@MinUnits@) @TeamManaRegen@ %i:scaleManaRegen% | @InvokerManaBonus@ %i:scaleManaRegen%</row><br><row>(@MinUnits@) @TeamManaRegen@ %i:scaleManaRegen% | @InvokerManaBonus@ %i:scaleManaRegen%</row>",
-      "icon": "https://raw.communitydragon.org/latest/game/assets/ux/traiticons/trait_icon_18_invoker.png",
+      "icon": "/assets/set18/traits/DA_18_Invoker.webp",
       "breakpoints": [
         {
           "count": 2,
@@ -442,7 +442,7 @@
       "id": "DA_18_Rapidfire",
       "name": "Liên Kích",
       "description": "Đội của bạn nhận @TeamAS*100@% Tốc Độ Đánh. Các tướng Liên Kích nhận thêm sau mỗi đòn đánh, tối đa @MaxStacks@ cộng dồn.<br><row>(@MinUnits@) +@ASPerAttack*100@% %i:scaleAS% mỗi Đòn Đánh</row><br><row>(@MinUnits@) +@ASPerAttack*100@% %i:scaleAS% mỗi Đòn Đánh</row><br><row>(@MinUnits@) +@ASPerAttack*100@% %i:scaleAS% mỗi Đòn Đánh</row><br><row>(@MinUnits@) +@ASPerAttack*100@% %i:scaleAS% mỗi Đòn Đánh</row>",
-      "icon": "https://raw.communitydragon.org/latest/game/assets/ux/traiticons/trait_icon_18_rapidfire.png",
+      "icon": "/assets/set18/traits/DA_18_Rapidfire.webp",
       "breakpoints": [
         {
           "count": 2,
@@ -490,7 +490,7 @@
       "id": "DA_Juggernaut18",
       "name": "Dũng Sĩ",
       "description": "Đội của bạn nhận Chống Chịu. Tướng Dũng Sĩ nhận được nhiều hơn.<br><row>(@MinUnits@) @TeamDurability*100@% %i:scaleDR% hoặc @JuggernautDurability*100@% %i:scaleDR%</row><br><row>(@MinUnits@) @TeamDurability*100@% %i:scaleDR% hoặc @JuggernautDurability*100@% %i:scaleDR%</row><br><row>(@MinUnits@) @TeamDurability*100@% %i:scaleDR% hoặc @JuggernautDurability*100@% %i:scaleDR%</row>",
-      "icon": "https://raw.communitydragon.org/latest/game/assets/ux/traiticons/trait_icon_18_juggernaut.png",
+      "icon": "/assets/set18/traits/DA_Juggernaut18.webp",
       "breakpoints": [
         {
           "count": 2,
@@ -525,7 +525,7 @@
       "id": "DA_18_Inferno",
       "name": "Hỏa Ngục",
       "description": "Sát thương từ tướng Hỏa Ngục sẽ gây <TFTKeyword>Thiêu Đốt</TFTKeyword> và <TFTKeyword>Vết Thương Sâu</TFTKeyword> lên kẻ địch trong @Duration@ giây. Thiêu Đốt từ Hỏa Ngục cộng dồn với các hiệu ứng Thiêu Đốt khác.<br><row>(@MinUnits@) Thiêu Đốt @HPBurnPerSecond@%, Vết Thương Sâu @WoundPercent@%</row><br><row>(@MinUnits@) Sau giao tranh, @LuckySlotCount@ ô cửa hàng không chứa tướng Hỏa Ngục của bạn sẽ bốc cháy, hiện ra tướng cao hơn 1 bậc</row><br><row>(@MinUnits@) @LuckySlotCount@ ô cửa hàng Bốc Cháy, Thiêu Đốt @HPBurnPerSecond@%</row><br><row>(@MinUnits@) @LuckySlotCount@ ô cửa hàng Bốc Cháy, Thiêu Đốt @HPBurnPerSecond@%</row>",
-      "icon": "https://raw.communitydragon.org/latest/game/assets/ux/traiticons/trait_icon_18_inferno.png",
+      "icon": "/assets/set18/traits/DA_18_Inferno.webp",
       "breakpoints": [
         {
           "count": 2,
@@ -572,7 +572,7 @@
       "id": "DA_AluneUniqueTrait18",
       "name": "Hòa Hợp",
       "description": "Alune mạnh nhất của bạn sẽ chuyển sang một pha trăng mới sau mỗi lần thi triển. Khi mặt trăng ở pha bán nguyệt hoặc khuyết hơn, đội của bạn nhận @Durability*100@% Chống Chịu. Khi ở những pha còn lại, đội của bạn nhận @DamageAmp*100@% Khuếch Đại Sát Thương.",
-      "icon": "https://raw.communitydragon.org/latest/game/assets/ux/traiticons/trait_icon_18_attuned.png",
+      "icon": "/assets/set18/traits/DA_AluneUniqueTrait18.webp",
       "breakpoints": [
         {
           "count": 1,
@@ -589,7 +589,7 @@
       "id": "DA_18_Rival",
       "name": "Khắc Tinh",
       "description": "<row>(@MinUnits@) Chỉ kích hoạt khi triển khai 1 tướng Khắc Tinh.<br><br>Tướng Khắc Tinh thu thập điểm tham gia hạ gục, nhận 3 điểm nếu tham gia hạ gục một tướng Khắc Tinh khác.</row><br><row>(@MinUnits@) Tướng Khắc Tinh thu thập điểm tham gia hạ gục, nhận 3 điểm nếu tham gia hạ gục một tướng Khắc Tinh khác.<br><br>Tham gia hạ gục sẽ tiến hóa Kha'Zix, vĩnh viễn ban cho hắn lựa chọn tùy ý: Đao Phủ, Liên Kích, Tàn Phá hoặc Thuật Sư.<br><br>Rengar trao @RengarGold@/@RengarGold_2@/@RengarGold_3@ vàng mỗi @RengarStackReq@ lần tham gia hạ gục. Sau @RengarADStackReq@ lần tham gia hạ gục, đội của bạn nhận @RengarThresholdAD*100@% Sức Mạnh Công Kích + @RengarADPerStack*100@% %i:scaleAD% cho mỗi lần tham gia hạ gục tiếp theo.<br><br>Số Lần Kha'Zix Tham Gia Hạ Gục: 0 / 0<br>Số Lần Rengar Tham Gia Hạ Gục: 0<br>Vàng Kiếm Được: 0</row><br><row>(@MinUnits@) tướng Khắc Tinh được triển khai cùng nhau, và kỹ năng của họ sẽ trao hiệu ứng thưởng cho nhau.</row>",
-      "icon": "https://raw.communitydragon.org/latest/game/assets/ux/traiticons/trait_icon_18_rival.png",
+      "icon": "/assets/set18/traits/DA_18_Rival.webp",
       "breakpoints": [
         {
           "count": 1,
@@ -623,7 +623,7 @@
       "id": "DA_18_Vanguard",
       "name": "Tiên Phong",
       "description": "Khi Bắt Đầu Giao Rranh và khi xuống dưới @HealthThreshold*100@% Máu, tướng Tiên Phong nhận Lá Chắn theo Máu tối đa trong @ShieldDuration@ giây.<br><row>(@MinUnits@) @MaxHealthShield*100@% Máu tối đa</row><br><row>(@MinUnits@) @MaxHealthShield*100@% Máu tối đa</row><br><row>(@MinUnits@) @MaxHealthShield*100@% Máu tối đa. Tăng @DurabilityIncrease*100@% Chống Chịu khi có Lá Chắn.</row>",
-      "icon": "https://raw.communitydragon.org/latest/game/assets/ux/traiticons/trait_icon_18_vanguard.png",
+      "icon": "/assets/set18/traits/DA_18_Vanguard.webp",
       "breakpoints": [
         {
           "count": 2,
@@ -662,7 +662,7 @@
       "id": "DA_18_Brawler",
       "name": "Đấu Sĩ",
       "description": "Đội của bạn nhận thêm @BrawlerTeamHealth@ Máu tối đa. Tướng Đấu Sĩ nhận được nhiều hơn.<br><row>(@MinUnits@) @BrawlerHealthPercent*100@% %i:scaleHealth%</row><br><row>(@MinUnits@) @BrawlerHealthPercent*100@% %i:scaleHealth%</row><br><row>(@MinUnits@) @BrawlerHealthPercent*100@% %i:scaleHealth%</row>",
-      "icon": "https://raw.communitydragon.org/latest/game/assets/ux/traiticons/trait_icon_18_brawler.png",
+      "icon": "/assets/set18/traits/DA_18_Brawler.webp",
       "breakpoints": [
         {
           "count": 2,
@@ -697,7 +697,7 @@
       "id": "DA_18_Blackthorn",
       "name": "Gai Đen",
       "description": "Đồng minh trên ô Gai Đen sẽ bị hiến tế trước khi giao tranh, tăng Máu cho các tướng của bạn. <br><br>Tướng Gai Đen nhận thêm chỉ số dựa trên Vai Trò, Cấp Sao và Giá của vật tế.<br><row>(@MinUnits@) @Health@ %i:scaleHealth%</row><br><row>(@MinUnits@) @Health@ %i:scaleHealth%; Hiệu ứng cộng thêm mạnh hơn @StatMultiplier*100@%</row><br><row>(@MinUnits@) @Health@ %i:scaleHealth%; Hiệu ứng cộng thêm mạnh hơn @StatMultiplier*100@%</row>",
-      "icon": "https://raw.communitydragon.org/latest/game/assets/ux/traiticons/trait_icon_18_oldgod.png",
+      "icon": "/assets/set18/traits/DA_18_Blackthorn.webp",
       "breakpoints": [
         {
           "count": 2,
@@ -731,7 +731,7 @@
       "id": "DA_18_Executioner",
       "name": "Đao Phủ",
       "description": "<row>(@MinUnits@) Tướng Đao Phủ nhận được <TFTKeyword>Chuẩn Xác</TFTKeyword> và @CritChance*100@% Tỉ Lệ Chí Mạng.</row><br><row>(@MinUnits@) Ngoài ra, kẻ địch sẽ bị chảy máu, chịu thêm @BonusBleedPercent*100@% sát thương chuẩn trong @BleedDuration@ giây.</row><br><row>(@MinUnits@) Sát thương chảy máu tăng thành @BonusBleedPercent*100@%.</row>",
-      "icon": "https://raw.communitydragon.org/latest/game/assets/ux/traiticons/trait_icon_18_executioner.png",
+      "icon": "/assets/set18/traits/DA_18_Executioner.webp",
       "breakpoints": [
         {
           "count": 2,
@@ -764,7 +764,7 @@
       "id": "DA_18_ApexPredator",
       "name": "Bá Chủ",
       "description": "Rồng Ngàn Tuổi chiếm 2 vị trí đội hình và tăng thêm 2 mốc vào tộc/hệ Quái Rừng.",
-      "icon": "https://raw.communitydragon.org/latest/game/assets/ux/traiticons/trait_icon_18_apexpredator.png",
+      "icon": "/assets/set18/traits/DA_18_ApexPredator.webp",
       "breakpoints": [
         {
           "count": 1,
@@ -778,7 +778,7 @@
       "id": "DA_Riftbeast18",
       "name": "Quái Rừng",
       "description": "<row>(@MinUnits@) Sử dụng Dấu Ấn Đầu Đàn để trao Bùa Lợi độc nhất cho một tướng Quái Rừng</row><br><row>(@MinUnits@) Mỗi @OverrunCombats@ giao tranh, cửa hàng tiếp theo của bạn sẽ tràn ngập tướng Quái Rừng.</row><br><row>(@MinUnits@) Khi bắt đầu giao tranh và cứ mỗi 5 giây, tướng Quái Rừng tăng trưởng và nhận <br>@CapstoneAD*100@% %i:scaleAD% @CapstoneAP*100@% %i:scaleAP% @CapstoneAspd*100@% %i:scaleAS%<br>+@CapstoneArmor@ %i:scaleArmor% +@CapstoneMR@ %i:scaleMR% +@CapstoneHealth@ %i:scaleHealth% +@CapstoneManaRegen@ %i:scaleManaRegen%</row><br><row>(@MinUnits@) +@TeamSize@ số lượng tướng tối đa</row>",
-      "icon": "https://raw.communitydragon.org/latest/game/assets/ux/traiticons/trait_icon_18_riftbeast.png",
+      "icon": "/assets/set18/traits/DA_Riftbeast18.webp",
       "breakpoints": [
         {
           "count": 3,
@@ -822,7 +822,7 @@
       "id": "DA_18_Caustic",
       "name": "Ăn Mòn",
       "description": "Sát thương Ăn Mòn sẽ Cào Xé và Phân Tách kẻ địch @ShredPercent@% trong @ShredDuration@ giây.<br><br><rules>Cào Xé: giảm Kháng Phép</rules><br><rules>Phân Tách: giảm Giáp</rules>",
-      "icon": "https://raw.communitydragon.org/latest/game/assets/ux/traiticons/trait_icon_18_caustic.png",
+      "icon": "/assets/set18/traits/DA_18_Caustic.webp",
       "breakpoints": [
         {
           "count": 1,
@@ -839,7 +839,7 @@
       "id": "DA_18_Fae",
       "name": "Tiên Linh",
       "description": "Sát thương, hồi máu và tạo lá chắn của đội bạn sẽ thu hút các Pix.<br><br>Mỗi Pix sẽ tăng Sức Mạnh Công Kích và Sức Mạnh Phép Thuật cho các tướng Tiên Linh, và sau khi họ tụt xuống dưới @HealThreshold*100@% Máu, họ sẽ hồi máu với mỗi Pix.<br><row>(@MinUnits@) @ADAP@% và @Heal@% Hồi Máu.</row><br><row>(@MinUnits@) @ADAP@% và @Heal@% Hồi Máu. Sau khi thu hút 7 Pix, bạn sẽ bắt đầu thu hút Pix Hoàng Kim, những Pix Hoàng Kim này sẽ cho vàng.</row>",
-      "icon": "https://raw.communitydragon.org/latest/game/assets/ux/traiticons/trait_icon_18_fae.png",
+      "icon": "/assets/set18/traits/DA_18_Fae.webp",
       "breakpoints": [
         {
           "count": 2,
@@ -867,7 +867,7 @@
       "id": "DA_18_Lunar",
       "name": "Mặt Trăng",
       "description": "Các tướng Mặt Trăng và đồng minh liền kề nhận Tốc Độ Đánh và Sức Mạnh Phép Thuật. Các tướng Mặt Trăng nhận thêm @LunarMultiplier*100@%.<br><row>(@MinUnits@) @AttackSpeed*100@% %i:scaleAS%, @AbilityPower*100@% %i:scaleAP%</row><br><row>(@MinUnits@) @AttackSpeed*100@% %i:scaleAS%, @AbilityPower*100@% %i:scaleAP%</row><br><row>(@MinUnits@) @AttackSpeed*100@% %i:scaleAS%, @AbilityPower*100@% %i:scaleAP%</row><br><row>(@MinUnits@) @AttackSpeed*100@% %i:scaleAS%, @AbilityPower*100@% %i:scaleAP%</row>",
-      "icon": "https://raw.communitydragon.org/latest/game/assets/ux/traiticons/trait_icon_18_lunar.png",
+      "icon": "/assets/set18/traits/DA_18_Lunar.webp",
       "breakpoints": [
         {
           "count": 2,
@@ -915,7 +915,7 @@
       "id": "DA_18_Defender",
       "name": "Vệ Quân",
       "description": "Đội của bạn nhận @NonDefenderDefenseGain@ Giáp và Kháng Phép. Tướng Vệ Quân nhận được nhiều hơn.<br><row>(@MinUnits@) @DefenderDefenseGain@</row><br><row>(@MinUnits@) @DefenderDefenseGain@</row><br><row>(@MinUnits@) @DefenderDefenseGain@</row>",
-      "icon": "https://raw.communitydragon.org/latest/game/assets/ux/traiticons/trait_icon_18_defender.png",
+      "icon": "/assets/set18/traits/DA_18_Defender.webp",
       "breakpoints": [
         {
           "count": 2,
@@ -950,7 +950,7 @@
       "id": "DA_18_Spellweaver",
       "name": "Thuật Sư",
       "description": "Đội của bạn nhận @TeamwideAP*100@% Sức Mạnh Phép Thuật. Các tướng Thuật Sư nhận được nhiều hơn, và nhận thêm Sức Mạnh Phép Thuật mỗi khi một tướng Thuật Sư thi triển Kỹ Năng.<br><row>(@MinUnits@) @SpellweaverAP*100@% %i:scaleAP%, +@APPerCast*100@% %i:scaleAP% mỗi lần thi triển</row><br><row>(@MinUnits@) @SpellweaverAP*100@% %i:scaleAP%, +@APPerCast*100@% %i:scaleAP% mỗi lần thi triển</row><br><row>(@MinUnits@) @SpellweaverAP*100@% %i:scaleAP%, +@APPerCast*100@% %i:scaleAP% mỗi lần thi triển</row>",
-      "icon": "https://raw.communitydragon.org/latest/game/assets/ux/traiticons/trait_icon_18_spellweaver.png",
+      "icon": "/assets/set18/traits/DA_18_Spellweaver.webp",
       "breakpoints": [
         {
           "count": 2,
@@ -988,7 +988,7 @@
       "id": "DA_18_ZyraUniqueTrait",
       "name": "Vườn Gai",
       "description": "Đội của bạn nhận @BaseDurability*100@% Chống Chịu, tăng lên thành @IncreasedDurability*100@% nếu có tối thiểu @PlantNumThreshold@ cây của Zyra đang còn sống.",
-      "icon": "https://raw.communitydragon.org/latest/game/assets/ux/traiticons/trait_icon_18_zyraorigin.png",
+      "icon": "/assets/set18/traits/DA_18_ZyraUniqueTrait.webp",
       "breakpoints": [
         {
           "count": 1,
@@ -1006,7 +1006,7 @@
       "id": "DA_FloraFatalis18",
       "name": "Thực Vật",
       "description": "Các tướng Thực Vật thu hoạch kẻ địch khi tham gia hạ gục, nhận:<br><row>(@MinUnits@) @Mana@ Năng Lượng</row><br><row>(@MinUnits@), đồng thời hồi lại @PercentHeal*100@% Máu tối đa cho đồng minh có lượng Máu thấp nhất.</row>",
-      "icon": "https://raw.communitydragon.org/latest/game/assets/ux/traiticons/trait_icon_18_florafatalis.png",
+      "icon": "/assets/set18/traits/DA_FloraFatalis18.webp",
       "breakpoints": [
         {
           "count": 1,
@@ -1030,7 +1030,7 @@
       "id": "DA_18_Summoner",
       "name": "Triệu Hồi",
       "description": "Tướng Triệu Hồi cường hóa các đơn vị triệu hồi của mình theo nhiều cách khác nhau.<br><br>Yorick: +@HealthMult*100@% Máu<br>Azir: +@AzirDamageMult*100@% Sát Thương<br>Chim Mẹ: +@DamageMult*100@% Sát Thương<br>Zyra: +@NumExtraAttacks@ Đòn Đánh Từ Cây<br><row>(@MinUnits@) Cường Hóa Đơn Vị Triệu Hồi</row><br><row>(@MinUnits@) Tăng mỗi hiệu ứng thêm 50%</row>",
-      "icon": "https://raw.communitydragon.org/latest/game/assets/ux/traiticons/trait_icon_18_summoner.png",
+      "icon": "/assets/set18/traits/DA_18_Summoner.webp",
       "breakpoints": [
         {
           "count": 2,
@@ -1060,7 +1060,7 @@
       "id": "DA_18_Blossom",
       "name": "Hoa Linh",
       "description": "Sau giao tranh, các Tinh Linh của bạn được cường hóa. <br><br>Tướng Hoa Linh nhận thêm Sức Mạnh Công Kích, Sức Mạnh Phép Thuật và @BonusHealth*100@% Máu tối đa.<br><row>(@MinUnits@) Tinh Linh được nâng cấp, @ADAP*100@% %i:scaleAD%%i:scaleAP%</row><br><row>(@MinUnits@) Tinh Linh xuất hiện trong mọi cửa hàng, @ADAP*100@% %i:scaleAD%%i:scaleAP%</row><br><row>(@MinUnits@) Nhận @GoldPerCharmPurchased@ vàng sau khi mua 1 Tinh Linh, @ADAP*100@% %i:scaleAD%%i:scaleAP%</row><br><row>(@MinUnits@) Bạn có thể mua 2 Tinh Linh mỗi vòng, @ADAP*100@% %i:scaleAD%%i:scaleAP%</row><br><row>(@MinUnits@) Tinh Linh tràn đầy sức mạnh, @ADAP*100@% %i:scaleAD%%i:scaleAP%</row>",
-      "icon": "https://raw.communitydragon.org/latest/game/assets/ux/traiticons/trait_icon_18_blossom.png",
+      "icon": "/assets/set18/traits/DA_18_Blossom.webp",
       "breakpoints": [
         {
           "count": 3,
@@ -1114,7 +1114,7 @@
       "id": "DA_Emerald18",
       "name": "Lục Bảo",
       "description": "Kéo một đồng minh vào Taric mạnh nhất của bạn để ghép đôi họ, ban cho đồng minh các hiệu ứng mạnh mẽ từ Kỹ Năng của Taric.",
-      "icon": "https://raw.communitydragon.org/latest/game/assets/ux/traiticons/trait_icon_18_emeraldaspect.png",
+      "icon": "/assets/set18/traits/DA_Emerald18.webp",
       "breakpoints": [
         {
           "count": 1,
@@ -1152,7 +1152,7 @@
         "icon": "",
         "variables": {}
       },
-      "icon": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_gromp/skins/base/images/t_18_gromp_teamplannersplash.png"
+      "icon": "/assets/set18/champions/DA_Gromp18_AP.webp"
     },
     {
       "id": "DA_Murkwolf18",
@@ -1180,7 +1180,7 @@
         "icon": "",
         "variables": {}
       },
-      "icon": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_murkwolf/skins/base/images/t_18_murkwolf_teamplannersplash.png"
+      "icon": "/assets/set18/champions/DA_Murkwolf18.webp"
     },
     {
       "id": "DA_18_Sentry",
@@ -1208,7 +1208,7 @@
         "icon": "",
         "variables": {}
       },
-      "icon": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_sentry/skins/base/images/t_18_sentry_teamplannersplash.png"
+      "icon": "/assets/set18/champions/DA_18_Sentry.webp"
     },
     {
       "id": "DA_Cinderling18",
@@ -1236,7 +1236,7 @@
         "icon": "",
         "variables": {}
       },
-      "icon": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_cinderling/skins/base/images/t_18_cinderling_teamplannersplash.png"
+      "icon": "/assets/set18/champions/DA_Cinderling18.webp"
     },
     {
       "id": "DA_Scuttlecrab18",
@@ -1264,7 +1264,7 @@
         "icon": "",
         "variables": {}
       },
-      "icon": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_scuttlecrab/skins/base/images/t_18_scuttlecrab_teamplannersplash.png"
+      "icon": "/assets/set18/champions/DA_Scuttlecrab18.webp"
     },
     {
       "id": "DA_Krug18",
@@ -1292,7 +1292,7 @@
         "icon": "",
         "variables": {}
       },
-      "icon": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_krug/skins/base/images/t_18_krug_teamplannersplash.png"
+      "icon": "/assets/set18/champions/DA_Krug18.webp"
     },
     {
       "id": "DA_Sentinel18",
@@ -1321,7 +1321,7 @@
         "icon": "",
         "variables": {}
       },
-      "icon": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_sentinel/skins/base/images/t_18_sentinel_teamplannersplash.png"
+      "icon": "/assets/set18/champions/DA_Sentinel18.webp"
     },
     {
       "id": "DA_Brambleback18",
@@ -1349,7 +1349,7 @@
         "icon": "",
         "variables": {}
       },
-      "icon": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_brambleback/skins/base/images/t_18_brambleback_teamplannersplash.png"
+      "icon": "/assets/set18/champions/DA_Brambleback18.webp"
     },
     {
       "id": "DA_18_Xayah",
@@ -1378,7 +1378,7 @@
         "icon": "",
         "variables": {}
       },
-      "icon": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_xayah/skins/base/images/tft18_xayah_splash_tile_8.png"
+      "icon": "/assets/set18/champions/DA_18_Xayah.webp"
     },
     {
       "id": "DA_18_Ornn",
@@ -1406,7 +1406,7 @@
         "icon": "",
         "variables": {}
       },
-      "icon": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_ornn/skins/base/images/tft18_ornn_splash_tile_2.png"
+      "icon": "/assets/set18/champions/DA_18_Ornn.webp"
     },
     {
       "id": "DA_Nidalee18_AP",
@@ -1434,7 +1434,7 @@
         "icon": "",
         "variables": {}
       },
-      "icon": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_nidalee/skins/base/images/tft18_nidalee_splash_tile_0.png"
+      "icon": "/assets/set18/champions/DA_Nidalee18_AP.webp"
     },
     {
       "id": "DA_18_Hecarim",
@@ -1462,7 +1462,7 @@
         "icon": "",
         "variables": {}
       },
-      "icon": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_hecarim/skins/base/images/tft18_hecarim_splash_tile_5.png"
+      "icon": "/assets/set18/champions/DA_18_Hecarim.webp"
     },
     {
       "id": "DA_18_Ezreal",
@@ -1490,7 +1490,7 @@
         "icon": "",
         "variables": {}
       },
-      "icon": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_ezreal/skins/base/images/tft18_ezreal_splash_tile_1.png"
+      "icon": "/assets/set18/champions/DA_18_Ezreal.webp"
     },
     {
       "id": "DA_18_Azir",
@@ -1519,7 +1519,7 @@
         "icon": "",
         "variables": {}
       },
-      "icon": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_azir/skins/base/images/tft18_azir_splash_tile_5.png"
+      "icon": "/assets/set18/champions/DA_18_Azir.webp"
     },
     {
       "id": "DA_18_RekSai",
@@ -1547,7 +1547,7 @@
         "icon": "",
         "variables": {}
       },
-      "icon": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_reksai/skins/base/images/tft18_reksai_splash_tile_17.png"
+      "icon": "/assets/set18/champions/DA_18_RekSai.webp"
     },
     {
       "id": "DA_18_Veigar",
@@ -1576,7 +1576,7 @@
         "icon": "",
         "variables": {}
       },
-      "icon": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_veigar/skins/base/images/tft18_veigar_splash_tile_13.png"
+      "icon": "/assets/set18/champions/DA_18_Veigar.webp"
     },
     {
       "id": "DA_18_Maokai",
@@ -1604,7 +1604,7 @@
         "icon": "",
         "variables": {}
       },
-      "icon": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_maokai/skins/base/images/tft18_maokai_splash_tile_0.png"
+      "icon": "/assets/set18/champions/DA_18_Maokai.webp"
     },
     {
       "id": "DA_18_Malphite",
@@ -1632,7 +1632,7 @@
         "icon": "",
         "variables": {}
       },
-      "icon": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_malphite/skins/base/images/tft18_malphite_splash_tile_27.png"
+      "icon": "/assets/set18/champions/DA_18_Malphite.webp"
     },
     {
       "id": "DA_18_Yorick",
@@ -1661,7 +1661,7 @@
         "icon": "",
         "variables": {}
       },
-      "icon": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_yorick/skins/base/images/tft18_yorick_splash_tile_30.png"
+      "icon": "/assets/set18/champions/DA_18_Yorick.webp"
     },
     {
       "id": "DA_18_Yunara",
@@ -1689,7 +1689,7 @@
         "icon": "",
         "variables": {}
       },
-      "icon": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_yunara/skins/base/images/tft18_yunara_splash_tile_0.png"
+      "icon": "/assets/set18/champions/DA_18_Yunara.webp"
     },
     {
       "id": "DA_18_Sett",
@@ -1717,7 +1717,7 @@
         "icon": "",
         "variables": {}
       },
-      "icon": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_sett/skins/base/images/tft18_sett_splash_tile_38.png"
+      "icon": "/assets/set18/champions/DA_18_Sett.webp"
     },
     {
       "id": "DA_18_Ahri",
@@ -1745,7 +1745,7 @@
         "icon": "",
         "variables": {}
       },
-      "icon": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_ahri/skins/base/images/tft18_ahri_splash_tile_27.png"
+      "icon": "/assets/set18/champions/DA_18_Ahri.webp"
     },
     {
       "id": "DA_18_Ashe",
@@ -1773,7 +1773,7 @@
         "icon": "",
         "variables": {}
       },
-      "icon": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_ashe/skins/base/images/tft18_ashe_splash_tile_76.png"
+      "icon": "/assets/set18/champions/DA_18_Ashe.webp"
     },
     {
       "id": "DA_18_Elise",
@@ -1801,7 +1801,7 @@
         "icon": "",
         "variables": {}
       },
-      "icon": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_elise/skins/base/images/tft18_elise_splash_tile_24.png"
+      "icon": "/assets/set18/champions/DA_18_Elise.webp"
     },
     {
       "id": "DA_18_Caitlyn",
@@ -1829,7 +1829,7 @@
         "icon": "",
         "variables": {}
       },
-      "icon": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_caitlyn/skins/base/images/tft18_caitlyn_splash_tile_30.png"
+      "icon": "/assets/set18/champions/DA_18_Caitlyn.webp"
     },
     {
       "id": "DA_18_Cassiopeia",
@@ -1857,7 +1857,7 @@
         "icon": "",
         "variables": {}
       },
-      "icon": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_cassiopeia/skins/base/images/tft18_cassiopeia_splash_tile_18.png"
+      "icon": "/assets/set18/champions/DA_18_Cassiopeia.webp"
     },
     {
       "id": "DA_18_Morgana",
@@ -1885,7 +1885,7 @@
         "icon": "",
         "variables": {}
       },
-      "icon": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_morgana/skins/base/images/tft18_morgana_splash_tile_26.png"
+      "icon": "/assets/set18/champions/DA_18_Morgana.webp"
     },
     {
       "id": "DA_18_Rakan",
@@ -1914,7 +1914,7 @@
         "icon": "",
         "variables": {}
       },
-      "icon": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_rakan/skins/base/images/tft18_rakan_splash_tile_9.png"
+      "icon": "/assets/set18/champions/DA_18_Rakan.webp"
     },
     {
       "id": "DA_18_Lillia",
@@ -1942,7 +1942,7 @@
         "icon": "",
         "variables": {}
       },
-      "icon": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_lillia/skins/base/images/tft18_lillia_splash_tile_28.png"
+      "icon": "/assets/set18/champions/DA_18_Lillia.webp"
     },
     {
       "id": "DA_18_Kobuko",
@@ -2016,7 +2016,7 @@
           ]
         }
       },
-      "icon": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_kobuko/skins/base/images/tft18_kobuko_splash_tile_2.png"
+      "icon": "/assets/set18/champions/DA_18_Kobuko.webp"
     },
     {
       "id": "DA_18_Teemo",
@@ -2044,7 +2044,7 @@
         "icon": "",
         "variables": {}
       },
-      "icon": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_teemo/skins/base/images/tft18_teemo_splash_tile_0.png"
+      "icon": "/assets/set18/champions/DA_18_Teemo.webp"
     },
     {
       "id": "DA_18_Rammus",
@@ -2072,7 +2072,7 @@
         "icon": "",
         "variables": {}
       },
-      "icon": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_rammus/skins/base/images/tft18_rammus_splash_tile_26.png"
+      "icon": "/assets/set18/champions/DA_18_Rammus.webp"
     },
     {
       "id": "DA_18_GnarSmall",
@@ -2101,7 +2101,7 @@
         "icon": "",
         "variables": {}
       },
-      "icon": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_gnar/skins/base/images/tft18_gnar_splash_tile_0.png"
+      "icon": "/assets/set18/champions/DA_18_GnarSmall.webp"
     },
     {
       "id": "DA_18_Tristana",
@@ -2130,7 +2130,7 @@
         "icon": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_tristana/hud/icons2d/tft18_tristana_e.png",
         "variables": {}
       },
-      "icon": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_tristana/skins/base/images/tft18_tristana_splash_tile_61.png"
+      "icon": "/assets/set18/champions/DA_18_Tristana.webp"
     },
     {
       "id": "DA_18_Sivir",
@@ -2158,7 +2158,7 @@
         "icon": "",
         "variables": {}
       },
-      "icon": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_sivir/skins/base/images/tft18_sivir_splash_tile_61.png"
+      "icon": "/assets/set18/champions/DA_18_Sivir.webp"
     },
     {
       "id": "DA_Vi18",
@@ -2186,7 +2186,7 @@
         "icon": "",
         "variables": {}
       },
-      "icon": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_vi/skins/base/images/tft18_vi_splash_tile_39.png"
+      "icon": "/assets/set18/champions/DA_Vi18.webp"
     },
     {
       "id": "DA_18_Akali_AD",
@@ -2215,7 +2215,7 @@
         "icon": "",
         "variables": {}
       },
-      "icon": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_akali/skins/base/images/tft18_akali_splash_tile_2.png"
+      "icon": "/assets/set18/champions/DA_18_Akali_AD.webp"
     },
     {
       "id": "DA_18_Varus",
@@ -2243,7 +2243,7 @@
         "icon": "",
         "variables": {}
       },
-      "icon": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_varus/skins/base/images/tft18_varus_splash_tile_9.png"
+      "icon": "/assets/set18/champions/DA_18_Varus.webp"
     },
     {
       "id": "DA_Amumu18",
@@ -2271,7 +2271,7 @@
         "icon": "",
         "variables": {}
       },
-      "icon": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_amumu/skins/base/images/tft18_amumu_splash_tile_17.png"
+      "icon": "/assets/set18/champions/DA_Amumu18.webp"
     },
     {
       "id": "DA_18_Kennen",
@@ -2299,7 +2299,7 @@
         "icon": "",
         "variables": {}
       },
-      "icon": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_kennen/skins/base/images/tft18_kennen_splash_tile_8.png"
+      "icon": "/assets/set18/champions/DA_18_Kennen.webp"
     },
     {
       "id": "DA_18_Aphelios",
@@ -2327,7 +2327,7 @@
         "icon": "",
         "variables": {}
       },
-      "icon": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_aphelios/skins/base/images/tft18_aphelios_splash_tile_0.png"
+      "icon": "/assets/set18/champions/DA_18_Aphelios.webp"
     },
     {
       "id": "DA_18_Diana",
@@ -2356,7 +2356,7 @@
         "icon": "",
         "variables": {}
       },
-      "icon": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_diana/skins/base/images/tft18_diana_splash_tile_0.png"
+      "icon": "/assets/set18/champions/DA_18_Diana.webp"
     },
     {
       "id": "DA_18_Alune",
@@ -2440,7 +2440,7 @@
           ]
         }
       },
-      "icon": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_alune/skins/base/images/tft18_alune_splash_tile_15.png"
+      "icon": "/assets/set18/champions/DA_18_Alune.webp"
     },
     {
       "id": "DA_18_Leona",
@@ -2468,7 +2468,7 @@
         "icon": "",
         "variables": {}
       },
-      "icon": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_leona/skins/base/images/tft18_leona_splash_tile_10.png"
+      "icon": "/assets/set18/champions/DA_18_Leona.webp"
     },
     {
       "id": "DA_18_Kayle",
@@ -2496,7 +2496,7 @@
         "icon": "",
         "variables": {}
       },
-      "icon": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_kayle/skins/base/images/tft18_kayle_splash_tile_42.png"
+      "icon": "/assets/set18/champions/DA_18_Kayle.webp"
     },
     {
       "id": "DA_18_Sejuani",
@@ -2524,7 +2524,7 @@
         "icon": "",
         "variables": {}
       },
-      "icon": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_sejuani/skins/base/images/tft18_sejuani_splash_tile_26.png"
+      "icon": "/assets/set18/champions/DA_18_Sejuani.webp"
     },
     {
       "id": "DA_18_KhaZix",
@@ -2551,7 +2551,7 @@
         "icon": "",
         "variables": {}
       },
-      "icon": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_khazix/skins/base/images/tft18_khazix_splash_tile_0.png"
+      "icon": "/assets/set18/champions/DA_18_KhaZix.webp"
     },
     {
       "id": "DA_18_Rengar",
@@ -2578,7 +2578,7 @@
         "icon": "",
         "variables": {}
       },
-      "icon": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_rengar/skins/base/images/tft18_rengar_splash_tile_0.png"
+      "icon": "/assets/set18/champions/DA_18_Rengar.webp"
     },
     {
       "id": "DA_KogMaw18_AD",
@@ -2607,7 +2607,7 @@
         "icon": "",
         "variables": {}
       },
-      "icon": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_kogmaw/skins/base/images/tft18_kogmaw_splash_tile_3.png"
+      "icon": "/assets/set18/champions/DA_KogMaw18_AD.webp"
     },
     {
       "id": "DA_18_Zyra",
@@ -2635,7 +2635,7 @@
         "icon": "",
         "variables": {}
       },
-      "icon": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_zyra/skins/base/images/tft18_zyra_splash_tile_0.png"
+      "icon": "/assets/set18/champions/DA_18_Zyra.webp"
     },
     {
       "id": "DA_Fiddlesticks18",
@@ -2664,7 +2664,7 @@
         "icon": "",
         "variables": {}
       },
-      "icon": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_fiddlesticks/skins/base/images/tft18_fiddlesticks_splash_tile_46.png"
+      "icon": "/assets/set18/champions/DA_Fiddlesticks18.webp"
     },
     {
       "id": "DA_18_Soraka",
@@ -2692,7 +2692,7 @@
         "icon": "",
         "variables": {}
       },
-      "icon": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_soraka/skins/base/images/tft18_soraka_splash_tile_53.png"
+      "icon": "/assets/set18/champions/DA_18_Soraka.webp"
     },
     {
       "id": "DA_Taric18",
@@ -2720,7 +2720,7 @@
         "icon": "",
         "variables": {}
       },
-      "icon": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_taric/skins/base/images/tft18_taric_splash_tile_1.png"
+      "icon": "/assets/set18/champions/DA_Taric18.webp"
     },
     {
       "id": "DA_18_Ivern",
@@ -2747,7 +2747,7 @@
         "icon": "",
         "variables": {}
       },
-      "icon": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_ivern/skins/base/images/tft18_ivern_splash_tile_0.png"
+      "icon": "/assets/set18/champions/DA_18_Ivern.webp"
     },
     {
       "id": "DA_Lux18_Base",
@@ -2774,7 +2774,7 @@
         "icon": "",
         "variables": {}
       },
-      "icon": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_lux/skins/base/images/tft18_lux_splash_tile_7.png"
+      "icon": "/assets/set18/champions/DA_Lux18_Base.webp"
     },
     {
       "id": "DA_18_Alistar",
@@ -2802,7 +2802,7 @@
         "icon": "",
         "variables": {}
       },
-      "icon": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_alistar/skins/base/images/tft18_alistar_splash_tile_40.png"
+      "icon": "/assets/set18/champions/DA_18_Alistar.webp"
     },
     {
       "id": "DA_Draven18",
@@ -2829,7 +2829,7 @@
         "icon": "",
         "variables": {}
       },
-      "icon": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_draven/skins/base/images/tft18_draven_splash_tile_5.png"
+      "icon": "/assets/set18/champions/DA_Draven18.webp"
     },
     {
       "id": "DA_18_ElderDragon",
@@ -2857,7 +2857,7 @@
         "icon": "",
         "variables": {}
       },
-      "icon": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_elderdragon/skins/base/images/t_18_elderdragon_teamplannersplash.png"
+      "icon": "/assets/set18/champions/DA_18_ElderDragon.webp"
     },
     {
       "id": "DA_Karma18",
@@ -2885,7 +2885,7 @@
         "icon": "",
         "variables": {}
       },
-      "icon": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_karma/skins/base/images/tft18_karma_splash_tile_70.png"
+      "icon": "/assets/set18/champions/DA_Karma18.webp"
     },
     {
       "id": "DA_18_LeBlanc",
@@ -2913,7 +2913,7 @@
         "icon": "",
         "variables": {}
       },
-      "icon": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_leblanc/skins/base/images/tft18_leblanc_splash_tile_5.png"
+      "icon": "/assets/set18/champions/DA_18_LeBlanc.webp"
     },
     {
       "id": "DA_18_MasterYi_AD",
@@ -2941,7 +2941,7 @@
         "icon": "",
         "variables": {}
       },
-      "icon": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_masteryi/skins/base/images/tft18_masteryi_splash_tile_52.png"
+      "icon": "/assets/set18/champions/DA_18_MasterYi_AD.webp"
     },
     {
       "id": "DA_18_Shen",
@@ -2969,7 +2969,7 @@
         "icon": "",
         "variables": {}
       },
-      "icon": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_shen/skins/base/images/tft18_shen_splash_tile_16.png"
+      "icon": "/assets/set18/champions/DA_18_Shen.webp"
     },
     {
       "id": "DA_18_Warwick",
@@ -2997,7 +2997,7 @@
         "icon": "",
         "variables": {}
       },
-      "icon": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_warwick/skins/base/images/tft18_warwick_splash_tile_35.png"
+      "icon": "/assets/set18/champions/DA_18_Warwick.webp"
     },
     {
       "id": "DA_18_Camille",
@@ -3025,7 +3025,7 @@
         "icon": "",
         "variables": {}
       },
-      "icon": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_camille/skins/base/images/tft18_camille_splash_tile_2.png"
+      "icon": "/assets/set18/champions/DA_18_Camille.webp"
     },
     {
       "id": "DA_Lux18_Blackthorn",
@@ -3053,7 +3053,7 @@
         "icon": "",
         "variables": {}
       },
-      "icon": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_lux/hud/splashes/t_18_lux_blackthorn_teamplanner.png"
+      "icon": "/assets/set18/champions/DA_Lux18_Blackthorn.webp"
     },
     {
       "id": "DA_Lux18_Blossom",
@@ -3081,7 +3081,7 @@
         "icon": "",
         "variables": {}
       },
-      "icon": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_lux/hud/splashes/t_18_lux_blossom_teamplanner.png"
+      "icon": "/assets/set18/champions/DA_Lux18_Blossom.webp"
     },
     {
       "id": "DA_18_Lux_Coven",
@@ -3109,7 +3109,7 @@
         "icon": "",
         "variables": {}
       },
-      "icon": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_lux/hud/splashes/t_18_lux_coven_teamplanner.png"
+      "icon": "/assets/set18/champions/DA_18_Lux_Coven.webp"
     },
     {
       "id": "DA_18_Lux_Elderwood",
@@ -3137,7 +3137,7 @@
         "icon": "",
         "variables": {}
       },
-      "icon": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_lux/hud/splashes/t_18_lux_elderwood_teamplanner.png"
+      "icon": "/assets/set18/champions/DA_18_Lux_Elderwood.webp"
     },
     {
       "id": "DA_18_Lux_Fae",
@@ -3165,7 +3165,7 @@
         "icon": "",
         "variables": {}
       },
-      "icon": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_lux/hud/splashes/t_18_lux_fae_teamplanner.png"
+      "icon": "/assets/set18/champions/DA_18_Lux_Fae.webp"
     },
     {
       "id": "DA_18_Lux_Inferno",
@@ -3193,7 +3193,7 @@
         "icon": "",
         "variables": {}
       },
-      "icon": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_lux/hud/splashes/t_18_lux_inferno_teamplanner.png"
+      "icon": "/assets/set18/champions/DA_18_Lux_Inferno.webp"
     },
     {
       "id": "DA_18_Lux_Moonbeam",
@@ -3221,7 +3221,7 @@
         "icon": "",
         "variables": {}
       },
-      "icon": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_lux/hud/splashes/t_18_lux_moonbeam_teamplanner.png"
+      "icon": "/assets/set18/champions/DA_18_Lux_Moonbeam.webp"
     },
     {
       "id": "DA_18_Lux_Primal",
@@ -3249,7 +3249,7 @@
         "icon": "",
         "variables": {}
       },
-      "icon": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_lux/hud/splashes/t_18_lux_primal_teamplanner.png"
+      "icon": "/assets/set18/champions/DA_18_Lux_Primal.webp"
     },
     {
       "id": "DA_18_Lux_Sunbeam",
@@ -3277,7 +3277,7 @@
         "icon": "",
         "variables": {}
       },
-      "icon": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_lux/hud/splashes/t_18_lux_sunbeam_teamplanner.png"
+      "icon": "/assets/set18/champions/DA_18_Lux_Sunbeam.webp"
     },
     {
       "id": "DA_CrimsonRaptor18",
@@ -3306,7 +3306,7 @@
         "icon": "",
         "variables": {}
       },
-      "icon": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_raptor/skins/base/images/t_18_crimsonraptor_teamplannersplash.png"
+      "icon": "/assets/set18/champions/DA_CrimsonRaptor18.webp"
     }
   ],
   "items": [
@@ -3316,7 +3316,7 @@
       "components": [],
       "description": "Sau @DelayUpgrade@ giây, @NumItemsUpgrade@ trang bị ngẫu nhiên đang được trang bị sẽ tạm thời trở thành dạng Ánh Sáng.",
       "isUnique": false,
-      "icon": "https://raw.communitydragon.org/latest/game/assets/ux/tft/hud/zaps/wands/set18_mechanicicon.png"
+      "icon": "/assets/set18/items/DA_18_Radiantize_Upgrade.webp"
     },
     {
       "id": "DA_RedBuff",
@@ -3327,7 +3327,7 @@
       ],
       "description": "",
       "isUnique": false,
-      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_rapidfirecannon.png"
+      "icon": "/assets/set18/items/DA_RedBuff.webp"
     },
     {
       "id": "DA_Evenshroud",
@@ -3338,7 +3338,7 @@
       ],
       "description": "",
       "isUnique": false,
-      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_spectralgauntlet.png"
+      "icon": "/assets/set18/items/DA_Evenshroud.webp"
     },
     {
       "id": "DA_SpearOfShojin",
@@ -3349,7 +3349,7 @@
       ],
       "description": "",
       "isUnique": false,
-      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_spearofshojin.png"
+      "icon": "/assets/set18/items/DA_SpearOfShojin.webp"
     },
     {
       "id": "DA_Component_NegatronCloak",
@@ -3357,7 +3357,7 @@
       "components": [],
       "description": "",
       "isUnique": false,
-      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_negatroncloak.png"
+      "icon": "/assets/set18/items/DA_Component_NegatronCloak.webp"
     },
     {
       "id": "DA_Quicksilver",
@@ -3368,7 +3368,7 @@
       ],
       "description": "",
       "isUnique": false,
-      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_quicksilver.png"
+      "icon": "/assets/set18/items/DA_Quicksilver.webp"
     },
     {
       "id": "DA_18_EmblemVanguard",
@@ -3379,7 +3379,7 @@
       ],
       "description": "",
       "isUnique": false,
-      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/spatula/set18/tft18_emblem_vanguard.png"
+      "icon": "/assets/set18/items/DA_18_EmblemVanguard.webp"
     },
     {
       "id": "DA_GargoyleStoneplate",
@@ -3390,7 +3390,7 @@
       ],
       "description": "",
       "isUnique": false,
-      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_gargoylestoneplate.png"
+      "icon": "/assets/set18/items/DA_GargoyleStoneplate.webp"
     },
     {
       "id": "DA_18_EmblemBlackthorn",
@@ -3401,7 +3401,7 @@
       ],
       "description": "",
       "isUnique": false,
-      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/spatula/set18/tft18_emblem_blackthorn.png"
+      "icon": "/assets/set18/items/DA_18_EmblemBlackthorn.webp"
     },
     {
       "id": "DA_NashorsTooth",
@@ -3412,7 +3412,7 @@
       ],
       "description": "",
       "isUnique": false,
-      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_leviathan.png"
+      "icon": "/assets/set18/items/DA_NashorsTooth.webp"
     },
     {
       "id": "DA_Component_TearOfTheGoddess",
@@ -3420,7 +3420,7 @@
       "components": [],
       "description": "",
       "isUnique": false,
-      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_tearofthegoddess.png"
+      "icon": "/assets/set18/items/DA_Component_TearOfTheGoddess.webp"
     },
     {
       "id": "DA_18_EmblemHunter",
@@ -3431,7 +3431,7 @@
       ],
       "description": "",
       "isUnique": false,
-      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/spatula/set18/tft18_emblem_hunter.png"
+      "icon": "/assets/set18/items/DA_18_EmblemHunter.webp"
     },
     {
       "id": "DA_ThiefsGloves",
@@ -3442,7 +3442,7 @@
       ],
       "description": "",
       "isUnique": false,
-      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_thiefsgloves.png"
+      "icon": "/assets/set18/items/DA_ThiefsGloves.webp"
     },
     {
       "id": "DA_InfinityEdge",
@@ -3453,7 +3453,7 @@
       ],
       "description": "",
       "isUnique": false,
-      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_infinityedge.png"
+      "icon": "/assets/set18/items/DA_InfinityEdge.webp"
     },
     {
       "id": "DA_Morellonomicon",
@@ -3464,7 +3464,7 @@
       ],
       "description": "",
       "isUnique": false,
-      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_morellonomicon.png"
+      "icon": "/assets/set18/items/DA_Morellonomicon.webp"
     },
     {
       "id": "DA_18_EmblemPrimal",
@@ -3475,7 +3475,7 @@
       ],
       "description": "",
       "isUnique": false,
-      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/spatula/set18/tft18_emblem_primal.png"
+      "icon": "/assets/set18/items/DA_18_EmblemPrimal.webp"
     },
     {
       "id": "DA_ProtectorsVow",
@@ -3486,7 +3486,7 @@
       ],
       "description": "",
       "isUnique": false,
-      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_frozenheart.png"
+      "icon": "/assets/set18/items/DA_ProtectorsVow.webp"
     },
     {
       "id": "DA_Component_BFSword",
@@ -3494,7 +3494,7 @@
       "components": [],
       "description": "",
       "isUnique": false,
-      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_bfsword.png"
+      "icon": "/assets/set18/items/DA_Component_BFSword.webp"
     },
     {
       "id": "DA_WarmogsArmor",
@@ -3505,7 +3505,7 @@
       ],
       "description": "",
       "isUnique": false,
-      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_warmogsarmor.png"
+      "icon": "/assets/set18/items/DA_WarmogsArmor.webp"
     },
     {
       "id": "DA_18_EmblemSlayer",
@@ -3516,7 +3516,7 @@
       ],
       "description": "",
       "isUnique": false,
-      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/spatula/set18/tft18_emblem_ravager.png"
+      "icon": "/assets/set18/items/DA_18_EmblemSlayer.webp"
     },
     {
       "id": "DA_VoidStaff",
@@ -3527,7 +3527,7 @@
       ],
       "description": "",
       "isUnique": false,
-      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_voidstaff.png"
+      "icon": "/assets/set18/items/DA_VoidStaff.webp"
     },
     {
       "id": "DA_18_EmblemDefender",
@@ -3535,7 +3535,7 @@
       "components": [],
       "description": "",
       "isUnique": false,
-      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/spatula/set18/tft18_emblem_defender.png"
+      "icon": "/assets/set18/items/DA_18_EmblemDefender.webp"
     },
     {
       "id": "DA_DragonsClaw",
@@ -3546,7 +3546,7 @@
       ],
       "description": "",
       "isUnique": false,
-      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_dragonsclaw.png"
+      "icon": "/assets/set18/items/DA_DragonsClaw.webp"
     },
     {
       "id": "DA_18_EmblemFloraFatalis",
@@ -3554,7 +3554,7 @@
       "components": [],
       "description": "",
       "isUnique": false,
-      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/spatula/set18/tft18_emblem_florafatalis.png"
+      "icon": "/assets/set18/items/DA_18_EmblemFloraFatalis.webp"
     },
     {
       "id": "DA_18_EmblemFae",
@@ -3565,7 +3565,7 @@
       ],
       "description": "",
       "isUnique": false,
-      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/spatula/set18/tft18_emblem_fae.png"
+      "icon": "/assets/set18/items/DA_18_EmblemFae.webp"
     },
     {
       "id": "DA_SpiritVisage",
@@ -3576,7 +3576,7 @@
       ],
       "description": "",
       "isUnique": false,
-      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_spiritvisagerr.png"
+      "icon": "/assets/set18/items/DA_SpiritVisage.webp"
     },
     {
       "id": "DA_EdgeOfNight",
@@ -3587,7 +3587,7 @@
       ],
       "description": "",
       "isUnique": false,
-      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_guardianangel.png"
+      "icon": "/assets/set18/items/DA_EdgeOfNight.webp"
     },
     {
       "id": "DA_Component_RecurveBow",
@@ -3595,7 +3595,7 @@
       "components": [],
       "description": "",
       "isUnique": false,
-      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_recurvebow.png"
+      "icon": "/assets/set18/items/DA_Component_RecurveBow.webp"
     },
     {
       "id": "DA_18_EmblemSprykin",
@@ -3606,7 +3606,7 @@
       ],
       "description": "",
       "isUnique": false,
-      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/spatula/set18/tft18_emblem_sprykin.png"
+      "icon": "/assets/set18/items/DA_18_EmblemSprykin.webp"
     },
     {
       "id": "DA_TitansResolve",
@@ -3617,7 +3617,7 @@
       ],
       "description": "",
       "isUnique": false,
-      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_titansresolve.png"
+      "icon": "/assets/set18/items/DA_TitansResolve.webp"
     },
     {
       "id": "DA_18_EmblemInvoker",
@@ -3628,7 +3628,7 @@
       ],
       "description": "",
       "isUnique": false,
-      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/spatula/set18/tft18_emblem_invoker.png"
+      "icon": "/assets/set18/items/DA_18_EmblemInvoker.webp"
     },
     {
       "id": "DA_Component_GiantsBelt",
@@ -3636,7 +3636,7 @@
       "components": [],
       "description": "",
       "isUnique": false,
-      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_giantsbelt.png"
+      "icon": "/assets/set18/items/DA_Component_GiantsBelt.webp"
     },
     {
       "id": "DA_18_EmblemBrawler",
@@ -3647,7 +3647,7 @@
       ],
       "description": "",
       "isUnique": false,
-      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/spatula/set18/tft18_emblem_brawler.png"
+      "icon": "/assets/set18/items/DA_18_EmblemBrawler.webp"
     },
     {
       "id": "DA_Component_SparringGloves",
@@ -3655,7 +3655,7 @@
       "components": [],
       "description": "",
       "isUnique": false,
-      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_sparringgloves.png"
+      "icon": "/assets/set18/items/DA_Component_SparringGloves.webp"
     },
     {
       "id": "DA_Component_NeedlesslyLargeRod",
@@ -3663,7 +3663,7 @@
       "components": [],
       "description": "",
       "isUnique": false,
-      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_needlesslylargerod.png"
+      "icon": "/assets/set18/items/DA_Component_NeedlesslyLargeRod.webp"
     },
     {
       "id": "DA_TacticiansCape",
@@ -3674,7 +3674,7 @@
       ],
       "description": "",
       "isUnique": false,
-      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_tacticiansring.png"
+      "icon": "/assets/set18/items/DA_TacticiansCape.webp"
     },
     {
       "id": "DA_HextechGunblade",
@@ -3685,7 +3685,7 @@
       ],
       "description": "",
       "isUnique": false,
-      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_hextechgunblade.png"
+      "icon": "/assets/set18/items/DA_HextechGunblade.webp"
     },
     {
       "id": "DA_HandOfJustice",
@@ -3696,7 +3696,7 @@
       ],
       "description": "",
       "isUnique": false,
-      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_unstableconcoction.png"
+      "icon": "/assets/set18/items/DA_HandOfJustice.webp"
     },
     {
       "id": "DA_18_EmblemExecutioner",
@@ -3707,7 +3707,7 @@
       ],
       "description": "",
       "isUnique": false,
-      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/spatula/set18/tft18_emblem_executioner.png"
+      "icon": "/assets/set18/items/DA_18_EmblemExecutioner.webp"
     },
     {
       "id": "DA_StrikersFlail",
@@ -3718,7 +3718,7 @@
       ],
       "description": "",
       "isUnique": false,
-      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_powergauntlet.png"
+      "icon": "/assets/set18/items/DA_StrikersFlail.webp"
     },
     {
       "id": "DA_18_EmblemLunar",
@@ -3729,7 +3729,7 @@
       ],
       "description": "",
       "isUnique": false,
-      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/spatula/set18/tft18_emblem_lunar.png"
+      "icon": "/assets/set18/items/DA_18_EmblemLunar.webp"
     },
     {
       "id": "DA_SteadfastHeart",
@@ -3740,7 +3740,7 @@
       ],
       "description": "",
       "isUnique": false,
-      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_nightharvester.png"
+      "icon": "/assets/set18/items/DA_SteadfastHeart.webp"
     },
     {
       "id": "DA_GuinsoosRageblade",
@@ -3751,7 +3751,7 @@
       ],
       "description": "",
       "isUnique": false,
-      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_guinsoosrageblade.png"
+      "icon": "/assets/set18/items/DA_GuinsoosRageblade.webp"
     },
     {
       "id": "DA_18_EmblemRapidfire",
@@ -3762,7 +3762,7 @@
       ],
       "description": "",
       "isUnique": false,
-      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/spatula/set18/tft18_emblem_rapidfire.png"
+      "icon": "/assets/set18/items/DA_18_EmblemRapidfire.webp"
     },
     {
       "id": "DA_Bloodthirster",
@@ -3773,7 +3773,7 @@
       ],
       "description": "",
       "isUnique": false,
-      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_bloodthirster.png"
+      "icon": "/assets/set18/items/DA_Bloodthirster.webp"
     },
     {
       "id": "DA_IonicSpark",
@@ -3784,7 +3784,7 @@
       ],
       "description": "",
       "isUnique": false,
-      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_ionicspark.png"
+      "icon": "/assets/set18/items/DA_IonicSpark.webp"
     },
     {
       "id": "DA_RabadonsDeathcap",
@@ -3795,7 +3795,7 @@
       ],
       "description": "",
       "isUnique": false,
-      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_rabadonsdeathcap.png"
+      "icon": "/assets/set18/items/DA_RabadonsDeathcap.webp"
     },
     {
       "id": "DA_18_EmblemElderwood",
@@ -3806,7 +3806,7 @@
       ],
       "description": "",
       "isUnique": false,
-      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/spatula/set18/tft18_emblem_elderwood.png"
+      "icon": "/assets/set18/items/DA_18_EmblemElderwood.webp"
     },
     {
       "id": "DA_TacticiansCrown",
@@ -3817,7 +3817,7 @@
       ],
       "description": "",
       "isUnique": false,
-      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_forceofnature.png"
+      "icon": "/assets/set18/items/DA_TacticiansCrown.webp"
     },
     {
       "id": "DA_LastWhisper",
@@ -3828,7 +3828,7 @@
       ],
       "description": "",
       "isUnique": false,
-      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_lastwhisper.png"
+      "icon": "/assets/set18/items/DA_LastWhisper.webp"
     },
     {
       "id": "DA_Crownguard",
@@ -3839,7 +3839,7 @@
       ],
       "description": "",
       "isUnique": false,
-      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_crownguard.png"
+      "icon": "/assets/set18/items/DA_Crownguard.webp"
     },
     {
       "id": "DA_18_EmblemSpellweaver",
@@ -3850,7 +3850,7 @@
       ],
       "description": "",
       "isUnique": false,
-      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/spatula/set18/tft18_emblem_spellweaver.png"
+      "icon": "/assets/set18/items/DA_18_EmblemSpellweaver.webp"
     },
     {
       "id": "DA_18_EmblemCoven",
@@ -3858,7 +3858,7 @@
       "components": [],
       "description": "",
       "isUnique": false,
-      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/spatula/set18/tft18_emblem_coven.png"
+      "icon": "/assets/set18/items/DA_18_EmblemCoven.webp"
     },
     {
       "id": "DA_Component_Spatula",
@@ -3866,7 +3866,7 @@
       "components": [],
       "description": "",
       "isUnique": false,
-      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_spatula.png"
+      "icon": "/assets/set18/items/DA_Component_Spatula.webp"
     },
     {
       "id": "DA_SteraksGage",
@@ -3877,7 +3877,7 @@
       ],
       "description": "",
       "isUnique": false,
-      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_steraksgage.png"
+      "icon": "/assets/set18/items/DA_SteraksGage.webp"
     },
     {
       "id": "DA_SunfireCape",
@@ -3888,7 +3888,7 @@
       ],
       "description": "",
       "isUnique": false,
-      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_redbuff.png"
+      "icon": "/assets/set18/items/DA_SunfireCape.webp"
     },
     {
       "id": "DA_ArchangelsStaff",
@@ -3899,7 +3899,7 @@
       ],
       "description": "",
       "isUnique": false,
-      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_archangelsstaff.png"
+      "icon": "/assets/set18/items/DA_ArchangelsStaff.webp"
     },
     {
       "id": "DA_AdaptiveHelm",
@@ -3910,7 +3910,7 @@
       ],
       "description": "",
       "isUnique": false,
-      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_adaptivehelm.png"
+      "icon": "/assets/set18/items/DA_AdaptiveHelm.webp"
     },
     {
       "id": "DA_BrambleVest",
@@ -3921,7 +3921,7 @@
       ],
       "description": "",
       "isUnique": false,
-      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_bramblevest.png"
+      "icon": "/assets/set18/items/DA_BrambleVest.webp"
     },
     {
       "id": "DA_JeweledGauntlet",
@@ -3932,7 +3932,7 @@
       ],
       "description": "",
       "isUnique": false,
-      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_jeweledgauntlet.png"
+      "icon": "/assets/set18/items/DA_JeweledGauntlet.webp"
     },
     {
       "id": "DA_Component_ChainVest",
@@ -3940,7 +3940,7 @@
       "components": [],
       "description": "",
       "isUnique": false,
-      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_chainvest.png"
+      "icon": "/assets/set18/items/DA_Component_ChainVest.webp"
     },
     {
       "id": "DA_TacticiansShield",
@@ -3951,7 +3951,7 @@
       ],
       "description": "",
       "isUnique": false,
-      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_tacticiansscepter.png"
+      "icon": "/assets/set18/items/DA_TacticiansShield.webp"
     },
     {
       "id": "DA_Component_FryingPan",
@@ -3959,7 +3959,7 @@
       "components": [],
       "description": "",
       "isUnique": false,
-      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_fryingpan.png"
+      "icon": "/assets/set18/items/DA_Component_FryingPan.webp"
     },
     {
       "id": "DA_BlueBuff",
@@ -3970,7 +3970,7 @@
       ],
       "description": "",
       "isUnique": false,
-      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_bluebuff.png"
+      "icon": "/assets/set18/items/DA_BlueBuff.webp"
     },
     {
       "id": "DA_KrakensFury",
@@ -3981,7 +3981,7 @@
       ],
       "description": "",
       "isUnique": false,
-      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_krakenslayer.png"
+      "icon": "/assets/set18/items/DA_KrakensFury.webp"
     },
     {
       "id": "DA_GiantSlayer",
@@ -3992,7 +3992,7 @@
       ],
       "description": "",
       "isUnique": false,
-      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_madredsbloodrazor.png"
+      "icon": "/assets/set18/items/DA_GiantSlayer.webp"
     },
     {
       "id": "DA_18_EmblemBlossom",
@@ -4003,7 +4003,7 @@
       ],
       "description": "",
       "isUnique": false,
-      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/spatula/set18/tft18_emblem_blossom.png"
+      "icon": "/assets/set18/items/DA_18_EmblemBlossom.webp"
     },
     {
       "id": "DA_Deathblade",
@@ -4014,7 +4014,7 @@
       ],
       "description": "",
       "isUnique": false,
-      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_deathblade.png"
+      "icon": "/assets/set18/items/DA_Deathblade.webp"
     },
     {
       "id": "DA_18_EmblemInferno",
@@ -4025,7 +4025,7 @@
       ],
       "description": "",
       "isUnique": false,
-      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/spatula/set18/tft18_emblem_inferno.png"
+      "icon": "/assets/set18/items/DA_18_EmblemInferno.webp"
     },
     {
       "id": "DA_18_EmblemJuggernaut",
@@ -4033,7 +4033,7 @@
       "components": [],
       "description": "",
       "isUnique": false,
-      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/spatula/set18/tft18_emblem_juggernaut.png"
+      "icon": "/assets/set18/items/DA_18_EmblemJuggernaut.webp"
     }
   ]
 }

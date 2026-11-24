@@ -17,7 +17,7 @@
       "id": "Divine",
       "name": "Divine",
       "description": "Upon attacking @NumAttacksToProc@ times or dropping below @HealthThreshold@% Health, Divine champions remove all crowd control and ascend, taking @DamageReductionPercent@% reduced damage and dealing @BonusTrueDamagePercent@% bonus true damage for the duration.<br><br><expandRow>(@MinUnits@) @Duration@ seconds</expandRow>",
-      "icon": "https://raw.communitydragon.org/11.1/game/assets/ux/traiticons/trait_icon_4_divine.png",
+      "icon": "/assets/set4/traits/Divine.webp",
       "breakpoints": [
         {
           "count": 2,
@@ -73,7 +73,7 @@
       "id": "Set4_Adept",
       "name": "Adept",
       "description": "Adepts calm the flow of battle, reducing the Attack Speed of all enemies by 50% for a few seconds at the start of combat.<br><br><expandRow>(@MinUnits@) @AttackSpeedSlowDuration@ seconds</expandRow>",
-      "icon": "https://raw.communitydragon.org/11.1/game/assets/ux/traiticons/trait_icon_4_master.png",
+      "icon": "/assets/set4/traits/Set4_Adept.webp",
       "breakpoints": [
         {
           "count": 2,
@@ -105,7 +105,7 @@
       "id": "Boss",
       "name": "The Boss",
       "description": "When The Boss first drops below 40% Health, he leaves combat to start doing sit-ups. Each sit-up restores @HealPercent@% of his maximum Health and gives him @AttackSpeedPercent@% Attack and Movement Speed. If he reaches full Health he returns to combat Pumped Up: all of his attacks and spells deal true damage. If all of his allies die, he will immediately return to combat.",
-      "icon": "https://raw.communitydragon.org/11.1/game/assets/ux/traiticons/trait_icon_4_theboss.png",
+      "icon": "/assets/set4/traits/Boss.webp",
       "breakpoints": [
         {
           "count": 1,
@@ -122,7 +122,7 @@
       "id": "Set4_Brawler",
       "name": "Brawler",
       "description": "Brawlers gain bonus Health.<br><br><expandRow>(@MinUnits@) @BonusHealth@ Health</expandRow><br>",
-      "icon": "https://raw.communitydragon.org/11.1/game/assets/ux/traiticons/trait_icon_brawler.png",
+      "icon": "/assets/set4/traits/Set4_Brawler.webp",
       "breakpoints": [
         {
           "count": 2,
@@ -162,7 +162,7 @@
       "id": "Set4_Shade",
       "name": "Shade",
       "description": "Innate: When combat starts, Shades teleport to the enemy backline.<br><br>Shades dip into the shadows after every @NumberOfAttacks@ attacks, stealthing and causing their next basic attack to deal bonus magic damage.<br><br><expandRow>(@MinUnits@) @Damage@ bonus damage</expandRow>",
-      "icon": "https://raw.communitydragon.org/11.1/game/assets/ux/traiticons/trait_icon_4_shade.png",
+      "icon": "/assets/set4/traits/Set4_Shade.webp",
       "breakpoints": [
         {
           "count": 2,
@@ -197,7 +197,7 @@
       "id": "Set4_Mystic",
       "name": "Mystic",
       "description": "All allies gain Magic Resistance.<br><br><expandRow>(@MinUnits@) @MagicResist@ Magic Resistance</expandRow>",
-      "icon": "https://raw.communitydragon.org/11.1/game/assets/ux/traiticons/trait_icon_2_mystic.png",
+      "icon": "/assets/set4/traits/Set4_Mystic.webp",
       "breakpoints": [
         {
           "count": 2,
@@ -229,7 +229,7 @@
       "id": "Set4_Enlightened",
       "name": "Enlightened",
       "description": "Enlightened champions generate more Mana.<br><br><expandRow>(@MinUnits@) @ManaAmp@% increase</expandRow>",
-      "icon": "https://raw.communitydragon.org/11.1/game/assets/ux/traiticons/trait_icon_4_enlightened.png",
+      "icon": "/assets/set4/traits/Set4_Enlightened.webp",
       "breakpoints": [
         {
           "count": 2,
@@ -261,7 +261,7 @@
       "id": "Set4_Assassin",
       "name": "Assassin",
       "description": "Innate: At the start of combat, Assassins leap to the enemy backline.<br><br>Assassins gain bonus Critical Strike Damage and Chance, and their spells can critically strike.<br><br><expandRow>(@MinUnits@) +@CritAmpPercent@% Critical Strike Damage & +@CritChanceAmpPercent@% Critical Strike Chance</expandRow><br>",
-      "icon": "https://raw.communitydragon.org/11.1/game/assets/ux/traiticons/trait_icon_assassin.png",
+      "icon": "/assets/set4/traits/Set4_Assassin.webp",
       "breakpoints": [
         {
           "count": 2,
@@ -296,7 +296,7 @@
       "id": "Set4_Ninja",
       "name": "Ninja",
       "description": "Ninjas gain bonus Attack Damage and Spell Power.<br><br>This trait is only active when you have exactly 1 or 4 unique Ninjas.<br><br><row>(@MinUnits@) Ninja gains +@ADValue@ Attack Damage & +@APValue@% Spell Power</row><br><row>(@MinUnits@) All Ninjas gain +@ADValue@ Attack Damage & +@APValue@% Spell Power</row>",
-      "icon": "https://raw.communitydragon.org/11.1/game/assets/ux/traiticons/trait_icon_ninja.png",
+      "icon": "/assets/set4/traits/Set4_Ninja.webp",
       "breakpoints": [
         {
           "count": 1,
@@ -322,7 +322,7 @@
       "id": "Duelist",
       "name": "Duelist",
       "description": "Innate: Duelists gain bonus Movement Speed.<br><br>Duelists' attacks grant Attack Speed, up to @MaxStacks@ stacks.<br><br><expandRow>(@MinUnits@) +@AttackSpeed@% Attack Speed per stack</expandRow>",
-      "icon": "https://raw.communitydragon.org/11.1/game/assets/ux/traiticons/trait_icon_4_duelist.png",
+      "icon": "/assets/set4/traits/Duelist.webp",
       "breakpoints": [
         {
           "count": 2,
@@ -366,7 +366,7 @@
       "id": "Moonlight",
       "name": "Moonlight",
       "description": "(@MinUnits@) At the start of combat, a number of Moonlight Champions star up once until combat ends.<br><br>(Prioritizes the lowest star-level champions. If tied, champions with the most items are chosen.)<br><br><row>(@MinUnits@) @NumberOfChampions@ Champion</row><br><row>(@MinUnits@) @NumberOfChampions@ Champions</row>",
-      "icon": "https://raw.communitydragon.org/11.1/game/assets/ux/traiticons/trait_icon_4_moonlight.png",
+      "icon": "/assets/set4/traits/Moonlight.webp",
       "breakpoints": [
         {
           "count": 3,
@@ -390,7 +390,7 @@
       "id": "Warlord",
       "name": "Warlord",
       "description": "Warlords have bonus Health and Spell Power. Each victorious combat they participate in increases the bonus by @VictoryPercent@%, stacking up to @MaxCombats@ times.<br><br><expandRow>(@MinUnits@) @InitialHealth@ Health & @InitialSP@ Spell Power</expandRow>",
-      "icon": "https://raw.communitydragon.org/11.1/game/assets/ux/traiticons/trait_icon_4_warlord.png",
+      "icon": "/assets/set4/traits/Warlord.webp",
       "breakpoints": [
         {
           "count": 3,
@@ -431,7 +431,7 @@
       "id": "Fortune",
       "name": "Fortune",
       "description": "<row>(@MinUnits@) Winning combat against a player will give bonus orbs. The longer you've gone without an orb, the bigger the payout! </row><br><row>(@MinUnits@) Wins give an extra bonus orb with rare loot.</row><br>",
-      "icon": "https://raw.communitydragon.org/11.1/game/assets/ux/traiticons/trait_icon_4_fortune.png",
+      "icon": "/assets/set4/traits/Fortune.webp",
       "breakpoints": [
         {
           "count": 3,
@@ -455,7 +455,7 @@
       "id": "Set4_Spirit",
       "name": "Spirit",
       "description": "The first time a Spirit casts their spell, all allies gain Attack Speed based on the spell's mana cost.<br><br><row>(@MinUnits@) @AttackSpeedManaCostPercent@% of mana cost</row><br><row>(@MinUnits@) @AttackSpeedManaCostPercent@% of mana cost</row><br>",
-      "icon": "https://raw.communitydragon.org/11.1/game/assets/ux/traiticons/trait_icon_4_spirit.png",
+      "icon": "/assets/set4/traits/Set4_Spirit.webp",
       "breakpoints": [
         {
           "count": 2,
@@ -479,7 +479,7 @@
       "id": "Emperor",
       "name": "Emperor",
       "description": "The Emperor deploys with two Sand Guards who can be placed anywhere on the battlefield. They do not move or attack, and die when their Emperor does.",
-      "icon": "https://raw.communitydragon.org/11.1/game/assets/ux/traiticons/trait_icon_4_emperor.png",
+      "icon": "/assets/set4/traits/Emperor.webp",
       "breakpoints": [
         {
           "count": 1,
@@ -493,7 +493,7 @@
       "id": "Set4_Exile",
       "name": "Exile",
       "description": "If an Exile has no adjacent allies at the start of combat, they gain:<br><br><row>(@MinUnits@) A shield equal to @ShieldPercent@% of their maximum health</row><br><row>(@MinUnits@) And @LifeSteal@% Lifesteal</row><br><br>",
-      "icon": "https://raw.communitydragon.org/11.1/game/assets/ux/traiticons/trait_icon_exile.png",
+      "icon": "/assets/set4/traits/Set4_Exile.webp",
       "breakpoints": [
         {
           "count": 1,
@@ -519,7 +519,7 @@
       "id": "Dusk",
       "name": "Dusk",
       "description": "Dusk champions increase all allies' Spell Power.<br><row>(@MinUnits@) All allies gain @TeamSpellPower@% Spell Power</row><br><row>(@MinUnits@) And Dusk champions gain an additional @DuskSpellPower@%</row><br><row>(@MinUnits@) @TeamSpellPower@% Spell Power for all, and an extra @DuskSpellPower@% for Dusk champions</row><br>",
-      "icon": "https://raw.communitydragon.org/11.1/game/assets/ux/traiticons/trait_icon_4_dusk.png",
+      "icon": "/assets/set4/traits/Dusk.webp",
       "breakpoints": [
         {
           "count": 2,
@@ -554,7 +554,7 @@
       "id": "Set4_Elderwood",
       "name": "Elderwood",
       "description": "Every two seconds all Elderwood champions grow, gaining bonus stats. This effect stacks up to five times.<br><br><expandRow>(@MinUnits@) @BonusResists@ Armor and Magic Resist, @BonusADSP@ Attack Damage and Spell Power</expandRow>",
-      "icon": "https://raw.communitydragon.org/11.1/game/assets/ux/traiticons/trait_icon_4_wilderness.png",
+      "icon": "/assets/set4/traits/Set4_Elderwood.webp",
       "breakpoints": [
         {
           "count": 3,
@@ -598,7 +598,7 @@
       "id": "Set4_Mage",
       "name": "Mage",
       "description": "Mages cast twice and have modified Spell Power.<br><br><expandRow>(@MinUnits@) @SPPercent@% of their total Spell Power</expandRow>",
-      "icon": "https://raw.communitydragon.org/11.1/game/assets/ux/traiticons/trait_icon_2_mage.png",
+      "icon": "/assets/set4/traits/Set4_Mage.webp",
       "breakpoints": [
         {
           "count": 3,
@@ -633,7 +633,7 @@
       "id": "Set4_Tormented",
       "name": "Tormented",
       "description": "Tormented can be transformed after participating in @RoundsToTransform@ combats, enhancing their abilities.",
-      "icon": "https://raw.communitydragon.org/11.1/game/assets/ux/traiticons/trait_icon_4_tormented.png",
+      "icon": "/assets/set4/traits/Set4_Tormented.webp",
       "breakpoints": [
         {
           "count": 1,
@@ -649,7 +649,7 @@
       "id": "Hunter",
       "name": "Hunter",
       "description": "Every few seconds, all Hunters will attack the lowest percent Health enemy, dealing bonus damage.<br><br><expandRow>(@MinUnits@) @DamageAmp@% bonus damage every @ShotFrequency@ seconds</expandRow>",
-      "icon": "https://raw.communitydragon.org/11.1/game/assets/ux/traiticons/trait_icon_4_hunter.png",
+      "icon": "/assets/set4/traits/Hunter.webp",
       "breakpoints": [
         {
           "count": 2,
@@ -693,7 +693,7 @@
       "id": "Sharpshooter",
       "name": "Sharpshooter",
       "description": "Sharpshooters' attacks and spells ricochet to nearby enemies, dealing reduced damage.<br><br><expandRow>(@MinUnits@) @MaxBounces@ ricochets with @PercentDamageReduction@% reduced damage</expandRow><br><br><br>",
-      "icon": "https://raw.communitydragon.org/11.1/game/assets/ux/traiticons/trait_icon_4_sharpshooter.png",
+      "icon": "/assets/set4/traits/Sharpshooter.webp",
       "breakpoints": [
         {
           "count": 2,
@@ -728,7 +728,7 @@
       "id": "Set4_Vanguard",
       "name": "Vanguard",
       "description": "Vanguard champions gain bonus Armor.<br><br><expandRow>(@MinUnits@) @Armor@ Armor</expandRow>",
-      "icon": "https://raw.communitydragon.org/11.1/game/assets/ux/traiticons/trait_icon_3_vanguard.png",
+      "icon": "/assets/set4/traits/Set4_Vanguard.webp",
       "breakpoints": [
         {
           "count": 2,
@@ -768,7 +768,7 @@
       "id": "Cultist",
       "name": "Cultist",
       "description": "Once your team loses @CultistHealthPercentTaken@% of their Health, Galio is summoned, slamming into the largest cluster of enemies and knocking them up. Galio's strength increases based on the total star level of all active Cultists.<br><row>(@MinUnits@) Tyrant Galio</row><br><row>(@MinUnits@) Demon Lord Galio</row><br><row>(@MinUnits@) Supreme Overlord Galio</row>",
-      "icon": "https://raw.communitydragon.org/11.1/game/assets/ux/traiticons/trait_icon_4_cultist.png",
+      "icon": "/assets/set4/traits/Cultist.webp",
       "breakpoints": [
         {
           "count": 3,
@@ -812,7 +812,7 @@
       "id": "Set4_Dazzler",
       "name": "Dazzler",
       "description": "Dazzlers' spells reduce the Attack Damage of enemies hit for @Duration@ seconds.<br><br><expandRow>(@MinUnits@) @ADReduction@% Attack Damage reduction</expandRow><br>",
-      "icon": "https://raw.communitydragon.org/11.1/game/assets/ux/traiticons/trait_icon_4_dazzler.png",
+      "icon": "/assets/set4/traits/Set4_Dazzler.webp",
       "breakpoints": [
         {
           "count": 2,
@@ -838,7 +838,7 @@
       "id": "Keeper",
       "name": "Keeper",
       "description": "At the start of combat, Keepers grant themselves and all adjacent allies a Shield for a duration. This Shield is 50% stronger on Keepers.<br><br><expandRow>(@MinUnits@) @ShieldAmount@ Shield, @Duration@ seconds</expandRow>",
-      "icon": "https://raw.communitydragon.org/11.1/game/assets/ux/traiticons/trait_icon_4_keeper.png",
+      "icon": "/assets/set4/traits/Keeper.webp",
       "breakpoints": [
         {
           "count": 2,
@@ -919,7 +919,7 @@
           ]
         }
       },
-      "icon": "https://raw.communitydragon.org/11.1/game/assets/ux/tft/championsplashes/tft4_aatrox.tft_set4.png"
+      "icon": "/assets/set4/champions/TFT4_Aatrox.webp"
     },
     {
       "id": "TFT4_Ahri",
@@ -975,7 +975,7 @@
           ]
         }
       },
-      "icon": "https://raw.communitydragon.org/11.1/game/assets/ux/tft/championsplashes/tft4_ahri.tft_set4.png"
+      "icon": "/assets/set4/champions/TFT4_Ahri.webp"
     },
     {
       "id": "TFT4_Akali",
@@ -1031,7 +1031,7 @@
           ]
         }
       },
-      "icon": "https://raw.communitydragon.org/11.1/game/assets/ux/tft/championsplashes/tft4_akali.tft_set4.png"
+      "icon": "/assets/set4/champions/TFT4_Akali.webp"
     },
     {
       "id": "TFT4_Annie",
@@ -1087,7 +1087,7 @@
           ]
         }
       },
-      "icon": "https://raw.communitydragon.org/11.1/game/assets/ux/tft/championsplashes/tft4_annie.tft_set4.png"
+      "icon": "/assets/set4/champions/TFT4_Annie.webp"
     },
     {
       "id": "TFT4_Aphelios",
@@ -1125,7 +1125,7 @@
           ]
         }
       },
-      "icon": "https://raw.communitydragon.org/11.1/game/assets/ux/tft/championsplashes/tft4_aphelios.tft_set4.png"
+      "icon": "/assets/set4/champions/TFT4_Aphelios.webp"
     },
     {
       "id": "TFT4_Ashe",
@@ -1190,7 +1190,7 @@
           ]
         }
       },
-      "icon": "https://raw.communitydragon.org/11.1/game/assets/ux/tft/championsplashes/tft4_ashe.tft_set4.png"
+      "icon": "/assets/set4/champions/TFT4_Ashe.webp"
     },
     {
       "id": "TFT4_Azir",
@@ -1274,7 +1274,7 @@
           ]
         }
       },
-      "icon": "https://raw.communitydragon.org/11.1/game/assets/ux/tft/championsplashes/tft4_azir.tft_set4.png"
+      "icon": "/assets/set4/champions/TFT4_Azir.webp"
     },
     {
       "id": "TFT4_Cassiopeia",
@@ -1348,7 +1348,7 @@
           ]
         }
       },
-      "icon": "https://raw.communitydragon.org/11.1/game/assets/ux/tft/championsplashes/tft4_cassiopeia.tft_set4.png"
+      "icon": "/assets/set4/champions/TFT4_Cassiopeia.webp"
     },
     {
       "id": "TFT4_Diana",
@@ -1413,7 +1413,7 @@
           ]
         }
       },
-      "icon": "https://raw.communitydragon.org/11.1/game/assets/ux/tft/championsplashes/tft4_diana.tft_set4.png"
+      "icon": "/assets/set4/champions/TFT4_Diana.webp"
     },
     {
       "id": "TFT4_Elise",
@@ -1469,7 +1469,7 @@
           ]
         }
       },
-      "icon": "https://raw.communitydragon.org/11.1/game/assets/ux/tft/championsplashes/tft4_elise.tft_set4.png"
+      "icon": "/assets/set4/champions/TFT4_Elise.webp"
     },
     {
       "id": "TFT4_Evelynn",
@@ -1534,7 +1534,7 @@
           ]
         }
       },
-      "icon": "https://raw.communitydragon.org/11.1/game/assets/ux/tft/championsplashes/tft4_evelynn.tft_set4.png"
+      "icon": "/assets/set4/champions/TFT4_Evelynn.webp"
     },
     {
       "id": "TFT4_Fiora",
@@ -1590,7 +1590,7 @@
           ]
         }
       },
-      "icon": "https://raw.communitydragon.org/11.1/game/assets/ux/tft/championsplashes/tft4_fiora.tft_set4.png"
+      "icon": "/assets/set4/champions/TFT4_Fiora.webp"
     },
     {
       "id": "TFT4_Garen",
@@ -1655,7 +1655,7 @@
           ]
         }
       },
-      "icon": "https://raw.communitydragon.org/11.1/game/assets/ux/tft/championsplashes/tft4_garen.tft_set4.png"
+      "icon": "/assets/set4/champions/TFT4_Garen.webp"
     },
     {
       "id": "TFT4_Hecarim",
@@ -1729,7 +1729,7 @@
           ]
         }
       },
-      "icon": "https://raw.communitydragon.org/11.1/game/assets/ux/tft/championsplashes/tft4_hecarim.tft_set4.png"
+      "icon": "/assets/set4/champions/TFT4_Hecarim.webp"
     },
     {
       "id": "TFT4_Irelia",
@@ -1777,7 +1777,7 @@
           ]
         }
       },
-      "icon": "https://raw.communitydragon.org/11.1/game/assets/ux/tft/championsplashes/tft4_irelia.tft_set4.png"
+      "icon": "/assets/set4/champions/TFT4_Irelia.webp"
     },
     {
       "id": "TFT4_Janna",
@@ -1842,7 +1842,7 @@
           ]
         }
       },
-      "icon": "https://raw.communitydragon.org/11.1/game/assets/ux/tft/championsplashes/tft4_janna.tft_set4.png"
+      "icon": "/assets/set4/champions/TFT4_Janna.webp"
     },
     {
       "id": "TFT4_Jhin",
@@ -1898,7 +1898,7 @@
           ]
         }
       },
-      "icon": "https://raw.communitydragon.org/11.1/game/assets/ux/tft/championsplashes/tft4_jhin.tft_set4.png"
+      "icon": "/assets/set4/champions/TFT4_Jhin.webp"
     },
     {
       "id": "TFT4_Jax",
@@ -1963,7 +1963,7 @@
           ]
         }
       },
-      "icon": "https://raw.communitydragon.org/11.1/game/assets/ux/tft/championsplashes/tft4_jax.tft_set4.png"
+      "icon": "/assets/set4/champions/TFT4_Jax.webp"
     },
     {
       "id": "TFT4_Jinx",
@@ -2010,7 +2010,7 @@
           ]
         }
       },
-      "icon": "https://raw.communitydragon.org/11.1/game/assets/ux/tft/championsplashes/tft4_jinx.tft_set4.png"
+      "icon": "/assets/set4/champions/TFT4_Jinx.webp"
     },
     {
       "id": "TFT4_Kalista",
@@ -2048,7 +2048,7 @@
           ]
         }
       },
-      "icon": "https://raw.communitydragon.org/11.1/game/assets/ux/tft/championsplashes/tft4_kalista.tft_set4.png"
+      "icon": "/assets/set4/champions/TFT4_Kalista.webp"
     },
     {
       "id": "TFT4_Kennen",
@@ -2113,7 +2113,7 @@
           ]
         }
       },
-      "icon": "https://raw.communitydragon.org/11.1/game/assets/ux/tft/championsplashes/tft4_kennen.tft_set4.png"
+      "icon": "/assets/set4/champions/TFT4_Kennen.webp"
     },
     {
       "id": "TFT4_Kindred",
@@ -2169,7 +2169,7 @@
           ]
         }
       },
-      "icon": "https://raw.communitydragon.org/11.1/game/assets/ux/tft/championsplashes/tft4_kindred.tft_set4.png"
+      "icon": "/assets/set4/champions/TFT4_Kindred.webp"
     },
     {
       "id": "TFT4_LeeSin",
@@ -2225,7 +2225,7 @@
           ]
         }
       },
-      "icon": "https://raw.communitydragon.org/11.1/game/assets/ux/tft/championsplashes/tft4_leesin.tft_set4.png"
+      "icon": "/assets/set4/champions/TFT4_LeeSin.webp"
     },
     {
       "id": "TFT4_Lillia",
@@ -2290,7 +2290,7 @@
           ]
         }
       },
-      "icon": "https://raw.communitydragon.org/11.1/game/assets/ux/tft/championsplashes/tft4_lillia.tft_set4.png"
+      "icon": "/assets/set4/champions/TFT4_Lillia.webp"
     },
     {
       "id": "TFT4_Lulu",
@@ -2355,7 +2355,7 @@
           ]
         }
       },
-      "icon": "https://raw.communitydragon.org/11.1/game/assets/ux/tft/championsplashes/tft4_lulu.tft_set4.png"
+      "icon": "/assets/set4/champions/TFT4_Lulu.webp"
     },
     {
       "id": "TFT4_Lux",
@@ -2402,7 +2402,7 @@
           ]
         }
       },
-      "icon": "https://raw.communitydragon.org/11.1/game/assets/ux/tft/championsplashes/tft4_lux.tft_set4.png"
+      "icon": "/assets/set4/champions/TFT4_Lux.webp"
     },
     {
       "id": "TFT4_Maokai",
@@ -2449,7 +2449,7 @@
           ]
         }
       },
-      "icon": "https://raw.communitydragon.org/11.1/game/assets/ux/tft/championsplashes/tft4_maokai.tft_set4.png"
+      "icon": "/assets/set4/champions/TFT4_Maokai.webp"
     },
     {
       "id": "TFT4_Morgana",
@@ -2505,7 +2505,7 @@
           ]
         }
       },
-      "icon": "https://raw.communitydragon.org/11.1/game/assets/ux/tft/championsplashes/tft4_morgana.tft_set4.png"
+      "icon": "/assets/set4/champions/TFT4_Morgana.webp"
     },
     {
       "id": "TFT4_Nami",
@@ -2552,7 +2552,7 @@
           ]
         }
       },
-      "icon": "https://raw.communitydragon.org/11.1/game/assets/ux/tft/championsplashes/tft4_nami.tft_set4.png"
+      "icon": "/assets/set4/champions/TFT4_Nami.webp"
     },
     {
       "id": "TFT4_Nidalee",
@@ -2599,7 +2599,7 @@
           ]
         }
       },
-      "icon": "https://raw.communitydragon.org/11.1/game/assets/ux/tft/championsplashes/tft4_nidalee.tft_set4.png"
+      "icon": "/assets/set4/champions/TFT4_Nidalee.webp"
     },
     {
       "id": "TFT4_Pyke",
@@ -2655,7 +2655,7 @@
           ]
         }
       },
-      "icon": "https://raw.communitydragon.org/11.1/game/assets/ux/tft/championsplashes/tft4_pyke.tft_set4.png"
+      "icon": "/assets/set4/champions/TFT4_Pyke.webp"
     },
     {
       "id": "TFT4_Nunu",
@@ -2702,7 +2702,7 @@
           ]
         }
       },
-      "icon": "https://raw.communitydragon.org/11.1/game/assets/ux/tft/championsplashes/tft4_nunu.tft_set4.png"
+      "icon": "/assets/set4/champions/TFT4_Nunu.webp"
     },
     {
       "id": "TFT4_Riven",
@@ -2776,7 +2776,7 @@
           ]
         }
       },
-      "icon": "https://raw.communitydragon.org/11.1/game/assets/ux/tft/championsplashes/tft4_riven.tft_set4.png"
+      "icon": "/assets/set4/champions/TFT4_Riven.webp"
     },
     {
       "id": "TFT4_Sejuani",
@@ -2841,7 +2841,7 @@
           ]
         }
       },
-      "icon": "https://raw.communitydragon.org/11.1/game/assets/ux/tft/championsplashes/tft4_sejuani.tft_set4.png"
+      "icon": "/assets/set4/champions/TFT4_Sejuani.webp"
     },
     {
       "id": "TFT4_Sett",
@@ -2888,7 +2888,7 @@
           ]
         }
       },
-      "icon": "https://raw.communitydragon.org/11.1/game/assets/ux/tft/championsplashes/tft4_sett.tft_set4.png"
+      "icon": "/assets/set4/champions/TFT4_Sett.webp"
     },
     {
       "id": "TFT4_Shen",
@@ -2936,7 +2936,7 @@
           ]
         }
       },
-      "icon": "https://raw.communitydragon.org/11.1/game/assets/ux/tft/championsplashes/tft4_shen.tft_set4.png"
+      "icon": "/assets/set4/champions/TFT4_Shen.webp"
     },
     {
       "id": "TFT4_Sylas",
@@ -2992,7 +2992,7 @@
           ]
         }
       },
-      "icon": "https://raw.communitydragon.org/11.1/game/assets/ux/tft/championsplashes/tft4_sylas.tft_set4.png"
+      "icon": "/assets/set4/champions/TFT4_Sylas.webp"
     },
     {
       "id": "TFT4_TahmKench",
@@ -3030,7 +3030,7 @@
           ]
         }
       },
-      "icon": "https://raw.communitydragon.org/11.1/game/assets/ux/tft/championsplashes/tft4_tahmkench.tft_set4.png"
+      "icon": "/assets/set4/champions/TFT4_TahmKench.webp"
     },
     {
       "id": "TFT4_Talon",
@@ -3077,7 +3077,7 @@
           ]
         }
       },
-      "icon": "https://raw.communitydragon.org/11.1/game/assets/ux/tft/championsplashes/tft4_talon.tft_set4.png"
+      "icon": "/assets/set4/champions/TFT4_Talon.webp"
     },
     {
       "id": "TFT4_Teemo",
@@ -3133,7 +3133,7 @@
           ]
         }
       },
-      "icon": "https://raw.communitydragon.org/11.1/game/assets/ux/tft/championsplashes/tft4_teemo.tft_set4.png"
+      "icon": "/assets/set4/champions/TFT4_Teemo.webp"
     },
     {
       "id": "TFT4_Thresh",
@@ -3189,7 +3189,7 @@
           ]
         }
       },
-      "icon": "https://raw.communitydragon.org/11.1/game/assets/ux/tft/championsplashes/tft4_thresh.tft_set4.png"
+      "icon": "/assets/set4/champions/TFT4_Thresh.webp"
     },
     {
       "id": "TFT4_Lissandra",
@@ -3236,7 +3236,7 @@
           ]
         }
       },
-      "icon": "https://raw.communitydragon.org/11.1/game/assets/ux/tft/championsplashes/tft4_lissandra.tft_set4.png"
+      "icon": "/assets/set4/champions/TFT4_Lissandra.webp"
     },
     {
       "id": "TFT4_TwistedFate",
@@ -3274,7 +3274,7 @@
           ]
         }
       },
-      "icon": "https://raw.communitydragon.org/11.1/game/assets/ux/tft/championsplashes/tft4_twistedfate.tft_set4.png"
+      "icon": "/assets/set4/champions/TFT4_TwistedFate.webp"
     },
     {
       "id": "TFT4_Vayne",
@@ -3312,7 +3312,7 @@
           ]
         }
       },
-      "icon": "https://raw.communitydragon.org/11.1/game/assets/ux/tft/championsplashes/tft4_vayne.tft_set4.png"
+      "icon": "/assets/set4/champions/TFT4_Vayne.webp"
     },
     {
       "id": "TFT4_Veigar",
@@ -3359,7 +3359,7 @@
           ]
         }
       },
-      "icon": "https://raw.communitydragon.org/11.1/game/assets/ux/tft/championsplashes/tft4_veigar.tft_set4.png"
+      "icon": "/assets/set4/champions/TFT4_Veigar.webp"
     },
     {
       "id": "TFT4_Wukong",
@@ -3406,7 +3406,7 @@
           ]
         }
       },
-      "icon": "https://raw.communitydragon.org/11.1/game/assets/ux/tft/championsplashes/tft4_wukong.tft_set4.png"
+      "icon": "/assets/set4/champions/TFT4_Wukong.webp"
     },
     {
       "id": "TFT4_XinZhao",
@@ -3498,7 +3498,7 @@
           ]
         }
       },
-      "icon": "https://raw.communitydragon.org/11.1/game/assets/ux/tft/championsplashes/tft4_xinzhao.tft_set4.png"
+      "icon": "/assets/set4/champions/TFT4_XinZhao.webp"
     },
     {
       "id": "TFT4_Yasuo",
@@ -3554,7 +3554,7 @@
           ]
         }
       },
-      "icon": "https://raw.communitydragon.org/11.1/game/assets/ux/tft/championsplashes/tft4_yasuo.tft_set4.png"
+      "icon": "/assets/set4/champions/TFT4_Yasuo.webp"
     },
     {
       "id": "TFT4_Yone",
@@ -3628,7 +3628,7 @@
           ]
         }
       },
-      "icon": "https://raw.communitydragon.org/11.1/game/assets/ux/tft/championsplashes/tft4_yone.tft_set4.png"
+      "icon": "/assets/set4/champions/TFT4_Yone.webp"
     },
     {
       "id": "TFT4_Yuumi",
@@ -3693,7 +3693,7 @@
           ]
         }
       },
-      "icon": "https://raw.communitydragon.org/11.1/game/assets/ux/tft/championsplashes/tft4_yuumi.tft_set4.png"
+      "icon": "/assets/set4/champions/TFT4_Yuumi.webp"
     },
     {
       "id": "TFT4_Zed",
@@ -3740,7 +3740,7 @@
           ]
         }
       },
-      "icon": "https://raw.communitydragon.org/11.1/game/assets/ux/tft/championsplashes/tft4_zed.tft_set4.png"
+      "icon": "/assets/set4/champions/TFT4_Zed.webp"
     },
     {
       "id": "TFT4_Zilean",
@@ -3805,7 +3805,7 @@
           ]
         }
       },
-      "icon": "https://raw.communitydragon.org/11.1/game/assets/ux/tft/championsplashes/tft4_zilean.tft_set4.png"
+      "icon": "/assets/set4/champions/TFT4_Zilean.webp"
     },
     {
       "id": "TFT4_Vi",
@@ -3861,7 +3861,7 @@
           ]
         }
       },
-      "icon": "https://raw.communitydragon.org/11.1/game/assets/ux/tft/championsplashes/tft4_vi.tft_set4.png"
+      "icon": "/assets/set4/champions/TFT4_Vi.webp"
     },
     {
       "id": "TFT4_JarvanIV",
@@ -3908,7 +3908,7 @@
           ]
         }
       },
-      "icon": "https://raw.communitydragon.org/11.1/game/assets/ux/tft/championsplashes/tft4_jarvaniv.tft_set4.png"
+      "icon": "/assets/set4/champions/TFT4_JarvanIV.webp"
     },
     {
       "id": "TFT4_Kayn",
@@ -3973,7 +3973,7 @@
           ]
         }
       },
-      "icon": "https://raw.communitydragon.org/11.1/game/assets/ux/tft/championsplashes/tft4_kayn.tft_set4.png"
+      "icon": "/assets/set4/champions/TFT4_Kayn.webp"
     },
     {
       "id": "TFT4_Katarina",
@@ -4057,7 +4057,7 @@
           ]
         }
       },
-      "icon": "https://raw.communitydragon.org/11.1/game/assets/ux/tft/championsplashes/tft4_katarina.tft_set4.png"
+      "icon": "/assets/set4/champions/TFT4_Katarina.webp"
     },
     {
       "id": "TFT4_Ezreal",
@@ -4122,7 +4122,7 @@
           ]
         }
       },
-      "icon": "https://raw.communitydragon.org/11.1/game/assets/ux/tft/championsplashes/tft4_ezreal.tft_set4.png"
+      "icon": "/assets/set4/champions/TFT4_Ezreal.webp"
     },
     {
       "id": "TFT4_Warwick",
@@ -4197,7 +4197,7 @@
           ]
         }
       },
-      "icon": "https://raw.communitydragon.org/11.1/game/assets/ux/tft/championsplashes/tft4_warwick.tft_set4.png"
+      "icon": "/assets/set4/champions/TFT4_Warwick.webp"
     }
   ],
   "items": [
@@ -4210,7 +4210,7 @@
       ],
       "description": "<tftitemrules>Chiếc mũ này có thể giúp bạn xoay chuyển cả thế giới.</tftitemrules><br><br>@TFTUnitProperty.:TFT_Augment_DeadlierCaps_TRAKey@",
       "isUnique": false,
-      "icon": "https://raw.communitydragon.org/11.1/game/assets/maps/particles/tft/tft_item_rabadonsdeathcap.png"
+      "icon": "/assets/set4/items/TFT_Item_RabadonsDeathcap.webp"
     },
     {
       "id": "TFT_Item_InfinityEdge",
@@ -4221,7 +4221,7 @@
       ],
       "description": "Nhận <TFTKeyword>Chuẩn Xác</TFTKeyword>.<br><br>{{TFT_Keyword_Precision}}",
       "isUnique": true,
-      "icon": "https://raw.communitydragon.org/11.1/game/assets/maps/particles/tft/tft_item_infinityedge.png"
+      "icon": "/assets/set4/items/TFT_Item_InfinityEdge.webp"
     },
     {
       "id": "TFT_Item_Set4Divine",
@@ -4232,7 +4232,7 @@
       ],
       "description": "The holder gains the Divine trait.<br><br><tftitemrules>[Unique - Only One Per Champion]</tftitemrules>",
       "isUnique": true,
-      "icon": "https://raw.communitydragon.org/11.1/game/assets/maps/particles/tft/tft_item_set4divine.tft_set4.png"
+      "icon": "/assets/set4/items/TFT_Item_Set4Divine.webp"
     },
     {
       "id": "TFT4_Item_KaynsLiberation",
@@ -4240,7 +4240,7 @@
       "components": [],
       "description": "Place on Kayn to free him from Rhaast, permanently improving his Reaping Slash spell to deal bonus damage at the start of combat.<br><br><tftitemrules>[KAYN CONSUMABLE - This item disappears when used and DESTROYS Rhaast's Embrace]</tftitemrules><br><br><tftitemrules>[Can only be used during the Planning Phase]</tftitemrules>",
       "isUnique": false,
-      "icon": "https://raw.communitydragon.org/11.1/game/assets/maps/particles/tft/tft4_consumable_kaynblue.tft_set4.png"
+      "icon": "/assets/set4/items/TFT4_Item_KaynsLiberation.webp"
     },
     {
       "id": "TFT_Item_TalismanofLight",
@@ -4251,7 +4251,7 @@
       ],
       "description": "The wearer is also Light.<br><br><tftitemrules>[Unique - Only One Per Champion]</tftitemrules>",
       "isUnique": true,
-      "icon": "https://raw.communitydragon.org/11.1/game/assets/maps/particles/tft/tft_item_talismanoflight.png"
+      "icon": "/assets/set4/items/TFT_Item_TalismanofLight.webp"
     },
     {
       "id": "TFT_Item_Shroud",
@@ -4262,7 +4262,7 @@
       ],
       "description": "Bắt đầu giao tranh: Bắn một tia khiến kẻ địch chịu @CostIncrease@% <TFTKeyword>Tăng Năng Lượng</TFTKeyword>.<br><br>Đội của bạn nhận được @BonusAllyHealth@ Máu.<br><br><tftitemrules>[Trang Bị Hỗ Trợ] [Duy Nhất - chỉ 1 mỗi tướng]<br><tftbold>Tăng Năng Lượng</tftbold>: Tăng Năng Lượng tối đa cho tới lần tung chiêu tiếp theo</tftitemrules><br>@TFTUnitProperty.:TFT_BindOnEquipTRA@",
       "isUnique": true,
-      "icon": "https://raw.communitydragon.org/11.1/game/assets/maps/particles/tft/tft_item_shroud.tft_set3.png"
+      "icon": "/assets/set4/items/TFT_Item_Shroud.webp"
     },
     {
       "id": "TFT_Item_WardensMail",
@@ -4273,7 +4273,7 @@
       ],
       "description": "The wearer is also a Warden.<br><br><tftitemrules>[Unique - Only One Per Champion]</tftitemrules>",
       "isUnique": true,
-      "icon": "https://raw.communitydragon.org/11.1/game/assets/maps/particles/tft/tft_item_wardensmail.png"
+      "icon": "/assets/set4/items/TFT_Item_WardensMail.webp"
     },
     {
       "id": "TFT_Item_Zephyr",
@@ -4284,7 +4284,7 @@
       ],
       "description": "Bắt đầu giao tranh: Triệu hồi lốc xoáy ở phía bên kia sân đấu, loại bỏ kẻ địch gần nhất khỏi sân đấu trong @BanishDuration@ giây. <br><br>Đội của bạn nhận được @AllyBonusAS@% Tốc Độ Đánh.<br><br><tftitemrules>[Trang Bị Hỗ Trợ]<br>[Bỏ qua khả năng miễn nhiễm khống chế.]<br>[Duy Nhất - chỉ 1 mỗi tướng]</tftitemrules><br>@TFTUnitProperty.:TFT_BindOnEquipTRA@",
       "isUnique": true,
-      "icon": "https://raw.communitydragon.org/11.1/game/assets/maps/particles/tft/tft_item_zephyr.png"
+      "icon": "/assets/set4/items/TFT_Item_Zephyr.webp"
     },
     {
       "id": "TFT_Item_ZekesHerald",
@@ -4295,7 +4295,7 @@
       ],
       "description": "Bắt đầu giao tranh: Tăng %i:scaleAS% @AttackSpeed@% Tốc Độ Đánh cho chủ sở hữu và đồng minh trong phạm vi 2 ô cùng hàng.<br><br>​<tftitemrules>[Trang Bị Hỗ Trợ]</tftitemrules>",
       "isUnique": false,
-      "icon": "https://raw.communitydragon.org/11.1/game/assets/maps/particles/tft/tft_item_zekesherald.png"
+      "icon": "/assets/set4/items/TFT_Item_ZekesHerald.webp"
     },
     {
       "id": "TFT_Item_ThiefsGloves",
@@ -4306,7 +4306,7 @@
       ],
       "description": "Mỗi vòng: Mang 2 trang bị ngẫu nhiên.<br><br><tftitemrules>[Tốn 3 ô trang bị.]</tftitemrules><br>@TFTUnitProperty.:TFT_BindOnEquipTRA@",
       "isUnique": false,
-      "icon": "https://raw.communitydragon.org/11.1/game/assets/maps/particles/tft/tft_item_thiefsgloves.png"
+      "icon": "/assets/set4/items/TFT_Item_ThiefsGloves.webp"
     },
     {
       "id": "TFT_Item_GuinsoosRageblade",
@@ -4317,7 +4317,7 @@
       ],
       "description": "Nhận @AttackSpeedPerStack@% Tốc Độ Đánh cộng dồn mỗi giây.",
       "isUnique": false,
-      "icon": "https://raw.communitydragon.org/11.1/game/assets/maps/particles/tft/tft_item_guinsoosrageblade.png"
+      "icon": "/assets/set4/items/TFT_Item_GuinsoosRageblade.webp"
     },
     {
       "id": "TFT_Item_Set4Duelist",
@@ -4328,7 +4328,7 @@
       ],
       "description": "The holder gains the Duelist trait.<br><br><tftitemrules>[Unique - Only One Per Champion]</tftitemrules>",
       "isUnique": true,
-      "icon": "https://raw.communitydragon.org/11.1/game/assets/maps/particles/tft/tft_item_set4duelist.tft_set4.png"
+      "icon": "/assets/set4/items/TFT_Item_Set4Duelist.webp"
     },
     {
       "id": "TFT_Item_IonicSpark",
@@ -4339,7 +4339,7 @@
       ],
       "description": "@MRShred@% <TFTKeyword>Cào Xé</TFTKeyword> kẻ địch trong vòng @HexRange@ ô. Khi kẻ địch sử dụng Kỹ Năng, gây sát thương phép tương đương @ManaRatio@% Năng Lượng đã tiêu hao.<br><br><tftitemrules><tftbold>Cào Xé</tftbold>: Giảm Kháng Phép</tftitemrules>",
       "isUnique": false,
-      "icon": "https://raw.communitydragon.org/11.1/game/assets/maps/particles/tft/tft_item_ionicspark.png"
+      "icon": "/assets/set4/items/TFT_Item_IonicSpark.webp"
     },
     {
       "id": "TFT_Item_DragonsClaw",
@@ -4350,7 +4350,7 @@
       ],
       "description": "Nhận @PercentMaxHP*100@% máu tối đa.<br><br>Sau mỗi @HealthRegenInterval@ giây, hồi lại @PercentHealthDamage@% Máu tối đa.",
       "isUnique": false,
-      "icon": "https://raw.communitydragon.org/11.1/game/assets/maps/particles/tft/tft_item_dragonsclaw.png"
+      "icon": "/assets/set4/items/TFT_Item_DragonsClaw.webp"
     },
     {
       "id": "TFT_Item_Backhand",
@@ -4361,7 +4361,7 @@
       ],
       "description": "Blocks the first enemy spell that hits the wearer, and stuns the spell's caster for @StunDuration@ seconds.",
       "isUnique": false,
-      "icon": "https://raw.communitydragon.org/11.1/game/assets/maps/particles/tft/tft_item_backhand.png"
+      "icon": "/assets/set4/items/TFT_Item_Backhand.webp"
     },
     {
       "id": "TFT4_Item_RhaastsEmbrace",
@@ -4369,7 +4369,7 @@
       "components": [],
       "description": "Place on Kayn to force Rhaast to overtake him, permanently improving his Reaping Slash spell to heal him.<br><br><tftitemrules>[KAYN CONSUMABLE - This item disappears when used and DESTROYS Kayn's Liberation]</tftitemrules><br><br><tftitemrules>[Can only be used during the Planning Phase]</tftitemrules>",
       "isUnique": false,
-      "icon": "https://raw.communitydragon.org/11.1/game/assets/maps/particles/tft/tft4_consumable_kaynred.tft_set4.png"
+      "icon": "/assets/set4/items/TFT4_Item_RhaastsEmbrace.webp"
     },
     {
       "id": "TFT4_Item_NeekosHelp",
@@ -4377,7 +4377,7 @@
       "components": [],
       "description": "Place on a champion to create a one-star copy of them.<br><br><tftitemrules>[CONSUMABLE - This item disappears when used.]</tftitemrules>",
       "isUnique": false,
-      "icon": "https://raw.communitydragon.org/11.1/game/assets/maps/particles/tft/tft_blessing_wildcard.png"
+      "icon": "/assets/set4/items/TFT4_Item_NeekosHelp.webp"
     },
     {
       "id": "TFT_Item_GargoyleStoneplate",
@@ -4388,7 +4388,7 @@
       ],
       "description": "Tăng @ArmorPerEnemy@ Giáp và @MRPerEnemy@ Kháng Phép với mỗi kẻ địch đang nhắm vào chủ sở hữu.",
       "isUnique": false,
-      "icon": "https://raw.communitydragon.org/11.1/game/assets/maps/particles/tft/tft_item_gargoylestoneplate.png"
+      "icon": "/assets/set4/items/TFT_Item_GargoyleStoneplate.webp"
     },
     {
       "id": "TFT_Item_BrambleVest",
@@ -4399,7 +4399,7 @@
       ],
       "description": "Nhận @PercentMaxHP*100@% máu tối đa.<br><br>Giảm @AutoDamageReduction*100@% sát thương từ đòn đánh. Khi bị trúng đòn đánh bất kỳ, gây <magicDamage>@1StarAoEDamage@ sát thương phép</magicDamage> lên tất cả kẻ địch liền kề.<br><br><tftitemrules>Hồi chiêu: @ICD@ giây</tftitemrules>",
       "isUnique": false,
-      "icon": "https://raw.communitydragon.org/11.1/game/assets/maps/particles/tft/tft_item_bramblevest.tft_1001_itemsupdate.png"
+      "icon": "/assets/set4/items/TFT_Item_BrambleVest.webp"
     },
     {
       "id": "TFT_Item_ChainVest",
@@ -4407,7 +4407,7 @@
       "components": [],
       "description": "%i:scaleArmor% +@Armor@ Giáp",
       "isUnique": false,
-      "icon": "https://raw.communitydragon.org/11.1/game/assets/maps/particles/tft/tft_item_chainvest.png"
+      "icon": "/assets/set4/items/TFT_Item_ChainVest.webp"
     },
     {
       "id": "TFT_Item_YoumuusGhostblade",
@@ -4418,7 +4418,7 @@
       ],
       "description": "Chủ sở hữu cũng là Sát Thủ.<br><br><tftitemrules>[Duy Nhất - chỉ một mỗi tướng]</tftitemrules>",
       "isUnique": true,
-      "icon": "https://raw.communitydragon.org/11.1/game/assets/maps/particles/tft/tft_item_youmuusghostblade.png"
+      "icon": "/assets/set4/items/TFT_Item_YoumuusGhostblade.webp"
     },
     {
       "id": "TFT_Item_Set4Vanguard",
@@ -4429,7 +4429,7 @@
       ],
       "description": "The holder gains the Vanguard trait.<br><br><tftitemrules>[Unique - Only One Per Champion]</tftitemrules>",
       "isUnique": true,
-      "icon": "https://raw.communitydragon.org/11.1/game/assets/maps/particles/tft/tft_item_set4vanguard.tft_set4.png"
+      "icon": "/assets/set4/items/TFT_Item_Set4Vanguard.webp"
     },
     {
       "id": "TFT_Item_RecurveBow",
@@ -4437,7 +4437,7 @@
       "components": [],
       "description": "%i:scaleAS% +@AS@% Tốc Độ Đánh",
       "isUnique": false,
-      "icon": "https://raw.communitydragon.org/11.1/game/assets/maps/particles/tft/tft_item_recurvebow.png"
+      "icon": "/assets/set4/items/TFT_Item_RecurveBow.webp"
     },
     {
       "id": "TFT_Item_GiantSlayer",
@@ -4448,7 +4448,7 @@
       ],
       "description": "The holder's spells and basic attacks do @SmallBonusPct@% bonus damage. If the target has more than @HealthThreshold@ maximum Health, the bonus increases to @LargeBonusPct@%.",
       "isUnique": false,
-      "icon": "https://raw.communitydragon.org/11.1/game/assets/maps/particles/tft/tft_item_giantslayer.png"
+      "icon": "/assets/set4/items/TFT_Item_GiantSlayer.webp"
     },
     {
       "id": "TFT_Item_Set4Elderwood",
@@ -4459,7 +4459,7 @@
       ],
       "description": "The holder gains the Elderwood trait.<br><br><tftitemrules>[Unique - Only One Per Champion]</tftitemrules>",
       "isUnique": true,
-      "icon": "https://raw.communitydragon.org/11.1/game/assets/maps/particles/tft/tft_item_set4elderwood.tft_set4.png"
+      "icon": "/assets/set4/items/TFT_Item_Set4Elderwood.webp"
     },
     {
       "id": "TFT_Item_SunfireCape",
@@ -4470,7 +4470,7 @@
       ],
       "description": "Every @ICD@ seconds, a random enemy within @HexRange@ hexes is burned for @BurnPercent@% of their maximum health over @BurnDuration@ seconds. Any healing they receive is reduced by @GrievousWoundsPercent@%.<br><br><tftitemrules>[Unique - Only One Per Champion]</tftitemrules>",
       "isUnique": true,
-      "icon": "https://raw.communitydragon.org/11.1/game/assets/maps/particles/tft/tft_item_sunfirecape.png"
+      "icon": "/assets/set4/items/TFT_Item_SunfireCape.webp"
     },
     {
       "id": "TFT_Item_GuardianAngel",
@@ -4481,7 +4481,7 @@
       ],
       "description": "Khi còn @HealthThreshold@% Máu, trở nên không thể bị nhắm tới trong thoáng chốc, loại bỏ mọi hiệu ứng bất lợi và hồi lại @MissingHealthRestore*100@% Máu đã mất.",
       "isUnique": false,
-      "icon": "https://raw.communitydragon.org/11.1/game/assets/maps/particles/tft/tft_item_guardianangel.png"
+      "icon": "/assets/set4/items/TFT_Item_GuardianAngel.webp"
     },
     {
       "id": "TFT4_Item_TearoftheGoddess",
@@ -4489,7 +4489,7 @@
       "components": [],
       "description": "+@Mana@ Mana",
       "isUnique": false,
-      "icon": "https://raw.communitydragon.org/11.1/game/assets/maps/particles/tft/icon_tearofthegoddess.png"
+      "icon": "/assets/set4/items/TFT4_Item_TearoftheGoddess.webp"
     },
     {
       "id": "TFT_Item_NegatronCloak",
@@ -4497,7 +4497,7 @@
       "components": [],
       "description": "%i:scaleMR% +@MagicResist@ Kháng Phép",
       "isUnique": false,
-      "icon": "https://raw.communitydragon.org/11.1/game/assets/maps/particles/tft/tft_item_negatroncloak.png"
+      "icon": "/assets/set4/items/TFT_Item_NegatronCloak.webp"
     },
     {
       "id": "TFT_Item_TitansResolve",
@@ -4508,7 +4508,7 @@
       ],
       "description": "Nhận @StackingAD*100@% Sức Mạnh Công Kích và @StackingSP@% Sức Mạnh Phép Thuật khi tấn công hoặc nhận sát thương, cộng dồn tối đa @StackCap@ lần. <br><br>Ở cộng dồn tối đa, nhận @StackedAmp*100@% Khuếch Đại Sát Thương và đồng thời được miễn nhiễm khống chế.",
       "isUnique": false,
-      "icon": "https://raw.communitydragon.org/11.1/game/assets/maps/particles/tft/tft_item_titansresolve.tft_1001_itemsupdate.png"
+      "icon": "/assets/set4/items/TFT_Item_TitansResolve.webp"
     },
     {
       "id": "TFT_Item_FrozenMallet",
@@ -4519,7 +4519,7 @@
       ],
       "description": "TFT_item_description_FrozenMallet",
       "isUnique": true,
-      "icon": "https://raw.communitydragon.org/11.1/game/assets/maps/particles/tft/tft_item_frozenmallet.png"
+      "icon": "/assets/set4/items/TFT_Item_FrozenMallet.webp"
     },
     {
       "id": "TFT_Item_RunaansHurricane",
@@ -4530,7 +4530,7 @@
       ],
       "description": "Đòn đánh cho @ADOnAttack*100@% Sức Mạnh Công Kích cộng dồn, tối đa @MaxStacks@ đòn đánh. Sau @MaxStacks@ đòn đánh, nhận @ASCapstone*100@% Tốc Độ Đánh.",
       "isUnique": false,
-      "icon": "https://raw.communitydragon.org/11.1/game/assets/maps/particles/tft/tft_item_runaanshurricane.png"
+      "icon": "/assets/set4/items/TFT_Item_RunaansHurricane.webp"
     },
     {
       "id": "TFT4_Item_BFSword",
@@ -4538,7 +4538,7 @@
       "components": [],
       "description": "+@AD@ Attack Damage",
       "isUnique": false,
-      "icon": "https://raw.communitydragon.org/11.1/game/assets/maps/particles/tft/icon_bfsword.png"
+      "icon": "/assets/set4/items/TFT4_Item_BFSword.webp"
     },
     {
       "id": "TFT_Item_SparringGloves",
@@ -4546,7 +4546,7 @@
       "components": [],
       "description": "+@CritChance@ Tỉ Lệ Chí Mạng",
       "isUnique": false,
-      "icon": "https://raw.communitydragon.org/11.1/game/assets/maps/particles/tft/tft_item_sparringgloves.png"
+      "icon": "/assets/set4/items/TFT_Item_SparringGloves.webp"
     },
     {
       "id": "TFT_Item_Bloodthirster",
@@ -4557,7 +4557,7 @@
       ],
       "description": "Một lần mỗi giao tranh khi còn @HealthThreshold@% Máu, nhận Lá Chắn bằng @ShieldHealthPercent@% Máu tối đa, duy trì trong @ShieldDuration@ giây.",
       "isUnique": false,
-      "icon": "https://raw.communitydragon.org/11.1/game/assets/maps/particles/tft/tft_item_bloodthirster.png"
+      "icon": "/assets/set4/items/TFT_Item_Bloodthirster.webp"
     },
     {
       "id": "TFT_Item_InfernoCinder",
@@ -4568,7 +4568,7 @@
       ],
       "description": "The wearer is also an Inferno.<br><br><tftitemrules>[Unique - Only One Per Champion]</tftitemrules>",
       "isUnique": true,
-      "icon": "https://raw.communitydragon.org/11.1/game/assets/maps/particles/tft/tft_item_infernocinder.png"
+      "icon": "/assets/set4/items/TFT_Item_InfernoCinder.webp"
     },
     {
       "id": "TFT_Item_Zzrot",
@@ -4579,7 +4579,7 @@
       ],
       "description": "At the start of combat, the wearer taunts enemies within @HexRadius@ hexes for @TauntDuration@ second.<br><br>When the wearer dies, a Construct with @1StarZombieHealth@/@2StarZombieHealth@/@3StarZombieHealth@ %i:star% Health arises and taunts enemies again.",
       "isUnique": false,
-      "icon": "https://raw.communitydragon.org/11.1/game/assets/maps/particles/tft/tft_item_zzrot_portal.png"
+      "icon": "/assets/set4/items/TFT_Item_Zzrot.webp"
     },
     {
       "id": "TFT_Item_BerserkerAxe",
@@ -4590,7 +4590,7 @@
       ],
       "description": "The wearer is also a Berserker.<br><br><tftitemrules>[Unique - Only One Per Champion]</tftitemrules>",
       "isUnique": true,
-      "icon": "https://raw.communitydragon.org/11.1/game/assets/maps/particles/tft/tft_item_berserkeraxe.png"
+      "icon": "/assets/set4/items/TFT_Item_BerserkerAxe.webp"
     },
     {
       "id": "TFT_Item_Spatula",
@@ -4598,7 +4598,7 @@
       "components": [],
       "description": "<tftitemrules>Nó phải có tác dụng gì đó...</tftitemrules>",
       "isUnique": false,
-      "icon": "https://raw.communitydragon.org/11.1/game/assets/maps/particles/tft/tft_item_spatula.png"
+      "icon": "/assets/set4/items/TFT_Item_Spatula.webp"
     },
     {
       "id": "TFT_Item_Battlecast",
@@ -4609,7 +4609,7 @@
       ],
       "description": "The wearer gains the Battlecast trait.<br><br><tftitemrules>[Unique - Only One Per Champion]</tftitemrules>",
       "isUnique": true,
-      "icon": "https://raw.communitydragon.org/11.1/game/assets/maps/particles/tft/tft_item_battlecast.png"
+      "icon": "/assets/set4/items/TFT_Item_Battlecast.webp"
     },
     {
       "id": "TFT_Item_LocketOfTheIronSolari",
@@ -4620,7 +4620,7 @@
       ],
       "description": "Bắt đầu giao tranh: Chủ sở hữu và đồng minh trong phạm vi @HexRange@ ô cùng hàng nhận @ShieldValue@ Lá Chắn, @BonusResists@ Giáp và @BonusResists@ Kháng Phép trong @ShieldDuration@ giây.<br><br>​<tftitemrules>[Trang Bị Hỗ Trợ]</tftitemrules>",
       "isUnique": false,
-      "icon": "https://raw.communitydragon.org/11.1/game/assets/maps/particles/tft/tft_item_locketoftheironsolari.png"
+      "icon": "/assets/set4/items/TFT_Item_LocketOfTheIronSolari.webp"
     },
     {
       "id": "TFT_Item_Morellonomicon",
@@ -4631,7 +4631,7 @@
       ],
       "description": "Đòn Đánh và Kỹ Năng gây @BurnPercent@% <TFTKeyword>Thiêu Đốt</TFTKeyword> và @GrievousWoundsPercent@% <TFTKeyword>Vết Thương Sâu</TFTKeyword> lên kẻ địch trong @BurnDuration@ giây.<br><br><tftitemrules><tftbold>Thiêu Đốt</tftbold>: Gây sát thương chuẩn mỗi giây theo Máu tối đa của mục tiêu<br><tftbold>Vết Thương Sâu</tftbold>: Giảm hồi máu nhận được</tftitemrules>",
       "isUnique": true,
-      "icon": "https://raw.communitydragon.org/11.1/game/assets/maps/particles/tft/tft_item_morellonomicon.png"
+      "icon": "/assets/set4/items/TFT_Item_Morellonomicon.webp"
     },
     {
       "id": "TFT_Item_RapidFirecannon",
@@ -4642,7 +4642,7 @@
       ],
       "description": "Đòn Đánh và Kỹ Năng gây @BurnPercent@% <TFTKeyword>Thiêu Đốt</TFTKeyword> và @HealingReductionPct@% <TFTKeyword>Vết Thương Sâu</TFTKeyword> lên kẻ địch trong @Duration@ giây.<br><br><tftitemrules><tftbold>Thiêu Đốt</tftbold>: Gây sát thương chuẩn mỗi giây theo Máu tối đa của mục tiêu<br><tftbold>Vết Thương Sâu</tftbold>: Giảm hồi máu nhận được</tftitemrules>",
       "isUnique": false,
-      "icon": "https://raw.communitydragon.org/11.1/game/assets/maps/particles/tft/tft_item_rapidfirecannon.png"
+      "icon": "/assets/set4/items/TFT_Item_RapidFirecannon.webp"
     },
     {
       "id": "TFT_Item_BladeOfTheRuinedKing",
@@ -4653,7 +4653,7 @@
       ],
       "description": "TFT_item_description_BladeOfTheRuinedKing",
       "isUnique": true,
-      "icon": "https://raw.communitydragon.org/11.1/game/assets/maps/particles/tft/tft_item_bladeoftheruinedking.png"
+      "icon": "/assets/set4/items/TFT_Item_BladeOfTheRuinedKing.webp"
     },
     {
       "id": "TFT_Item_Set4Warlord",
@@ -4664,7 +4664,7 @@
       ],
       "description": "The wearer gains the Warlord trait.<br><br><tftitemrules>[Unique - Only One Per Champion]</tftitemrules>",
       "isUnique": true,
-      "icon": "https://raw.communitydragon.org/11.1/game/assets/maps/particles/tft/tft_item_set4warlord.tft_set4.png"
+      "icon": "/assets/set4/items/TFT_Item_Set4Warlord.webp"
     },
     {
       "id": "TFT_Item_MortalReminder",
@@ -4675,7 +4675,7 @@
       ],
       "description": "TFT_item_description_MortalReminder",
       "isUnique": true,
-      "icon": "https://raw.communitydragon.org/11.1/game/assets/maps/particles/tft/tft_item_mortalreminder.png"
+      "icon": "/assets/set4/items/TFT_Item_MortalReminder.webp"
     },
     {
       "id": "TFT_Item_Jeweled",
@@ -4686,7 +4686,7 @@
       ],
       "description": "The holder's spells can cause critical hits, and the holder gains +@CritDamageAmp@% bonus critical strike damage.",
       "isUnique": false,
-      "icon": "https://raw.communitydragon.org/11.1/game/assets/maps/particles/tft/tft_item_jeweled_gauntlet.png"
+      "icon": "/assets/set4/items/TFT_Item_Jeweled.webp"
     },
     {
       "id": "TFT4_Item_GiantsBelt",
@@ -4694,7 +4694,7 @@
       "components": [],
       "description": "+@Health@ Health",
       "isUnique": false,
-      "icon": "https://raw.communitydragon.org/11.1/game/assets/maps/particles/tft/icon_giantsbelt.png"
+      "icon": "/assets/set4/items/TFT4_Item_GiantsBelt.webp"
     },
     {
       "id": "TFT_Item_Set4Dusk",
@@ -4705,7 +4705,7 @@
       ],
       "description": "The holder gains the Dusk trait.<br><br><tftitemrules>[Unique - Only One Per Champion]</tftitemrules>",
       "isUnique": true,
-      "icon": "https://raw.communitydragon.org/11.1/game/assets/maps/particles/tft/tft_item_set4dusk.tft_set4.png"
+      "icon": "/assets/set4/items/TFT_Item_Set4Dusk.webp"
     },
     {
       "id": "TFT4_Item_NeedlesslyLargeRod",
@@ -4713,7 +4713,7 @@
       "components": [],
       "description": "+@AP@% Spell Power",
       "isUnique": false,
-      "icon": "https://raw.communitydragon.org/11.1/game/assets/maps/particles/tft/icon_needlesslylargerod.png"
+      "icon": "/assets/set4/items/TFT4_Item_NeedlesslyLargeRod.webp"
     },
     {
       "id": "TFT_Item_ForceOfNature",
@@ -4724,7 +4724,7 @@
       ],
       "description": "Đội của bạn được +@MaxArmySizeIncrease@ giới hạn tướng tối đa.<br><br>@PercentGoldChance@% cơ hội rớt ra 1 vàng khi chiến thắng giao tranh.<br><br><tftitemrules>\"...trái tim của một anh hùng...\"</tftitemrules>",
       "isUnique": false,
-      "icon": "https://raw.communitydragon.org/11.1/game/assets/maps/particles/tft/tft_item_forceofnature.png"
+      "icon": "/assets/set4/items/TFT_Item_ForceOfNature.webp"
     },
     {
       "id": "TFT_Item_DeathBlade",
@@ -4735,7 +4735,7 @@
       ],
       "description": "<tftitemrules>Đem tới sự yên bình vĩnh hằng cho người mang - và cả những kẻ phải đối đầu với nó.</tftitemrules><br><br>@TFTUnitProperty.:TFT_Augment_TragicalBlade_TRAKey@",
       "isUnique": false,
-      "icon": "https://raw.communitydragon.org/11.1/game/assets/maps/particles/tft/tft_item_deathblade.png"
+      "icon": "/assets/set4/items/TFT_Item_DeathBlade.webp"
     },
     {
       "id": "TFT_Item_WarmogsArmor",
@@ -4746,7 +4746,7 @@
       ],
       "description": "Nhận @BonusPercentHP*100@% Máu tối đa.<br>",
       "isUnique": false,
-      "icon": "https://raw.communitydragon.org/11.1/game/assets/maps/particles/tft/tft_item_warmogsarmor.png"
+      "icon": "/assets/set4/items/TFT_Item_WarmogsArmor.webp"
     },
     {
       "id": "TFT_Item_HextechGunblade",
@@ -4757,7 +4757,7 @@
       ],
       "description": "Hồi máu cho đồng minh thấp Máu nhất bằng @AllyHealing*100@% lượng sát thương gây ra.<br><br><TFTTrackerLabel>Hồi Máu Đồng Minh:</TFTTrackerLabel> <TFTHighlight>@TFTUnitProperty.item:TFT_Tracker_Value1@</TFTHighlight>",
       "isUnique": false,
-      "icon": "https://raw.communitydragon.org/11.1/game/assets/maps/particles/tft/tft_item_hextechgunblade.png"
+      "icon": "/assets/set4/items/TFT_Item_HextechGunblade.webp"
     }
   ]
 }
